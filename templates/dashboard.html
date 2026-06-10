@@ -294,6 +294,12 @@
         .airline-badge.gol { background: #ff6600; color: #fff; }
         .airline-badge.latam { background: #1b0088; color: #fff; }
         .airline-badge.azul { background: #003399; color: #fff; }
+        .airline-badge.tap { background: #00573f; color: #fff; }
+        .airline-badge.air-france { background: #002157; color: #fff; }
+        .airline-badge.turkish-airlines { background: #c70a0c; color: #fff; }
+        .airline-badge.copa-airlines { background: #003876; color: #fff; }
+        .airline-badge.avianca { background: #e31937; color: #fff; }
+        .airline-badge.american-airlines { background: #0078d2; color: #fff; }
         .airline-badge.other { background: var(--surface2); color: var(--text-muted); }
 
         footer {
@@ -357,7 +363,7 @@
             {% endfor %}
             {% for airline in airlines %}
             {% if airline not in sources %}
-            <button class="filter-btn" data-filter="airline-{{ airline | lower }}">{{ airline }}</button>
+            <button class="filter-btn" data-filter="airline-{{ airline | lower | replace(' ', '-') }}">{{ airline }}</button>
             {% endif %}
             {% endfor %}
         </div>
@@ -370,7 +376,7 @@
                      data-source="{{ deal.source | lower | replace(' ', '-') }}"
                      data-destination="{{ deal.destination or '' }}"
                      data-title="{{ deal.title or '' }}"
-                     data-airline="{{ (deal.airline or '') | lower }}">
+                     data-airline="{{ (deal.airline or '') | lower | replace(' ', '-') }}">
 
                     {% if deal.image_url %}
                     <img class="deal-image" src="{{ deal.image_url }}"
@@ -387,6 +393,10 @@
                         {% elif deal.destination and ('frança' in (deal.destination | lower) or 'paris' in (deal.destination | lower)) %}🇫🇷
                         {% elif deal.destination and ('argentina' in (deal.destination | lower) or 'buenos' in (deal.destination | lower)) %}🇦🇷
                         {% elif deal.destination and ('chile' in (deal.destination | lower) or 'santiago' in (deal.destination | lower)) %}🇨🇱
+                        {% elif deal.destination and ('londres' in (deal.destination | lower) or 'london' in (deal.destination | lower)) %}🇬🇧
+                        {% elif deal.destination and ('peru' in (deal.destination | lower) or 'lima' in (deal.destination | lower)) %}🇵🇪
+                        {% elif deal.destination and ('colômbia' in (deal.destination | lower) or 'bogotá' in (deal.destination | lower) or 'cartagena' in (deal.destination | lower)) %}🇨🇴
+                        {% elif deal.destination and ('japão' in (deal.destination | lower) or 'tokyo' in (deal.destination | lower) or 'tóquio' in (deal.destination | lower)) %}🇯🇵
                         {% else %}🌍
                         {% endif %}
                     </div>
@@ -418,7 +428,7 @@
                         </div>
                         <div class="source-tag">
                             {% if deal.airline %}
-                            <span class="airline-badge {{ deal.airline | lower }}">{{ deal.airline }}</span>
+                            <span class="airline-badge {{ deal.airline | lower | replace(' ', '-') }}">{{ deal.airline }}</span>
                             {% endif %}
                             📡 {{ deal.source }}
                         </div>
