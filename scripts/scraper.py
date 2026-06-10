@@ -9,7 +9,7 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
-from sources import melhores_destinos, passagens_imperdiveis, google_flights, viaje_de_promo
+from sources import melhores_destinos, passagens_imperdiveis, gol, viaje_de_promo
 
 logging.basicConfig(
     level=logging.INFO,
@@ -53,8 +53,8 @@ def fetch_all() -> list[dict]:
     sources = [
         ("Melhores Destinos", melhores_destinos.fetch_deals),
         ("Passagens Imperdíveis", passagens_imperdiveis.fetch_deals),
+        ("GOL", gol.fetch_deals),
         ("ViajeDePromo", viaje_de_promo.fetch_deals),
-        ("Google Flights", google_flights.fetch_deals),
     ]
 
     for name, fetch_fn in sources:

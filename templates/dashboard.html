@@ -282,6 +282,20 @@
             margin-top: 0.5rem;
         }
 
+        .airline-badge {
+            display: inline-block;
+            font-size: 0.7rem;
+            font-weight: 700;
+            padding: 0.15rem 0.5rem;
+            border-radius: 999px;
+            margin-right: 0.25rem;
+        }
+
+        .airline-badge.gol { background: #ff6600; color: #fff; }
+        .airline-badge.latam { background: #1b0088; color: #fff; }
+        .airline-badge.azul { background: #003399; color: #fff; }
+        .airline-badge.other { background: var(--surface2); color: var(--text-muted); }
+
         footer {
             text-align: center;
             padding: 2rem;
@@ -338,9 +352,13 @@
             <button class="filter-btn active" data-filter="all">Todas</button>
             <button class="filter-btn" data-filter="cheap">Até R$ 2.000</button>
             <button class="filter-btn" data-filter="medium">R$ 2.000 - 4.000</button>
-            <button class="filter-btn" data-filter="international">Internacional</button>
             {% for source in sources %}
             <button class="filter-btn" data-filter="source-{{ source | lower | replace(' ', '-') }}">{{ source }}</button>
+            {% endfor %}
+            {% for airline in airlines %}
+            {% if airline not in sources %}
+            <button class="filter-btn" data-filter="airline-{{ airline | lower }}">{{ airline }}</button>
+            {% endif %}
             {% endfor %}
         </div>
 
@@ -351,7 +369,8 @@
                      data-price="{{ deal.price_brl or 0 }}"
                      data-source="{{ deal.source | lower | replace(' ', '-') }}"
                      data-destination="{{ deal.destination or '' }}"
-                     data-title="{{ deal.title or '' }}">
+                     data-title="{{ deal.title or '' }}"
+                     data-airline="{{ (deal.airline or '') | lower }}">
 
                     {% if deal.image_url %}
                     <img class="deal-image" src="{{ deal.image_url }}"
@@ -397,14 +416,19 @@
                             </a>
                             {% endif %}
                         </div>
-                        <div class="source-tag">📡 {{ deal.source }}</div>
+                        <div class="source-tag">
+                            {% if deal.airline %}
+                            <span class="airline-badge {{ deal.airline | lower }}">{{ deal.airline }}</span>
+                            {% endif %}
+                            📡 {{ deal.source }}
+                        </div>
                     </div>
                 </div>
                 {% endfor %}
             {% else %}
                 <div class="empty-state" style="grid-column: 1 / -1;">
                     <h2>🔍 Buscando promoções...</h2>
-                    <p>O dashboard será atualizado automaticamente a cada 6 horas.</p>
+                    <p>O dashboard será atualizado automaticamente a cada 30 minutos.</p>
                     <p>Primeira execução em breve!</p>
                 </div>
             {% endif %}
@@ -412,7 +436,7 @@
     </div>
 
     <footer>
-        <p>Atualizado automaticamente a cada 6 horas via GitHub Actions</p>
+        <p>Atualizado automaticamente a cada 30 minutos via GitHub Actions</p>
         <p>Origens: GRU (Guarulhos) · GIG (Galeão) · SDU (Santos Dumont)</p>
         <p style="margin-top: 0.5rem;">&copy; {{ year }} Passagens Promo Dashboard</p>
     </footer>
@@ -438,6 +462,7 @@
                 if (activeFilter === 'cheap') matchesFilter = price > 0 && price <= 2000;
                 else if (activeFilter === 'medium') matchesFilter = price > 2000 && price <= 4000;
                 else if (activeFilter === 'international') matchesFilter = true; // all deals are generally international
+                else if (activeFilter.startsWith('airline-')) matchesFilter = (card.dataset.airline || '') === activeFilter.replace('airline-', '');
                 else if (activeFilter.startsWith('source-')) matchesFilter = source === activeFilter.replace('source-', '');
 
                 const matchesSearch = !query || dest.includes(query) || title.includes(query);
