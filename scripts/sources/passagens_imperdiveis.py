@@ -1,16 +1,15 @@
-"""Scraper for Passagens Imperdíveis promotions."""
+"""Scraper for Passagens Imperdíveis promotions (Next.js RSC data extraction)."""
 
+import json
 import re
 import logging
 from datetime import datetime, timezone
-from typing import Optional
 
 import requests
-from bs4 import BeautifulSoup
 
 logger = logging.getLogger(__name__)
 
-BASE_URL = "https://www.passagensimperdiveis.com.br"
+BASE_URL = "https://passagensimperdiveis.com.br"
 HEADERS = {
     "User-Agent": (
         "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
@@ -18,38 +17,39 @@ HEADERS = {
     ),
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
     "Accept-Language": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7",
-    "Accept-Encoding": "gzip, deflate, br",
+    "Accept-Encoding": "gzip",
     "Referer": BASE_URL,
 }
 
 
-def _extract_price(text: str) -> Optional[float]:
-    match = re.search(r"R\$\s*([\d.,]+)", text)
-    if not match:
-        return None
-    price_str = match.group(1).replace(".", "").replace(",", ".")
-    try:
-        return float(price_str)
-    except ValueError:
-        return None
-
-
-def _extract_destination(title: str) -> Optional[str]:
-    patterns = [
-        r"para\s+(?:o\s+|a\s+)?(.+?)(?:\s+a\s+partir|\s+por\s+apenas|\s+desde|\s+por\s+R\$|\!)",
-        r"(?:passagens?\s+(?:aéreas?\s+)?para\s+)(.+?)(?:\s+a\s+partir|\s+por|\s+desde)",
-    ]
-    for pattern in patterns:
-        match = re.search(pattern, title, re.IGNORECASE)
-        if match:
-            dest = match.group(1).strip()
-            dest = re.sub(r"\s*(?:ida e volta|i/v).*", "", dest, flags=re.IGNORECASE)
-            return dest[:80]
-    return None
+def _extract_publicacoes(html: str) -> list[dict]:
+    """Extract deal objects from Next.js RSC payload."""
+    pushes = re.findall(r'self\.__next_f\.push\(\[1,"(.+?)"\]\)', html, re.DOTALL)
+    for push in pushes:
+        if "cardsPromo" not in push:
+            continue
+        push = push.replace('\\"', '"')
+        pub_start = push.find('"publicacoes":[')
+        if pub_start < 0:
+            continue
+        depth = 0
+        for i, c in enumerate(push[pub_start + 15:]):
+            if c == "[":
+                depth += 1
+            elif c == "]":
+                if depth == 0:
+                    pub_json = "[" + push[pub_start + 15:pub_start + 15 + i] + "]"
+                    try:
+                        return json.loads(pub_json)
+                    except json.JSONDecodeError:
+                        pass
+                    break
+                depth -= 1
+    return []
 
 
 def fetch_deals() -> list[dict]:
-    """Fetch deals from Passagens Imperdíveis."""
+    """Fetch deals from Passagens Imperdíveis via RSC data."""
     deals = []
     session = requests.Session()
     session.headers.update(HEADERS)
@@ -61,50 +61,60 @@ def fetch_deals() -> list[dict]:
         logger.error("Failed to fetch Passagens Imperdíveis: %s", e)
         return deals
 
-    soup = BeautifulSoup(resp.text, "lxml")
+    publicacoes = _extract_publicacoes(resp.text)
+    promos = [p for p in publicacoes if p.get("publicacaoTipo") == "PROMOCAO"]
+    logger.info("Found %d promos in Passagens Imperdíveis RSC data", len(promos))
 
-    articles = soup.select("article, .post-card, .promo-card, .deal")
-    if not articles:
-        articles = soup.find_all("div", class_=re.compile(r"post|promo|deal|card", re.I))
-    if not articles:
-        articles = soup.find_all("a", href=re.compile(r"passagen|promo|voo", re.I))
-
-    logger.info("Found %d potential elements on Passagens Imperdíveis", len(articles))
-
-    for article in articles[:50]:
+    for promo in promos:
         try:
-            title_el = article.find(["h2", "h3", "h4", "a"])
-            if not title_el:
+            titulos = promo.get("titulos", {})
+            title = titulos.get("tituloLongo") or titulos.get("titulo") or ""
+            title = re.sub(r"<[^>]+>", "", title)  # strip HTML tags
+            short_title = titulos.get("titulo", "")
+
+            slug = promo.get("slug") or promo.get("slugPublicacao", "")
+            link = f"{BASE_URL}/{slug}/" if slug else None
+
+            valor_obj = promo.get("valor", {})
+            valor_inner = valor_obj.get("valor", {})
+            price_str = valor_inner.get("str", "") if isinstance(valor_inner, dict) else ""
+            price = None
+            if price_str:
+                price = float(price_str.replace(".", "").replace(",", "."))
+
+            if price is not None and price < 100:
                 continue
-            title = title_el.get_text(strip=True)
-            if not title or len(title) < 10:
-                continue
 
-            link = None
-            link_el = article.find("a", href=True)
-            if link_el:
-                href = link_el["href"]
-                link = href if href.startswith("http") else f"{BASE_URL}{href}"
+            image_url = promo.get("imagemPrincipal") or promo.get("imagem")
 
-            price = _extract_price(article.get_text())
-            destination = _extract_destination(title)
+            trip_type = "unknown"
+            labels = promo.get("labels", [])
+            for label in labels:
+                desc = (label.get("descricao") or "").lower()
+                if "ida e volta" in desc:
+                    trip_type = "round_trip"
+                elif "só ida" in desc:
+                    trip_type = "one_way"
 
-            img = article.find("img", src=True)
-            image_url = img["src"] if img else None
+            pos_valor = valor_obj.get("descricaoPosValor", "")
+            if "ida e volta" in pos_valor.lower():
+                trip_type = "round_trip"
+
+            destination = short_title if short_title else None
 
             deals.append({
                 "source": "Passagens Imperdíveis",
-                "title": title,
+                "title": title[:200],
                 "destination": destination,
                 "price_brl": price,
                 "currency": "BRL",
                 "link": link,
                 "image_url": image_url,
-                "trip_type": "round_trip" if "ida e volta" in title.lower() else "unknown",
+                "trip_type": trip_type,
                 "fetched_at": datetime.now(timezone.utc).isoformat(),
             })
         except Exception as e:
-            logger.debug("Error parsing element: %s", e)
+            logger.debug("Error parsing PI promo: %s", e)
             continue
 
     logger.info("Extracted %d deals from Passagens Imperdíveis", len(deals))

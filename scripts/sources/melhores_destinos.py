@@ -28,6 +28,25 @@ HEADERS = {
 
 ORIGIN_CODES = {"GRU", "GIG", "SDU", "CGH"}
 
+# Pages to scrape (main promo + airline-specific pages)
+PROMO_PAGES = [
+    PROMO_URL,
+    f"{BASE_URL}/promocao-gol",
+]
+
+# Airline detection mapping (lowercase keyword -> airline name)
+AIRLINE_MAP = {
+    "latam": "LATAM", "gol": "GOL", "azul": "Azul",
+    "avianca": "Avianca", "copa": "Copa Airlines",
+    "american": "American Airlines", "united": "United",
+    "delta": "Delta", "tap": "TAP", "iberia": "Iberia",
+    "air france": "Air France", "emirates": "Emirates",
+    "turkish": "Turkish Airlines", "qatar": "Qatar Airways",
+    "klm": "KLM", "lufthansa": "Lufthansa", "british": "British Airways",
+    "swiss": "SWISS", "ethiopian": "Ethiopian", "aeromexico": "Aeroméxico",
+    "jetsmart": "JetSMART", "flybondi": "Flybondi", "sky airline": "SKY",
+}
+
 # Keywords that indicate a deal is about flights (not hotels, currency, parks, etc.)
 FLIGHT_KEYWORDS = [
     "passagen", "voo", "aére", "ida e volta", "i/v",
@@ -36,6 +55,7 @@ FLIGHT_KEYWORDS = [
     "latam", "gol", "azul", "avianca", "copa", "american",
     "united", "delta", "tap", "iberia", "air france",
     "emirates", "turkish", "qatar", "klm", "lufthansa",
+    "relâmpago", "promo relâmpago", "feirão", "leilão",
 ]
 
 # Keywords that indicate the deal is NOT about flights
@@ -76,34 +96,49 @@ def _extract_destination(title: str) -> Optional[str]:
     return None
 
 
+def _detect_airline(title: str) -> str | None:
+    """Detect airline from deal title."""
+    title_lower = title.lower()
+    for keyword, name in AIRLINE_MAP.items():
+        if keyword in title_lower:
+            return name
+    return None
+
+
 def fetch_deals() -> list[dict]:
-    """Fetch flight deals from Melhores Destinos promotions page."""
+    """Fetch flight deals from Melhores Destinos (multiple pages)."""
     deals = []
+    seen_links: set[str] = set()
     session = requests.Session()
     session.headers.update(HEADERS)
 
     try:
-        resp = session.get(BASE_URL, timeout=15)
-        resp.raise_for_status()
+        session.get(BASE_URL, timeout=15)
     except requests.RequestException:
         logger.warning("Failed to establish session with Melhores Destinos")
 
-    try:
-        resp = session.get(PROMO_URL, timeout=15)
-        resp.raise_for_status()
-    except requests.RequestException as e:
-        logger.error("Failed to fetch Melhores Destinos promos: %s", e)
-        return deals
+    all_articles = []
+    for page_url in PROMO_PAGES:
+        try:
+            resp = session.get(page_url, timeout=15)
+            if resp.status_code != 200:
+                logger.info("Page %s returned %d, skipping", page_url, resp.status_code)
+                continue
+        except requests.RequestException as e:
+            logger.warning("Failed to fetch %s: %s", page_url, e)
+            continue
 
-    soup = BeautifulSoup(resp.text, "lxml")
+        soup = BeautifulSoup(resp.text, "lxml")
+        articles = soup.select("article, .post, .promotion-card, .deal-card, .listing-item")
+        if not articles:
+            articles = soup.find_all("div", class_=re.compile(r"promo|deal|post|card", re.I))
+        if not articles:
+            articles = soup.find_all("a", href=re.compile(r"/promocao/|passagens", re.I))
+        all_articles.extend(articles)
+        logger.info("Found %d elements on %s", len(articles), page_url)
 
-    articles = soup.select("article, .post, .promotion-card, .deal-card, .listing-item")
-    if not articles:
-        articles = soup.find_all("div", class_=re.compile(r"promo|deal|post|card", re.I))
-    if not articles:
-        articles = soup.find_all("a", href=re.compile(r"/promocao/|passagens", re.I))
-
-    logger.info("Found %d potential deal elements on Melhores Destinos", len(articles))
+    articles = all_articles
+    logger.info("Total %d potential deal elements from Melhores Destinos", len(articles))
 
     for article in articles[:80]:
         try:
@@ -142,6 +177,13 @@ def fetch_deals() -> list[dict]:
             if image_url and not image_url.startswith("http"):
                 image_url = f"{BASE_URL}{image_url}"
 
+            if link and link in seen_links:
+                continue
+            if link:
+                seen_links.add(link)
+
+            airline = _detect_airline(title)
+
             deals.append({
                 "source": "Melhores Destinos",
                 "title": title,
@@ -150,6 +192,7 @@ def fetch_deals() -> list[dict]:
                 "currency": "BRL",
                 "link": link,
                 "image_url": image_url,
+                "airline": airline,
                 "trip_type": "round_trip" if "ida e volta" in title.lower() else "unknown",
                 "fetched_at": datetime.now(timezone.utc).isoformat(),
             })

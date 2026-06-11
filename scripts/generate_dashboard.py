@@ -44,8 +44,9 @@ def generate() -> int:
         dest = deal.get("destination") or "Outros"
         destinations.setdefault(dest, []).append(deal)
 
-    # Get unique sources
+    # Get unique sources and airlines
     sources = sorted({d.get("source", "Unknown") for d in deals})
+    airlines = sorted({d.get("airline") for d in deals if d.get("airline")})
 
     # Stats
     total_deals = len(deals)
@@ -65,6 +66,7 @@ def generate() -> int:
         deals=deals,
         destinations=destinations,
         sources=sources,
+        airlines=airlines,
         total_deals=total_deals,
         cheapest_price=_format_price(cheapest if cheapest < 999999 else None),
         num_destinations=num_destinations,
