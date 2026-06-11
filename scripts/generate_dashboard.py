@@ -4,7 +4,7 @@
 import json
 import logging
 import sys
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 from jinja2 import Environment, FileSystemLoader
@@ -61,7 +61,8 @@ def generate() -> int:
     env.filters["format_price"] = _format_price
     template = env.get_template("dashboard.html")
 
-    now = datetime.now(timezone.utc)
+    tz_brasilia = timezone(timedelta(hours=-3))
+    now = datetime.now(tz_brasilia)
     html = template.render(
         deals=deals,
         destinations=destinations,
@@ -70,7 +71,7 @@ def generate() -> int:
         total_deals=total_deals,
         cheapest_price=_format_price(cheapest if cheapest < 999999 else None),
         num_destinations=num_destinations,
-        updated_at=now.strftime("%d/%m/%Y às %H:%M UTC"),
+        updated_at=now.strftime("%d/%m/%Y às %H:%M (Brasília)"),
         year=now.year,
     )
 

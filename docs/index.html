@@ -294,6 +294,12 @@
         .airline-badge.gol { background: #ff6600; color: #fff; }
         .airline-badge.latam { background: #1b0088; color: #fff; }
         .airline-badge.azul { background: #003399; color: #fff; }
+        .airline-badge.tap { background: #00573f; color: #fff; }
+        .airline-badge.air-france { background: #002157; color: #fff; }
+        .airline-badge.turkish-airlines { background: #c70a0c; color: #fff; }
+        .airline-badge.copa-airlines { background: #003876; color: #fff; }
+        .airline-badge.avianca { background: #e31937; color: #fff; }
+        .airline-badge.american-airlines { background: #0078d2; color: #fff; }
         .airline-badge.other { background: var(--surface2); color: var(--text-muted); }
 
         footer {
@@ -327,19 +333,19 @@
         <p>Saindo de São Paulo (GRU) e Rio de Janeiro (GIG/SDU) para o mundo</p>
         <div class="stats">
             <div class="stat">
-                <div class="stat-value">111</div>
+                <div class="stat-value">124</div>
                 <div class="stat-label">Ofertas</div>
             </div>
             <div class="stat">
-                <div class="stat-value">R$ 210,00</div>
+                <div class="stat-value">R$ 215,94</div>
                 <div class="stat-label">Menor preço</div>
             </div>
             <div class="stat">
-                <div class="stat-value">60</div>
+                <div class="stat-value">67</div>
                 <div class="stat-label">Destinos</div>
             </div>
             <div class="stat">
-                <div class="stat-value" id="updated-at">10/06/2026 às 17:02 UTC</div>
+                <div class="stat-value" id="updated-at">10/06/2026 às 21:43 (Brasília)</div>
                 <div class="stat-label">Atualizado em</div>
             </div>
         </div>
@@ -353,105 +359,32 @@
             <button class="filter-btn" data-filter="cheap">Até R$ 2.000</button>
             <button class="filter-btn" data-filter="medium">R$ 2.000 - 4.000</button>
             
-            <button class="filter-btn" data-filter="source-gol">GOL</button>
+            <button class="filter-btn" data-filter="source-gol">📰&nbsp;GOL</button>
             
-            <button class="filter-btn" data-filter="source-melhores-destinos">Melhores Destinos</button>
+            <button class="filter-btn" data-filter="source-melhores-destinos">📰&nbsp;Melhores Destinos</button>
             
-            <button class="filter-btn" data-filter="source-passagens-imperdíveis">Passagens Imperdíveis</button>
+            <button class="filter-btn" data-filter="source-passagens-imperdíveis">📰&nbsp;Passagens Imperdíveis</button>
             
+            <button class="filter-btn" data-filter="source-tap">📰&nbsp;TAP</button>
             
+        </div>
+        <div class="filters" style="margin-top: 0.5rem;">
+            <span style="color: var(--text-muted); font-size: 0.8rem; margin-right: 0.5rem;">✈️ Companhias:</span>
             
+            <button class="filter-btn" data-filter="airline-air-france">Air France</button>
+            
+            <button class="filter-btn" data-filter="airline-gol">GOL</button>
+            
+            <button class="filter-btn" data-filter="airline-latam">LATAM</button>
+            
+            <button class="filter-btn" data-filter="airline-tap">TAP</button>
+            
+            <button class="filter-btn" data-filter="airline-turkish-airlines">Turkish Airlines</button>
             
         </div>
 
         <div class="deals-grid" id="deals-grid">
             
-                
-                <div class="deal-card"
-                     data-price="210"
-                     data-source="gol"
-                     data-destination="São Paulo"
-                     data-title="GOL: Rio de Janeiro (RIO) → São Paulo (CGH) - 02/10/2026"
-                     data-airline="gol">
-
-                    
-                    <img class="deal-image" src="https://assets.airtrfx.com/media-em/g3/03-1500px-x-500px.png"
-                         alt="São Paulo"
-                         loading="lazy"
-                         onerror="this.outerHTML='<div class=\'deal-image-placeholder\'>🌍</div>'">
-                    
-
-                    <div class="deal-body">
-                        <div class="deal-destination">São Paulo</div>
-                        <div class="deal-title">GOL: Rio de Janeiro (RIO) → São Paulo (CGH) - 02/10/2026</div>
-                        <div class="deal-footer">
-                            <div>
-                                
-                                <div class="deal-price hot">
-                                    R$ 210,00
-                                </div>
-                                
-                                <div class="deal-meta">
-                                    
-                                </div>
-                            </div>
-                            
-                            <a href="https://www.voegol.com.br/br/voos/RIO/CGH" target="_blank" rel="noopener" class="deal-link">
-                                Ver →
-                            </a>
-                            
-                        </div>
-                        <div class="source-tag">
-                            
-                            <span class="airline-badge gol">GOL</span>
-                            
-                            📡 GOL
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="deal-card"
-                     data-price="210.47"
-                     data-source="gol"
-                     data-destination="Belo Horizonte"
-                     data-title="GOL: São Paulo (CGH) → Belo Horizonte (CNF) - 19/10/2026"
-                     data-airline="gol">
-
-                    
-                    <img class="deal-image" src="https://assets.airtrfx.com/media-em/g3/belo-horizonte-1-1500px-x-500px.png"
-                         alt="Belo Horizonte"
-                         loading="lazy"
-                         onerror="this.outerHTML='<div class=\'deal-image-placeholder\'>🌍</div>'">
-                    
-
-                    <div class="deal-body">
-                        <div class="deal-destination">Belo Horizonte</div>
-                        <div class="deal-title">GOL: São Paulo (CGH) → Belo Horizonte (CNF) - 19/10/2026</div>
-                        <div class="deal-footer">
-                            <div>
-                                
-                                <div class="deal-price hot">
-                                    R$ 210,47
-                                </div>
-                                
-                                <div class="deal-meta">
-                                    
-                                </div>
-                            </div>
-                            
-                            <a href="https://www.voegol.com.br/br/voos/CGH/CNF" target="_blank" rel="noopener" class="deal-link">
-                                Ver →
-                            </a>
-                            
-                        </div>
-                        <div class="source-tag">
-                            
-                            <span class="airline-badge gol">GOL</span>
-                            
-                            📡 GOL
-                        </div>
-                    </div>
-                </div>
                 
                 <div class="deal-card"
                      data-price="215.94"
@@ -483,6 +416,49 @@
                             </div>
                             
                             <a href="https://www.voegol.com.br/br/voos/CGH/POA" target="_blank" rel="noopener" class="deal-link">
+                                Ver →
+                            </a>
+                            
+                        </div>
+                        <div class="source-tag">
+                            
+                            <span class="airline-badge gol">GOL</span>
+                            
+                            📡 GOL
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="deal-card"
+                     data-price="216.94"
+                     data-source="gol"
+                     data-destination="Belo Horizonte"
+                     data-title="GOL: São Paulo (CGH) → Belo Horizonte (CNF) - 08/10/2026"
+                     data-airline="gol">
+
+                    
+                    <img class="deal-image" src="https://assets.airtrfx.com/media-em/g3/belo-horizonte-1-1500px-x-500px.png"
+                         alt="Belo Horizonte"
+                         loading="lazy"
+                         onerror="this.outerHTML='<div class=\'deal-image-placeholder\'>🌍</div>'">
+                    
+
+                    <div class="deal-body">
+                        <div class="deal-destination">Belo Horizonte</div>
+                        <div class="deal-title">GOL: São Paulo (CGH) → Belo Horizonte (CNF) - 08/10/2026</div>
+                        <div class="deal-footer">
+                            <div>
+                                
+                                <div class="deal-price hot">
+                                    R$ 216,94
+                                </div>
+                                
+                                <div class="deal-meta">
+                                    
+                                </div>
+                            </div>
+                            
+                            <a href="https://www.voegol.com.br/br/voos/CGH/CNF" target="_blank" rel="noopener" class="deal-link">
                                 Ver →
                             </a>
                             
@@ -543,7 +519,7 @@
                      data-price="222.32"
                      data-source="gol"
                      data-destination="São Paulo"
-                     data-title="GOL: Rio de Janeiro (SDU) → São Paulo (CGH) - 22/10/2026"
+                     data-title="GOL: Rio de Janeiro (RIO) → São Paulo (CGH) - 01/09/2026"
                      data-airline="gol">
 
                     
@@ -555,7 +531,7 @@
 
                     <div class="deal-body">
                         <div class="deal-destination">São Paulo</div>
-                        <div class="deal-title">GOL: Rio de Janeiro (SDU) → São Paulo (CGH) - 22/10/2026</div>
+                        <div class="deal-title">GOL: Rio de Janeiro (RIO) → São Paulo (CGH) - 01/09/2026</div>
                         <div class="deal-footer">
                             <div>
                                 
@@ -568,7 +544,7 @@
                                 </div>
                             </div>
                             
-                            <a href="https://www.voegol.com.br/br/voos/SDU/CGH" target="_blank" rel="noopener" class="deal-link">
+                            <a href="https://www.voegol.com.br/br/voos/RIO/CGH" target="_blank" rel="noopener" class="deal-link">
                                 Ver →
                             </a>
                             
@@ -583,10 +559,55 @@
                 </div>
                 
                 <div class="deal-card"
+                     data-price="252.0"
+                     data-source="melhores-destinos"
+                     data-destination=""
+                     data-title="Gol, Latam e Azul têm promoções de passagens nacionais a partir de R$ 252 ida e volta!"
+                     data-airline="latam">
+
+                    
+                    <img class="deal-image" src="https://www.melhoresdestinos.com.br/wp-content/uploads/2024/12/azul-gol-latam-capa-754x396.jpg"
+                         alt="Destino"
+                         loading="lazy"
+                         onerror="this.outerHTML='<div class=\'deal-image-placeholder\'>🌍</div>'">
+                    
+
+                    <div class="deal-body">
+                        <div class="deal-destination">Oferta Especial</div>
+                        <div class="deal-title">Gol, Latam e Azul têm promoções de passagens nacionais a partir de R$ 252 ida e volta!</div>
+                        <div class="deal-footer">
+                            <div>
+                                
+                                <div class="deal-price hot">
+                                    R$ 252,00
+                                </div>
+                                
+                                <div class="deal-meta">
+                                    
+                                    <span class="deal-badge round-trip">Ida e volta</span>
+                                    
+                                </div>
+                            </div>
+                            
+                            <a href="https://www.melhoresdestinos.com.br/promocao/passagens-aereas-nacionais-03-06-26" target="_blank" rel="noopener" class="deal-link">
+                                Ver →
+                            </a>
+                            
+                        </div>
+                        <div class="source-tag">
+                            
+                            <span class="airline-badge latam">LATAM</span>
+                            
+                            📡 Melhores Destinos
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="deal-card"
                      data-price="270.05"
                      data-source="gol"
                      data-destination="Brasília"
-                     data-title="GOL: Rio de Janeiro (RIO) → Brasília (BSB) - 18/09/2026"
+                     data-title="GOL: Rio de Janeiro (RIO) → Brasília (BSB) - 30/10/2026"
                      data-airline="gol">
 
                     
@@ -598,7 +619,7 @@
 
                     <div class="deal-body">
                         <div class="deal-destination">Brasília</div>
-                        <div class="deal-title">GOL: Rio de Janeiro (RIO) → Brasília (BSB) - 18/09/2026</div>
+                        <div class="deal-title">GOL: Rio de Janeiro (RIO) → Brasília (BSB) - 30/10/2026</div>
                         <div class="deal-footer">
                             <div>
                                 
@@ -669,27 +690,70 @@
                 </div>
                 
                 <div class="deal-card"
-                     data-price="287.0"
-                     data-source="passagens-imperdíveis"
-                     data-destination="Rio de Janeiro ou São Paulo"
-                     data-title="Passagens para o RIO DE JANEIRO ou SÃO PAULO! Datas até Março/27, inclusive nas Férias, feriados e mais! A partir de R$ 287, ida e volta, c/ taxas!"
-                     data-airline="">
+                     data-price="292.03"
+                     data-source="gol"
+                     data-destination="São Paulo"
+                     data-title="GOL: Rio de Janeiro (SDU) → São Paulo (CGH) - 06/11/2026"
+                     data-airline="gol">
 
                     
-                    <img class="deal-image" src="https://travel-cdn.cubo333.com.br/static-img/sao_paulo_sp_brasil_1_2-612x612.png"
-                         alt="Rio de Janeiro ou São Paulo"
+                    <img class="deal-image" src="https://assets.airtrfx.com/media-em/g3/03-1500px-x-500px.png"
+                         alt="São Paulo"
                          loading="lazy"
                          onerror="this.outerHTML='<div class=\'deal-image-placeholder\'>🌍</div>'">
                     
 
                     <div class="deal-body">
-                        <div class="deal-destination">Rio de Janeiro ou São Paulo</div>
-                        <div class="deal-title">Passagens para o RIO DE JANEIRO ou SÃO PAULO! Datas até Março/27, inclusive nas Férias, feriados e mais! A partir de R$ 287, ida e volta, c/ taxas!</div>
+                        <div class="deal-destination">São Paulo</div>
+                        <div class="deal-title">GOL: Rio de Janeiro (SDU) → São Paulo (CGH) - 06/11/2026</div>
                         <div class="deal-footer">
                             <div>
                                 
                                 <div class="deal-price hot">
-                                    R$ 287,00
+                                    R$ 292,03
+                                </div>
+                                
+                                <div class="deal-meta">
+                                    
+                                </div>
+                            </div>
+                            
+                            <a href="https://www.voegol.com.br/br/voos/SDU/CGH" target="_blank" rel="noopener" class="deal-link">
+                                Ver →
+                            </a>
+                            
+                        </div>
+                        <div class="source-tag">
+                            
+                            <span class="airline-badge gol">GOL</span>
+                            
+                            📡 GOL
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="deal-card"
+                     data-price="303.0"
+                     data-source="passagens-imperdíveis"
+                     data-destination="Belo Horizonte ou Brasília"
+                     data-title="Passagens para BELO HORIZONTE ou BRASÍLIA! Datas inclusive nas Férias, feriados e mais! A partir de R$ 303, ida e volta, c/ taxas!"
+                     data-airline="">
+
+                    
+                    <img class="deal-image" src="https://travel-cdn.cubo333.com.br/static-img/brasilia_nacionais_612-612x612.png"
+                         alt="Belo Horizonte ou Brasília"
+                         loading="lazy"
+                         onerror="this.outerHTML='<div class=\'deal-image-placeholder\'>🌍</div>'">
+                    
+
+                    <div class="deal-body">
+                        <div class="deal-destination">Belo Horizonte ou Brasília</div>
+                        <div class="deal-title">Passagens para BELO HORIZONTE ou BRASÍLIA! Datas inclusive nas Férias, feriados e mais! A partir de R$ 303, ida e volta, c/ taxas!</div>
+                        <div class="deal-footer">
+                            <div>
+                                
+                                <div class="deal-price hot">
+                                    R$ 303,00
                                 </div>
                                 
                                 <div class="deal-meta">
@@ -699,7 +763,7 @@
                                 </div>
                             </div>
                             
-                            <a href="https://passagensimperdiveis.com.br/promocao-de-passagens-para-rio-de-janeiro-ou-sao-paulo-2026-33/" target="_blank" rel="noopener" class="deal-link">
+                            <a href="https://passagensimperdiveis.com.br/promocao-de-passagens-para-belo-horizonte-ou-brasilia-2026-4/" target="_blank" rel="noopener" class="deal-link">
                                 Ver →
                             </a>
                             
@@ -715,7 +779,7 @@
                      data-price="305.95"
                      data-source="gol"
                      data-destination="Brasília"
-                     data-title="GOL: São Paulo (CGH) → Brasília (BSB) - 29/10/2026"
+                     data-title="GOL: São Paulo (CGH) → Brasília (BSB) - 10/09/2026"
                      data-airline="gol">
 
                     
@@ -727,7 +791,7 @@
 
                     <div class="deal-body">
                         <div class="deal-destination">Brasília</div>
-                        <div class="deal-title">GOL: São Paulo (CGH) → Brasília (BSB) - 29/10/2026</div>
+                        <div class="deal-title">GOL: São Paulo (CGH) → Brasília (BSB) - 10/09/2026</div>
                         <div class="deal-footer">
                             <div>
                                 
@@ -755,53 +819,10 @@
                 </div>
                 
                 <div class="deal-card"
-                     data-price="323.81"
-                     data-source="gol"
-                     data-destination="Salvador"
-                     data-title="GOL: Rio de Janeiro (GIG) → Salvador (SSA) - 29/08/2026"
-                     data-airline="gol">
-
-                    
-                    <img class="deal-image" src="https://assets.airtrfx.com/media-em/g3/02-1500px-x-500px-2.png"
-                         alt="Salvador"
-                         loading="lazy"
-                         onerror="this.outerHTML='<div class=\'deal-image-placeholder\'>🌍</div>'">
-                    
-
-                    <div class="deal-body">
-                        <div class="deal-destination">Salvador</div>
-                        <div class="deal-title">GOL: Rio de Janeiro (GIG) → Salvador (SSA) - 29/08/2026</div>
-                        <div class="deal-footer">
-                            <div>
-                                
-                                <div class="deal-price hot">
-                                    R$ 323,81
-                                </div>
-                                
-                                <div class="deal-meta">
-                                    
-                                </div>
-                            </div>
-                            
-                            <a href="https://www.voegol.com.br/br/voos/GIG/SSA" target="_blank" rel="noopener" class="deal-link">
-                                Ver →
-                            </a>
-                            
-                        </div>
-                        <div class="source-tag">
-                            
-                            <span class="airline-badge gol">GOL</span>
-                            
-                            📡 GOL
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="deal-card"
                      data-price="328.75"
                      data-source="gol"
                      data-destination="Ilhéus"
-                     data-title="GOL: São Paulo (GRU) → Ilhéus (IOS) - 25/06/2026"
+                     data-title="GOL: São Paulo (GRU) → Ilhéus (IOS) - 26/06/2026"
                      data-airline="gol">
 
                     
@@ -813,7 +834,7 @@
 
                     <div class="deal-body">
                         <div class="deal-destination">Ilhéus</div>
-                        <div class="deal-title">GOL: São Paulo (GRU) → Ilhéus (IOS) - 25/06/2026</div>
+                        <div class="deal-title">GOL: São Paulo (GRU) → Ilhéus (IOS) - 26/06/2026</div>
                         <div class="deal-footer">
                             <div>
                                 
@@ -844,7 +865,7 @@
                      data-price="340.55"
                      data-source="gol"
                      data-destination="Salvador"
-                     data-title="GOL: São Paulo (SAO) → Salvador (SSA) - 25/11/2026"
+                     data-title="GOL: São Paulo (SAO) → Salvador (SSA) - 24/11/2026"
                      data-airline="gol">
 
                     
@@ -856,7 +877,7 @@
 
                     <div class="deal-body">
                         <div class="deal-destination">Salvador</div>
-                        <div class="deal-title">GOL: São Paulo (SAO) → Salvador (SSA) - 25/11/2026</div>
+                        <div class="deal-title">GOL: São Paulo (SAO) → Salvador (SSA) - 24/11/2026</div>
                         <div class="deal-footer">
                             <div>
                                 
@@ -884,201 +905,27 @@
                 </div>
                 
                 <div class="deal-card"
-                     data-price="386.95"
-                     data-source="gol"
-                     data-destination="Curitiba"
-                     data-title="GOL: São Paulo (CGH) → Curitiba (CWB) - 29/06/2026"
-                     data-airline="gol">
-
-                    
-                    <img class="deal-image" src="https://assets.airtrfx.com/media-em/g3/curitiba-1-1500px-x-500px.png"
-                         alt="Curitiba"
-                         loading="lazy"
-                         onerror="this.outerHTML='<div class=\'deal-image-placeholder\'>🌍</div>'">
-                    
-
-                    <div class="deal-body">
-                        <div class="deal-destination">Curitiba</div>
-                        <div class="deal-title">GOL: São Paulo (CGH) → Curitiba (CWB) - 29/06/2026</div>
-                        <div class="deal-footer">
-                            <div>
-                                
-                                <div class="deal-price hot">
-                                    R$ 386,95
-                                </div>
-                                
-                                <div class="deal-meta">
-                                    
-                                </div>
-                            </div>
-                            
-                            <a href="https://www.voegol.com.br/br/voos/CGH/CWB" target="_blank" rel="noopener" class="deal-link">
-                                Ver →
-                            </a>
-                            
-                        </div>
-                        <div class="source-tag">
-                            
-                            <span class="airline-badge gol">GOL</span>
-                            
-                            📡 GOL
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="deal-card"
-                     data-price="395.95"
-                     data-source="gol"
-                     data-destination="Rio de Janeiro"
-                     data-title="GOL: São Paulo (CGH) → Rio de Janeiro (GIG) - 23/06/2026"
-                     data-airline="gol">
-
-                    
-                    <img class="deal-image" src="https://assets.airtrfx.com/media-em/g3/01-1500px-x-500px-5.png"
-                         alt="Rio de Janeiro"
-                         loading="lazy"
-                         onerror="this.outerHTML='<div class=\'deal-image-placeholder\'>🌍</div>'">
-                    
-
-                    <div class="deal-body">
-                        <div class="deal-destination">Rio de Janeiro</div>
-                        <div class="deal-title">GOL: São Paulo (CGH) → Rio de Janeiro (GIG) - 23/06/2026</div>
-                        <div class="deal-footer">
-                            <div>
-                                
-                                <div class="deal-price hot">
-                                    R$ 395,95
-                                </div>
-                                
-                                <div class="deal-meta">
-                                    
-                                </div>
-                            </div>
-                            
-                            <a href="https://www.voegol.com.br/br/voos/CGH/GIG" target="_blank" rel="noopener" class="deal-link">
-                                Ver →
-                            </a>
-                            
-                        </div>
-                        <div class="source-tag">
-                            
-                            <span class="airline-badge gol">GOL</span>
-                            
-                            📡 GOL
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="deal-card"
-                     data-price="433"
-                     data-source="gol"
-                     data-destination="Buenos Aires"
-                     data-title="GOL: São Paulo (GRU) → Buenos Aires (BUE) - 24/06/2026 a 24/07/2026"
-                     data-airline="gol">
-
-                    
-                    <img class="deal-image" src="https://assets.airtrfx.com/media-em/g3/buenos-aires-2-1500px-x-500px.png"
-                         alt="Buenos Aires"
-                         loading="lazy"
-                         onerror="this.outerHTML='<div class=\'deal-image-placeholder\'>🌍</div>'">
-                    
-
-                    <div class="deal-body">
-                        <div class="deal-destination">Buenos Aires</div>
-                        <div class="deal-title">GOL: São Paulo (GRU) → Buenos Aires (BUE) - 24/06/2026 a 24/07/2026</div>
-                        <div class="deal-footer">
-                            <div>
-                                
-                                <div class="deal-price hot">
-                                    R$ 433,00
-                                </div>
-                                
-                                <div class="deal-meta">
-                                    
-                                    <span class="deal-badge round-trip">Ida e volta</span>
-                                    
-                                </div>
-                            </div>
-                            
-                            <a href="https://www.voegol.com.br/br/voos/GRU/BUE" target="_blank" rel="noopener" class="deal-link">
-                                Ver →
-                            </a>
-                            
-                        </div>
-                        <div class="source-tag">
-                            
-                            <span class="airline-badge gol">GOL</span>
-                            
-                            📡 GOL
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="deal-card"
-                     data-price="436.45"
-                     data-source="gol"
-                     data-destination="Belo Horizonte"
-                     data-title="GOL: São Paulo (CGH) → Belo Horizonte (CNF) - 25/06/2026"
-                     data-airline="gol">
-
-                    
-                    <img class="deal-image" src="https://assets.airtrfx.com/media-em/g3/belo-horizonte-1-1500px-x-500px.png"
-                         alt="Belo Horizonte"
-                         loading="lazy"
-                         onerror="this.outerHTML='<div class=\'deal-image-placeholder\'>🌍</div>'">
-                    
-
-                    <div class="deal-body">
-                        <div class="deal-destination">Belo Horizonte</div>
-                        <div class="deal-title">GOL: São Paulo (CGH) → Belo Horizonte (CNF) - 25/06/2026</div>
-                        <div class="deal-footer">
-                            <div>
-                                
-                                <div class="deal-price hot">
-                                    R$ 436,45
-                                </div>
-                                
-                                <div class="deal-meta">
-                                    
-                                </div>
-                            </div>
-                            
-                            <a href="https://www.voegol.com.br/br/voos/CGH/CNF" target="_blank" rel="noopener" class="deal-link">
-                                Ver →
-                            </a>
-                            
-                        </div>
-                        <div class="source-tag">
-                            
-                            <span class="airline-badge gol">GOL</span>
-                            
-                            📡 GOL
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="deal-card"
-                     data-price="460.0"
+                     data-price="342.0"
                      data-source="passagens-imperdíveis"
-                     data-destination="Lençóis Maranhenses na Melhor Época do Ano"
-                     data-title="MUITO BOM!!! Programe sua viagem para os Lençóis Maranhenses, na melhor época do ano! Passagens para SÃO LUÍS! A partir de R$ 460, ida e volta, c/ taxas!"
+                     data-destination="Rio de Janeiro ou Vitória"
+                     data-title="Passagens para o RIO DE JANEIRO ou VITÓRIA! Escolha entre o charme capixaba de Vitória ou os cartões-postais do Rio! A partir de R$ 342, ida e volta, c/ taxas!"
                      data-airline="">
 
                     
-                    <img class="deal-image" src="https://travel-cdn.cubo333.com.br/static-img/lencois_maranhenses_barreirinhas_maranhao_brasil_nacional_nacionais_2-612x612.png"
-                         alt="Lençóis Maranhenses na Melhor Época do Ano"
+                    <img class="deal-image" src="https://travel-cdn.cubo333.com.br/static-img/brasil_niteroi_rj_612_612-612x612.png"
+                         alt="Rio de Janeiro ou Vitória"
                          loading="lazy"
                          onerror="this.outerHTML='<div class=\'deal-image-placeholder\'>🌍</div>'">
                     
 
                     <div class="deal-body">
-                        <div class="deal-destination">Lençóis Maranhenses na Melhor Época do Ano</div>
-                        <div class="deal-title">MUITO BOM!!! Programe sua viagem para os Lençóis Maranhenses, na melhor época do ano! Passagens para SÃO LUÍS! A partir de R$ 460, ida e volta, c/ taxas!</div>
+                        <div class="deal-destination">Rio de Janeiro ou Vitória</div>
+                        <div class="deal-title">Passagens para o RIO DE JANEIRO ou VITÓRIA! Escolha entre o charme capixaba de Vitória ou os cartões-postais do Rio! A partir de R$ 342, ida e volta, c/ taxas!</div>
                         <div class="deal-footer">
                             <div>
                                 
                                 <div class="deal-price hot">
-                                    R$ 460,00
+                                    R$ 342,00
                                 </div>
                                 
                                 <div class="deal-meta">
@@ -1088,50 +935,7 @@
                                 </div>
                             </div>
                             
-                            <a href="https://passagensimperdiveis.com.br/promocao-de-passagens-para-sao-luis-2026-12/" target="_blank" rel="noopener" class="deal-link">
-                                Ver →
-                            </a>
-                            
-                        </div>
-                        <div class="source-tag">
-                            
-                            📡 Passagens Imperdíveis
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="deal-card"
-                     data-price="495.0"
-                     data-source="passagens-imperdíveis"
-                     data-destination="São Luís"
-                     data-title="Programe sua viagem para os Lençóis Maranhenses! Passagens para SÃO LUÍS! Datas inclusive no Verão, férias e mais! A partir de R$ 495, ida e volta, c/ taxas!"
-                     data-airline="">
-
-                    
-                    <img class="deal-image" src="https://travel-cdn.cubo333.com.br/static-img/0u1a1964-612x612.jpg"
-                         alt="São Luís"
-                         loading="lazy"
-                         onerror="this.outerHTML='<div class=\'deal-image-placeholder\'>🌍</div>'">
-                    
-
-                    <div class="deal-body">
-                        <div class="deal-destination">São Luís</div>
-                        <div class="deal-title">Programe sua viagem para os Lençóis Maranhenses! Passagens para SÃO LUÍS! Datas inclusive no Verão, férias e mais! A partir de R$ 495, ida e volta, c/ taxas!</div>
-                        <div class="deal-footer">
-                            <div>
-                                
-                                <div class="deal-price hot">
-                                    R$ 495,00
-                                </div>
-                                
-                                <div class="deal-meta">
-                                    
-                                    <span class="deal-badge round-trip">Ida e volta</span>
-                                    
-                                </div>
-                            </div>
-                            
-                            <a href="https://passagensimperdiveis.com.br/promocao-de-passagens-para-sao-luis-2026-13/" target="_blank" rel="noopener" class="deal-link">
+                            <a href="https://passagensimperdiveis.com.br/promocao-de-passagens-para-rio-de-janeiro-ou-vitoria-2026-7/" target="_blank" rel="noopener" class="deal-link">
                                 Ver →
                             </a>
                             
@@ -1187,27 +991,27 @@
                 </div>
                 
                 <div class="deal-card"
-                     data-price="902.0"
+                     data-price="495.0"
                      data-source="passagens-imperdíveis"
-                     data-destination="Jericoacoara no 2º Semestre"
-                     data-title="Continua muito bom! Passagens para JERICOACOARA NO 2º SEMESTRE! Explore lagoas cristalinas, dunas e pores do sol inesquecíveis! A partir de R$ 902, ida e volta, c/ taxas!"
+                     data-destination="São Luís"
+                     data-title="Programe sua viagem para os Lençóis Maranhenses! Passagens para SÃO LUÍS! Datas inclusive no Verão, férias e mais! A partir de R$ 495, ida e volta, c/ taxas!"
                      data-airline="">
 
                     
-                    <img class="deal-image" src="https://travel-cdn.cubo333.com.br/static-img/jericoacoara_brasil_naconais_01-612x612.png"
-                         alt="Jericoacoara no 2º Semestre"
+                    <img class="deal-image" src="https://travel-cdn.cubo333.com.br/static-img/0u1a1964-612x612.jpg"
+                         alt="São Luís"
                          loading="lazy"
                          onerror="this.outerHTML='<div class=\'deal-image-placeholder\'>🌍</div>'">
                     
 
                     <div class="deal-body">
-                        <div class="deal-destination">Jericoacoara no 2º Semestre</div>
-                        <div class="deal-title">Continua muito bom! Passagens para JERICOACOARA NO 2º SEMESTRE! Explore lagoas cristalinas, dunas e pores do sol inesquecíveis! A partir de R$ 902, ida e volta, c/ taxas!</div>
+                        <div class="deal-destination">São Luís</div>
+                        <div class="deal-title">Programe sua viagem para os Lençóis Maranhenses! Passagens para SÃO LUÍS! Datas inclusive no Verão, férias e mais! A partir de R$ 495, ida e volta, c/ taxas!</div>
                         <div class="deal-footer">
                             <div>
                                 
                                 <div class="deal-price hot">
-                                    R$ 902,00
+                                    R$ 495,00
                                 </div>
                                 
                                 <div class="deal-meta">
@@ -1217,7 +1021,7 @@
                                 </div>
                             </div>
                             
-                            <a href="https://passagensimperdiveis.com.br/promocao-de-passagens-para-jericoacoara-2026-6/" target="_blank" rel="noopener" class="deal-link">
+                            <a href="https://passagensimperdiveis.com.br/promocao-de-passagens-para-sao-luis-2026-13/" target="_blank" rel="noopener" class="deal-link">
                                 Ver →
                             </a>
                             
@@ -1230,37 +1034,35 @@
                 </div>
                 
                 <div class="deal-card"
-                     data-price="998.65"
+                     data-price="550.01"
                      data-source="gol"
-                     data-destination="Buenos Aires"
-                     data-title="GOL: São Paulo (SAO) → Buenos Aires (AEP) - 03/08/2026 a 07/08/2026"
+                     data-destination="Belo Horizonte"
+                     data-title="GOL: São Paulo (CGH) → Belo Horizonte (CNF) - 30/06/2026"
                      data-airline="gol">
 
                     
-                    <img class="deal-image" src="https://assets.airtrfx.com/media-em/g3/buenos-aires-2-1500px-x-500px.png"
-                         alt="Buenos Aires"
+                    <img class="deal-image" src="https://assets.airtrfx.com/media-em/g3/belo-horizonte-1-1500px-x-500px.png"
+                         alt="Belo Horizonte"
                          loading="lazy"
                          onerror="this.outerHTML='<div class=\'deal-image-placeholder\'>🌍</div>'">
                     
 
                     <div class="deal-body">
-                        <div class="deal-destination">Buenos Aires</div>
-                        <div class="deal-title">GOL: São Paulo (SAO) → Buenos Aires (AEP) - 03/08/2026 a 07/08/2026</div>
+                        <div class="deal-destination">Belo Horizonte</div>
+                        <div class="deal-title">GOL: São Paulo (CGH) → Belo Horizonte (CNF) - 30/06/2026</div>
                         <div class="deal-footer">
                             <div>
                                 
                                 <div class="deal-price hot">
-                                    R$ 998,65
+                                    R$ 550,01
                                 </div>
                                 
                                 <div class="deal-meta">
                                     
-                                    <span class="deal-badge round-trip">Ida e volta</span>
-                                    
                                 </div>
                             </div>
                             
-                            <a href="https://www.voegol.com.br/br/voos/SAO/AEP" target="_blank" rel="noopener" class="deal-link">
+                            <a href="https://www.voegol.com.br/br/voos/CGH/CNF" target="_blank" rel="noopener" class="deal-link">
                                 Ver →
                             </a>
                             
@@ -1270,6 +1072,178 @@
                             <span class="airline-badge gol">GOL</span>
                             
                             📡 GOL
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="deal-card"
+                     data-price="552.09"
+                     data-source="gol"
+                     data-destination="Rio de Janeiro"
+                     data-title="GOL: São Paulo (CGH) → Rio de Janeiro (GIG) - 23/06/2026"
+                     data-airline="gol">
+
+                    
+                    <img class="deal-image" src="https://assets.airtrfx.com/media-em/g3/01-1500px-x-500px-5.png"
+                         alt="Rio de Janeiro"
+                         loading="lazy"
+                         onerror="this.outerHTML='<div class=\'deal-image-placeholder\'>🌍</div>'">
+                    
+
+                    <div class="deal-body">
+                        <div class="deal-destination">Rio de Janeiro</div>
+                        <div class="deal-title">GOL: São Paulo (CGH) → Rio de Janeiro (GIG) - 23/06/2026</div>
+                        <div class="deal-footer">
+                            <div>
+                                
+                                <div class="deal-price hot">
+                                    R$ 552,09
+                                </div>
+                                
+                                <div class="deal-meta">
+                                    
+                                </div>
+                            </div>
+                            
+                            <a href="https://www.voegol.com.br/br/voos/CGH/GIG" target="_blank" rel="noopener" class="deal-link">
+                                Ver →
+                            </a>
+                            
+                        </div>
+                        <div class="source-tag">
+                            
+                            <span class="airline-badge gol">GOL</span>
+                            
+                            📡 GOL
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="deal-card"
+                     data-price="588.72"
+                     data-source="gol"
+                     data-destination="Curitiba"
+                     data-title="GOL: São Paulo (CGH) → Curitiba (CWB) - 29/06/2026"
+                     data-airline="gol">
+
+                    
+                    <img class="deal-image" src="https://assets.airtrfx.com/media-em/g3/curitiba-1-1500px-x-500px.png"
+                         alt="Curitiba"
+                         loading="lazy"
+                         onerror="this.outerHTML='<div class=\'deal-image-placeholder\'>🌍</div>'">
+                    
+
+                    <div class="deal-body">
+                        <div class="deal-destination">Curitiba</div>
+                        <div class="deal-title">GOL: São Paulo (CGH) → Curitiba (CWB) - 29/06/2026</div>
+                        <div class="deal-footer">
+                            <div>
+                                
+                                <div class="deal-price hot">
+                                    R$ 588,72
+                                </div>
+                                
+                                <div class="deal-meta">
+                                    
+                                </div>
+                            </div>
+                            
+                            <a href="https://www.voegol.com.br/br/voos/CGH/CWB" target="_blank" rel="noopener" class="deal-link">
+                                Ver →
+                            </a>
+                            
+                        </div>
+                        <div class="source-tag">
+                            
+                            <span class="airline-badge gol">GOL</span>
+                            
+                            📡 GOL
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="deal-card"
+                     data-price="882.81"
+                     data-source="gol"
+                     data-destination="Ilhéus"
+                     data-title="GOL: Rio de Janeiro (GIG) → Ilhéus (IOS) - 19/06/2026"
+                     data-airline="gol">
+
+                    
+                    <img class="deal-image" src="https://assets.airtrfx.com/media-em/g3/ilh%C3%A9us2-1500px-x-500px.png"
+                         alt="Ilhéus"
+                         loading="lazy"
+                         onerror="this.outerHTML='<div class=\'deal-image-placeholder\'>🌍</div>'">
+                    
+
+                    <div class="deal-body">
+                        <div class="deal-destination">Ilhéus</div>
+                        <div class="deal-title">GOL: Rio de Janeiro (GIG) → Ilhéus (IOS) - 19/06/2026</div>
+                        <div class="deal-footer">
+                            <div>
+                                
+                                <div class="deal-price hot">
+                                    R$ 882,81
+                                </div>
+                                
+                                <div class="deal-meta">
+                                    
+                                </div>
+                            </div>
+                            
+                            <a href="https://www.voegol.com.br/br/voos/GIG/IOS" target="_blank" rel="noopener" class="deal-link">
+                                Ver →
+                            </a>
+                            
+                        </div>
+                        <div class="source-tag">
+                            
+                            <span class="airline-badge gol">GOL</span>
+                            
+                            📡 GOL
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="deal-card"
+                     data-price="1022.0"
+                     data-source="passagens-imperdíveis"
+                     data-destination="Santarém"
+                     data-title="Programe sua viagem para Alter do Chão! Passagens para SANTARÉM! Datas até Abril/27, inclusive nas Férias, Feriados e mais! A partir de R$ 1.022, ida e volta, c/ taxas!"
+                     data-airline="">
+
+                    
+                    <img class="deal-image" src="https://travel-cdn.cubo333.com.br/static-img/alter_do_chao_para_santarem1-612x612.jpg"
+                         alt="Santarém"
+                         loading="lazy"
+                         onerror="this.outerHTML='<div class=\'deal-image-placeholder\'>🌍</div>'">
+                    
+
+                    <div class="deal-body">
+                        <div class="deal-destination">Santarém</div>
+                        <div class="deal-title">Programe sua viagem para Alter do Chão! Passagens para SANTARÉM! Datas até Abril/27, inclusive nas Férias, Feriados e mais! A partir de R$ 1.022, ida e volta, c/ taxas!</div>
+                        <div class="deal-footer">
+                            <div>
+                                
+                                <div class="deal-price hot">
+                                    R$ 1.022,00
+                                </div>
+                                
+                                <div class="deal-meta">
+                                    
+                                    <span class="deal-badge round-trip">Ida e volta</span>
+                                    
+                                </div>
+                            </div>
+                            
+                            <a href="https://passagensimperdiveis.com.br/promocao-de-passagens-para-santarem-2026-4/" target="_blank" rel="noopener" class="deal-link">
+                                Ver →
+                            </a>
+                            
+                        </div>
+                        <div class="source-tag">
+                            
+                            📡 Passagens Imperdíveis
                         </div>
                     </div>
                 </div>
@@ -1354,6 +1328,139 @@
                         <div class="source-tag">
                             
                             📡 Melhores Destinos
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="deal-card"
+                     data-price="1064.0"
+                     data-source="passagens-imperdíveis"
+                     data-destination="América do Sul com Voo Direto"
+                     data-title="Passagens com VOO DIRETO para a AMÉRICA DO SUL: Argentina, Bolívia, Chile, Colômbia, Paraguai, Peru ou Uruguai! A partir de R$ 1.064, ida e volta, c/ taxas! Em até 6x SEM JUROS!"
+                     data-airline="">
+
+                    
+                    <img class="deal-image" src="https://travel-cdn.cubo333.com.br/static-img/santiago_chile-612x612.png"
+                         alt="América do Sul com Voo Direto"
+                         loading="lazy"
+                         onerror="this.outerHTML='<div class=\'deal-image-placeholder\'>🌍</div>'">
+                    
+
+                    <div class="deal-body">
+                        <div class="deal-destination">América do Sul com Voo Direto</div>
+                        <div class="deal-title">Passagens com VOO DIRETO para a AMÉRICA DO SUL: Argentina, Bolívia, Chile, Colômbia, Paraguai, Peru ou Uruguai! A partir de R$ 1.064, ida e volta, c/ taxas! Em até 6x SEM JUROS!</div>
+                        <div class="deal-footer">
+                            <div>
+                                
+                                <div class="deal-price hot">
+                                    R$ 1.064,00
+                                </div>
+                                
+                                <div class="deal-meta">
+                                    
+                                    <span class="deal-badge round-trip">Ida e volta</span>
+                                    
+                                </div>
+                            </div>
+                            
+                            <a href="https://passagensimperdiveis.com.br/selecao-de-passagens-para-america-do-sul-argentina-bolivia-chile-colombia-paraguai-peru-ou-u-2026-2/" target="_blank" rel="noopener" class="deal-link">
+                                Ver →
+                            </a>
+                            
+                        </div>
+                        <div class="source-tag">
+                            
+                            📡 Passagens Imperdíveis
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="deal-card"
+                     data-price="1067.4"
+                     data-source="gol"
+                     data-destination="Santa Cruz de la Sierra"
+                     data-title="GOL: São Paulo (GRU) → Santa Cruz de la Sierra (VVI) - 15/06/2026 a 22/06/2026"
+                     data-airline="gol">
+
+                    
+                    <img class="deal-image" src="https://assets.airtrfx.com/media-em/g3/03-1500px-x-500px-5.png"
+                         alt="Santa Cruz de la Sierra"
+                         loading="lazy"
+                         onerror="this.outerHTML='<div class=\'deal-image-placeholder\'>🌍</div>'">
+                    
+
+                    <div class="deal-body">
+                        <div class="deal-destination">Santa Cruz de la Sierra</div>
+                        <div class="deal-title">GOL: São Paulo (GRU) → Santa Cruz de la Sierra (VVI) - 15/06/2026 a 22/06/2026</div>
+                        <div class="deal-footer">
+                            <div>
+                                
+                                <div class="deal-price hot">
+                                    R$ 1.067,40
+                                </div>
+                                
+                                <div class="deal-meta">
+                                    
+                                    <span class="deal-badge round-trip">Ida e volta</span>
+                                    
+                                </div>
+                            </div>
+                            
+                            <a href="https://www.voegol.com.br/br/voos/GRU/VVI" target="_blank" rel="noopener" class="deal-link">
+                                Ver →
+                            </a>
+                            
+                        </div>
+                        <div class="source-tag">
+                            
+                            <span class="airline-badge gol">GOL</span>
+                            
+                            📡 GOL
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="deal-card"
+                     data-price="1067.4"
+                     data-source="gol"
+                     data-destination="Santa Cruz de la Sierra"
+                     data-title="GOL: São Paulo (SAO) → Santa Cruz de la Sierra (VVI) - 14/06/2026 a 29/06/2026"
+                     data-airline="gol">
+
+                    
+                    <img class="deal-image" src="https://assets.airtrfx.com/media-em/g3/03-1500px-x-500px-5.png"
+                         alt="Santa Cruz de la Sierra"
+                         loading="lazy"
+                         onerror="this.outerHTML='<div class=\'deal-image-placeholder\'>🌍</div>'">
+                    
+
+                    <div class="deal-body">
+                        <div class="deal-destination">Santa Cruz de la Sierra</div>
+                        <div class="deal-title">GOL: São Paulo (SAO) → Santa Cruz de la Sierra (VVI) - 14/06/2026 a 29/06/2026</div>
+                        <div class="deal-footer">
+                            <div>
+                                
+                                <div class="deal-price hot">
+                                    R$ 1.067,40
+                                </div>
+                                
+                                <div class="deal-meta">
+                                    
+                                    <span class="deal-badge round-trip">Ida e volta</span>
+                                    
+                                </div>
+                            </div>
+                            
+                            <a href="https://www.voegol.com.br/br/voos/SAO/VVI" target="_blank" rel="noopener" class="deal-link">
+                                Ver →
+                            </a>
+                            
+                        </div>
+                        <div class="source-tag">
+                            
+                            <span class="airline-badge gol">GOL</span>
+                            
+                            📡 GOL
                         </div>
                     </div>
                 </div>
@@ -1533,10 +1640,55 @@
                 </div>
                 
                 <div class="deal-card"
-                     data-price="1199.95"
+                     data-price="1152.08"
+                     data-source="gol"
+                     data-destination="Montevideo"
+                     data-title="GOL: Rio de Janeiro (GIG) → Montevideo (MVD) - 24/06/2026 a 28/06/2026"
+                     data-airline="gol">
+
+                    
+                    <img class="deal-image" src="https://assets.airtrfx.com/media-em/g3/montevideo-2-1500px-x-500px.png"
+                         alt="Montevideo"
+                         loading="lazy"
+                         onerror="this.outerHTML='<div class=\'deal-image-placeholder\'>🌍</div>'">
+                    
+
+                    <div class="deal-body">
+                        <div class="deal-destination">Montevideo</div>
+                        <div class="deal-title">GOL: Rio de Janeiro (GIG) → Montevideo (MVD) - 24/06/2026 a 28/06/2026</div>
+                        <div class="deal-footer">
+                            <div>
+                                
+                                <div class="deal-price hot">
+                                    R$ 1.152,08
+                                </div>
+                                
+                                <div class="deal-meta">
+                                    
+                                    <span class="deal-badge round-trip">Ida e volta</span>
+                                    
+                                </div>
+                            </div>
+                            
+                            <a href="https://www.voegol.com.br/br/voos/GIG/MVD" target="_blank" rel="noopener" class="deal-link">
+                                Ver →
+                            </a>
+                            
+                        </div>
+                        <div class="source-tag">
+                            
+                            <span class="airline-badge gol">GOL</span>
+                            
+                            📡 GOL
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="deal-card"
+                     data-price="1189.81"
                      data-source="gol"
                      data-destination="Buenos Aires"
-                     data-title="GOL: Rio de Janeiro (RIO) → Buenos Aires (BUE) - 11/06/2026 a 15/06/2026"
+                     data-title="GOL: São Paulo (GRU) → Buenos Aires (BUE) - 09/09/2026 a 11/04/2027"
                      data-airline="gol">
 
                     
@@ -1548,12 +1700,12 @@
 
                     <div class="deal-body">
                         <div class="deal-destination">Buenos Aires</div>
-                        <div class="deal-title">GOL: Rio de Janeiro (RIO) → Buenos Aires (BUE) - 11/06/2026 a 15/06/2026</div>
+                        <div class="deal-title">GOL: São Paulo (GRU) → Buenos Aires (BUE) - 09/09/2026 a 11/04/2027</div>
                         <div class="deal-footer">
                             <div>
                                 
                                 <div class="deal-price hot">
-                                    R$ 1.199,95
+                                    R$ 1.189,81
                                 </div>
                                 
                                 <div class="deal-meta">
@@ -1563,7 +1715,7 @@
                                 </div>
                             </div>
                             
-                            <a href="https://www.voegol.com.br/br/voos/RIO/BUE" target="_blank" rel="noopener" class="deal-link">
+                            <a href="https://www.voegol.com.br/br/voos/GRU/BUE" target="_blank" rel="noopener" class="deal-link">
                                 Ver →
                             </a>
                             
@@ -1621,51 +1773,6 @@
                 </div>
                 
                 <div class="deal-card"
-                     data-price="1255.51"
-                     data-source="gol"
-                     data-destination="Montevideo"
-                     data-title="GOL: Rio de Janeiro (GIG) → Montevideo (MVD) - 15/10/2026 a 22/10/2026"
-                     data-airline="gol">
-
-                    
-                    <img class="deal-image" src="https://assets.airtrfx.com/media-em/g3/montevideo-2-1500px-x-500px.png"
-                         alt="Montevideo"
-                         loading="lazy"
-                         onerror="this.outerHTML='<div class=\'deal-image-placeholder\'>🌍</div>'">
-                    
-
-                    <div class="deal-body">
-                        <div class="deal-destination">Montevideo</div>
-                        <div class="deal-title">GOL: Rio de Janeiro (GIG) → Montevideo (MVD) - 15/10/2026 a 22/10/2026</div>
-                        <div class="deal-footer">
-                            <div>
-                                
-                                <div class="deal-price hot">
-                                    R$ 1.255,51
-                                </div>
-                                
-                                <div class="deal-meta">
-                                    
-                                    <span class="deal-badge round-trip">Ida e volta</span>
-                                    
-                                </div>
-                            </div>
-                            
-                            <a href="https://www.voegol.com.br/br/voos/GIG/MVD" target="_blank" rel="noopener" class="deal-link">
-                                Ver →
-                            </a>
-                            
-                        </div>
-                        <div class="source-tag">
-                            
-                            <span class="airline-badge gol">GOL</span>
-                            
-                            📡 GOL
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="deal-card"
                      data-price="1280.1"
                      data-source="gol"
                      data-destination="Buenos Aires"
@@ -1711,27 +1818,27 @@
                 </div>
                 
                 <div class="deal-card"
-                     data-price="1348.78"
+                     data-price="1290.76"
                      data-source="gol"
-                     data-destination="Assunção"
-                     data-title="GOL: Rio de Janeiro (GIG) → Assunção (ASU) - 17/06/2026 a 20/06/2026"
+                     data-destination="Buenos Aires"
+                     data-title="GOL: Rio de Janeiro (RIO) → Buenos Aires (BUE) - 23/06/2026 a 01/07/2026"
                      data-airline="gol">
 
                     
-                    <img class="deal-image" src="https://assets.airtrfx.com/media-em/g3/assun%C3%A7%C3%A3o-1-1500px-x-500px.png"
-                         alt="Assunção"
+                    <img class="deal-image" src="https://assets.airtrfx.com/media-em/g3/buenos-aires-2-1500px-x-500px.png"
+                         alt="Buenos Aires"
                          loading="lazy"
                          onerror="this.outerHTML='<div class=\'deal-image-placeholder\'>🌍</div>'">
                     
 
                     <div class="deal-body">
-                        <div class="deal-destination">Assunção</div>
-                        <div class="deal-title">GOL: Rio de Janeiro (GIG) → Assunção (ASU) - 17/06/2026 a 20/06/2026</div>
+                        <div class="deal-destination">Buenos Aires</div>
+                        <div class="deal-title">GOL: Rio de Janeiro (RIO) → Buenos Aires (BUE) - 23/06/2026 a 01/07/2026</div>
                         <div class="deal-footer">
                             <div>
                                 
                                 <div class="deal-price hot">
-                                    R$ 1.348,78
+                                    R$ 1.290,76
                                 </div>
                                 
                                 <div class="deal-meta">
@@ -1741,7 +1848,97 @@
                                 </div>
                             </div>
                             
-                            <a href="https://www.voegol.com.br/br/voos/GIG/ASU" target="_blank" rel="noopener" class="deal-link">
+                            <a href="https://www.voegol.com.br/br/voos/RIO/BUE" target="_blank" rel="noopener" class="deal-link">
+                                Ver →
+                            </a>
+                            
+                        </div>
+                        <div class="source-tag">
+                            
+                            <span class="airline-badge gol">GOL</span>
+                            
+                            📡 GOL
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="deal-card"
+                     data-price="1290.76"
+                     data-source="gol"
+                     data-destination="Buenos Aires"
+                     data-title="GOL: Rio de Janeiro (GIG) → Buenos Aires (BUE) - 23/06/2026 a 28/06/2026"
+                     data-airline="gol">
+
+                    
+                    <img class="deal-image" src="https://assets.airtrfx.com/media-em/g3/buenos-aires-2-1500px-x-500px.png"
+                         alt="Buenos Aires"
+                         loading="lazy"
+                         onerror="this.outerHTML='<div class=\'deal-image-placeholder\'>🌍</div>'">
+                    
+
+                    <div class="deal-body">
+                        <div class="deal-destination">Buenos Aires</div>
+                        <div class="deal-title">GOL: Rio de Janeiro (GIG) → Buenos Aires (BUE) - 23/06/2026 a 28/06/2026</div>
+                        <div class="deal-footer">
+                            <div>
+                                
+                                <div class="deal-price hot">
+                                    R$ 1.290,76
+                                </div>
+                                
+                                <div class="deal-meta">
+                                    
+                                    <span class="deal-badge round-trip">Ida e volta</span>
+                                    
+                                </div>
+                            </div>
+                            
+                            <a href="https://www.voegol.com.br/br/voos/GIG/BUE" target="_blank" rel="noopener" class="deal-link">
+                                Ver →
+                            </a>
+                            
+                        </div>
+                        <div class="source-tag">
+                            
+                            <span class="airline-badge gol">GOL</span>
+                            
+                            📡 GOL
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="deal-card"
+                     data-price="1290.81"
+                     data-source="gol"
+                     data-destination="Buenos Aires"
+                     data-title="GOL: Rio de Janeiro (RIO) → Buenos Aires (AEP) - 20/06/2026 a 25/06/2026"
+                     data-airline="gol">
+
+                    
+                    <img class="deal-image" src="https://assets.airtrfx.com/media-em/g3/buenos-aires-2-1500px-x-500px.png"
+                         alt="Buenos Aires"
+                         loading="lazy"
+                         onerror="this.outerHTML='<div class=\'deal-image-placeholder\'>🌍</div>'">
+                    
+
+                    <div class="deal-body">
+                        <div class="deal-destination">Buenos Aires</div>
+                        <div class="deal-title">GOL: Rio de Janeiro (RIO) → Buenos Aires (AEP) - 20/06/2026 a 25/06/2026</div>
+                        <div class="deal-footer">
+                            <div>
+                                
+                                <div class="deal-price hot">
+                                    R$ 1.290,81
+                                </div>
+                                
+                                <div class="deal-meta">
+                                    
+                                    <span class="deal-badge round-trip">Ida e volta</span>
+                                    
+                                </div>
+                            </div>
+                            
+                            <a href="https://www.voegol.com.br/br/voos/RIO/AEP" target="_blank" rel="noopener" class="deal-link">
                                 Ver →
                             </a>
                             
@@ -1760,7 +1957,7 @@
                      data-source="melhores-destinos"
                      data-destination=""
                      data-title="Buenos Aires com a Turkish! Voos com bagagem inclusa a partir de R$ 1.353 saindo de SP e mais cidades"
-                     data-airline="">
+                     data-airline="turkish-airlines">
 
                     
                     <img class="deal-image" src="https://www.melhoresdestinos.com.br/wp-content/uploads/2024/07/airbus-a350-turkish-capa-754x396.jpg"
@@ -1791,7 +1988,54 @@
                         </div>
                         <div class="source-tag">
                             
+                            <span class="airline-badge turkish-airlines">Turkish Airlines</span>
+                            
                             📡 Melhores Destinos
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="deal-card"
+                     data-price="1360.04"
+                     data-source="gol"
+                     data-destination="Assunção"
+                     data-title="GOL: Rio de Janeiro (RIO) → Assunção (ASU) - 12/06/2026 a 20/06/2026"
+                     data-airline="gol">
+
+                    
+                    <img class="deal-image" src="https://assets.airtrfx.com/media-em/g3/assun%C3%A7%C3%A3o-1-1500px-x-500px.png"
+                         alt="Assunção"
+                         loading="lazy"
+                         onerror="this.outerHTML='<div class=\'deal-image-placeholder\'>🌍</div>'">
+                    
+
+                    <div class="deal-body">
+                        <div class="deal-destination">Assunção</div>
+                        <div class="deal-title">GOL: Rio de Janeiro (RIO) → Assunção (ASU) - 12/06/2026 a 20/06/2026</div>
+                        <div class="deal-footer">
+                            <div>
+                                
+                                <div class="deal-price hot">
+                                    R$ 1.360,04
+                                </div>
+                                
+                                <div class="deal-meta">
+                                    
+                                    <span class="deal-badge round-trip">Ida e volta</span>
+                                    
+                                </div>
+                            </div>
+                            
+                            <a href="https://www.voegol.com.br/br/voos/RIO/ASU" target="_blank" rel="noopener" class="deal-link">
+                                Ver →
+                            </a>
+                            
+                        </div>
+                        <div class="source-tag">
+                            
+                            <span class="airline-badge gol">GOL</span>
+                            
+                            📡 GOL
                         </div>
                     </div>
                 </div>
@@ -1840,10 +2084,10 @@
                 </div>
                 
                 <div class="deal-card"
-                     data-price="1393.73"
+                     data-price="1430.56"
                      data-source="gol"
                      data-destination="Assunção"
-                     data-title="GOL: Rio de Janeiro (RIO) → Assunção (ASU) - 17/06/2026 a 19/06/2026"
+                     data-title="GOL: Rio de Janeiro (GIG) → Assunção (ASU) - 14/06/2026 a 28/06/2026"
                      data-airline="gol">
 
                     
@@ -1855,12 +2099,12 @@
 
                     <div class="deal-body">
                         <div class="deal-destination">Assunção</div>
-                        <div class="deal-title">GOL: Rio de Janeiro (RIO) → Assunção (ASU) - 17/06/2026 a 19/06/2026</div>
+                        <div class="deal-title">GOL: Rio de Janeiro (GIG) → Assunção (ASU) - 14/06/2026 a 28/06/2026</div>
                         <div class="deal-footer">
                             <div>
                                 
                                 <div class="deal-price hot">
-                                    R$ 1.393,73
+                                    R$ 1.430,56
                                 </div>
                                 
                                 <div class="deal-meta">
@@ -1870,142 +2114,7 @@
                                 </div>
                             </div>
                             
-                            <a href="https://www.voegol.com.br/br/voos/RIO/ASU" target="_blank" rel="noopener" class="deal-link">
-                                Ver →
-                            </a>
-                            
-                        </div>
-                        <div class="source-tag">
-                            
-                            <span class="airline-badge gol">GOL</span>
-                            
-                            📡 GOL
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="deal-card"
-                     data-price="1394.2"
-                     data-source="gol"
-                     data-destination="Buenos Aires"
-                     data-title="GOL: Rio de Janeiro (GIG) → Buenos Aires (BUE) - 26/06/2026 a 30/06/2026"
-                     data-airline="gol">
-
-                    
-                    <img class="deal-image" src="https://assets.airtrfx.com/media-em/g3/buenos-aires-2-1500px-x-500px.png"
-                         alt="Buenos Aires"
-                         loading="lazy"
-                         onerror="this.outerHTML='<div class=\'deal-image-placeholder\'>🌍</div>'">
-                    
-
-                    <div class="deal-body">
-                        <div class="deal-destination">Buenos Aires</div>
-                        <div class="deal-title">GOL: Rio de Janeiro (GIG) → Buenos Aires (BUE) - 26/06/2026 a 30/06/2026</div>
-                        <div class="deal-footer">
-                            <div>
-                                
-                                <div class="deal-price hot">
-                                    R$ 1.394,20
-                                </div>
-                                
-                                <div class="deal-meta">
-                                    
-                                    <span class="deal-badge round-trip">Ida e volta</span>
-                                    
-                                </div>
-                            </div>
-                            
-                            <a href="https://www.voegol.com.br/br/voos/GIG/BUE" target="_blank" rel="noopener" class="deal-link">
-                                Ver →
-                            </a>
-                            
-                        </div>
-                        <div class="source-tag">
-                            
-                            <span class="airline-badge gol">GOL</span>
-                            
-                            📡 GOL
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="deal-card"
-                     data-price="1407.14"
-                     data-source="gol"
-                     data-destination="Santa Cruz de la Sierra"
-                     data-title="GOL: São Paulo (GRU) → Santa Cruz de la Sierra (VVI) - 18/06/2026 a 21/06/2026"
-                     data-airline="gol">
-
-                    
-                    <img class="deal-image" src="https://assets.airtrfx.com/media-em/g3/03-1500px-x-500px-5.png"
-                         alt="Santa Cruz de la Sierra"
-                         loading="lazy"
-                         onerror="this.outerHTML='<div class=\'deal-image-placeholder\'>🌍</div>'">
-                    
-
-                    <div class="deal-body">
-                        <div class="deal-destination">Santa Cruz de la Sierra</div>
-                        <div class="deal-title">GOL: São Paulo (GRU) → Santa Cruz de la Sierra (VVI) - 18/06/2026 a 21/06/2026</div>
-                        <div class="deal-footer">
-                            <div>
-                                
-                                <div class="deal-price hot">
-                                    R$ 1.407,14
-                                </div>
-                                
-                                <div class="deal-meta">
-                                    
-                                    <span class="deal-badge round-trip">Ida e volta</span>
-                                    
-                                </div>
-                            </div>
-                            
-                            <a href="https://www.voegol.com.br/br/voos/GRU/VVI" target="_blank" rel="noopener" class="deal-link">
-                                Ver →
-                            </a>
-                            
-                        </div>
-                        <div class="source-tag">
-                            
-                            <span class="airline-badge gol">GOL</span>
-                            
-                            📡 GOL
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="deal-card"
-                     data-price="1407.14"
-                     data-source="gol"
-                     data-destination="Santa Cruz de la Sierra"
-                     data-title="GOL: São Paulo (SAO) → Santa Cruz de la Sierra (VVI) - 18/06/2026 a 02/07/2026"
-                     data-airline="gol">
-
-                    
-                    <img class="deal-image" src="https://assets.airtrfx.com/media-em/g3/03-1500px-x-500px-5.png"
-                         alt="Santa Cruz de la Sierra"
-                         loading="lazy"
-                         onerror="this.outerHTML='<div class=\'deal-image-placeholder\'>🌍</div>'">
-                    
-
-                    <div class="deal-body">
-                        <div class="deal-destination">Santa Cruz de la Sierra</div>
-                        <div class="deal-title">GOL: São Paulo (SAO) → Santa Cruz de la Sierra (VVI) - 18/06/2026 a 02/07/2026</div>
-                        <div class="deal-footer">
-                            <div>
-                                
-                                <div class="deal-price hot">
-                                    R$ 1.407,14
-                                </div>
-                                
-                                <div class="deal-meta">
-                                    
-                                    <span class="deal-badge round-trip">Ida e volta</span>
-                                    
-                                </div>
-                            </div>
-                            
-                            <a href="https://www.voegol.com.br/br/voos/SAO/VVI" target="_blank" rel="noopener" class="deal-link">
+                            <a href="https://www.voegol.com.br/br/voos/GIG/ASU" target="_blank" rel="noopener" class="deal-link">
                                 Ver →
                             </a>
                             
@@ -2066,7 +2175,7 @@
                      data-price="1486.05"
                      data-source="gol"
                      data-destination="Buenos Aires"
-                     data-title="GOL: São Paulo (GRU) → Buenos Aires (AEP) - 02/07/2026 a 06/07/2026"
+                     data-title="GOL: São Paulo (GRU) → Buenos Aires (AEP) - 01/07/2026 a 05/07/2026"
                      data-airline="gol">
 
                     
@@ -2078,7 +2187,7 @@
 
                     <div class="deal-body">
                         <div class="deal-destination">Buenos Aires</div>
-                        <div class="deal-title">GOL: São Paulo (GRU) → Buenos Aires (AEP) - 02/07/2026 a 06/07/2026</div>
+                        <div class="deal-title">GOL: São Paulo (GRU) → Buenos Aires (AEP) - 01/07/2026 a 05/07/2026</div>
                         <div class="deal-footer">
                             <div>
                                 
@@ -2111,7 +2220,7 @@
                      data-price="1486.05"
                      data-source="gol"
                      data-destination="Buenos Aires"
-                     data-title="GOL: São Paulo (SAO) → Buenos Aires (BUE) - 19/06/2026 a 25/06/2026"
+                     data-title="GOL: São Paulo (SAO) → Buenos Aires (BUE) - 13/06/2026 a 16/06/2026"
                      data-airline="gol">
 
                     
@@ -2123,7 +2232,7 @@
 
                     <div class="deal-body">
                         <div class="deal-destination">Buenos Aires</div>
-                        <div class="deal-title">GOL: São Paulo (SAO) → Buenos Aires (BUE) - 19/06/2026 a 25/06/2026</div>
+                        <div class="deal-title">GOL: São Paulo (SAO) → Buenos Aires (BUE) - 13/06/2026 a 16/06/2026</div>
                         <div class="deal-footer">
                             <div>
                                 
@@ -2139,6 +2248,51 @@
                             </div>
                             
                             <a href="https://www.voegol.com.br/br/voos/SAO/BUE" target="_blank" rel="noopener" class="deal-link">
+                                Ver →
+                            </a>
+                            
+                        </div>
+                        <div class="source-tag">
+                            
+                            <span class="airline-badge gol">GOL</span>
+                            
+                            📡 GOL
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="deal-card"
+                     data-price="1486.05"
+                     data-source="gol"
+                     data-destination="Buenos Aires"
+                     data-title="GOL: São Paulo (SAO) → Buenos Aires (AEP) - 05/07/2026 a 07/07/2026"
+                     data-airline="gol">
+
+                    
+                    <img class="deal-image" src="https://assets.airtrfx.com/media-em/g3/buenos-aires-2-1500px-x-500px.png"
+                         alt="Buenos Aires"
+                         loading="lazy"
+                         onerror="this.outerHTML='<div class=\'deal-image-placeholder\'>🌍</div>'">
+                    
+
+                    <div class="deal-body">
+                        <div class="deal-destination">Buenos Aires</div>
+                        <div class="deal-title">GOL: São Paulo (SAO) → Buenos Aires (AEP) - 05/07/2026 a 07/07/2026</div>
+                        <div class="deal-footer">
+                            <div>
+                                
+                                <div class="deal-price hot">
+                                    R$ 1.486,05
+                                </div>
+                                
+                                <div class="deal-meta">
+                                    
+                                    <span class="deal-badge round-trip">Ida e volta</span>
+                                    
+                                </div>
+                            </div>
+                            
+                            <a href="https://www.voegol.com.br/br/voos/SAO/AEP" target="_blank" rel="noopener" class="deal-link">
                                 Ver →
                             </a>
                             
@@ -2198,27 +2352,27 @@
                 </div>
                 
                 <div class="deal-card"
-                     data-price="1638.81"
+                     data-price="1640.82"
                      data-source="gol"
-                     data-destination="Buenos Aires"
-                     data-title="GOL: Rio de Janeiro (RIO) → Buenos Aires (AEP) - 18/07/2026 a 25/07/2026"
+                     data-destination="Bogotá"
+                     data-title="GOL: Rio de Janeiro (GIG) → Bogotá (BOG) - 29/06/2026 a 04/07/2026"
                      data-airline="gol">
 
                     
-                    <img class="deal-image" src="https://assets.airtrfx.com/media-em/g3/buenos-aires-2-1500px-x-500px.png"
-                         alt="Buenos Aires"
+                    <img class="deal-image" src="https://assets.airtrfx.com/media-em/g3/bogot%C3%A1-1-1500px-x-500px.png"
+                         alt="Bogotá"
                          loading="lazy"
                          onerror="this.outerHTML='<div class=\'deal-image-placeholder\'>🌍</div>'">
                     
 
                     <div class="deal-body">
-                        <div class="deal-destination">Buenos Aires</div>
-                        <div class="deal-title">GOL: Rio de Janeiro (RIO) → Buenos Aires (AEP) - 18/07/2026 a 25/07/2026</div>
+                        <div class="deal-destination">Bogotá</div>
+                        <div class="deal-title">GOL: Rio de Janeiro (GIG) → Bogotá (BOG) - 29/06/2026 a 04/07/2026</div>
                         <div class="deal-footer">
                             <div>
                                 
                                 <div class="deal-price hot">
-                                    R$ 1.638,81
+                                    R$ 1.640,82
                                 </div>
                                 
                                 <div class="deal-meta">
@@ -2228,7 +2382,7 @@
                                 </div>
                             </div>
                             
-                            <a href="https://www.voegol.com.br/br/voos/RIO/AEP" target="_blank" rel="noopener" class="deal-link">
+                            <a href="https://www.voegol.com.br/br/voos/GIG/BOG" target="_blank" rel="noopener" class="deal-link">
                                 Ver →
                             </a>
                             
@@ -2243,27 +2397,27 @@
                 </div>
                 
                 <div class="deal-card"
-                     data-price="1677.72"
-                     data-source="gol"
-                     data-destination="Assunção"
-                     data-title="GOL: São Paulo (GRU) → Assunção (ASU) - 17/06/2026 a 26/06/2026"
-                     data-airline="gol">
+                     data-price="1695.0"
+                     data-source="passagens-imperdíveis"
+                     data-destination="CORRE!!! Miami"
+                     data-title="CORRE!!! Passagens para MIAMI! Poucos trechos com valores excelentes, CORRE e garanta a sua! A partir de R$ 1.695, ida e volta, c/ taxas!"
+                     data-airline="">
 
                     
-                    <img class="deal-image" src="https://assets.airtrfx.com/media-em/g3/assun%C3%A7%C3%A3o-1-1500px-x-500px.png"
-                         alt="Assunção"
+                    <img class="deal-image" src="https://travel-cdn.cubo333.com.br/static-img/miami_florida_eua_4-612x612.png"
+                         alt="CORRE!!! Miami"
                          loading="lazy"
                          onerror="this.outerHTML='<div class=\'deal-image-placeholder\'>🌍</div>'">
                     
 
                     <div class="deal-body">
-                        <div class="deal-destination">Assunção</div>
-                        <div class="deal-title">GOL: São Paulo (GRU) → Assunção (ASU) - 17/06/2026 a 26/06/2026</div>
+                        <div class="deal-destination">CORRE!!! Miami</div>
+                        <div class="deal-title">CORRE!!! Passagens para MIAMI! Poucos trechos com valores excelentes, CORRE e garanta a sua! A partir de R$ 1.695, ida e volta, c/ taxas!</div>
                         <div class="deal-footer">
                             <div>
                                 
                                 <div class="deal-price hot">
-                                    R$ 1.677,72
+                                    R$ 1.695,00
                                 </div>
                                 
                                 <div class="deal-meta">
@@ -2273,16 +2427,14 @@
                                 </div>
                             </div>
                             
-                            <a href="https://www.voegol.com.br/br/voos/GRU/ASU" target="_blank" rel="noopener" class="deal-link">
+                            <a href="https://passagensimperdiveis.com.br/promocao-de-passagens-para-miami-2026-20/" target="_blank" rel="noopener" class="deal-link">
                                 Ver →
                             </a>
                             
                         </div>
                         <div class="source-tag">
                             
-                            <span class="airline-badge gol">GOL</span>
-                            
-                            📡 GOL
+                            📡 Passagens Imperdíveis
                         </div>
                     </div>
                 </div>
@@ -2332,7 +2484,7 @@
                      data-price="1795.3"
                      data-source="gol"
                      data-destination="Assunção"
-                     data-title="GOL: São Paulo (SAO) → Assunção (ASU) - 23/06/2026 a 26/06/2026"
+                     data-title="GOL: São Paulo (GRU) → Assunção (ASU) - 23/06/2026 a 24/06/2026"
                      data-airline="gol">
 
                     
@@ -2344,7 +2496,7 @@
 
                     <div class="deal-body">
                         <div class="deal-destination">Assunção</div>
-                        <div class="deal-title">GOL: São Paulo (SAO) → Assunção (ASU) - 23/06/2026 a 26/06/2026</div>
+                        <div class="deal-title">GOL: São Paulo (GRU) → Assunção (ASU) - 23/06/2026 a 24/06/2026</div>
                         <div class="deal-footer">
                             <div>
                                 
@@ -2359,7 +2511,7 @@
                                 </div>
                             </div>
                             
-                            <a href="https://www.voegol.com.br/br/voos/SAO/ASU" target="_blank" rel="noopener" class="deal-link">
+                            <a href="https://www.voegol.com.br/br/voos/GRU/ASU" target="_blank" rel="noopener" class="deal-link">
                                 Ver →
                             </a>
                             
@@ -2460,7 +2612,7 @@
                 </div>
                 
                 <div class="deal-card"
-                     data-price="1959.53"
+                     data-price="1959.46"
                      data-source="gol"
                      data-destination="Montevideo"
                      data-title="GOL: São Paulo (GRU) → Montevideo (MVD) - 22/06/2026 a 25/06/2026"
@@ -2480,7 +2632,7 @@
                             <div>
                                 
                                 <div class="deal-price hot">
-                                    R$ 1.959,53
+                                    R$ 1.959,46
                                 </div>
                                 
                                 <div class="deal-meta">
@@ -2675,49 +2827,6 @@
                 </div>
                 
                 <div class="deal-card"
-                     data-price="2093.0"
-                     data-source="passagens-imperdíveis"
-                     data-destination="Caribe"
-                     data-title="Passagens para o CARIBE: Cartagena, San Andres, Santa Marta, Aruba, Bahamas, Barbados, San Jose, Havana, Curaçao, Jamaica, Cancún, Cidade do Panamá, San Juan, Punta Cana, Santo Domingo e mais! A parti"
-                     data-airline="">
-
-                    
-                    <img class="deal-image" src="https://travel-cdn.cubo333.com.br/static-img/punta_cana_01-612x612.jpg"
-                         alt="Caribe"
-                         loading="lazy"
-                         onerror="this.outerHTML='<div class=\'deal-image-placeholder\'>🌍</div>'">
-                    
-
-                    <div class="deal-body">
-                        <div class="deal-destination">Caribe</div>
-                        <div class="deal-title">Passagens para o CARIBE: Cartagena, San Andres, Santa Marta, Aruba, Bahamas, Barbados, San Jose, Havana, Curaçao, Jamaica, Cancún, Cidade do Panamá, San Juan, Punta Cana, Santo Domingo e mais! A parti</div>
-                        <div class="deal-footer">
-                            <div>
-                                
-                                <div class="deal-price ">
-                                    R$ 2.093,00
-                                </div>
-                                
-                                <div class="deal-meta">
-                                    
-                                    <span class="deal-badge round-trip">Ida e volta</span>
-                                    
-                                </div>
-                            </div>
-                            
-                            <a href="https://passagensimperdiveis.com.br/promocao-de-passagens-para-colombia-cartagena-san-andres-santa-marta-aruba-oranjestad-baham-2026-20/" target="_blank" rel="noopener" class="deal-link">
-                                Ver →
-                            </a>
-                            
-                        </div>
-                        <div class="source-tag">
-                            
-                            📡 Passagens Imperdíveis
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="deal-card"
                      data-price="2094.0"
                      data-source="melhores-destinos"
                      data-destination=""
@@ -2756,51 +2865,6 @@
                         <div class="source-tag">
                             
                             📡 Melhores Destinos
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="deal-card"
-                     data-price="2152.22"
-                     data-source="gol"
-                     data-destination="Mendoza"
-                     data-title="GOL: São Paulo (GRU) → Mendoza (MDZ) - 15/06/2026 a 24/06/2026"
-                     data-airline="gol">
-
-                    
-                    <img class="deal-image" src="https://assets.airtrfx.com/media-em/g3/mendoza-2-1500px-x-500px.png"
-                         alt="Mendoza"
-                         loading="lazy"
-                         onerror="this.outerHTML='<div class=\'deal-image-placeholder\'>🌍</div>'">
-                    
-
-                    <div class="deal-body">
-                        <div class="deal-destination">Mendoza</div>
-                        <div class="deal-title">GOL: São Paulo (GRU) → Mendoza (MDZ) - 15/06/2026 a 24/06/2026</div>
-                        <div class="deal-footer">
-                            <div>
-                                
-                                <div class="deal-price ">
-                                    R$ 2.152,22
-                                </div>
-                                
-                                <div class="deal-meta">
-                                    
-                                    <span class="deal-badge round-trip">Ida e volta</span>
-                                    
-                                </div>
-                            </div>
-                            
-                            <a href="https://www.voegol.com.br/br/voos/GRU/MDZ" target="_blank" rel="noopener" class="deal-link">
-                                Ver →
-                            </a>
-                            
-                        </div>
-                        <div class="source-tag">
-                            
-                            <span class="airline-badge gol">GOL</span>
-                            
-                            📡 GOL
                         </div>
                     </div>
                 </div>
@@ -2847,27 +2911,27 @@
                 </div>
                 
                 <div class="deal-card"
-                     data-price="2237.71"
+                     data-price="2186.93"
                      data-source="gol"
-                     data-destination="Montevideo"
-                     data-title="GOL: Rio de Janeiro (GIG) → Montevideo (MVD) - 15/06/2026 a 20/06/2026"
+                     data-destination="Mendoza"
+                     data-title="GOL: São Paulo (GRU) → Mendoza (MDZ) - 22/06/2026 a 26/06/2026"
                      data-airline="gol">
 
                     
-                    <img class="deal-image" src="https://assets.airtrfx.com/media-em/g3/montevideo-2-1500px-x-500px.png"
-                         alt="Montevideo"
+                    <img class="deal-image" src="https://assets.airtrfx.com/media-em/g3/mendoza-2-1500px-x-500px.png"
+                         alt="Mendoza"
                          loading="lazy"
                          onerror="this.outerHTML='<div class=\'deal-image-placeholder\'>🌍</div>'">
                     
 
                     <div class="deal-body">
-                        <div class="deal-destination">Montevideo</div>
-                        <div class="deal-title">GOL: Rio de Janeiro (GIG) → Montevideo (MVD) - 15/06/2026 a 20/06/2026</div>
+                        <div class="deal-destination">Mendoza</div>
+                        <div class="deal-title">GOL: São Paulo (GRU) → Mendoza (MDZ) - 22/06/2026 a 26/06/2026</div>
                         <div class="deal-footer">
                             <div>
                                 
                                 <div class="deal-price ">
-                                    R$ 2.237,71
+                                    R$ 2.186,93
                                 </div>
                                 
                                 <div class="deal-meta">
@@ -2877,7 +2941,52 @@
                                 </div>
                             </div>
                             
-                            <a href="https://www.voegol.com.br/br/voos/GIG/MVD" target="_blank" rel="noopener" class="deal-link">
+                            <a href="https://www.voegol.com.br/br/voos/GRU/MDZ" target="_blank" rel="noopener" class="deal-link">
+                                Ver →
+                            </a>
+                            
+                        </div>
+                        <div class="source-tag">
+                            
+                            <span class="airline-badge gol">GOL</span>
+                            
+                            📡 GOL
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="deal-card"
+                     data-price="2255.13"
+                     data-source="gol"
+                     data-destination="Oranjestad, Aruba"
+                     data-title="GOL: São Paulo (GRU) → Oranjestad, Aruba (AUA) - 23/06/2026 a 30/06/2026"
+                     data-airline="gol">
+
+                    
+                    <img class="deal-image" src="https://assets.airtrfx.com/media-em/g3/02-1500px-x-500px-3.png"
+                         alt="Oranjestad, Aruba"
+                         loading="lazy"
+                         onerror="this.outerHTML='<div class=\'deal-image-placeholder\'>🌍</div>'">
+                    
+
+                    <div class="deal-body">
+                        <div class="deal-destination">Oranjestad, Aruba</div>
+                        <div class="deal-title">GOL: São Paulo (GRU) → Oranjestad, Aruba (AUA) - 23/06/2026 a 30/06/2026</div>
+                        <div class="deal-footer">
+                            <div>
+                                
+                                <div class="deal-price ">
+                                    R$ 2.255,13
+                                </div>
+                                
+                                <div class="deal-meta">
+                                    
+                                    <span class="deal-badge round-trip">Ida e volta</span>
+                                    
+                                </div>
+                            </div>
+                            
+                            <a href="https://www.voegol.com.br/br/voos/GRU/AUA" target="_blank" rel="noopener" class="deal-link">
                                 Ver →
                             </a>
                             
@@ -2976,10 +3085,10 @@
                 </div>
                 
                 <div class="deal-card"
-                     data-price="2494.79"
+                     data-price="2516.17"
                      data-source="gol"
                      data-destination="San José"
-                     data-title="GOL: São Paulo (GRU) → San José (SJO) - 28/11/2026 a 03/12/2026"
+                     data-title="GOL: São Paulo (GRU) → San José (SJO) - 17/09/2026 a 24/09/2026"
                      data-airline="gol">
 
                     
@@ -2991,12 +3100,12 @@
 
                     <div class="deal-body">
                         <div class="deal-destination">San José</div>
-                        <div class="deal-title">GOL: São Paulo (GRU) → San José (SJO) - 28/11/2026 a 03/12/2026</div>
+                        <div class="deal-title">GOL: São Paulo (GRU) → San José (SJO) - 17/09/2026 a 24/09/2026</div>
                         <div class="deal-footer">
                             <div>
                                 
                                 <div class="deal-price ">
-                                    R$ 2.494,79
+                                    R$ 2.516,17
                                 </div>
                                 
                                 <div class="deal-meta">
@@ -3021,27 +3130,27 @@
                 </div>
                 
                 <div class="deal-card"
-                     data-price="2538.35"
-                     data-source="gol"
-                     data-destination="Oranjestad, Aruba"
-                     data-title="GOL: São Paulo (GRU) → Oranjestad, Aruba (AUA) - 16/06/2026 a 23/06/2026"
-                     data-airline="gol">
+                     data-price="2531.0"
+                     data-source="passagens-imperdíveis"
+                     data-destination="Nova York ou Orlando"
+                     data-title="Passagens para NOVA YORK ou ORLANDO! Datas até Abril/27, inclusive na Primavera, férias e mais! A partir de R$ 2.531, ida e volta, c/ taxas!"
+                     data-airline="">
 
                     
-                    <img class="deal-image" src="https://assets.airtrfx.com/media-em/g3/02-1500px-x-500px-3.png"
-                         alt="Oranjestad, Aruba"
+                    <img class="deal-image" src="https://travel-cdn.cubo333.com.br/static-img/eua_nova_york_chrysler_building_612_612-612x612.png"
+                         alt="Nova York ou Orlando"
                          loading="lazy"
                          onerror="this.outerHTML='<div class=\'deal-image-placeholder\'>🌍</div>'">
                     
 
                     <div class="deal-body">
-                        <div class="deal-destination">Oranjestad, Aruba</div>
-                        <div class="deal-title">GOL: São Paulo (GRU) → Oranjestad, Aruba (AUA) - 16/06/2026 a 23/06/2026</div>
+                        <div class="deal-destination">Nova York ou Orlando</div>
+                        <div class="deal-title">Passagens para NOVA YORK ou ORLANDO! Datas até Abril/27, inclusive na Primavera, férias e mais! A partir de R$ 2.531, ida e volta, c/ taxas!</div>
                         <div class="deal-footer">
                             <div>
                                 
                                 <div class="deal-price ">
-                                    R$ 2.538,35
+                                    R$ 2.531,00
                                 </div>
                                 
                                 <div class="deal-meta">
@@ -3051,16 +3160,14 @@
                                 </div>
                             </div>
                             
-                            <a href="https://www.voegol.com.br/br/voos/GRU/AUA" target="_blank" rel="noopener" class="deal-link">
+                            <a href="https://passagensimperdiveis.com.br/promocao-de-passagens-para-nova-york-ou-orlando-2026-16/" target="_blank" rel="noopener" class="deal-link">
                                 Ver →
                             </a>
                             
                         </div>
                         <div class="source-tag">
                             
-                            <span class="airline-badge gol">GOL</span>
-                            
-                            📡 GOL
+                            📡 Passagens Imperdíveis
                         </div>
                     </div>
                 </div>
@@ -3070,7 +3177,7 @@
                      data-source="melhores-destinos"
                      data-destination="Nova York! Voos"
                      data-title="Seleção de passagens aéreas para Nova York! Voos a partir de R$ 2.556 com American Airlines, Latam e mais cias"
-                     data-airline="">
+                     data-airline="latam">
 
                     
                     <img class="deal-image" src="https://www.melhoresdestinos.com.br/wp-content/uploads/2022/06/empire-state-building-nova-york-capa-01-754x396.jpg"
@@ -3100,6 +3207,8 @@
                             
                         </div>
                         <div class="source-tag">
+                            
+                            <span class="airline-badge latam">LATAM</span>
                             
                             📡 Melhores Destinos
                         </div>
@@ -3324,92 +3433,6 @@
                 </div>
                 
                 <div class="deal-card"
-                     data-price="2690.0"
-                     data-source="passagens-imperdíveis"
-                     data-destination="Chicago ou Nova York"
-                     data-title="Passagens para CHICAGO ou NOVA YORK! Datas inclusive na Primavera, férias e mais! A partir de R$ 2.690, ida e volta, c/ taxas! Em até 6x SEM JUROS!"
-                     data-airline="">
-
-                    
-                    <img class="deal-image" src="https://travel-cdn.cubo333.com.br/static-img/chicago_eua-612x612.png"
-                         alt="Chicago ou Nova York"
-                         loading="lazy"
-                         onerror="this.outerHTML='<div class=\'deal-image-placeholder\'>🌍</div>'">
-                    
-
-                    <div class="deal-body">
-                        <div class="deal-destination">Chicago ou Nova York</div>
-                        <div class="deal-title">Passagens para CHICAGO ou NOVA YORK! Datas inclusive na Primavera, férias e mais! A partir de R$ 2.690, ida e volta, c/ taxas! Em até 6x SEM JUROS!</div>
-                        <div class="deal-footer">
-                            <div>
-                                
-                                <div class="deal-price ">
-                                    R$ 2.690,00
-                                </div>
-                                
-                                <div class="deal-meta">
-                                    
-                                    <span class="deal-badge round-trip">Ida e volta</span>
-                                    
-                                </div>
-                            </div>
-                            
-                            <a href="https://passagensimperdiveis.com.br/promocao-de-passagens-para-chicago-ou-nova-york-2026-10/" target="_blank" rel="noopener" class="deal-link">
-                                Ver →
-                            </a>
-                            
-                        </div>
-                        <div class="source-tag">
-                            
-                            📡 Passagens Imperdíveis
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="deal-card"
-                     data-price="2693.0"
-                     data-source="passagens-imperdíveis"
-                     data-destination="Orlando ou Tampa"
-                     data-title="Programe sua viagem para a Disney! Passagens para ORLANDO ou TAMPA! Datas inclusive na Primavera, férias e mais! A partir de R$ 2.693, ida e volta, c/ taxas! Em até 6x SEM JUROS!"
-                     data-airline="">
-
-                    
-                    <img class="deal-image" src="https://travel-cdn.cubo333.com.br/static-img/mickey_disney_orlando-612x612.png"
-                         alt="Orlando ou Tampa"
-                         loading="lazy"
-                         onerror="this.outerHTML='<div class=\'deal-image-placeholder\'>🌍</div>'">
-                    
-
-                    <div class="deal-body">
-                        <div class="deal-destination">Orlando ou Tampa</div>
-                        <div class="deal-title">Programe sua viagem para a Disney! Passagens para ORLANDO ou TAMPA! Datas inclusive na Primavera, férias e mais! A partir de R$ 2.693, ida e volta, c/ taxas! Em até 6x SEM JUROS!</div>
-                        <div class="deal-footer">
-                            <div>
-                                
-                                <div class="deal-price ">
-                                    R$ 2.693,00
-                                </div>
-                                
-                                <div class="deal-meta">
-                                    
-                                    <span class="deal-badge round-trip">Ida e volta</span>
-                                    
-                                </div>
-                            </div>
-                            
-                            <a href="https://passagensimperdiveis.com.br/promocao-de-passagens-para-orlando-ou-tampa-2026-32/" target="_blank" rel="noopener" class="deal-link">
-                                Ver →
-                            </a>
-                            
-                        </div>
-                        <div class="source-tag">
-                            
-                            📡 Passagens Imperdíveis
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="deal-card"
                      data-price="2710.04"
                      data-source="gol"
                      data-destination="Oranjestad, Aruba"
@@ -3455,10 +3478,10 @@
                 </div>
                 
                 <div class="deal-card"
-                     data-price="2718.74"
+                     data-price="2769.99"
                      data-source="gol"
                      data-destination="Orlando"
-                     data-title="GOL: Rio de Janeiro (GIG) → Orlando (MCO) - 15/11/2026 a 26/11/2026"
+                     data-title="GOL: Rio de Janeiro (RIO) → Orlando (MCO) - 17/09/2026 a 25/09/2026"
                      data-airline="gol">
 
                     
@@ -3470,57 +3493,12 @@
 
                     <div class="deal-body">
                         <div class="deal-destination">Orlando</div>
-                        <div class="deal-title">GOL: Rio de Janeiro (GIG) → Orlando (MCO) - 15/11/2026 a 26/11/2026</div>
+                        <div class="deal-title">GOL: Rio de Janeiro (RIO) → Orlando (MCO) - 17/09/2026 a 25/09/2026</div>
                         <div class="deal-footer">
                             <div>
                                 
                                 <div class="deal-price ">
-                                    R$ 2.718,74
-                                </div>
-                                
-                                <div class="deal-meta">
-                                    
-                                    <span class="deal-badge round-trip">Ida e volta</span>
-                                    
-                                </div>
-                            </div>
-                            
-                            <a href="https://www.voegol.com.br/br/voos/GIG/MCO" target="_blank" rel="noopener" class="deal-link">
-                                Ver →
-                            </a>
-                            
-                        </div>
-                        <div class="source-tag">
-                            
-                            <span class="airline-badge gol">GOL</span>
-                            
-                            📡 GOL
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="deal-card"
-                     data-price="2770.72"
-                     data-source="gol"
-                     data-destination="Orlando"
-                     data-title="GOL: Rio de Janeiro (RIO) → Orlando (MCO) - 10/11/2026 a 23/11/2026"
-                     data-airline="gol">
-
-                    
-                    <img class="deal-image" src="https://assets.airtrfx.com/media-em/g3/orlando-3-1500px-x-500px.png"
-                         alt="Orlando"
-                         loading="lazy"
-                         onerror="this.outerHTML='<div class=\'deal-image-placeholder\'>🌍</div>'">
-                    
-
-                    <div class="deal-body">
-                        <div class="deal-destination">Orlando</div>
-                        <div class="deal-title">GOL: Rio de Janeiro (RIO) → Orlando (MCO) - 10/11/2026 a 23/11/2026</div>
-                        <div class="deal-footer">
-                            <div>
-                                
-                                <div class="deal-price ">
-                                    R$ 2.770,72
+                                    R$ 2.769,99
                                 </div>
                                 
                                 <div class="deal-meta">
@@ -3581,6 +3559,51 @@
                         <div class="source-tag">
                             
                             📡 Melhores Destinos
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="deal-card"
+                     data-price="2820.8"
+                     data-source="gol"
+                     data-destination="Orlando"
+                     data-title="GOL: Rio de Janeiro (GIG) → Orlando (MCO) - 09/11/2026 a 15/11/2026"
+                     data-airline="gol">
+
+                    
+                    <img class="deal-image" src="https://assets.airtrfx.com/media-em/g3/orlando-3-1500px-x-500px.png"
+                         alt="Orlando"
+                         loading="lazy"
+                         onerror="this.outerHTML='<div class=\'deal-image-placeholder\'>🌍</div>'">
+                    
+
+                    <div class="deal-body">
+                        <div class="deal-destination">Orlando</div>
+                        <div class="deal-title">GOL: Rio de Janeiro (GIG) → Orlando (MCO) - 09/11/2026 a 15/11/2026</div>
+                        <div class="deal-footer">
+                            <div>
+                                
+                                <div class="deal-price ">
+                                    R$ 2.820,80
+                                </div>
+                                
+                                <div class="deal-meta">
+                                    
+                                    <span class="deal-badge round-trip">Ida e volta</span>
+                                    
+                                </div>
+                            </div>
+                            
+                            <a href="https://www.voegol.com.br/br/voos/GIG/MCO" target="_blank" rel="noopener" class="deal-link">
+                                Ver →
+                            </a>
+                            
+                        </div>
+                        <div class="source-tag">
+                            
+                            <span class="airline-badge gol">GOL</span>
+                            
+                            📡 GOL
                         </div>
                     </div>
                 </div>
@@ -3881,96 +3904,6 @@
                 </div>
                 
                 <div class="deal-card"
-                     data-price="3087.08"
-                     data-source="gol"
-                     data-destination="Punta Cana"
-                     data-title="GOL: São Paulo (SAO) → Punta Cana (PUJ) - 22/11/2026 a 27/11/2026"
-                     data-airline="gol">
-
-                    
-                    <img class="deal-image" src="https://assets.airtrfx.com/media-em/g3/punta-cana-2-1500px-x-500px.png"
-                         alt="Punta Cana"
-                         loading="lazy"
-                         onerror="this.outerHTML='<div class=\'deal-image-placeholder\'>🌍</div>'">
-                    
-
-                    <div class="deal-body">
-                        <div class="deal-destination">Punta Cana</div>
-                        <div class="deal-title">GOL: São Paulo (SAO) → Punta Cana (PUJ) - 22/11/2026 a 27/11/2026</div>
-                        <div class="deal-footer">
-                            <div>
-                                
-                                <div class="deal-price ">
-                                    R$ 3.087,08
-                                </div>
-                                
-                                <div class="deal-meta">
-                                    
-                                    <span class="deal-badge round-trip">Ida e volta</span>
-                                    
-                                </div>
-                            </div>
-                            
-                            <a href="https://www.voegol.com.br/br/voos/SAO/PUJ" target="_blank" rel="noopener" class="deal-link">
-                                Ver →
-                            </a>
-                            
-                        </div>
-                        <div class="source-tag">
-                            
-                            <span class="airline-badge gol">GOL</span>
-                            
-                            📡 GOL
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="deal-card"
-                     data-price="3087.09"
-                     data-source="gol"
-                     data-destination="Punta Cana"
-                     data-title="GOL: São Paulo (GRU) → Punta Cana (PUJ) - 28/08/2026 a 04/09/2026"
-                     data-airline="gol">
-
-                    
-                    <img class="deal-image" src="https://assets.airtrfx.com/media-em/g3/punta-cana-2-1500px-x-500px.png"
-                         alt="Punta Cana"
-                         loading="lazy"
-                         onerror="this.outerHTML='<div class=\'deal-image-placeholder\'>🌍</div>'">
-                    
-
-                    <div class="deal-body">
-                        <div class="deal-destination">Punta Cana</div>
-                        <div class="deal-title">GOL: São Paulo (GRU) → Punta Cana (PUJ) - 28/08/2026 a 04/09/2026</div>
-                        <div class="deal-footer">
-                            <div>
-                                
-                                <div class="deal-price ">
-                                    R$ 3.087,09
-                                </div>
-                                
-                                <div class="deal-meta">
-                                    
-                                    <span class="deal-badge round-trip">Ida e volta</span>
-                                    
-                                </div>
-                            </div>
-                            
-                            <a href="https://www.voegol.com.br/br/voos/GRU/PUJ" target="_blank" rel="noopener" class="deal-link">
-                                Ver →
-                            </a>
-                            
-                        </div>
-                        <div class="source-tag">
-                            
-                            <span class="airline-badge gol">GOL</span>
-                            
-                            📡 GOL
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="deal-card"
                      data-price="3092.0"
                      data-source="melhores-destinos"
                      data-destination="Lisboa"
@@ -4266,51 +4199,6 @@
                 </div>
                 
                 <div class="deal-card"
-                     data-price="3315.38"
-                     data-source="gol"
-                     data-destination="Orlando"
-                     data-title="GOL: São Paulo (GRU) → Orlando (MCO) - 20/11/2026 a 30/11/2026"
-                     data-airline="gol">
-
-                    
-                    <img class="deal-image" src="https://assets.airtrfx.com/media-em/g3/orlando-3-1500px-x-500px.png"
-                         alt="Orlando"
-                         loading="lazy"
-                         onerror="this.outerHTML='<div class=\'deal-image-placeholder\'>🌍</div>'">
-                    
-
-                    <div class="deal-body">
-                        <div class="deal-destination">Orlando</div>
-                        <div class="deal-title">GOL: São Paulo (GRU) → Orlando (MCO) - 20/11/2026 a 30/11/2026</div>
-                        <div class="deal-footer">
-                            <div>
-                                
-                                <div class="deal-price ">
-                                    R$ 3.315,38
-                                </div>
-                                
-                                <div class="deal-meta">
-                                    
-                                    <span class="deal-badge round-trip">Ida e volta</span>
-                                    
-                                </div>
-                            </div>
-                            
-                            <a href="https://www.voegol.com.br/br/voos/GRU/MCO" target="_blank" rel="noopener" class="deal-link">
-                                Ver →
-                            </a>
-                            
-                        </div>
-                        <div class="source-tag">
-                            
-                            <span class="airline-badge gol">GOL</span>
-                            
-                            📡 GOL
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="deal-card"
                      data-price="3343.36"
                      data-source="gol"
                      data-destination="Orlando"
@@ -4442,6 +4330,51 @@
                 </div>
                 
                 <div class="deal-card"
+                     data-price="3357.02"
+                     data-source="gol"
+                     data-destination="Orlando"
+                     data-title="GOL: São Paulo (GRU) → Orlando (MCO) - 18/08/2026 a 28/08/2026"
+                     data-airline="gol">
+
+                    
+                    <img class="deal-image" src="https://assets.airtrfx.com/media-em/g3/orlando-3-1500px-x-500px.png"
+                         alt="Orlando"
+                         loading="lazy"
+                         onerror="this.outerHTML='<div class=\'deal-image-placeholder\'>🌍</div>'">
+                    
+
+                    <div class="deal-body">
+                        <div class="deal-destination">Orlando</div>
+                        <div class="deal-title">GOL: São Paulo (GRU) → Orlando (MCO) - 18/08/2026 a 28/08/2026</div>
+                        <div class="deal-footer">
+                            <div>
+                                
+                                <div class="deal-price ">
+                                    R$ 3.357,02
+                                </div>
+                                
+                                <div class="deal-meta">
+                                    
+                                    <span class="deal-badge round-trip">Ida e volta</span>
+                                    
+                                </div>
+                            </div>
+                            
+                            <a href="https://www.voegol.com.br/br/voos/GRU/MCO" target="_blank" rel="noopener" class="deal-link">
+                                Ver →
+                            </a>
+                            
+                        </div>
+                        <div class="source-tag">
+                            
+                            <span class="airline-badge gol">GOL</span>
+                            
+                            📡 GOL
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="deal-card"
                      data-price="3428.72"
                      data-source="gol"
                      data-destination="Orlando"
@@ -4530,10 +4463,10 @@
                 </div>
                 
                 <div class="deal-card"
-                     data-price="3491.08"
+                     data-price="3492.05"
                      data-source="gol"
                      data-destination="Cancún"
-                     data-title="GOL: Rio de Janeiro (RIO) → Cancún (CUN) - 25/11/2026 a 01/12/2026"
+                     data-title="GOL: São Paulo (SAO) → Cancún (CUN) - 23/11/2026 a 02/12/2026"
                      data-airline="gol">
 
                     
@@ -4545,12 +4478,12 @@
 
                     <div class="deal-body">
                         <div class="deal-destination">Cancún</div>
-                        <div class="deal-title">GOL: Rio de Janeiro (RIO) → Cancún (CUN) - 25/11/2026 a 01/12/2026</div>
+                        <div class="deal-title">GOL: São Paulo (SAO) → Cancún (CUN) - 23/11/2026 a 02/12/2026</div>
                         <div class="deal-footer">
                             <div>
                                 
                                 <div class="deal-price ">
-                                    R$ 3.491,08
+                                    R$ 3.492,05
                                 </div>
                                 
                                 <div class="deal-meta">
@@ -4560,7 +4493,7 @@
                                 </div>
                             </div>
                             
-                            <a href="https://www.voegol.com.br/br/voos/RIO/CUN" target="_blank" rel="noopener" class="deal-link">
+                            <a href="https://www.voegol.com.br/br/voos/SAO/CUN" target="_blank" rel="noopener" class="deal-link">
                                 Ver →
                             </a>
                             
@@ -4575,27 +4508,27 @@
                 </div>
                 
                 <div class="deal-card"
-                     data-price="3511.0"
+                     data-price="3513.0"
                      data-source="passagens-imperdíveis"
-                     data-destination="Lisboa, Londres ou Paris"
-                     data-title="Passagens para LISBOA, LONDRES ou PARIS! Datas até Maio/27, inclusive no Verão Europeu, férias e mais! A partir de R$ 3.511, ida e volta, c/ taxas! Em até 4x SEM JUROS! Opções com BAGAGEM INCLUÍDA!"
+                     data-destination="Lisboa, Milão ou Roma"
+                     data-title="Passagens para LISBOA, MILÃO ou ROMA! Datas inclusive no Verão Europeu, férias e mais! A partir de R$ 3.513, ida e volta, c/ taxas! Em até 4x SEM JUROS! Opções com BAGAGEM INCLUÍDA!"
                      data-airline="">
 
                     
-                    <img class="deal-image" src="https://travel-cdn.cubo333.com.br/static-img/9db8780c_cfa6_4898_9c55_344e05603f7e-612x612.jpg"
-                         alt="Lisboa, Londres ou Paris"
+                    <img class="deal-image" src="https://travel-cdn.cubo333.com.br/static-img/3c348ffe_1bb1_46f6_ba8f_95443e9bd505-612x612.jpg"
+                         alt="Lisboa, Milão ou Roma"
                          loading="lazy"
                          onerror="this.outerHTML='<div class=\'deal-image-placeholder\'>🌍</div>'">
                     
 
                     <div class="deal-body">
-                        <div class="deal-destination">Lisboa, Londres ou Paris</div>
-                        <div class="deal-title">Passagens para LISBOA, LONDRES ou PARIS! Datas até Maio/27, inclusive no Verão Europeu, férias e mais! A partir de R$ 3.511, ida e volta, c/ taxas! Em até 4x SEM JUROS! Opções com BAGAGEM INCLUÍDA!</div>
+                        <div class="deal-destination">Lisboa, Milão ou Roma</div>
+                        <div class="deal-title">Passagens para LISBOA, MILÃO ou ROMA! Datas inclusive no Verão Europeu, férias e mais! A partir de R$ 3.513, ida e volta, c/ taxas! Em até 4x SEM JUROS! Opções com BAGAGEM INCLUÍDA!</div>
                         <div class="deal-footer">
                             <div>
                                 
                                 <div class="deal-price ">
-                                    R$ 3.511,00
+                                    R$ 3.513,00
                                 </div>
                                 
                                 <div class="deal-meta">
@@ -4605,7 +4538,7 @@
                                 </div>
                             </div>
                             
-                            <a href="https://passagensimperdiveis.com.br/promocao-de-passagens-para-lisboa-londres-ou-paris-2026/" target="_blank" rel="noopener" class="deal-link">
+                            <a href="https://passagensimperdiveis.com.br/promocao-de-passagens-para-lisboa-milao-ou-roma-2026/" target="_blank" rel="noopener" class="deal-link">
                                 Ver →
                             </a>
                             
@@ -4613,6 +4546,96 @@
                         <div class="source-tag">
                             
                             📡 Passagens Imperdíveis
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="deal-card"
+                     data-price="3517.54"
+                     data-source="gol"
+                     data-destination="Punta Cana"
+                     data-title="GOL: São Paulo (GRU) → Punta Cana (PUJ) - 11/08/2026 a 18/08/2026"
+                     data-airline="gol">
+
+                    
+                    <img class="deal-image" src="https://assets.airtrfx.com/media-em/g3/punta-cana-2-1500px-x-500px.png"
+                         alt="Punta Cana"
+                         loading="lazy"
+                         onerror="this.outerHTML='<div class=\'deal-image-placeholder\'>🌍</div>'">
+                    
+
+                    <div class="deal-body">
+                        <div class="deal-destination">Punta Cana</div>
+                        <div class="deal-title">GOL: São Paulo (GRU) → Punta Cana (PUJ) - 11/08/2026 a 18/08/2026</div>
+                        <div class="deal-footer">
+                            <div>
+                                
+                                <div class="deal-price ">
+                                    R$ 3.517,54
+                                </div>
+                                
+                                <div class="deal-meta">
+                                    
+                                    <span class="deal-badge round-trip">Ida e volta</span>
+                                    
+                                </div>
+                            </div>
+                            
+                            <a href="https://www.voegol.com.br/br/voos/GRU/PUJ" target="_blank" rel="noopener" class="deal-link">
+                                Ver →
+                            </a>
+                            
+                        </div>
+                        <div class="source-tag">
+                            
+                            <span class="airline-badge gol">GOL</span>
+                            
+                            📡 GOL
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="deal-card"
+                     data-price="3562.59"
+                     data-source="gol"
+                     data-destination="Oranjestad, Aruba"
+                     data-title="GOL: Rio de Janeiro (GIG) → Oranjestad, Aruba (AUA) - 18/08/2026 a 22/08/2026"
+                     data-airline="gol">
+
+                    
+                    <img class="deal-image" src="https://assets.airtrfx.com/media-em/g3/02-1500px-x-500px-3.png"
+                         alt="Oranjestad, Aruba"
+                         loading="lazy"
+                         onerror="this.outerHTML='<div class=\'deal-image-placeholder\'>🌍</div>'">
+                    
+
+                    <div class="deal-body">
+                        <div class="deal-destination">Oranjestad, Aruba</div>
+                        <div class="deal-title">GOL: Rio de Janeiro (GIG) → Oranjestad, Aruba (AUA) - 18/08/2026 a 22/08/2026</div>
+                        <div class="deal-footer">
+                            <div>
+                                
+                                <div class="deal-price ">
+                                    R$ 3.562,59
+                                </div>
+                                
+                                <div class="deal-meta">
+                                    
+                                    <span class="deal-badge round-trip">Ida e volta</span>
+                                    
+                                </div>
+                            </div>
+                            
+                            <a href="https://www.voegol.com.br/br/voos/GIG/AUA" target="_blank" rel="noopener" class="deal-link">
+                                Ver →
+                            </a>
+                            
+                        </div>
+                        <div class="source-tag">
+                            
+                            <span class="airline-badge gol">GOL</span>
+                            
+                            📡 GOL
                         </div>
                     </div>
                 </div>
@@ -4661,10 +4684,10 @@
                 </div>
                 
                 <div class="deal-card"
-                     data-price="3826.53"
+                     data-price="3849.08"
                      data-source="gol"
                      data-destination="Miami"
-                     data-title="GOL: São Paulo (SAO) → Miami (MIA) - 29/09/2026 a 12/10/2026"
+                     data-title="GOL: São Paulo (SAO) → Miami (MIA) - 26/11/2026 a 05/12/2026"
                      data-airline="gol">
 
                     
@@ -4676,12 +4699,12 @@
 
                     <div class="deal-body">
                         <div class="deal-destination">Miami</div>
-                        <div class="deal-title">GOL: São Paulo (SAO) → Miami (MIA) - 29/09/2026 a 12/10/2026</div>
+                        <div class="deal-title">GOL: São Paulo (SAO) → Miami (MIA) - 26/11/2026 a 05/12/2026</div>
                         <div class="deal-footer">
                             <div>
                                 
                                 <div class="deal-price ">
-                                    R$ 3.826,53
+                                    R$ 3.849,08
                                 </div>
                                 
                                 <div class="deal-meta">
@@ -4835,10 +4858,10 @@
                 </div>
                 
                 <div class="deal-card"
-                     data-price="4050.47"
+                     data-price="4075.22"
                      data-source="gol"
                      data-destination="Punta Cana"
-                     data-title="GOL: São Paulo (GRU) → Punta Cana (PUJ) - 23/06/2026 a 28/06/2026"
+                     data-title="GOL: São Paulo (GRU) → Punta Cana (PUJ) - 30/06/2026 a 08/07/2026"
                      data-airline="gol">
 
                     
@@ -4850,12 +4873,12 @@
 
                     <div class="deal-body">
                         <div class="deal-destination">Punta Cana</div>
-                        <div class="deal-title">GOL: São Paulo (GRU) → Punta Cana (PUJ) - 23/06/2026 a 28/06/2026</div>
+                        <div class="deal-title">GOL: São Paulo (GRU) → Punta Cana (PUJ) - 30/06/2026 a 08/07/2026</div>
                         <div class="deal-footer">
                             <div>
                                 
                                 <div class="deal-price ">
-                                    R$ 4.050,47
+                                    R$ 4.075,22
                                 </div>
                                 
                                 <div class="deal-meta">
@@ -4884,7 +4907,7 @@
                      data-source="melhores-destinos"
                      data-destination="Copenhague"
                      data-title="Dinamarca: passagens para Copenhague a partir de R$ 4.144 ida e volta voando Air France"
-                     data-airline="">
+                     data-airline="air-france">
 
                     
                     <img class="deal-image" src="https://www.melhoresdestinos.com.br/wp-content/uploads/2022/02/bandeira-dinamarca-capa-01-754x396.jpg"
@@ -4917,7 +4940,322 @@
                         </div>
                         <div class="source-tag">
                             
+                            <span class="airline-badge air-france">Air France</span>
+                            
                             📡 Melhores Destinos
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="deal-card"
+                     data-price="4318.44"
+                     data-source="gol"
+                     data-destination="Nova York"
+                     data-title="GOL: São Paulo (GRU) → Nova York (JFK) - 20/09/2026 a 27/09/2026"
+                     data-airline="gol">
+
+                    
+                    <img class="deal-image" src="https://assets.airtrfx.com/media-em/g3/JFK_7_11zon.png"
+                         alt="Nova York"
+                         loading="lazy"
+                         onerror="this.outerHTML='<div class=\'deal-image-placeholder\'>🌍</div>'">
+                    
+
+                    <div class="deal-body">
+                        <div class="deal-destination">Nova York</div>
+                        <div class="deal-title">GOL: São Paulo (GRU) → Nova York (JFK) - 20/09/2026 a 27/09/2026</div>
+                        <div class="deal-footer">
+                            <div>
+                                
+                                <div class="deal-price ">
+                                    R$ 4.318,44
+                                </div>
+                                
+                                <div class="deal-meta">
+                                    
+                                    <span class="deal-badge round-trip">Ida e volta</span>
+                                    
+                                </div>
+                            </div>
+                            
+                            <a href="https://www.voegol.com.br/br/voos/GRU/JFK" target="_blank" rel="noopener" class="deal-link">
+                                Ver →
+                            </a>
+                            
+                        </div>
+                        <div class="source-tag">
+                            
+                            <span class="airline-badge gol">GOL</span>
+                            
+                            📡 GOL
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="deal-card"
+                     data-price="4757.0"
+                     data-source="tap"
+                     data-destination="Madri"
+                     data-title="TAP: São Paulo (GRU) → Madri (MAD) - 11/06/2026 a 15/06/2026"
+                     data-airline="tap">
+
+                    
+                    <img class="deal-image" src="https://assets.airtrfx.com/media-em/tp/madri-1-1500px.jpg"
+                         alt="Madri"
+                         loading="lazy"
+                         onerror="this.outerHTML='<div class=\'deal-image-placeholder\'>🌍</div>'">
+                    
+
+                    <div class="deal-body">
+                        <div class="deal-destination">Madri</div>
+                        <div class="deal-title">TAP: São Paulo (GRU) → Madri (MAD) - 11/06/2026 a 15/06/2026</div>
+                        <div class="deal-footer">
+                            <div>
+                                
+                                <div class="deal-price ">
+                                    R$ 4.757,00
+                                </div>
+                                
+                                <div class="deal-meta">
+                                    
+                                    <span class="deal-badge round-trip">Ida e volta</span>
+                                    
+                                </div>
+                            </div>
+                            
+                            <a href="https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora" target="_blank" rel="noopener" class="deal-link">
+                                Ver →
+                            </a>
+                            
+                        </div>
+                        <div class="source-tag">
+                            
+                            <span class="airline-badge tap">TAP</span>
+                            
+                            📡 TAP
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="deal-card"
+                     data-price="4912.0"
+                     data-source="tap"
+                     data-destination="Milão"
+                     data-title="TAP: São Paulo (GRU) → Milão (MXP) - 03/07/2026 a 30/09/2026"
+                     data-airline="tap">
+
+                    
+                    <img class="deal-image" src="https://assets.airtrfx.com/media-em/tp/milao-1-1500px.jpg"
+                         alt="Milão"
+                         loading="lazy"
+                         onerror="this.outerHTML='<div class=\'deal-image-placeholder\'>🌍</div>'">
+                    
+
+                    <div class="deal-body">
+                        <div class="deal-destination">Milão</div>
+                        <div class="deal-title">TAP: São Paulo (GRU) → Milão (MXP) - 03/07/2026 a 30/09/2026</div>
+                        <div class="deal-footer">
+                            <div>
+                                
+                                <div class="deal-price ">
+                                    R$ 4.912,00
+                                </div>
+                                
+                                <div class="deal-meta">
+                                    
+                                    <span class="deal-badge round-trip">Ida e volta</span>
+                                    
+                                </div>
+                            </div>
+                            
+                            <a href="https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora" target="_blank" rel="noopener" class="deal-link">
+                                Ver →
+                            </a>
+                            
+                        </div>
+                        <div class="source-tag">
+                            
+                            <span class="airline-badge tap">TAP</span>
+                            
+                            📡 TAP
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="deal-card"
+                     data-price="5437.0"
+                     data-source="tap"
+                     data-destination="Lisboa"
+                     data-title="TAP: São Paulo (GRU) → Lisboa (LIS) - 09/07/2026 a 14/10/2026"
+                     data-airline="tap">
+
+                    
+                    <img class="deal-image" src="https://assets.airtrfx.com/media-em/tp/lisboa-1-1500px.jpg"
+                         alt="Lisboa"
+                         loading="lazy"
+                         onerror="this.outerHTML='<div class=\'deal-image-placeholder\'>🌍</div>'">
+                    
+
+                    <div class="deal-body">
+                        <div class="deal-destination">Lisboa</div>
+                        <div class="deal-title">TAP: São Paulo (GRU) → Lisboa (LIS) - 09/07/2026 a 14/10/2026</div>
+                        <div class="deal-footer">
+                            <div>
+                                
+                                <div class="deal-price ">
+                                    R$ 5.437,00
+                                </div>
+                                
+                                <div class="deal-meta">
+                                    
+                                    <span class="deal-badge round-trip">Ida e volta</span>
+                                    
+                                </div>
+                            </div>
+                            
+                            <a href="https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora" target="_blank" rel="noopener" class="deal-link">
+                                Ver →
+                            </a>
+                            
+                        </div>
+                        <div class="source-tag">
+                            
+                            <span class="airline-badge tap">TAP</span>
+                            
+                            📡 TAP
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="deal-card"
+                     data-price="5483.0"
+                     data-source="passagens-imperdíveis"
+                     data-destination="Guangzhou, China"
+                     data-title="Continua muito bom! Descubra uma das cidades mais vibrantes e modernas da China! Passagens para a CHINA: Guangzhou! A partir de R$ 5.483, ida e volta, c/ taxas! Em até 4x SEM JUROS! Opções com BAGAGEM"
+                     data-airline="">
+
+                    
+                    <img class="deal-image" src="https://travel-cdn.cubo333.com.br/static-img/muralha_china_612-612x612.jpg"
+                         alt="Guangzhou, China"
+                         loading="lazy"
+                         onerror="this.outerHTML='<div class=\'deal-image-placeholder\'>🌍</div>'">
+                    
+
+                    <div class="deal-body">
+                        <div class="deal-destination">Guangzhou, China</div>
+                        <div class="deal-title">Continua muito bom! Descubra uma das cidades mais vibrantes e modernas da China! Passagens para a CHINA: Guangzhou! A partir de R$ 5.483, ida e volta, c/ taxas! Em até 4x SEM JUROS! Opções com BAGAGEM</div>
+                        <div class="deal-footer">
+                            <div>
+                                
+                                <div class="deal-price ">
+                                    R$ 5.483,00
+                                </div>
+                                
+                                <div class="deal-meta">
+                                    
+                                    <span class="deal-badge round-trip">Ida e volta</span>
+                                    
+                                </div>
+                            </div>
+                            
+                            <a href="https://passagensimperdiveis.com.br/promocao-de-passagens-para-china-guangzhou-2026-2/" target="_blank" rel="noopener" class="deal-link">
+                                Ver →
+                            </a>
+                            
+                        </div>
+                        <div class="source-tag">
+                            
+                            📡 Passagens Imperdíveis
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="deal-card"
+                     data-price="5550.0"
+                     data-source="tap"
+                     data-destination="Porto"
+                     data-title="TAP: São Paulo (GRU) → Porto (OPO) - 11/06/2026 a 05/09/2026"
+                     data-airline="tap">
+
+                    
+                    <img class="deal-image" src="https://assets.airtrfx.com/media-em/tp/porto-1-1500px.jpg"
+                         alt="Porto"
+                         loading="lazy"
+                         onerror="this.outerHTML='<div class=\'deal-image-placeholder\'>🌍</div>'">
+                    
+
+                    <div class="deal-body">
+                        <div class="deal-destination">Porto</div>
+                        <div class="deal-title">TAP: São Paulo (GRU) → Porto (OPO) - 11/06/2026 a 05/09/2026</div>
+                        <div class="deal-footer">
+                            <div>
+                                
+                                <div class="deal-price ">
+                                    R$ 5.550,00
+                                </div>
+                                
+                                <div class="deal-meta">
+                                    
+                                    <span class="deal-badge round-trip">Ida e volta</span>
+                                    
+                                </div>
+                            </div>
+                            
+                            <a href="https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora" target="_blank" rel="noopener" class="deal-link">
+                                Ver →
+                            </a>
+                            
+                        </div>
+                        <div class="source-tag">
+                            
+                            <span class="airline-badge tap">TAP</span>
+                            
+                            📡 TAP
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="deal-card"
+                     data-price="5564.0"
+                     data-source="tap"
+                     data-destination="Londres"
+                     data-title="TAP: São Paulo (GRU) → Londres (LHR) - 01/07/2026 a 19/08/2026"
+                     data-airline="tap">
+
+                    
+                    <img class="deal-image" src="https://assets.airtrfx.com/media-em/tp/londres-1-1500px.jpg"
+                         alt="Londres"
+                         loading="lazy"
+                         onerror="this.outerHTML='<div class=\'deal-image-placeholder\'>🌍</div>'">
+                    
+
+                    <div class="deal-body">
+                        <div class="deal-destination">Londres</div>
+                        <div class="deal-title">TAP: São Paulo (GRU) → Londres (LHR) - 01/07/2026 a 19/08/2026</div>
+                        <div class="deal-footer">
+                            <div>
+                                
+                                <div class="deal-price ">
+                                    R$ 5.564,00
+                                </div>
+                                
+                                <div class="deal-meta">
+                                    
+                                    <span class="deal-badge round-trip">Ida e volta</span>
+                                    
+                                </div>
+                            </div>
+                            
+                            <a href="https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora" target="_blank" rel="noopener" class="deal-link">
+                                Ver →
+                            </a>
+                            
+                        </div>
+                        <div class="source-tag">
+                            
+                            <span class="airline-badge tap">TAP</span>
+                            
+                            📡 TAP
                         </div>
                     </div>
                 </div>
@@ -4954,6 +5292,47 @@
                             </div>
                             
                             <a href="https://www.melhoresdestinos.com.br/promocao/passagens-aereas-japao-tokyo-25-02-26" target="_blank" rel="noopener" class="deal-link">
+                                Ver →
+                            </a>
+                            
+                        </div>
+                        <div class="source-tag">
+                            
+                            📡 Melhores Destinos
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="deal-card"
+                     data-price="5635.0"
+                     data-source="melhores-destinos"
+                     data-destination=""
+                     data-title="Punta Cana all inclusive! Pacotes com voos + resort à beira-mar a partir de R$ 5.635 por pessoa"
+                     data-airline="">
+
+                    
+                    <img class="deal-image" src="https://www.melhoresdestinos.com.br/wp-content/uploads/2022/07/ocean-blue-sand-resort-punta-cana-capa-754x396.png"
+                         alt="Destino"
+                         loading="lazy"
+                         onerror="this.outerHTML='<div class=\'deal-image-placeholder\'>🌍</div>'">
+                    
+
+                    <div class="deal-body">
+                        <div class="deal-destination">Oferta Especial</div>
+                        <div class="deal-title">Punta Cana all inclusive! Pacotes com voos + resort à beira-mar a partir de R$ 5.635 por pessoa</div>
+                        <div class="deal-footer">
+                            <div>
+                                
+                                <div class="deal-price ">
+                                    R$ 5.635,00
+                                </div>
+                                
+                                <div class="deal-meta">
+                                    
+                                </div>
+                            </div>
+                            
+                            <a href="https://www.melhoresdestinos.com.br/promocao/punta-cana-all-inclusive-pacotes-com-voos-resort" target="_blank" rel="noopener" class="deal-link">
                                 Ver →
                             </a>
                             
@@ -5009,6 +5388,51 @@
                 </div>
                 
                 <div class="deal-card"
+                     data-price="5737.0"
+                     data-source="tap"
+                     data-destination="Roma"
+                     data-title="TAP: São Paulo (GRU) → Roma (FCO) - 15/06/2026 a 24/06/2026"
+                     data-airline="tap">
+
+                    
+                    <img class="deal-image" src="https://assets.airtrfx.com/media-em/tp/roma-1-1500px.jpg"
+                         alt="Roma"
+                         loading="lazy"
+                         onerror="this.outerHTML='<div class=\'deal-image-placeholder\'>🌍</div>'">
+                    
+
+                    <div class="deal-body">
+                        <div class="deal-destination">Roma</div>
+                        <div class="deal-title">TAP: São Paulo (GRU) → Roma (FCO) - 15/06/2026 a 24/06/2026</div>
+                        <div class="deal-footer">
+                            <div>
+                                
+                                <div class="deal-price ">
+                                    R$ 5.737,00
+                                </div>
+                                
+                                <div class="deal-meta">
+                                    
+                                    <span class="deal-badge round-trip">Ida e volta</span>
+                                    
+                                </div>
+                            </div>
+                            
+                            <a href="https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora" target="_blank" rel="noopener" class="deal-link">
+                                Ver →
+                            </a>
+                            
+                        </div>
+                        <div class="source-tag">
+                            
+                            <span class="airline-badge tap">TAP</span>
+                            
+                            📡 TAP
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="deal-card"
                      data-price="5833.0"
                      data-source="melhores-destinos"
                      data-destination=""
@@ -5047,6 +5471,51 @@
                         <div class="source-tag">
                             
                             📡 Melhores Destinos
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="deal-card"
+                     data-price="6257.0"
+                     data-source="tap"
+                     data-destination="Paris"
+                     data-title="TAP: São Paulo (GRU) → Paris (ORY) - 15/06/2026 a 25/06/2026"
+                     data-airline="tap">
+
+                    
+                    <img class="deal-image" src="https://assets.airtrfx.com/media-em/tp/paris-1-1500px.jpg"
+                         alt="Paris"
+                         loading="lazy"
+                         onerror="this.outerHTML='<div class=\'deal-image-placeholder\'>🌍</div>'">
+                    
+
+                    <div class="deal-body">
+                        <div class="deal-destination">Paris</div>
+                        <div class="deal-title">TAP: São Paulo (GRU) → Paris (ORY) - 15/06/2026 a 25/06/2026</div>
+                        <div class="deal-footer">
+                            <div>
+                                
+                                <div class="deal-price ">
+                                    R$ 6.257,00
+                                </div>
+                                
+                                <div class="deal-meta">
+                                    
+                                    <span class="deal-badge round-trip">Ida e volta</span>
+                                    
+                                </div>
+                            </div>
+                            
+                            <a href="https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora" target="_blank" rel="noopener" class="deal-link">
+                                Ver →
+                            </a>
+                            
+                        </div>
+                        <div class="source-tag">
+                            
+                            <span class="airline-badge tap">TAP</span>
+                            
+                            📡 TAP
                         </div>
                     </div>
                 </div>
@@ -5095,6 +5564,51 @@
                 </div>
                 
                 <div class="deal-card"
+                     data-price="6536.0"
+                     data-source="tap"
+                     data-destination="Porto"
+                     data-title="TAP: Rio de Janeiro (GIG) → Porto (OPO) - 24/06/2026 a 22/09/2026"
+                     data-airline="tap">
+
+                    
+                    <img class="deal-image" src="https://assets.airtrfx.com/media-em/tp/porto-1-1500px.jpg"
+                         alt="Porto"
+                         loading="lazy"
+                         onerror="this.outerHTML='<div class=\'deal-image-placeholder\'>🌍</div>'">
+                    
+
+                    <div class="deal-body">
+                        <div class="deal-destination">Porto</div>
+                        <div class="deal-title">TAP: Rio de Janeiro (GIG) → Porto (OPO) - 24/06/2026 a 22/09/2026</div>
+                        <div class="deal-footer">
+                            <div>
+                                
+                                <div class="deal-price ">
+                                    R$ 6.536,00
+                                </div>
+                                
+                                <div class="deal-meta">
+                                    
+                                    <span class="deal-badge round-trip">Ida e volta</span>
+                                    
+                                </div>
+                            </div>
+                            
+                            <a href="https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora" target="_blank" rel="noopener" class="deal-link">
+                                Ver →
+                            </a>
+                            
+                        </div>
+                        <div class="source-tag">
+                            
+                            <span class="airline-badge tap">TAP</span>
+                            
+                            📡 TAP
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="deal-card"
                      data-price="6911.0"
                      data-source="melhores-destinos"
                      data-destination=""
@@ -5138,6 +5652,51 @@
                 </div>
                 
                 <div class="deal-card"
+                     data-price="6974.0"
+                     data-source="tap"
+                     data-destination="Lisboa"
+                     data-title="TAP: Rio de Janeiro (GIG) → Lisboa (LIS) - 30/06/2026 a 17/09/2026"
+                     data-airline="tap">
+
+                    
+                    <img class="deal-image" src="https://assets.airtrfx.com/media-em/tp/lisboa-1-1500px.jpg"
+                         alt="Lisboa"
+                         loading="lazy"
+                         onerror="this.outerHTML='<div class=\'deal-image-placeholder\'>🌍</div>'">
+                    
+
+                    <div class="deal-body">
+                        <div class="deal-destination">Lisboa</div>
+                        <div class="deal-title">TAP: Rio de Janeiro (GIG) → Lisboa (LIS) - 30/06/2026 a 17/09/2026</div>
+                        <div class="deal-footer">
+                            <div>
+                                
+                                <div class="deal-price ">
+                                    R$ 6.974,00
+                                </div>
+                                
+                                <div class="deal-meta">
+                                    
+                                    <span class="deal-badge round-trip">Ida e volta</span>
+                                    
+                                </div>
+                            </div>
+                            
+                            <a href="https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora" target="_blank" rel="noopener" class="deal-link">
+                                Ver →
+                            </a>
+                            
+                        </div>
+                        <div class="source-tag">
+                            
+                            <span class="airline-badge tap">TAP</span>
+                            
+                            📡 TAP
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="deal-card"
                      data-price="8118.0"
                      data-source="passagens-imperdíveis"
                      data-destination="2 em 1: Nova York + Indonésia ou Taiwan"
@@ -5174,6 +5733,45 @@
                         <div class="source-tag">
                             
                             📡 Passagens Imperdíveis
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="deal-card"
+                     data-price="0"
+                     data-source="melhores-destinos"
+                     data-destination=""
+                     data-title="12 excelentes promoções de passagens, hotéis e conta internacional para você aproveitar hoje!"
+                     data-airline="">
+
+                    
+                    <img class="deal-image" src="https://www.melhoresdestinos.com.br/wp-content/uploads/2024/01/verao-sol-praia-passagens-aereas-capa-754x396.jpeg"
+                         alt="Destino"
+                         loading="lazy"
+                         onerror="this.outerHTML='<div class=\'deal-image-placeholder\'>🌍</div>'">
+                    
+
+                    <div class="deal-body">
+                        <div class="deal-destination">Oferta Especial</div>
+                        <div class="deal-title">12 excelentes promoções de passagens, hotéis e conta internacional para você aproveitar hoje!</div>
+                        <div class="deal-footer">
+                            <div>
+                                
+                                <div class="deal-price">Consulte</div>
+                                
+                                <div class="deal-meta">
+                                    
+                                </div>
+                            </div>
+                            
+                            <a href="https://www.melhoresdestinos.com.br/promocao/passagens-hotel-conta-internacional-07-06-26" target="_blank" rel="noopener" class="deal-link">
+                                Ver →
+                            </a>
+                            
+                        </div>
+                        <div class="source-tag">
+                            
+                            📡 Melhores Destinos
                         </div>
                     </div>
                 </div>

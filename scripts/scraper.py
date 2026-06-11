@@ -6,10 +6,10 @@ import json
 import hashlib
 import logging
 import sys
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
-from sources import melhores_destinos, passagens_imperdiveis, gol, viaje_de_promo
+from sources import melhores_destinos, passagens_imperdiveis, gol, viaje_de_promo, tap
 
 logging.basicConfig(
     level=logging.INFO,
@@ -20,6 +20,7 @@ logger = logging.getLogger("scraper")
 DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 DEALS_FILE = DATA_DIR / "deals.json"
 MAX_DEALS = 200  # keep the last N deals
+MAX_AGE_DAYS = 1  # drop deals older than 24h (stale promos removed quickly)
 
 
 def _deal_id(deal: dict) -> str:
@@ -54,6 +55,7 @@ def fetch_all() -> list[dict]:
         ("Melhores Destinos", melhores_destinos.fetch_deals),
         ("Passagens Imperdíveis", passagens_imperdiveis.fetch_deals),
         ("GOL", gol.fetch_deals),
+        ("TAP", tap.fetch_deals),
         ("ViajeDePromo", viaje_de_promo.fetch_deals),
     ]
 
@@ -70,15 +72,31 @@ def fetch_all() -> list[dict]:
     for deal in all_new:
         deal["id"] = _deal_id(deal)
 
-    # Merge with existing
+    # Merge with existing (drop stale deals)
     existing = _load_existing()
-    existing_ids = {d.get("id") for d in existing}
+    cutoff = datetime.now(timezone.utc) - timedelta(days=MAX_AGE_DAYS)
+    fresh_existing = []
+    stale_count = 0
+    for d in existing:
+        fetched = d.get("fetched_at", "")
+        if fetched:
+            try:
+                ts = datetime.fromisoformat(fetched)
+                if ts < cutoff:
+                    stale_count += 1
+                    continue
+            except (ValueError, TypeError):
+                pass
+        fresh_existing.append(d)
+    if stale_count:
+        logger.info("Dropped %d stale deals (older than %d days)", stale_count, MAX_AGE_DAYS)
 
+    existing_ids = {d.get("id") for d in fresh_existing}
     fresh = [d for d in all_new if d["id"] not in existing_ids]
     logger.info("Found %d new deals (out of %d total fetched)", len(fresh), len(all_new))
 
-    # Combine: new first, then existing
-    combined = fresh + existing
+    # Combine: new first, then existing (already filtered)
+    combined = fresh + fresh_existing
 
     # Sort by price (cheapest first), deals without price go last
     combined.sort(key=lambda d: d.get("price_brl") or 999999)
