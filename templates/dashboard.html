@@ -359,12 +359,13 @@
             <button class="filter-btn" data-filter="cheap">Até R$ 2.000</button>
             <button class="filter-btn" data-filter="medium">R$ 2.000 - 4.000</button>
             {% for source in sources %}
-            <button class="filter-btn" data-filter="source-{{ source | lower | replace(' ', '-') }}">{{ source }}</button>
+            <button class="filter-btn" data-filter="source-{{ source | lower | replace(' ', '-') }}">📰&nbsp;{{ source }}</button>
             {% endfor %}
+        </div>
+        <div class="filters" style="margin-top: 0.5rem;">
+            <span style="color: var(--text-muted); font-size: 0.8rem; margin-right: 0.5rem;">✈️ Companhias:</span>
             {% for airline in airlines %}
-            {% if airline not in sources %}
             <button class="filter-btn" data-filter="airline-{{ airline | lower | replace(' ', '-') }}">{{ airline }}</button>
-            {% endif %}
             {% endfor %}
         </div>
 

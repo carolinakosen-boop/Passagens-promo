@@ -20,7 +20,7 @@ logger = logging.getLogger("scraper")
 DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 DEALS_FILE = DATA_DIR / "deals.json"
 MAX_DEALS = 200  # keep the last N deals
-MAX_AGE_DAYS = 3  # drop deals older than this many days
+MAX_AGE_DAYS = 1  # drop deals older than 24h (stale promos removed quickly)
 
 
 def _deal_id(deal: dict) -> str:

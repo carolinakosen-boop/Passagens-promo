@@ -15,7 +15,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-09-26",
     "return_date": "",
-    "fetched_at": "2026-06-10T21:13:16.152172+00:00",
+    "fetched_at": "2026-06-10T21:18:22.706886+00:00",
     "id": "7eb3196a7a36"
   },
   {
@@ -34,7 +34,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-10-08",
     "return_date": "",
-    "fetched_at": "2026-06-10T21:13:16.152193+00:00",
+    "fetched_at": "2026-06-10T21:18:22.706905+00:00",
     "id": "484bf8eaa74a"
   },
   {
@@ -53,7 +53,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-10-01",
     "return_date": "",
-    "fetched_at": "2026-06-10T21:13:16.152198+00:00",
+    "fetched_at": "2026-06-10T21:18:22.706910+00:00",
     "id": "75d3bfab857c"
   },
   {
@@ -72,8 +72,21 @@
     "travel_class": "Econômica",
     "departure_date": "2026-09-01",
     "return_date": "",
-    "fetched_at": "2026-06-10T21:13:16.152202+00:00",
+    "fetched_at": "2026-06-10T21:18:22.706914+00:00",
     "id": "a7f18cec01d8"
+  },
+  {
+    "source": "Melhores Destinos",
+    "title": "Gol, Latam e Azul têm promoções de passagens nacionais a partir de R$ 252 ida e volta!",
+    "destination": null,
+    "price_brl": 252.0,
+    "currency": "BRL",
+    "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-nacionais-03-06-26",
+    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2024/12/azul-gol-latam-capa-754x396.jpg",
+    "airline": "LATAM",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-06-11T00:43:01.381057+00:00",
+    "id": "ccca1d217560"
   },
   {
     "source": "GOL",
@@ -91,7 +104,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-10-30",
     "return_date": "",
-    "fetched_at": "2026-06-10T21:13:16.152206+00:00",
+    "fetched_at": "2026-06-10T21:18:22.706918+00:00",
     "id": "432d8d500b8d"
   },
   {
@@ -103,7 +116,7 @@
     "link": "https://passagensimperdiveis.com.br/passagens-nacionais-em-promocao-2026-64/",
     "image_url": "https://travel-cdn.cubo333.com.br/static-img/brasilia_distrito_federal_nacionais_brasil-612x612.png",
     "trip_type": "round_trip",
-    "fetched_at": "2026-06-10T21:13:15.504717+00:00",
+    "fetched_at": "2026-06-10T21:18:21.738112+00:00",
     "id": "24cae0fd3ecc"
   },
   {
@@ -122,7 +135,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-11-06",
     "return_date": "",
-    "fetched_at": "2026-06-10T21:13:16.152210+00:00",
+    "fetched_at": "2026-06-10T21:18:22.706922+00:00",
     "id": "93aaad881322"
   },
   {
@@ -134,7 +147,7 @@
     "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-belo-horizonte-ou-brasilia-2026-4/",
     "image_url": "https://travel-cdn.cubo333.com.br/static-img/brasilia_nacionais_612-612x612.png",
     "trip_type": "round_trip",
-    "fetched_at": "2026-06-10T21:13:15.504669+00:00",
+    "fetched_at": "2026-06-10T21:18:21.738065+00:00",
     "id": "8eae1e8405d7"
   },
   {
@@ -153,7 +166,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-09-10",
     "return_date": "",
-    "fetched_at": "2026-06-10T21:13:16.152213+00:00",
+    "fetched_at": "2026-06-10T21:18:22.706925+00:00",
     "id": "bdffab0457c2"
   },
   {
@@ -172,7 +185,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-06-26",
     "return_date": "",
-    "fetched_at": "2026-06-10T21:13:16.488673+00:00",
+    "fetched_at": "2026-06-10T21:18:23.445996+00:00",
     "id": "d9f59c371c0b"
   },
   {
@@ -191,7 +204,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-11-24",
     "return_date": "",
-    "fetched_at": "2026-06-10T21:13:16.152217+00:00",
+    "fetched_at": "2026-06-10T21:18:22.706930+00:00",
     "id": "030dd8674bd4"
   },
   {
@@ -203,7 +216,7 @@
     "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-rio-de-janeiro-ou-vitoria-2026-7/",
     "image_url": "https://travel-cdn.cubo333.com.br/static-img/brasil_niteroi_rj_612_612-612x612.png",
     "trip_type": "round_trip",
-    "fetched_at": "2026-06-10T21:13:15.504638+00:00",
+    "fetched_at": "2026-06-10T21:18:21.738032+00:00",
     "id": "4eae706518fc"
   },
   {
@@ -216,7 +229,7 @@
     "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2026/01/salvador-bahia-passagens-aereas-capa-754x396.jpg",
     "airline": null,
     "trip_type": "round_trip",
-    "fetched_at": "2026-06-10T21:13:15.009106+00:00",
+    "fetched_at": "2026-06-10T21:18:17.917992+00:00",
     "id": "ba9d1b8b6503"
   },
   {
@@ -228,7 +241,7 @@
     "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-sao-luis-2026-13/",
     "image_url": "https://travel-cdn.cubo333.com.br/static-img/0u1a1964-612x612.jpg",
     "trip_type": "round_trip",
-    "fetched_at": "2026-06-10T21:13:15.504695+00:00",
+    "fetched_at": "2026-06-10T21:18:21.738091+00:00",
     "id": "f1b79202c06e"
   },
   {
@@ -247,7 +260,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-06-30",
     "return_date": "",
-    "fetched_at": "2026-06-10T21:13:16.488692+00:00",
+    "fetched_at": "2026-06-10T21:18:23.446014+00:00",
     "id": "ca9f30208a46"
   },
   {
@@ -266,7 +279,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-06-23",
     "return_date": "",
-    "fetched_at": "2026-06-10T21:13:16.488696+00:00",
+    "fetched_at": "2026-06-10T21:18:23.446018+00:00",
     "id": "a68e97390dab"
   },
   {
@@ -285,7 +298,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-06-29",
     "return_date": "",
-    "fetched_at": "2026-06-10T21:13:16.488700+00:00",
+    "fetched_at": "2026-06-10T21:18:23.446022+00:00",
     "id": "b6cef36f8862"
   },
   {
@@ -304,7 +317,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-06-19",
     "return_date": "",
-    "fetched_at": "2026-06-10T21:13:16.488704+00:00",
+    "fetched_at": "2026-06-10T21:18:23.446027+00:00",
     "id": "26300ab5ac48"
   },
   {
@@ -316,7 +329,7 @@
     "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-santarem-2026-4/",
     "image_url": "https://travel-cdn.cubo333.com.br/static-img/alter_do_chao_para_santarem1-612x612.jpg",
     "trip_type": "round_trip",
-    "fetched_at": "2026-06-10T21:13:15.504686+00:00",
+    "fetched_at": "2026-06-10T21:18:21.738082+00:00",
     "id": "d36bcd1721ed"
   },
   {
@@ -329,7 +342,7 @@
     "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2025/04/montevideu-buenos-aires-santiago-passagens-aereas-baratas-capa-754x396.jpg",
     "airline": null,
     "trip_type": "unknown",
-    "fetched_at": "2026-06-10T21:13:15.009447+00:00",
+    "fetched_at": "2026-06-10T21:18:17.918327+00:00",
     "id": "c4db8b8f2a51"
   },
   {
@@ -342,7 +355,7 @@
     "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-santiago-capa2019-03-754x396.jpg",
     "airline": null,
     "trip_type": "round_trip",
-    "fetched_at": "2026-06-10T21:13:15.008085+00:00",
+    "fetched_at": "2026-06-10T21:18:17.916966+00:00",
     "id": "6f793daaac34"
   },
   {
@@ -354,7 +367,7 @@
     "link": "https://passagensimperdiveis.com.br/selecao-de-passagens-para-america-do-sul-argentina-bolivia-chile-colombia-paraguai-peru-ou-u-2026-2/",
     "image_url": "https://travel-cdn.cubo333.com.br/static-img/santiago_chile-612x612.png",
     "trip_type": "round_trip",
-    "fetched_at": "2026-06-10T21:13:15.504662+00:00",
+    "fetched_at": "2026-06-10T21:18:21.738057+00:00",
     "id": "0f946ee4024a"
   },
   {
@@ -373,7 +386,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-06-15",
     "return_date": "2026-06-22",
-    "fetched_at": "2026-06-10T21:13:16.152317+00:00",
+    "fetched_at": "2026-06-10T21:18:22.707029+00:00",
     "id": "0d428d41db4b"
   },
   {
@@ -392,7 +405,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-06-14",
     "return_date": "2026-06-29",
-    "fetched_at": "2026-06-10T21:13:16.152321+00:00",
+    "fetched_at": "2026-06-10T21:18:22.707032+00:00",
     "id": "5bdca45c5eb2"
   },
   {
@@ -405,7 +418,7 @@
     "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2019/05/passagens-aereas-santiago-capa2019-08-754x396.jpg",
     "airline": null,
     "trip_type": "round_trip",
-    "fetched_at": "2026-06-10T21:13:15.005326+00:00",
+    "fetched_at": "2026-06-10T21:18:17.914090+00:00",
     "id": "74a90d5359ee"
   },
   {
@@ -418,7 +431,7 @@
     "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2019/05/passagens-aereas-santiago-capa2019-08-754x396.jpg",
     "airline": null,
     "trip_type": "round_trip",
-    "fetched_at": "2026-06-10T21:13:15.008375+00:00",
+    "fetched_at": "2026-06-10T21:18:17.917254+00:00",
     "id": "04820d9be26b"
   },
   {
@@ -430,7 +443,7 @@
     "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-bolivia-cochabamba-la-paz-santa-cruz-de-la-sierra-2026-10/",
     "image_url": "https://travel-cdn.cubo333.com.br/static-img/santa_cruz_sierra_bolivia-612x612.png",
     "trip_type": "round_trip",
-    "fetched_at": "2026-06-10T21:13:15.504713+00:00",
+    "fetched_at": "2026-06-10T21:18:21.738109+00:00",
     "id": "360e0d9c0b95"
   },
   {
@@ -449,7 +462,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-06-12",
     "return_date": "2026-06-21",
-    "fetched_at": "2026-06-10T21:13:16.152324+00:00",
+    "fetched_at": "2026-06-10T21:18:22.707036+00:00",
     "id": "0cc9826b852e"
   },
   {
@@ -468,7 +481,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-06-24",
     "return_date": "2026-06-28",
-    "fetched_at": "2026-06-10T21:13:16.152327+00:00",
+    "fetched_at": "2026-06-10T21:18:22.707039+00:00",
     "id": "d55f4b2964cd"
   },
   {
@@ -487,7 +500,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-09-09",
     "return_date": "2027-04-11",
-    "fetched_at": "2026-06-10T21:13:16.152221+00:00",
+    "fetched_at": "2026-06-10T21:18:22.706934+00:00",
     "id": "426718d61687"
   },
   {
@@ -499,7 +512,7 @@
     "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-buenos-aires-ou-santiago-2026-17/",
     "image_url": "https://travel-cdn.cubo333.com.br/static-img/buenos_aires_argentina-612x612.png",
     "trip_type": "round_trip",
-    "fetched_at": "2026-06-10T21:13:15.504690+00:00",
+    "fetched_at": "2026-06-10T21:18:21.738087+00:00",
     "id": "59207275989f"
   },
   {
@@ -518,7 +531,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-06-30",
     "return_date": "2026-07-02",
-    "fetched_at": "2026-06-10T21:13:16.152225+00:00",
+    "fetched_at": "2026-06-10T21:18:22.706938+00:00",
     "id": "07de9af82ce0"
   },
   {
@@ -537,7 +550,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-06-23",
     "return_date": "2026-07-01",
-    "fetched_at": "2026-06-10T21:13:16.152229+00:00",
+    "fetched_at": "2026-06-10T21:18:22.706941+00:00",
     "id": "756a0b24a06d"
   },
   {
@@ -556,7 +569,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-06-23",
     "return_date": "2026-06-28",
-    "fetched_at": "2026-06-10T21:13:16.152232+00:00",
+    "fetched_at": "2026-06-10T21:18:22.706945+00:00",
     "id": "5b5a032df16e"
   },
   {
@@ -575,7 +588,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-06-20",
     "return_date": "2026-06-25",
-    "fetched_at": "2026-06-10T21:13:16.152236+00:00",
+    "fetched_at": "2026-06-10T21:18:22.706948+00:00",
     "id": "03886457ca8b"
   },
   {
@@ -588,7 +601,7 @@
     "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2024/07/airbus-a350-turkish-capa-754x396.jpg",
     "airline": "Turkish Airlines",
     "trip_type": "unknown",
-    "fetched_at": "2026-06-10T21:13:15.007414+00:00",
+    "fetched_at": "2026-06-10T21:18:17.916308+00:00",
     "id": "ba933aec0fdb"
   },
   {
@@ -607,7 +620,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-06-12",
     "return_date": "2026-06-20",
-    "fetched_at": "2026-06-10T21:13:16.152330+00:00",
+    "fetched_at": "2026-06-10T21:18:22.707042+00:00",
     "id": "0e8e4a9d5185"
   },
   {
@@ -620,7 +633,7 @@
     "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2023/08/lima-peru-capa-754x396.jpeg",
     "airline": null,
     "trip_type": "round_trip",
-    "fetched_at": "2026-06-10T21:13:15.007931+00:00",
+    "fetched_at": "2026-06-10T21:18:17.916811+00:00",
     "id": "4735e0796b78"
   },
   {
@@ -639,7 +652,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-06-14",
     "return_date": "2026-06-28",
-    "fetched_at": "2026-06-10T21:13:16.152334+00:00",
+    "fetched_at": "2026-06-10T21:18:22.707045+00:00",
     "id": "062f50445c99"
   },
   {
@@ -652,7 +665,7 @@
     "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2022/12/mendoza-argentina-capa-01-754x396.jpg",
     "airline": null,
     "trip_type": "round_trip",
-    "fetched_at": "2026-06-10T21:13:15.009176+00:00",
+    "fetched_at": "2026-06-10T21:18:17.918061+00:00",
     "id": "dbe8f6917c03"
   },
   {
@@ -671,7 +684,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-07-01",
     "return_date": "2026-07-05",
-    "fetched_at": "2026-06-10T21:13:16.152239+00:00",
+    "fetched_at": "2026-06-10T21:18:22.706952+00:00",
     "id": "f6a781407596"
   },
   {
@@ -690,7 +703,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-06-13",
     "return_date": "2026-06-16",
-    "fetched_at": "2026-06-10T21:13:16.152243+00:00",
+    "fetched_at": "2026-06-10T21:18:22.706955+00:00",
     "id": "8ab8ddd522d1"
   },
   {
@@ -709,7 +722,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-07-05",
     "return_date": "2026-07-07",
-    "fetched_at": "2026-06-10T21:13:16.152246+00:00",
+    "fetched_at": "2026-06-10T21:18:22.706958+00:00",
     "id": "b412eee76e7b"
   },
   {
@@ -728,7 +741,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-06-21",
     "return_date": "2026-06-25",
-    "fetched_at": "2026-06-10T21:13:16.152249+00:00",
+    "fetched_at": "2026-06-10T21:18:22.706961+00:00",
     "id": "2a02b2b4be70"
   },
   {
@@ -747,7 +760,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-06-29",
     "return_date": "2026-07-04",
-    "fetched_at": "2026-06-10T21:13:16.152338+00:00",
+    "fetched_at": "2026-06-10T21:18:22.707049+00:00",
     "id": "466ecf0e2cd0"
   },
   {
@@ -759,7 +772,7 @@
     "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-miami-2026-20/",
     "image_url": "https://travel-cdn.cubo333.com.br/static-img/miami_florida_eua_4-612x612.png",
     "trip_type": "round_trip",
-    "fetched_at": "2026-06-10T21:13:15.504682+00:00",
+    "fetched_at": "2026-06-10T21:18:21.738078+00:00",
     "id": "9b33f49ea0fc"
   },
   {
@@ -772,7 +785,7 @@
     "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2021/10/miami-beach-eua-capa2-754x396.jpg",
     "airline": null,
     "trip_type": "unknown",
-    "fetched_at": "2026-06-10T21:13:15.008445+00:00",
+    "fetched_at": "2026-06-10T21:18:17.917329+00:00",
     "id": "e570c7061730"
   },
   {
@@ -791,7 +804,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-06-23",
     "return_date": "2026-06-24",
-    "fetched_at": "2026-06-10T21:13:16.152342+00:00",
+    "fetched_at": "2026-06-10T21:18:22.707053+00:00",
     "id": "7a3855ad367b"
   },
   {
@@ -803,7 +816,7 @@
     "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-argentina-mendoza-2026-4/",
     "image_url": "https://travel-cdn.cubo333.com.br/static-img/mendoza_argentina_vinho-612x612.png",
     "trip_type": "round_trip",
-    "fetched_at": "2026-06-10T21:13:15.504699+00:00",
+    "fetched_at": "2026-06-10T21:18:21.738095+00:00",
     "id": "ac88c40440ad"
   },
   {
@@ -816,7 +829,7 @@
     "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2023/03/broadway-nova-york-show-capa--754x396.jpeg",
     "airline": null,
     "trip_type": "round_trip",
-    "fetched_at": "2026-06-10T21:13:15.007732+00:00",
+    "fetched_at": "2026-06-10T21:18:17.916616+00:00",
     "id": "7e9d09441552"
   },
   {
@@ -835,7 +848,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-06-22",
     "return_date": "2026-06-25",
-    "fetched_at": "2026-06-10T21:13:16.488711+00:00",
+    "fetched_at": "2026-06-10T21:18:23.446035+00:00",
     "id": "f088514d234a"
   },
   {
@@ -854,7 +867,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-06-10",
     "return_date": "2026-06-20",
-    "fetched_at": "2026-06-10T21:13:16.488715+00:00",
+    "fetched_at": "2026-06-10T21:18:23.446039+00:00",
     "id": "2290438621db"
   },
   {
@@ -867,7 +880,7 @@
     "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2024/10/promocao-passagens-aereas-estados-unidos-orlando-nova-york-los-angeles-miami-capa-754x396.jpg",
     "airline": null,
     "trip_type": "unknown",
-    "fetched_at": "2026-06-10T21:13:15.006014+00:00",
+    "fetched_at": "2026-06-10T21:18:17.914858+00:00",
     "id": "036a03cb9bc2"
   },
   {
@@ -880,7 +893,7 @@
     "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2023/01/passagens-aereas-orlando-eua-02-capa-754x396.jpg",
     "airline": null,
     "trip_type": "round_trip",
-    "fetched_at": "2026-06-10T21:13:15.006421+00:00",
+    "fetched_at": "2026-06-10T21:18:17.915267+00:00",
     "id": "123e076f9cbd"
   },
   {
@@ -893,7 +906,7 @@
     "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2024/02/apartamentos-orlando-capa-754x396.jpg",
     "airline": null,
     "trip_type": "unknown",
-    "fetched_at": "2026-06-10T21:13:15.005823+00:00",
+    "fetched_at": "2026-06-10T21:18:17.914649+00:00",
     "id": "86fc16c73ccd"
   },
   {
@@ -906,7 +919,7 @@
     "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2021/10/orlando-eua-disney-capa7-754x396.jpg",
     "airline": null,
     "trip_type": "round_trip",
-    "fetched_at": "2026-06-10T21:13:15.008521+00:00",
+    "fetched_at": "2026-06-10T21:18:17.917419+00:00",
     "id": "54df048cdf84"
   },
   {
@@ -919,7 +932,7 @@
     "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2026/02/miami-orlando-nova-york-passagens-aereas-capa-2026-754x396.jpg",
     "airline": null,
     "trip_type": "unknown",
-    "fetched_at": "2026-06-10T21:13:15.009276+00:00",
+    "fetched_at": "2026-06-10T21:18:17.918159+00:00",
     "id": "0ba43ad894fd"
   },
   {
@@ -938,7 +951,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-06-22",
     "return_date": "2026-06-26",
-    "fetched_at": "2026-06-10T21:13:16.488719+00:00",
+    "fetched_at": "2026-06-10T21:18:23.446042+00:00",
     "id": "de1b20141e0f"
   },
   {
@@ -957,7 +970,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-06-23",
     "return_date": "2026-06-30",
-    "fetched_at": "2026-06-10T21:13:16.152291+00:00",
+    "fetched_at": "2026-06-10T21:18:22.707002+00:00",
     "id": "cef939444441"
   },
   {
@@ -970,7 +983,7 @@
     "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2023/03/broadway-nova-york-show-capa--754x396.jpeg",
     "airline": null,
     "trip_type": "unknown",
-    "fetched_at": "2026-06-10T21:13:15.008671+00:00",
+    "fetched_at": "2026-06-10T21:18:17.917566+00:00",
     "id": "5f63ac4de1e1"
   },
   {
@@ -983,7 +996,7 @@
     "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2026/03/semana-do-consumidor-2026-capa-lisboa-portugal-2-754x396.jpg",
     "airline": null,
     "trip_type": "round_trip",
-    "fetched_at": "2026-06-10T21:13:15.008273+00:00",
+    "fetched_at": "2026-06-10T21:18:17.917154+00:00",
     "id": "0bdde12fd054"
   },
   {
@@ -1002,8 +1015,20 @@
     "travel_class": "Econômica",
     "departure_date": "2026-09-17",
     "return_date": "2026-09-24",
-    "fetched_at": "2026-06-10T21:13:16.152294+00:00",
+    "fetched_at": "2026-06-10T21:18:22.707006+00:00",
     "id": "b607c760f3ed"
+  },
+  {
+    "source": "Passagens Imperdíveis",
+    "title": "Passagens para NOVA YORK ou ORLANDO! Datas até Abril/27, inclusive na Primavera, férias e mais! A partir de R$ 2.531, ida e volta, c/ taxas!",
+    "destination": "Nova York ou Orlando",
+    "price_brl": 2531.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-nova-york-ou-orlando-2026-16/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/eua_nova_york_chrysler_building_612_612-612x612.png",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-06-11T00:43:02.101862+00:00",
+    "id": "1dd7a1823b7b"
   },
   {
     "source": "Melhores Destinos",
@@ -1015,7 +1040,7 @@
     "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2022/06/empire-state-building-nova-york-capa-01-754x396.jpg",
     "airline": "LATAM",
     "trip_type": "unknown",
-    "fetched_at": "2026-06-10T21:13:15.004927+00:00",
+    "fetched_at": "2026-06-10T21:18:17.913644+00:00",
     "id": "07c1f4fc2e2b"
   },
   {
@@ -1034,7 +1059,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-06-12",
     "return_date": "2026-06-28",
-    "fetched_at": "2026-06-10T21:13:16.152254+00:00",
+    "fetched_at": "2026-06-10T21:18:22.706966+00:00",
     "id": "1846da3b850e"
   },
   {
@@ -1053,7 +1078,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-11-01",
     "return_date": "2026-11-12",
-    "fetched_at": "2026-06-10T21:13:16.152257+00:00",
+    "fetched_at": "2026-06-10T21:18:22.706970+00:00",
     "id": "022f5735f764"
   },
   {
@@ -1066,7 +1091,7 @@
     "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2024/04/passagens-milhas-disney-orlando-florida-capa-754x396.jpeg",
     "airline": null,
     "trip_type": "round_trip",
-    "fetched_at": "2026-06-10T21:13:15.008005+00:00",
+    "fetched_at": "2026-06-10T21:18:17.916886+00:00",
     "id": "c07b1b727567"
   },
   {
@@ -1079,7 +1104,7 @@
     "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2017/05/canada-capa-754x396.jpg",
     "airline": null,
     "trip_type": "unknown",
-    "fetched_at": "2026-06-10T21:13:15.009033+00:00",
+    "fetched_at": "2026-06-10T21:18:17.917919+00:00",
     "id": "b2a354eaf8e6"
   },
   {
@@ -1092,7 +1117,7 @@
     "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2024/06/disney-brasileira-capa-754x396.jpeg",
     "airline": null,
     "trip_type": "round_trip",
-    "fetched_at": "2026-06-10T21:13:15.007219+00:00",
+    "fetched_at": "2026-06-10T21:18:17.916114+00:00",
     "id": "f6acfe5d5ce5"
   },
   {
@@ -1111,7 +1136,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-06-19",
     "return_date": "2026-06-24",
-    "fetched_at": "2026-06-10T21:13:16.152297+00:00",
+    "fetched_at": "2026-06-10T21:18:22.707009+00:00",
     "id": "6360ca657b36"
   },
   {
@@ -1130,7 +1155,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-09-17",
     "return_date": "2026-09-25",
-    "fetched_at": "2026-06-10T21:13:16.152260+00:00",
+    "fetched_at": "2026-06-10T21:18:22.706973+00:00",
     "id": "18771fd5b0c6"
   },
   {
@@ -1143,7 +1168,7 @@
     "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2022/03/2x1-europa-portugal-espanha-lisboa-madri-capa-754x396.jpg",
     "airline": null,
     "trip_type": "unknown",
-    "fetched_at": "2026-06-10T21:13:15.008778+00:00",
+    "fetched_at": "2026-06-10T21:18:17.917670+00:00",
     "id": "431982eb417a"
   },
   {
@@ -1162,7 +1187,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-11-09",
     "return_date": "2026-11-15",
-    "fetched_at": "2026-06-10T21:13:16.152264+00:00",
+    "fetched_at": "2026-06-10T21:18:22.706976+00:00",
     "id": "2f63cff9cbce"
   },
   {
@@ -1175,7 +1200,7 @@
     "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2023/01/passagens-aereas-lisboa-portugal-06-capa-754x396.jpg",
     "airline": null,
     "trip_type": "unknown",
-    "fetched_at": "2026-06-10T21:13:15.005718+00:00",
+    "fetched_at": "2026-06-10T21:18:17.914529+00:00",
     "id": "d4a3f801a314"
   },
   {
@@ -1188,7 +1213,7 @@
     "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-lisboa-capa2019-02-754x396.jpg",
     "airline": null,
     "trip_type": "unknown",
-    "fetched_at": "2026-06-10T21:13:15.005571+00:00",
+    "fetched_at": "2026-06-10T21:18:17.914373+00:00",
     "id": "265d3e36604e"
   },
   {
@@ -1207,7 +1232,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-11-24",
     "return_date": "2026-12-01",
-    "fetched_at": "2026-06-10T21:13:16.152300+00:00",
+    "fetched_at": "2026-06-10T21:18:22.707012+00:00",
     "id": "f4feb9203527"
   },
   {
@@ -1220,7 +1245,7 @@
     "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2021/10/lisboa-portugal-capa3-754x396.jpg",
     "airline": null,
     "trip_type": "round_trip",
-    "fetched_at": "2026-06-10T21:13:15.006877+00:00",
+    "fetched_at": "2026-06-10T21:18:17.915759+00:00",
     "id": "9d28504b16ab"
   },
   {
@@ -1233,7 +1258,7 @@
     "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2024/06/novo-voo-florianopolis-lisboa-tap-capa-754x396.jpeg",
     "airline": null,
     "trip_type": "unknown",
-    "fetched_at": "2026-06-10T21:13:15.007076+00:00",
+    "fetched_at": "2026-06-10T21:18:17.915968+00:00",
     "id": "6e80724b9fa3"
   },
   {
@@ -1246,7 +1271,7 @@
     "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2021/10/lisboa-portugal-capa2-754x396.jpg",
     "airline": null,
     "trip_type": "round_trip",
-    "fetched_at": "2026-06-10T21:13:15.007292+00:00",
+    "fetched_at": "2026-06-10T21:18:17.916188+00:00",
     "id": "76333d1cc234"
   },
   {
@@ -1259,7 +1284,7 @@
     "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2021/10/lisboa-portugal-capa5-754x396.jpg",
     "airline": null,
     "trip_type": "unknown",
-    "fetched_at": "2026-06-10T21:13:15.005907+00:00",
+    "fetched_at": "2026-06-10T21:18:17.914742+00:00",
     "id": "4a9e44184b52"
   },
   {
@@ -1272,7 +1297,7 @@
     "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2023/01/passagens-aereas-lisboa-portugal-capa-754x396.jpg",
     "airline": null,
     "trip_type": "unknown",
-    "fetched_at": "2026-06-10T21:13:15.006116+00:00",
+    "fetched_at": "2026-06-10T21:18:17.914959+00:00",
     "id": "cce388c602f4"
   },
   {
@@ -1285,7 +1310,7 @@
     "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2025/06/madri-passagens-aereas-espanha-verao-capa-754x396.jpg",
     "airline": null,
     "trip_type": "round_trip",
-    "fetched_at": "2026-06-10T21:13:15.009346+00:00",
+    "fetched_at": "2026-06-10T21:18:17.918227+00:00",
     "id": "b7e976058203"
   },
   {
@@ -1298,7 +1323,7 @@
     "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2023/11/porto-portugal-capa-754x396.jpeg",
     "airline": null,
     "trip_type": "unknown",
-    "fetched_at": "2026-06-10T21:13:15.008591+00:00",
+    "fetched_at": "2026-06-10T21:18:17.917493+00:00",
     "id": "4fbbd67e8fff"
   },
   {
@@ -1311,7 +1336,7 @@
     "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2024/02/atividades-gratuitas-lisboa-portugal-capa-754x396.jpeg",
     "airline": null,
     "trip_type": "round_trip",
-    "fetched_at": "2026-06-10T21:13:15.007808+00:00",
+    "fetched_at": "2026-06-10T21:18:17.916689+00:00",
     "id": "a14e2431936d"
   },
   {
@@ -1324,7 +1349,7 @@
     "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2022/01/madrid-espanha-capa-2022-754x396.jpg",
     "airline": null,
     "trip_type": "unknown",
-    "fetched_at": "2026-06-10T21:13:15.006344+00:00",
+    "fetched_at": "2026-06-10T21:18:17.915195+00:00",
     "id": "ac41eaf20c7d"
   },
   {
@@ -1337,7 +1362,7 @@
     "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2025/05/passagens-aereas-joanesburgo-africa-dos-sul-capa-754x396.jpg",
     "airline": null,
     "trip_type": "unknown",
-    "fetched_at": "2026-06-10T21:13:15.007485+00:00",
+    "fetched_at": "2026-06-10T21:18:17.916391+00:00",
     "id": "8dae4a8d3a6a"
   },
   {
@@ -1356,7 +1381,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-06-14",
     "return_date": "2026-06-20",
-    "fetched_at": "2026-06-10T21:13:16.152267+00:00",
+    "fetched_at": "2026-06-10T21:18:22.706980+00:00",
     "id": "2379b3a8629c"
   },
   {
@@ -1375,7 +1400,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-11-18",
     "return_date": "2026-11-30",
-    "fetched_at": "2026-06-10T21:13:16.152270+00:00",
+    "fetched_at": "2026-06-10T21:18:22.706983+00:00",
     "id": "1a78d245f591"
   },
   {
@@ -1394,7 +1419,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-11-10",
     "return_date": "2026-11-17",
-    "fetched_at": "2026-06-10T21:13:16.152304+00:00",
+    "fetched_at": "2026-06-10T21:18:22.707016+00:00",
     "id": "a795a656b5ba"
   },
   {
@@ -1407,7 +1432,7 @@
     "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2025/08/air-china-passagens-aereas-madri-capa-754x396.jpg",
     "airline": null,
     "trip_type": "unknown",
-    "fetched_at": "2026-06-10T21:13:15.007650+00:00",
+    "fetched_at": "2026-06-10T21:18:17.916540+00:00",
     "id": "9dd669967d27"
   },
   {
@@ -1426,7 +1451,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-08-18",
     "return_date": "2026-08-28",
-    "fetched_at": "2026-06-10T21:13:16.152274+00:00",
+    "fetched_at": "2026-06-10T21:18:22.706986+00:00",
     "id": "34edab481d92"
   },
   {
@@ -1445,7 +1470,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-09-26",
     "return_date": "2026-10-07",
-    "fetched_at": "2026-06-10T21:13:16.152277+00:00",
+    "fetched_at": "2026-06-10T21:18:22.706989+00:00",
     "id": "cb398ce584b9"
   },
   {
@@ -1458,7 +1483,7 @@
     "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2024/08/hoteis-madri-capa-754x396.jpeg",
     "airline": null,
     "trip_type": "round_trip",
-    "fetched_at": "2026-06-10T21:13:15.005456+00:00",
+    "fetched_at": "2026-06-10T21:18:17.914237+00:00",
     "id": "79f74665f872"
   },
   {
@@ -1477,7 +1502,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-11-23",
     "return_date": "2026-12-02",
-    "fetched_at": "2026-06-10T21:13:16.152307+00:00",
+    "fetched_at": "2026-06-10T21:18:22.707020+00:00",
     "id": "d354c233d749"
   },
   {
@@ -1489,7 +1514,7 @@
     "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-lisboa-milao-ou-roma-2026/",
     "image_url": "https://travel-cdn.cubo333.com.br/static-img/3c348ffe_1bb1_46f6_ba8f_95443e9bd505-612x612.jpg",
     "trip_type": "round_trip",
-    "fetched_at": "2026-06-10T21:13:15.504678+00:00",
+    "fetched_at": "2026-06-10T21:18:21.738074+00:00",
     "id": "d60787bb1d98"
   },
   {
@@ -1508,7 +1533,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-08-11",
     "return_date": "2026-08-18",
-    "fetched_at": "2026-06-10T21:13:16.152311+00:00",
+    "fetched_at": "2026-06-10T21:18:22.707023+00:00",
     "id": "55de56151c64"
   },
   {
@@ -1527,7 +1552,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-08-18",
     "return_date": "2026-08-22",
-    "fetched_at": "2026-06-10T21:13:16.152314+00:00",
+    "fetched_at": "2026-06-10T21:18:22.707026+00:00",
     "id": "261c70fdcdfc"
   },
   {
@@ -1540,7 +1565,7 @@
     "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2021/10/madrid-espanha-capa-754x396.jpg",
     "airline": null,
     "trip_type": "round_trip",
-    "fetched_at": "2026-06-10T21:13:15.006746+00:00",
+    "fetched_at": "2026-06-10T21:18:17.915614+00:00",
     "id": "f35c205321e9"
   },
   {
@@ -1559,7 +1584,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-11-26",
     "return_date": "2026-12-05",
-    "fetched_at": "2026-06-10T21:13:16.152281+00:00",
+    "fetched_at": "2026-06-10T21:18:22.706993+00:00",
     "id": "b067e441f05e"
   },
   {
@@ -1571,7 +1596,7 @@
     "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-2-em-1nova-york-ou-toronto-2026/",
     "image_url": "https://travel-cdn.cubo333.com.br/static-img/canada_toronto_4-612x612.png",
     "trip_type": "unknown",
-    "fetched_at": "2026-06-10T21:13:15.504724+00:00",
+    "fetched_at": "2026-06-10T21:18:21.738118+00:00",
     "id": "aaf7619bebcd"
   },
   {
@@ -1584,7 +1609,7 @@
     "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2021/03/grecia-reabertura-turismo-capa-754x396.jpg",
     "airline": null,
     "trip_type": "round_trip",
-    "fetched_at": "2026-06-10T21:13:15.008856+00:00",
+    "fetched_at": "2026-06-10T21:18:17.917744+00:00",
     "id": "03d44d05b1cd"
   },
   {
@@ -1603,7 +1628,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-12-17",
     "return_date": "2026-12-29",
-    "fetched_at": "2026-06-10T21:13:16.152284+00:00",
+    "fetched_at": "2026-06-10T21:18:22.706996+00:00",
     "id": "56ec889d0214"
   },
   {
@@ -1622,7 +1647,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-06-30",
     "return_date": "2026-07-08",
-    "fetched_at": "2026-06-10T21:13:16.488723+00:00",
+    "fetched_at": "2026-06-10T21:18:23.446046+00:00",
     "id": "9fc95caa9f36"
   },
   {
@@ -1635,7 +1660,7 @@
     "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2022/02/bandeira-dinamarca-capa-01-754x396.jpg",
     "airline": "Air France",
     "trip_type": "round_trip",
-    "fetched_at": "2026-06-10T21:13:15.007554+00:00",
+    "fetched_at": "2026-06-10T21:18:17.916463+00:00",
     "id": "1dfea85fe9f0"
   },
   {
@@ -1654,7 +1679,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-09-20",
     "return_date": "2026-09-27",
-    "fetched_at": "2026-06-10T21:13:16.152287+00:00",
+    "fetched_at": "2026-06-10T21:18:22.706999+00:00",
     "id": "964420af89f9"
   },
   {
@@ -1672,7 +1697,7 @@
     "trip_type": "round_trip",
     "departure_date": "11/06/2026",
     "return_date": "15/06/2026",
-    "fetched_at": "2026-06-10T21:13:16.835283+00:00",
+    "fetched_at": "2026-06-10T21:18:23.720513+00:00",
     "id": "aa5270b03632"
   },
   {
@@ -1690,7 +1715,7 @@
     "trip_type": "round_trip",
     "departure_date": "03/07/2026",
     "return_date": "30/09/2026",
-    "fetched_at": "2026-06-10T21:13:16.835396+00:00",
+    "fetched_at": "2026-06-10T21:18:23.720625+00:00",
     "id": "799117dad2b0"
   },
   {
@@ -1708,7 +1733,7 @@
     "trip_type": "round_trip",
     "departure_date": "09/07/2026",
     "return_date": "14/10/2026",
-    "fetched_at": "2026-06-10T21:13:16.834479+00:00",
+    "fetched_at": "2026-06-10T21:18:23.719725+00:00",
     "id": "c75213675d1d"
   },
   {
@@ -1720,7 +1745,7 @@
     "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-china-guangzhou-2026-2/",
     "image_url": "https://travel-cdn.cubo333.com.br/static-img/muralha_china_612-612x612.jpg",
     "trip_type": "round_trip",
-    "fetched_at": "2026-06-10T21:13:15.504673+00:00",
+    "fetched_at": "2026-06-10T21:18:21.738070+00:00",
     "id": "e7bfa07ac96a"
   },
   {
@@ -1738,7 +1763,7 @@
     "trip_type": "round_trip",
     "departure_date": "11/06/2026",
     "return_date": "05/09/2026",
-    "fetched_at": "2026-06-10T21:13:16.834834+00:00",
+    "fetched_at": "2026-06-10T21:18:23.720063+00:00",
     "id": "f475968c95de"
   },
   {
@@ -1756,7 +1781,7 @@
     "trip_type": "round_trip",
     "departure_date": "01/07/2026",
     "return_date": "19/08/2026",
-    "fetched_at": "2026-06-10T21:13:16.835219+00:00",
+    "fetched_at": "2026-06-10T21:18:23.720448+00:00",
     "id": "b3984f740ea1"
   },
   {
@@ -1769,8 +1794,21 @@
     "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-tokyo-capa2019-03-754x396.jpg",
     "airline": null,
     "trip_type": "round_trip",
-    "fetched_at": "2026-06-10T21:13:15.008961+00:00",
+    "fetched_at": "2026-06-10T21:18:17.917847+00:00",
     "id": "e83cf24b0749"
+  },
+  {
+    "source": "Melhores Destinos",
+    "title": "Punta Cana all inclusive! Pacotes com voos + resort à beira-mar a partir de R$ 5.635 por pessoa",
+    "destination": null,
+    "price_brl": 5635.0,
+    "currency": "BRL",
+    "link": "https://www.melhoresdestinos.com.br/promocao/punta-cana-all-inclusive-pacotes-com-voos-resort",
+    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2022/07/ocean-blue-sand-resort-punta-cana-capa-754x396.png",
+    "airline": null,
+    "trip_type": "unknown",
+    "fetched_at": "2026-06-11T00:43:01.385241+00:00",
+    "id": "0c6fe37cd261"
   },
   {
     "source": "Melhores Destinos",
@@ -1782,7 +1820,7 @@
     "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-hong-kong-capa2019-03-754x396.jpg",
     "airline": null,
     "trip_type": "round_trip",
-    "fetched_at": "2026-06-10T21:13:15.006270+00:00",
+    "fetched_at": "2026-06-10T21:18:17.915118+00:00",
     "id": "15c49304f882"
   },
   {
@@ -1800,7 +1838,7 @@
     "trip_type": "round_trip",
     "departure_date": "15/06/2026",
     "return_date": "24/06/2026",
-    "fetched_at": "2026-06-10T21:13:16.835088+00:00",
+    "fetched_at": "2026-06-10T21:18:23.720309+00:00",
     "id": "f725b7574efb"
   },
   {
@@ -1813,7 +1851,7 @@
     "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2019/07/passagens-aereas-tailandia-capa2019-05-754x396.jpg",
     "airline": null,
     "trip_type": "round_trip",
-    "fetched_at": "2026-06-10T21:13:15.006494+00:00",
+    "fetched_at": "2026-06-10T21:18:17.915349+00:00",
     "id": "e58f06bf7e95"
   },
   {
@@ -1831,7 +1869,7 @@
     "trip_type": "round_trip",
     "departure_date": "15/06/2026",
     "return_date": "25/06/2026",
-    "fetched_at": "2026-06-10T21:13:16.835153+00:00",
+    "fetched_at": "2026-06-10T21:18:23.720380+00:00",
     "id": "507db406fd82"
   },
   {
@@ -1843,7 +1881,7 @@
     "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-taiwan-kaohsiung-taipei-2026/",
     "image_url": "https://travel-cdn.cubo333.com.br/static-img/taiwan-612x612.png",
     "trip_type": "round_trip",
-    "fetched_at": "2026-06-10T21:13:15.504710+00:00",
+    "fetched_at": "2026-06-10T21:18:21.738105+00:00",
     "id": "760fbce3864c"
   },
   {
@@ -1861,7 +1899,7 @@
     "trip_type": "round_trip",
     "departure_date": "24/06/2026",
     "return_date": "22/09/2026",
-    "fetched_at": "2026-06-10T21:13:16.834717+00:00",
+    "fetched_at": "2026-06-10T21:18:23.719951+00:00",
     "id": "2c8d4aecb98e"
   },
   {
@@ -1874,7 +1912,7 @@
     "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-auckland-capa2019-01-754x396.jpg",
     "airline": null,
     "trip_type": "round_trip",
-    "fetched_at": "2026-06-10T21:13:15.006667+00:00",
+    "fetched_at": "2026-06-10T21:18:17.915522+00:00",
     "id": "6489e5cc2f52"
   },
   {
@@ -1892,7 +1930,7 @@
     "trip_type": "round_trip",
     "departure_date": "30/06/2026",
     "return_date": "17/09/2026",
-    "fetched_at": "2026-06-10T21:13:16.834589+00:00",
+    "fetched_at": "2026-06-10T21:18:23.719833+00:00",
     "id": "9dafd36dfcd1"
   },
   {
@@ -1904,7 +1942,20 @@
     "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-2-em-1-jakarta-kaohsiung-nova-york-ou-taipei-2026/",
     "image_url": "https://travel-cdn.cubo333.com.br/static-img/nova_york_eua_estados_unidos_2-612x612.jpg",
     "trip_type": "unknown",
-    "fetched_at": "2026-06-10T21:13:15.504705+00:00",
+    "fetched_at": "2026-06-10T21:18:21.738100+00:00",
     "id": "a45bb0268d1b"
+  },
+  {
+    "source": "Melhores Destinos",
+    "title": "12 excelentes promoções de passagens, hotéis e conta internacional para você aproveitar hoje!",
+    "destination": null,
+    "price_brl": null,
+    "currency": "BRL",
+    "link": "https://www.melhoresdestinos.com.br/promocao/passagens-hotel-conta-internacional-07-06-26",
+    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2024/01/verao-sol-praia-passagens-aereas-capa-754x396.jpeg",
+    "airline": null,
+    "trip_type": "unknown",
+    "fetched_at": "2026-06-11T00:43:01.380933+00:00",
+    "id": "2b317170ed0c"
   }
 ]
