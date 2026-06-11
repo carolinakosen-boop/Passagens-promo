@@ -72,27 +72,44 @@ def fetch_all() -> list[dict]:
     for deal in all_new:
         deal["id"] = _deal_id(deal)
 
-    # Merge with existing (drop stale deals)
+    # Load existing deals and build map of first-seen timestamps
     existing = _load_existing()
-    cutoff = datetime.now(timezone.utc) - timedelta(days=MAX_AGE_DAYS)
-    fresh_existing = []
-    stale_count = 0
+    first_seen: dict[str, str] = {}
     for d in existing:
+        did = d.get("id", "")
+        if did and d.get("fetched_at"):
+            first_seen[did] = d["fetched_at"]
+
+    # For re-scraped deals, preserve the ORIGINAL fetched_at (don't let them refresh)
+    for deal in all_new:
+        if deal["id"] in first_seen:
+            deal["fetched_at"] = first_seen[deal["id"]]
+
+    # Apply freshness filter to ALL deals (new + existing)
+    cutoff = datetime.now(timezone.utc) - timedelta(days=MAX_AGE_DAYS)
+    stale_count = 0
+
+    def _is_fresh(d: dict) -> bool:
+        nonlocal stale_count
         fetched = d.get("fetched_at", "")
         if fetched:
             try:
                 ts = datetime.fromisoformat(fetched)
                 if ts < cutoff:
                     stale_count += 1
-                    continue
+                    return False
             except (ValueError, TypeError):
                 pass
-        fresh_existing.append(d)
+        return True
+
+    fresh_new = [d for d in all_new if _is_fresh(d)]
+    fresh_existing = [d for d in existing if _is_fresh(d)]
     if stale_count:
         logger.info("Dropped %d stale deals (older than %d days)", stale_count, MAX_AGE_DAYS)
 
+    # Deduplicate: only keep truly new deals not already in existing
     existing_ids = {d.get("id") for d in fresh_existing}
-    fresh = [d for d in all_new if d["id"] not in existing_ids]
+    fresh = [d for d in fresh_new if d["id"] not in existing_ids]
     logger.info("Found %d new deals (out of %d total fetched)", len(fresh), len(all_new))
 
     # Combine: new first, then existing (already filtered)

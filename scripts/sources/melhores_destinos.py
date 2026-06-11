@@ -3,7 +3,7 @@
 import re
 import json
 import logging
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from typing import Optional
 
 import requests
@@ -105,6 +105,26 @@ def _detect_airline(title: str) -> str | None:
     return None
 
 
+def _get_article_date(session: requests.Session, url: str) -> str | None:
+    """Fetch article page and extract modified_time meta tag."""
+    if not url:
+        return None
+    try:
+        resp = session.get(url, timeout=10)
+        if resp.status_code != 200:
+            return None
+        soup = BeautifulSoup(resp.text, "lxml")
+        meta = soup.find("meta", property="article:modified_time")
+        if meta and meta.get("content"):
+            return meta["content"]
+        meta = soup.find("meta", property="article:published_time")
+        if meta and meta.get("content"):
+            return meta["content"]
+    except requests.RequestException:
+        pass
+    return None
+
+
 def fetch_deals() -> list[dict]:
     """Fetch flight deals from Melhores Destinos (multiple pages)."""
     deals = []
@@ -184,6 +204,25 @@ def fetch_deals() -> list[dict]:
 
             airline = _detect_airline(title)
 
+            # Use article's real publication/modification date if available
+            article_date = _get_article_date(session, link)
+            if article_date:
+                # Use article date as fetched_at so freshness filter works correctly
+                fetched_at = article_date
+            else:
+                fetched_at = datetime.now(timezone.utc).isoformat()
+
+            # Skip articles older than 3 days based on their actual date
+            if article_date:
+                try:
+                    art_ts = datetime.fromisoformat(article_date)
+                    cutoff = datetime.now(timezone.utc) - timedelta(days=3)
+                    if art_ts < cutoff:
+                        logger.debug("Skipping old article: %s (%s)", title[:40], article_date[:10])
+                        continue
+                except (ValueError, TypeError):
+                    pass
+
             deals.append({
                 "source": "Melhores Destinos",
                 "title": title,
@@ -194,7 +233,7 @@ def fetch_deals() -> list[dict]:
                 "image_url": image_url,
                 "airline": airline,
                 "trip_type": "round_trip" if "ida e volta" in title.lower() else "unknown",
-                "fetched_at": datetime.now(timezone.utc).isoformat(),
+                "fetched_at": fetched_at,
             })
         except Exception as e:
             logger.debug("Error parsing deal element: %s", e)
