@@ -34,14 +34,6 @@ jobs:
         working-directory: scripts
         run: python generate_dashboard.py
 
-      - name: Send Telegram notifications
-        if: always()
-        working-directory: scripts
-        env:
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: python telegram_notify.py
-
       - name: Commit and push
         run: |
           git config user.name "github-actions[bot]"
@@ -53,3 +45,11 @@ jobs:
             git commit -m "chore: update flight deals $(date -u +'%Y-%m-%d %H:%M UTC')"
             git push
           fi
+
+      - name: Send Telegram notifications
+        continue-on-error: true
+        working-directory: scripts
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python telegram_notify.py

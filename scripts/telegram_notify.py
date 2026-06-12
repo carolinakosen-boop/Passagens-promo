@@ -142,7 +142,7 @@ def send_notifications() -> int:
     else:
         logger.info("All notifications sent successfully!")
 
-    return 0 if errors == 0 else 1
+    return 0  # never fail the job due to notification issues
 
 
 if __name__ == "__main__":
