@@ -95,6 +95,18 @@
     "id": "a288ff8376ec"
   },
   {
+    "source": "Passagens Imperdíveis",
+    "title": "Passagens para o RIO DE JANEIRO ou SÃO PAULO! Datas até Março/27, inclusive nas Férias, feriados e mais! A partir de R$ 286, ida e volta, c/ taxas!",
+    "destination": "Rio de Janeiro ou São Paulo",
+    "price_brl": 286.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-rio-de-janeiro-ou-sao-paulo-2026-34/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/sao_paulo_sp_brasil_1_2-612x612.png",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-06-13T15:21:23.886702+00:00",
+    "id": "1d13caa600c6"
+  },
+  {
     "source": "GOL",
     "title": "GOL: Rio de Janeiro (RIO) → Brasília (BSB) - 22/10/2026",
     "destination": "Brasília",
@@ -369,6 +381,19 @@
     "id": "02b7144c66f7"
   },
   {
+    "source": "Melhores Destinos",
+    "title": "Última chamada: curta a neve no Chile com passagens aéreas a partir de R$ 1.109 ida e volta",
+    "destination": null,
+    "price_brl": 1109.0,
+    "currency": "BRL",
+    "link": "https://www.melhoresdestinos.com.br/promocao/ultima-chamada-curta-a-neve-no-chile-com-passagens-aereas-a-partir-de-r-1-109-ida-e-volta",
+    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2019/05/passagens-aereas-santiago-capa2019-08-754x396.jpg",
+    "airline": null,
+    "trip_type": "round_trip",
+    "fetched_at": "2026-06-13T11:56:49+00:00",
+    "id": "74a90d5359ee"
+  },
+  {
     "source": "Passagens Imperdíveis",
     "title": "Passagens para BUENOS AIRES ou SANTIAGO! Datas inclusive no Inverno, férias e mais! A partir de R$ 1.132, ida e volta, c/ taxas! Em até 6x SEM JUROS! Opções de VOO DIRETO!",
     "destination": "Buenos Aires ou Santiago",
@@ -417,6 +442,18 @@
     "return_date": "2026-06-21",
     "fetched_at": "2026-06-12T23:00:39.305513+00:00",
     "id": "2ad950f950b6"
+  },
+  {
+    "source": "Passagens Imperdíveis",
+    "title": "Temporada de Neve no Chile! Passagens para o INVERNO em SANTIAGO! Datas no Inverno, férias e mais! A partir de R$ 1.158, ida e volta, c/ taxas! Em até 6x SEM JUROS! Opções de VOO DIRETO!",
+    "destination": "Inverno em Santiago",
+    "price_brl": 1158.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-chile-santiago-2026-39/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/santiago_neve-612x612.jpg",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-06-13T15:21:23.886718+00:00",
+    "id": "d4e82f799f14"
   },
   {
     "source": "GOL",
@@ -805,6 +842,18 @@
     "id": "e03789dbabb6"
   },
   {
+    "source": "Passagens Imperdíveis",
+    "title": "MUITO BOM!!! Passagens para ARUBA ou CURAÇAO! A partir de R$ 2.079, ida e volta, c/ taxas!",
+    "destination": "Aruba ou Curaçao",
+    "price_brl": 2079.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-aruba-ou-curacao-2026-9/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/aruba_2_612_612-612x612.png",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-06-13T15:21:23.886731+00:00",
+    "id": "adae23308c54"
+  },
+  {
     "source": "GOL",
     "title": "GOL: São Paulo (SAO) → Oranjestad, Aruba (AUA) - 23/06/2026 a 30/06/2026",
     "destination": "Oranjestad, Aruba",
@@ -860,6 +909,19 @@
     "return_date": "2026-08-29",
     "fetched_at": "2026-06-12T23:00:39.305464+00:00",
     "id": "23d7e6026c5b"
+  },
+  {
+    "source": "Melhores Destinos",
+    "title": "Seleção de passagens aéreas para Nova York! Voos a partir de R$ 2.556 com American Airlines, Latam e mais cias",
+    "destination": "Nova York! Voos",
+    "price_brl": 2556.0,
+    "currency": "BRL",
+    "link": "https://www.melhoresdestinos.com.br/promocao/selecao-passagens-nova-york-2556",
+    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2022/06/empire-state-building-nova-york-capa-01-754x396.jpg",
+    "airline": "LATAM",
+    "trip_type": "unknown",
+    "fetched_at": "2026-06-13T15:21:04.417610+00:00",
+    "id": "07c1f4fc2e2b"
   },
   {
     "source": "GOL",
@@ -979,6 +1041,18 @@
     "return_date": "2026-06-23",
     "fetched_at": "2026-06-12T23:00:39.305388+00:00",
     "id": "3d8dee195831"
+  },
+  {
+    "source": "Passagens Imperdíveis",
+    "title": "Continua muito bom! Passagens para a ESPANHA: Alicante, Almeria, Aviles, Barcelona, Bilbao, Granada, Ibiza, Jerez, La Coruna, Las Palmas, Madri, Melilla, Menorca, Palma de Mallorca e mais! A partir de",
+    "destination": "Espanha",
+    "price_brl": 2932.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-espanha-alicante-aviles-barcelona-bilbao-gran-canaria-ibiza-la-2026-2/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/ibiza_espanha_612-612x612.jpg",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-06-13T15:21:23.886665+00:00",
+    "id": "d220d67b1dc7"
   },
   {
     "source": "Passagens Imperdíveis",
@@ -1334,6 +1408,24 @@
   },
   {
     "source": "TAP",
+    "title": "TAP: São Paulo (GRU) → Barcelona (BCN) - 05/07/2026 a 31/08/2026",
+    "destination": "Barcelona",
+    "destination_iata": "BCN",
+    "origin": "São Paulo",
+    "origin_iata": "GRU",
+    "price_brl": 4763.0,
+    "currency": "BRL",
+    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
+    "image_url": "https://assets.airtrfx.com/media-em/tp/barcelona-1-1500px.jpg",
+    "airline": "TAP",
+    "trip_type": "round_trip",
+    "departure_date": "05/07/2026",
+    "return_date": "31/08/2026",
+    "fetched_at": "2026-06-13T15:21:26.282577+00:00",
+    "id": "2c13389f23c7"
+  },
+  {
+    "source": "TAP",
     "title": "TAP: São Paulo (GRU) → Lisboa (LIS) - 08/07/2026 a 01/10/2026",
     "destination": "Lisboa",
     "destination_iata": "LIS",
@@ -1367,6 +1459,24 @@
     "return_date": "01/10/2026",
     "fetched_at": "2026-06-13T08:33:52.611364+00:00",
     "id": "a52ea9787ee9"
+  },
+  {
+    "source": "TAP",
+    "title": "TAP: São Paulo (GRU) → Roma (FCO) - 21/06/2026 a 29/06/2026",
+    "destination": "Roma",
+    "destination_iata": "FCO",
+    "origin": "São Paulo",
+    "origin_iata": "GRU",
+    "price_brl": 5649.0,
+    "currency": "BRL",
+    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
+    "image_url": "https://assets.airtrfx.com/media-em/tp/roma-1-1500px.jpg",
+    "airline": "TAP",
+    "trip_type": "round_trip",
+    "departure_date": "21/06/2026",
+    "return_date": "29/06/2026",
+    "fetched_at": "2026-06-13T15:21:26.282207+00:00",
+    "id": "3981e9c3f31e"
   },
   {
     "source": "TAP",
@@ -1404,6 +1514,24 @@
     "return_date": "2026-06-19",
     "fetched_at": "2026-06-12T23:00:39.610308+00:00",
     "id": "7e3b0883fa60"
+  },
+  {
+    "source": "TAP",
+    "title": "TAP: São Paulo (GRU) → Lisboa (LIS) - 19/06/2026 a 26/06/2026",
+    "destination": "Lisboa",
+    "destination_iata": "LIS",
+    "origin": "São Paulo",
+    "origin_iata": "GRU",
+    "price_brl": 6192.0,
+    "currency": "BRL",
+    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
+    "image_url": "https://assets.airtrfx.com/media-em/tp/lisboa-1-1500px.jpg",
+    "airline": "TAP",
+    "trip_type": "round_trip",
+    "departure_date": "19/06/2026",
+    "return_date": "26/06/2026",
+    "fetched_at": "2026-06-13T15:21:26.281357+00:00",
+    "id": "c23e02a51cdb"
   },
   {
     "source": "TAP",
@@ -1546,6 +1674,24 @@
   },
   {
     "source": "TAP",
+    "title": "TAP: Rio de Janeiro (GIG) → Paris (ORY) - 30/06/2026 a 07/07/2026",
+    "destination": "Paris",
+    "destination_iata": "ORY",
+    "origin": "Rio de Janeiro",
+    "origin_iata": "GIG",
+    "price_brl": 7285.0,
+    "currency": "BRL",
+    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
+    "image_url": "https://assets.airtrfx.com/media-em/tp/paris-1-1500px.jpg",
+    "airline": "TAP",
+    "trip_type": "round_trip",
+    "departure_date": "30/06/2026",
+    "return_date": "07/07/2026",
+    "fetched_at": "2026-06-13T15:21:26.282325+00:00",
+    "id": "118be2e1940d"
+  },
+  {
+    "source": "TAP",
     "title": "TAP: São Paulo (GRU) → Paris (ORY) - 29/06/2026 a 10/07/2026",
     "destination": "Paris",
     "destination_iata": "ORY",
@@ -1561,6 +1707,24 @@
     "return_date": "10/07/2026",
     "fetched_at": "2026-06-12T23:00:41.299793+00:00",
     "id": "2d21c0fc3dbf"
+  },
+  {
+    "source": "TAP",
+    "title": "TAP: Rio de Janeiro (GIG) → Madri (MAD) - 08/07/2026 a 21/07/2026",
+    "destination": "Madri",
+    "destination_iata": "MAD",
+    "origin": "Rio de Janeiro",
+    "origin_iata": "GIG",
+    "price_brl": 7707.0,
+    "currency": "BRL",
+    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
+    "image_url": "https://assets.airtrfx.com/media-em/tp/madri-1-1500px.jpg",
+    "airline": "TAP",
+    "trip_type": "round_trip",
+    "departure_date": "08/07/2026",
+    "return_date": "21/07/2026",
+    "fetched_at": "2026-06-13T15:21:26.282693+00:00",
+    "id": "736e8ca532cb"
   },
   {
     "source": "TAP",
@@ -1597,6 +1761,60 @@
     "return_date": "08/07/2026",
     "fetched_at": "2026-06-13T08:33:52.611216+00:00",
     "id": "fa927d05af56"
+  },
+  {
+    "source": "TAP",
+    "title": "TAP: São Paulo (GRU) → Porto (OPO) - 02/07/2026 a 14/07/2026",
+    "destination": "Porto",
+    "destination_iata": "OPO",
+    "origin": "São Paulo",
+    "origin_iata": "GRU",
+    "price_brl": 8220.0,
+    "currency": "BRL",
+    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
+    "image_url": "https://assets.airtrfx.com/media-em/tp/porto-1-1500px.jpg",
+    "airline": "TAP",
+    "trip_type": "round_trip",
+    "departure_date": "02/07/2026",
+    "return_date": "14/07/2026",
+    "fetched_at": "2026-06-13T15:21:26.281935+00:00",
+    "id": "0bcc5f84fafb"
+  },
+  {
+    "source": "TAP",
+    "title": "TAP: Rio de Janeiro (GIG) → Porto (OPO) - 15/06/2026 a 06/07/2026",
+    "destination": "Porto",
+    "destination_iata": "OPO",
+    "origin": "Rio de Janeiro",
+    "origin_iata": "GIG",
+    "price_brl": 8346.0,
+    "currency": "BRL",
+    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
+    "image_url": "https://assets.airtrfx.com/media-em/tp/porto-1-1500px.jpg",
+    "airline": "TAP",
+    "trip_type": "round_trip",
+    "departure_date": "15/06/2026",
+    "return_date": "06/07/2026",
+    "fetched_at": "2026-06-13T15:21:26.281736+00:00",
+    "id": "13f753204a0e"
+  },
+  {
+    "source": "TAP",
+    "title": "TAP: Rio de Janeiro (GIG) → Lisboa (LIS) - 22/06/2026 a 11/07/2026",
+    "destination": "Lisboa",
+    "destination_iata": "LIS",
+    "origin": "Rio de Janeiro",
+    "origin_iata": "GIG",
+    "price_brl": 8486.0,
+    "currency": "BRL",
+    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
+    "image_url": "https://assets.airtrfx.com/media-em/tp/lisboa-1-1500px.jpg",
+    "airline": "TAP",
+    "trip_type": "round_trip",
+    "departure_date": "22/06/2026",
+    "return_date": "11/07/2026",
+    "fetched_at": "2026-06-13T15:21:26.281548+00:00",
+    "id": "972912064bcd"
   },
   {
     "source": "TAP",
