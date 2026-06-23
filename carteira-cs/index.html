@@ -102,6 +102,31 @@ tr:hover td{background:#1e2e3e}
 .note-history{font-size:.65rem;color:var(--muted);margin-top:.3rem}
 .note-history .note-entry{padding:.2rem 0;border-bottom:1px solid #1a2a3a}
 .note-history .note-date{color:var(--accent);font-weight:600}
+/* NOTES PAGE */
+.notes-page-overlay{position:fixed;top:0;left:0;width:100%;height:100%;background:var(--bg);z-index:300;overflow-y:auto;padding:2rem}
+.notes-page-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:1.5rem}
+.notes-page-header h2{color:var(--accent);font-size:1.1rem}
+.notes-page-back{background:var(--card);border:1px solid var(--border);color:var(--accent);padding:.5rem 1rem;border-radius:6px;cursor:pointer;font-size:.8rem}
+.notes-page-back:hover{background:var(--hover)}
+.notes-page-input{width:100%;background:var(--card);border:1px solid var(--border);color:var(--text);font-size:.85rem;padding:.6rem;border-radius:6px;resize:vertical;min-height:60px;margin-bottom:.5rem}
+.notes-page-input:focus{border-color:var(--accent);outline:none}
+.notes-page-save{background:var(--accent);color:#fff;border:none;padding:.5rem 1.2rem;border-radius:6px;font-size:.8rem;cursor:pointer}
+.notes-page-save:hover{opacity:.85}
+.notes-page-list{margin-top:1rem}
+.notes-page-entry{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:.8rem;margin-bottom:.5rem}
+.notes-page-entry .np-date{color:var(--accent);font-weight:600;font-size:.75rem}
+.notes-page-entry .np-text{margin-top:.3rem;font-size:.85rem}
+.notes-page-empty{color:var(--muted);font-size:.85rem;text-align:center;padding:2rem}
+/* EDITABLE INPUT */
+.editable-contratos{background:var(--card2);border:1px solid var(--border);color:var(--text);font-size:.72rem;padding:.2rem .4rem;border-radius:4px;width:50px;text-align:center}
+.editable-contratos:focus{border-color:var(--accent);outline:none}
+.view-notes-btn{background:var(--card2);border:1px solid var(--border);color:var(--accent);padding:.15rem .5rem;border-radius:4px;font-size:.65rem;cursor:pointer;margin-top:.2rem}
+.view-notes-btn:hover{background:var(--hover);border-color:var(--accent)}
+/* BACKUP EXPORT */
+.backup-save-btn{background:var(--accent);color:#fff;border:none;padding:.5rem 1.2rem;border-radius:6px;font-size:.8rem;cursor:pointer;margin-right:.5rem}
+.backup-save-btn:hover{opacity:.85}
+.backup-export-btn{background:var(--green);color:#fff;border:none;padding:.5rem 1.2rem;border-radius:6px;font-size:.8rem;cursor:pointer}
+.backup-export-btn:hover{opacity:.85}
 /* RESPONSIVE */
 @media(max-width:768px){
   .nav{flex-direction:column;padding:.5rem 1rem}
@@ -220,6 +245,68 @@ function getPipelineStatuses(){
   try{ return JSON.parse(localStorage.getItem('pipeline_statuses')||'{}'); }catch(e){ return {}; }
 }
 function savePipelineStatuses(st){ localStorage.setItem('pipeline_statuses', JSON.stringify(st)); }
+function getPipelineContratos(){
+  try{ return JSON.parse(localStorage.getItem('pipeline_contratos')||'{}'); }catch(e){ return {}; }
+}
+function savePipelineContratos(ct){ localStorage.setItem('pipeline_contratos', JSON.stringify(ct)); }
+function getBackups(){
+  try{ return JSON.parse(localStorage.getItem('carteira_backups')||'[]'); }catch(e){ return []; }
+}
+function saveBackups(bk){ localStorage.setItem('carteira_backups', JSON.stringify(bk)); }
+
+function openNotesPage(clientKey, clientName){
+  const notes = getPipelineNotes();
+  const clientNotes = notes[clientKey] || [];
+  const overlay = document.createElement('div');
+  overlay.className = 'notes-page-overlay';
+  overlay.id = 'notesPageOverlay';
+  let notesListHtml = '';
+  if(clientNotes.length===0){
+    notesListHtml = '<div class="notes-page-empty">Nenhuma anotacao ainda. Adicione a primeira!</div>';
+  } else {
+    clientNotes.forEach(n=>{
+      notesListHtml += `<div class="notes-page-entry"><div class="np-date">${n.date}</div><div class="np-text">${n.text}</div></div>`;
+    });
+  }
+  overlay.innerHTML = `
+    <div class="notes-page-header">
+      <h2>Anotacoes — ${clientName}</h2>
+      <button class="notes-page-back" onclick="document.getElementById('notesPageOverlay').remove()">← Voltar</button>
+    </div>
+    <textarea class="notes-page-input" id="npInput_${clientKey}" placeholder="Escreva uma nova anotacao..."></textarea>
+    <button class="notes-page-save" onclick="addNoteFromPage('${clientKey}','${clientName.replace(/'/g,"\\'")}')">Salvar anotacao</button>
+    <div class="notes-page-list" id="npList_${clientKey}">${notesListHtml}</div>
+  `;
+  document.body.appendChild(overlay);
+}
+
+function addNoteFromPage(clientKey, clientName){
+  const input = document.getElementById('npInput_'+clientKey);
+  const text = input.value.trim();
+  if(!text) return;
+  const notes = getPipelineNotes();
+  if(!notes[clientKey]) notes[clientKey] = [];
+  const now = new Date();
+  const dateStr = now.toLocaleDateString('pt-BR')+' '+now.toLocaleTimeString('pt-BR',{hour:'2-digit',minute:'2-digit'});
+  notes[clientKey].unshift({date:dateStr, text:text});
+  savePipelineNotes(notes);
+  const container = document.getElementById('npList_'+clientKey);
+  const emptyMsg = container.querySelector('.notes-page-empty');
+  if(emptyMsg) emptyMsg.remove();
+  const entry = document.createElement('div');
+  entry.className = 'notes-page-entry';
+  entry.innerHTML = `<div class="np-date">${dateStr}</div><div class="np-text">${text}</div>`;
+  container.prepend(entry);
+  // Also update inline notes in pipeline table
+  const inlineContainer = document.getElementById('notes_'+clientKey);
+  if(inlineContainer){
+    const inlineEntry = document.createElement('div');
+    inlineEntry.className = 'note-entry';
+    inlineEntry.innerHTML = `<span class="note-date">${dateStr}</span>: ${text}`;
+    inlineContainer.prepend(inlineEntry);
+  }
+  input.value = '';
+}
 
 (async function(){
   const resp = await fetch('data.json');
@@ -297,7 +384,7 @@ function savePipelineStatuses(st){ localStorage.setItem('pipeline_statuses', JSO
     </div>
   `;
 
-  // Status chart
+  // Status chart (clickable)
   const statusLabels = Object.keys(vg.status_distribution);
   const statusColors = statusLabels.map(s=>{
     if(s.includes('30 dias')) return '#00b894';
@@ -306,10 +393,23 @@ function savePipelineStatuses(st){ localStorage.setItem('pipeline_statuses', JSO
     if(s.includes('Desconhecido')) return '#636e72';
     return '#74b9ff';
   });
+  function getClientsByStatus(status){
+    return vg.clients.filter(c=>c.status===status);
+  }
   new Chart(document.getElementById('statusChart'),{
     type:'doughnut',
     data:{labels:statusLabels.map(s=>s.length>30?s.slice(0,30)+'...':s),datasets:[{data:Object.values(vg.status_distribution),backgroundColor:statusColors,borderWidth:0,hoverOffset:8}]},
-    options:{responsive:true,plugins:{legend:{position:'bottom',labels:{color:'#8899aa',font:{size:11}}}},cutout:'65%'}
+    options:{responsive:true,onClick:(evt,elements)=>{
+      if(elements.length){
+        const idx = elements[0].index;
+        const status = statusLabels[idx];
+        const clients = getClientsByStatus(status);
+        showModal('Status — '+status, clients.map(c=>({
+          nome:c.corretor,
+          detail:(c.dias_sem_contrato!==null?Math.round(c.dias_sem_contrato)+' dias':'—')+', carteira: '+c.carteira
+        })));
+      }
+    },plugins:{legend:{position:'bottom',labels:{color:'#8899aa',font:{size:11}}},tooltip:{callbacks:{afterLabel:()=>'Clique para ver clientes'}}},cutout:'65%'}
   });
 
   // Carteira chart
@@ -479,27 +579,33 @@ function savePipelineStatuses(st){ localStorage.setItem('pipeline_statuses', JSO
   });
   pipHtml += '</div>';
 
+  const savedContratos = getPipelineContratos();
   pipHtml += '<div class="table-wrap"><table id="pipelineTable"><thead><tr><th>Cliente</th><th>Status</th><th>Especialista</th><th>Contratos Prev.</th><th>Valor 2k</th><th>Jamile</th><th>Observacao</th><th>Anotacoes Diarias</th></tr></thead><tbody>';
   D.foco_semana.forEach((f,idx)=>{
     const clientKey = f.nome.replace(/[^a-zA-Z0-9]/g,'_');
     const currentStatus = savedStatuses[clientKey] || f.status || '';
+    const currentContratos = savedContratos[clientKey] !== undefined ? savedContratos[clientKey] : (f.contratos_previstos||0);
     const notes = savedNotes[clientKey] || [];
     let notesHtml = '<div class="note-history" id="notes_'+clientKey+'">';
-    notes.forEach(n=>{ notesHtml += `<div class="note-entry"><span class="note-date">${n.date}</span>: ${n.text}</div>`; });
+    const recentNotes = notes.slice(0,2);
+    recentNotes.forEach(n=>{ notesHtml += `<div class="note-entry"><span class="note-date">${n.date}</span>: ${n.text}</div>`; });
+    if(notes.length>2) notesHtml += `<div class="note-entry" style="color:var(--accent)">+${notes.length-2} mais...</div>`;
     notesHtml += '</div>';
+    const safeClientName = f.nome.replace(/'/g,"\\'");
     pipHtml += `<tr data-status="${f.status||'Sem status'}" data-especialista="${f.especialista||'Sem consultor'}">
       <td style="font-weight:600">${f.nome}</td>
       <td><select class="editable-status" data-client="${clientKey}" onchange="updatePipelineStatus(this)">
         ${statusOptions.map(o=>`<option value="${o}" ${currentStatus.trim()===o?'selected':''}>${o}</option>`).join('')}
       </select></td>
       <td>${f.especialista||'—'}</td>
-      <td style="text-align:center">${f.contratos_previstos||0}</td>
+      <td style="text-align:center"><input type="number" class="editable-contratos" data-client="${clientKey}" value="${currentContratos}" min="0" onchange="updatePipelineContratos(this)"></td>
       <td style="text-align:center">${f.valor_2k?'Sim':'—'}</td>
       <td style="text-align:center">${f.atuacao_jamile?'Sim':'—'}</td>
       <td style="max-width:200px;font-size:.7rem">${f.observacao||''}</td>
-      <td style="min-width:200px">
+      <td style="min-width:220px">
         <input type="text" class="note-input" id="noteInput_${clientKey}" placeholder="Adicionar anotacao..." onkeydown="if(event.key==='Enter')addNote('${clientKey}')">
         <button class="save-note-btn" onclick="addNote('${clientKey}')">Salvar</button>
+        <button class="view-notes-btn" onclick="openNotesPage('${clientKey}','${safeClientName}')">Ver historico completo</button>
         ${notesHtml}
       </td>
     </tr>`;
@@ -514,6 +620,16 @@ function savePipelineStatuses(st){ localStorage.setItem('pipeline_statuses', JSO
     st[key] = select.value;
     savePipelineStatuses(st);
   };
+
+  window.updatePipelineContratos = function(input){
+    const key = input.dataset.client;
+    const ct = getPipelineContratos();
+    ct[key] = parseInt(input.value)||0;
+    savePipelineContratos(ct);
+  };
+
+  window.openNotesPage = openNotesPage;
+  window.addNoteFromPage = addNoteFromPage;
 
   window.addNote = function(clientKey){
     const input = document.getElementById('noteInput_'+clientKey);
@@ -630,23 +746,100 @@ function savePipelineStatuses(st){ localStorage.setItem('pipeline_statuses', JSO
 
   // ===== PAGE: BACKUPS =====
   const backups = document.getElementById('page-backups');
+  const localBackups = getBackups();
   let bkHtml = '<div class="section-title">Backups Mensais</div>';
-  bkHtml += '<p style="color:var(--muted);font-size:.8rem;margin-bottom:1rem">Snapshots mensais dos dados da carteira. Cada backup preserva o estado completo dos clientes naquele mes.</p>';
+  bkHtml += '<p style="color:var(--muted);font-size:.8rem;margin-bottom:1rem">Snapshots mensais dos dados da carteira. Ao salvar um backup, as contas sao zeradas e os dados ficam salvos para exportar como planilha.</p>';
+
+  // Show saved local backups
+  localBackups.forEach((b,i)=>{
+    bkHtml += `<div class="backup-card"><span class="mes">${b.mes} — ${b.date}</span><div><button class="backup-export-btn" onclick="exportBackup(${i})">Exportar CSV</button></div></div>`;
+  });
+
   if(D.backups && D.backups.length){
     D.backups.forEach(b=>{
       bkHtml += `<div class="backup-card"><span class="mes">${b.mes}</span>${b.url?`<a href="${b.url}" target="_blank">Abrir planilha &rarr;</a>`:'—'}</div>`;
     });
   }
-  bkHtml += `<div class="backup-card" style="border-color:var(--accent)"><span class="mes" style="color:var(--accent)">Junho 2025 (Atual)</span><span class="pill pill-green">Em andamento</span></div>`;
+  bkHtml += `<div class="backup-card" style="border-color:var(--accent)"><span class="mes" style="color:var(--accent)">${D.periodo} (Atual)</span><span class="pill pill-green">Em andamento</span></div>`;
+  bkHtml += '<div style="margin-top:1.5rem;display:flex;gap:.5rem;flex-wrap:wrap">';
+  bkHtml += '<button class="backup-save-btn" onclick="saveMonthlyBackup()">Salvar Backup do Mes &amp; Zerar Contas</button>';
+  bkHtml += '<button class="backup-export-btn" onclick="exportCurrentData()">Exportar Dados Atuais (CSV)</button>';
+  bkHtml += '</div>';
   bkHtml += '<div style="margin-top:1.5rem;padding:1rem;background:var(--card);border-radius:10px;border:1px solid var(--border)">';
   bkHtml += '<h4 style="font-size:.85rem;margin-bottom:.5rem">Como funciona o backup mensal</h4>';
   bkHtml += '<ul style="font-size:.78rem;color:var(--muted);list-style:none;line-height:1.8">';
-  bkHtml += '<li>1. No final de cada mes, os dados atuais sao salvos como snapshot</li>';
-  bkHtml += '<li>2. O link da planilha de backup e registrado automaticamente</li>';
-  bkHtml += '<li>3. Os clientes permanecem na carteira e continuam sendo alimentados diariamente</li>';
-  bkHtml += '<li>4. Use a aba "Pipeline Diario" para atualizacoes diarias dos clientes</li>';
+  bkHtml += '<li>1. Clique em "Salvar Backup" para salvar um snapshot completo do mes</li>';
+  bkHtml += '<li>2. As contas (status, anotacoes, contratos editados) sao zeradas para o proximo mes</li>';
+  bkHtml += '<li>3. Os dados salvos ficam disponiveis para exportar como planilha CSV</li>';
+  bkHtml += '<li>4. Os clientes permanecem na carteira — so os dados mensais sao resetados</li>';
   bkHtml += '</ul></div>';
   backups.innerHTML = bkHtml;
+
+  // Backup global functions
+  window.saveMonthlyBackup = function(){
+    if(!confirm('Salvar backup de '+D.periodo+' e zerar as contas? Os dados serao preservados no backup.')) return;
+    const backupData = {
+      mes: D.periodo,
+      date: new Date().toLocaleDateString('pt-BR')+' '+new Date().toLocaleTimeString('pt-BR',{hour:'2-digit',minute:'2-digit'}),
+      statuses: getPipelineStatuses(),
+      notes: getPipelineNotes(),
+      contratos: getPipelineContratos(),
+      foco_semana: D.foco_semana.map(f=>{
+        const ck = f.nome.replace(/[^a-zA-Z0-9]/g,'_');
+        return {
+          nome: f.nome,
+          especialista: f.especialista||'',
+          status_original: f.status||'',
+          status_editado: getPipelineStatuses()[ck]||f.status||'',
+          contratos_previstos: getPipelineContratos()[ck]!==undefined?getPipelineContratos()[ck]:(f.contratos_previstos||0),
+          observacao: f.observacao||'',
+          notas: getPipelineNotes()[ck]||[]
+        };
+      })
+    };
+    const bks = getBackups();
+    bks.unshift(backupData);
+    saveBackups(bks);
+    // Zero out the local data
+    localStorage.removeItem('pipeline_statuses');
+    localStorage.removeItem('pipeline_notes');
+    localStorage.removeItem('pipeline_contratos');
+    alert('Backup salvo! As contas foram zeradas. Recarregue a pagina para ver as mudancas.');
+    location.reload();
+  };
+
+  window.exportCurrentData = function(){
+    let csv = 'Cliente,Status,Especialista,Contratos Previstos,Valor 2k,Jamile,Observacao\n';
+    const st = getPipelineStatuses();
+    const ct = getPipelineContratos();
+    D.foco_semana.forEach(f=>{
+      const ck = f.nome.replace(/[^a-zA-Z0-9]/g,'_');
+      const status = st[ck]||f.status||'';
+      const contratos = ct[ck]!==undefined?ct[ck]:(f.contratos_previstos||0);
+      csv += `"${f.nome}","${status}","${f.especialista||''}",${contratos},${f.valor_2k?'Sim':'Nao'},${f.atuacao_jamile?'Sim':'Nao'},"${(f.observacao||'').replace(/"/g,'""')}"\n`;
+    });
+    downloadCSV(csv, 'carteira_cs_'+D.periodo.replace(/\s/g,'_')+'.csv');
+  };
+
+  window.exportBackup = function(index){
+    const bks = getBackups();
+    const bk = bks[index];
+    if(!bk) return;
+    let csv = 'Cliente,Status Original,Status Editado,Especialista,Contratos Previstos,Observacao,Notas\n';
+    bk.foco_semana.forEach(f=>{
+      const notasStr = (f.notas||[]).map(n=>n.date+': '+n.text).join(' | ');
+      csv += `"${f.nome}","${f.status_original}","${f.status_editado}","${f.especialista}",${f.contratos_previstos},"${(f.observacao||'').replace(/"/g,'""')}","${notasStr.replace(/"/g,'""')}"\n`;
+    });
+    downloadCSV(csv, 'backup_'+bk.mes.replace(/\s/g,'_')+'_'+bk.date.replace(/[\s\/:\\]/g,'_')+'.csv');
+  };
+
+  function downloadCSV(csv, filename){
+    const blob = new Blob([csv], {type:'text/csv;charset=utf-8;'});
+    const link = document.createElement('a');
+    link.href = URL.createObjectURL(blob);
+    link.download = filename;
+    link.click();
+  }
 
 })();
 </script>
