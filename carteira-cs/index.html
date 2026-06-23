@@ -80,6 +80,28 @@ tr:hover td{background:#1e2e3e}
 .stat-box{background:var(--card);border-radius:8px;padding:.6rem 1rem;border:1px solid var(--border);text-align:center;min-width:100px}
 .stat-box .num{font-size:1.3rem;font-weight:800}
 .stat-box .label{font-size:.65rem;color:var(--muted);text-transform:uppercase}
+/* MODAL */
+.modal-overlay{position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,.6);z-index:200;display:flex;align-items:center;justify-content:center}
+.modal{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:1.2rem;max-width:600px;width:90%;max-height:80vh;overflow-y:auto}
+.modal h3{font-size:.95rem;margin-bottom:.8rem;color:var(--accent)}
+.modal .close-btn{float:right;background:none;border:none;color:var(--muted);font-size:1.2rem;cursor:pointer}
+.modal .close-btn:hover{color:var(--text)}
+.modal ul{list-style:none;padding:0}
+.modal li{padding:.4rem 0;border-bottom:1px solid #1e2e3e;font-size:.8rem}
+.modal li:last-child{border:0}
+/* CLICKABLE STAT */
+.stat-box.clickable{cursor:pointer;transition:border-color .2s,background .2s}
+.stat-box.clickable:hover{border-color:var(--accent);background:var(--hover)}
+/* PIPELINE EDITABLE */
+.editable-status{background:var(--card2);border:1px solid var(--border);color:var(--text);font-size:.72rem;padding:.2rem .4rem;border-radius:4px;cursor:pointer;min-width:120px}
+.editable-status:focus{border-color:var(--accent);outline:none}
+.note-input{background:var(--card2);border:1px solid var(--border);color:var(--text);font-size:.7rem;padding:.3rem .5rem;border-radius:4px;width:100%;margin-top:.3rem;resize:vertical;min-height:28px}
+.note-input:focus{border-color:var(--accent);outline:none}
+.save-note-btn{background:var(--accent);color:#fff;border:none;padding:.2rem .6rem;border-radius:4px;font-size:.68rem;cursor:pointer;margin-top:.3rem}
+.save-note-btn:hover{opacity:.85}
+.note-history{font-size:.65rem;color:var(--muted);margin-top:.3rem}
+.note-history .note-entry{padding:.2rem 0;border-bottom:1px solid #1a2a3a}
+.note-history .note-date{color:var(--accent);font-weight:600}
 /* RESPONSIVE */
 @media(max-width:768px){
   .nav{flex-direction:column;padding:.5rem 1rem}
@@ -93,7 +115,7 @@ tr:hover td{background:#1e2e3e}
 <body>
 
 <nav class="nav">
-  <div class="nav-brand" id="navBrand">[Junho] Carteira CS <small>Dashboard</small></div>
+  <div class="nav-brand" id="navBrand">Carteira CS <small>Dashboard</small></div>
   <div class="nav-tabs" id="navTabs"></div>
 </nav>
 
@@ -177,6 +199,27 @@ function barColor(pct){
   if(pct>=50) return 'var(--yellow)';
   return 'var(--orange)';
 }
+
+function showModal(title, items){
+  const overlay = document.createElement('div');
+  overlay.className = 'modal-overlay';
+  overlay.onclick = (e)=>{ if(e.target===overlay) overlay.remove(); };
+  let listHtml = items.map(item =>{
+    if(typeof item === 'string') return `<li>${item}</li>`;
+    return `<li><strong>${item.nome||item.corretor}</strong>${item.detail?' — <span style="color:var(--muted)">'+item.detail+'</span>':''}</li>`;
+  }).join('');
+  overlay.innerHTML = `<div class="modal"><button class="close-btn" onclick="this.closest('.modal-overlay').remove()">&times;</button><h3>${title} (${items.length})</h3><ul>${listHtml}</ul></div>`;
+  document.body.appendChild(overlay);
+}
+
+function getPipelineNotes(){
+  try{ return JSON.parse(localStorage.getItem('pipeline_notes')||'{}'); }catch(e){ return {}; }
+}
+function savePipelineNotes(notes){ localStorage.setItem('pipeline_notes', JSON.stringify(notes)); }
+function getPipelineStatuses(){
+  try{ return JSON.parse(localStorage.getItem('pipeline_statuses')||'{}'); }catch(e){ return {}; }
+}
+function savePipelineStatuses(st){ localStorage.setItem('pipeline_statuses', JSON.stringify(st)); }
 
 (async function(){
   const resp = await fetch('data.json');
@@ -278,20 +321,42 @@ function barColor(pct){
     options:{responsive:true,plugins:{legend:{display:false}},scales:{x:{ticks:{color:'#8899aa'}},y:{ticks:{color:'#8899aa'},grid:{color:'#1e2e3e'}}}}
   });
 
-  // Churn chart
+  // Churn chart (clickable)
+  const churnRanges = D.churn.map(c=>c.range);
+  function getChurnClients(range){
+    const parts = range.replace(/\s/g,'').split('-');
+    const lo = parseInt(parts[0])||0;
+    const hi = parseInt(parts[1])||99999;
+    return vg.clients.filter(c=> c.dias_sem_contrato!==null && Math.round(c.dias_sem_contrato)>=lo && Math.round(c.dias_sem_contrato)<=hi);
+  }
   new Chart(document.getElementById('churnChart'),{
     type:'bar',
-    data:{labels:D.churn.map(c=>c.range),datasets:[{data:D.churn.map(c=>c.count),backgroundColor:D.churn.map((_,i)=>i<2?'#00b894':i<4?'#fdcb6e':'#e17055'),borderRadius:4}]},
-    options:{responsive:true,plugins:{legend:{display:false}},scales:{x:{ticks:{color:'#8899aa',font:{size:10}}},y:{ticks:{color:'#8899aa'},grid:{color:'#1e2e3e'}}}}
+    data:{labels:churnRanges,datasets:[{data:D.churn.map(c=>c.count),backgroundColor:D.churn.map((_,i)=>i<2?'#00b894':i<4?'#fdcb6e':'#e17055'),borderRadius:4}]},
+    options:{responsive:true,onClick:(evt,elements)=>{
+      if(elements.length){
+        const idx = elements[0].index;
+        const range = churnRanges[idx];
+        const clients = getChurnClients(range);
+        showModal('Churn — '+range+' dias', clients.map(c=>({nome:c.corretor, detail:Math.round(c.dias_sem_contrato)+' dias, carteira: '+c.carteira})));
+      }
+    },plugins:{legend:{display:false},tooltip:{callbacks:{afterLabel:()=>'Clique para ver clientes'}}},scales:{x:{ticks:{color:'#8899aa',font:{size:10}}},y:{ticks:{color:'#8899aa'},grid:{color:'#1e2e3e'}}}}
   });
 
-  // Motivo Lost chart
+  // Motivo Lost chart (clickable)
   const motLabels = Object.keys(cp.motivos);
   const motColors = ['#e17055','#fdcb6e','#00b894','#74b9ff','#e84393','#6c5ce7','#636e72','#fd79a8'];
-  new Chart(document.getElementById('motivoChart'),{
+  const motivoChartEl = document.getElementById('motivoChart');
+  const motivoChartObj = new Chart(motivoChartEl,{
     type:'doughnut',
     data:{labels:motLabels,datasets:[{data:Object.values(cp.motivos),backgroundColor:motColors.slice(0,motLabels.length),borderWidth:0,hoverOffset:8}]},
-    options:{responsive:true,plugins:{legend:{position:'bottom',labels:{color:'#8899aa',font:{size:10}}}},cutout:'60%'}
+    options:{responsive:true,onClick:(evt,elements)=>{
+      if(elements.length){
+        const idx = elements[0].index;
+        const motivo = motLabels[idx];
+        const clients = cp.clients.filter(c=>c.motivo===motivo);
+        showModal('Lost — '+motivo, clients.map(c=>({nome:c.corretor, detail:c.dias_sem_contrato+' dias, '+c.contratos_anteriores+' contratos'})));
+      }
+    },plugins:{legend:{position:'bottom',labels:{color:'#8899aa',font:{size:10}}},tooltip:{callbacks:{afterLabel:(ctx)=>'Clique para ver clientes'}}},cutout:'60%'}
   });
 
   // ===== PAGE: DESEMPENHO =====
@@ -340,23 +405,55 @@ function barColor(pct){
   // ===== PAGE: CHURN & LOST =====
   const churnPage = document.getElementById('page-churn');
   let lostHtml = `<div class="section-title">Clientes em Lost (${cp.total})</div>
-    <div class="stats-row">
-      ${Object.entries(cp.motivos).map(([m,c])=>`<div class="stat-box"><div class="num">${c}</div><div class="label">${m}</div></div>`).join('')}
+    <div class="stats-row" id="lostMotivoStats">
+      ${Object.entries(cp.motivos).map(([m,c])=>`<div class="stat-box clickable" data-motivo="${m}"><div class="num">${c}</div><div class="label">${m}</div></div>`).join('')}
     </div>
-    <div class="table-wrap"><table><thead><tr><th>Corretor</th><th>Dias s/ contrato</th><th>Contratos anteriores</th><th>Entrou em Lost</th><th>Motivo</th><th>Consideracoes</th></tr></thead><tbody>`;
+    <div class="filters" id="lostMotivoFilters">
+      <div class="filter-btn active" data-filter="all">Todos ${cp.total}</div>
+      ${Object.entries(cp.motivos).map(([m,c])=>`<div class="filter-btn" data-filter="${m}">${m} ${c}</div>`).join('')}
+    </div>
+    <div class="table-wrap"><table id="lostTable"><thead><tr><th>Corretor</th><th>Dias s/ contrato</th><th>Contratos anteriores</th><th>Entrou em Lost</th><th>Motivo</th><th>Consideracoes</th></tr></thead><tbody>`;
   cp.clients.forEach(c=>{
-    lostHtml += `<tr><td>${c.corretor}</td><td>${c.dias_sem_contrato} dias</td><td>${c.contratos_anteriores}</td><td>${c.entrou_lost}</td><td><span class="pill pill-red">${c.motivo}</span></td><td style="max-width:300px;font-size:.7rem">${c.consideracoes||''}</td></tr>`;
+    lostHtml += `<tr data-motivo="${c.motivo}"><td>${c.corretor}</td><td>${c.dias_sem_contrato} dias</td><td>${c.contratos_anteriores}</td><td>${c.entrou_lost}</td><td><span class="pill pill-red">${c.motivo}</span></td><td style="max-width:300px;font-size:.7rem">${c.consideracoes||''}</td></tr>`;
   });
   lostHtml += '</tbody></table></div>';
   churnPage.innerHTML = lostHtml;
 
+  // Lost motivo stat-box click → show modal with client names
+  document.querySelectorAll('#lostMotivoStats .stat-box.clickable').forEach(box=>{
+    box.onclick = ()=>{
+      const motivo = box.dataset.motivo;
+      const clients = cp.clients.filter(c=>c.motivo===motivo);
+      showModal('Lost — '+motivo, clients.map(c=>({nome:c.corretor, detail:c.dias_sem_contrato+' dias — '+(c.consideracoes||'sem consideracoes')})));
+    };
+  });
+
+  // Lost motivo filter buttons
+  document.querySelectorAll('#lostMotivoFilters .filter-btn').forEach(btn=>{
+    btn.onclick = ()=>{
+      document.querySelectorAll('#lostMotivoFilters .filter-btn').forEach(b=>b.classList.remove('active'));
+      btn.classList.add('active');
+      const filter = btn.dataset.filter;
+      document.querySelectorAll('#lostTable tbody tr').forEach(tr=>{
+        tr.style.display = (filter==='all' || tr.dataset.motivo===filter)?'':'none';
+      });
+    };
+  });
+
   // ===== PAGE: PIPELINE DIARIO =====
   const pipeline = document.getElementById('page-pipeline');
   const focoStatuses = {};
+  const focoEspecialistas = {};
+  const savedStatuses = getPipelineStatuses();
+  const savedNotes = getPipelineNotes();
+  const statusOptions = ['Vai ativar','Tem promessas','Não vai ativar','Em onboarding','Sem status'];
   D.foco_semana.forEach(f=>{
     const s = f.status || 'Sem status';
     if(!focoStatuses[s]) focoStatuses[s] = [];
     focoStatuses[s].push(f);
+    const esp = f.especialista || 'Sem consultor';
+    if(!focoEspecialistas[esp]) focoEspecialistas[esp] = [];
+    focoEspecialistas[esp].push(f);
   });
 
   let pipHtml = '<div class="section-title">Pipeline Diario — Foco da Semana</div>';
@@ -366,35 +463,103 @@ function barColor(pct){
   });
   pipHtml += '</div>';
 
+  // Status filters
+  pipHtml += `<div class="section-title" style="font-size:.8rem">Filtrar por Status</div>`;
   pipHtml += `<div class="filters" id="pipelineFilters"><div class="filter-btn active" data-filter="all">Todos ${D.foco_semana.length}</div>`;
   Object.entries(focoStatuses).forEach(([s,items])=>{
     pipHtml += `<div class="filter-btn" data-filter="${s}">${s} ${items.length}</div>`;
   });
   pipHtml += '</div>';
 
-  pipHtml += '<div class="table-wrap"><table id="pipelineTable"><thead><tr><th>Cliente</th><th>Status</th><th>Especialista</th><th>Contratos Prev.</th><th>Valor 2k</th><th>Jamile</th><th>Observacao</th></tr></thead><tbody>';
-  D.foco_semana.forEach(f=>{
-    pipHtml += `<tr data-status="${f.status||'Sem status'}">
+  // Consultant filters
+  pipHtml += `<div class="section-title" style="font-size:.8rem">Filtrar por Consultor</div>`;
+  pipHtml += `<div class="filters" id="consultorFilters"><div class="filter-btn active" data-consultor="all">Todos</div>`;
+  Object.entries(focoEspecialistas).forEach(([esp,items])=>{
+    pipHtml += `<div class="filter-btn" data-consultor="${esp}">${esp} (${items.length})</div>`;
+  });
+  pipHtml += '</div>';
+
+  pipHtml += '<div class="table-wrap"><table id="pipelineTable"><thead><tr><th>Cliente</th><th>Status</th><th>Especialista</th><th>Contratos Prev.</th><th>Valor 2k</th><th>Jamile</th><th>Observacao</th><th>Anotacoes Diarias</th></tr></thead><tbody>';
+  D.foco_semana.forEach((f,idx)=>{
+    const clientKey = f.nome.replace(/[^a-zA-Z0-9]/g,'_');
+    const currentStatus = savedStatuses[clientKey] || f.status || '';
+    const notes = savedNotes[clientKey] || [];
+    let notesHtml = '<div class="note-history" id="notes_'+clientKey+'">';
+    notes.forEach(n=>{ notesHtml += `<div class="note-entry"><span class="note-date">${n.date}</span>: ${n.text}</div>`; });
+    notesHtml += '</div>';
+    pipHtml += `<tr data-status="${f.status||'Sem status'}" data-especialista="${f.especialista||'Sem consultor'}">
       <td style="font-weight:600">${f.nome}</td>
-      <td><span class="pill ${termPill(f.status)}">${f.status||'—'}</span></td>
+      <td><select class="editable-status" data-client="${clientKey}" onchange="updatePipelineStatus(this)">
+        ${statusOptions.map(o=>`<option value="${o}" ${currentStatus.trim()===o?'selected':''}>${o}</option>`).join('')}
+      </select></td>
       <td>${f.especialista||'—'}</td>
       <td style="text-align:center">${f.contratos_previstos||0}</td>
       <td style="text-align:center">${f.valor_2k?'Sim':'—'}</td>
       <td style="text-align:center">${f.atuacao_jamile?'Sim':'—'}</td>
-      <td style="max-width:250px;font-size:.7rem">${f.observacao||''}</td>
+      <td style="max-width:200px;font-size:.7rem">${f.observacao||''}</td>
+      <td style="min-width:200px">
+        <input type="text" class="note-input" id="noteInput_${clientKey}" placeholder="Adicionar anotacao..." onkeydown="if(event.key==='Enter')addNote('${clientKey}')">
+        <button class="save-note-btn" onclick="addNote('${clientKey}')">Salvar</button>
+        ${notesHtml}
+      </td>
     </tr>`;
   });
   pipHtml += '</tbody></table></div>';
   pipeline.innerHTML = pipHtml;
 
+  // Expose global functions for pipeline interactivity
+  window.updatePipelineStatus = function(select){
+    const key = select.dataset.client;
+    const st = getPipelineStatuses();
+    st[key] = select.value;
+    savePipelineStatuses(st);
+  };
+
+  window.addNote = function(clientKey){
+    const input = document.getElementById('noteInput_'+clientKey);
+    const text = input.value.trim();
+    if(!text) return;
+    const notes = getPipelineNotes();
+    if(!notes[clientKey]) notes[clientKey] = [];
+    const now = new Date();
+    const dateStr = now.toLocaleDateString('pt-BR')+' '+now.toLocaleTimeString('pt-BR',{hour:'2-digit',minute:'2-digit'});
+    notes[clientKey].unshift({date:dateStr, text:text});
+    savePipelineNotes(notes);
+    const container = document.getElementById('notes_'+clientKey);
+    const entry = document.createElement('div');
+    entry.className = 'note-entry';
+    entry.innerHTML = `<span class="note-date">${dateStr}</span>: ${text}`;
+    container.prepend(entry);
+    input.value = '';
+  };
+
+  // Active filter state for pipeline
+  let activeStatusFilter = 'all';
+  let activeConsultorFilter = 'all';
+
+  function applyPipelineFilters(){
+    document.querySelectorAll('#pipelineTable tbody tr').forEach(tr=>{
+      const matchStatus = activeStatusFilter==='all' || tr.dataset.status===activeStatusFilter;
+      const matchConsultor = activeConsultorFilter==='all' || tr.dataset.especialista===activeConsultorFilter;
+      tr.style.display = (matchStatus && matchConsultor)?'':'none';
+    });
+  }
+
   document.querySelectorAll('#pipelineFilters .filter-btn').forEach(btn=>{
     btn.onclick = ()=>{
       document.querySelectorAll('#pipelineFilters .filter-btn').forEach(b=>b.classList.remove('active'));
       btn.classList.add('active');
-      const filter = btn.dataset.filter;
-      document.querySelectorAll('#pipelineTable tbody tr').forEach(tr=>{
-        tr.style.display = (filter==='all' || tr.dataset.status===filter)?'':'none';
-      });
+      activeStatusFilter = btn.dataset.filter;
+      applyPipelineFilters();
+    };
+  });
+
+  document.querySelectorAll('#consultorFilters .filter-btn').forEach(btn=>{
+    btn.onclick = ()=>{
+      document.querySelectorAll('#consultorFilters .filter-btn').forEach(b=>b.classList.remove('active'));
+      btn.classList.add('active');
+      activeConsultorFilter = btn.dataset.consultor;
+      applyPipelineFilters();
     };
   });
 
