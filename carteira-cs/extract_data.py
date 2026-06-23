@@ -1,257 +1,367 @@
 #!/usr/bin/env python3
-"""Extract and clean data from the Google Sheets XLSX into a JSON file for the dashboard."""
+"""Extract data from [Junho] Carteira CS spreadsheet into JSON for dashboard."""
+import json, sys, warnings
+from datetime import datetime
+import openpyxl
 import pandas as pd
-import json
-import warnings
-import math
 
 warnings.filterwarnings("ignore")
 
-XLSX_PATH = "spreadsheet.xlsx"
-OUTPUT_PATH = "docs/data.json"
+XLSX = sys.argv[1] if len(sys.argv) > 1 else "/tmp/new_sheet.xlsx"
+OUT = sys.argv[2] if len(sys.argv) > 2 else "docs/data.json"
 
 
-def safe(val):
-    if val is None or (isinstance(val, float) and math.isnan(val)):
-        return None
-    return val
+def safe(v, default=""):
+    if v is None or (isinstance(v, float) and pd.isna(v)):
+        return default
+    return v
 
 
-def extract_visao_geral(xlsx):
-    df = pd.read_excel(xlsx, sheet_name="Visão Geral da Carteira", header=None)
-    summary = df.iloc[0].tolist()
-    data = df.iloc[2:].copy()
-    data.columns = [
-        "idx", "corretor", "id_cliente", "data_primeiro_contrato",
-        "dias_sem_contrato", "status", "carteira", "contratos_ate_30_04",
-        "contrato_ativo_maio", "lost",
-    ]
-    data = data.dropna(subset=["corretor"])
-
-    clients = []
-    for _, row in data.iterrows():
-        clients.append({
-            "corretor": safe(row["corretor"]),
-            "dias_sem_contrato": int(row["dias_sem_contrato"]) if pd.notna(row["dias_sem_contrato"]) else None,
-            "status": safe(row["status"]),
-            "carteira": safe(row["carteira"]),
-            "contratos_ate_30_04": int(row["contratos_ate_30_04"]) if pd.notna(row["contratos_ate_30_04"]) else 0,
-            "contrato_ativo_maio": int(row["contrato_ativo_maio"]) if pd.notna(row["contrato_ativo_maio"]) else 0,
-            "lost": safe(row["lost"]),
-        })
-
-    status_counts = {}
-    carteira_counts = {}
-    lost_counts = {}
-    for c in clients:
-        s = c["status"] or "Desconhecido"
-        status_counts[s] = status_counts.get(s, 0) + 1
-        ca = c["carteira"] or "Desconhecido"
-        carteira_counts[ca] = carteira_counts.get(ca, 0) + 1
-        lo = c["lost"] or "N/A"
-        lost_counts[lo] = lost_counts.get(lo, 0) + 1
-
-    total_contratos_maio = sum(c["contrato_ativo_maio"] for c in clients)
-    total_contratos_anterior = sum(c["contratos_ate_30_04"] for c in clients)
-
-    return {
-        "total_clientes": int(safe(summary[2]) or len(clients)),
-        "media_contratos": round(float(safe(summary[7]) or 0), 2),
-        "contratos_emitidos_ate_abril": int(safe(summary[8]) or total_contratos_anterior),
-        "contratos_ativos_maio": int(safe(summary[9]) or total_contratos_maio),
-        "status_distribution": status_counts,
-        "carteira_distribution": carteira_counts,
-        "lost_distribution": lost_counts,
-        "clients": clients,
-    }
+def to_float(v, default=0):
+    try:
+        return float(v)
+    except (TypeError, ValueError):
+        return default
 
 
-def extract_meta_geral(xlsx):
-    df = pd.read_excel(xlsx, sheet_name="Meta Geral 052025", header=None)
-    rows = []
-    for i in range(len(df)):
-        rows.append([safe(v) for v in df.iloc[i].tolist()])
+def to_int(v, default=0):
+    try:
+        return int(float(v))
+    except (TypeError, ValueError):
+        return default
+
+
+def extract_meta_geral(wb):
+    ws = wb["Meta Geral 062025"]
+    rows = {}
+    for r in range(1, ws.max_row + 1):
+        vals = [ws.cell(r, c).value for c in range(1, ws.max_column + 1)]
+        rows[r] = vals
 
     return {
         "contratos": {
-            "meta": int(float(rows[5][1])) if rows[5][1] else 0,
-            "realizado": int(float(rows[5][3])) if rows[5][3] else 0,
-            "percentual": round(float(rows[5][5]) * 100, 1) if rows[5][5] else 0,
+            "meta_geral": to_int(rows[6][1]),
+            "realizado_geral": to_int(rows[6][3]),
+            "pct_geral": round(to_float(rows[6][5]) * 100, 1),
         },
         "retencao": {
-            "clientes_totais": int(float(rows[5][7])) if rows[5][7] else 0,
-            "percentual_retencao": round(float(rows[5][9]) * 100, 1) if rows[5][9] else 0,
-            "clientes_para_reverter": round(float(rows[5][11]), 1) if rows[5][11] else 0,
+            "clientes_totais": to_int(rows[6][7]),
+            "pct_retencao": round(to_float(rows[6][9]) * 100, 1),
+            "clientes_reverter": round(to_float(rows[6][11]), 1),
         },
         "onboarding": {
-            "meta": int(float(rows[9][1])) if rows[9][1] else 0,
-            "realizado": int(float(rows[9][3])) if rows[9][3] else 0,
-            "percentual": round(float(rows[9][5]) * 100, 1) if rows[9][5] else 0,
-            "clientes_revertidos": int(float(rows[9][7])) if rows[9][7] else 0,
+            "meta": to_int(rows[10][1]),
+            "realizado": to_int(rows[10][3]),
+            "pct": round(to_float(rows[10][5]) * 100, 1),
+            "clientes_revertidos": to_int(rows[10][7]),
+            "pct_revertidos": round(to_float(rows[10][9]) * 100, 1),
+            "atingimento_100": round(to_float(rows[10][11]) * 100, 1),
         },
         "ongoing": {
-            "meta": int(float(rows[13][1])) if rows[13][1] else 0,
-            "realizado": int(float(rows[13][3])) if rows[13][3] else 0,
-            "percentual": round(float(rows[13][5]) * 100, 1) if rows[13][5] else 0,
+            "meta": to_int(rows[14][1]),
+            "realizado": to_int(rows[14][3]),
+            "pct": round(to_float(rows[14][5]) * 100, 1),
         },
     }
 
 
-def extract_meta_individual(xlsx):
-    df = pd.read_excel(xlsx, sheet_name="Meta Individual", header=None)
-    rows = []
-    for i in range(len(df)):
-        rows.append([safe(v) for v in df.iloc[i].tolist()])
+def extract_meta_individual(wb):
+    ws = wb["Meta Individual 06-2026"]
+    rows = {}
+    for r in range(1, ws.max_row + 1):
+        vals = [ws.cell(r, c).value for c in range(1, ws.max_column + 1)]
+        rows[r] = vals
 
     specialists = []
 
-    # Camila (rows 2-5, Onboarding)
+    # Camila (Onboarding) - rows 3-6
     specialists.append({
         "nome": "Camila",
         "tipo": "Onboarding",
-        "clientes": int(float(rows[5][4])) if rows[5][4] else 0,
-        "meta_contratos": int(float(rows[5][5])) if rows[5][5] else 0,
-        "contratos_ativos": int(float(rows[5][6])) if rows[5][6] else 0,
-        "percentual_contratos": round(float(rows[5][7]) * 100, 1) if rows[5][7] else 0,
-        "segundo_contrato": int(float(rows[5][11])) if rows[5][11] else 0,
-        "resultado_final": round(float(rows[3][14]) * 100, 1) if rows[3][14] else 0,
+        "contratos": {
+            "clientes_carteira": to_int(rows[6][4]),
+            "meta": to_int(rows[6][5]),
+            "ativos": to_int(rows[6][6]),
+            "pct": round(to_float(rows[6][7]) * 100, 1),
+        },
+        "segundo_contrato": {
+            "clientes_carteira": to_int(rows[6][9]),
+            "meta": round(to_float(rows[6][10]) * 100, 1),
+            "realizado": to_int(rows[6][11]),
+            "pct": round(to_float(rows[6][12]) * 100, 1),
+        },
+        "resultado_final": round(to_float(rows[4][14]) * 100, 1),
     })
 
-    # Andressa (rows 9-12, Ongoing)
+    # Andressa (Ongoing) - rows 10-13
     specialists.append({
         "nome": "Andressa",
         "tipo": "Ongoing",
-        "clientes": int(float(rows[12][4])) if rows[12][4] else 0,
-        "meta_contratos": int(float(rows[12][5])) if rows[12][5] else 0,
-        "contratos_ativos": int(float(rows[12][6])) if rows[12][6] else 0,
-        "percentual_contratos": round(float(rows[12][7]) * 100, 1) if rows[12][7] else 0,
-        "clientes_risco": int(float(rows[12][9])) if rows[12][9] else 0,
-        "meta_reversao": round(float(rows[12][10]), 1) if rows[12][10] else 0,
-        "clientes_revertidos": int(float(rows[12][11])) if rows[12][11] else 0,
-        "resultado_final": round(float(rows[10][14]) * 100, 1) if rows[10][14] else 0,
+        "contratos": {
+            "clientes_carteira": to_int(rows[13][4]),
+            "meta": to_int(rows[13][5]),
+            "ativos": to_int(rows[13][6]),
+            "pct": round(to_float(rows[13][7]) * 100, 1),
+        },
+        "retencao": {
+            "clientes_risco": to_int(rows[13][9]),
+            "meta_reversao": round(to_float(rows[13][10]), 1),
+            "revertidos": to_int(rows[13][11]),
+            "pct": round(to_float(rows[13][12]) * 100, 1),
+        },
+        "resultado_final": round(to_float(rows[11][14]) * 100, 1),
     })
 
-    # Emanuelle (rows 16-19, Ongoing)
+    # Emanuelle (Ongoing) - rows 17-20
     specialists.append({
         "nome": "Emanuelle",
         "tipo": "Ongoing",
-        "clientes": int(float(rows[19][4])) if rows[19][4] else 0,
-        "meta_contratos": int(float(rows[19][5])) if rows[19][5] else 0,
-        "contratos_ativos": int(float(rows[19][6])) if rows[19][6] else 0,
-        "percentual_contratos": round(float(rows[19][7]) * 100, 1) if rows[19][7] else 0,
-        "clientes_risco": int(float(rows[19][9])) if rows[19][9] else 0,
-        "meta_reversao": round(float(rows[19][10]), 1) if rows[19][10] else 0,
-        "clientes_revertidos": int(float(rows[19][11])) if rows[19][11] else 0,
-        "resultado_final": round(float(rows[17][14]) * 100, 1) if rows[17][14] else 0,
+        "contratos": {
+            "clientes_carteira": to_int(rows[20][4]),
+            "meta": to_int(rows[20][5]),
+            "ativos": to_int(rows[20][6]),
+            "pct": round(to_float(rows[20][7]) * 100, 1),
+        },
+        "retencao": {
+            "clientes_risco": to_int(rows[20][9]),
+            "meta_reversao": round(to_float(rows[20][10]), 1),
+            "revertidos": to_int(rows[20][11]),
+            "pct": round(to_float(rows[20][12]) * 100, 1),
+        },
+        "resultado_final": round(to_float(rows[18][14]) * 100, 1),
     })
 
     return specialists
 
 
-def extract_churn(xlsx):
-    df = pd.read_excel(xlsx, sheet_name="Visão Churn", header=None)
-    rows = []
-    for i in range(len(df)):
-        rows.append([safe(v) for v in df.iloc[i].tolist()])
+def extract_visao_geral(wb):
+    ws = wb["Visão Geral da Carteira"]
+    summary = [ws.cell(1, c).value for c in range(1, ws.max_column + 1)]
 
-    churn_ranges = []
-    for i in range(2, 13):
-        r = rows[i]
-        label = r[3]
-        tempo = r[4]
-        count = r[5]
-        if label and count:
-            churn_ranges.append({
-                "range": str(label),
-                "tempo": str(tempo) if tempo else "",
-                "count": int(float(count)),
-            })
-    return churn_ranges
+    clients = []
+    status_dist = {}
+    carteira_dist = {}
+    lost_dist = {}
 
+    for r in range(3, ws.max_row + 1):
+        corretor = ws.cell(r, 2).value
+        if not corretor:
+            continue
+        status = safe(ws.cell(r, 6).value, "Desconhecido")
+        carteira = safe(ws.cell(r, 7).value, "Desconhecido")
+        lost = safe(ws.cell(r, 10).value, "—")
+        dias = to_float(ws.cell(r, 5).value, None)
 
-def extract_contratos_vencidos(xlsx):
-    df = pd.read_excel(xlsx, sheet_name="Contratos vencidos e a pagar", header=None)
-    rows = []
-    for i in range(1, len(df)):
-        r = df.iloc[i].tolist()
-        rows.append({
-            "especialista": safe(r[0]),
-            "status": safe(r[1]),
-            "nome": safe(r[3]),
-            "data_criacao": str(r[4])[:10] if pd.notna(r[4]) else None,
-            "data_termino": str(r[7])[:10] if pd.notna(r[7]) else None,
+        clients.append({
+            "corretor": str(corretor),
+            "id_cliente": safe(ws.cell(r, 3).value),
+            "data_primeiro_contrato": str(safe(ws.cell(r, 4).value))[:10],
+            "dias_sem_contrato": dias,
+            "status": status,
+            "carteira": carteira,
+            "contratos_ate_abril": to_int(ws.cell(r, 8).value),
+            "contrato_ativo_junho": to_int(ws.cell(r, 9).value),
+            "lost": str(lost),
         })
-    
-    status_counts = {}
-    esp_counts = {}
-    for c in rows:
-        s = c["status"] or "Desconhecido"
-        status_counts[s] = status_counts.get(s, 0) + 1
-        e = c["especialista"] or "Desconhecido"
-        esp_counts[e] = esp_counts.get(e, 0) + 1
+
+        status_dist[status] = status_dist.get(status, 0) + 1
+        carteira_dist[carteira] = carteira_dist.get(carteira, 0) + 1
+        lost_dist[str(lost)] = lost_dist.get(str(lost), 0) + 1
 
     return {
-        "total": len(rows),
-        "status_counts": status_counts,
-        "por_especialista": esp_counts,
-        "items": rows[:30],
+        "total_clientes": to_int(summary[2]),
+        "media_contratos": round(to_float(summary[7]), 2),
+        "contratos_emitidos_junho": to_int(summary[8]),
+        "contratos_ativos": to_int(summary[9]),
+        "status_distribution": status_dist,
+        "carteira_distribution": carteira_dist,
+        "lost_distribution": lost_dist,
+        "clients": clients,
     }
 
 
-def extract_lost_clients(xlsx):
-    df = pd.read_excel(xlsx, sheet_name="Clientes em Lost", header=None)
-    clients = []
-    for i in range(2, len(df)):
-        r = df.iloc[i].tolist()
-        clients.append({
-            "corretor": safe(r[0]),
-            "dias_sem_contrato": int(float(r[3])) if pd.notna(r[3]) else None,
-            "contratos_anteriores": int(float(r[5])) if pd.notna(r[5]) else 0,
-            "motivo": safe(r[6]),
-            "consideracoes": safe(r[7]),
-        })
+def extract_churn(wb):
+    ws = wb["Visão Churn"]
+    churn = []
+    for r in range(3, 14):
+        label = ws.cell(r, 4).value
+        count = to_int(ws.cell(r, 6).value)
+        if label:
+            churn.append({"range": str(label), "count": count})
+    return churn
 
-    motivo_counts = {}
-    for c in clients:
-        m = c["motivo"] or "Nenhum"
-        motivo_counts[m] = motivo_counts.get(m, 0) + 1
+
+def extract_clientes_perdidos(wb):
+    ws = wb["Clientes Perdidos"]
+    clients = []
+    motivos = {}
+    for r in range(3, ws.max_row + 1):
+        nome = ws.cell(r, 1).value
+        if not nome:
+            continue
+        motivo = safe(ws.cell(r, 8).value, "Nenhum")
+        clients.append({
+            "corretor": str(nome),
+            "id_cliente": safe(ws.cell(r, 2).value),
+            "data_primeiro_contrato": str(safe(ws.cell(r, 3).value))[:10],
+            "dias_sem_contrato": to_int(ws.cell(r, 4).value),
+            "status": safe(ws.cell(r, 5).value),
+            "contratos_anteriores": to_int(ws.cell(r, 6).value),
+            "entrou_lost": str(safe(ws.cell(r, 7).value))[:10],
+            "motivo": motivo,
+            "consideracoes": safe(ws.cell(r, 9).value),
+        })
+        motivos[motivo] = motivos.get(motivo, 0) + 1
 
     return {
         "total": len(clients),
-        "motivo_counts": motivo_counts,
-        "items": clients,
+        "motivos": motivos,
+        "clients": clients,
     }
+
+
+def extract_foco_semana(wb):
+    ws = wb["Foco da semana"]
+    items = []
+    for r in range(2, ws.max_row + 1):
+        nome = ws.cell(r, 1).value
+        if not nome:
+            continue
+        items.append({
+            "nome": str(nome),
+            "status": safe(ws.cell(r, 2).value),
+            "especialista": safe(ws.cell(r, 3).value),
+            "contratos_previstos": to_int(ws.cell(r, 4).value),
+            "valor_2k": str(safe(ws.cell(r, 5).value)).lower() == "true",
+            "atuacao_jamile": str(safe(ws.cell(r, 6).value)).lower() == "true",
+            "telefone": safe(ws.cell(r, 7).value),
+            "observacao": safe(ws.cell(r, 8).value),
+        })
+    return items
+
+
+def extract_reunioes(wb):
+    ws = wb["Reuniões Realizadas"]
+    dates = []
+    for c in range(3, ws.max_column + 1):
+        v = ws.cell(1, c).value
+        if v and "Link" not in str(v):
+            dates.append(str(v)[:10])
+
+    by_specialist = {}
+    meetings = []
+    for r in range(2, ws.max_row + 1):
+        specialist = ws.cell(r, 1).value
+        client = ws.cell(r, 2).value
+        if not specialist or not client:
+            continue
+        for i, c in enumerate(range(3, 3 + len(dates))):
+            if str(ws.cell(r, c).value).lower() == "true":
+                meetings.append({
+                    "especialista": str(specialist),
+                    "cliente": str(client),
+                    "data": dates[i] if i < len(dates) else "",
+                })
+                by_specialist[str(specialist)] = by_specialist.get(str(specialist), 0) + 1
+
+    return {
+        "dates": dates,
+        "total": len(meetings),
+        "by_specialist": by_specialist,
+        "meetings": meetings,
+    }
+
+
+def extract_renovacoes(wb):
+    ws = wb["Renovações de Contratos"]
+    contracts = []
+    for r in range(2, ws.max_row + 1):
+        added = ws.cell(r, 1).value
+        if not added:
+            continue
+        contracts.append({
+            "adicionado": str(safe(ws.cell(r, 1).value))[:10],
+            "planejamento_termino": str(safe(ws.cell(r, 2).value))[:10],
+            "codigo": safe(ws.cell(r, 3).value),
+            "responsavel": safe(ws.cell(r, 6).value),
+            "email": safe(ws.cell(r, 7).value),
+            "valor_aluguel": to_float(ws.cell(r, 8).value),
+            "data_inicio": str(safe(ws.cell(r, 12).value))[:10],
+            "data_prevista_termino": str(safe(ws.cell(r, 13).value))[:10],
+            "data_real_termino": str(safe(ws.cell(r, 14).value))[:10],
+        })
+    return contracts
+
+
+def extract_carteira_individual(wb, sheet_name, specialist_name):
+    ws = wb[sheet_name]
+    summary = [ws.cell(1, c).value for c in range(1, min(15, ws.max_column + 1))]
+    header_row = 3
+    clients = []
+    for r in range(header_row + 1, ws.max_row + 1):
+        nome = ws.cell(r, 3).value
+        if not nome:
+            continue
+        clients.append({
+            "corretor": str(nome),
+            "dias_sem_contrato": to_int(ws.cell(r, 6).value),
+            "status": safe(ws.cell(r, 7).value),
+            "contratos_ate_abril": to_int(ws.cell(r, 8).value),
+            "contratos_maio": to_float(ws.cell(r, 9).value),
+            "contratos_junho": to_int(ws.cell(r, 10).value),
+            "lost": safe(ws.cell(r, 11).value),
+            "termometro": safe(ws.cell(r, 12).value),
+            "reativado": str(safe(ws.cell(r, 13).value)).lower() == "true",
+            "status_pipeline": safe(ws.cell(r, 14).value),
+        })
+    return {
+        "total": len(clients),
+        "clients": clients,
+    }
+
+
+def extract_backups(wb):
+    ws = wb["Backups"]
+    backups = []
+    for r in range(1, ws.max_row + 1):
+        name = ws.cell(r, 1).value
+        url = ws.cell(r, 2).value
+        if name:
+            backups.append({"mes": str(name), "url": str(safe(url))})
+    return backups
 
 
 def main():
-    xlsx = pd.ExcelFile(XLSX_PATH)
+    wb = openpyxl.load_workbook(XLSX, data_only=True)
 
-    visao = extract_visao_geral(xlsx)
-    meta = extract_meta_geral(xlsx)
-    individual = extract_meta_individual(xlsx)
-    churn = extract_churn(xlsx)
-    contratos = extract_contratos_vencidos(xlsx)
-    lost = extract_lost_clients(xlsx)
-
-    dashboard_data = {
-        "titulo": "[Maio] Carteira CS",
-        "periodo": "Maio 2025",
-        "visao_geral": visao,
-        "meta_geral": meta,
-        "meta_individual": individual,
-        "churn": churn,
-        "contratos_vencidos": contratos,
-        "clientes_lost": lost,
+    data = {
+        "titulo": "[Junho] Carteira CS",
+        "periodo": "Junho 2025",
+        "gerado_em": datetime.now().strftime("%Y-%m-%d %H:%M"),
+        "meta_geral": extract_meta_geral(wb),
+        "meta_individual": extract_meta_individual(wb),
+        "visao_geral": extract_visao_geral(wb),
+        "churn": extract_churn(wb),
+        "clientes_perdidos": extract_clientes_perdidos(wb),
+        "foco_semana": extract_foco_semana(wb),
+        "reunioes": extract_reunioes(wb),
+        "renovacoes": extract_renovacoes(wb),
+        "carteira_andressa": extract_carteira_individual(wb, "Carteira Andressa", "Andressa"),
+        "carteira_emanuelle": extract_carteira_individual(wb, "Carteira Emanuelle", "Emanuelle"),
+        "backups": extract_backups(wb),
     }
 
-    with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
-        json.dump(dashboard_data, f, ensure_ascii=False, indent=2)
+    with open(OUT, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
 
-    print(f"Data extracted to {OUTPUT_PATH}")
-    print(f"  Total clients: {visao['total_clientes']}")
-    print(f"  Contratos meta: {meta['contratos']['meta']} | Realizado: {meta['contratos']['realizado']}")
-    print(f"  Lost clients: {lost['total']}")
-    print(f"  Churn ranges: {len(churn)}")
+    vg = data["visao_geral"]
+    mg = data["meta_geral"]
+    print(f"OK — {vg['total_clientes']} clients, "
+          f"{mg['contratos']['realizado_geral']}/{mg['contratos']['meta_geral']} contracts, "
+          f"{data['clientes_perdidos']['total']} lost, "
+          f"{len(data['foco_semana'])} foco items, "
+          f"{data['reunioes']['total']} meetings, "
+          f"{len(data['renovacoes'])} renewals")
 
 
 if __name__ == "__main__":
