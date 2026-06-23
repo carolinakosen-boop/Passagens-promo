@@ -366,7 +366,7 @@ function barColor(pct){
   });
   pipHtml += '</div>';
 
-  pipHtml += '<div class="filters" id="pipelineFilters"><div class="filter-btn active" data-filter="all">Todos ${D.foco_semana.length}</div>';
+  pipHtml += `<div class="filters" id="pipelineFilters"><div class="filter-btn active" data-filter="all">Todos ${D.foco_semana.length}</div>`;
   Object.entries(focoStatuses).forEach(([s,items])=>{
     pipHtml += `<div class="filter-btn" data-filter="${s}">${s} ${items.length}</div>`;
   });
