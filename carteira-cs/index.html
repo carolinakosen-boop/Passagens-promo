@@ -122,6 +122,16 @@ tr:hover td{background:#1e2e3e}
 .editable-contratos:focus{border-color:var(--accent);outline:none}
 .view-notes-btn{background:var(--card2);border:1px solid var(--border);color:var(--accent);padding:.15rem .5rem;border-radius:4px;font-size:.65rem;cursor:pointer;margin-top:.2rem}
 .view-notes-btn:hover{background:var(--hover);border-color:var(--accent)}
+/* KPI EDITABLE */
+.kpi-edit-toggle{background:var(--card);border:1px solid var(--border);color:var(--accent);padding:.4rem .8rem;border-radius:6px;cursor:pointer;font-size:.75rem;transition:all .2s;float:right;margin-top:-0.2rem}
+.kpi-edit-toggle:hover{background:var(--accent);color:#fff;border-color:var(--accent)}
+.kpi-input-val{background:var(--card2);border:1px solid var(--accent);color:var(--text);font-size:1.4rem;font-weight:800;padding:.1rem .3rem;border-radius:4px;width:70px;text-align:center}
+.kpi-input-val:focus{outline:none;border-color:var(--yellow)}
+.kpi-input-sub{background:var(--card2);border:1px solid var(--border);color:var(--text);font-size:.72rem;padding:.15rem .3rem;border-radius:4px;width:50px;text-align:center}
+.kpi-input-sub:focus{outline:none;border-color:var(--accent)}
+.kpi-slash{font-size:1.4rem;font-weight:800;margin:0 .1rem}
+.kpi-pct-sign{font-size:1.4rem;font-weight:800;margin-left:.1rem}
+.kpi-editing{border-color:var(--accent) !important}
 /* BACKUP EXPORT */
 .backup-save-btn{background:var(--accent);color:#fff;border:none;padding:.5rem 1.2rem;border-radius:6px;font-size:.8rem;cursor:pointer;margin-right:.5rem}
 .backup-save-btn:hover{opacity:.85}
@@ -253,6 +263,130 @@ function getBackups(){
   try{ return JSON.parse(localStorage.getItem('carteira_backups')||'[]'); }catch(e){ return []; }
 }
 function saveBackups(bk){ localStorage.setItem('carteira_backups', JSON.stringify(bk)); }
+function getKpiOverrides(){
+  try{ return JSON.parse(localStorage.getItem('kpi_overrides')||'{}'); }catch(e){ return {}; }
+}
+function saveKpiOverrides(ov){ localStorage.setItem('kpi_overrides', JSON.stringify(ov)); }
+
+let kpiEditMode = false;
+function toggleKpiEdit(){
+  kpiEditMode = !kpiEditMode;
+  const btn = document.getElementById('kpiEditBtn');
+  if(kpiEditMode){
+    btn.textContent = '✔ Salvar';
+    btn.style.background = 'var(--green)';
+    btn.style.color = '#fff';
+    btn.style.borderColor = 'var(--green)';
+    enterKpiEditMode();
+  } else {
+    btn.innerHTML = '&#9998; Editar';
+    btn.style.background = '';
+    btn.style.color = '';
+    btn.style.borderColor = '';
+    saveKpiEdits();
+  }
+}
+
+function enterKpiEditMode(){
+  const ov = getKpiOverrides();
+  // Contratos: realizado/meta
+  const cVal = document.getElementById('kpi-contratos-val');
+  const cText = cVal.textContent;
+  const cParts = cText.split('/');
+  const cReal = ov.contratos_realizado !== undefined ? ov.contratos_realizado : parseInt(cParts[0]);
+  const cMeta = ov.contratos_meta !== undefined ? ov.contratos_meta : parseInt(cParts[1]);
+  cVal.innerHTML = `<input type="number" class="kpi-input-val" id="kpi-in-contratos-real" value="${cReal}" style="color:var(--yellow)"><span class="kpi-slash" style="color:var(--yellow)">/</span><input type="number" class="kpi-input-val" id="kpi-in-contratos-meta" value="${cMeta}" style="color:var(--yellow)">`;
+  document.getElementById('kpi-contratos').classList.add('kpi-editing');
+
+  // Retencao: pct%
+  const rVal = document.getElementById('kpi-retencao-val');
+  const rPct = ov.retencao_pct !== undefined ? ov.retencao_pct : parseFloat(rVal.textContent);
+  rVal.innerHTML = `<input type="number" step="0.1" class="kpi-input-val" id="kpi-in-retencao-pct" value="${rPct}" style="color:var(--green)"><span class="kpi-pct-sign" style="color:var(--green)">%</span>`;
+  const rSub = document.getElementById('kpi-retencao-sub');
+  const rTotal = ov.retencao_clientes !== undefined ? ov.retencao_clientes : parseFloat(rSub.textContent);
+  const rRev = ov.retencao_reverter !== undefined ? ov.retencao_reverter : parseFloat(rSub.textContent.split('|')[1]);
+  rSub.innerHTML = `<input type="number" class="kpi-input-sub" id="kpi-in-retencao-total" value="${rTotal}"> clientes | <input type="number" step="0.1" class="kpi-input-sub" id="kpi-in-retencao-rev" value="${rRev}"> p/ reverter`;
+  document.getElementById('kpi-retencao').classList.add('kpi-editing');
+
+  // Onboarding: realizado/meta
+  const oVal = document.getElementById('kpi-onboarding-val');
+  const oParts = oVal.textContent.split('/');
+  const oReal = ov.onboarding_realizado !== undefined ? ov.onboarding_realizado : parseInt(oParts[0]);
+  const oMeta = ov.onboarding_meta !== undefined ? ov.onboarding_meta : parseInt(oParts[1]);
+  oVal.innerHTML = `<input type="number" class="kpi-input-val" id="kpi-in-onb-real" value="${oReal}" style="color:var(--green)"><span class="kpi-slash" style="color:var(--green)">/</span><input type="number" class="kpi-input-val" id="kpi-in-onb-meta" value="${oMeta}" style="color:var(--green)">`;
+  const oSub = document.getElementById('kpi-onboarding-sub');
+  const oRevertidos = ov.onboarding_revertidos !== undefined ? ov.onboarding_revertidos : parseInt(oSub.textContent.split('|')[1]);
+  const onbPctVal = oMeta>0 ? (oReal/oMeta*100).toFixed(1) : 0;
+  oSub.innerHTML = `${onbPctVal}% | <input type="number" class="kpi-input-sub" id="kpi-in-onb-rev" value="${oRevertidos}"> revertidos`;
+  document.getElementById('kpi-onboarding').classList.add('kpi-editing');
+
+  // Ongoing: realizado/meta
+  const gVal = document.getElementById('kpi-ongoing-val');
+  const gParts = gVal.textContent.split('/');
+  const gReal = ov.ongoing_realizado !== undefined ? ov.ongoing_realizado : parseInt(gParts[0]);
+  const gMeta = ov.ongoing_meta !== undefined ? ov.ongoing_meta : parseInt(gParts[1]);
+  gVal.innerHTML = `<input type="number" class="kpi-input-val" id="kpi-in-ong-real" value="${gReal}" style="color:var(--orange)"><span class="kpi-slash" style="color:var(--orange)">/</span><input type="number" class="kpi-input-val" id="kpi-in-ong-meta" value="${gMeta}" style="color:var(--orange)">`;
+  document.getElementById('kpi-ongoing').classList.add('kpi-editing');
+
+  // Prevent Enter from submitting - save instead
+  document.querySelectorAll('.kpi-input-val,.kpi-input-sub').forEach(inp=>{
+    inp.addEventListener('keydown', e=>{ if(e.key==='Enter'){ e.preventDefault(); toggleKpiEdit(); }});
+  });
+}
+
+function saveKpiEdits(){
+  const ov = getKpiOverrides();
+
+  const cReal = parseFloat(document.getElementById('kpi-in-contratos-real').value);
+  const cMeta = parseFloat(document.getElementById('kpi-in-contratos-meta').value);
+  ov.contratos_realizado = cReal;
+  ov.contratos_meta = cMeta;
+
+  ov.retencao_pct = parseFloat(document.getElementById('kpi-in-retencao-pct').value);
+  ov.retencao_clientes = parseFloat(document.getElementById('kpi-in-retencao-total').value);
+  ov.retencao_reverter = parseFloat(document.getElementById('kpi-in-retencao-rev').value);
+
+  const oReal = parseFloat(document.getElementById('kpi-in-onb-real').value);
+  const oMeta = parseFloat(document.getElementById('kpi-in-onb-meta').value);
+  ov.onboarding_realizado = oReal;
+  ov.onboarding_meta = oMeta;
+  ov.onboarding_revertidos = parseFloat(document.getElementById('kpi-in-onb-rev').value);
+
+  const gReal = parseFloat(document.getElementById('kpi-in-ong-real').value);
+  const gMeta = parseFloat(document.getElementById('kpi-in-ong-meta').value);
+  ov.ongoing_realizado = gReal;
+  ov.ongoing_meta = gMeta;
+
+  saveKpiOverrides(ov);
+
+  // Update display
+  const cPct = cMeta > 0 ? parseFloat((cReal/cMeta*100).toFixed(1)) : 0;
+  document.getElementById('kpi-contratos-val').innerHTML = `${cReal}/${cMeta}`;
+  document.getElementById('kpi-contratos-val').style.color = 'var(--yellow)';
+  document.getElementById('kpi-contratos-sub').textContent = `${cPct}% atingido`;
+  document.getElementById('kpi-contratos-bar').style.width = Math.min(cPct,100)+'%';
+  document.getElementById('kpi-contratos').classList.remove('kpi-editing');
+
+  document.getElementById('kpi-retencao-val').innerHTML = `${ov.retencao_pct}%`;
+  document.getElementById('kpi-retencao-val').style.color = 'var(--green)';
+  document.getElementById('kpi-retencao-sub').textContent = `${ov.retencao_clientes} clientes | ${ov.retencao_reverter} p/ reverter`;
+  document.getElementById('kpi-retencao-bar').style.width = ov.retencao_pct+'%';
+  document.getElementById('kpi-retencao').classList.remove('kpi-editing');
+
+  const oPct = oMeta > 0 ? parseFloat((oReal/oMeta*100).toFixed(1)) : 0;
+  document.getElementById('kpi-onboarding-val').innerHTML = `${oReal}/${oMeta}`;
+  document.getElementById('kpi-onboarding-val').style.color = 'var(--green)';
+  document.getElementById('kpi-onboarding-sub').textContent = `${oPct}% | ${ov.onboarding_revertidos} revertidos`;
+  document.getElementById('kpi-onboarding-bar').style.width = Math.min(oPct,100)+'%';
+  document.getElementById('kpi-onboarding').classList.remove('kpi-editing');
+
+  const gPct = gMeta > 0 ? parseFloat((gReal/gMeta*100).toFixed(1)) : 0;
+  document.getElementById('kpi-ongoing-val').innerHTML = `${gReal}/${gMeta}`;
+  document.getElementById('kpi-ongoing-val').style.color = 'var(--orange)';
+  document.getElementById('kpi-ongoing-sub').textContent = `${gPct}% atingido`;
+  document.getElementById('kpi-ongoing-bar').style.width = Math.min(gPct,100)+'%';
+  document.getElementById('kpi-ongoing').classList.remove('kpi-editing');
+}
 
 function openNotesPage(clientKey, clientName){
   const notes = getPipelineNotes();
@@ -322,42 +456,59 @@ function addNoteFromPage(clientKey, clientName){
 
   // ===== PAGE: VISAO GERAL =====
   const visao = document.getElementById('page-visao');
+
+  // Load KPI overrides from localStorage
+  const kpiOv = getKpiOverrides();
+  const kContratosReal = kpiOv.contratos_realizado !== undefined ? kpiOv.contratos_realizado : mg.contratos.realizado_geral;
+  const kContratosMeta = kpiOv.contratos_meta !== undefined ? kpiOv.contratos_meta : mg.contratos.meta_geral;
+  const kContratosPct = kContratosMeta > 0 ? parseFloat((kContratosReal/kContratosMeta*100).toFixed(1)) : 0;
+  const kRetencaoPct = kpiOv.retencao_pct !== undefined ? kpiOv.retencao_pct : mg.retencao.pct_retencao;
+  const kRetencaoTotal = kpiOv.retencao_clientes !== undefined ? kpiOv.retencao_clientes : mg.retencao.clientes_totais;
+  const kRetencaoRev = kpiOv.retencao_reverter !== undefined ? kpiOv.retencao_reverter : mg.retencao.clientes_reverter;
+  const kOnbReal = kpiOv.onboarding_realizado !== undefined ? kpiOv.onboarding_realizado : mg.onboarding.realizado;
+  const kOnbMeta = kpiOv.onboarding_meta !== undefined ? kpiOv.onboarding_meta : mg.onboarding.meta;
+  const kOnbPct = kOnbMeta > 0 ? parseFloat((kOnbReal/kOnbMeta*100).toFixed(1)) : 0;
+  const kOnbRevertidos = kpiOv.onboarding_revertidos !== undefined ? kpiOv.onboarding_revertidos : mg.onboarding.clientes_revertidos;
+  const kOngReal = kpiOv.ongoing_realizado !== undefined ? kpiOv.ongoing_realizado : mg.ongoing.realizado;
+  const kOngMeta = kpiOv.ongoing_meta !== undefined ? kpiOv.ongoing_meta : mg.ongoing.meta;
+  const kOngPct = kOngMeta > 0 ? parseFloat((kOngReal/kOngMeta*100).toFixed(1)) : 0;
+
   visao.innerHTML = `
-    <div class="section-title">KPIs Principais</div>
+    <div class="section-title">KPIs Principais <button class="kpi-edit-toggle" id="kpiEditBtn" onclick="toggleKpiEdit()">&#9998; Editar</button></div>
     <div class="kpi-grid">
       <div class="kpi">
         <div class="kpi-label">Clientes na Carteira</div>
         <div class="kpi-value" style="color:var(--accent)">${vg.total_clientes}</div>
         <div class="kpi-sub">Media ${vg.media_contratos} contratos/cliente</div>
       </div>
-      <div class="kpi">
+      <div class="kpi" id="kpi-contratos">
         <div class="kpi-label">Meta de Contratos</div>
-        <div class="kpi-value" style="color:var(--yellow)">${mg.contratos.realizado_geral}/${mg.contratos.meta_geral}</div>
-        <div class="kpi-sub">${mg.contratos.pct_geral}% atingido</div>
-        <div class="kpi-bar"><span style="width:${Math.min(mg.contratos.pct_geral,100)}%;background:${barColor(mg.contratos.pct_geral)}"></span></div>
+        <div class="kpi-value" id="kpi-contratos-val" style="color:var(--yellow)">${kContratosReal}/${kContratosMeta}</div>
+        <div class="kpi-sub" id="kpi-contratos-sub">${kContratosPct}% atingido</div>
+        <div class="kpi-bar"><span id="kpi-contratos-bar" style="width:${Math.min(kContratosPct,100)}%;background:${barColor(kContratosPct)}"></span></div>
       </div>
       <div class="kpi">
         <div class="kpi-label">Contratos Emitidos (Jun)</div>
         <div class="kpi-value" style="color:var(--purple)">${vg.contratos_emitidos_junho}</div>
         <div class="kpi-sub">${vg.contratos_ativos} contratos ativos</div>
       </div>
-      <div class="kpi">
+      <div class="kpi" id="kpi-retencao">
         <div class="kpi-label">Retencao</div>
-        <div class="kpi-value" style="color:var(--green)">${mg.retencao.pct_retencao}%</div>
-        <div class="kpi-sub">${mg.retencao.clientes_totais} clientes | ${mg.retencao.clientes_reverter} p/ reverter</div>
-        <div class="kpi-bar"><span style="width:${mg.retencao.pct_retencao}%;background:var(--green)"></span></div>
+        <div class="kpi-value" id="kpi-retencao-val" style="color:var(--green)">${kRetencaoPct}%</div>
+        <div class="kpi-sub" id="kpi-retencao-sub">${kRetencaoTotal} clientes | ${kRetencaoRev} p/ reverter</div>
+        <div class="kpi-bar"><span id="kpi-retencao-bar" style="width:${kRetencaoPct}%;background:var(--green)"></span></div>
       </div>
-      <div class="kpi">
+      <div class="kpi" id="kpi-onboarding">
         <div class="kpi-label">Onboarding</div>
-        <div class="kpi-value" style="color:var(--green)">${mg.onboarding.realizado}/${mg.onboarding.meta}</div>
-        <div class="kpi-sub">${mg.onboarding.pct}% | ${mg.onboarding.clientes_revertidos} revertidos</div>
-        <div class="kpi-bar"><span style="width:${Math.min(mg.onboarding.pct,100)}%;background:${barColor(mg.onboarding.pct)}"></span></div>
+        <div class="kpi-value" id="kpi-onboarding-val" style="color:var(--green)">${kOnbReal}/${kOnbMeta}</div>
+        <div class="kpi-sub" id="kpi-onboarding-sub">${kOnbPct}% | ${kOnbRevertidos} revertidos</div>
+        <div class="kpi-bar"><span id="kpi-onboarding-bar" style="width:${Math.min(kOnbPct,100)}%;background:${barColor(kOnbPct)}"></span></div>
       </div>
-      <div class="kpi">
+      <div class="kpi" id="kpi-ongoing">
         <div class="kpi-label">Ongoing</div>
-        <div class="kpi-value" style="color:var(--orange)">${mg.ongoing.realizado}/${mg.ongoing.meta}</div>
-        <div class="kpi-sub">${mg.ongoing.pct}% atingido</div>
-        <div class="kpi-bar"><span style="width:${Math.min(mg.ongoing.pct,100)}%;background:${barColor(mg.ongoing.pct)}"></span></div>
+        <div class="kpi-value" id="kpi-ongoing-val" style="color:var(--orange)">${kOngReal}/${kOngMeta}</div>
+        <div class="kpi-sub" id="kpi-ongoing-sub">${kOngPct}% atingido</div>
+        <div class="kpi-bar"><span id="kpi-ongoing-bar" style="width:${Math.min(kOngPct,100)}%;background:${barColor(kOngPct)}"></span></div>
       </div>
       <div class="kpi">
         <div class="kpi-label">Clientes em Lost</div>
