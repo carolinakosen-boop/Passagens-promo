@@ -3,6 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
 <title>Carteira CS — Dashboard</title>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
 <style>
@@ -123,8 +126,12 @@ tr:hover td{background:#1e2e3e}
 .view-notes-btn{background:var(--card2);border:1px solid var(--border);color:var(--accent);padding:.15rem .5rem;border-radius:4px;font-size:.65rem;cursor:pointer;margin-top:.2rem}
 .view-notes-btn:hover{background:var(--hover);border-color:var(--accent)}
 /* KPI EDITABLE */
-.kpi-edit-toggle{background:var(--card);border:1px solid var(--border);color:var(--accent);padding:.4rem .8rem;border-radius:6px;cursor:pointer;font-size:.75rem;transition:all .2s;float:right;margin-top:-0.2rem}
-.kpi-edit-toggle:hover{background:var(--accent);color:#fff;border-color:var(--accent)}
+.kpi-edit-toggle{background:var(--accent);border:2px solid var(--accent);color:#fff;padding:.5rem 1.2rem;border-radius:8px;cursor:pointer;font-size:.85rem;font-weight:700;transition:all .2s;float:right;margin-top:-0.2rem;letter-spacing:.3px}
+.kpi-edit-toggle:hover{background:#fff;color:var(--accent);transform:scale(1.05)}
+.kpi-edit-toggle.saving{background:var(--green);border-color:var(--green);animation:pulse-save .6s ease}
+@keyframes pulse-save{0%{transform:scale(1)}50%{transform:scale(1.08)}100%{transform:scale(1)}}
+.kpi[id]:not(.kpi-editing){cursor:pointer}
+.kpi[id]:not(.kpi-editing):hover{border-color:var(--accent);transform:translateY(-2px)}
 .kpi-input-val{background:var(--card2);border:1px solid var(--accent);color:var(--text);font-size:1.4rem;font-weight:800;padding:.1rem .3rem;border-radius:4px;width:70px;text-align:center}
 .kpi-input-val:focus{outline:none;border-color:var(--yellow)}
 .kpi-input-sub{background:var(--card2);border:1px solid var(--border);color:var(--text);font-size:.72rem;padding:.15rem .3rem;border-radius:4px;width:50px;text-align:center}
@@ -273,16 +280,12 @@ function toggleKpiEdit(){
   kpiEditMode = !kpiEditMode;
   const btn = document.getElementById('kpiEditBtn');
   if(kpiEditMode){
-    btn.textContent = '✔ Salvar';
-    btn.style.background = 'var(--green)';
-    btn.style.color = '#fff';
-    btn.style.borderColor = 'var(--green)';
+    btn.textContent = '✔ SALVAR ALTERACOES';
+    btn.className = 'kpi-edit-toggle saving';
     enterKpiEditMode();
   } else {
-    btn.innerHTML = '&#9998; Editar';
-    btn.style.background = '';
-    btn.style.color = '';
-    btn.style.borderColor = '';
+    btn.innerHTML = '&#9998; EDITAR VALORES';
+    btn.className = 'kpi-edit-toggle';
     saveKpiEdits();
   }
 }
@@ -474,7 +477,7 @@ function addNoteFromPage(clientKey, clientName){
   const kOngPct = kOngMeta > 0 ? parseFloat((kOngReal/kOngMeta*100).toFixed(1)) : 0;
 
   visao.innerHTML = `
-    <div class="section-title">KPIs Principais <button class="kpi-edit-toggle" id="kpiEditBtn" onclick="toggleKpiEdit()">&#9998; Editar</button></div>
+    <div class="section-title">KPIs Principais <button class="kpi-edit-toggle" id="kpiEditBtn" onclick="toggleKpiEdit()">&#9998; EDITAR VALORES</button></div>
     <div class="kpi-grid">
       <div class="kpi">
         <div class="kpi-label">Clientes na Carteira</div>
@@ -992,7 +995,18 @@ function addNoteFromPage(clientKey, clientName){
     link.click();
   }
 
+  // Click on individual KPI cards to enter edit mode
+  document.querySelectorAll('.kpi[id]').forEach(card=>{
+    card.addEventListener('click', function(e){
+      if(!kpiEditMode && !e.target.closest('input')){
+        toggleKpiEdit();
+      }
+    });
+    card.title = 'Clique para editar';
+  });
+
 })();
 </script>
+<div style="text-align:center;padding:1rem;color:#556;font-size:.65rem">v2.4 — Junho 2025</div>
 </body>
 </html>
