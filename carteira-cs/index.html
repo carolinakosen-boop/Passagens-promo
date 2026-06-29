@@ -1,0 +1,1012 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<title>Carteira CS — Dashboard</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<style>
+:root{--bg:#0f1923;--card:#1a2733;--card2:#223344;--text:#e0e6ed;--muted:#8899aa;--accent:#00b4d8;--green:#00b894;--yellow:#fdcb6e;--orange:#e17055;--red:#d63031;--pink:#e84393;--purple:#6c5ce7;--border:#2d3e50;--hover:#253545}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;background:var(--bg);color:var(--text);min-height:100vh}
+/* NAV */
+.nav{background:#0d1520;border-bottom:1px solid var(--border);padding:0 2rem;display:flex;align-items:center;position:sticky;top:0;z-index:100}
+.nav-brand{font-size:1.1rem;font-weight:700;color:var(--accent);padding:1rem 0;margin-right:2rem;white-space:nowrap}
+.nav-brand small{color:var(--muted);font-weight:400;font-size:.75rem;margin-left:.5rem}
+.nav-tabs{display:flex;gap:0;overflow-x:auto}
+.nav-tab{padding:.9rem 1.2rem;color:var(--muted);text-decoration:none;font-size:.85rem;font-weight:500;border-bottom:2px solid transparent;cursor:pointer;white-space:nowrap;transition:color .2s,border-color .2s}
+.nav-tab:hover{color:var(--text)}
+.nav-tab.active{color:var(--accent);border-bottom-color:var(--accent)}
+/* PAGES */
+.page{display:none;padding:1.5rem 2rem 3rem;max-width:1400px;margin:0 auto}
+.page.active{display:block}
+/* SECTION */
+.section-title{font-size:1rem;font-weight:700;text-transform:uppercase;letter-spacing:1px;color:var(--muted);margin:1.5rem 0 .8rem;padding-bottom:.4rem;border-bottom:1px solid var(--border)}
+.section-title:first-child{margin-top:0}
+/* KPI */
+.kpi-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:.8rem;margin-bottom:1rem}
+.kpi{background:var(--card);border-radius:10px;padding:1rem;border:1px solid var(--border)}
+.kpi-label{font-size:.7rem;text-transform:uppercase;letter-spacing:.5px;color:var(--muted);margin-bottom:.3rem}
+.kpi-value{font-size:1.6rem;font-weight:800}
+.kpi-sub{font-size:.72rem;color:var(--muted);margin-top:.2rem}
+.kpi-bar{height:4px;border-radius:2px;background:#1e2e3e;margin-top:.4rem;overflow:hidden}
+.kpi-bar span{display:block;height:100%;border-radius:2px}
+/* CHARTS */
+.charts-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(400px,1fr));gap:1rem;margin-bottom:1rem}
+.chart-card{background:var(--card);border-radius:10px;padding:1rem;border:1px solid var(--border)}
+.chart-card h3{font-size:.85rem;margin-bottom:.8rem;color:var(--text)}
+/* SPECIALIST CARDS */
+.spec-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:1rem;margin-bottom:1rem}
+.spec-card{background:var(--card);border-radius:10px;padding:1rem;border:1px solid var(--border)}
+.spec-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:.8rem}
+.spec-name{font-size:1rem;font-weight:700}
+.badge{font-size:.65rem;padding:.25rem .6rem;border-radius:12px;font-weight:600;text-transform:uppercase}
+.badge-onboarding{background:#00b89422;color:var(--green)}
+.badge-ongoing{background:#fdcb6e22;color:var(--yellow)}
+.spec-row{display:flex;justify-content:space-between;padding:.35rem 0;font-size:.8rem;border-bottom:1px solid #1e2e3e}
+.spec-row:last-child{border:0}
+.spec-row .val{font-weight:600}
+.result-badge{font-size:.75rem;padding:.15rem .5rem;border-radius:8px;font-weight:700}
+/* TABLE */
+.table-wrap{overflow-x:auto;margin-bottom:1rem}
+table{width:100%;border-collapse:collapse;font-size:.78rem}
+th{background:var(--card2);color:var(--muted);text-transform:uppercase;font-size:.68rem;letter-spacing:.5px;padding:.6rem .5rem;text-align:left;position:sticky;top:0}
+td{padding:.5rem;border-bottom:1px solid #1a2a3a;vertical-align:top}
+tr:hover td{background:#1e2e3e}
+.pill{font-size:.65rem;padding:.15rem .4rem;border-radius:6px;white-space:nowrap}
+.pill-green{background:#00b89422;color:var(--green)}
+.pill-yellow{background:#fdcb6e22;color:var(--yellow)}
+.pill-red{background:#d6303122;color:var(--red)}
+.pill-blue{background:#00b4d822;color:var(--accent)}
+.pill-purple{background:#6c5ce722;color:var(--purple)}
+.pill-gray{background:#88999a22;color:var(--muted)}
+/* FILTERS */
+.filters{display:flex;gap:.5rem;flex-wrap:wrap;margin-bottom:.8rem}
+.filter-btn{background:var(--card);border:1px solid var(--border);color:var(--muted);padding:.4rem .8rem;border-radius:6px;cursor:pointer;font-size:.75rem;transition:all .2s}
+.filter-btn:hover,.filter-btn.active{background:var(--accent);color:#fff;border-color:var(--accent)}
+/* PIPELINE */
+.pipeline-card{background:var(--card);border-radius:10px;padding:.8rem;border:1px solid var(--border);margin-bottom:.5rem}
+.pipeline-card .header{display:flex;justify-content:space-between;align-items:center}
+.pipeline-card .name{font-weight:600;font-size:.85rem}
+.pipeline-card .obs{font-size:.72rem;color:var(--muted);margin-top:.3rem}
+.pipeline-cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:1rem}
+.pipeline-col h3{font-size:.85rem;margin-bottom:.6rem;padding:.5rem;border-radius:6px;text-align:center}
+/* BACKUP */
+.backup-card{background:var(--card);border-radius:10px;padding:1rem;border:1px solid var(--border);margin-bottom:.5rem;display:flex;justify-content:space-between;align-items:center}
+.backup-card .mes{font-weight:600}
+.backup-card a{color:var(--accent);font-size:.8rem}
+/* STATS ROW */
+.stats-row{display:flex;gap:1rem;flex-wrap:wrap;margin-bottom:1rem}
+.stat-box{background:var(--card);border-radius:8px;padding:.6rem 1rem;border:1px solid var(--border);text-align:center;min-width:100px}
+.stat-box .num{font-size:1.3rem;font-weight:800}
+.stat-box .label{font-size:.65rem;color:var(--muted);text-transform:uppercase}
+/* MODAL */
+.modal-overlay{position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,.6);z-index:200;display:flex;align-items:center;justify-content:center}
+.modal{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:1.2rem;max-width:600px;width:90%;max-height:80vh;overflow-y:auto}
+.modal h3{font-size:.95rem;margin-bottom:.8rem;color:var(--accent)}
+.modal .close-btn{float:right;background:none;border:none;color:var(--muted);font-size:1.2rem;cursor:pointer}
+.modal .close-btn:hover{color:var(--text)}
+.modal ul{list-style:none;padding:0}
+.modal li{padding:.4rem 0;border-bottom:1px solid #1e2e3e;font-size:.8rem}
+.modal li:last-child{border:0}
+/* CLICKABLE STAT */
+.stat-box.clickable{cursor:pointer;transition:border-color .2s,background .2s}
+.stat-box.clickable:hover{border-color:var(--accent);background:var(--hover)}
+/* PIPELINE EDITABLE */
+.editable-status{background:var(--card2);border:1px solid var(--border);color:var(--text);font-size:.72rem;padding:.2rem .4rem;border-radius:4px;cursor:pointer;min-width:120px}
+.editable-status:focus{border-color:var(--accent);outline:none}
+.note-input{background:var(--card2);border:1px solid var(--border);color:var(--text);font-size:.7rem;padding:.3rem .5rem;border-radius:4px;width:100%;margin-top:.3rem;resize:vertical;min-height:28px}
+.note-input:focus{border-color:var(--accent);outline:none}
+.save-note-btn{background:var(--accent);color:#fff;border:none;padding:.2rem .6rem;border-radius:4px;font-size:.68rem;cursor:pointer;margin-top:.3rem}
+.save-note-btn:hover{opacity:.85}
+.note-history{font-size:.65rem;color:var(--muted);margin-top:.3rem}
+.note-history .note-entry{padding:.2rem 0;border-bottom:1px solid #1a2a3a}
+.note-history .note-date{color:var(--accent);font-weight:600}
+/* NOTES PAGE */
+.notes-page-overlay{position:fixed;top:0;left:0;width:100%;height:100%;background:var(--bg);z-index:300;overflow-y:auto;padding:2rem}
+.notes-page-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:1.5rem}
+.notes-page-header h2{color:var(--accent);font-size:1.1rem}
+.notes-page-back{background:var(--card);border:1px solid var(--border);color:var(--accent);padding:.5rem 1rem;border-radius:6px;cursor:pointer;font-size:.8rem}
+.notes-page-back:hover{background:var(--hover)}
+.notes-page-input{width:100%;background:var(--card);border:1px solid var(--border);color:var(--text);font-size:.85rem;padding:.6rem;border-radius:6px;resize:vertical;min-height:60px;margin-bottom:.5rem}
+.notes-page-input:focus{border-color:var(--accent);outline:none}
+.notes-page-save{background:var(--accent);color:#fff;border:none;padding:.5rem 1.2rem;border-radius:6px;font-size:.8rem;cursor:pointer}
+.notes-page-save:hover{opacity:.85}
+.notes-page-list{margin-top:1rem}
+.notes-page-entry{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:.8rem;margin-bottom:.5rem}
+.notes-page-entry .np-date{color:var(--accent);font-weight:600;font-size:.75rem}
+.notes-page-entry .np-text{margin-top:.3rem;font-size:.85rem}
+.notes-page-empty{color:var(--muted);font-size:.85rem;text-align:center;padding:2rem}
+/* EDITABLE INPUT */
+.editable-contratos{background:var(--card2);border:1px solid var(--border);color:var(--text);font-size:.72rem;padding:.2rem .4rem;border-radius:4px;width:50px;text-align:center}
+.editable-contratos:focus{border-color:var(--accent);outline:none}
+.view-notes-btn{background:var(--card2);border:1px solid var(--border);color:var(--accent);padding:.15rem .5rem;border-radius:4px;font-size:.65rem;cursor:pointer;margin-top:.2rem}
+.view-notes-btn:hover{background:var(--hover);border-color:var(--accent)}
+/* KPI EDITABLE */
+.kpi-edit-toggle{background:var(--accent);border:2px solid var(--accent);color:#fff;padding:.5rem 1.2rem;border-radius:8px;cursor:pointer;font-size:.85rem;font-weight:700;transition:all .2s;float:right;margin-top:-0.2rem;letter-spacing:.3px}
+.kpi-edit-toggle:hover{background:#fff;color:var(--accent);transform:scale(1.05)}
+.kpi-edit-toggle.saving{background:var(--green);border-color:var(--green);animation:pulse-save .6s ease}
+@keyframes pulse-save{0%{transform:scale(1)}50%{transform:scale(1.08)}100%{transform:scale(1)}}
+.kpi[id]:not(.kpi-editing){cursor:pointer}
+.kpi[id]:not(.kpi-editing):hover{border-color:var(--accent);transform:translateY(-2px)}
+.kpi-input-val{background:var(--card2);border:1px solid var(--accent);color:var(--text);font-size:1.4rem;font-weight:800;padding:.1rem .3rem;border-radius:4px;width:70px;text-align:center}
+.kpi-input-val:focus{outline:none;border-color:var(--yellow)}
+.kpi-input-sub{background:var(--card2);border:1px solid var(--border);color:var(--text);font-size:.72rem;padding:.15rem .3rem;border-radius:4px;width:50px;text-align:center}
+.kpi-input-sub:focus{outline:none;border-color:var(--accent)}
+.kpi-slash{font-size:1.4rem;font-weight:800;margin:0 .1rem}
+.kpi-pct-sign{font-size:1.4rem;font-weight:800;margin-left:.1rem}
+.kpi-editing{border-color:var(--accent) !important}
+/* BACKUP EXPORT */
+.backup-save-btn{background:var(--accent);color:#fff;border:none;padding:.5rem 1.2rem;border-radius:6px;font-size:.8rem;cursor:pointer;margin-right:.5rem}
+.backup-save-btn:hover{opacity:.85}
+.backup-export-btn{background:var(--green);color:#fff;border:none;padding:.5rem 1.2rem;border-radius:6px;font-size:.8rem;cursor:pointer}
+.backup-export-btn:hover{opacity:.85}
+/* RESPONSIVE */
+@media(max-width:768px){
+  .nav{flex-direction:column;padding:.5rem 1rem}
+  .nav-brand{margin-right:0}
+  .page{padding:1rem}
+  .charts-grid,.spec-grid,.pipeline-cols{grid-template-columns:1fr}
+  .kpi-grid{grid-template-columns:repeat(2,1fr)}
+}
+</style>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-brand" id="navBrand">Carteira CS <small>Dashboard</small></div>
+  <div class="nav-tabs" id="navTabs"></div>
+</nav>
+
+<div id="page-visao" class="page active"></div>
+<div id="page-desempenho" class="page"></div>
+<div id="page-churn" class="page"></div>
+<div id="page-pipeline" class="page"></div>
+<div id="page-reunioes" class="page"></div>
+<div id="page-renovacoes" class="page"></div>
+<div id="page-clientes" class="page"></div>
+<div id="page-backups" class="page"></div>
+
+<script>
+const PAGES = [
+  {id:'visao', label:'Visao Geral'},
+  {id:'desempenho', label:'Desempenho'},
+  {id:'churn', label:'Churn & Lost'},
+  {id:'pipeline', label:'Pipeline Diario'},
+  {id:'reunioes', label:'Reunioes'},
+  {id:'renovacoes', label:'Renovacoes'},
+  {id:'clientes', label:'Todos Clientes'},
+  {id:'backups', label:'Backups'},
+];
+
+function initNav(){
+  const tabs = document.getElementById('navTabs');
+  PAGES.forEach((p,i)=>{
+    const t = document.createElement('div');
+    t.className = 'nav-tab' + (i===0?' active':'');
+    t.textContent = p.label;
+    t.dataset.page = p.id;
+    t.onclick = ()=> switchPage(p.id);
+    tabs.appendChild(t);
+  });
+}
+
+function switchPage(id){
+  document.querySelectorAll('.page').forEach(p=>p.classList.remove('active'));
+  document.querySelectorAll('.nav-tab').forEach(t=>t.classList.remove('active'));
+  document.getElementById('page-'+id).classList.add('active');
+  document.querySelector(`.nav-tab[data-page="${id}"]`).classList.add('active');
+}
+
+function pillClass(status){
+  if(!status) return 'pill-gray';
+  const s = status.toLowerCase();
+  if(s.includes('30 dias') || s.includes('últimos 30')) return 'pill-green';
+  if(s.includes('31') && s.includes('50')) return 'pill-yellow';
+  if(s.includes('50 dias ou mais') || s.includes('sem contrato')) return 'pill-red';
+  if(s.includes('novo')) return 'pill-blue';
+  return 'pill-gray';
+}
+
+function termPill(t){
+  if(!t) return 'pill-gray';
+  const s = t.toLowerCase();
+  if(s.includes('vai ativar')) return 'pill-green';
+  if(s.includes('promessa')) return 'pill-yellow';
+  if(s.includes('não vai')) return 'pill-red';
+  if(s.includes('onboarding')) return 'pill-blue';
+  return 'pill-gray';
+}
+
+function pipelinePill(s){
+  if(!s) return 'pill-gray';
+  const l = s.toLowerCase();
+  if(l.includes('andamento')) return 'pill-green';
+  if(l.includes('primeiro')) return 'pill-yellow';
+  if(l.includes('perdido') || l.includes('lost')) return 'pill-red';
+  return 'pill-gray';
+}
+
+function resultColor(v){
+  if(v>=80) return 'var(--green)';
+  if(v>=50) return 'var(--yellow)';
+  return 'var(--orange)';
+}
+
+function barColor(pct){
+  if(pct>=80) return 'var(--green)';
+  if(pct>=50) return 'var(--yellow)';
+  return 'var(--orange)';
+}
+
+function showModal(title, items){
+  const overlay = document.createElement('div');
+  overlay.className = 'modal-overlay';
+  overlay.onclick = (e)=>{ if(e.target===overlay) overlay.remove(); };
+  let listHtml = items.map(item =>{
+    if(typeof item === 'string') return `<li>${item}</li>`;
+    return `<li><strong>${item.nome||item.corretor}</strong>${item.detail?' — <span style="color:var(--muted)">'+item.detail+'</span>':''}</li>`;
+  }).join('');
+  overlay.innerHTML = `<div class="modal"><button class="close-btn" onclick="this.closest('.modal-overlay').remove()">&times;</button><h3>${title} (${items.length})</h3><ul>${listHtml}</ul></div>`;
+  document.body.appendChild(overlay);
+}
+
+function getPipelineNotes(){
+  try{ return JSON.parse(localStorage.getItem('pipeline_notes')||'{}'); }catch(e){ return {}; }
+}
+function savePipelineNotes(notes){ localStorage.setItem('pipeline_notes', JSON.stringify(notes)); }
+function getPipelineStatuses(){
+  try{ return JSON.parse(localStorage.getItem('pipeline_statuses')||'{}'); }catch(e){ return {}; }
+}
+function savePipelineStatuses(st){ localStorage.setItem('pipeline_statuses', JSON.stringify(st)); }
+function getPipelineContratos(){
+  try{ return JSON.parse(localStorage.getItem('pipeline_contratos')||'{}'); }catch(e){ return {}; }
+}
+function savePipelineContratos(ct){ localStorage.setItem('pipeline_contratos', JSON.stringify(ct)); }
+function getBackups(){
+  try{ return JSON.parse(localStorage.getItem('carteira_backups')||'[]'); }catch(e){ return []; }
+}
+function saveBackups(bk){ localStorage.setItem('carteira_backups', JSON.stringify(bk)); }
+function getKpiOverrides(){
+  try{ return JSON.parse(localStorage.getItem('kpi_overrides')||'{}'); }catch(e){ return {}; }
+}
+function saveKpiOverrides(ov){ localStorage.setItem('kpi_overrides', JSON.stringify(ov)); }
+
+let kpiEditMode = false;
+function toggleKpiEdit(){
+  kpiEditMode = !kpiEditMode;
+  const btn = document.getElementById('kpiEditBtn');
+  if(kpiEditMode){
+    btn.textContent = '✔ SALVAR ALTERACOES';
+    btn.className = 'kpi-edit-toggle saving';
+    enterKpiEditMode();
+  } else {
+    btn.innerHTML = '&#9998; EDITAR VALORES';
+    btn.className = 'kpi-edit-toggle';
+    saveKpiEdits();
+  }
+}
+
+function enterKpiEditMode(){
+  const ov = getKpiOverrides();
+  // Contratos: realizado/meta
+  const cVal = document.getElementById('kpi-contratos-val');
+  const cText = cVal.textContent;
+  const cParts = cText.split('/');
+  const cReal = ov.contratos_realizado !== undefined ? ov.contratos_realizado : parseInt(cParts[0]);
+  const cMeta = ov.contratos_meta !== undefined ? ov.contratos_meta : parseInt(cParts[1]);
+  cVal.innerHTML = `<input type="number" class="kpi-input-val" id="kpi-in-contratos-real" value="${cReal}" style="color:var(--yellow)"><span class="kpi-slash" style="color:var(--yellow)">/</span><input type="number" class="kpi-input-val" id="kpi-in-contratos-meta" value="${cMeta}" style="color:var(--yellow)">`;
+  document.getElementById('kpi-contratos').classList.add('kpi-editing');
+
+  // Retencao: pct%
+  const rVal = document.getElementById('kpi-retencao-val');
+  const rPct = ov.retencao_pct !== undefined ? ov.retencao_pct : parseFloat(rVal.textContent);
+  rVal.innerHTML = `<input type="number" step="0.1" class="kpi-input-val" id="kpi-in-retencao-pct" value="${rPct}" style="color:var(--green)"><span class="kpi-pct-sign" style="color:var(--green)">%</span>`;
+  const rSub = document.getElementById('kpi-retencao-sub');
+  const rTotal = ov.retencao_clientes !== undefined ? ov.retencao_clientes : parseFloat(rSub.textContent);
+  const rRev = ov.retencao_reverter !== undefined ? ov.retencao_reverter : parseFloat(rSub.textContent.split('|')[1]);
+  rSub.innerHTML = `<input type="number" class="kpi-input-sub" id="kpi-in-retencao-total" value="${rTotal}"> clientes | <input type="number" step="0.1" class="kpi-input-sub" id="kpi-in-retencao-rev" value="${rRev}"> p/ reverter`;
+  document.getElementById('kpi-retencao').classList.add('kpi-editing');
+
+  // Onboarding: realizado/meta
+  const oVal = document.getElementById('kpi-onboarding-val');
+  const oParts = oVal.textContent.split('/');
+  const oReal = ov.onboarding_realizado !== undefined ? ov.onboarding_realizado : parseInt(oParts[0]);
+  const oMeta = ov.onboarding_meta !== undefined ? ov.onboarding_meta : parseInt(oParts[1]);
+  oVal.innerHTML = `<input type="number" class="kpi-input-val" id="kpi-in-onb-real" value="${oReal}" style="color:var(--green)"><span class="kpi-slash" style="color:var(--green)">/</span><input type="number" class="kpi-input-val" id="kpi-in-onb-meta" value="${oMeta}" style="color:var(--green)">`;
+  const oSub = document.getElementById('kpi-onboarding-sub');
+  const oRevertidos = ov.onboarding_revertidos !== undefined ? ov.onboarding_revertidos : parseInt(oSub.textContent.split('|')[1]);
+  const onbPctVal = oMeta>0 ? (oReal/oMeta*100).toFixed(1) : 0;
+  oSub.innerHTML = `${onbPctVal}% | <input type="number" class="kpi-input-sub" id="kpi-in-onb-rev" value="${oRevertidos}"> revertidos`;
+  document.getElementById('kpi-onboarding').classList.add('kpi-editing');
+
+  // Ongoing: realizado/meta
+  const gVal = document.getElementById('kpi-ongoing-val');
+  const gParts = gVal.textContent.split('/');
+  const gReal = ov.ongoing_realizado !== undefined ? ov.ongoing_realizado : parseInt(gParts[0]);
+  const gMeta = ov.ongoing_meta !== undefined ? ov.ongoing_meta : parseInt(gParts[1]);
+  gVal.innerHTML = `<input type="number" class="kpi-input-val" id="kpi-in-ong-real" value="${gReal}" style="color:var(--orange)"><span class="kpi-slash" style="color:var(--orange)">/</span><input type="number" class="kpi-input-val" id="kpi-in-ong-meta" value="${gMeta}" style="color:var(--orange)">`;
+  document.getElementById('kpi-ongoing').classList.add('kpi-editing');
+
+  // Prevent Enter from submitting - save instead
+  document.querySelectorAll('.kpi-input-val,.kpi-input-sub').forEach(inp=>{
+    inp.addEventListener('keydown', e=>{ if(e.key==='Enter'){ e.preventDefault(); toggleKpiEdit(); }});
+  });
+}
+
+function saveKpiEdits(){
+  const ov = getKpiOverrides();
+
+  const cReal = parseFloat(document.getElementById('kpi-in-contratos-real').value);
+  const cMeta = parseFloat(document.getElementById('kpi-in-contratos-meta').value);
+  ov.contratos_realizado = cReal;
+  ov.contratos_meta = cMeta;
+
+  ov.retencao_pct = parseFloat(document.getElementById('kpi-in-retencao-pct').value);
+  ov.retencao_clientes = parseFloat(document.getElementById('kpi-in-retencao-total').value);
+  ov.retencao_reverter = parseFloat(document.getElementById('kpi-in-retencao-rev').value);
+
+  const oReal = parseFloat(document.getElementById('kpi-in-onb-real').value);
+  const oMeta = parseFloat(document.getElementById('kpi-in-onb-meta').value);
+  ov.onboarding_realizado = oReal;
+  ov.onboarding_meta = oMeta;
+  ov.onboarding_revertidos = parseFloat(document.getElementById('kpi-in-onb-rev').value);
+
+  const gReal = parseFloat(document.getElementById('kpi-in-ong-real').value);
+  const gMeta = parseFloat(document.getElementById('kpi-in-ong-meta').value);
+  ov.ongoing_realizado = gReal;
+  ov.ongoing_meta = gMeta;
+
+  saveKpiOverrides(ov);
+
+  // Update display
+  const cPct = cMeta > 0 ? parseFloat((cReal/cMeta*100).toFixed(1)) : 0;
+  document.getElementById('kpi-contratos-val').innerHTML = `${cReal}/${cMeta}`;
+  document.getElementById('kpi-contratos-val').style.color = 'var(--yellow)';
+  document.getElementById('kpi-contratos-sub').textContent = `${cPct}% atingido`;
+  document.getElementById('kpi-contratos-bar').style.width = Math.min(cPct,100)+'%';
+  document.getElementById('kpi-contratos').classList.remove('kpi-editing');
+
+  document.getElementById('kpi-retencao-val').innerHTML = `${ov.retencao_pct}%`;
+  document.getElementById('kpi-retencao-val').style.color = 'var(--green)';
+  document.getElementById('kpi-retencao-sub').textContent = `${ov.retencao_clientes} clientes | ${ov.retencao_reverter} p/ reverter`;
+  document.getElementById('kpi-retencao-bar').style.width = ov.retencao_pct+'%';
+  document.getElementById('kpi-retencao').classList.remove('kpi-editing');
+
+  const oPct = oMeta > 0 ? parseFloat((oReal/oMeta*100).toFixed(1)) : 0;
+  document.getElementById('kpi-onboarding-val').innerHTML = `${oReal}/${oMeta}`;
+  document.getElementById('kpi-onboarding-val').style.color = 'var(--green)';
+  document.getElementById('kpi-onboarding-sub').textContent = `${oPct}% | ${ov.onboarding_revertidos} revertidos`;
+  document.getElementById('kpi-onboarding-bar').style.width = Math.min(oPct,100)+'%';
+  document.getElementById('kpi-onboarding').classList.remove('kpi-editing');
+
+  const gPct = gMeta > 0 ? parseFloat((gReal/gMeta*100).toFixed(1)) : 0;
+  document.getElementById('kpi-ongoing-val').innerHTML = `${gReal}/${gMeta}`;
+  document.getElementById('kpi-ongoing-val').style.color = 'var(--orange)';
+  document.getElementById('kpi-ongoing-sub').textContent = `${gPct}% atingido`;
+  document.getElementById('kpi-ongoing-bar').style.width = Math.min(gPct,100)+'%';
+  document.getElementById('kpi-ongoing').classList.remove('kpi-editing');
+}
+
+function openNotesPage(clientKey, clientName){
+  const notes = getPipelineNotes();
+  const clientNotes = notes[clientKey] || [];
+  const overlay = document.createElement('div');
+  overlay.className = 'notes-page-overlay';
+  overlay.id = 'notesPageOverlay';
+  let notesListHtml = '';
+  if(clientNotes.length===0){
+    notesListHtml = '<div class="notes-page-empty">Nenhuma anotacao ainda. Adicione a primeira!</div>';
+  } else {
+    clientNotes.forEach(n=>{
+      notesListHtml += `<div class="notes-page-entry"><div class="np-date">${n.date}</div><div class="np-text">${n.text}</div></div>`;
+    });
+  }
+  overlay.innerHTML = `
+    <div class="notes-page-header">
+      <h2>Anotacoes — ${clientName}</h2>
+      <button class="notes-page-back" onclick="document.getElementById('notesPageOverlay').remove()">← Voltar</button>
+    </div>
+    <textarea class="notes-page-input" id="npInput_${clientKey}" placeholder="Escreva uma nova anotacao..."></textarea>
+    <button class="notes-page-save" onclick="addNoteFromPage('${clientKey}','${clientName.replace(/'/g,"\\'")}')">Salvar anotacao</button>
+    <div class="notes-page-list" id="npList_${clientKey}">${notesListHtml}</div>
+  `;
+  document.body.appendChild(overlay);
+}
+
+function addNoteFromPage(clientKey, clientName){
+  const input = document.getElementById('npInput_'+clientKey);
+  const text = input.value.trim();
+  if(!text) return;
+  const notes = getPipelineNotes();
+  if(!notes[clientKey]) notes[clientKey] = [];
+  const now = new Date();
+  const dateStr = now.toLocaleDateString('pt-BR')+' '+now.toLocaleTimeString('pt-BR',{hour:'2-digit',minute:'2-digit'});
+  notes[clientKey].unshift({date:dateStr, text:text});
+  savePipelineNotes(notes);
+  const container = document.getElementById('npList_'+clientKey);
+  const emptyMsg = container.querySelector('.notes-page-empty');
+  if(emptyMsg) emptyMsg.remove();
+  const entry = document.createElement('div');
+  entry.className = 'notes-page-entry';
+  entry.innerHTML = `<div class="np-date">${dateStr}</div><div class="np-text">${text}</div>`;
+  container.prepend(entry);
+  // Also update inline notes in pipeline table
+  const inlineContainer = document.getElementById('notes_'+clientKey);
+  if(inlineContainer){
+    const inlineEntry = document.createElement('div');
+    inlineEntry.className = 'note-entry';
+    inlineEntry.innerHTML = `<span class="note-date">${dateStr}</span>: ${text}`;
+    inlineContainer.prepend(inlineEntry);
+  }
+  input.value = '';
+}
+
+(async function(){
+  const resp = await fetch('data.json');
+  const D = await resp.json();
+
+  document.getElementById('navBrand').innerHTML = `${D.titulo} <small>${D.periodo}</small>`;
+  initNav();
+
+  const mg = D.meta_geral;
+  const vg = D.visao_geral;
+  const mi = D.meta_individual;
+  const cp = D.clientes_perdidos;
+
+  // ===== PAGE: VISAO GERAL =====
+  const visao = document.getElementById('page-visao');
+
+  // Load KPI overrides from localStorage
+  const kpiOv = getKpiOverrides();
+  const kContratosReal = kpiOv.contratos_realizado !== undefined ? kpiOv.contratos_realizado : mg.contratos.realizado_geral;
+  const kContratosMeta = kpiOv.contratos_meta !== undefined ? kpiOv.contratos_meta : mg.contratos.meta_geral;
+  const kContratosPct = kContratosMeta > 0 ? parseFloat((kContratosReal/kContratosMeta*100).toFixed(1)) : 0;
+  const kRetencaoPct = kpiOv.retencao_pct !== undefined ? kpiOv.retencao_pct : mg.retencao.pct_retencao;
+  const kRetencaoTotal = kpiOv.retencao_clientes !== undefined ? kpiOv.retencao_clientes : mg.retencao.clientes_totais;
+  const kRetencaoRev = kpiOv.retencao_reverter !== undefined ? kpiOv.retencao_reverter : mg.retencao.clientes_reverter;
+  const kOnbReal = kpiOv.onboarding_realizado !== undefined ? kpiOv.onboarding_realizado : mg.onboarding.realizado;
+  const kOnbMeta = kpiOv.onboarding_meta !== undefined ? kpiOv.onboarding_meta : mg.onboarding.meta;
+  const kOnbPct = kOnbMeta > 0 ? parseFloat((kOnbReal/kOnbMeta*100).toFixed(1)) : 0;
+  const kOnbRevertidos = kpiOv.onboarding_revertidos !== undefined ? kpiOv.onboarding_revertidos : mg.onboarding.clientes_revertidos;
+  const kOngReal = kpiOv.ongoing_realizado !== undefined ? kpiOv.ongoing_realizado : mg.ongoing.realizado;
+  const kOngMeta = kpiOv.ongoing_meta !== undefined ? kpiOv.ongoing_meta : mg.ongoing.meta;
+  const kOngPct = kOngMeta > 0 ? parseFloat((kOngReal/kOngMeta*100).toFixed(1)) : 0;
+
+  visao.innerHTML = `
+    <div class="section-title">KPIs Principais <button class="kpi-edit-toggle" id="kpiEditBtn" onclick="toggleKpiEdit()">&#9998; EDITAR VALORES</button></div>
+    <div class="kpi-grid">
+      <div class="kpi">
+        <div class="kpi-label">Clientes na Carteira</div>
+        <div class="kpi-value" style="color:var(--accent)">${vg.total_clientes}</div>
+        <div class="kpi-sub">Media ${vg.media_contratos} contratos/cliente</div>
+      </div>
+      <div class="kpi" id="kpi-contratos">
+        <div class="kpi-label">Meta de Contratos</div>
+        <div class="kpi-value" id="kpi-contratos-val" style="color:var(--yellow)">${kContratosReal}/${kContratosMeta}</div>
+        <div class="kpi-sub" id="kpi-contratos-sub">${kContratosPct}% atingido</div>
+        <div class="kpi-bar"><span id="kpi-contratos-bar" style="width:${Math.min(kContratosPct,100)}%;background:${barColor(kContratosPct)}"></span></div>
+      </div>
+      <div class="kpi">
+        <div class="kpi-label">Contratos Emitidos (Jun)</div>
+        <div class="kpi-value" style="color:var(--purple)">${vg.contratos_emitidos_junho}</div>
+        <div class="kpi-sub">${vg.contratos_ativos} contratos ativos</div>
+      </div>
+      <div class="kpi" id="kpi-retencao">
+        <div class="kpi-label">Retencao</div>
+        <div class="kpi-value" id="kpi-retencao-val" style="color:var(--green)">${kRetencaoPct}%</div>
+        <div class="kpi-sub" id="kpi-retencao-sub">${kRetencaoTotal} clientes | ${kRetencaoRev} p/ reverter</div>
+        <div class="kpi-bar"><span id="kpi-retencao-bar" style="width:${kRetencaoPct}%;background:var(--green)"></span></div>
+      </div>
+      <div class="kpi" id="kpi-onboarding">
+        <div class="kpi-label">Onboarding</div>
+        <div class="kpi-value" id="kpi-onboarding-val" style="color:var(--green)">${kOnbReal}/${kOnbMeta}</div>
+        <div class="kpi-sub" id="kpi-onboarding-sub">${kOnbPct}% | ${kOnbRevertidos} revertidos</div>
+        <div class="kpi-bar"><span id="kpi-onboarding-bar" style="width:${Math.min(kOnbPct,100)}%;background:${barColor(kOnbPct)}"></span></div>
+      </div>
+      <div class="kpi" id="kpi-ongoing">
+        <div class="kpi-label">Ongoing</div>
+        <div class="kpi-value" id="kpi-ongoing-val" style="color:var(--orange)">${kOngReal}/${kOngMeta}</div>
+        <div class="kpi-sub" id="kpi-ongoing-sub">${kOngPct}% atingido</div>
+        <div class="kpi-bar"><span id="kpi-ongoing-bar" style="width:${Math.min(kOngPct,100)}%;background:${barColor(kOngPct)}"></span></div>
+      </div>
+      <div class="kpi">
+        <div class="kpi-label">Clientes em Lost</div>
+        <div class="kpi-value" style="color:var(--red)">${cp.total}</div>
+        <div class="kpi-sub">200+ dias sem contrato</div>
+      </div>
+      <div class="kpi">
+        <div class="kpi-label">Foco da Semana</div>
+        <div class="kpi-value" style="color:var(--accent)">${D.foco_semana.length}</div>
+        <div class="kpi-sub">Clientes com acoes planejadas</div>
+      </div>
+    </div>
+
+    <div class="section-title">Distribuicao</div>
+    <div class="charts-grid">
+      <div class="chart-card"><h3>Status dos Clientes</h3><canvas id="statusChart"></canvas></div>
+      <div class="chart-card"><h3>Clientes por Carteira</h3><canvas id="carteiraChart"></canvas></div>
+    </div>
+
+    <div class="section-title">Analise de Churn</div>
+    <div class="charts-grid">
+      <div class="chart-card"><h3>Dias sem Contrato (Distribuicao)</h3><canvas id="churnChart"></canvas></div>
+      <div class="chart-card"><h3>Motivos de Lost</h3><canvas id="motivoChart"></canvas></div>
+    </div>
+  `;
+
+  // Status chart (clickable)
+  const statusLabels = Object.keys(vg.status_distribution);
+  const statusColors = statusLabels.map(s=>{
+    if(s.includes('30 dias')) return '#00b894';
+    if(s.includes('31')) return '#fdcb6e';
+    if(s.includes('50 dias')) return '#e17055';
+    if(s.includes('Desconhecido')) return '#636e72';
+    return '#74b9ff';
+  });
+  function getClientsByStatus(status){
+    return vg.clients.filter(c=>c.status===status);
+  }
+  new Chart(document.getElementById('statusChart'),{
+    type:'doughnut',
+    data:{labels:statusLabels.map(s=>s.length>30?s.slice(0,30)+'...':s),datasets:[{data:Object.values(vg.status_distribution),backgroundColor:statusColors,borderWidth:0,hoverOffset:8}]},
+    options:{responsive:true,onClick:(evt,elements)=>{
+      if(elements.length){
+        const idx = elements[0].index;
+        const status = statusLabels[idx];
+        const clients = getClientsByStatus(status);
+        showModal('Status — '+status, clients.map(c=>({
+          nome:c.corretor,
+          detail:(c.dias_sem_contrato!==null?Math.round(c.dias_sem_contrato)+' dias':'—')+', carteira: '+c.carteira
+        })));
+      }
+    },plugins:{legend:{position:'bottom',labels:{color:'#8899aa',font:{size:11}}},tooltip:{callbacks:{afterLabel:()=>'Clique para ver clientes'}}},cutout:'65%'}
+  });
+
+  // Carteira chart
+  const cartLabels = Object.keys(vg.carteira_distribution);
+  const cartColors = ['#00b4d8','#00b894','#fdcb6e','#e84393','#636e72'];
+  new Chart(document.getElementById('carteiraChart'),{
+    type:'bar',
+    data:{labels:cartLabels,datasets:[{data:Object.values(vg.carteira_distribution),backgroundColor:cartColors.slice(0,cartLabels.length),borderRadius:4}]},
+    options:{responsive:true,plugins:{legend:{display:false}},scales:{x:{ticks:{color:'#8899aa'}},y:{ticks:{color:'#8899aa'},grid:{color:'#1e2e3e'}}}}
+  });
+
+  // Churn chart (clickable)
+  const churnRanges = D.churn.map(c=>c.range);
+  function getChurnClients(range){
+    const parts = range.replace(/\s/g,'').split('-');
+    const lo = parseInt(parts[0])||0;
+    const hi = parseInt(parts[1])||99999;
+    return vg.clients.filter(c=> c.dias_sem_contrato!==null && Math.round(c.dias_sem_contrato)>=lo && Math.round(c.dias_sem_contrato)<=hi);
+  }
+  new Chart(document.getElementById('churnChart'),{
+    type:'bar',
+    data:{labels:churnRanges,datasets:[{data:D.churn.map(c=>c.count),backgroundColor:D.churn.map((_,i)=>i<2?'#00b894':i<4?'#fdcb6e':'#e17055'),borderRadius:4}]},
+    options:{responsive:true,onClick:(evt,elements)=>{
+      if(elements.length){
+        const idx = elements[0].index;
+        const range = churnRanges[idx];
+        const clients = getChurnClients(range);
+        showModal('Churn — '+range+' dias', clients.map(c=>({nome:c.corretor, detail:Math.round(c.dias_sem_contrato)+' dias, carteira: '+c.carteira})));
+      }
+    },plugins:{legend:{display:false},tooltip:{callbacks:{afterLabel:()=>'Clique para ver clientes'}}},scales:{x:{ticks:{color:'#8899aa',font:{size:10}}},y:{ticks:{color:'#8899aa'},grid:{color:'#1e2e3e'}}}}
+  });
+
+  // Motivo Lost chart (clickable)
+  const motLabels = Object.keys(cp.motivos);
+  const motColors = ['#e17055','#fdcb6e','#00b894','#74b9ff','#e84393','#6c5ce7','#636e72','#fd79a8'];
+  const motivoChartEl = document.getElementById('motivoChart');
+  const motivoChartObj = new Chart(motivoChartEl,{
+    type:'doughnut',
+    data:{labels:motLabels,datasets:[{data:Object.values(cp.motivos),backgroundColor:motColors.slice(0,motLabels.length),borderWidth:0,hoverOffset:8}]},
+    options:{responsive:true,onClick:(evt,elements)=>{
+      if(elements.length){
+        const idx = elements[0].index;
+        const motivo = motLabels[idx];
+        const clients = cp.clients.filter(c=>c.motivo===motivo);
+        showModal('Lost — '+motivo, clients.map(c=>({nome:c.corretor, detail:c.dias_sem_contrato+' dias, '+c.contratos_anteriores+' contratos'})));
+      }
+    },plugins:{legend:{position:'bottom',labels:{color:'#8899aa',font:{size:10}}},tooltip:{callbacks:{afterLabel:(ctx)=>'Clique para ver clientes'}}},cutout:'60%'}
+  });
+
+  // ===== PAGE: DESEMPENHO =====
+  const desemp = document.getElementById('page-desempenho');
+  let specHtml = '<div class="section-title">Desempenho Individual</div><div class="spec-grid">';
+  mi.forEach(s=>{
+    const badgeClass = s.tipo==='Onboarding'?'badge-onboarding':'badge-ongoing';
+    const rc = resultColor(s.resultado_final);
+    let rows = `
+      <div class="spec-row"><span>Clientes na carteira</span><span class="val">${s.contratos.clientes_carteira}</span></div>
+      <div class="spec-row"><span>Meta de contratos</span><span class="val">${s.contratos.meta}</span></div>
+      <div class="spec-row"><span>Contratos ativos</span><span class="val">${s.contratos.ativos}</span></div>
+      <div class="spec-row"><span>% Contratos</span><span class="val" style="color:${barColor(s.contratos.pct)}">${s.contratos.pct}%</span></div>`;
+    if(s.segundo_contrato){
+      rows += `<div class="spec-row"><span>2o contrato emitido</span><span class="val">${s.segundo_contrato.realizado}</span></div>`;
+    }
+    if(s.retencao){
+      rows += `
+        <div class="spec-row"><span>Clientes em risco</span><span class="val">${s.retencao.clientes_risco}</span></div>
+        <div class="spec-row"><span>Clientes revertidos</span><span class="val">${s.retencao.revertidos}</span></div>`;
+    }
+    rows += `<div class="spec-row"><span>Resultado Final</span><span class="result-badge" style="background:${rc}22;color:${rc}">${s.resultado_final}%</span></div>`;
+    specHtml += `<div class="spec-card"><div class="spec-header"><span class="spec-name">${s.nome}</span><span class="badge ${badgeClass}">${s.tipo}</span></div>${rows}</div>`;
+  });
+  specHtml += '</div>';
+
+  // Meta comparison chart
+  specHtml += '<div class="section-title">Comparacao de Metas</div><div class="charts-grid"><div class="chart-card"><h3>Meta vs Realizado por Especialista</h3><canvas id="metaCompChart"></canvas></div><div class="chart-card"><h3>Resultado Final (%)</h3><canvas id="resultChart"></canvas></div></div>';
+  desemp.innerHTML = specHtml;
+
+  new Chart(document.getElementById('metaCompChart'),{
+    type:'bar',
+    data:{labels:mi.map(s=>s.nome),datasets:[
+      {label:'Meta',data:mi.map(s=>s.contratos.meta),backgroundColor:'#00b4d844',borderColor:'#00b4d8',borderWidth:1},
+      {label:'Realizado',data:mi.map(s=>s.contratos.ativos),backgroundColor:'#00b89444',borderColor:'#00b894',borderWidth:1}
+    ]},
+    options:{responsive:true,plugins:{legend:{labels:{color:'#8899aa'}}},scales:{x:{ticks:{color:'#8899aa'}},y:{ticks:{color:'#8899aa'},grid:{color:'#1e2e3e'}}}}
+  });
+
+  new Chart(document.getElementById('resultChart'),{
+    type:'bar',
+    data:{labels:mi.map(s=>s.nome),datasets:[{data:mi.map(s=>s.resultado_final),backgroundColor:mi.map(s=>resultColor(s.resultado_final)),borderRadius:4}]},
+    options:{responsive:true,indexAxis:'y',plugins:{legend:{display:false}},scales:{x:{max:100,ticks:{color:'#8899aa'},grid:{color:'#1e2e3e'}},y:{ticks:{color:'#8899aa'}}}}
+  });
+
+  // ===== PAGE: CHURN & LOST =====
+  const churnPage = document.getElementById('page-churn');
+  let lostHtml = `<div class="section-title">Clientes em Lost (${cp.total})</div>
+    <div class="stats-row" id="lostMotivoStats">
+      ${Object.entries(cp.motivos).map(([m,c])=>`<div class="stat-box clickable" data-motivo="${m}"><div class="num">${c}</div><div class="label">${m}</div></div>`).join('')}
+    </div>
+    <div class="filters" id="lostMotivoFilters">
+      <div class="filter-btn active" data-filter="all">Todos ${cp.total}</div>
+      ${Object.entries(cp.motivos).map(([m,c])=>`<div class="filter-btn" data-filter="${m}">${m} ${c}</div>`).join('')}
+    </div>
+    <div class="table-wrap"><table id="lostTable"><thead><tr><th>Corretor</th><th>Dias s/ contrato</th><th>Contratos anteriores</th><th>Entrou em Lost</th><th>Motivo</th><th>Consideracoes</th></tr></thead><tbody>`;
+  cp.clients.forEach(c=>{
+    lostHtml += `<tr data-motivo="${c.motivo}"><td>${c.corretor}</td><td>${c.dias_sem_contrato} dias</td><td>${c.contratos_anteriores}</td><td>${c.entrou_lost}</td><td><span class="pill pill-red">${c.motivo}</span></td><td style="max-width:300px;font-size:.7rem">${c.consideracoes||''}</td></tr>`;
+  });
+  lostHtml += '</tbody></table></div>';
+  churnPage.innerHTML = lostHtml;
+
+  // Lost motivo stat-box click → show modal with client names
+  document.querySelectorAll('#lostMotivoStats .stat-box.clickable').forEach(box=>{
+    box.onclick = ()=>{
+      const motivo = box.dataset.motivo;
+      const clients = cp.clients.filter(c=>c.motivo===motivo);
+      showModal('Lost — '+motivo, clients.map(c=>({nome:c.corretor, detail:c.dias_sem_contrato+' dias — '+(c.consideracoes||'sem consideracoes')})));
+    };
+  });
+
+  // Lost motivo filter buttons
+  document.querySelectorAll('#lostMotivoFilters .filter-btn').forEach(btn=>{
+    btn.onclick = ()=>{
+      document.querySelectorAll('#lostMotivoFilters .filter-btn').forEach(b=>b.classList.remove('active'));
+      btn.classList.add('active');
+      const filter = btn.dataset.filter;
+      document.querySelectorAll('#lostTable tbody tr').forEach(tr=>{
+        tr.style.display = (filter==='all' || tr.dataset.motivo===filter)?'':'none';
+      });
+    };
+  });
+
+  // ===== PAGE: PIPELINE DIARIO =====
+  const pipeline = document.getElementById('page-pipeline');
+  const focoStatuses = {};
+  const focoEspecialistas = {};
+  const savedStatuses = getPipelineStatuses();
+  const savedNotes = getPipelineNotes();
+  const statusOptions = ['Vai ativar','Tem promessas','Não vai ativar','Em onboarding','Sem status'];
+  D.foco_semana.forEach(f=>{
+    const s = f.status || 'Sem status';
+    if(!focoStatuses[s]) focoStatuses[s] = [];
+    focoStatuses[s].push(f);
+    const esp = f.especialista || 'Sem consultor';
+    if(!focoEspecialistas[esp]) focoEspecialistas[esp] = [];
+    focoEspecialistas[esp].push(f);
+  });
+
+  let pipHtml = '<div class="section-title">Pipeline Diario — Foco da Semana</div>';
+  pipHtml += '<div class="stats-row">';
+  Object.entries(focoStatuses).forEach(([s,items])=>{
+    pipHtml += `<div class="stat-box"><div class="num">${items.length}</div><div class="label">${s}</div></div>`;
+  });
+  pipHtml += '</div>';
+
+  // Status filters
+  pipHtml += `<div class="section-title" style="font-size:.8rem">Filtrar por Status</div>`;
+  pipHtml += `<div class="filters" id="pipelineFilters"><div class="filter-btn active" data-filter="all">Todos ${D.foco_semana.length}</div>`;
+  Object.entries(focoStatuses).forEach(([s,items])=>{
+    pipHtml += `<div class="filter-btn" data-filter="${s}">${s} ${items.length}</div>`;
+  });
+  pipHtml += '</div>';
+
+  // Consultant filters
+  pipHtml += `<div class="section-title" style="font-size:.8rem">Filtrar por Consultor</div>`;
+  pipHtml += `<div class="filters" id="consultorFilters"><div class="filter-btn active" data-consultor="all">Todos</div>`;
+  Object.entries(focoEspecialistas).forEach(([esp,items])=>{
+    pipHtml += `<div class="filter-btn" data-consultor="${esp}">${esp} (${items.length})</div>`;
+  });
+  pipHtml += '</div>';
+
+  const savedContratos = getPipelineContratos();
+  pipHtml += '<div class="table-wrap"><table id="pipelineTable"><thead><tr><th>Cliente</th><th>Status</th><th>Especialista</th><th>Contratos Prev.</th><th>Valor 2k</th><th>Jamile</th><th>Observacao</th><th>Anotacoes Diarias</th></tr></thead><tbody>';
+  D.foco_semana.forEach((f,idx)=>{
+    const clientKey = f.nome.replace(/[^a-zA-Z0-9]/g,'_');
+    const currentStatus = savedStatuses[clientKey] || f.status || '';
+    const currentContratos = savedContratos[clientKey] !== undefined ? savedContratos[clientKey] : (f.contratos_previstos||0);
+    const notes = savedNotes[clientKey] || [];
+    let notesHtml = '<div class="note-history" id="notes_'+clientKey+'">';
+    const recentNotes = notes.slice(0,2);
+    recentNotes.forEach(n=>{ notesHtml += `<div class="note-entry"><span class="note-date">${n.date}</span>: ${n.text}</div>`; });
+    if(notes.length>2) notesHtml += `<div class="note-entry" style="color:var(--accent)">+${notes.length-2} mais...</div>`;
+    notesHtml += '</div>';
+    const safeClientName = f.nome.replace(/'/g,"\\'");
+    pipHtml += `<tr data-status="${f.status||'Sem status'}" data-especialista="${f.especialista||'Sem consultor'}">
+      <td style="font-weight:600">${f.nome}</td>
+      <td><select class="editable-status" data-client="${clientKey}" onchange="updatePipelineStatus(this)">
+        ${statusOptions.map(o=>`<option value="${o}" ${currentStatus.trim()===o?'selected':''}>${o}</option>`).join('')}
+      </select></td>
+      <td>${f.especialista||'—'}</td>
+      <td style="text-align:center"><input type="number" class="editable-contratos" data-client="${clientKey}" value="${currentContratos}" min="0" onchange="updatePipelineContratos(this)"></td>
+      <td style="text-align:center">${f.valor_2k?'Sim':'—'}</td>
+      <td style="text-align:center">${f.atuacao_jamile?'Sim':'—'}</td>
+      <td style="max-width:200px;font-size:.7rem">${f.observacao||''}</td>
+      <td style="min-width:220px">
+        <input type="text" class="note-input" id="noteInput_${clientKey}" placeholder="Adicionar anotacao..." onkeydown="if(event.key==='Enter')addNote('${clientKey}')">
+        <button class="save-note-btn" onclick="addNote('${clientKey}')">Salvar</button>
+        <button class="view-notes-btn" onclick="openNotesPage('${clientKey}','${safeClientName}')">Ver historico completo</button>
+        ${notesHtml}
+      </td>
+    </tr>`;
+  });
+  pipHtml += '</tbody></table></div>';
+  pipeline.innerHTML = pipHtml;
+
+  // Expose global functions for pipeline interactivity
+  window.updatePipelineStatus = function(select){
+    const key = select.dataset.client;
+    const st = getPipelineStatuses();
+    st[key] = select.value;
+    savePipelineStatuses(st);
+  };
+
+  window.updatePipelineContratos = function(input){
+    const key = input.dataset.client;
+    const ct = getPipelineContratos();
+    ct[key] = parseInt(input.value)||0;
+    savePipelineContratos(ct);
+  };
+
+  window.openNotesPage = openNotesPage;
+  window.addNoteFromPage = addNoteFromPage;
+
+  window.addNote = function(clientKey){
+    const input = document.getElementById('noteInput_'+clientKey);
+    const text = input.value.trim();
+    if(!text) return;
+    const notes = getPipelineNotes();
+    if(!notes[clientKey]) notes[clientKey] = [];
+    const now = new Date();
+    const dateStr = now.toLocaleDateString('pt-BR')+' '+now.toLocaleTimeString('pt-BR',{hour:'2-digit',minute:'2-digit'});
+    notes[clientKey].unshift({date:dateStr, text:text});
+    savePipelineNotes(notes);
+    const container = document.getElementById('notes_'+clientKey);
+    const entry = document.createElement('div');
+    entry.className = 'note-entry';
+    entry.innerHTML = `<span class="note-date">${dateStr}</span>: ${text}`;
+    container.prepend(entry);
+    input.value = '';
+  };
+
+  // Active filter state for pipeline
+  let activeStatusFilter = 'all';
+  let activeConsultorFilter = 'all';
+
+  function applyPipelineFilters(){
+    document.querySelectorAll('#pipelineTable tbody tr').forEach(tr=>{
+      const matchStatus = activeStatusFilter==='all' || tr.dataset.status===activeStatusFilter;
+      const matchConsultor = activeConsultorFilter==='all' || tr.dataset.especialista===activeConsultorFilter;
+      tr.style.display = (matchStatus && matchConsultor)?'':'none';
+    });
+  }
+
+  document.querySelectorAll('#pipelineFilters .filter-btn').forEach(btn=>{
+    btn.onclick = ()=>{
+      document.querySelectorAll('#pipelineFilters .filter-btn').forEach(b=>b.classList.remove('active'));
+      btn.classList.add('active');
+      activeStatusFilter = btn.dataset.filter;
+      applyPipelineFilters();
+    };
+  });
+
+  document.querySelectorAll('#consultorFilters .filter-btn').forEach(btn=>{
+    btn.onclick = ()=>{
+      document.querySelectorAll('#consultorFilters .filter-btn').forEach(b=>b.classList.remove('active'));
+      btn.classList.add('active');
+      activeConsultorFilter = btn.dataset.consultor;
+      applyPipelineFilters();
+    };
+  });
+
+  // ===== PAGE: REUNIOES =====
+  const reunioes = document.getElementById('page-reunioes');
+  let reunHtml = '<div class="section-title">Reunioes Realizadas</div>';
+  reunHtml += `<div class="stats-row">
+    <div class="stat-box"><div class="num">${D.reunioes.total}</div><div class="label">Total Reunioes</div></div>
+    ${Object.entries(D.reunioes.by_specialist).map(([s,c])=>`<div class="stat-box"><div class="num">${c}</div><div class="label">${s}</div></div>`).join('')}
+  </div>`;
+  if(D.reunioes.meetings.length){
+    reunHtml += '<div class="table-wrap"><table><thead><tr><th>Data</th><th>Especialista</th><th>Cliente</th></tr></thead><tbody>';
+    D.reunioes.meetings.sort((a,b)=>a.data.localeCompare(b.data)).forEach(m=>{
+      reunHtml += `<tr><td>${m.data}</td><td>${m.especialista}</td><td>${m.cliente}</td></tr>`;
+    });
+    reunHtml += '</tbody></table></div>';
+  }
+  reunioes.innerHTML = reunHtml;
+
+  // ===== PAGE: RENOVACOES =====
+  const renovacoes = document.getElementById('page-renovacoes');
+  let renHtml = '<div class="section-title">Renovacoes de Contratos</div>';
+  renHtml += `<div class="stats-row"><div class="stat-box"><div class="num">${D.renovacoes.length}</div><div class="label">Contratos</div></div></div>`;
+  if(D.renovacoes.length){
+    renHtml += '<div class="table-wrap"><table><thead><tr><th>Codigo</th><th>Responsavel</th><th>Valor Aluguel</th><th>Inicio</th><th>Termino Previsto</th><th>Termino Real</th></tr></thead><tbody>';
+    D.renovacoes.forEach(r=>{
+      renHtml += `<tr><td>${r.codigo||'—'}</td><td>${r.responsavel||'—'}</td><td>R$ ${r.valor_aluguel.toLocaleString('pt-BR',{minimumFractionDigits:2})}</td><td>${r.data_inicio}</td><td>${r.data_prevista_termino}</td><td>${r.data_real_termino==='NULL'?'—':r.data_real_termino}</td></tr>`;
+    });
+    renHtml += '</tbody></table></div>';
+  }
+  renovacoes.innerHTML = renHtml;
+
+  // ===== PAGE: TODOS CLIENTES =====
+  const clientes = document.getElementById('page-clientes');
+  let cliHtml = '<div class="section-title">Todos os Clientes</div>';
+  cliHtml += '<div class="filters" id="clientFilters">';
+  cliHtml += `<div class="filter-btn active" data-filter="all">Todos ${vg.clients.length}</div>`;
+  Object.entries(vg.carteira_distribution).forEach(([k,v])=>{
+    cliHtml += `<div class="filter-btn" data-filter="${k}">${k} ${v}</div>`;
+  });
+  cliHtml += '</div>';
+  cliHtml += '<div class="table-wrap"><table id="clientTable"><thead><tr><th>Corretor</th><th>Dias s/ contrato</th><th>Status</th><th>Carteira</th><th>Contratos (ate Abr)</th><th>Contratos (Jun)</th><th>Lost?</th></tr></thead><tbody>';
+  vg.clients.forEach(c=>{
+    const dias = c.dias_sem_contrato !== null ? Math.round(c.dias_sem_contrato) : '—';
+    cliHtml += `<tr data-carteira="${c.carteira}">
+      <td style="font-weight:500">${c.corretor}</td>
+      <td>${dias}</td>
+      <td><span class="pill ${pillClass(c.status)}">${c.status||'—'}</span></td>
+      <td>${c.carteira}</td>
+      <td style="text-align:center">${c.contratos_ate_abril}</td>
+      <td style="text-align:center">${c.contrato_ativo_junho}</td>
+      <td>${c.lost==='SIM'?'<span class="pill pill-red">SIM</span>':c.lost==='NOVO'?'<span class="pill pill-blue">NOVO</span>':c.lost||'—'}</td>
+    </tr>`;
+  });
+  cliHtml += '</tbody></table></div>';
+  clientes.innerHTML = cliHtml;
+
+  document.querySelectorAll('#clientFilters .filter-btn').forEach(btn=>{
+    btn.onclick = ()=>{
+      document.querySelectorAll('#clientFilters .filter-btn').forEach(b=>b.classList.remove('active'));
+      btn.classList.add('active');
+      const filter = btn.dataset.filter;
+      document.querySelectorAll('#clientTable tbody tr').forEach(tr=>{
+        tr.style.display = (filter==='all' || tr.dataset.carteira===filter)?'':'none';
+      });
+    };
+  });
+
+  // ===== PAGE: BACKUPS =====
+  const backups = document.getElementById('page-backups');
+  const localBackups = getBackups();
+  let bkHtml = '<div class="section-title">Backups Mensais</div>';
+  bkHtml += '<p style="color:var(--muted);font-size:.8rem;margin-bottom:1rem">Snapshots mensais dos dados da carteira. Ao salvar um backup, as contas sao zeradas e os dados ficam salvos para exportar como planilha.</p>';
+
+  // Show saved local backups
+  localBackups.forEach((b,i)=>{
+    bkHtml += `<div class="backup-card"><span class="mes">${b.mes} — ${b.date}</span><div><button class="backup-export-btn" onclick="exportBackup(${i})">Exportar CSV</button></div></div>`;
+  });
+
+  if(D.backups && D.backups.length){
+    D.backups.forEach(b=>{
+      bkHtml += `<div class="backup-card"><span class="mes">${b.mes}</span>${b.url?`<a href="${b.url}" target="_blank">Abrir planilha &rarr;</a>`:'—'}</div>`;
+    });
+  }
+  bkHtml += `<div class="backup-card" style="border-color:var(--accent)"><span class="mes" style="color:var(--accent)">${D.periodo} (Atual)</span><span class="pill pill-green">Em andamento</span></div>`;
+  bkHtml += '<div style="margin-top:1.5rem;display:flex;gap:.5rem;flex-wrap:wrap">';
+  bkHtml += '<button class="backup-save-btn" onclick="saveMonthlyBackup()">Salvar Backup do Mes &amp; Zerar Contas</button>';
+  bkHtml += '<button class="backup-export-btn" onclick="exportCurrentData()">Exportar Dados Atuais (CSV)</button>';
+  bkHtml += '</div>';
+  bkHtml += '<div style="margin-top:1.5rem;padding:1rem;background:var(--card);border-radius:10px;border:1px solid var(--border)">';
+  bkHtml += '<h4 style="font-size:.85rem;margin-bottom:.5rem">Como funciona o backup mensal</h4>';
+  bkHtml += '<ul style="font-size:.78rem;color:var(--muted);list-style:none;line-height:1.8">';
+  bkHtml += '<li>1. Clique em "Salvar Backup" para salvar um snapshot completo do mes</li>';
+  bkHtml += '<li>2. As contas (status, anotacoes, contratos editados) sao zeradas para o proximo mes</li>';
+  bkHtml += '<li>3. Os dados salvos ficam disponiveis para exportar como planilha CSV</li>';
+  bkHtml += '<li>4. Os clientes permanecem na carteira — so os dados mensais sao resetados</li>';
+  bkHtml += '</ul></div>';
+  backups.innerHTML = bkHtml;
+
+  // Backup global functions
+  window.saveMonthlyBackup = function(){
+    if(!confirm('Salvar backup de '+D.periodo+' e zerar as contas? Os dados serao preservados no backup.')) return;
+    const backupData = {
+      mes: D.periodo,
+      date: new Date().toLocaleDateString('pt-BR')+' '+new Date().toLocaleTimeString('pt-BR',{hour:'2-digit',minute:'2-digit'}),
+      statuses: getPipelineStatuses(),
+      notes: getPipelineNotes(),
+      contratos: getPipelineContratos(),
+      foco_semana: D.foco_semana.map(f=>{
+        const ck = f.nome.replace(/[^a-zA-Z0-9]/g,'_');
+        return {
+          nome: f.nome,
+          especialista: f.especialista||'',
+          status_original: f.status||'',
+          status_editado: getPipelineStatuses()[ck]||f.status||'',
+          contratos_previstos: getPipelineContratos()[ck]!==undefined?getPipelineContratos()[ck]:(f.contratos_previstos||0),
+          observacao: f.observacao||'',
+          notas: getPipelineNotes()[ck]||[]
+        };
+      })
+    };
+    const bks = getBackups();
+    bks.unshift(backupData);
+    saveBackups(bks);
+    // Zero out the local data
+    localStorage.removeItem('pipeline_statuses');
+    localStorage.removeItem('pipeline_notes');
+    localStorage.removeItem('pipeline_contratos');
+    alert('Backup salvo! As contas foram zeradas. Recarregue a pagina para ver as mudancas.');
+    location.reload();
+  };
+
+  window.exportCurrentData = function(){
+    let csv = 'Cliente,Status,Especialista,Contratos Previstos,Valor 2k,Jamile,Observacao\n';
+    const st = getPipelineStatuses();
+    const ct = getPipelineContratos();
+    D.foco_semana.forEach(f=>{
+      const ck = f.nome.replace(/[^a-zA-Z0-9]/g,'_');
+      const status = st[ck]||f.status||'';
+      const contratos = ct[ck]!==undefined?ct[ck]:(f.contratos_previstos||0);
+      csv += `"${f.nome}","${status}","${f.especialista||''}",${contratos},${f.valor_2k?'Sim':'Nao'},${f.atuacao_jamile?'Sim':'Nao'},"${(f.observacao||'').replace(/"/g,'""')}"\n`;
+    });
+    downloadCSV(csv, 'carteira_cs_'+D.periodo.replace(/\s/g,'_')+'.csv');
+  };
+
+  window.exportBackup = function(index){
+    const bks = getBackups();
+    const bk = bks[index];
+    if(!bk) return;
+    let csv = 'Cliente,Status Original,Status Editado,Especialista,Contratos Previstos,Observacao,Notas\n';
+    bk.foco_semana.forEach(f=>{
+      const notasStr = (f.notas||[]).map(n=>n.date+': '+n.text).join(' | ');
+      csv += `"${f.nome}","${f.status_original}","${f.status_editado}","${f.especialista}",${f.contratos_previstos},"${(f.observacao||'').replace(/"/g,'""')}","${notasStr.replace(/"/g,'""')}"\n`;
+    });
+    downloadCSV(csv, 'backup_'+bk.mes.replace(/\s/g,'_')+'_'+bk.date.replace(/[\s\/:\\]/g,'_')+'.csv');
+  };
+
+  function downloadCSV(csv, filename){
+    const blob = new Blob([csv], {type:'text/csv;charset=utf-8;'});
+    const link = document.createElement('a');
+    link.href = URL.createObjectURL(blob);
+    link.download = filename;
+    link.click();
+  }
+
+  // Click on individual KPI cards to enter edit mode
+  document.querySelectorAll('.kpi[id]').forEach(card=>{
+    card.addEventListener('click', function(e){
+      if(!kpiEditMode && !e.target.closest('input')){
+        toggleKpiEdit();
+      }
+    });
+    card.title = 'Clique para editar';
+  });
+
+})();
+</script>
+<div style="text-align:center;padding:1rem;color:#556;font-size:.65rem">v2.4 — Junho 2025</div>
+</body>
+</html>
