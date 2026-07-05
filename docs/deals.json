@@ -390,6 +390,18 @@
     "id": "c2aa5394d6d8"
   },
   {
+    "source": "Passagens Imperdíveis",
+    "title": "Programe sua viagem para os Lençóis Maranhenses, na melhor época do ano! Passagens para SÃO LUÍS! A partir de R$ 695, ida e volta, c/ taxas!",
+    "destination": "Lençóis Maranhenses na Melhor Época do Ano",
+    "price_brl": 695.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-sao-luis-2026-17/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/lencois_maranhenses_barreirinhas_maranhao_brasil_nacional_nacionais-612x612.png",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-07-05T13:42:54.575631+00:00",
+    "id": "fe390f9898aa"
+  },
+  {
     "source": "GOL",
     "title": "GOL: Rio de Janeiro (GIG) → Buenos Aires (AEP) - 05/08/2026 a 07/09/2026",
     "destination": "Buenos Aires",
@@ -564,6 +576,19 @@
     "return_date": "2026-10-17",
     "fetched_at": "2026-07-05T04:40:31.697752+00:00",
     "id": "57a2e20885d6"
+  },
+  {
+    "source": "Melhores Destinos",
+    "title": "Temporada de neve já começou! Viaje para o Chile com passagens para Santiago a partir de R$ 1.261 ida e volta",
+    "destination": "Chile",
+    "price_brl": 1261.0,
+    "currency": "BRL",
+    "link": "https://www.melhoresdestinos.com.br/promocao/neve-passagens-para-santiago-22jun26",
+    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2024/06/neve-ad-santiago-bariloche-capa-754x396.jpeg",
+    "airline": null,
+    "trip_type": "round_trip",
+    "fetched_at": "2026-07-05T13:42:48.519934+00:00",
+    "id": "3d5bddb05f84"
   },
   {
     "source": "GOL",
@@ -925,6 +950,18 @@
     "return_date": "2026-08-11",
     "fetched_at": "2026-07-04T22:59:29.366882+00:00",
     "id": "e349f79b7797"
+  },
+  {
+    "source": "Passagens Imperdíveis",
+    "title": "Passagens para a COSTA RICA: San Jose! Comece sua viagem por San José e descubra vulcões, florestas tropicais e praias paradisíacas! A partir de R$ 2.438, ida e volta, c/ taxas!",
+    "destination": "San Jose, Costa Rica",
+    "price_brl": 2438.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-costa-rica-san-jose-2026-12/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/costa_rica_c7e59-612x612.png",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-07-05T13:42:54.575660+00:00",
+    "id": "3038de8d6ecf"
   },
   {
     "source": "GOL",
