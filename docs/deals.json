@@ -440,6 +440,18 @@
     "id": "59e9b72db60c"
   },
   {
+    "source": "Passagens Imperdíveis",
+    "title": "Passagens para BUENOS AIRES ou SANTIAGO! Datas inclusive no Inverno, férias e mais! A partir de R$ 1.063, ida e volta, c/ taxas! Em até 6x SEM JUROS! Opções de VOO DIRETO!",
+    "destination": "Buenos Aires ou Santiago",
+    "price_brl": 1063.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-buenos-aires-ou-santiago-2026-26/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/chile_santiago-612x612.png",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-07-05T16:34:36.921357+00:00",
+    "id": "94e40688dd39"
+  },
+  {
     "source": "GOL",
     "title": "GOL: São Paulo (GRU) → Santa Cruz de la Sierra (VVI) - 09/08/2026 a 16/08/2026",
     "destination": "Santa Cruz de la Sierra",
@@ -1226,6 +1238,18 @@
     "id": "03570cca3ea9"
   },
   {
+    "source": "Passagens Imperdíveis",
+    "title": "MUITO BOM!!! Passagens para a ESPANHA: Bilbao ou Palma de Mallorca! Datas inclusive no Verão Europeu, férias e mais! A partir de R$ 2.978, ida e volta, c/ taxas! Em até 10x SEM JUROS!",
+    "destination": "MUITO BOM!!! Bilbao ou Palma de Mallorca",
+    "price_brl": 2978.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-espanha-bilbao-palma-de-mallorca-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/palma_de_mallorca1-612x612.jpg",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-07-05T16:34:36.921319+00:00",
+    "id": "8584e1145534"
+  },
+  {
     "source": "GOL",
     "title": "GOL: Rio de Janeiro (RIO) → Oranjestad, Aruba (AUA) - 26/11/2026 a 04/12/2026",
     "destination": "Oranjestad, Aruba",
@@ -1313,6 +1337,18 @@
     "return_date": "2026-08-13",
     "fetched_at": "2026-07-04T21:31:37.672236+00:00",
     "id": "b49bacda02e6"
+  },
+  {
+    "source": "Passagens Imperdíveis",
+    "title": "Continua muito bom! Passagens para LISBOA ou MADRI! A partir de R$ 3.236, ida e volta, c/ taxas! Em até 5x SEM JUROS! Opções com BAGAGEM INCLUÍDA! Opções de VOO DIRETO!",
+    "destination": "Lisboa ou Madri",
+    "price_brl": 3236.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-lisboa-ou-madri-2026-22/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/madri_espanha_3-612x612.jpg",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-07-05T16:34:36.921368+00:00",
+    "id": "148d9ba6020e"
   },
   {
     "source": "Melhores Destinos",
