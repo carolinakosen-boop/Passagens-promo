@@ -335,6 +335,31 @@
     "id": "a7d5180b785b"
   },
   {
+    "source": "Melhores Destinos",
+    "title": "Ofertas do fim de semana: passagens pelo Brasil a partir de R$ 311 ida e volta com Azul, Gol e Latam",
+    "destination": null,
+    "price_brl": 311.0,
+    "currency": "BRL",
+    "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-brasil-03-06-26",
+    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2025/08/azul-gol-latam-capa-nova-01-754x396.jpg",
+    "airline": "LATAM",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-07-05T12:34:10+00:00",
+    "id": "16a06bc27b9d"
+  },
+  {
+    "source": "Passagens Imperdíveis",
+    "title": "Passagens NACIONAIS! Datas até Junho/27, inclusive nas Férias, feriados e mais! A partir de R$ 357, ida e volta!",
+    "destination": "Nacionais",
+    "price_brl": 357.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/passagens-nacionais-em-promocao-2026-71/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/salvador_nacionais_612-612x612.png",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-07-06T09:00:58.841691+00:00",
+    "id": "3aee947ae95a"
+  },
+  {
     "source": "GOL",
     "title": "GOL: Rio de Janeiro (RIO) → Fortaleza (FOR) - 28/09/2026",
     "destination": "Fortaleza",
@@ -421,6 +446,19 @@
     "trip_type": "round_trip",
     "fetched_at": "2026-07-05T18:04:54.240646+00:00",
     "id": "45be85e74649"
+  },
+  {
+    "source": "Melhores Destinos",
+    "title": "Maceió bom demais! Voos a partir de R$ 586 saindo de Belo Horizonte, Curitiba, Porto Alegre e mais cidades",
+    "destination": null,
+    "price_brl": 586.0,
+    "currency": "BRL",
+    "link": "https://www.melhoresdestinos.com.br/promocao/maceio-bom-demais-voos-589",
+    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2024/04/passagens-aereas-milhas-maceio-capa-754x396.jpeg",
+    "airline": null,
+    "trip_type": "unknown",
+    "fetched_at": "2026-07-06T09:00:50.387694+00:00",
+    "id": "5efe8444e1e1"
   },
   {
     "source": "Passagens Imperdíveis",
@@ -521,6 +559,18 @@
     "return_date": "2026-08-16",
     "fetched_at": "2026-07-06T00:08:19.617885+00:00",
     "id": "6621405e50b9"
+  },
+  {
+    "source": "Passagens Imperdíveis",
+    "title": "Passagens para o INVERNO NA AMÉRICA DO SUL! Argentina, Bolívia, Chile, Colômbia, Equador, Paraguai, Peru, Uruguai ou Venezuela! A partir de R$ 1.148, ida e volta, c/ taxas! Em até 6x SEM JUROS! Opções",
+    "destination": "Inverno na América do Sul",
+    "price_brl": 1148.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/selecao-de-passagens-para-a-america-do-sul-argentina-bolivia-chile-colombia-equador-paraguai-2026-10/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/generica_neve_mochila_2-612x612.png",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-07-06T09:00:58.841683+00:00",
+    "id": "9be869a1772a"
   },
   {
     "source": "GOL",
@@ -1022,6 +1072,19 @@
     "id": "8b50c455e31d"
   },
   {
+    "source": "Melhores Destinos",
+    "title": "Orlando com bons preços: passagens a partir de R$ 2.380 ida e volta saindo de São Paulo e mais cidades",
+    "destination": null,
+    "price_brl": 2380.0,
+    "currency": "BRL",
+    "link": "https://www.melhoresdestinos.com.br/promocao/orlando-bons-precos-2380",
+    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2024/02/apartamentos-orlando-capa-754x396.jpg",
+    "airline": null,
+    "trip_type": "round_trip",
+    "fetched_at": "2026-07-06T09:00:50.782294+00:00",
+    "id": "24cd140a6e33"
+  },
+  {
     "source": "Passagens Imperdíveis",
     "title": "Passagens para a COSTA RICA: San Jose! Comece sua viagem por San José e descubra vulcões, florestas tropicais e praias paradisíacas! A partir de R$ 2.438, ida e volta, c/ taxas!",
     "destination": "San Jose, Costa Rica",
@@ -1205,6 +1268,19 @@
     "id": "e6fdaeded019"
   },
   {
+    "source": "Melhores Destinos",
+    "title": "Nova York: seleção de passagens aéreas a partir de R$ 2.741 ida e volta",
+    "destination": null,
+    "price_brl": 2741.0,
+    "currency": "BRL",
+    "link": "https://www.melhoresdestinos.com.br/promocao/nova-york-selecao-passagens-aereas-2726",
+    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2023/03/passagens-aereas-nova-york-capa-07-754x396.jpg",
+    "airline": null,
+    "trip_type": "round_trip",
+    "fetched_at": "2026-07-05T12:42:01+00:00",
+    "id": "4cd1fd1e48f1"
+  },
+  {
     "source": "GOL",
     "title": "GOL: São Paulo (SAO) → Orlando (MCO) - 25/08/2026 a 08/09/2026",
     "destination": "Orlando",
@@ -1293,6 +1369,19 @@
     "id": "4ef8beffe8cc"
   },
   {
+    "source": "Melhores Destinos",
+    "title": "Voos para Portugal com bons preços saindo de várias cidades: Lisboa ou Porto a partir de R$ 3.048 ida e volta",
+    "destination": "Portugal",
+    "price_brl": 3048.0,
+    "currency": "BRL",
+    "link": "https://www.melhoresdestinos.com.br/promocao/portugal-bons-precos-cidades-3048",
+    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2021/10/lisboa-portugal-capa2-754x396.jpg",
+    "airline": null,
+    "trip_type": "round_trip",
+    "fetched_at": "2026-07-06T09:00:57.054504+00:00",
+    "id": "76333d1cc234"
+  },
+  {
     "source": "GOL",
     "title": "GOL: São Paulo (CGH) → Orlando (MCO) - 29/08/2026 a 29/08/2026",
     "destination": "Orlando",
@@ -1360,6 +1449,19 @@
     "trip_type": "round_trip",
     "fetched_at": "2026-07-05T16:34:36.921368+00:00",
     "id": "148d9ba6020e"
+  },
+  {
+    "source": "Melhores Destinos",
+    "title": "África do Sul: voos diretos por R$ 3.252 saindo de SP ou conexão desde R$ 3.484 do Rio e outras cidades",
+    "destination": null,
+    "price_brl": 3252.0,
+    "currency": "BRL",
+    "link": "https://www.melhoresdestinos.com.br/promocao/africa-do-sul-voos-diretos-3252",
+    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2025/05/passagens-aereas-joanesburgo-africa-dos-sul-capa-754x396.jpg",
+    "airline": null,
+    "trip_type": "unknown",
+    "fetched_at": "2026-07-06T09:00:57.452927+00:00",
+    "id": "8dae4a8d3a6a"
   },
   {
     "source": "GOL",
@@ -1438,6 +1540,19 @@
     "id": "c40a96738d2e"
   },
   {
+    "source": "Melhores Destinos",
+    "title": "Portugal com bons preços! Passagens para Lisboa ou Porto a partir de R$ 3.365 ida e volta",
+    "destination": "Lisboa ou Porto",
+    "price_brl": 3365.0,
+    "currency": "BRL",
+    "link": "https://www.melhoresdestinos.com.br/promocao/portugal-bons-precos-cosboa-3367",
+    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2023/01/passagens-aereas-lisboa-portugal-06-capa-754x396.jpg",
+    "airline": null,
+    "trip_type": "round_trip",
+    "fetched_at": "2026-07-05T12:41:42+00:00",
+    "id": "50395a8667f0"
+  },
+  {
     "source": "GOL",
     "title": "GOL: Rio de Janeiro (GIG) → Cancún (CUN) - 02/09/2026 a 06/09/2026",
     "destination": "Cancún",
@@ -1486,6 +1601,19 @@
     "return_date": "2026-09-07",
     "fetched_at": "2026-07-05T19:51:19.406939+00:00",
     "id": "0a845a877528"
+  },
+  {
+    "source": "Melhores Destinos",
+    "title": "Itália: voos para Milão, Veneza, Roma e mais cidades a partir de R$ 3.771 ida e volta",
+    "destination": "Milão, Veneza, Roma e mais cidades",
+    "price_brl": 3771.0,
+    "currency": "BRL",
+    "link": "https://www.melhoresdestinos.com.br/promocao/italia-voos-para-milao-veneza-roma-e-mais-cidades-a-partir-de-r-3-771-ida-e-volta",
+    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-roma-capa2019-01-754x396.jpg",
+    "airline": null,
+    "trip_type": "round_trip",
+    "fetched_at": "2026-07-06T09:00:51.180164+00:00",
+    "id": "3de146312fa1"
   },
   {
     "source": "TAP",
@@ -1615,6 +1743,24 @@
   },
   {
     "source": "TAP",
+    "title": "TAP: São Paulo (GRU) → Lisboa (LIS) - 04/08/2026 a 31/08/2026",
+    "destination": "Lisboa",
+    "destination_iata": "LIS",
+    "origin": "São Paulo",
+    "origin_iata": "GRU",
+    "price_brl": 5439.0,
+    "currency": "BRL",
+    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
+    "image_url": "https://assets.airtrfx.com/media-em/tp/lisboa-1-1500px.jpg",
+    "airline": "TAP",
+    "trip_type": "round_trip",
+    "departure_date": "04/08/2026",
+    "return_date": "31/08/2026",
+    "fetched_at": "2026-07-06T09:01:01.443863+00:00",
+    "id": "897f12f55605"
+  },
+  {
+    "source": "TAP",
     "title": "TAP: São Paulo (GRU) → Lisboa (LIS) - 30/07/2026 a 12/08/2026",
     "destination": "Lisboa",
     "destination_iata": "LIS",
@@ -1666,24 +1812,6 @@
     "return_date": "14/08/2026",
     "fetched_at": "2026-07-05T11:54:44.679141+00:00",
     "id": "614392408e8e"
-  },
-  {
-    "source": "TAP",
-    "title": "TAP: São Paulo (GRU) → Milão (MXP) - 01/08/2026 a 09/08/2026",
-    "destination": "Milão",
-    "destination_iata": "MXP",
-    "origin": "São Paulo",
-    "origin_iata": "GRU",
-    "price_brl": 5473.0,
-    "currency": "BRL",
-    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
-    "image_url": "https://assets.airtrfx.com/media-em/tp/milao-1-1500px.jpg",
-    "airline": "TAP",
-    "trip_type": "round_trip",
-    "departure_date": "01/08/2026",
-    "return_date": "09/08/2026",
-    "fetched_at": "2026-07-05T07:57:44.367549+00:00",
-    "id": "73a73e2d58ea"
   },
   {
     "source": "TAP",
@@ -1741,6 +1869,24 @@
   },
   {
     "source": "TAP",
+    "title": "TAP: São Paulo (GRU) → Porto (OPO) - 19/07/2026 a 19/08/2026",
+    "destination": "Porto",
+    "destination_iata": "OPO",
+    "origin": "São Paulo",
+    "origin_iata": "GRU",
+    "price_brl": 5532.0,
+    "currency": "BRL",
+    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
+    "image_url": "https://assets.airtrfx.com/media-em/tp/porto-1-1500px.jpg",
+    "airline": "TAP",
+    "trip_type": "round_trip",
+    "departure_date": "19/07/2026",
+    "return_date": "19/08/2026",
+    "fetched_at": "2026-07-06T09:01:01.444274+00:00",
+    "id": "3420724577e7"
+  },
+  {
+    "source": "TAP",
     "title": "TAP: São Paulo (GRU) → Porto (OPO) - 21/07/2026 a 11/08/2026",
     "destination": "Porto",
     "destination_iata": "OPO",
@@ -1756,6 +1902,18 @@
     "return_date": "11/08/2026",
     "fetched_at": "2026-07-05T11:54:44.679601+00:00",
     "id": "416642d9bf77"
+  },
+  {
+    "source": "Passagens Imperdíveis",
+    "title": "Passagens para o EGITO: Cairo! Conheça as Pirâmides de Gizé, a Esfinge e um dos destinos mais fascinantes do mundo! A partir de R$ 5.601, ida e volta, c/ taxas! Em até 10x SEM JUROS!",
+    "destination": "Cairo, Egito",
+    "price_brl": 5601.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-egito-cairo-2026-12/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/cairo_egito_2_1-612x612.jpg",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-07-06T09:00:58.841699+00:00",
+    "id": "c9210657bd38"
   },
   {
     "source": "Passagens Imperdíveis",
@@ -1789,21 +1947,21 @@
   },
   {
     "source": "TAP",
-    "title": "TAP: São Paulo (GRU) → Madri (MAD) - 17/07/2026 a 04/08/2026",
-    "destination": "Madri",
-    "destination_iata": "MAD",
-    "origin": "São Paulo",
-    "origin_iata": "GRU",
-    "price_brl": 6013.0,
+    "title": "TAP: Rio de Janeiro (GIG) → Paris (ORY) - 08/07/2026 a 08/10/2026",
+    "destination": "Paris",
+    "destination_iata": "ORY",
+    "origin": "Rio de Janeiro",
+    "origin_iata": "GIG",
+    "price_brl": 5975.0,
     "currency": "BRL",
     "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
-    "image_url": "https://assets.airtrfx.com/media-em/tp/madri-1-1500px.jpg",
+    "image_url": "https://assets.airtrfx.com/media-em/tp/paris-1-1500px.jpg",
     "airline": "TAP",
     "trip_type": "round_trip",
-    "departure_date": "17/07/2026",
-    "return_date": "04/08/2026",
-    "fetched_at": "2026-07-05T07:57:44.367156+00:00",
-    "id": "36b71ef51349"
+    "departure_date": "08/07/2026",
+    "return_date": "08/10/2026",
+    "fetched_at": "2026-07-06T09:01:01.444891+00:00",
+    "id": "bd3f63c2715c"
   },
   {
     "source": "TAP",
@@ -1825,6 +1983,24 @@
   },
   {
     "source": "TAP",
+    "title": "TAP: São Paulo (GRU) → Barcelona (BCN) - 08/07/2026 a 22/07/2026",
+    "destination": "Barcelona",
+    "destination_iata": "BCN",
+    "origin": "São Paulo",
+    "origin_iata": "GRU",
+    "price_brl": 6326.0,
+    "currency": "BRL",
+    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
+    "image_url": "https://assets.airtrfx.com/media-em/tp/barcelona-1-1500px.jpg",
+    "airline": "TAP",
+    "trip_type": "round_trip",
+    "departure_date": "08/07/2026",
+    "return_date": "22/07/2026",
+    "fetched_at": "2026-07-06T09:01:01.444974+00:00",
+    "id": "916700b1105f"
+  },
+  {
+    "source": "TAP",
     "title": "TAP: Rio de Janeiro (GIG) → Porto (OPO) - 12/07/2026 a 13/08/2026",
     "destination": "Porto",
     "destination_iata": "OPO",
@@ -1840,6 +2016,42 @@
     "return_date": "13/08/2026",
     "fetched_at": "2026-07-05T15:14:00.222690+00:00",
     "id": "850a8b983591"
+  },
+  {
+    "source": "TAP",
+    "title": "TAP: Rio de Janeiro (GIG) → Porto (OPO) - 05/08/2026 a 19/10/2026",
+    "destination": "Porto",
+    "destination_iata": "OPO",
+    "origin": "Rio de Janeiro",
+    "origin_iata": "GIG",
+    "price_brl": 6483.0,
+    "currency": "BRL",
+    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
+    "image_url": "https://assets.airtrfx.com/media-em/tp/porto-1-1500px.jpg",
+    "airline": "TAP",
+    "trip_type": "round_trip",
+    "departure_date": "05/08/2026",
+    "return_date": "19/10/2026",
+    "fetched_at": "2026-07-06T09:01:01.444360+00:00",
+    "id": "1e104adf642e"
+  },
+  {
+    "source": "TAP",
+    "title": "TAP: Rio de Janeiro (GIG) → Lisboa (LIS) - 05/08/2026 a 28/10/2026",
+    "destination": "Lisboa",
+    "destination_iata": "LIS",
+    "origin": "Rio de Janeiro",
+    "origin_iata": "GIG",
+    "price_brl": 6663.0,
+    "currency": "BRL",
+    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
+    "image_url": "https://assets.airtrfx.com/media-em/tp/lisboa-1-1500px.jpg",
+    "airline": "TAP",
+    "trip_type": "round_trip",
+    "departure_date": "05/08/2026",
+    "return_date": "28/10/2026",
+    "fetched_at": "2026-07-06T09:01:01.444064+00:00",
+    "id": "b991cef2fd10"
   },
   {
     "source": "TAP",
@@ -1876,6 +2088,19 @@
     "return_date": "23/09/2026",
     "fetched_at": "2026-07-05T15:14:00.222257+00:00",
     "id": "2a11a341e1e2"
+  },
+  {
+    "source": "Melhores Destinos",
+    "title": "🇦🇺 Austrália ou Nova Zelândia 🇳🇿 Passagens aéreas a partir de R$ 6.911 ida e volta saindo do Rio, São Paulo e mais cidades!",
+    "destination": null,
+    "price_brl": 6911.0,
+    "currency": "BRL",
+    "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-nova-zelandia-australia-29-04-26",
+    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-auckland-capa2019-01-754x396.jpg",
+    "airline": null,
+    "trip_type": "round_trip",
+    "fetched_at": "2026-07-06T09:00:56.118001+00:00",
+    "id": "6489e5cc2f52"
   },
   {
     "source": "TAP",
@@ -1933,6 +2158,24 @@
   },
   {
     "source": "TAP",
+    "title": "TAP: São Paulo (GRU) → Paris (ORY) - 14/07/2026 a 21/07/2026",
+    "destination": "Paris",
+    "destination_iata": "ORY",
+    "origin": "São Paulo",
+    "origin_iata": "GRU",
+    "price_brl": 9419.0,
+    "currency": "BRL",
+    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
+    "image_url": "https://assets.airtrfx.com/media-em/tp/paris-1-1500px.jpg",
+    "airline": "TAP",
+    "trip_type": "round_trip",
+    "departure_date": "14/07/2026",
+    "return_date": "21/07/2026",
+    "fetched_at": "2026-07-06T09:01:01.444589+00:00",
+    "id": "d49d252ca331"
+  },
+  {
+    "source": "TAP",
     "title": "TAP: São Paulo (GRU) → Frankfurt (FRA) - 24/07/2026 a 01/08/2026",
     "destination": "Frankfurt",
     "destination_iata": "FRA",
@@ -1966,5 +2209,18 @@
     "return_date": "29/07/2026",
     "fetched_at": "2026-07-05T18:04:55.725053+00:00",
     "id": "1b15df3afed1"
+  },
+  {
+    "source": "Melhores Destinos",
+    "title": "Promoções em campo! 🇧🇷⚽ 20 ofertas de passagens aéreas, pacotes e hotéis para aproveitar hoje",
+    "destination": null,
+    "price_brl": null,
+    "currency": "BRL",
+    "link": "https://www.melhoresdestinos.com.br/promocao/promocoes-5-jul-2026",
+    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2025/04/novo-aeroporto-internacional-sp-olimpia-construcao-capa-2-754x396.jpg",
+    "airline": null,
+    "trip_type": "unknown",
+    "fetched_at": "2026-07-05T17:03:46+00:00",
+    "id": "40b4618f04ba"
   }
 ]
