@@ -475,6 +475,18 @@
     "id": "a563de4adafd"
   },
   {
+    "source": "Passagens Imperdíveis",
+    "title": "Passagens para o RIO DE JANEIRO ou SÃO PAULO! Datas até Abril/27, inclusive férias, Verão, feriados e mais! A partir de R$ 299, ida e volta, c/ taxas!",
+    "destination": "Rio de Janeiro ou São Paulo",
+    "price_brl": 299.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-rio-de-janeiro-ou-sao-paulo-2026-41/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/ef1b8b8f_d1f0_4150_b905_2b1a0e261aeb-612x612.jpg",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-07-07T16:32:52.040937+00:00",
+    "id": "fdbe813d13ba"
+  },
+  {
     "source": "GOL",
     "title": "GOL: Rio de Janeiro (RIO) → Salvador (SSA) - 11/10/2026",
     "destination": "Salvador",
@@ -606,6 +618,25 @@
     "return_date": "",
     "fetched_at": "2026-07-06T22:14:40.827350+00:00",
     "id": "4da4f90e740d"
+  },
+  {
+    "source": "GOL",
+    "title": "GOL: São Paulo (GRU) → Recife (REC) - 19/09/2026",
+    "destination": "Recife",
+    "destination_iata": "REC",
+    "origin": "São Paulo",
+    "origin_iata": "GRU",
+    "price_brl": 323.93,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/GRU/REC",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/recife-2-1500px-x-500px.png",
+    "airline": "GOL",
+    "trip_type": "one_way",
+    "travel_class": "Econômica",
+    "departure_date": "2026-09-19",
+    "return_date": "",
+    "fetched_at": "2026-07-07T16:32:53.067836+00:00",
+    "id": "b3e448d137cd"
   },
   {
     "source": "GOL",
@@ -1542,6 +1573,25 @@
   },
   {
     "source": "GOL",
+    "title": "GOL: Rio de Janeiro (RIO) → Assunção (ASU) - 01/10/2026 a 08/10/2026",
+    "destination": "Assunção",
+    "destination_iata": "ASU",
+    "origin": "Rio de Janeiro",
+    "origin_iata": "RIO",
+    "price_brl": 1615.09,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/RIO/ASU",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/assun%C3%A7%C3%A3o-1-1500px-x-500px.png",
+    "airline": "GOL",
+    "trip_type": "round_trip",
+    "travel_class": "Econômica",
+    "departure_date": "2026-10-01",
+    "return_date": "2026-10-08",
+    "fetched_at": "2026-07-07T16:32:53.068158+00:00",
+    "id": "f833fc845fd2"
+  },
+  {
+    "source": "GOL",
     "title": "GOL: São Paulo (GRU) → Santa Cruz de la Sierra (VVI) - 23/07/2026 a 06/08/2026",
     "destination": "Santa Cruz de la Sierra",
     "destination_iata": "VVI",
@@ -1617,6 +1667,19 @@
     "id": "255d9efee433"
   },
   {
+    "source": "Melhores Destinos",
+    "title": "Passagens para Miami por apenas R$ 1.708 ou nas férias de julho a partir de R$ 2.563!",
+    "destination": "Miami",
+    "price_brl": 1708.0,
+    "currency": "BRL",
+    "link": "https://www.melhoresdestinos.com.br/promocao/passagens-para-miami-florida-mar26",
+    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2021/10/miami-beach-eua-capa2-754x396.jpg",
+    "airline": null,
+    "trip_type": "unknown",
+    "fetched_at": "2026-07-07T16:32:50.550531+00:00",
+    "id": "e570c7061730"
+  },
+  {
     "source": "GOL",
     "title": "GOL: Rio de Janeiro (RIO) → Santa Cruz de la Sierra (VVI) - 17/09/2026 a 21/09/2026",
     "destination": "Santa Cruz de la Sierra",
@@ -1634,6 +1697,18 @@
     "return_date": "2026-09-21",
     "fetched_at": "2026-07-07T13:34:31.180196+00:00",
     "id": "8a4481d33d32"
+  },
+  {
+    "source": "Passagens Imperdíveis",
+    "title": "MUITO BOM!!! Passagens 2 em 1 – CHILE: Santiago + PERU: Cusco ou Lima! A partir de R$ 1.770, todos os trechos, c/ taxas! Opções de VOO DIRETO!",
+    "destination": "2 em 1: Chile + Peru",
+    "price_brl": 1770.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-2-em-1-cusco-lima-ou-santiago-2026-13/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/chile_santiago-612x612.png",
+    "trip_type": "unknown",
+    "fetched_at": "2026-07-07T16:32:52.040899+00:00",
+    "id": "99d77e612344"
   },
   {
     "source": "Passagens Imperdíveis",
@@ -2620,6 +2695,24 @@
   },
   {
     "source": "TAP",
+    "title": "TAP: São Paulo (GRU) → Madri (MAD) - 03/08/2026 a 06/09/2026",
+    "destination": "Madri",
+    "destination_iata": "MAD",
+    "origin": "São Paulo",
+    "origin_iata": "GRU",
+    "price_brl": 4752.0,
+    "currency": "BRL",
+    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
+    "image_url": "https://assets.airtrfx.com/media-em/tp/madri-1-1500px.jpg",
+    "airline": "TAP",
+    "trip_type": "round_trip",
+    "departure_date": "03/08/2026",
+    "return_date": "06/09/2026",
+    "fetched_at": "2026-07-07T16:32:54.933177+00:00",
+    "id": "be6bb66e87d5"
+  },
+  {
+    "source": "TAP",
     "title": "TAP: São Paulo (GRU) → Madri (MAD) - 20/07/2026 a 20/08/2026",
     "destination": "Madri",
     "destination_iata": "MAD",
@@ -2782,6 +2875,24 @@
   },
   {
     "source": "TAP",
+    "title": "TAP: São Paulo (GRU) → Lisboa (LIS) - 24/07/2026 a 12/08/2026",
+    "destination": "Lisboa",
+    "destination_iata": "LIS",
+    "origin": "São Paulo",
+    "origin_iata": "GRU",
+    "price_brl": 5454.0,
+    "currency": "BRL",
+    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
+    "image_url": "https://assets.airtrfx.com/media-em/tp/lisboa-1-1500px.jpg",
+    "airline": "TAP",
+    "trip_type": "round_trip",
+    "departure_date": "24/07/2026",
+    "return_date": "12/08/2026",
+    "fetched_at": "2026-07-07T16:32:54.932260+00:00",
+    "id": "c659c3755e85"
+  },
+  {
+    "source": "TAP",
     "title": "TAP: São Paulo (GRU) → Lisboa (LIS) - 28/07/2026 a 21/08/2026",
     "destination": "Lisboa",
     "destination_iata": "LIS",
@@ -2833,6 +2944,24 @@
     "return_date": "30/10/2026",
     "fetched_at": "2026-07-07T03:34:07.494189+00:00",
     "id": "0d0e99ddfd8f"
+  },
+  {
+    "source": "TAP",
+    "title": "TAP: São Paulo (GRU) → Porto (OPO) - 26/07/2026 a 30/09/2026",
+    "destination": "Porto",
+    "destination_iata": "OPO",
+    "origin": "São Paulo",
+    "origin_iata": "GRU",
+    "price_brl": 5523.0,
+    "currency": "BRL",
+    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
+    "image_url": "https://assets.airtrfx.com/media-em/tp/porto-1-1500px.jpg",
+    "airline": "TAP",
+    "trip_type": "round_trip",
+    "departure_date": "26/07/2026",
+    "return_date": "30/09/2026",
+    "fetched_at": "2026-07-07T16:32:54.932762+00:00",
+    "id": "200ac4fba48c"
   },
   {
     "source": "TAP",
@@ -2923,6 +3052,18 @@
     "return_date": "25/10/2026",
     "fetched_at": "2026-07-06T16:37:41.260268+00:00",
     "id": "bd1621b41b1a"
+  },
+  {
+    "source": "Passagens Imperdíveis",
+    "title": "Aproveite! Passagens para a COREIA DO SUL: Seoul! A partir de R$ 5.761, ida e volta, c/ taxas! Opções com BAGAGEM INCLUÍDA!",
+    "destination": "Seoul, Coreia do Sul",
+    "price_brl": 5761.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-coreia-do-sul-seul-seoul-2026-12/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/coreia_do_sul_seul_612_612-612x612.png",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-07-07T16:32:52.040949+00:00",
+    "id": "c60744941198"
   },
   {
     "source": "TAP",
@@ -3067,6 +3208,24 @@
     "return_date": "17/08/2026",
     "fetched_at": "2026-07-06T16:37:41.260525+00:00",
     "id": "b6d879ef18c0"
+  },
+  {
+    "source": "TAP",
+    "title": "TAP: Rio de Janeiro (GIG) → Porto (OPO) - 03/08/2026 a 21/08/2026",
+    "destination": "Porto",
+    "destination_iata": "OPO",
+    "origin": "Rio de Janeiro",
+    "origin_iata": "GIG",
+    "price_brl": 6485.0,
+    "currency": "BRL",
+    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
+    "image_url": "https://assets.airtrfx.com/media-em/tp/porto-1-1500px.jpg",
+    "airline": "TAP",
+    "trip_type": "round_trip",
+    "departure_date": "03/08/2026",
+    "return_date": "21/08/2026",
+    "fetched_at": "2026-07-07T16:32:54.932625+00:00",
+    "id": "7a8d367325f7"
   },
   {
     "source": "TAP",
@@ -3308,5 +3467,23 @@
     "return_date": "30/07/2026",
     "fetched_at": "2026-07-07T13:34:34.118531+00:00",
     "id": "a1f96d5d5da9"
+  },
+  {
+    "source": "TAP",
+    "title": "TAP: São Paulo (GRU) → Roma (FCO) - 12/07/2026 a 19/07/2026",
+    "destination": "Roma",
+    "destination_iata": "FCO",
+    "origin": "São Paulo",
+    "origin_iata": "GRU",
+    "price_brl": 19105.0,
+    "currency": "BRL",
+    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
+    "image_url": "https://assets.airtrfx.com/media-em/tp/roma-1-1500px.jpg",
+    "airline": "TAP",
+    "trip_type": "round_trip",
+    "departure_date": "12/07/2026",
+    "return_date": "19/07/2026",
+    "fetched_at": "2026-07-07T16:32:54.932542+00:00",
+    "id": "9342cada2900"
   }
 ]
