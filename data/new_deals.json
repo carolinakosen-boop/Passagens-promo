@@ -1,14 +1,38 @@
 [
   {
     "source": "Passagens Imperdíveis",
-    "title": "Continua muito bom! Programe sua viagem para MACHU PICCHU! Passagens para o PERU: Cusco, Lima! A partir de R$ 1.328, ida e volta, c/ taxas!",
-    "destination": "Continua muito bom! Peru: Cusco ou Lima",
-    "price_brl": 1328.0,
+    "title": "MUITO BOM!!! AINDA DÁ TEMPO! Passagens 2 em 1 – PERU: Cusco + Lima! A partir de R$ 1.660, todos os trechos, c/ taxas!",
+    "destination": "Ainda dá tempo! 2 em 1: Peru",
+    "price_brl": 1660.0,
     "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-cusco-ou-lima-2026-90/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/cusco-612x612.jpg",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-2-em-1-cusco-ou-lima-2026-17/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/lima_2-612x612.jpg",
+    "trip_type": "unknown",
+    "fetched_at": "2026-07-09T16:28:48.436606+00:00",
+    "id": "e418e1678015"
+  },
+  {
+    "source": "Passagens Imperdíveis",
+    "title": "Aproveite! Passagens para BELO HORIZONTE! Datas para viajar até Fevereiro/27! A partir de R$ 286, ida e volta, c/ taxas!",
+    "destination": "Aproveite! Belo Horizonte",
+    "price_brl": 286.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-belo-horizonte-2026-12/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/belo_horizonte_minas_gerais_brasil_1_2_3-612x612.png",
     "trip_type": "round_trip",
-    "fetched_at": "2026-07-09T13:50:39.597147+00:00",
-    "id": "1eaa9005cc1e"
+    "fetched_at": "2026-07-09T16:28:48.436645+00:00",
+    "id": "f0c9d8b487ca"
+  },
+  {
+    "source": "Passagens Imperdíveis",
+    "title": "PASSAGEM + HOTEL no RIO DE JANEIRO! A partir de R$ 917, por pessoa, quarto duplo, c/ taxas!",
+    "destination": "Pacote: Rio de Janeiro",
+    "price_brl": 917.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-mais-hotel-para-brasil-rio-de-janeiro-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/praia_arpoador_rio_de_janeiro_brasil_nacional_nacionais-612x612.png",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-07-09T16:28:48.436661+00:00",
+    "id": "598f5308ea63"
   }
 ]
