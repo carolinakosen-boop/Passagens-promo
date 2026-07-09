@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "source": "Passagens Imperdíveis",
+    "title": "Continua muito bom! Programe sua viagem para MACHU PICCHU! Passagens para o PERU: Cusco, Lima! A partir de R$ 1.328, ida e volta, c/ taxas!",
+    "destination": "Continua muito bom! Peru: Cusco ou Lima",
+    "price_brl": 1328.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-cusco-ou-lima-2026-90/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/cusco-612x612.jpg",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-07-09T13:50:39.597147+00:00",
+    "id": "1eaa9005cc1e"
+  }
+]

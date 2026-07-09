@@ -1365,6 +1365,18 @@
     "id": "a843e558888a"
   },
   {
+    "source": "Passagens Imperdíveis",
+    "title": "Continua muito bom! Programe sua viagem para MACHU PICCHU! Passagens para o PERU: Cusco, Lima! A partir de R$ 1.328, ida e volta, c/ taxas!",
+    "destination": "Continua muito bom! Peru: Cusco ou Lima",
+    "price_brl": 1328.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-cusco-ou-lima-2026-90/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/cusco-612x612.jpg",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-07-09T13:50:39.597147+00:00",
+    "id": "1eaa9005cc1e"
+  },
+  {
     "source": "GOL",
     "title": "GOL: São Paulo (GRU) → Santa Cruz de la Sierra (VVI) - 28/07/2026 a 06/08/2026",
     "destination": "Santa Cruz de la Sierra",
@@ -1770,25 +1782,6 @@
   },
   {
     "source": "GOL",
-    "title": "GOL: Rio de Janeiro (RIO) → Orlando (MCO) - 14/08/2026 a 28/08/2026",
-    "destination": "Orlando",
-    "destination_iata": "MCO",
-    "origin": "Rio de Janeiro",
-    "origin_iata": "RIO",
-    "price_brl": 2547.15,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/RIO/MCO",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/orlando-3-1500px-x-500px.png",
-    "airline": "GOL",
-    "trip_type": "round_trip",
-    "travel_class": "Econômica",
-    "departure_date": "2026-08-14",
-    "return_date": "2026-08-28",
-    "fetched_at": "2026-07-08T13:05:32.561236+00:00",
-    "id": "07c5a48a7f3a"
-  },
-  {
-    "source": "GOL",
     "title": "GOL: São Paulo (SAO) → Oranjestad, Aruba (AUA) - 18/09/2026 a 02/10/2026",
     "destination": "Oranjestad, Aruba",
     "destination_iata": "AUA",
@@ -2014,25 +2007,6 @@
     "return_date": "2026-09-09",
     "fetched_at": "2026-07-08T15:42:01.323257+00:00",
     "id": "7a8f7cc07753"
-  },
-  {
-    "source": "GOL",
-    "title": "GOL: Rio de Janeiro (GIG) → Rosário (ROS) - 30/07/2026 a 06/08/2026",
-    "destination": "Rosário",
-    "destination_iata": "ROS",
-    "origin": "Rio de Janeiro",
-    "origin_iata": "GIG",
-    "price_brl": 2948.61,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/GIG/ROS",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/01-1500px-x-500px.png",
-    "airline": "GOL",
-    "trip_type": "round_trip",
-    "travel_class": "Econômica",
-    "departure_date": "2026-07-30",
-    "return_date": "2026-08-06",
-    "fetched_at": "2026-07-08T13:05:32.839017+00:00",
-    "id": "ff3195742bea"
   },
   {
     "source": "GOL",
@@ -2299,25 +2273,6 @@
     "return_date": "2026-08-19",
     "fetched_at": "2026-07-08T15:42:01.323283+00:00",
     "id": "1e04f6057793"
-  },
-  {
-    "source": "GOL",
-    "title": "GOL: São Paulo (SAO) → Cancún (CUN) - 31/07/2026 a 07/08/2026",
-    "destination": "Cancún",
-    "destination_iata": "CUN",
-    "origin": "São Paulo",
-    "origin_iata": "SAO",
-    "price_brl": 3289.47,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/SAO/CUN",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/canc%C3%BAn-1-1500px-x-500px.png",
-    "airline": "GOL",
-    "trip_type": "round_trip",
-    "travel_class": "Econômica",
-    "departure_date": "2026-07-31",
-    "return_date": "2026-08-07",
-    "fetched_at": "2026-07-08T13:05:32.561370+00:00",
-    "id": "cdbf0f0b6ff7"
   },
   {
     "source": "GOL",
