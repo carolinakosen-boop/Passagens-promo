@@ -461,6 +461,18 @@
     "id": "99bace1a2b7e"
   },
   {
+    "source": "Passagens Imperdíveis",
+    "title": "Passagens para BELO HORIZONTE ou CURITIBA! Datas para viajar até Maio/27, inclusive férias e mais! A partir de R$ 293, ida e volta, c/ taxas!",
+    "destination": "Belo Horizonte ou Curitiba",
+    "price_brl": 293.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-belo-horizonte-ou-curitiba-2026-4/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/ilha_do_mel2-612x612.jpg",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-07-11T17:06:57.806811+00:00",
+    "id": "63c79067071b"
+  },
+  {
     "source": "GOL",
     "title": "GOL: São Paulo (CGH) → Curitiba (CWB) - 24/07/2026",
     "destination": "Curitiba",
@@ -478,6 +490,25 @@
     "return_date": "",
     "fetched_at": "2026-07-10T23:29:54.805903+00:00",
     "id": "66cf5e1237ac"
+  },
+  {
+    "source": "GOL",
+    "title": "GOL: São Paulo (CGH) → Recife (REC) - 29/09/2026",
+    "destination": "Recife",
+    "destination_iata": "REC",
+    "origin": "São Paulo",
+    "origin_iata": "CGH",
+    "price_brl": 324.28,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/CGH/REC",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/recife-2-1500px-x-500px.png",
+    "airline": "GOL",
+    "trip_type": "one_way",
+    "travel_class": "Econômica",
+    "departure_date": "2026-09-29",
+    "return_date": "",
+    "fetched_at": "2026-07-11T17:06:58.501845+00:00",
+    "id": "8d9c429cfd8d"
   },
   {
     "source": "GOL",
@@ -675,6 +706,18 @@
     "id": "a1522ceb225b"
   },
   {
+    "source": "Passagens Imperdíveis",
+    "title": "Programe sua viagem para o Paraguai e as Cataratas do Iguaçu! Passagens para FOZ DO IGUAÇU! A partir de R$ 469, ida e volta, c/ taxas!",
+    "destination": "Foz do Iguaçu",
+    "price_brl": 469.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-foz-do-iguacu-2026-32/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/foz_do_iguacu_parana_2-612x612.jpg",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-07-11T17:06:57.806763+00:00",
+    "id": "42221ea7d2d1"
+  },
+  {
     "source": "GOL",
     "title": "GOL: São Paulo (GRU) → Santa Cruz de la Sierra (VVI) - 06/09/2026 a 12/09/2026",
     "destination": "Santa Cruz de la Sierra",
@@ -845,6 +888,25 @@
   },
   {
     "source": "GOL",
+    "title": "GOL: Rio de Janeiro (RIO) → Buenos Aires (BUE) - 19/08/2026 a 27/08/2026",
+    "destination": "Buenos Aires",
+    "destination_iata": "BUE",
+    "origin": "Rio de Janeiro",
+    "origin_iata": "RIO",
+    "price_brl": 1202.84,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/RIO/BUE",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/buenos-aires-2-1500px-x-500px.png",
+    "airline": "GOL",
+    "trip_type": "round_trip",
+    "travel_class": "Econômica",
+    "departure_date": "2026-08-19",
+    "return_date": "2026-08-27",
+    "fetched_at": "2026-07-11T17:06:58.501880+00:00",
+    "id": "85022b9514e1"
+  },
+  {
+    "source": "GOL",
     "title": "GOL: Rio de Janeiro (GIG) → Assunção (ASU) - 11/08/2026 a 13/08/2026",
     "destination": "Assunção",
     "destination_iata": "ASU",
@@ -1002,6 +1064,18 @@
     "id": "92f89b136ccf"
   },
   {
+    "source": "Passagens Imperdíveis",
+    "title": "Aproveite antes que acabe! Programe sua viagem para MACHU PICCHU! Passagens para o PERU: Cusco ou Lima! A partir de R$ 1.317, ida e volta, c/ taxas! Opções de VOO DIRETO!",
+    "destination": "Peru: Cusco ou Lima",
+    "price_brl": 1317.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-cusco-ou-lima-2026-92/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/cusco_4-612x612.jpg",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-07-11T17:06:57.806828+00:00",
+    "id": "af7a3738f9c9"
+  },
+  {
     "source": "GOL",
     "title": "GOL: São Paulo (SAO) → Buenos Aires (BUE) - 18/07/2026 a 18/08/2026",
     "destination": "Buenos Aires",
@@ -1095,6 +1169,25 @@
     "return_date": "2026-09-13",
     "fetched_at": "2026-07-10T17:18:52.624074+00:00",
     "id": "30112aee0f1e"
+  },
+  {
+    "source": "GOL",
+    "title": "GOL: São Paulo (SAO) → Assunção (ASU) - 10/08/2026 a 15/08/2026",
+    "destination": "Assunção",
+    "destination_iata": "ASU",
+    "origin": "São Paulo",
+    "origin_iata": "SAO",
+    "price_brl": 1460.08,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/SAO/ASU",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/assun%C3%A7%C3%A3o-1-1500px-x-500px.png",
+    "airline": "GOL",
+    "trip_type": "round_trip",
+    "travel_class": "Econômica",
+    "departure_date": "2026-08-10",
+    "return_date": "2026-08-15",
+    "fetched_at": "2026-07-11T17:06:58.502070+00:00",
+    "id": "77a64982323d"
   },
   {
     "source": "Passagens Imperdíveis",
@@ -1439,6 +1532,25 @@
   },
   {
     "source": "GOL",
+    "title": "GOL: São Paulo (SAO) → Punta Cana (PUJ) - 23/10/2026 a 31/10/2026",
+    "destination": "Punta Cana",
+    "destination_iata": "PUJ",
+    "origin": "São Paulo",
+    "origin_iata": "SAO",
+    "price_brl": 2795.42,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/SAO/PUJ",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/punta-cana-2-1500px-x-500px.png",
+    "airline": "GOL",
+    "trip_type": "round_trip",
+    "travel_class": "Econômica",
+    "departure_date": "2026-10-23",
+    "return_date": "2026-10-31",
+    "fetched_at": "2026-07-11T17:06:58.502033+00:00",
+    "id": "44ff17bc8bc7"
+  },
+  {
+    "source": "GOL",
     "title": "GOL: Rio de Janeiro (RIO) → Miami (MIA) - 05/11/2026 a 12/11/2026",
     "destination": "Miami",
     "destination_iata": "MIA",
@@ -1595,6 +1707,25 @@
     "return_date": "2026-08-30",
     "fetched_at": "2026-07-10T17:18:52.623947+00:00",
     "id": "3554b45fba61"
+  },
+  {
+    "source": "GOL",
+    "title": "GOL: São Paulo (SAO) → Miami (MIA) - 11/09/2026 a 18/09/2026",
+    "destination": "Miami",
+    "destination_iata": "MIA",
+    "origin": "São Paulo",
+    "origin_iata": "SAO",
+    "price_brl": 3287.19,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/SAO/MIA",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/miami-1-1500px-x-500px-1.png",
+    "airline": "GOL",
+    "trip_type": "round_trip",
+    "travel_class": "Econômica",
+    "departure_date": "2026-09-11",
+    "return_date": "2026-09-18",
+    "fetched_at": "2026-07-11T17:06:58.502000+00:00",
+    "id": "0ae0925c38bd"
   },
   {
     "source": "Passagens Imperdíveis",
@@ -1921,6 +2052,18 @@
     "return_date": "12/08/2026",
     "fetched_at": "2026-07-11T04:42:18.045687+00:00",
     "id": "666d0747429e"
+  },
+  {
+    "source": "Passagens Imperdíveis",
+    "title": "Oportunidade! Passagens para a CHINA: Xangai ou JAPÃO: Tokyo! A partir de R$ 6.482, ida e volta, c/ taxas! Opções com BAGAGEM INCLUÍDA!",
+    "destination": "China ou Japão",
+    "price_brl": 6482.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-china-xangai-japao-tokyo-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/china_612-612x612.jpg",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-07-11T17:06:57.806797+00:00",
+    "id": "241f31ddc0a4"
   },
   {
     "source": "Melhores Destinos",
