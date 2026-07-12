@@ -528,25 +528,6 @@
     "id": "4c3c9f3b69b1"
   },
   {
-    "source": "GOL",
-    "title": "GOL: Rio de Janeiro (GIG) → Ilhéus (IOS) - 31/07/2026",
-    "destination": "Ilhéus",
-    "destination_iata": "IOS",
-    "origin": "Rio de Janeiro",
-    "origin_iata": "GIG",
-    "price_brl": 975.81,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/GIG/IOS",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/ilh%C3%A9us2-1500px-x-500px.png",
-    "airline": "GOL",
-    "trip_type": "one_way",
-    "travel_class": "Econômica",
-    "departure_date": "2026-07-31",
-    "return_date": "",
-    "fetched_at": "2026-07-11T09:07:51.941775+00:00",
-    "id": "29267c559c76"
-  },
-  {
     "source": "Passagens Imperdíveis",
     "title": "Passagens para a ARGENTINA: Bariloche, Buenos Aires, Cordoba, El Calafate, Jujuy, Mendoza, Rosario, Salta, Ushuaia; CHILE: Antofagasta, Arica, Balmaceda, Calama, Concepción, Copiapo, Iquique, La Seren",
     "destination": "Argentina ou Chile",
@@ -873,19 +854,6 @@
     "return_date": "2026-08-17",
     "fetched_at": "2026-07-11T20:50:38.811724+00:00",
     "id": "dc5154392671"
-  },
-  {
-    "source": "Melhores Destinos",
-    "title": "Temporada de neve já começou! Viaje para o Chile com passagens para Santiago a partir de R$ 1.261 ida e volta",
-    "destination": "Chile",
-    "price_brl": 1261.0,
-    "currency": "BRL",
-    "link": "https://www.melhoresdestinos.com.br/promocao/neve-passagens-para-santiago-22jun26",
-    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2024/06/neve-ad-santiago-bariloche-capa-754x396.jpeg",
-    "airline": null,
-    "trip_type": "round_trip",
-    "fetched_at": "2026-07-11T09:07:39.606233+00:00",
-    "id": "3d5bddb05f84"
   },
   {
     "source": "GOL",
@@ -1311,6 +1279,25 @@
     "id": "3ffa1588bcee"
   },
   {
+    "source": "GOL",
+    "title": "GOL: São Paulo (GRU) → Punta Cana (PUJ) - 31/07/2026 a 14/08/2026",
+    "destination": "Punta Cana",
+    "destination_iata": "PUJ",
+    "origin": "São Paulo",
+    "origin_iata": "GRU",
+    "price_brl": 2306.21,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/GRU/PUJ",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/punta-cana-2-1500px-x-500px.png",
+    "airline": "GOL",
+    "trip_type": "round_trip",
+    "travel_class": "Econômica",
+    "departure_date": "2026-07-31",
+    "return_date": "2026-08-14",
+    "fetched_at": "2026-07-12T10:38:30.507354+00:00",
+    "id": "05fd5bf6af7f"
+  },
+  {
     "source": "Melhores Destinos",
     "title": "Orlando com bons preços: passagens a partir de R$ 2.380 ida e volta saindo de São Paulo e mais cidades",
     "destination": null,
@@ -1417,6 +1404,25 @@
     "return_date": "2026-08-28",
     "fetched_at": "2026-07-11T21:51:29.975595+00:00",
     "id": "d1ed52d74293"
+  },
+  {
+    "source": "GOL",
+    "title": "GOL: São Paulo (GRU) → Mendoza (MDZ) - 29/07/2026 a 02/08/2026",
+    "destination": "Mendoza",
+    "destination_iata": "MDZ",
+    "origin": "São Paulo",
+    "origin_iata": "GRU",
+    "price_brl": 2680.98,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/GRU/MDZ",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/mendoza-2-1500px-x-500px.png",
+    "airline": "GOL",
+    "trip_type": "round_trip",
+    "travel_class": "Econômica",
+    "departure_date": "2026-07-29",
+    "return_date": "2026-08-02",
+    "fetched_at": "2026-07-12T10:38:30.762470+00:00",
+    "id": "405501c74561"
   },
   {
     "source": "GOL",
@@ -1550,6 +1556,25 @@
     "return_date": "2026-11-26",
     "fetched_at": "2026-07-11T21:51:29.975604+00:00",
     "id": "6ff72d29a8f4"
+  },
+  {
+    "source": "GOL",
+    "title": "GOL: Rio de Janeiro (GIG) → Miami (MIA) - 28/10/2026 a 06/11/2026",
+    "destination": "Miami",
+    "destination_iata": "MIA",
+    "origin": "Rio de Janeiro",
+    "origin_iata": "GIG",
+    "price_brl": 2949.27,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/GIG/MIA",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/miami-1-1500px-x-500px-1.png",
+    "airline": "GOL",
+    "trip_type": "round_trip",
+    "travel_class": "Econômica",
+    "departure_date": "2026-10-28",
+    "return_date": "2026-11-06",
+    "fetched_at": "2026-07-12T10:38:30.507328+00:00",
+    "id": "e7629e351170"
   },
   {
     "source": "GOL",
