@@ -1444,19 +1444,6 @@
     "id": "05fd5bf6af7f"
   },
   {
-    "source": "Melhores Destinos",
-    "title": "Orlando com bons preços: passagens a partir de R$ 2.380 ida e volta saindo de São Paulo e mais cidades",
-    "destination": null,
-    "price_brl": 2380.0,
-    "currency": "BRL",
-    "link": "https://www.melhoresdestinos.com.br/promocao/orlando-bons-precos-2380",
-    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2024/02/apartamentos-orlando-capa-754x396.jpg",
-    "airline": null,
-    "trip_type": "round_trip",
-    "fetched_at": "2026-07-11T01:02:07.445520+00:00",
-    "id": "24cd140a6e33"
-  },
-  {
     "source": "GOL",
     "title": "GOL: São Paulo (GRU) → San José (SJO) - 23/11/2026 a 30/11/2026",
     "destination": "San José",
@@ -2096,19 +2083,6 @@
     "id": "a1c99c3b15ba"
   },
   {
-    "source": "Melhores Destinos",
-    "title": "Itália: voos para Milão, Veneza, Roma e mais cidades a partir de R$ 3.771 ida e volta",
-    "destination": "Milão, Veneza, Roma e mais cidades",
-    "price_brl": 3771.0,
-    "currency": "BRL",
-    "link": "https://www.melhoresdestinos.com.br/promocao/italia-voos-para-milao-veneza-roma-e-mais-cidades-a-partir-de-r-3-771-ida-e-volta",
-    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-roma-capa2019-01-754x396.jpg",
-    "airline": null,
-    "trip_type": "round_trip",
-    "fetched_at": "2026-07-11T01:02:08.203387+00:00",
-    "id": "3de146312fa1"
-  },
-  {
     "source": "Passagens Imperdíveis",
     "title": "Continua muito bom! Passagens para a FINLÂNDIA: Helsinque! Inclusive na melhor época para as Auroras! A partir de R$ 3.902, ida e volta, c/ taxas! Opções com BAGAGEM INCLUÍDA!",
     "destination": "Finlândia: Helsinque",
@@ -2176,24 +2150,6 @@
   },
   {
     "source": "TAP",
-    "title": "TAP: São Paulo (GRU) → Milão (MXP) - 03/08/2026 a 25/08/2026",
-    "destination": "Milão",
-    "destination_iata": "MXP",
-    "origin": "São Paulo",
-    "origin_iata": "GRU",
-    "price_brl": 4158.0,
-    "currency": "BRL",
-    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
-    "image_url": "https://assets.airtrfx.com/media-em/tp/milao-1-1500px.jpg",
-    "airline": "TAP",
-    "trip_type": "round_trip",
-    "departure_date": "03/08/2026",
-    "return_date": "25/08/2026",
-    "fetched_at": "2026-07-11T01:02:28.464545+00:00",
-    "id": "a4c5a420850d"
-  },
-  {
-    "source": "TAP",
     "title": "TAP: São Paulo (GRU) → Paris (ORY) - 04/08/2026 a 25/08/2026",
     "destination": "Paris",
     "destination_iata": "ORY",
@@ -2209,6 +2165,24 @@
     "return_date": "25/08/2026",
     "fetched_at": "2026-07-11T23:56:42.175536+00:00",
     "id": "6582d91849be"
+  },
+  {
+    "source": "TAP",
+    "title": "TAP: Rio de Janeiro (GIG) → Lisboa (LIS) - 04/08/2026 a 29/08/2026",
+    "destination": "Lisboa",
+    "destination_iata": "LIS",
+    "origin": "Rio de Janeiro",
+    "origin_iata": "GIG",
+    "price_brl": 4626.0,
+    "currency": "BRL",
+    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
+    "image_url": "https://assets.airtrfx.com/media-em/tp/lisboa-1-1500px.jpg",
+    "airline": "TAP",
+    "trip_type": "round_trip",
+    "departure_date": "04/08/2026",
+    "return_date": "29/08/2026",
+    "fetched_at": "2026-07-12T03:27:03.971653+00:00",
+    "id": "9ee8887e00f6"
   },
   {
     "source": "TAP",
@@ -2248,6 +2222,24 @@
   },
   {
     "source": "TAP",
+    "title": "TAP: São Paulo (GRU) → Lisboa (LIS) - 11/08/2026 a 25/08/2026",
+    "destination": "Lisboa",
+    "destination_iata": "LIS",
+    "origin": "São Paulo",
+    "origin_iata": "GRU",
+    "price_brl": 4643.0,
+    "currency": "BRL",
+    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
+    "image_url": "https://assets.airtrfx.com/media-em/tp/lisboa-1-1500px.jpg",
+    "airline": "TAP",
+    "trip_type": "round_trip",
+    "departure_date": "11/08/2026",
+    "return_date": "25/08/2026",
+    "fetched_at": "2026-07-12T03:27:03.971505+00:00",
+    "id": "a2d50e1660d2"
+  },
+  {
+    "source": "TAP",
     "title": "TAP: São Paulo (GRU) → Lisboa (LIS) - 08/08/2026 a 22/08/2026",
     "destination": "Lisboa",
     "destination_iata": "LIS",
@@ -2263,24 +2255,6 @@
     "return_date": "22/08/2026",
     "fetched_at": "2026-07-11T23:56:42.174538+00:00",
     "id": "0d4f81236dae"
-  },
-  {
-    "source": "TAP",
-    "title": "TAP: São Paulo (GRU) → Lisboa (LIS) - 10/08/2026 a 23/08/2026",
-    "destination": "Lisboa",
-    "destination_iata": "LIS",
-    "origin": "São Paulo",
-    "origin_iata": "GRU",
-    "price_brl": 4644.0,
-    "currency": "BRL",
-    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
-    "image_url": "https://assets.airtrfx.com/media-em/tp/lisboa-1-1500px.jpg",
-    "airline": "TAP",
-    "trip_type": "round_trip",
-    "departure_date": "10/08/2026",
-    "return_date": "23/08/2026",
-    "fetched_at": "2026-07-11T01:02:28.463446+00:00",
-    "id": "8764b381f3c6"
   },
   {
     "source": "TAP",
@@ -2317,6 +2291,24 @@
     "return_date": "22/08/2026",
     "fetched_at": "2026-07-11T21:51:30.696445+00:00",
     "id": "336f1a00e986"
+  },
+  {
+    "source": "TAP",
+    "title": "TAP: Rio de Janeiro (GIG) → Porto (OPO) - 10/08/2026 a 31/08/2026",
+    "destination": "Porto",
+    "destination_iata": "OPO",
+    "origin": "Rio de Janeiro",
+    "origin_iata": "GIG",
+    "price_brl": 4869.0,
+    "currency": "BRL",
+    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
+    "image_url": "https://assets.airtrfx.com/media-em/tp/porto-1-1500px.jpg",
+    "airline": "TAP",
+    "trip_type": "round_trip",
+    "departure_date": "10/08/2026",
+    "return_date": "31/08/2026",
+    "fetched_at": "2026-07-12T03:27:03.971883+00:00",
+    "id": "6e808d3fa3bc"
   },
   {
     "source": "TAP",
