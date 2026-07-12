@@ -290,6 +290,18 @@
     "id": "123ad4721e3e"
   },
   {
+    "source": "Passagens Imperdíveis",
+    "title": "Passagens para BELO HORIZONTE ou CURITIBA! Datas para viajar até Maio/27, inclusive férias e mais! A partir de R$ 293, ida e volta, c/ taxas!",
+    "destination": "Belo Horizonte ou Curitiba",
+    "price_brl": 293.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-belo-horizonte-ou-curitiba-2026-4/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/ilha_do_mel2-612x612.jpg",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-07-12T19:39:15.218834+00:00",
+    "id": "63c79067071b"
+  },
+  {
     "source": "GOL",
     "title": "GOL: São Paulo (CGH) → Belo Horizonte (CNF) - 28/07/2026",
     "destination": "Belo Horizonte",
@@ -385,18 +397,6 @@
     "id": "e169a8fd22a2"
   },
   {
-    "source": "Passagens Imperdíveis",
-    "title": "Passagens para as PRAIAS DO NORDESTE: Aracaju, Fortaleza, Ilhéus, Jericoacoara, João Pessoa, Maceió, Natal, Porto Seguro, Recife, Salvador ou São Luís! A partir de R$ 387, ida e volta!",
-    "destination": "Praias do Nordeste",
-    "price_brl": 387.0,
-    "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/passagens-nacionais-praias-nordeste-2026-93/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/joao_pessoa3-612x612.jpg",
-    "trip_type": "round_trip",
-    "fetched_at": "2026-07-11T18:26:41.007591+00:00",
-    "id": "d118da51c860"
-  },
-  {
     "source": "GOL",
     "title": "GOL: São Paulo (GRU) → Ilhéus (IOS) - 29/07/2026",
     "destination": "Ilhéus",
@@ -445,6 +445,18 @@
     "trip_type": "round_trip",
     "fetched_at": "2026-07-11T21:51:29.089319+00:00",
     "id": "a1522ceb225b"
+  },
+  {
+    "source": "Passagens Imperdíveis",
+    "title": "Programe sua viagem para o Paraguai e as Cataratas do Iguaçu! Passagens para FOZ DO IGUAÇU! A partir de R$ 469, ida e volta, c/ taxas!",
+    "destination": "Foz do Iguaçu",
+    "price_brl": 469.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-foz-do-iguacu-2026-32/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/foz_do_iguacu_parana_2-612x612.jpg",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-07-12T19:39:15.218822+00:00",
+    "id": "42221ea7d2d1"
   },
   {
     "source": "GOL",
@@ -864,6 +876,18 @@
     "id": "92f89b136ccf"
   },
   {
+    "source": "Passagens Imperdíveis",
+    "title": "Aproveite antes que acabe! Programe sua viagem para MACHU PICCHU! Passagens para o PERU: Cusco ou Lima! A partir de R$ 1.317, ida e volta, c/ taxas! Opções de VOO DIRETO!",
+    "destination": "Peru: Cusco ou Lima",
+    "price_brl": 1317.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-cusco-ou-lima-2026-92/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/cusco_4-612x612.jpg",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-07-12T19:39:15.218840+00:00",
+    "id": "af7a3738f9c9"
+  },
+  {
     "source": "GOL",
     "title": "GOL: São Paulo (SAO) → Buenos Aires (BUE) - 13/09/2026 a 17/09/2026",
     "destination": "Buenos Aires",
@@ -1115,18 +1139,6 @@
     "trip_type": "round_trip",
     "fetched_at": "2026-07-12T17:00:05.741835+00:00",
     "id": "f610546149c6"
-  },
-  {
-    "source": "Passagens Imperdíveis",
-    "title": "Passagens para a COLÔMBIA: Bogotá, Cartagena, San Andres ou Santa Marta! A partir de R$ 2.160, ida e volta, c/ taxas!",
-    "destination": "Descubra a Colômbia",
-    "price_brl": 2160.0,
-    "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-colombia-bogota-cartagena-san-andres-santa-marta-2026-6/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/santa_marta-612x612.jpg",
-    "trip_type": "round_trip",
-    "fetched_at": "2026-07-11T18:26:41.007615+00:00",
-    "id": "3ffa1588bcee"
   },
   {
     "source": "GOL",
@@ -2011,6 +2023,18 @@
     "return_date": "11/09/2026",
     "fetched_at": "2026-07-12T14:04:29.645533+00:00",
     "id": "7c580463cf1a"
+  },
+  {
+    "source": "Passagens Imperdíveis",
+    "title": "Oportunidade! Passagens para a CHINA: Xangai ou JAPÃO: Tokyo! A partir de R$ 6.482, ida e volta, c/ taxas! Opções com BAGAGEM INCLUÍDA!",
+    "destination": "China ou Japão",
+    "price_brl": 6482.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-china-xangai-japao-tokyo-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/china_612-612x612.jpg",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-07-12T19:39:15.218828+00:00",
+    "id": "241f31ddc0a4"
   },
   {
     "source": "Melhores Destinos",

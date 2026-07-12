@@ -1,14 +1,50 @@
 [
   {
     "source": "Passagens Imperdíveis",
-    "title": "Continua muito bom! Passagens para a FINLÂNDIA: Helsinque! Inclusive na melhor época para as Auroras! A partir de R$ 3.902, ida e volta, c/ taxas! Opções com BAGAGEM INCLUÍDA!",
-    "destination": "Finlândia: Helsinque",
-    "price_brl": 3902.0,
+    "title": "Programe sua viagem para o Paraguai e as Cataratas do Iguaçu! Passagens para FOZ DO IGUAÇU! A partir de R$ 469, ida e volta, c/ taxas!",
+    "destination": "Foz do Iguaçu",
+    "price_brl": 469.0,
     "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-finlandia-helsinque-2026-13/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/aurora_2-612x612.jpg",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-foz-do-iguacu-2026-32/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/foz_do_iguacu_parana_2-612x612.jpg",
     "trip_type": "round_trip",
-    "fetched_at": "2026-07-12T18:05:00.928200+00:00",
-    "id": "5f66f2968c21"
+    "fetched_at": "2026-07-12T19:39:15.218822+00:00",
+    "id": "42221ea7d2d1"
+  },
+  {
+    "source": "Passagens Imperdíveis",
+    "title": "Oportunidade! Passagens para a CHINA: Xangai ou JAPÃO: Tokyo! A partir de R$ 6.482, ida e volta, c/ taxas! Opções com BAGAGEM INCLUÍDA!",
+    "destination": "China ou Japão",
+    "price_brl": 6482.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-china-xangai-japao-tokyo-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/china_612-612x612.jpg",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-07-12T19:39:15.218828+00:00",
+    "id": "241f31ddc0a4"
+  },
+  {
+    "source": "Passagens Imperdíveis",
+    "title": "Passagens para BELO HORIZONTE ou CURITIBA! Datas para viajar até Maio/27, inclusive férias e mais! A partir de R$ 293, ida e volta, c/ taxas!",
+    "destination": "Belo Horizonte ou Curitiba",
+    "price_brl": 293.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-belo-horizonte-ou-curitiba-2026-4/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/ilha_do_mel2-612x612.jpg",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-07-12T19:39:15.218834+00:00",
+    "id": "63c79067071b"
+  },
+  {
+    "source": "Passagens Imperdíveis",
+    "title": "Aproveite antes que acabe! Programe sua viagem para MACHU PICCHU! Passagens para o PERU: Cusco ou Lima! A partir de R$ 1.317, ida e volta, c/ taxas! Opções de VOO DIRETO!",
+    "destination": "Peru: Cusco ou Lima",
+    "price_brl": 1317.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-cusco-ou-lima-2026-92/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/cusco_4-612x612.jpg",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-07-12T19:39:15.218840+00:00",
+    "id": "af7a3738f9c9"
   }
 ]
