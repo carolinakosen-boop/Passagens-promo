@@ -1,46 +1,14 @@
 [
   {
-    "source": "Melhores Destinos",
-    "title": "Bora para Orlando? Voos a partir de R$ 2.151 ida e volta saindo de várias cidades",
-    "destination": "Orlando? Voos",
-    "price_brl": 2151.0,
-    "currency": "BRL",
-    "link": "https://www.melhoresdestinos.com.br/promocao/bora-para-orlando-voos-2151",
-    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2021/10/orlando-eua-disney-capa14-754x396.jpg",
-    "airline": null,
-    "trip_type": "round_trip",
-    "fetched_at": "2026-07-12T17:00:05.741835+00:00",
-    "id": "f610546149c6"
-  },
-  {
     "source": "Passagens Imperdíveis",
-    "title": "Aproveite! Passagens para a ESPANHA: Madri ou PORTUGAL: Lisboa! Datas até Junho/27, inclusive férias e mais!&nbsp;A partir de R$ 3.406, ida e volta, c/ taxas! Opções com BAGAGEM INCLUÍDA!",
-    "destination": "Lisboa ou Madri com voo direto!",
-    "price_brl": 3406.0,
+    "title": "Continua muito bom! Passagens para a FINLÂNDIA: Helsinque! Inclusive na melhor época para as Auroras! A partir de R$ 3.902, ida e volta, c/ taxas! Opções com BAGAGEM INCLUÍDA!",
+    "destination": "Finlândia: Helsinque",
+    "price_brl": 3902.0,
     "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-espanha-madri-portugal-lisboa-2026-3/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/7144ae7b_f7a2_4a1d_bec9_8cd93a70d8af-612x612.jpg",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-finlandia-helsinque-2026-13/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/aurora_2-612x612.jpg",
     "trip_type": "round_trip",
-    "fetched_at": "2026-07-12T17:00:13.125371+00:00",
-    "id": "f2adf6422a61"
-  },
-  {
-    "source": "GOL",
-    "title": "GOL: Rio de Janeiro (RIO) → Buenos Aires (AEP) - 10/08/2026 a 16/08/2026",
-    "destination": "Buenos Aires",
-    "destination_iata": "AEP",
-    "origin": "Rio de Janeiro",
-    "origin_iata": "RIO",
-    "price_brl": 1149.17,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/RIO/AEP",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/buenos-aires-2-1500px-x-500px.png",
-    "airline": "GOL",
-    "trip_type": "round_trip",
-    "travel_class": "Econômica",
-    "departure_date": "2026-08-10",
-    "return_date": "2026-08-16",
-    "fetched_at": "2026-07-12T17:00:14.445254+00:00",
-    "id": "ff41471be936"
+    "fetched_at": "2026-07-12T18:05:00.928200+00:00",
+    "id": "5f66f2968c21"
   }
 ]
