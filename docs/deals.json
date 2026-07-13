@@ -682,6 +682,18 @@
     "id": "574ea00408a1"
   },
   {
+    "source": "Passagens Imperdíveis",
+    "title": "Passagens para as PRAIAS DO NORDESTE: Aracaju, Fortaleza, Ilhéus, Jericoacoara, João Pessoa, Maceió, Natal, Porto Seguro, Recife, Salvador ou São Luís! A partir de R$ 295, ida e volta!",
+    "destination": "Praias do Nordeste",
+    "price_brl": 295.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/passagens-nacionais-praias-nordeste-2026-94/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/jericoacoara4-612x612.jpg",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-07-13T21:07:26.172265+00:00",
+    "id": "516ecad3ca55"
+  },
+  {
     "source": "GOL",
     "title": "GOL: São Paulo (CGH) → Belo Horizonte (CNF) - 28/07/2026",
     "destination": "Belo Horizonte",
@@ -851,18 +863,6 @@
     "return_date": "",
     "fetched_at": "2026-07-13T18:16:54.576052+00:00",
     "id": "2e69c4e693c2"
-  },
-  {
-    "source": "Passagens Imperdíveis",
-    "title": "Passagens para as PRAIAS DO NORDESTE: Aracaju, Fortaleza, Ilhéus, Jericoacoara, João Pessoa, Maceió, Natal, Porto Seguro, Recife, Salvador ou São Luís! A partir de R$ 387, ida e volta!",
-    "destination": "Praias do Nordeste",
-    "price_brl": 387.0,
-    "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/passagens-nacionais-praias-nordeste-2026-93/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/joao_pessoa3-612x612.jpg",
-    "trip_type": "round_trip",
-    "fetched_at": "2026-07-12T20:51:59.129756+00:00",
-    "id": "d118da51c860"
   },
   {
     "source": "GOL",
@@ -1229,6 +1229,18 @@
     "return_date": "2026-08-18",
     "fetched_at": "2026-07-12T21:53:15.677075+00:00",
     "id": "8bb5bcf0c5bb"
+  },
+  {
+    "source": "Passagens Imperdíveis",
+    "title": "Passagens para o PARAGUAI: Assunção ou URUGUAI: Montevideo ou Punta del Este! A partir de R$ 1.149, ida e volta, c/ taxas!",
+    "destination": "Paraguai ou Uruguai",
+    "price_brl": 1149.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-paraguai-assuncao-uruguai-montevideo-punta-del-este-2026-10/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/uruguai_montevideo_uruguay_montevideu_67904-612x612.png",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-07-13T21:07:26.172235+00:00",
+    "id": "1efc605a444f"
   },
   {
     "source": "Passagens Imperdíveis",
@@ -2075,18 +2087,6 @@
     "trip_type": "round_trip",
     "fetched_at": "2026-07-13T19:58:46.702137+00:00",
     "id": "f610546149c6"
-  },
-  {
-    "source": "Passagens Imperdíveis",
-    "title": "Passagens para a COLÔMBIA: Bogotá, Cartagena, San Andres ou Santa Marta! A partir de R$ 2.160, ida e volta, c/ taxas!",
-    "destination": "Descubra a Colômbia",
-    "price_brl": 2160.0,
-    "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-colombia-bogota-cartagena-san-andres-santa-marta-2026-6/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/santa_marta-612x612.jpg",
-    "trip_type": "round_trip",
-    "fetched_at": "2026-07-12T20:51:59.129768+00:00",
-    "id": "3ffa1588bcee"
   },
   {
     "source": "GOL",
