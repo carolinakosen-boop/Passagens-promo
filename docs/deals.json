@@ -682,18 +682,6 @@
     "id": "574ea00408a1"
   },
   {
-    "source": "Passagens Imperdíveis",
-    "title": "Passagens para BELO HORIZONTE ou CURITIBA! Datas para viajar até Maio/27, inclusive férias e mais! A partir de R$ 293, ida e volta, c/ taxas!",
-    "destination": "Belo Horizonte ou Curitiba",
-    "price_brl": 293.0,
-    "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-belo-horizonte-ou-curitiba-2026-4/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/ilha_do_mel2-612x612.jpg",
-    "trip_type": "round_trip",
-    "fetched_at": "2026-07-12T19:39:15.218834+00:00",
-    "id": "63c79067071b"
-  },
-  {
     "source": "GOL",
     "title": "GOL: São Paulo (CGH) → Belo Horizonte (CNF) - 28/07/2026",
     "destination": "Belo Horizonte",
@@ -711,6 +699,25 @@
     "return_date": "",
     "fetched_at": "2026-07-13T06:38:26.787400+00:00",
     "id": "e65b400046f8"
+  },
+  {
+    "source": "GOL",
+    "title": "GOL: São Paulo (GRU) → Recife (REC) - 06/08/2026",
+    "destination": "Recife",
+    "destination_iata": "REC",
+    "origin": "São Paulo",
+    "origin_iata": "GRU",
+    "price_brl": 314.61,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/GRU/REC",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/recife-2-1500px-x-500px.png",
+    "airline": "GOL",
+    "trip_type": "one_way",
+    "travel_class": "Econômica",
+    "departure_date": "2026-08-06",
+    "return_date": "",
+    "fetched_at": "2026-07-13T19:58:52.524268+00:00",
+    "id": "6b7cebd77e37"
   },
   {
     "source": "GOL",
@@ -859,6 +866,25 @@
   },
   {
     "source": "GOL",
+    "title": "GOL: São Paulo (CGH) → Rio de Janeiro (GIG) - 29/07/2026",
+    "destination": "Rio de Janeiro",
+    "destination_iata": "GIG",
+    "origin": "São Paulo",
+    "origin_iata": "CGH",
+    "price_brl": 394.92,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/CGH/GIG",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/01-1500px-x-500px-5.png",
+    "airline": "GOL",
+    "trip_type": "one_way",
+    "travel_class": "Econômica",
+    "departure_date": "2026-07-29",
+    "return_date": "",
+    "fetched_at": "2026-07-13T19:58:54.797967+00:00",
+    "id": "199109808495"
+  },
+  {
+    "source": "GOL",
     "title": "GOL: São Paulo (CGH) → Rio de Janeiro (GIG) - 27/07/2026",
     "destination": "Rio de Janeiro",
     "destination_iata": "GIG",
@@ -963,18 +989,6 @@
     "return_date": "",
     "fetched_at": "2026-07-13T13:01:45.468975+00:00",
     "id": "e34eb4dabd70"
-  },
-  {
-    "source": "Passagens Imperdíveis",
-    "title": "Programe sua viagem para o Paraguai e as Cataratas do Iguaçu! Passagens para FOZ DO IGUAÇU! A partir de R$ 469, ida e volta, c/ taxas!",
-    "destination": "Foz do Iguaçu",
-    "price_brl": 469.0,
-    "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-foz-do-iguacu-2026-32/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/foz_do_iguacu_parana_2-612x612.jpg",
-    "trip_type": "round_trip",
-    "fetched_at": "2026-07-12T19:39:15.218822+00:00",
-    "id": "42221ea7d2d1"
   },
   {
     "source": "GOL",
@@ -1215,6 +1229,18 @@
     "return_date": "2026-08-18",
     "fetched_at": "2026-07-12T21:53:15.677075+00:00",
     "id": "8bb5bcf0c5bb"
+  },
+  {
+    "source": "Passagens Imperdíveis",
+    "title": "Passagens para o CHILE: Santiago! A partir de R$ 1.149, ida e volta, c/ taxas! Opções de VOO DIRETO!",
+    "destination": "Santiago, Chile",
+    "price_brl": 1149.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-chile-santiago-2026-44/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/valle_nevado-612x612.jpg",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-07-13T19:58:51.433615+00:00",
+    "id": "5ed964e885a6"
   },
   {
     "source": "Passagens Imperdíveis",
@@ -1530,18 +1556,6 @@
     "trip_type": "round_trip",
     "fetched_at": "2026-07-13T18:16:47.395323+00:00",
     "id": "99870c6220d7"
-  },
-  {
-    "source": "Passagens Imperdíveis",
-    "title": "Aproveite antes que acabe! Programe sua viagem para MACHU PICCHU! Passagens para o PERU: Cusco ou Lima! A partir de R$ 1.317, ida e volta, c/ taxas! Opções de VOO DIRETO!",
-    "destination": "Peru: Cusco ou Lima",
-    "price_brl": 1317.0,
-    "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-cusco-ou-lima-2026-92/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/cusco_4-612x612.jpg",
-    "trip_type": "round_trip",
-    "fetched_at": "2026-07-12T19:39:15.218840+00:00",
-    "id": "af7a3738f9c9"
   },
   {
     "source": "GOL",
@@ -2050,6 +2064,19 @@
     "id": "eef6e3919977"
   },
   {
+    "source": "Melhores Destinos",
+    "title": "Bora para Orlando? Voos a partir de R$ 2.151 ida e volta saindo de várias cidades",
+    "destination": "Orlando? Voos",
+    "price_brl": 2151.0,
+    "currency": "BRL",
+    "link": "https://www.melhoresdestinos.com.br/promocao/bora-para-orlando-voos-2151",
+    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2021/10/orlando-eua-disney-capa14-754x396.jpg",
+    "airline": null,
+    "trip_type": "round_trip",
+    "fetched_at": "2026-07-13T19:58:46.702137+00:00",
+    "id": "f610546149c6"
+  },
+  {
     "source": "Passagens Imperdíveis",
     "title": "Passagens para a COLÔMBIA: Bogotá, Cartagena, San Andres ou Santa Marta! A partir de R$ 2.160, ida e volta, c/ taxas!",
     "destination": "Descubra a Colômbia",
@@ -2396,6 +2423,25 @@
     "return_date": "2026-08-14",
     "fetched_at": "2026-07-12T21:53:15.677139+00:00",
     "id": "b78978935e93"
+  },
+  {
+    "source": "GOL",
+    "title": "GOL: São Paulo (GRU) → Punta Cana (PUJ) - 24/07/2026 a 04/08/2026",
+    "destination": "Punta Cana",
+    "destination_iata": "PUJ",
+    "origin": "São Paulo",
+    "origin_iata": "GRU",
+    "price_brl": 2991.06,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/GRU/PUJ",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/punta-cana-2-1500px-x-500px.png",
+    "airline": "GOL",
+    "trip_type": "round_trip",
+    "travel_class": "Econômica",
+    "departure_date": "2026-07-24",
+    "return_date": "2026-08-04",
+    "fetched_at": "2026-07-13T19:58:54.797995+00:00",
+    "id": "0378423fe3f0"
   },
   {
     "source": "GOL",
@@ -2823,6 +2869,18 @@
   },
   {
     "source": "Passagens Imperdíveis",
+    "title": "Passagens 2 em 1 – CANADÁ: Toronto + EUA: Nova York ou Orlando! A partir de R$ 3.856, todos os trechos, c/ taxas!",
+    "destination": "2 em 1: Canadá + EUA",
+    "price_brl": 3856.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-2-em-1nova-york-orlando-ou-toronto-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/toronto_001-612x612.jpg",
+    "trip_type": "unknown",
+    "fetched_at": "2026-07-13T19:58:51.433665+00:00",
+    "id": "da98a0b691b6"
+  },
+  {
+    "source": "Passagens Imperdíveis",
     "title": "MUITO BOM!!! Conheça o País mais feliz do Mundo! Passagens para a FINLÂNDIA: Helsinque! A partir de R$ 3.865, ida e volta, c/ taxas! Opções com BAGAGEM INCLUÍDA!",
     "destination": "Muito bom! Conheça o País mais feliz do Mundo! ",
     "price_brl": 3865.0,
@@ -2832,6 +2890,18 @@
     "trip_type": "round_trip",
     "fetched_at": "2026-07-13T18:16:47.395275+00:00",
     "id": "79c8c3804719"
+  },
+  {
+    "source": "Passagens Imperdíveis",
+    "title": "Passagens para PARIS ou ROMA! Datas para viajar até Junho/27, inclusive férias e mais! A partir de R$ 4.094, ida e volta, c/ taxas!",
+    "destination": "Paris ou Roma",
+    "price_brl": 4094.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-paris-ou-roma-2026-3/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/paris13-612x612.jpg",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-07-13T19:58:51.433646+00:00",
+    "id": "4152beb97016"
   },
   {
     "source": "TAP",
@@ -2961,6 +3031,24 @@
   },
   {
     "source": "TAP",
+    "title": "TAP: São Paulo (GRU) → Londres (LHR) - 09/08/2026 a 29/08/2026",
+    "destination": "Londres",
+    "destination_iata": "LHR",
+    "origin": "São Paulo",
+    "origin_iata": "GRU",
+    "price_brl": 4843.0,
+    "currency": "BRL",
+    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
+    "image_url": "https://assets.airtrfx.com/media-em/tp/londres-1-1500px.jpg",
+    "airline": "TAP",
+    "trip_type": "round_trip",
+    "departure_date": "09/08/2026",
+    "return_date": "29/08/2026",
+    "fetched_at": "2026-07-13T19:58:55.107525+00:00",
+    "id": "903a0186344b"
+  },
+  {
+    "source": "TAP",
     "title": "TAP: Rio de Janeiro (GIG) → Porto (OPO) - 02/08/2026 a 27/08/2026",
     "destination": "Porto",
     "destination_iata": "OPO",
@@ -3084,18 +3172,6 @@
     "return_date": "10/08/2026",
     "fetched_at": "2026-07-13T10:28:35.429048+00:00",
     "id": "25335421bf0b"
-  },
-  {
-    "source": "Passagens Imperdíveis",
-    "title": "Oportunidade! Passagens para a CHINA: Xangai ou JAPÃO: Tokyo! A partir de R$ 6.482, ida e volta, c/ taxas! Opções com BAGAGEM INCLUÍDA!",
-    "destination": "China ou Japão",
-    "price_brl": 6482.0,
-    "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-china-xangai-japao-tokyo-2026/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/china_612-612x612.jpg",
-    "trip_type": "round_trip",
-    "fetched_at": "2026-07-12T19:39:15.218828+00:00",
-    "id": "241f31ddc0a4"
   },
   {
     "source": "Melhores Destinos",
