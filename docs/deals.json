@@ -1471,6 +1471,19 @@
     "id": "809227df27cb"
   },
   {
+    "source": "Melhores Destinos",
+    "title": "Orlando com bons preços: passagens a partir de R$ 2.380 ida e volta saindo de São Paulo e mais cidades",
+    "destination": null,
+    "price_brl": 2380.0,
+    "currency": "BRL",
+    "link": "https://www.melhoresdestinos.com.br/promocao/orlando-bons-precos-2380",
+    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2024/02/apartamentos-orlando-capa-754x396.jpg",
+    "airline": null,
+    "trip_type": "round_trip",
+    "fetched_at": "2026-07-14T12:14:36.114961+00:00",
+    "id": "24cd140a6e33"
+  },
+  {
     "source": "GOL",
     "title": "GOL: São Paulo (GRU) → Mendoza (MDZ) - 27/07/2026 a 03/08/2026",
     "destination": "Mendoza",
@@ -2006,6 +2019,19 @@
     "trip_type": "round_trip",
     "fetched_at": "2026-07-13T16:04:32.371869+00:00",
     "id": "4698e2dfbf7e"
+  },
+  {
+    "source": "Melhores Destinos",
+    "title": "Itália: voos para Milão, Veneza, Roma e mais cidades a partir de R$ 3.771 ida e volta",
+    "destination": "Milão, Veneza, Roma e mais cidades",
+    "price_brl": 3771.0,
+    "currency": "BRL",
+    "link": "https://www.melhoresdestinos.com.br/promocao/italia-voos-para-milao-veneza-roma-e-mais-cidades-a-partir-de-r-3-771-ida-e-volta",
+    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-roma-capa2019-01-754x396.jpg",
+    "airline": null,
+    "trip_type": "round_trip",
+    "fetched_at": "2026-07-14T12:14:36.661906+00:00",
+    "id": "3de146312fa1"
   },
   {
     "source": "Passagens Imperdíveis",
