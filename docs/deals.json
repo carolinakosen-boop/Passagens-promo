@@ -57,18 +57,6 @@
     "id": "69197f5cb231"
   },
   {
-    "source": "Passagens Imperdíveis",
-    "title": "Passagens para o RIO DE JANEIRO ou SÃO PAULO! Datas para viajar até Março/27, inclusive férias, Verão e mais! A partir de R$ 218, ida e volta, c/ taxas!",
-    "destination": "Rio de Janeiro ou São Paulo",
-    "price_brl": 218.0,
-    "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-rio-de-janeiro-ou-sao-paulo-2026-45/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/rio_de_janeiro_vista_aerea-612x612.jpg",
-    "trip_type": "round_trip",
-    "fetched_at": "2026-07-13T16:04:32.371837+00:00",
-    "id": "d01071e9080c"
-  },
-  {
     "source": "GOL",
     "title": "GOL: São Paulo (SAO) → Recife (REC) - 08/08/2026",
     "destination": "Recife",
@@ -86,25 +74,6 @@
     "return_date": "",
     "fetched_at": "2026-07-13T18:16:54.576010+00:00",
     "id": "ffa285989528"
-  },
-  {
-    "source": "GOL",
-    "title": "GOL: São Paulo (SAO) → Recife (REC) - 21/09/2026",
-    "destination": "Recife",
-    "destination_iata": "REC",
-    "origin": "São Paulo",
-    "origin_iata": "SAO",
-    "price_brl": 218.61,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/SAO/REC",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/recife-2-1500px-x-500px.png",
-    "airline": "GOL",
-    "trip_type": "one_way",
-    "travel_class": "Econômica",
-    "departure_date": "2026-09-21",
-    "return_date": "",
-    "fetched_at": "2026-07-13T16:04:36.422683+00:00",
-    "id": "47bb0a4f4674"
   },
   {
     "source": "GOL",
@@ -212,25 +181,6 @@
     "return_date": "",
     "fetched_at": "2026-07-13T18:16:54.576032+00:00",
     "id": "011c30f2aad6"
-  },
-  {
-    "source": "GOL",
-    "title": "GOL: Rio de Janeiro (RIO) → Brasília (BSB) - 08/10/2026",
-    "destination": "Brasília",
-    "destination_iata": "BSB",
-    "origin": "Rio de Janeiro",
-    "origin_iata": "RIO",
-    "price_brl": 281.05,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/RIO/BSB",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/bras%C3%ADlia-2-1500px-x-500px.png",
-    "airline": "GOL",
-    "trip_type": "one_way",
-    "travel_class": "Econômica",
-    "departure_date": "2026-10-08",
-    "return_date": "",
-    "fetched_at": "2026-07-13T16:04:36.422710+00:00",
-    "id": "e6eff0291ac4"
   },
   {
     "source": "GOL",
@@ -485,25 +435,6 @@
     "id": "b236279661c3"
   },
   {
-    "source": "GOL",
-    "title": "GOL: São Paulo (GRU) → Maceió (MCZ) - 19/08/2026",
-    "destination": "Maceió",
-    "destination_iata": "MCZ",
-    "origin": "São Paulo",
-    "origin_iata": "GRU",
-    "price_brl": 430.78,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/GRU/MCZ",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/macei%C3%B3-3-1500px-x-500px.png",
-    "airline": "GOL",
-    "trip_type": "one_way",
-    "travel_class": "Econômica",
-    "departure_date": "2026-08-19",
-    "return_date": "",
-    "fetched_at": "2026-07-13T16:04:36.422729+00:00",
-    "id": "1323fe0ec62b"
-  },
-  {
     "source": "Passagens Imperdíveis",
     "title": "PASSAGEM + HOTEL em MACEIÓ! A partir de R$ 866, por pessoa, quarto duplo, c/ taxas! Em até 10x SEM JUROS!",
     "destination": "Pacote: Maceió",
@@ -712,15 +643,15 @@
   },
   {
     "source": "Passagens Imperdíveis",
-    "title": "Passagens para a ARGENTINA: Bariloche ou Buenos Aires! Datas para viajar até Maio/27, inclusive férias, Inverno e mais! A partir de R$ 1.181, ida e volta, c/ taxas! Opções de VOO DIRETO!",
-    "destination": "Bariloche ou Buenos Aires",
-    "price_brl": 1181.0,
+    "title": "Aproveite! Passagens com VOO DIRETO para a ARGENTINA: Buenos Aires ou CHILE: Santiago! Datas para viajar até Junho/27, inclusive férias e mais! A partir de R$ 1.172, ida e volta, c/ taxas!",
+    "destination": "Argentina ou Chile com Voo Direto",
+    "price_brl": 1172.0,
     "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-argentina-bariloche-buenos-aires-2026-2/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/argentina_fitz_roy_72614_1280-612x612.png",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-argentina-buenos-aires-chile-santiago-2026-22/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/argentina_buenos_aires_2_612_612-612x612.png",
     "trip_type": "round_trip",
-    "fetched_at": "2026-07-13T16:04:32.371881+00:00",
-    "id": "73480ec74c1f"
+    "fetched_at": "2026-07-14T17:23:04.592681+00:00",
+    "id": "0b2d3fbe6acb"
   },
   {
     "source": "GOL",
@@ -816,19 +747,6 @@
     "return_date": "2026-08-22",
     "fetched_at": "2026-07-14T15:57:43.904480+00:00",
     "id": "3eb61d770fa2"
-  },
-  {
-    "source": "Melhores Destinos",
-    "title": "Temporada de neve já começou! Viaje para o Chile com passagens para Santiago a partir de R$ 1.261 ida e volta",
-    "destination": "Chile",
-    "price_brl": 1261.0,
-    "currency": "BRL",
-    "link": "https://www.melhoresdestinos.com.br/promocao/neve-passagens-para-santiago-22jun26",
-    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2024/06/neve-ad-santiago-bariloche-capa-754x396.jpeg",
-    "airline": null,
-    "trip_type": "round_trip",
-    "fetched_at": "2026-07-13T16:04:27.153632+00:00",
-    "id": "3d5bddb05f84"
   },
   {
     "source": "GOL",
@@ -1606,18 +1524,6 @@
     "trip_type": "round_trip",
     "fetched_at": "2026-07-13T22:28:11.860491+00:00",
     "id": "43d46faa5134"
-  },
-  {
-    "source": "Passagens Imperdíveis",
-    "title": "Passagens para a ESPANHA: Madri ou PORTUGAL: Lisboa! Inclusive férias, Primavera e mais!&nbsp;A partir de R$ 3.472, ida e volta, c/ taxas! Opções com BAGAGEM INCLUÍDA!",
-    "destination": "Lisboa ou Madri",
-    "price_brl": 3472.0,
-    "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-espanha-madri-portugal-lisboa-2026-4/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/3bf6d6ad_cb40_4e96_b1f1_0b376555bc0c-612x612.jpg",
-    "trip_type": "round_trip",
-    "fetched_at": "2026-07-13T16:04:32.371869+00:00",
-    "id": "4698e2dfbf7e"
   },
   {
     "source": "Melhores Destinos",
