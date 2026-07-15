@@ -1824,19 +1824,6 @@
     "id": "58bc50702bb4"
   },
   {
-    "source": "Melhores Destinos",
-    "title": "Voos para Portugal com bons preços saindo de várias cidades: Lisboa ou Porto a partir de R$ 3.048 ida e volta",
-    "destination": "Portugal",
-    "price_brl": 3048.0,
-    "currency": "BRL",
-    "link": "https://www.melhoresdestinos.com.br/promocao/portugal-bons-precos-cidades-3048",
-    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2021/10/lisboa-portugal-capa2-754x396.jpg",
-    "airline": null,
-    "trip_type": "round_trip",
-    "fetched_at": "2026-07-14T10:48:08.077439+00:00",
-    "id": "76333d1cc234"
-  },
-  {
     "source": "GOL",
     "title": "GOL: São Paulo (SAO) → Orlando (MCO) - 09/11/2026 a 26/11/2026",
     "destination": "Orlando",
@@ -1930,19 +1917,6 @@
     "return_date": "2026-09-14",
     "fetched_at": "2026-07-14T18:39:35.987114+00:00",
     "id": "868c9e4e92ea"
-  },
-  {
-    "source": "Melhores Destinos",
-    "title": "África do Sul: voos diretos por R$ 3.252 saindo de SP ou conexão desde R$ 3.484 do Rio e outras cidades",
-    "destination": null,
-    "price_brl": 3252.0,
-    "currency": "BRL",
-    "link": "https://www.melhoresdestinos.com.br/promocao/africa-do-sul-voos-diretos-3252",
-    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2025/05/passagens-aereas-joanesburgo-africa-dos-sul-capa-754x396.jpg",
-    "airline": null,
-    "trip_type": "unknown",
-    "fetched_at": "2026-07-14T10:48:08.478124+00:00",
-    "id": "8dae4a8d3a6a"
   },
   {
     "source": "GOL",
@@ -2528,19 +2502,6 @@
     "return_date": "13/10/2026",
     "fetched_at": "2026-07-15T10:21:03.316438+00:00",
     "id": "b1ef3020590b"
-  },
-  {
-    "source": "Melhores Destinos",
-    "title": "🇦🇺 Austrália ou Nova Zelândia 🇳🇿 Passagens aéreas a partir de R$ 6.911 ida e volta saindo do Rio, São Paulo e mais cidades!",
-    "destination": null,
-    "price_brl": 6911.0,
-    "currency": "BRL",
-    "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-nova-zelandia-australia-29-04-26",
-    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-auckland-capa2019-01-754x396.jpg",
-    "airline": null,
-    "trip_type": "round_trip",
-    "fetched_at": "2026-07-14T10:48:06.906317+00:00",
-    "id": "6489e5cc2f52"
   },
   {
     "source": "TAP",
