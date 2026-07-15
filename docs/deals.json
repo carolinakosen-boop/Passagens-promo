@@ -51,18 +51,6 @@
   },
   {
     "source": "Passagens Imperdíveis",
-    "title": "Passagens para as PRAIAS DO NORDESTE: Aracaju, Fortaleza, Ilhéus, Jericoacoara, João Pessoa, Maceió, Natal, Porto Seguro, Recife, Salvador ou São Luís! A partir de R$ 296, ida e volta!",
-    "destination": "Praias do Nordeste",
-    "price_brl": 296.0,
-    "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/passagens-nacionais-praias-nordeste-2026-95/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/jericoacoara_brasil_naconais_04-612x612.png",
-    "trip_type": "round_trip",
-    "fetched_at": "2026-07-14T22:57:54.765110+00:00",
-    "id": "029914411e35"
-  },
-  {
-    "source": "Passagens Imperdíveis",
     "title": "Passagens NACIONAIS! Datas para viajar até Junho/27, inclusive férias, feriados, Verão e mais! A partir de R$ 297, ida e volta!",
     "destination": "Passagens Nacionais",
     "price_brl": 297.0,
@@ -72,6 +60,25 @@
     "trip_type": "round_trip",
     "fetched_at": "2026-07-15T22:02:34.744123+00:00",
     "id": "a6ae85fb72e7"
+  },
+  {
+    "source": "GOL",
+    "title": "GOL: São Paulo (CGH) → Rio de Janeiro (SDU) - 23/09/2026",
+    "destination": "Rio de Janeiro",
+    "destination_iata": "SDU",
+    "origin": "São Paulo",
+    "origin_iata": "CGH",
+    "price_brl": 302.32,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/CGH/SDU",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/01-1500px-x-500px-5.png",
+    "airline": "GOL",
+    "trip_type": "one_way",
+    "travel_class": "Econômica",
+    "departure_date": "2026-09-23",
+    "return_date": "",
+    "fetched_at": "2026-07-15T23:29:20.775381+00:00",
+    "id": "3a4abb1e5ff4"
   },
   {
     "source": "GOL",
@@ -814,6 +821,25 @@
   },
   {
     "source": "GOL",
+    "title": "GOL: Rio de Janeiro (GIG) → Buenos Aires (EZE) - 24/08/2026 a 28/08/2026",
+    "destination": "Buenos Aires",
+    "destination_iata": "EZE",
+    "origin": "Rio de Janeiro",
+    "origin_iata": "GIG",
+    "price_brl": 1238.22,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/GIG/EZE",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/buenos-aires-2-1500px-x-500px.png",
+    "airline": "GOL",
+    "trip_type": "round_trip",
+    "travel_class": "Econômica",
+    "departure_date": "2026-08-24",
+    "return_date": "2026-08-28",
+    "fetched_at": "2026-07-15T23:29:20.775471+00:00",
+    "id": "a6486bffa636"
+  },
+  {
+    "source": "GOL",
     "title": "GOL: Rio de Janeiro (RIO) → Buenos Aires (AEP) - 13/08/2026 a 18/08/2026",
     "destination": "Buenos Aires",
     "destination_iata": "AEP",
@@ -1022,6 +1048,25 @@
   },
   {
     "source": "GOL",
+    "title": "GOL: São Paulo (SAO) → Buenos Aires (AEP) - 09/09/2026 a 14/09/2026",
+    "destination": "Buenos Aires",
+    "destination_iata": "AEP",
+    "origin": "São Paulo",
+    "origin_iata": "SAO",
+    "price_brl": 1379.54,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/SAO/AEP",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/buenos-aires-2-1500px-x-500px.png",
+    "airline": "GOL",
+    "trip_type": "round_trip",
+    "travel_class": "Econômica",
+    "departure_date": "2026-09-09",
+    "return_date": "2026-09-14",
+    "fetched_at": "2026-07-15T23:29:20.775506+00:00",
+    "id": "6f308c5f965d"
+  },
+  {
+    "source": "GOL",
     "title": "GOL: São Paulo (GRU) → Santa Cruz de la Sierra (VVI) - 29/07/2026 a 09/08/2026",
     "destination": "Santa Cruz de la Sierra",
     "destination_iata": "VVI",
@@ -1076,18 +1121,6 @@
     "return_date": "2026-10-12",
     "fetched_at": "2026-07-15T16:02:45.607738+00:00",
     "id": "088a1a8257a2"
-  },
-  {
-    "source": "Passagens Imperdíveis",
-    "title": "MUITO BOM!!! Passagens 2 em 1 – ARGENTINA: Buenos Aires + CHILE: Santiago! A partir de R$ 1.672, todos os trechos, c/ taxas! Opções de VOO DIRETO!",
-    "destination": "2 em 1: Argentina + Chile",
-    "price_brl": 1672.0,
-    "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-2-em-1-buenos-aires-ou-santiago-2026-26/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/argentina_buenos_aires_casa_rosada_907344_1920-612x612.png",
-    "trip_type": "unknown",
-    "fetched_at": "2026-07-14T22:57:54.765152+00:00",
-    "id": "8ec98e80b9cf"
   },
   {
     "source": "Passagens Imperdíveis",
@@ -1169,6 +1202,19 @@
     "return_date": "2026-11-01",
     "fetched_at": "2026-07-15T20:34:09.928604+00:00",
     "id": "8373f32a5ae5"
+  },
+  {
+    "source": "Melhores Destinos",
+    "title": "Bora para Orlando? Voos a partir de R$ 2.151 ida e volta saindo de várias cidades",
+    "destination": "Orlando? Voos",
+    "price_brl": 2151.0,
+    "currency": "BRL",
+    "link": "https://www.melhoresdestinos.com.br/promocao/bora-para-orlando-voos-2151",
+    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2021/10/orlando-eua-disney-capa14-754x396.jpg",
+    "airline": null,
+    "trip_type": "round_trip",
+    "fetched_at": "2026-07-15T23:29:12.187444+00:00",
+    "id": "f610546149c6"
   },
   {
     "source": "GOL",
