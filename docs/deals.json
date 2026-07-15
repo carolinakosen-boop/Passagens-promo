@@ -76,6 +76,18 @@
     "id": "df1f54fe5594"
   },
   {
+    "source": "Passagens Imperdíveis",
+    "title": "Passagens para o RIO DE JANEIRO ou SÃO PAULO! Datas para viajar até Junho/27, inclusive férias, Verão e mais! A partir de R$ 267, ida e volta, c/ taxas!",
+    "destination": "Rio de Janeiro ou São Paulo",
+    "price_brl": 267.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-rio-de-janeiro-ou-sao-paulo-2026-46/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/brasil_niteroi_rj_612_612-612x612.png",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-07-15T17:47:51.626305+00:00",
+    "id": "0be184a808d1"
+  },
+  {
     "source": "GOL",
     "title": "GOL: São Paulo (SAO) → Recife (REC) - 29/09/2026",
     "destination": "Recife",
@@ -701,6 +713,18 @@
     "id": "4720cb682af8"
   },
   {
+    "source": "Passagens Imperdíveis",
+    "title": "PASSAGEM + HOSPEDAGEM no RIO DE JANEIRO! A partir de R$ 835, por pessoa, quarto duplo, c/ taxas! Em até 10x SEM JUROS!",
+    "destination": "Pacote: Rio de Janeiro",
+    "price_brl": 835.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-mais-hotel-para-brasil-rio-de-janeiro-2026-2/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/brasil_rio_de_janeiro_cristo_612_612-612x612.png",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-07-15T17:47:51.626318+00:00",
+    "id": "9401558835f1"
+  },
+  {
     "source": "GOL",
     "title": "GOL: São Paulo (CGH) → Rio de Janeiro (GIG) - 29/07/2026",
     "destination": "Rio de Janeiro",
@@ -929,6 +953,18 @@
     "id": "65ce29e8702b"
   },
   {
+    "source": "Passagens Imperdíveis",
+    "title": "Passagens para o CHILE: Santiago! Datas para viajar até Junho/27, inclusive férias e mais! A partir de R$ 1.081, ida e volta, c/ taxas! Opções de VOO DIRETO!",
+    "destination": "Santiago, Chile",
+    "price_brl": 1081.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-chile-santiago-2026-45/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/chile_santiago_plaza_de_las_armas-612x612.png",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-07-15T17:47:51.626262+00:00",
+    "id": "71d0b09078f8"
+  },
+  {
     "source": "GOL",
     "title": "GOL: São Paulo (GRU) → Assunção (ASU) - 20/07/2026 a 27/07/2026",
     "destination": "Assunção",
@@ -1041,18 +1077,6 @@
     "return_date": "2026-09-05",
     "fetched_at": "2026-07-14T21:30:56.416315+00:00",
     "id": "9ccb4c302d56"
-  },
-  {
-    "source": "Passagens Imperdíveis",
-    "title": "Aproveite! Passagens com VOO DIRETO para a ARGENTINA: Buenos Aires ou CHILE: Santiago! Datas para viajar até Junho/27, inclusive férias e mais! A partir de R$ 1.172, ida e volta, c/ taxas!",
-    "destination": "Argentina ou Chile com Voo Direto",
-    "price_brl": 1172.0,
-    "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-argentina-buenos-aires-chile-santiago-2026-22/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/argentina_buenos_aires_2_612_612-612x612.png",
-    "trip_type": "round_trip",
-    "fetched_at": "2026-07-14T17:23:04.592681+00:00",
-    "id": "0b2d3fbe6acb"
   },
   {
     "source": "GOL",
@@ -1660,6 +1684,18 @@
     "trip_type": "unknown",
     "fetched_at": "2026-07-14T22:57:54.765152+00:00",
     "id": "8ec98e80b9cf"
+  },
+  {
+    "source": "Passagens Imperdíveis",
+    "title": "Continua muito bom! Passagens 2 em 1 – PERU: Cusco + Lima! A partir de R$ 1.705, todos os trechos, c/ taxas!",
+    "destination": "Continua muito bom! 2 em 1: Peru",
+    "price_brl": 1705.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-2-em-1-cusco-ou-lima-2026-19/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/lima_peru-612x612.png",
+    "trip_type": "unknown",
+    "fetched_at": "2026-07-15T17:47:51.626291+00:00",
+    "id": "a75706c56288"
   },
   {
     "source": "GOL",
@@ -2508,6 +2544,24 @@
   },
   {
     "source": "TAP",
+    "title": "TAP: São Paulo (GRU) → Roma (FCO) - 04/08/2026 a 22/08/2026",
+    "destination": "Roma",
+    "destination_iata": "FCO",
+    "origin": "São Paulo",
+    "origin_iata": "GRU",
+    "price_brl": 4110.0,
+    "currency": "BRL",
+    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
+    "image_url": "https://assets.airtrfx.com/media-em/tp/roma-1-1500px.jpg",
+    "airline": "TAP",
+    "trip_type": "round_trip",
+    "departure_date": "04/08/2026",
+    "return_date": "22/08/2026",
+    "fetched_at": "2026-07-15T17:47:54.826230+00:00",
+    "id": "ca266c0ef609"
+  },
+  {
+    "source": "TAP",
     "title": "TAP: São Paulo (GRU) → Milão (MXP) - 10/08/2026 a 17/08/2026",
     "destination": "Milão",
     "destination_iata": "MXP",
@@ -2661,6 +2715,24 @@
     "return_date": "15/08/2026",
     "fetched_at": "2026-07-15T05:53:25.754408+00:00",
     "id": "857621d92d94"
+  },
+  {
+    "source": "TAP",
+    "title": "TAP: São Paulo (GRU) → Paris (ORY) - 08/08/2026 a 19/08/2026",
+    "destination": "Paris",
+    "destination_iata": "ORY",
+    "origin": "São Paulo",
+    "origin_iata": "GRU",
+    "price_brl": 4568.0,
+    "currency": "BRL",
+    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
+    "image_url": "https://assets.airtrfx.com/media-em/tp/paris-1-1500px.jpg",
+    "airline": "TAP",
+    "trip_type": "round_trip",
+    "departure_date": "08/08/2026",
+    "return_date": "19/08/2026",
+    "fetched_at": "2026-07-15T17:47:54.826710+00:00",
+    "id": "beef6fec823c"
   },
   {
     "source": "TAP",
@@ -2826,6 +2898,24 @@
   },
   {
     "source": "TAP",
+    "title": "TAP: Rio de Janeiro (GIG) → Porto (OPO) - 12/08/2026 a 11/09/2026",
+    "destination": "Porto",
+    "destination_iata": "OPO",
+    "origin": "Rio de Janeiro",
+    "origin_iata": "GIG",
+    "price_brl": 4841.0,
+    "currency": "BRL",
+    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
+    "image_url": "https://assets.airtrfx.com/media-em/tp/porto-1-1500px.jpg",
+    "airline": "TAP",
+    "trip_type": "round_trip",
+    "departure_date": "12/08/2026",
+    "return_date": "11/09/2026",
+    "fetched_at": "2026-07-15T17:47:54.826072+00:00",
+    "id": "17b350abb179"
+  },
+  {
+    "source": "TAP",
     "title": "TAP: Rio de Janeiro (GIG) → Porto (OPO) - 03/08/2026 a 31/08/2026",
     "destination": "Porto",
     "destination_iata": "OPO",
@@ -2980,6 +3070,24 @@
     "trip_type": "round_trip",
     "fetched_at": "2026-07-15T14:02:53.346813+00:00",
     "id": "6489e5cc2f52"
+  },
+  {
+    "source": "TAP",
+    "title": "TAP: São Paulo (GRU) → Milão (MXP) - 28/07/2026 a 02/08/2026",
+    "destination": "Milão",
+    "destination_iata": "MXP",
+    "origin": "São Paulo",
+    "origin_iata": "GRU",
+    "price_brl": 8558.0,
+    "currency": "BRL",
+    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
+    "image_url": "https://assets.airtrfx.com/media-em/tp/milao-1-1500px.jpg",
+    "airline": "TAP",
+    "trip_type": "round_trip",
+    "departure_date": "28/07/2026",
+    "return_date": "02/08/2026",
+    "fetched_at": "2026-07-15T17:47:54.826869+00:00",
+    "id": "089ac4d36371"
   },
   {
     "source": "TAP",
