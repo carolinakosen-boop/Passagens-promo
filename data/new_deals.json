@@ -1,1 +1,21 @@
-[]
+[
+  {
+    "source": "GOL",
+    "title": "GOL: São Paulo (GRU) → Punta Cana (PUJ) - 26/07/2026 a 02/08/2026",
+    "destination": "Punta Cana",
+    "destination_iata": "PUJ",
+    "origin": "São Paulo",
+    "origin_iata": "GRU",
+    "price_brl": 2991.06,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/GRU/PUJ",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/punta-cana-2-1500px-x-500px.png",
+    "airline": "GOL",
+    "trip_type": "round_trip",
+    "travel_class": "Econômica",
+    "departure_date": "2026-07-26",
+    "return_date": "2026-08-02",
+    "fetched_at": "2026-07-16T13:55:06.459144+00:00",
+    "id": "32ab01891a75"
+  }
+]
