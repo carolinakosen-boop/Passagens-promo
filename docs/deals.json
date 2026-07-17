@@ -107,23 +107,16 @@
     "id": "0358c1f112c6"
   },
   {
-    "source": "GOL",
-    "title": "GOL: São Paulo (CGH) → Rio de Janeiro (SDU) - 23/09/2026",
-    "destination": "Rio de Janeiro",
-    "destination_iata": "SDU",
-    "origin": "São Paulo",
-    "origin_iata": "CGH",
-    "price_brl": 302.32,
+    "source": "Passagens Imperdíveis",
+    "title": "Passagens NACIONAIS! Datas para viajar até Junho/27, inclusive férias, feriados, Verão e mais! A partir de R$ 297, ida e volta!",
+    "destination": "Passagens Nacionais",
+    "price_brl": 297.0,
     "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/CGH/SDU",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/01-1500px-x-500px-5.png",
-    "airline": "GOL",
-    "trip_type": "one_way",
-    "travel_class": "Econômica",
-    "departure_date": "2026-09-23",
-    "return_date": "",
-    "fetched_at": "2026-07-15T23:29:20.775381+00:00",
-    "id": "3a4abb1e5ff4"
+    "link": "https://passagensimperdiveis.com.br/passagens-nacionais-em-promocao-2026-74/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/d973a848_a7ee_4666_b2d9_af470b259bad-612x612.jpg",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-07-17T00:05:14.114653+00:00",
+    "id": "a6ae85fb72e7"
   },
   {
     "source": "GOL",
@@ -1113,25 +1106,6 @@
   },
   {
     "source": "GOL",
-    "title": "GOL: Rio de Janeiro (GIG) → Buenos Aires (EZE) - 24/08/2026 a 28/08/2026",
-    "destination": "Buenos Aires",
-    "destination_iata": "EZE",
-    "origin": "Rio de Janeiro",
-    "origin_iata": "GIG",
-    "price_brl": 1238.22,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/GIG/EZE",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/buenos-aires-2-1500px-x-500px.png",
-    "airline": "GOL",
-    "trip_type": "round_trip",
-    "travel_class": "Econômica",
-    "departure_date": "2026-08-24",
-    "return_date": "2026-08-28",
-    "fetched_at": "2026-07-15T23:29:20.775471+00:00",
-    "id": "a6486bffa636"
-  },
-  {
-    "source": "GOL",
     "title": "GOL: São Paulo (SAO) → Buenos Aires (BUE) - 31/08/2026 a 10/09/2026",
     "destination": "Buenos Aires",
     "destination_iata": "BUE",
@@ -1225,6 +1199,18 @@
     "id": "d8c1078be2e2"
   },
   {
+    "source": "Passagens Imperdíveis",
+    "title": "Programe sua viagem para o Salar de Uyuni! Passagens para BOLÍVIA: Santa Cruz de la Sierra! A partir de R$ 1.309, ida e volta, c/ taxas! Opções de VOO DIRETO!",
+    "destination": "Bolívia: Santa Cruz de la Sierra",
+    "price_brl": 1309.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-bolivia-santa-cruz-de-la-sierra-2026-6/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/salar_uyuni_colombia-612x612.png",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-07-17T00:05:14.114659+00:00",
+    "id": "3076c588234e"
+  },
+  {
     "source": "GOL",
     "title": "GOL: Rio de Janeiro (GIG) → Buenos Aires (AEP) - 05/08/2026 a 08/08/2026",
     "destination": "Buenos Aires",
@@ -1299,25 +1285,6 @@
     "return_date": "2026-08-30",
     "fetched_at": "2026-07-16T20:03:37.464475+00:00",
     "id": "05dd93e66839"
-  },
-  {
-    "source": "GOL",
-    "title": "GOL: São Paulo (SAO) → Buenos Aires (AEP) - 09/09/2026 a 14/09/2026",
-    "destination": "Buenos Aires",
-    "destination_iata": "AEP",
-    "origin": "São Paulo",
-    "origin_iata": "SAO",
-    "price_brl": 1379.54,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/SAO/AEP",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/buenos-aires-2-1500px-x-500px.png",
-    "airline": "GOL",
-    "trip_type": "round_trip",
-    "travel_class": "Econômica",
-    "departure_date": "2026-09-09",
-    "return_date": "2026-09-14",
-    "fetched_at": "2026-07-15T23:29:20.775506+00:00",
-    "id": "6f308c5f965d"
   },
   {
     "source": "GOL",
@@ -1444,19 +1411,6 @@
     "return_date": "2026-11-29",
     "fetched_at": "2026-07-16T17:18:31.681962+00:00",
     "id": "1ce92dafc79e"
-  },
-  {
-    "source": "Melhores Destinos",
-    "title": "Bora para Orlando? Voos a partir de R$ 2.151 ida e volta saindo de várias cidades",
-    "destination": "Orlando? Voos",
-    "price_brl": 2151.0,
-    "currency": "BRL",
-    "link": "https://www.melhoresdestinos.com.br/promocao/bora-para-orlando-voos-2151",
-    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2021/10/orlando-eua-disney-capa14-754x396.jpg",
-    "airline": null,
-    "trip_type": "round_trip",
-    "fetched_at": "2026-07-15T23:29:12.187444+00:00",
-    "id": "f610546149c6"
   },
   {
     "source": "GOL",
@@ -2246,6 +2200,24 @@
   },
   {
     "source": "TAP",
+    "title": "TAP: Rio de Janeiro (GIG) → Lisboa (LIS) - 09/08/2026 a 27/08/2026",
+    "destination": "Lisboa",
+    "destination_iata": "LIS",
+    "origin": "Rio de Janeiro",
+    "origin_iata": "GIG",
+    "price_brl": 4592.0,
+    "currency": "BRL",
+    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
+    "image_url": "https://assets.airtrfx.com/media-em/tp/lisboa-1-1500px.jpg",
+    "airline": "TAP",
+    "trip_type": "round_trip",
+    "departure_date": "09/08/2026",
+    "return_date": "27/08/2026",
+    "fetched_at": "2026-07-17T00:05:17.165539+00:00",
+    "id": "2cb8ca5d8256"
+  },
+  {
+    "source": "TAP",
     "title": "TAP: São Paulo (GRU) → Paris (ORY) - 14/08/2026 a 24/08/2026",
     "destination": "Paris",
     "destination_iata": "ORY",
@@ -2261,6 +2233,24 @@
     "return_date": "24/08/2026",
     "fetched_at": "2026-07-16T17:18:33.729536+00:00",
     "id": "5be768a89f94"
+  },
+  {
+    "source": "TAP",
+    "title": "TAP: São Paulo (GRU) → Lisboa (LIS) - 03/08/2026 a 24/08/2026",
+    "destination": "Lisboa",
+    "destination_iata": "LIS",
+    "origin": "São Paulo",
+    "origin_iata": "GRU",
+    "price_brl": 4609.0,
+    "currency": "BRL",
+    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
+    "image_url": "https://assets.airtrfx.com/media-em/tp/lisboa-1-1500px.jpg",
+    "airline": "TAP",
+    "trip_type": "round_trip",
+    "departure_date": "03/08/2026",
+    "return_date": "24/08/2026",
+    "fetched_at": "2026-07-17T00:05:17.165442+00:00",
+    "id": "3a6adb9a610f"
   },
   {
     "source": "TAP",
@@ -2333,6 +2323,24 @@
     "return_date": "29/08/2026",
     "fetched_at": "2026-07-16T17:18:33.728695+00:00",
     "id": "6d72d79fb6aa"
+  },
+  {
+    "source": "TAP",
+    "title": "TAP: Rio de Janeiro (GIG) → Porto (OPO) - 15/08/2026 a 07/09/2026",
+    "destination": "Porto",
+    "destination_iata": "OPO",
+    "origin": "Rio de Janeiro",
+    "origin_iata": "GIG",
+    "price_brl": 4832.0,
+    "currency": "BRL",
+    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
+    "image_url": "https://assets.airtrfx.com/media-em/tp/porto-1-1500px.jpg",
+    "airline": "TAP",
+    "trip_type": "round_trip",
+    "departure_date": "15/08/2026",
+    "return_date": "07/09/2026",
+    "fetched_at": "2026-07-17T00:05:17.165728+00:00",
+    "id": "ff0dcabd3549"
   },
   {
     "source": "TAP",
@@ -2437,6 +2445,18 @@
     "id": "3fc6fa2b39a1"
   },
   {
+    "source": "Passagens Imperdíveis",
+    "title": "Passagens para o JAPÃO: Nagoya, Osaka ou Tokyo! A partir de R$ 6.766, ida e volta, c/ taxas! Opções com BAGAGEM INCLUÍDA!",
+    "destination": "Japão",
+    "price_brl": 6766.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-japao-nagoya-osaka-tokyo-2026-52/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/nagoya1-612x612.jpg",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-07-17T00:05:14.114656+00:00",
+    "id": "e029e2c9dd46"
+  },
+  {
     "source": "Melhores Destinos",
     "title": "🇦🇺 Austrália ou Nova Zelândia 🇳🇿 Passagens aéreas a partir de R$ 6.911 ida e volta saindo do Rio, São Paulo e mais cidades!",
     "destination": null,
@@ -2467,5 +2487,17 @@
     "return_date": "2026-07-24",
     "fetched_at": "2026-07-16T18:40:40.840466+00:00",
     "id": "7b6c8dd5729c"
+  },
+  {
+    "source": "Passagens Imperdíveis",
+    "title": "Passagens 2 em 1 – NOVA YORK + JAPÃO: Tokyo! A partir de R$ 7.374, todos os trechos, c/ taxas! Opções com BAGAGEM INCLUÍDA!",
+    "destination": "2 em 1: EUA + Japão",
+    "price_brl": 7374.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-2-em-1-nova-york-tokyo-ou-toquio-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/whatsapp_image_2024_10_06_at_08_32_32_1-612x612.jpg",
+    "trip_type": "unknown",
+    "fetched_at": "2026-07-17T00:05:14.114664+00:00",
+    "id": "4dcfa5344571"
   }
 ]
