@@ -384,25 +384,6 @@
     "destination_iata": "GIG",
     "origin": "São Paulo",
     "origin_iata": "CGH",
-    "price_brl": 781.01,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/CGH/GIG",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/01-1500px-x-500px-5.png",
-    "airline": "GOL",
-    "trip_type": "one_way",
-    "travel_class": "Econômica",
-    "departure_date": "2026-07-31",
-    "return_date": "",
-    "fetched_at": "2026-07-17T23:25:01.296938+00:00",
-    "id": "39d5a46fc872"
-  },
-  {
-    "source": "GOL",
-    "title": "GOL: São Paulo (CGH) → Rio de Janeiro (GIG) - 31/07/2026",
-    "destination": "Rio de Janeiro",
-    "destination_iata": "GIG",
-    "origin": "São Paulo",
-    "origin_iata": "CGH",
     "price_brl": 818.84,
     "currency": "BRL",
     "link": "https://www.voegol.com.br/br/voos/CGH/GIG",
@@ -414,25 +395,6 @@
     "return_date": "",
     "fetched_at": "2026-07-18T20:12:40.346738+00:00",
     "id": "709cdcadd2cb"
-  },
-  {
-    "source": "GOL",
-    "title": "GOL: São Paulo (CGH) → Belo Horizonte (CNF) - 31/07/2026",
-    "destination": "Belo Horizonte",
-    "destination_iata": "CNF",
-    "origin": "São Paulo",
-    "origin_iata": "CGH",
-    "price_brl": 904.51,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/CGH/CNF",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/belo-horizonte-1-1500px-x-500px.png",
-    "airline": "GOL",
-    "trip_type": "one_way",
-    "travel_class": "Econômica",
-    "departure_date": "2026-07-31",
-    "return_date": "",
-    "fetched_at": "2026-07-17T23:25:01.296942+00:00",
-    "id": "a1ad6482469e"
   },
   {
     "source": "GOL",
@@ -1858,6 +1820,18 @@
     "id": "dc6c3f6d254a"
   },
   {
+    "source": "Passagens Imperdíveis",
+    "title": "Continua muito bom! Passagens para a FINLÂNDIA: Helsinque! Inclusive na melhor época para as Auroras Boreais! A partir de R$ 3.829, ida e volta, c/ taxas! Opções com BAGAGEM INCLUÍDA!",
+    "destination": "Continua muito bom! Finlândia: Helsinque",
+    "price_brl": 3829.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-finlandia-helsinque-2026-15/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/aurora_4-612x612.jpg",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-07-18T23:27:25.039623+00:00",
+    "id": "2def19c9a495"
+  },
+  {
     "source": "TAP",
     "title": "TAP: São Paulo (GRU) → Roma (FCO) - 08/08/2026 a 19/08/2026",
     "destination": "Roma",
@@ -2086,24 +2060,6 @@
     "id": "690b1bae5912"
   },
   {
-    "source": "TAP",
-    "title": "TAP: São Paulo (GRU) → Paris (ORY) - 08/08/2026 a 15/08/2026",
-    "destination": "Paris",
-    "destination_iata": "ORY",
-    "origin": "São Paulo",
-    "origin_iata": "GRU",
-    "price_brl": 5081.0,
-    "currency": "BRL",
-    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
-    "image_url": "https://assets.airtrfx.com/media-em/tp/paris-1-1500px.jpg",
-    "airline": "TAP",
-    "trip_type": "round_trip",
-    "departure_date": "08/08/2026",
-    "return_date": "15/08/2026",
-    "fetched_at": "2026-07-17T23:25:02.844767+00:00",
-    "id": "90d1158f3914"
-  },
-  {
     "source": "Passagens Imperdíveis",
     "title": "IMPERDÍVEL!!! NOVOS DESTINOS!!! Passagens para a NOVA ZELÂNDIA: Auckland, Christchurch, Dunedin, Queenstown, Wellington! A partir de R$ 5.265, ida e volta, c/ taxas!",
     "destination": "IMPERDÍVEL!!! Novos destinos da Nova Zelândia",
@@ -2126,6 +2082,18 @@
     "trip_type": "round_trip",
     "fetched_at": "2026-07-18T19:06:54.157805+00:00",
     "id": "3bdfbe86b4eb"
+  },
+  {
+    "source": "Passagens Imperdíveis",
+    "title": "IMPERDÍVEL!!! Passagens para a NOVA ZELÂNDIA: Auckland ou Queenstown! A partir de R$ 5.331, ida e volta, c/ taxas!",
+    "destination": "IMPERDÍVEL!!! Nova Zelândia",
+    "price_brl": 5331.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-nova-zelandia-auckland-queenstown-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/coromandel_nova_zelandia_612-612x612.jpg",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-07-18T23:27:25.039632+00:00",
+    "id": "922b279832c3"
   },
   {
     "source": "Passagens Imperdíveis",
