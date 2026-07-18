@@ -1494,6 +1494,19 @@
     "id": "56d4f757e7d4"
   },
   {
+    "source": "Melhores Destinos",
+    "title": "Bora para Orlando? Voos a partir de R$ 2.151 ida e volta saindo de várias cidades",
+    "destination": "Orlando? Voos",
+    "price_brl": 2151.0,
+    "currency": "BRL",
+    "link": "https://www.melhoresdestinos.com.br/promocao/bora-para-orlando-voos-2151",
+    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2021/10/orlando-eua-disney-capa14-754x396.jpg",
+    "airline": null,
+    "trip_type": "round_trip",
+    "fetched_at": "2026-07-18T06:08:50.484660+00:00",
+    "id": "f610546149c6"
+  },
+  {
     "source": "GOL",
     "title": "GOL: São Paulo (SAO) → Punta Cana (PUJ) - 02/08/2026 a 07/08/2026",
     "destination": "Punta Cana",
