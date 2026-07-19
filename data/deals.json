@@ -777,6 +777,18 @@
     "id": "e06f6a26a023"
   },
   {
+    "source": "Passagens Imperdíveis",
+    "title": "Aproveite! Passagens para o PERU: Cusco ou Lima ou URUGUAI: Montevideo ou Punta del Este! A partir de R$ 1.038, ida e volta, c/ taxas! Opções de VOO DIRETO!",
+    "destination": "Peru ou Uruguai?",
+    "price_brl": 1038.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-peru-cusco-lima-uruguai-montevideo-punta-del-este-2026-2/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/peru_cusco_612_612-612x612.png",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-07-19T15:31:59.402692+00:00",
+    "id": "ec7825a8445e"
+  },
+  {
     "source": "GOL",
     "title": "GOL: Rio de Janeiro (GIG) → Buenos Aires (BUE) - 12/08/2026 a 19/08/2026",
     "destination": "Buenos Aires",
@@ -2113,6 +2125,24 @@
   },
   {
     "source": "TAP",
+    "title": "TAP: São Paulo (GRU) → Roma (FCO) - 12/08/2026 a 22/08/2026",
+    "destination": "Roma",
+    "destination_iata": "FCO",
+    "origin": "São Paulo",
+    "origin_iata": "GRU",
+    "price_brl": 4144.0,
+    "currency": "BRL",
+    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
+    "image_url": "https://assets.airtrfx.com/media-em/tp/roma-1-1500px.jpg",
+    "airline": "TAP",
+    "trip_type": "round_trip",
+    "departure_date": "12/08/2026",
+    "return_date": "22/08/2026",
+    "fetched_at": "2026-07-19T15:32:02.142781+00:00",
+    "id": "2016f2fc1c2c"
+  },
+  {
+    "source": "TAP",
     "title": "TAP: São Paulo (GRU) → Roma (FCO) - 12/08/2026 a 18/08/2026",
     "destination": "Roma",
     "destination_iata": "FCO",
@@ -2212,6 +2242,24 @@
     "return_date": "01/09/2026",
     "fetched_at": "2026-07-18T21:24:05.080965+00:00",
     "id": "13ecffb633ac"
+  },
+  {
+    "source": "TAP",
+    "title": "TAP: Rio de Janeiro (GIG) → Lisboa (LIS) - 10/08/2026 a 18/08/2026",
+    "destination": "Lisboa",
+    "destination_iata": "LIS",
+    "origin": "Rio de Janeiro",
+    "origin_iata": "GIG",
+    "price_brl": 4632.0,
+    "currency": "BRL",
+    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
+    "image_url": "https://assets.airtrfx.com/media-em/tp/lisboa-1-1500px.jpg",
+    "airline": "TAP",
+    "trip_type": "round_trip",
+    "departure_date": "10/08/2026",
+    "return_date": "18/08/2026",
+    "fetched_at": "2026-07-19T15:32:02.141437+00:00",
+    "id": "c5941b0c2387"
   },
   {
     "source": "TAP",
@@ -2341,6 +2389,24 @@
   },
   {
     "source": "TAP",
+    "title": "TAP: Rio de Janeiro (GIG) → Porto (OPO) - 16/08/2026 a 30/08/2026",
+    "destination": "Porto",
+    "destination_iata": "OPO",
+    "origin": "Rio de Janeiro",
+    "origin_iata": "GIG",
+    "price_brl": 4874.0,
+    "currency": "BRL",
+    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
+    "image_url": "https://assets.airtrfx.com/media-em/tp/porto-1-1500px.jpg",
+    "airline": "TAP",
+    "trip_type": "round_trip",
+    "departure_date": "16/08/2026",
+    "return_date": "30/08/2026",
+    "fetched_at": "2026-07-19T15:32:02.141885+00:00",
+    "id": "1adcc9e1b145"
+  },
+  {
+    "source": "TAP",
     "title": "TAP: Rio de Janeiro (GIG) → Porto (OPO) - 10/08/2026 a 26/08/2026",
     "destination": "Porto",
     "destination_iata": "OPO",
@@ -2392,6 +2458,24 @@
     "return_date": "22/08/2026",
     "fetched_at": "2026-07-19T01:03:33.342077+00:00",
     "id": "86e3a285a9bf"
+  },
+  {
+    "source": "TAP",
+    "title": "TAP: São Paulo (GRU) → Porto (OPO) - 01/08/2026 a 20/08/2026",
+    "destination": "Porto",
+    "destination_iata": "OPO",
+    "origin": "São Paulo",
+    "origin_iata": "GRU",
+    "price_brl": 4881.0,
+    "currency": "BRL",
+    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
+    "image_url": "https://assets.airtrfx.com/media-em/tp/porto-1-1500px.jpg",
+    "airline": "TAP",
+    "trip_type": "round_trip",
+    "departure_date": "01/08/2026",
+    "return_date": "20/08/2026",
+    "fetched_at": "2026-07-19T15:32:02.142227+00:00",
+    "id": "8324215c74ca"
   },
   {
     "source": "TAP",
@@ -2512,6 +2596,24 @@
     "return_date": "31/08/2026",
     "fetched_at": "2026-07-19T09:28:59.889553+00:00",
     "id": "d93f17b5eb15"
+  },
+  {
+    "source": "TAP",
+    "title": "TAP: São Paulo (GRU) → Dublin (DUB) - 21/07/2026 a 12/08/2026",
+    "destination": "Dublin",
+    "destination_iata": "DUB",
+    "origin": "São Paulo",
+    "origin_iata": "GRU",
+    "price_brl": 6082.0,
+    "currency": "BRL",
+    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
+    "image_url": "https://assets.airtrfx.com/media-em/tp/dublin-1-1500px.jpg",
+    "airline": "TAP",
+    "trip_type": "round_trip",
+    "departure_date": "21/07/2026",
+    "return_date": "12/08/2026",
+    "fetched_at": "2026-07-19T15:32:02.143444+00:00",
+    "id": "ad1d228db195"
   },
   {
     "source": "TAP",
