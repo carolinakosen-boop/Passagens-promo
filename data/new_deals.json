@@ -1,26 +1,14 @@
 [
   {
     "source": "Passagens Imperdíveis",
-    "title": "Passagens para PORTO SEGURO ou SALVADOR! A partir de R$ 434, ida e volta, c/ taxas!",
-    "destination": "Porto Seguro ou Salvador",
-    "price_brl": 434.0,
+    "title": "MUITO BOM!!! Passagens para a FINLÂNDIA: Helsinque! Inclusive na melhor época para as Auroras! A partir de R$ 3.853, ida e volta, c/ taxas! Opções com BAGAGEM INCLUÍDA!",
+    "destination": "Muito bom! Finlândia: Helsinque",
+    "price_brl": 3853.0,
     "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-porto-seguro-ou-salvador-2026-12/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/bahia-612x612.jpg",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-finlandia-helsinque-2026-16/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/aurora_1-612x612.jpg",
     "trip_type": "round_trip",
-    "fetched_at": "2026-07-19T16:59:24.642436+00:00",
-    "id": "283f67002b1e"
-  },
-  {
-    "source": "Passagens Imperdíveis",
-    "title": "APROVEITE ANTES QUE ACABE! IMPERDÍVEL!!! Passagens para a NOVA ZELÂNDIA: Auckland, Christchurch, Queenstown ou Wellington! A partir de R$ 5.353, ida e volta, c/ taxas!",
-    "destination": "Aproveite antes que acabe! Nova Zelândia",
-    "price_brl": 5353.0,
-    "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-nova-zelandia-auckland-christchurch-queenstown-wellington-2026-3/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/auckland_nova_zelandia_3_1-612x612.png",
-    "trip_type": "round_trip",
-    "fetched_at": "2026-07-19T16:59:24.642469+00:00",
-    "id": "0870e7855595"
+    "fetched_at": "2026-07-19T18:03:05.323322+00:00",
+    "id": "a460b7a0a3ab"
   }
 ]
