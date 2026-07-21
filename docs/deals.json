@@ -633,25 +633,6 @@
   },
   {
     "source": "GOL",
-    "title": "GOL: São Paulo (GRU) → Ilhéus (IOS) - 29/07/2026",
-    "destination": "Ilhéus",
-    "destination_iata": "IOS",
-    "origin": "São Paulo",
-    "origin_iata": "GRU",
-    "price_brl": 364.15,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/GRU/IOS",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/ilh%C3%A9us2-1500px-x-500px.png",
-    "airline": "GOL",
-    "trip_type": "one_way",
-    "travel_class": "Econômica",
-    "departure_date": "2026-07-29",
-    "return_date": "",
-    "fetched_at": "2026-07-20T10:13:15.565745+00:00",
-    "id": "477b8199fbc9"
-  },
-  {
-    "source": "GOL",
     "title": "GOL: São Paulo (CGH) → Recife (REC) - 16/10/2026",
     "destination": "Recife",
     "destination_iata": "REC",
@@ -1333,19 +1314,6 @@
     "id": "13b471a6bc3c"
   },
   {
-    "source": "Melhores Destinos",
-    "title": "Temporada de neve já começou! Viaje para o Chile com passagens para Santiago a partir de R$ 1.261 ida e volta",
-    "destination": "Chile",
-    "price_brl": 1261.0,
-    "currency": "BRL",
-    "link": "https://www.melhoresdestinos.com.br/promocao/neve-passagens-para-santiago-22jun26",
-    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2024/06/neve-ad-santiago-bariloche-capa-754x396.jpeg",
-    "airline": null,
-    "trip_type": "round_trip",
-    "fetched_at": "2026-07-20T10:13:08.557050+00:00",
-    "id": "3d5bddb05f84"
-  },
-  {
     "source": "GOL",
     "title": "GOL: Rio de Janeiro (GIG) → Ilhéus (IOS) - 24/07/2026",
     "destination": "Ilhéus",
@@ -1508,6 +1476,25 @@
     "return_date": "2026-08-11",
     "fetched_at": "2026-07-21T00:58:55.894549+00:00",
     "id": "114491920f8b"
+  },
+  {
+    "source": "GOL",
+    "title": "GOL: São Paulo (GRU) → Montevideo (MVD) - 28/07/2026 a 03/08/2026",
+    "destination": "Montevideo",
+    "destination_iata": "MVD",
+    "origin": "São Paulo",
+    "origin_iata": "GRU",
+    "price_brl": 1932.82,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/GRU/MVD",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/montevideo-2-1500px-x-500px.png",
+    "airline": "GOL",
+    "trip_type": "round_trip",
+    "travel_class": "Econômica",
+    "departure_date": "2026-07-28",
+    "return_date": "2026-08-03",
+    "fetched_at": "2026-07-21T12:08:45.308510+00:00",
+    "id": "08dd254637f4"
   },
   {
     "source": "GOL",
