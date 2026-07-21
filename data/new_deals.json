@@ -1,21 +1,14 @@
 [
   {
-    "source": "GOL",
-    "title": "GOL: São Paulo (GRU) → Santa Cruz de la Sierra (VVI) - 07/09/2026 a 30/09/2026",
-    "destination": "Santa Cruz de la Sierra",
-    "destination_iata": "VVI",
-    "origin": "São Paulo",
-    "origin_iata": "GRU",
-    "price_brl": 678.82,
+    "source": "Passagens Imperdíveis",
+    "title": "IMPERDÍVEL!!! Passagens para JERICOACOARA! Datas até Maio/27, inclusive férias e mais!&nbsp;A partir de R$ 529, ida e volta, c/ taxas! Opções de VOO DIRETO!",
+    "destination": "IMPERDÍVEL!!! Jericoacoara",
+    "price_brl": 529.0,
     "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/GRU/VVI",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/03-1500px-x-500px-5.png",
-    "airline": "GOL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-jericoacoara-2026-10/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/jericoacoara_brasil_naconais_02-612x612.png",
     "trip_type": "round_trip",
-    "travel_class": "Econômica",
-    "departure_date": "2026-09-07",
-    "return_date": "2026-09-30",
-    "fetched_at": "2026-07-21T22:04:35.794487+00:00",
-    "id": "9567a3d556ac"
+    "fetched_at": "2026-07-21T23:29:08.837272+00:00",
+    "id": "7269afca7b76"
   }
 ]
