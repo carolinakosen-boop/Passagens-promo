@@ -203,6 +203,25 @@
   },
   {
     "source": "GOL",
+    "title": "GOL: São Paulo (CGH) → Rio de Janeiro (SDU) - 20/08/2026",
+    "destination": "Rio de Janeiro",
+    "destination_iata": "SDU",
+    "origin": "São Paulo",
+    "origin_iata": "CGH",
+    "price_brl": 337.11,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/CGH/SDU",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/01-1500px-x-500px-5.png",
+    "airline": "GOL",
+    "trip_type": "one_way",
+    "travel_class": "Econômica",
+    "departure_date": "2026-08-20",
+    "return_date": "",
+    "fetched_at": "2026-07-24T15:01:46.544558+00:00",
+    "id": "c32e72fe6704"
+  },
+  {
+    "source": "GOL",
     "title": "GOL: São Paulo (CGH) → Rio de Janeiro (SDU) - 29/08/2026",
     "destination": "Rio de Janeiro",
     "destination_iata": "SDU",
@@ -348,6 +367,25 @@
   },
   {
     "source": "GOL",
+    "title": "GOL: São Paulo (GRU) → Ilhéus (IOS) - 27/07/2026",
+    "destination": "Ilhéus",
+    "destination_iata": "IOS",
+    "origin": "São Paulo",
+    "origin_iata": "GRU",
+    "price_brl": 372.7,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/GRU/IOS",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/ilh%C3%A9us2-1500px-x-500px.png",
+    "airline": "GOL",
+    "trip_type": "one_way",
+    "travel_class": "Econômica",
+    "departure_date": "2026-07-27",
+    "return_date": "",
+    "fetched_at": "2026-07-24T15:01:48.393043+00:00",
+    "id": "75d35c6edeb7"
+  },
+  {
+    "source": "GOL",
     "title": "GOL: São Paulo (GRU) → Ilhéus (IOS) - 28/07/2026",
     "destination": "Ilhéus",
     "destination_iata": "IOS",
@@ -364,6 +402,25 @@
     "return_date": "",
     "fetched_at": "2026-07-24T12:58:26.694206+00:00",
     "id": "90a3a6fcc6fd"
+  },
+  {
+    "source": "GOL",
+    "title": "GOL: Rio de Janeiro (GIG) → Salvador (SSA) - 06/08/2026",
+    "destination": "Salvador",
+    "destination_iata": "SSA",
+    "origin": "Rio de Janeiro",
+    "origin_iata": "GIG",
+    "price_brl": 374.81,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/GIG/SSA",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/02-1500px-x-500px-2.png",
+    "airline": "GOL",
+    "trip_type": "one_way",
+    "travel_class": "Econômica",
+    "departure_date": "2026-08-06",
+    "return_date": "",
+    "fetched_at": "2026-07-24T15:01:46.544573+00:00",
+    "id": "b149db7a8faf"
   },
   {
     "source": "GOL",
@@ -751,25 +808,6 @@
     "id": "41213d5165c2"
   },
   {
-    "source": "GOL",
-    "title": "GOL: Rio de Janeiro (GIG) → Ilhéus (IOS) - 31/07/2026",
-    "destination": "Ilhéus",
-    "destination_iata": "IOS",
-    "origin": "Rio de Janeiro",
-    "origin_iata": "GIG",
-    "price_brl": 778.81,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/GIG/IOS",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/ilh%C3%A9us2-1500px-x-500px.png",
-    "airline": "GOL",
-    "trip_type": "one_way",
-    "travel_class": "Econômica",
-    "departure_date": "2026-07-31",
-    "return_date": "",
-    "fetched_at": "2026-07-23T13:00:05.037435+00:00",
-    "id": "cf9075cc1678"
-  },
-  {
     "source": "Passagens Imperdíveis",
     "title": "Passagens para JERICOACOARA! O destino ideal para relaxar e aproveitar o litoral Cearense! A partir de R$ 884, ida e volta, c/ taxas!",
     "destination": "Jericoacoara",
@@ -799,6 +837,25 @@
     "return_date": "2026-08-10",
     "fetched_at": "2026-07-23T19:55:52.856094+00:00",
     "id": "777db3116def"
+  },
+  {
+    "source": "GOL",
+    "title": "GOL: Rio de Janeiro (GIG) → Ilhéus (IOS) - 31/07/2026",
+    "destination": "Ilhéus",
+    "destination_iata": "IOS",
+    "origin": "Rio de Janeiro",
+    "origin_iata": "GIG",
+    "price_brl": 931.81,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/GIG/IOS",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/ilh%C3%A9us2-1500px-x-500px.png",
+    "airline": "GOL",
+    "trip_type": "one_way",
+    "travel_class": "Econômica",
+    "departure_date": "2026-07-31",
+    "return_date": "",
+    "fetched_at": "2026-07-24T15:01:48.393068+00:00",
+    "id": "fde8c422fa2e"
   },
   {
     "source": "GOL",
@@ -1356,6 +1413,18 @@
     "id": "adfeb655c026"
   },
   {
+    "source": "Passagens Imperdíveis",
+    "title": "Continua muito bom! Programe sua viagem para MACHU PICCHU! Passagens para o PERU: Cusco ou Lima! A partir de R$ 1.507, ida e volta, c/ taxas! Opções de VOO DIRETO!",
+    "destination": "Cusco ou Lima, Peru",
+    "price_brl": 1507.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-cusco-ou-lima-2026-99/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/machu_picchu-612x612.jpg",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-07-24T15:01:45.652474+00:00",
+    "id": "9abe8131344d"
+  },
+  {
     "source": "GOL",
     "title": "GOL: São Paulo (GRU) → Santa Cruz de la Sierra (VVI) - 28/07/2026 a 30/07/2026",
     "destination": "Santa Cruz de la Sierra",
@@ -1461,6 +1530,44 @@
     "return_date": "",
     "fetched_at": "2026-07-23T21:07:21.777037+00:00",
     "id": "0ab0a054b6a2"
+  },
+  {
+    "source": "GOL",
+    "title": "GOL: São Paulo (CGH) → Curitiba (CWB) - 31/07/2026",
+    "destination": "Curitiba",
+    "destination_iata": "CWB",
+    "origin": "São Paulo",
+    "origin_iata": "CGH",
+    "price_brl": 1585.84,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/CGH/CWB",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/curitiba-1-1500px-x-500px.png",
+    "airline": "GOL",
+    "trip_type": "one_way",
+    "travel_class": "Econômica",
+    "departure_date": "2026-07-31",
+    "return_date": "",
+    "fetched_at": "2026-07-24T15:01:48.393085+00:00",
+    "id": "14b60d65f51d"
+  },
+  {
+    "source": "GOL",
+    "title": "GOL: São Paulo (CGH) → Belo Horizonte (CNF) - 31/07/2026",
+    "destination": "Belo Horizonte",
+    "destination_iata": "CNF",
+    "origin": "São Paulo",
+    "origin_iata": "CGH",
+    "price_brl": 1655.84,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/CGH/CNF",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/belo-horizonte-1-1500px-x-500px.png",
+    "airline": "GOL",
+    "trip_type": "one_way",
+    "travel_class": "Econômica",
+    "departure_date": "2026-07-31",
+    "return_date": "",
+    "fetched_at": "2026-07-24T15:01:48.393092+00:00",
+    "id": "de032af5adfe"
   },
   {
     "source": "GOL",
@@ -1746,6 +1853,25 @@
     "return_date": "2026-11-30",
     "fetched_at": "2026-07-23T19:55:52.855982+00:00",
     "id": "3b6f9dc36a8b"
+  },
+  {
+    "source": "GOL",
+    "title": "GOL: São Paulo (GRU) → Punta Cana (PUJ) - 26/07/2026 a 04/08/2026",
+    "destination": "Punta Cana",
+    "destination_iata": "PUJ",
+    "origin": "São Paulo",
+    "origin_iata": "GRU",
+    "price_brl": 2635.6,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/GRU/PUJ",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/punta-cana-2-1500px-x-500px.png",
+    "airline": "GOL",
+    "trip_type": "round_trip",
+    "travel_class": "Econômica",
+    "departure_date": "2026-07-26",
+    "return_date": "2026-08-04",
+    "fetched_at": "2026-07-24T15:01:48.393123+00:00",
+    "id": "e589f2034b41"
   },
   {
     "source": "GOL",
@@ -2134,6 +2260,19 @@
     "id": "4507d80e1a09"
   },
   {
+    "source": "Melhores Destinos",
+    "title": "Finlândia imperdível! 🔥 Passagens São Paulo – Helsinque por R$ 3.648 com bagagem e na época da aurora boreal",
+    "destination": null,
+    "price_brl": 3648.0,
+    "currency": "BRL",
+    "link": "https://www.melhoresdestinos.com.br/promocao/finlandia-sensacional-sao-paulo-helsinque-3651",
+    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2025/10/finlandia-aurora-boreal-passagens-aereas-754x396.jpg",
+    "airline": null,
+    "trip_type": "unknown",
+    "fetched_at": "2026-07-24T11:50:33+00:00",
+    "id": "9ec35ee256c4"
+  },
+  {
     "source": "Passagens Imperdíveis",
     "title": "Continua muito bom! Passagens para a FINLÂNDIA: Helsinque! Neve, lagos congelados e a chance de ver a Aurora Boreal! A partir de R$ 3.672, ida e volta, c/ taxas! Opções com BAGAGEM INCLUÍDA!",
     "destination": "Helsinque, Finlândia",
@@ -2169,6 +2308,18 @@
     "trip_type": "round_trip",
     "fetched_at": "2026-07-24T12:58:08.973255+00:00",
     "id": "3de146312fa1"
+  },
+  {
+    "source": "Passagens Imperdíveis",
+    "title": "IMPERDÍVEL!!! MUITO BOM!!! Passagens para a SUÉCIA: Estocolmo! Descubra uma das cidades mais encantadoras da Europa! A partir de R$ 3.919, ida e volta, c/ taxas! Opções com BAGAGEM INCLUÍDA!",
+    "destination": "IMPERDÍVEL!!! Estocolmo, Suécia",
+    "price_brl": 3919.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-suecia-estocolmo-2026-2/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/estolcolmo_suecia-612x612.png",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-07-24T15:01:45.652503+00:00",
+    "id": "d759861e31b9"
   },
   {
     "source": "TAP",
@@ -2500,6 +2651,18 @@
     "trip_type": "round_trip",
     "fetched_at": "2026-07-23T15:19:44.881860+00:00",
     "id": "5eb58bbeb518"
+  },
+  {
+    "source": "Passagens Imperdíveis",
+    "title": "MUITO BOM!!! Passagens para a CHINA: Pequim ou Xangai! A partir de R$ 5.496, ida e volta, c/ taxas! Em até 5x SEM JUROS! Opções com BAGAGEM INCLUÍDA!",
+    "destination": "Muito bom! China",
+    "price_brl": 5496.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-china-pequim-xangai-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/muralha_china_612-612x612.jpg",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-07-24T15:01:45.652514+00:00",
+    "id": "be93bbfd86e5"
   },
   {
     "source": "Passagens Imperdíveis",
