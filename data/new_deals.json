@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "source": "Melhores Destinos",
+    "title": "Portugal com a Gol! Promoção do novo voo para Lisboa: passagens a partir de R$ 3.064 ida e volta",
+    "destination": "Lisboa: passagens",
+    "price_brl": 3064.0,
+    "currency": "BRL",
+    "link": "https://www.melhoresdestinos.com.br/promocao/portugal-com-a-gol-promocao-do-novo-voo-para-lisboa-tem-passagens-a-partir-de-r-3-064-ida-e-volta",
+    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2026/07/gol-passagens-aereas-lisboa-754x396.jpg",
+    "airline": "GOL",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-07-23T12:03:15+00:00",
+    "id": "cb51e5479e50"
+  }
+]
