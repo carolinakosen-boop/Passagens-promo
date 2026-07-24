@@ -146,6 +146,25 @@
   },
   {
     "source": "GOL",
+    "title": "GOL: São Paulo (CGH) → Rio de Janeiro (SDU) - 27/09/2026",
+    "destination": "Rio de Janeiro",
+    "destination_iata": "SDU",
+    "origin": "São Paulo",
+    "origin_iata": "CGH",
+    "price_brl": 347.84,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/CGH/SDU",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/01-1500px-x-500px-5.png",
+    "airline": "GOL",
+    "trip_type": "one_way",
+    "travel_class": "Econômica",
+    "departure_date": "2026-09-27",
+    "return_date": "",
+    "fetched_at": "2026-07-24T00:02:25.483489+00:00",
+    "id": "767ce40e1f8a"
+  },
+  {
+    "source": "GOL",
     "title": "GOL: Rio de Janeiro (GIG) → Salvador (SSA) - 28/07/2026",
     "destination": "Salvador",
     "destination_iata": "SSA",
@@ -433,6 +452,18 @@
     "return_date": "2026-08-28",
     "fetched_at": "2026-07-23T08:36:18.650100+00:00",
     "id": "8c4ef9a2790a"
+  },
+  {
+    "source": "Passagens Imperdíveis",
+    "title": "Continua muito bom! Passagens para FERNANDO DE NORONHA ou JERICOACOARA! Datas inclusive no Verão, férias e mais! A partir de R$ 584, ida e volta, c/ taxas!",
+    "destination": "Fernando de Noronha ou Jericoacoara",
+    "price_brl": 584.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-fernando-de-noronha-ou-jericoacoara-2026-14/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/jericoacoara2-612x612.jpg",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-07-24T00:02:24.668923+00:00",
+    "id": "48bfe210b079"
   },
   {
     "source": "GOL",
@@ -1142,6 +1173,25 @@
     "id": "b331324fe0b8"
   },
   {
+    "source": "GOL",
+    "title": "GOL: São Paulo (GRU) → Mendoza (MDZ) - 10/09/2026 a 13/09/2026",
+    "destination": "Mendoza",
+    "destination_iata": "MDZ",
+    "origin": "São Paulo",
+    "origin_iata": "GRU",
+    "price_brl": 1518.85,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/GRU/MDZ",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/mendoza-2-1500px-x-500px.png",
+    "airline": "GOL",
+    "trip_type": "round_trip",
+    "travel_class": "Econômica",
+    "departure_date": "2026-09-10",
+    "return_date": "2026-09-13",
+    "fetched_at": "2026-07-24T00:02:25.483609+00:00",
+    "id": "a38db926038a"
+  },
+  {
     "source": "Passagens Imperdíveis",
     "title": "Programe sua viagem para MACHU PICCHU! Passagens para o PERU: Cusco ou Lima! A partir de R$ 1.543, ida e volta, c/ taxas! Opções de VOO DIRETO!",
     "destination": "Cusco ou Lima, Peru",
@@ -1699,6 +1749,19 @@
     "id": "76333d1cc234"
   },
   {
+    "source": "Melhores Destinos",
+    "title": "Portugal com a Gol muito bom! Promo do novo voo para Lisboa a partir de R$ 3.064 ida e volta saindo de várias cidades",
+    "destination": "Lisboa",
+    "price_brl": 3064.0,
+    "currency": "BRL",
+    "link": "https://www.melhoresdestinos.com.br/promocao/portugal-com-a-gol-promocao-do-novo-voo-para-lisboa-tem-passagens-a-partir-de-r-3-064-ida-e-volta",
+    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2026/07/gol-passagens-aereas-lisboa-754x396.jpg",
+    "airline": "GOL",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-07-23T12:03:15+00:00",
+    "id": "af4913d912f9"
+  },
+  {
     "source": "GOL",
     "title": "GOL: Rio de Janeiro (SDU) → Oranjestad, Aruba (AUA) - 06/10/2026 a 13/10/2026",
     "destination": "Oranjestad, Aruba",
@@ -1754,6 +1817,25 @@
     "return_date": "2026-09-29",
     "fetched_at": "2026-07-23T19:55:52.856087+00:00",
     "id": "61a26ee5046f"
+  },
+  {
+    "source": "GOL",
+    "title": "GOL: São Paulo (GRU) → Miami (MIA) - 11/08/2026 a 19/08/2026",
+    "destination": "Miami",
+    "destination_iata": "MIA",
+    "origin": "São Paulo",
+    "origin_iata": "GRU",
+    "price_brl": 3133.1,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/GRU/MIA",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/miami-1-1500px-x-500px-1.png",
+    "airline": "GOL",
+    "trip_type": "round_trip",
+    "travel_class": "Econômica",
+    "departure_date": "2026-08-11",
+    "return_date": "2026-08-19",
+    "fetched_at": "2026-07-24T00:02:25.483664+00:00",
+    "id": "f071d49bc839"
   },
   {
     "source": "GOL",
@@ -1952,6 +2034,19 @@
     "id": "4507d80e1a09"
   },
   {
+    "source": "Melhores Destinos",
+    "title": "Finlândia imperdível! 🔥 Passagens São Paulo – Helsinque por R$ 3.648 com bagagem e na época da aurora boreal",
+    "destination": null,
+    "price_brl": 3648.0,
+    "currency": "BRL",
+    "link": "https://www.melhoresdestinos.com.br/promocao/finlandia-sensacional-sao-paulo-helsinque-3651",
+    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2025/10/finlandia-aurora-boreal-passagens-aereas-754x396.jpg",
+    "airline": null,
+    "trip_type": "unknown",
+    "fetched_at": "2026-07-23T12:24:56+00:00",
+    "id": "9ec35ee256c4"
+  },
+  {
     "source": "Passagens Imperdíveis",
     "title": "IMPERDÍVEL!!! Porta de Entrada para a Aurora Boreal! Passagens para a FINLÂNDIA: Helsinque! Uma viagem pela Finlândia até um dos espetáculos naturais mais incríveis do mundo! A partir de R$ 3.678, ida",
     "destination": "IMPERDÍVEL!!! Aurora Boreal, Finlândia",
@@ -2032,6 +2127,24 @@
   },
   {
     "source": "TAP",
+    "title": "TAP: São Paulo (GRU) → Roma (FCO) - 03/08/2026 a 17/08/2026",
+    "destination": "Roma",
+    "destination_iata": "FCO",
+    "origin": "São Paulo",
+    "origin_iata": "GRU",
+    "price_brl": 4135.0,
+    "currency": "BRL",
+    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
+    "image_url": "https://assets.airtrfx.com/media-em/tp/roma-1-1500px.jpg",
+    "airline": "TAP",
+    "trip_type": "round_trip",
+    "departure_date": "03/08/2026",
+    "return_date": "17/08/2026",
+    "fetched_at": "2026-07-24T00:02:25.995063+00:00",
+    "id": "239829f106b9"
+  },
+  {
+    "source": "TAP",
     "title": "TAP: São Paulo (GRU) → Roma (FCO) - 08/08/2026 a 17/08/2026",
     "destination": "Roma",
     "destination_iata": "FCO",
@@ -2047,6 +2160,24 @@
     "return_date": "17/08/2026",
     "fetched_at": "2026-07-23T19:55:56.146124+00:00",
     "id": "4195e15d3e21"
+  },
+  {
+    "source": "TAP",
+    "title": "TAP: São Paulo (GRU) → Madri (MAD) - 17/08/2026 a 25/08/2026",
+    "destination": "Madri",
+    "destination_iata": "MAD",
+    "origin": "São Paulo",
+    "origin_iata": "GRU",
+    "price_brl": 4170.0,
+    "currency": "BRL",
+    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
+    "image_url": "https://assets.airtrfx.com/media-em/tp/madri-1-1500px.jpg",
+    "airline": "TAP",
+    "trip_type": "round_trip",
+    "departure_date": "17/08/2026",
+    "return_date": "25/08/2026",
+    "fetched_at": "2026-07-24T00:02:25.994965+00:00",
+    "id": "59b3ad99fcfb"
   },
   {
     "source": "TAP",
@@ -2203,6 +2334,24 @@
     "return_date": "28/08/2026",
     "fetched_at": "2026-07-23T15:19:47.376215+00:00",
     "id": "9e446749f909"
+  },
+  {
+    "source": "TAP",
+    "title": "TAP: São Paulo (GRU) → Paris (ORY) - 17/08/2026 a 04/09/2026",
+    "destination": "Paris",
+    "destination_iata": "ORY",
+    "origin": "São Paulo",
+    "origin_iata": "GRU",
+    "price_brl": 4611.0,
+    "currency": "BRL",
+    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
+    "image_url": "https://assets.airtrfx.com/media-em/tp/paris-1-1500px.jpg",
+    "airline": "TAP",
+    "trip_type": "round_trip",
+    "departure_date": "17/08/2026",
+    "return_date": "04/09/2026",
+    "fetched_at": "2026-07-24T00:02:25.995216+00:00",
+    "id": "eddf17fb741e"
   },
   {
     "source": "TAP",
