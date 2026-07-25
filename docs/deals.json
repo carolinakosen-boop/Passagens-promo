@@ -321,18 +321,6 @@
     "id": "9530c60f917c"
   },
   {
-    "source": "Passagens Imperdíveis",
-    "title": "Passagens para JERICOACOARA! Dunas, lagoas e praias paradisíacas em uma viagem inesquecível! A partir de R$ 881, ida e volta, c/ taxas!",
-    "destination": "Jericoacoara",
-    "price_brl": 881.0,
-    "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-jericoacoara-2026-12/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/jericoacoara5-612x612.jpg",
-    "trip_type": "round_trip",
-    "fetched_at": "2026-07-24T17:05:17.652143+00:00",
-    "id": "2301db5f45e2"
-  },
-  {
     "source": "GOL",
     "title": "GOL: Rio de Janeiro (RIO) → Montevideo (MVD) - 03/08/2026 a 10/08/2026",
     "destination": "Montevideo",
@@ -502,18 +490,6 @@
     "return_date": "",
     "fetched_at": "2026-07-25T01:02:31.489828+00:00",
     "id": "034be8c76cf7"
-  },
-  {
-    "source": "Passagens Imperdíveis",
-    "title": "PASSAGEM + HOSPEDAGEM em MACEIÓ! A partir de R$ 1.166, por pessoa, quarto duplo, c/ taxas! Em até 10x SEM JUROS!",
-    "destination": "Pacote: Maceió",
-    "price_brl": 1166.0,
-    "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-mais-hotel-para-brasil-maceio-2026-5/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/maceio_alagoas_brasil_3-612x612.jpg",
-    "trip_type": "round_trip",
-    "fetched_at": "2026-07-24T17:05:17.652155+00:00",
-    "id": "3703adc47c2f"
   },
   {
     "source": "Passagens Imperdíveis",
@@ -770,25 +746,6 @@
   },
   {
     "source": "GOL",
-    "title": "GOL: Rio de Janeiro (GIG) → Ilhéus (IOS) - 24/07/2026",
-    "destination": "Ilhéus",
-    "destination_iata": "IOS",
-    "origin": "Rio de Janeiro",
-    "origin_iata": "GIG",
-    "price_brl": 1393.81,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/GIG/IOS",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/ilh%C3%A9us2-1500px-x-500px.png",
-    "airline": "GOL",
-    "trip_type": "one_way",
-    "travel_class": "Econômica",
-    "departure_date": "2026-07-24",
-    "return_date": "",
-    "fetched_at": "2026-07-24T17:05:18.371987+00:00",
-    "id": "1e90ddff8c1b"
-  },
-  {
-    "source": "GOL",
     "title": "GOL: São Paulo (GRU) → Santa Cruz de la Sierra (VVI) - 29/07/2026 a 11/08/2026",
     "destination": "Santa Cruz de la Sierra",
     "destination_iata": "VVI",
@@ -836,25 +793,6 @@
     "return_date": "2026-09-13",
     "fetched_at": "2026-07-25T04:43:59.416644+00:00",
     "id": "a38db926038a"
-  },
-  {
-    "source": "GOL",
-    "title": "GOL: São Paulo (CGH) → Belo Horizonte (CNF) - 30/07/2026",
-    "destination": "Belo Horizonte",
-    "destination_iata": "CNF",
-    "origin": "São Paulo",
-    "origin_iata": "CGH",
-    "price_brl": 1655.84,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/CGH/CNF",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/belo-horizonte-1-1500px-x-500px.png",
-    "airline": "GOL",
-    "trip_type": "one_way",
-    "travel_class": "Econômica",
-    "departure_date": "2026-07-30",
-    "return_date": "",
-    "fetched_at": "2026-07-24T17:05:18.371994+00:00",
-    "id": "e6d490b7f7ab"
   },
   {
     "source": "GOL",
@@ -1066,6 +1004,18 @@
     "id": "24cd140a6e33"
   },
   {
+    "source": "Passagens Imperdíveis",
+    "title": "Programe sua viagem para a Disney ou Times Square! Passagens para NOVA YORK ou ORLANDO! Datas para viajar até Julho/27! A partir de R$ 2.454, ida e volta, c/ taxas!",
+    "destination": "Nova York ou Orlando",
+    "price_brl": 2454.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-nova-york-ou-orlando-2026-21/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/disney_orlando-612x612.png",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-07-25T18:03:06.874158+00:00",
+    "id": "ca658e48214c"
+  },
+  {
     "source": "GOL",
     "title": "GOL: São Paulo (SAO) → San José (SJO) - 23/08/2026 a 28/08/2026",
     "destination": "San José",
@@ -1229,6 +1179,18 @@
     "id": "a21a2b41e20d"
   },
   {
+    "source": "Passagens Imperdíveis",
+    "title": "MUITO BOM!!! Passagens para o EGITO: Cairo ou ÁFRICA DO SUL: Cape Town ou Joanesburgo! A partir de R$ 3.097, ida e volta, c/ taxas! Opções com BAGAGEM INCLUÍDA!",
+    "destination": "Muito bom! Egito ou África do Sul",
+    "price_brl": 3097.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-egito-cairo-africa-do-sul-cape-town-joanesburgo-2026-2/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/joanesburgo_jpg2-612x612.jpg",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-07-25T18:03:06.874120+00:00",
+    "id": "d4f02538428b"
+  },
+  {
     "source": "GOL",
     "title": "GOL: São Paulo (GRU) → Miami (MIA) - 11/08/2026 a 19/08/2026",
     "destination": "Miami",
@@ -1284,18 +1246,6 @@
     "return_date": "2026-11-08",
     "fetched_at": "2026-07-24T18:58:37.587627+00:00",
     "id": "32db90dc557c"
-  },
-  {
-    "source": "Passagens Imperdíveis",
-    "title": "Passagens para PORTUGAL: Lisboa ou Porto! Datas inclusive no Verão Europeu, férias e mais! A partir de R$ 3.589, ida e volta, c/ taxas! Em até 4x SEM JUROS!",
-    "destination": "Lisboa ou Porto",
-    "price_brl": 3589.0,
-    "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-portugal-lisboa-porto-2026-26/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/porto_portugal-612x612.png",
-    "trip_type": "round_trip",
-    "fetched_at": "2026-07-24T17:05:17.652101+00:00",
-    "id": "8973525daf9f"
   },
   {
     "source": "GOL",
@@ -1370,24 +1320,6 @@
     "trip_type": "unknown",
     "fetched_at": "2026-07-24T21:38:29.328491+00:00",
     "id": "0c3e919c4e26"
-  },
-  {
-    "source": "TAP",
-    "title": "TAP: São Paulo (GRU) → Milão (MXP) - 10/08/2026 a 23/08/2026",
-    "destination": "Milão",
-    "destination_iata": "MXP",
-    "origin": "São Paulo",
-    "origin_iata": "GRU",
-    "price_brl": 4098.0,
-    "currency": "BRL",
-    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
-    "image_url": "https://assets.airtrfx.com/media-em/tp/milao-1-1500px.jpg",
-    "airline": "TAP",
-    "trip_type": "round_trip",
-    "departure_date": "10/08/2026",
-    "return_date": "23/08/2026",
-    "fetched_at": "2026-07-24T17:05:18.606822+00:00",
-    "id": "6a86499dc05f"
   },
   {
     "source": "TAP",
@@ -1479,24 +1411,6 @@
     "return_date": "24/08/2026",
     "fetched_at": "2026-07-25T14:10:11.640874+00:00",
     "id": "96b6fc4dfc3a"
-  },
-  {
-    "source": "TAP",
-    "title": "TAP: São Paulo (GRU) → Paris (ORY) - 17/08/2026 a 25/08/2026",
-    "destination": "Paris",
-    "destination_iata": "ORY",
-    "origin": "São Paulo",
-    "origin_iata": "GRU",
-    "price_brl": 4579.0,
-    "currency": "BRL",
-    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
-    "image_url": "https://assets.airtrfx.com/media-em/tp/paris-1-1500px.jpg",
-    "airline": "TAP",
-    "trip_type": "round_trip",
-    "departure_date": "17/08/2026",
-    "return_date": "25/08/2026",
-    "fetched_at": "2026-07-24T17:05:18.606670+00:00",
-    "id": "05025c43f2b0"
   },
   {
     "source": "TAP",
@@ -1626,42 +1540,6 @@
   },
   {
     "source": "TAP",
-    "title": "TAP: Rio de Janeiro (GIG) → Porto (OPO) - 16/08/2026 a 24/08/2026",
-    "destination": "Porto",
-    "destination_iata": "OPO",
-    "origin": "Rio de Janeiro",
-    "origin_iata": "GIG",
-    "price_brl": 4825.0,
-    "currency": "BRL",
-    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
-    "image_url": "https://assets.airtrfx.com/media-em/tp/porto-1-1500px.jpg",
-    "airline": "TAP",
-    "trip_type": "round_trip",
-    "departure_date": "16/08/2026",
-    "return_date": "24/08/2026",
-    "fetched_at": "2026-07-24T17:05:18.606086+00:00",
-    "id": "1858e3436563"
-  },
-  {
-    "source": "TAP",
-    "title": "TAP: São Paulo (GRU) → Porto (OPO) - 10/08/2026 a 31/08/2026",
-    "destination": "Porto",
-    "destination_iata": "OPO",
-    "origin": "São Paulo",
-    "origin_iata": "GRU",
-    "price_brl": 4830.0,
-    "currency": "BRL",
-    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
-    "image_url": "https://assets.airtrfx.com/media-em/tp/porto-1-1500px.jpg",
-    "airline": "TAP",
-    "trip_type": "round_trip",
-    "departure_date": "10/08/2026",
-    "return_date": "31/08/2026",
-    "fetched_at": "2026-07-24T17:05:18.606182+00:00",
-    "id": "74c4a45f4d90"
-  },
-  {
-    "source": "TAP",
     "title": "TAP: Rio de Janeiro (GIG) → Porto (OPO) - 02/08/2026 a 02/09/2026",
     "destination": "Porto",
     "destination_iata": "OPO",
@@ -1788,24 +1666,6 @@
   },
   {
     "source": "TAP",
-    "title": "TAP: São Paulo (GRU) → Roma (FCO) - 06/08/2026 a 30/09/2026",
-    "destination": "Roma",
-    "destination_iata": "FCO",
-    "origin": "São Paulo",
-    "origin_iata": "GRU",
-    "price_brl": 5231.0,
-    "currency": "BRL",
-    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
-    "image_url": "https://assets.airtrfx.com/media-em/tp/roma-1-1500px.jpg",
-    "airline": "TAP",
-    "trip_type": "round_trip",
-    "departure_date": "06/08/2026",
-    "return_date": "30/09/2026",
-    "fetched_at": "2026-07-24T17:05:18.606581+00:00",
-    "id": "81d2ec31d388"
-  },
-  {
-    "source": "TAP",
     "title": "TAP: São Paulo (GRU) → Roma (FCO) - 08/08/2026 a 30/09/2026",
     "destination": "Roma",
     "destination_iata": "FCO",
@@ -1924,23 +1784,5 @@
     "trip_type": "round_trip",
     "fetched_at": "2026-07-25T14:10:08.637268+00:00",
     "id": "6489e5cc2f52"
-  },
-  {
-    "source": "TAP",
-    "title": "TAP: São Paulo (GRU) → Dublin (DUB) - 19/08/2026 a 19/10/2026",
-    "destination": "Dublin",
-    "destination_iata": "DUB",
-    "origin": "São Paulo",
-    "origin_iata": "GRU",
-    "price_brl": 7096.0,
-    "currency": "BRL",
-    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
-    "image_url": "https://assets.airtrfx.com/media-em/tp/dublin-1-1500px.jpg",
-    "airline": "TAP",
-    "trip_type": "round_trip",
-    "departure_date": "19/08/2026",
-    "return_date": "19/10/2026",
-    "fetched_at": "2026-07-24T17:05:18.606909+00:00",
-    "id": "139cabd261ad"
   }
 ]
