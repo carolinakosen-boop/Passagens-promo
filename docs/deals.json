@@ -20,25 +20,6 @@
   },
   {
     "source": "GOL",
-    "title": "GOL: Rio de Janeiro (RIO) → São Paulo (CGH) - 11/11/2026",
-    "destination": "São Paulo",
-    "destination_iata": "CGH",
-    "origin": "Rio de Janeiro",
-    "origin_iata": "RIO",
-    "price_brl": 275.81,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/RIO/CGH",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/03-1500px-x-500px.png",
-    "airline": "GOL",
-    "trip_type": "one_way",
-    "travel_class": "Econômica",
-    "departure_date": "2026-11-11",
-    "return_date": "",
-    "fetched_at": "2026-07-25T15:40:29.749528+00:00",
-    "id": "d5114c05af13"
-  },
-  {
-    "source": "GOL",
     "title": "GOL: São Paulo (CGH) → Rio de Janeiro (SDU) - 23/10/2026",
     "destination": "Rio de Janeiro",
     "destination_iata": "SDU",
@@ -713,25 +694,6 @@
   },
   {
     "source": "GOL",
-    "title": "GOL: São Paulo (CGH) → Rio de Janeiro (GIG) - 31/07/2026",
-    "destination": "Rio de Janeiro",
-    "destination_iata": "GIG",
-    "origin": "São Paulo",
-    "origin_iata": "CGH",
-    "price_brl": 1284.7,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/CGH/GIG",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/01-1500px-x-500px-5.png",
-    "airline": "GOL",
-    "trip_type": "one_way",
-    "travel_class": "Econômica",
-    "departure_date": "2026-07-31",
-    "return_date": "",
-    "fetched_at": "2026-07-25T15:40:29.979323+00:00",
-    "id": "c190890c1bc0"
-  },
-  {
-    "source": "GOL",
     "title": "GOL: São Paulo (GRU) → Santa Cruz de la Sierra (VVI) - 27/07/2026 a 10/08/2026",
     "destination": "Santa Cruz de la Sierra",
     "destination_iata": "VVI",
@@ -805,25 +767,6 @@
     "return_date": "2026-08-20",
     "fetched_at": "2026-07-25T19:43:41.575092+00:00",
     "id": "b12b3513ac8b"
-  },
-  {
-    "source": "GOL",
-    "title": "GOL: São Paulo (GRU) → Santa Cruz de la Sierra (VVI) - 29/07/2026 a 11/08/2026",
-    "destination": "Santa Cruz de la Sierra",
-    "destination_iata": "VVI",
-    "origin": "São Paulo",
-    "origin_iata": "GRU",
-    "price_brl": 1421.65,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/GRU/VVI",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/03-1500px-x-500px-5.png",
-    "airline": "GOL",
-    "trip_type": "round_trip",
-    "travel_class": "Econômica",
-    "departure_date": "2026-07-29",
-    "return_date": "2026-08-11",
-    "fetched_at": "2026-07-25T15:40:29.979335+00:00",
-    "id": "452dfcf784c0"
   },
   {
     "source": "GOL",
@@ -1136,19 +1079,6 @@
     "id": "f610546149c6"
   },
   {
-    "source": "Melhores Destinos",
-    "title": "Orlando com bons preços: passagens a partir de R$ 2.380 ida e volta saindo de São Paulo e mais cidades",
-    "destination": null,
-    "price_brl": 2380.0,
-    "currency": "BRL",
-    "link": "https://www.melhoresdestinos.com.br/promocao/orlando-bons-precos-2380",
-    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2024/02/apartamentos-orlando-capa-754x396.jpg",
-    "airline": null,
-    "trip_type": "round_trip",
-    "fetched_at": "2026-07-25T15:40:17.545012+00:00",
-    "id": "24cd140a6e33"
-  },
-  {
     "source": "Passagens Imperdíveis",
     "title": "Programe sua viagem para a Disney ou Times Square! Passagens para NOVA YORK ou ORLANDO! Datas para viajar até Julho/27! A partir de R$ 2.454, ida e volta, c/ taxas!",
     "destination": "Nova York ou Orlando",
@@ -1382,6 +1312,19 @@
     "id": "8cf587059653"
   },
   {
+    "source": "Melhores Destinos",
+    "title": "Voos para Portugal com bons preços saindo de várias cidades: Lisboa ou Porto a partir de R$ 3.048 ida e volta",
+    "destination": "Portugal",
+    "price_brl": 3048.0,
+    "currency": "BRL",
+    "link": "https://www.melhoresdestinos.com.br/promocao/portugal-bons-precos-cidades-3048",
+    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2021/10/lisboa-portugal-capa2-754x396.jpg",
+    "airline": null,
+    "trip_type": "round_trip",
+    "fetched_at": "2026-07-26T16:02:40.755936+00:00",
+    "id": "76333d1cc234"
+  },
+  {
     "source": "Passagens Imperdíveis",
     "title": "Oportunidade! Passagens para LISBOA ou MADRI! A partir de R$ 3.057, ida e volta, c/ taxas!",
     "destination": "Lisboa ou Madri",
@@ -1483,6 +1426,25 @@
   },
   {
     "source": "GOL",
+    "title": "GOL: São Paulo (SAO) → Miami (MIA) - 12/09/2026 a 27/09/2026",
+    "destination": "Miami",
+    "destination_iata": "MIA",
+    "origin": "São Paulo",
+    "origin_iata": "SAO",
+    "price_brl": 3234.11,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/SAO/MIA",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/miami-1-1500px-x-500px-1.png",
+    "airline": "GOL",
+    "trip_type": "round_trip",
+    "travel_class": "Econômica",
+    "departure_date": "2026-09-12",
+    "return_date": "2026-09-27",
+    "fetched_at": "2026-07-26T16:02:42.116376+00:00",
+    "id": "44edce7a0287"
+  },
+  {
+    "source": "GOL",
     "title": "GOL: São Paulo (GRU) → Nova York (JFK) - 10/12/2026 a 16/06/2027",
     "destination": "Nova York",
     "destination_iata": "JFK",
@@ -1552,31 +1514,6 @@
   },
   {
     "source": "Passagens Imperdíveis",
-    "title": "MUITO BOM!!! Passagens para a FINLÂNDIA: Helsinque! Inclusive na melhor época das Auroras Boreais! A partir de R$ 3.661, ida e volta, c/ taxas! Opções com BAGAGEM INCLUÍDA!",
-    "destination": "Muito bom! Finlândia: Helsinque",
-    "price_brl": 3661.0,
-    "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-finlandia-helsinque-2026-23/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/aurora_3-612x612.jpg",
-    "trip_type": "round_trip",
-    "fetched_at": "2026-07-25T15:40:28.800857+00:00",
-    "id": "d286802770c3"
-  },
-  {
-    "source": "Melhores Destinos",
-    "title": "Itália: voos para Milão, Veneza, Roma e mais cidades a partir de R$ 3.771 ida e volta",
-    "destination": "Milão, Veneza, Roma e mais cidades",
-    "price_brl": 3771.0,
-    "currency": "BRL",
-    "link": "https://www.melhoresdestinos.com.br/promocao/italia-voos-para-milao-veneza-roma-e-mais-cidades-a-partir-de-r-3-771-ida-e-volta",
-    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-roma-capa2019-01-754x396.jpg",
-    "airline": null,
-    "trip_type": "round_trip",
-    "fetched_at": "2026-07-25T15:40:18.145862+00:00",
-    "id": "3de146312fa1"
-  },
-  {
-    "source": "Passagens Imperdíveis",
     "title": "Passagens 2 em 1 – LISBOA + MADRI! Datas inclusive no Verão Europeu, férias e mais! A partir de R$ 4.074, todos os trechos, c/ taxas! Em até 10x SEM JUROS!",
     "destination": "2 em 1: Lisboa + Madri",
     "price_brl": 4074.0,
@@ -1622,25 +1559,6 @@
     "return_date": "20/08/2026",
     "fetched_at": "2026-07-26T04:58:36.772527+00:00",
     "id": "c584ed63a1e4"
-  },
-  {
-    "source": "GOL",
-    "title": "GOL: Rio de Janeiro (GIG) → Nova York (JFK) - 28/07/2026 a 07/08/2026",
-    "destination": "Nova York",
-    "destination_iata": "JFK",
-    "origin": "Rio de Janeiro",
-    "origin_iata": "GIG",
-    "price_brl": 4152.13,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/GIG/JFK",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/JFK_7_11zon.png",
-    "airline": "GOL",
-    "trip_type": "round_trip",
-    "travel_class": "Econômica",
-    "departure_date": "2026-07-28",
-    "return_date": "2026-08-07",
-    "fetched_at": "2026-07-25T15:40:29.979354+00:00",
-    "id": "616c8f0a75ba"
   },
   {
     "source": "TAP",
@@ -1940,6 +1858,18 @@
     "id": "de2364b7661f"
   },
   {
+    "source": "Passagens Imperdíveis",
+    "title": "MUITO BOM!!! Passagens para a CHINA: Xangai ou Hong Kong! A partir de R$ 5.187, ida e volta, c/ taxas! Opções com BAGAGEM INCLUÍDA!",
+    "destination": "Muito bom! China",
+    "price_brl": 5187.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-china-xangai-hong-kong-hong-kong-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/hong_kong_china_612-612x612.jpg",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-07-26T16:02:41.226429+00:00",
+    "id": "5b4e718c5661"
+  },
+  {
     "source": "TAP",
     "title": "TAP: São Paulo (GRU) → Londres (LGW) - 18/08/2026 a 02/09/2026",
     "destination": "Londres",
@@ -2011,6 +1941,19 @@
     "return_date": "06/11/2026",
     "fetched_at": "2026-07-26T11:45:07.399019+00:00",
     "id": "c76562e12327"
+  },
+  {
+    "source": "Melhores Destinos",
+    "title": "🇦🇺 Austrália ou Nova Zelândia 🇳🇿 Passagens aéreas a partir de R$ 6.911 ida e volta saindo do Rio, São Paulo e mais cidades!",
+    "destination": null,
+    "price_brl": 6911.0,
+    "currency": "BRL",
+    "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-nova-zelandia-australia-29-04-26",
+    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-auckland-capa2019-01-754x396.jpg",
+    "airline": null,
+    "trip_type": "round_trip",
+    "fetched_at": "2026-07-26T16:02:39.850615+00:00",
+    "id": "6489e5cc2f52"
   },
   {
     "source": "TAP",
