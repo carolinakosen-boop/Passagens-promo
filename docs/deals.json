@@ -176,18 +176,6 @@
     "id": "e728372cc459"
   },
   {
-    "source": "Passagens Imperdíveis",
-    "title": "Passagens para as PRAIAS DO NORDESTE NO 1º SEMESTRE: Aracaju, Fortaleza, Ilhéus, Jericoacoara, João Pessoa, Maceió, Natal, Porto Seguro, Recife, Salvador ou São Luís! A partir de R$ 360, ida e volta!",
-    "destination": "Praias do Nordeste no 1º semestre",
-    "price_brl": 360.0,
-    "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/passagens-nacionais-praias-nordeste-2026-100/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/salvador_bahia_brasil-612x612.png",
-    "trip_type": "round_trip",
-    "fetched_at": "2026-07-25T23:01:58.368165+00:00",
-    "id": "270d7191555a"
-  },
-  {
     "source": "GOL",
     "title": "GOL: Rio de Janeiro (GIG) → Salvador (SSA) - 04/08/2026",
     "destination": "Salvador",
@@ -331,25 +319,6 @@
     "return_date": "2026-08-16",
     "fetched_at": "2026-07-26T20:29:48.549352+00:00",
     "id": "8c64953db9af"
-  },
-  {
-    "source": "GOL",
-    "title": "GOL: São Paulo (GRU) → Buenos Aires (AEP) - 25/09/2026 a 29/09/2026",
-    "destination": "Buenos Aires",
-    "destination_iata": "AEP",
-    "origin": "São Paulo",
-    "origin_iata": "GRU",
-    "price_brl": 691.75,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/GRU/AEP",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/buenos-aires-2-1500px-x-500px.png",
-    "airline": "GOL",
-    "trip_type": "round_trip",
-    "travel_class": "Econômica",
-    "departure_date": "2026-09-25",
-    "return_date": "2026-09-29",
-    "fetched_at": "2026-07-25T23:01:59.081035+00:00",
-    "id": "9530c60f917c"
   },
   {
     "source": "GOL",
@@ -623,19 +592,6 @@
     "id": "2ccf5bc42a11"
   },
   {
-    "source": "Melhores Destinos",
-    "title": "Temporada de neve já começou! Viaje para o Chile com passagens para Santiago a partir de R$ 1.261 ida e volta",
-    "destination": "Chile",
-    "price_brl": 1261.0,
-    "currency": "BRL",
-    "link": "https://www.melhoresdestinos.com.br/promocao/neve-passagens-para-santiago-22jun26",
-    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2024/06/neve-ad-santiago-bariloche-capa-754x396.jpeg",
-    "airline": null,
-    "trip_type": "round_trip",
-    "fetched_at": "2026-07-25T23:01:50.329271+00:00",
-    "id": "3d5bddb05f84"
-  },
-  {
     "source": "GOL",
     "title": "GOL: São Paulo (GRU) → Buenos Aires (AEP) - 17/08/2026 a 22/08/2026",
     "destination": "Buenos Aires",
@@ -770,25 +726,6 @@
   },
   {
     "source": "GOL",
-    "title": "GOL: São Paulo (CGH) → Rio de Janeiro (GIG) - 29/07/2026",
-    "destination": "Rio de Janeiro",
-    "destination_iata": "GIG",
-    "origin": "São Paulo",
-    "origin_iata": "CGH",
-    "price_brl": 1431.84,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/CGH/GIG",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/01-1500px-x-500px-5.png",
-    "airline": "GOL",
-    "trip_type": "one_way",
-    "travel_class": "Econômica",
-    "departure_date": "2026-07-29",
-    "return_date": "",
-    "fetched_at": "2026-07-25T23:02:01.047514+00:00",
-    "id": "768266f9da39"
-  },
-  {
-    "source": "GOL",
     "title": "GOL: São Paulo (CGH) → Belo Horizonte (CNF) - 30/07/2026",
     "destination": "Belo Horizonte",
     "destination_iata": "CNF",
@@ -865,25 +802,6 @@
   },
   {
     "source": "GOL",
-    "title": "GOL: São Paulo (CGH) → Curitiba (CWB) - 25/07/2026",
-    "destination": "Curitiba",
-    "destination_iata": "CWB",
-    "origin": "São Paulo",
-    "origin_iata": "CGH",
-    "price_brl": 1690.28,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/CGH/CWB",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/curitiba-1-1500px-x-500px.png",
-    "airline": "GOL",
-    "trip_type": "one_way",
-    "travel_class": "Econômica",
-    "departure_date": "2026-07-25",
-    "return_date": "",
-    "fetched_at": "2026-07-25T23:02:01.047519+00:00",
-    "id": "933008711fd1"
-  },
-  {
-    "source": "GOL",
     "title": "GOL: São Paulo (GRU) → Oranjestad, Aruba (AUA) - 31/07/2026 a 11/08/2026",
     "destination": "Oranjestad, Aruba",
     "destination_iata": "AUA",
@@ -900,25 +818,6 @@
     "return_date": "2026-08-11",
     "fetched_at": "2026-07-26T21:30:27.589069+00:00",
     "id": "4a7791c20f4a"
-  },
-  {
-    "source": "GOL",
-    "title": "GOL: São Paulo (CGH) → Belo Horizonte (CNF) - 30/07/2026",
-    "destination": "Belo Horizonte",
-    "destination_iata": "CNF",
-    "origin": "São Paulo",
-    "origin_iata": "CGH",
-    "price_brl": 1722.11,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/CGH/CNF",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/belo-horizonte-1-1500px-x-500px.png",
-    "airline": "GOL",
-    "trip_type": "one_way",
-    "travel_class": "Econômica",
-    "departure_date": "2026-07-30",
-    "return_date": "",
-    "fetched_at": "2026-07-25T23:02:01.047523+00:00",
-    "id": "652cb3fb0544"
   },
   {
     "source": "GOL",
@@ -1109,18 +1008,6 @@
     "return_date": "2026-11-09",
     "fetched_at": "2026-07-26T20:29:48.549269+00:00",
     "id": "ad9adec91df2"
-  },
-  {
-    "source": "Passagens Imperdíveis",
-    "title": "Passagens para BOSTON ou CHICAGO! Datas inclusive na Primavera, férias e mais! A partir de R$ 2.647, ida e volta, c/ taxas! Em até 6x SEM JUROS!",
-    "destination": "Boston ou Chicago",
-    "price_brl": 2647.0,
-    "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-boston-ou-chicago-2026-8/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/chicago_estados_unidos_eua_8-612x612.png",
-    "trip_type": "round_trip",
-    "fetched_at": "2026-07-25T23:01:58.368170+00:00",
-    "id": "546a53ce4248"
   },
   {
     "source": "GOL",
@@ -1500,18 +1387,6 @@
     "id": "07b0489a1c71"
   },
   {
-    "source": "Passagens Imperdíveis",
-    "title": "Passagens 2 em 1 – LISBOA + MADRI! Datas inclusive no Verão Europeu, férias e mais! A partir de R$ 4.074, todos os trechos, c/ taxas! Em até 10x SEM JUROS!",
-    "destination": "2 em 1: Lisboa + Madri",
-    "price_brl": 4074.0,
-    "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-2-em-1lisboa-ou-madri-2026-11/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/60dfe2b7_a2cb_44f5_b1c8_c383751b8468-612x612.jpg",
-    "trip_type": "unknown",
-    "fetched_at": "2026-07-25T23:01:58.368182+00:00",
-    "id": "0c3e919c4e26"
-  },
-  {
     "source": "TAP",
     "title": "TAP: São Paulo (GRU) → Milão (MXP) - 02/08/2026 a 17/08/2026",
     "destination": "Milão",
@@ -1528,6 +1403,24 @@
     "return_date": "17/08/2026",
     "fetched_at": "2026-07-26T22:59:38.361888+00:00",
     "id": "ed874271f0ad"
+  },
+  {
+    "source": "TAP",
+    "title": "TAP: São Paulo (GRU) → Roma (FCO) - 11/08/2026 a 20/08/2026",
+    "destination": "Roma",
+    "destination_iata": "FCO",
+    "origin": "São Paulo",
+    "origin_iata": "GRU",
+    "price_brl": 4108.0,
+    "currency": "BRL",
+    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
+    "image_url": "https://assets.airtrfx.com/media-em/tp/roma-1-1500px.jpg",
+    "airline": "TAP",
+    "trip_type": "round_trip",
+    "departure_date": "11/08/2026",
+    "return_date": "20/08/2026",
+    "fetched_at": "2026-07-27T00:08:27.283178+00:00",
+    "id": "e80bd5c886cd"
   },
   {
     "source": "TAP",
@@ -1656,25 +1549,6 @@
     "return_date": "2026-08-14",
     "fetched_at": "2026-07-26T14:48:44.309215+00:00",
     "id": "87a9abc1275b"
-  },
-  {
-    "source": "GOL",
-    "title": "GOL: Rio de Janeiro (GIG) → Nova York (JFK) - 25/07/2026 a 11/08/2026",
-    "destination": "Nova York",
-    "destination_iata": "JFK",
-    "origin": "Rio de Janeiro",
-    "origin_iata": "GIG",
-    "price_brl": 4419.38,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/GIG/JFK",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/JFK_7_11zon.png",
-    "airline": "GOL",
-    "trip_type": "round_trip",
-    "travel_class": "Econômica",
-    "departure_date": "2026-07-25",
-    "return_date": "2026-08-11",
-    "fetched_at": "2026-07-25T23:02:01.047547+00:00",
-    "id": "2bc7e74f5dfd"
   },
   {
     "source": "TAP",
@@ -1929,18 +1803,6 @@
     "id": "8ca4a1b76b45"
   },
   {
-    "source": "Passagens Imperdíveis",
-    "title": "CORRE!!! AINDA DÁ TEMPO!!! Passagens para o JAPÃO: Nagoya, Osaka ou Tokyo! A partir de R$ 4.998, ida e volta, c/ taxas! Em até 6x SEM JUROS! Opções com BAGAGEM INCLUÍDA!",
-    "destination": "CORRE!!! AINDA DÁ TEMPO!!! Japão",
-    "price_brl": 4998.0,
-    "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-japao-nagoya-osaka-tokyo-2026-54/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/tokyo3-612x612.jpg",
-    "trip_type": "round_trip",
-    "fetched_at": "2026-07-25T23:01:58.368159+00:00",
-    "id": "f19daf0725dc"
-  },
-  {
     "source": "Melhores Destinos",
     "title": "China bom demais! Voos para Xangai ou Pequim desde R$ 5.048 saindo de SP ou Rio voando Lufthansa",
     "destination": "Xangai ou Pequim",
@@ -2000,25 +1862,6 @@
     "return_date": "29/08/2026",
     "fetched_at": "2026-07-26T04:58:36.772704+00:00",
     "id": "1196f3cee718"
-  },
-  {
-    "source": "GOL",
-    "title": "GOL: São Paulo (GRU) → Montevideo (MVD) - 25/07/2026 a 29/07/2026",
-    "destination": "Montevideo",
-    "destination_iata": "MVD",
-    "origin": "São Paulo",
-    "origin_iata": "GRU",
-    "price_brl": 5713.63,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/GRU/MVD",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/montevideo-2-1500px-x-500px.png",
-    "airline": "GOL",
-    "trip_type": "round_trip",
-    "travel_class": "Econômica",
-    "departure_date": "2026-07-25",
-    "return_date": "2026-07-29",
-    "fetched_at": "2026-07-25T23:02:01.047553+00:00",
-    "id": "2b42a01377f4"
   },
   {
     "source": "TAP",
