@@ -19,6 +19,18 @@
     "id": "b562d6558cc0"
   },
   {
+    "source": "Passagens Imperdíveis",
+    "title": "Passagens para o RIO DE JANEIRO ou SÃO PAULO! Datas inclusive nas Férias, feriados e mais! A partir de R$ 251, ida e volta, c/ taxas!",
+    "destination": "Rio de Janeiro ou São Paulo",
+    "price_brl": 251.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-rio-de-janeiro-ou-sao-paulo-2026-50/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/sao_paulo_sp_brasil_1_2-612x612.png",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-07-28T16:46:42.531399+00:00",
+    "id": "c1670381d968"
+  },
+  {
     "source": "GOL",
     "title": "GOL: São Paulo (CGH) → Rio de Janeiro (SDU) - 06/10/2026",
     "destination": "Rio de Janeiro",
@@ -131,6 +143,18 @@
     "return_date": "",
     "fetched_at": "2026-07-28T14:59:38.591118+00:00",
     "id": "2f5d296497bf"
+  },
+  {
+    "source": "Passagens Imperdíveis",
+    "title": "Programe sua viagem para a Ilha do Mel! Passagens para CURITIBA! Datas inclusive nas Férias, feriados e mais! A partir de R$ 368, ida e volta, c/ taxas!",
+    "destination": "Curitiba",
+    "price_brl": 368.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-curitiba-2026-20/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/ilha_do_mel-612x612.jpg",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-07-28T16:46:42.531367+00:00",
+    "id": "d9cf9110032e"
   },
   {
     "source": "GOL",
@@ -597,6 +621,25 @@
     "id": "8cafaf920d21"
   },
   {
+    "source": "GOL",
+    "title": "GOL: São Paulo (GRU) → Montevideo (MVD) - 07/09/2026 a 30/09/2026",
+    "destination": "Montevideo",
+    "destination_iata": "MVD",
+    "origin": "São Paulo",
+    "origin_iata": "GRU",
+    "price_brl": 1256.97,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/GRU/MVD",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/montevideo-2-1500px-x-500px.png",
+    "airline": "GOL",
+    "trip_type": "round_trip",
+    "travel_class": "Econômica",
+    "departure_date": "2026-09-07",
+    "return_date": "2026-09-30",
+    "fetched_at": "2026-07-28T16:46:43.687214+00:00",
+    "id": "b61e7c898b32"
+  },
+  {
     "source": "Melhores Destinos",
     "title": "Temporada de neve já começou! Viaje para o Chile com passagens para Santiago a partir de R$ 1.261 ida e volta",
     "destination": "Chile",
@@ -857,6 +900,18 @@
     "id": "3b980478486b"
   },
   {
+    "source": "Passagens Imperdíveis",
+    "title": "Programe sua viagem para o Salar de Uyuni! Passagens para a BOLÍVIA: Cochabamba, La Paz ou Santa Cruz de la Sierra! A partir de R$ 1.410, ida e volta, c/ taxas! Em até 5x SEM JUROS! Opções de VOO DIRE",
+    "destination": "Bolívia",
+    "price_brl": 1410.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-bolivia-cochabamba-la-paz-santa-cruz-de-la-sierra-2026-11/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/salar_uyuni_colombia-612x612.png",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-07-28T16:46:42.531339+00:00",
+    "id": "8e8d0348ec33"
+  },
+  {
     "source": "GOL",
     "title": "GOL: São Paulo (GRU) → Santa Cruz de la Sierra (VVI) - 28/07/2026 a 10/08/2026",
     "destination": "Santa Cruz de la Sierra",
@@ -931,6 +986,18 @@
     "return_date": "2026-08-07",
     "fetched_at": "2026-07-28T12:21:30.887634+00:00",
     "id": "97046d8889f1"
+  },
+  {
+    "source": "Passagens Imperdíveis",
+    "title": "DESERTO DO ATACAMA, no Chile! Passagens para CALAMA ou COPIAPO! Datas inclusive no Inverno, férias e mais! A partir de R$ 1.629, ida e volta, c/ taxas!",
+    "destination": "Deserto do Atacama, Chile",
+    "price_brl": 1629.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-calama-ou-copiapo-2026-18/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/atacama_chile_612-612x612.jpg",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-07-28T16:46:42.531409+00:00",
+    "id": "7f135bfec1ff"
   },
   {
     "source": "Passagens Imperdíveis",
@@ -1040,6 +1107,25 @@
     "id": "29c02c10bf54"
   },
   {
+    "source": "GOL",
+    "title": "GOL: São Paulo (GRU) → Punta Cana (PUJ) - 18/08/2026 a 25/08/2026",
+    "destination": "Punta Cana",
+    "destination_iata": "PUJ",
+    "origin": "São Paulo",
+    "origin_iata": "GRU",
+    "price_brl": 2121.23,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/GRU/PUJ",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/punta-cana-2-1500px-x-500px.png",
+    "airline": "GOL",
+    "trip_type": "round_trip",
+    "travel_class": "Econômica",
+    "departure_date": "2026-08-18",
+    "return_date": "2026-08-25",
+    "fetched_at": "2026-07-28T16:46:43.687106+00:00",
+    "id": "501b316c90ce"
+  },
+  {
     "source": "Melhores Destinos",
     "title": "Bora para Orlando? Voos a partir de R$ 2.151 ida e volta saindo de várias cidades",
     "destination": "Orlando? Voos",
@@ -1127,6 +1213,25 @@
     "return_date": "",
     "fetched_at": "2026-07-28T14:59:38.792329+00:00",
     "id": "d0b4b449c067"
+  },
+  {
+    "source": "GOL",
+    "title": "GOL: São Paulo (GRU) → Oranjestad, Aruba (AUA) - 13/10/2026 a 20/10/2026",
+    "destination": "Oranjestad, Aruba",
+    "destination_iata": "AUA",
+    "origin": "São Paulo",
+    "origin_iata": "GRU",
+    "price_brl": 2229.75,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/GRU/AUA",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/02-1500px-x-500px-3.png",
+    "airline": "GOL",
+    "trip_type": "round_trip",
+    "travel_class": "Econômica",
+    "departure_date": "2026-10-13",
+    "return_date": "2026-10-20",
+    "fetched_at": "2026-07-28T16:46:43.687128+00:00",
+    "id": "2d12d9a8341e"
   },
   {
     "source": "GOL",
@@ -1335,6 +1440,30 @@
     "trip_type": "round_trip",
     "fetched_at": "2026-07-27T21:39:45.073188+00:00",
     "id": "707459589486"
+  },
+  {
+    "source": "Passagens Imperdíveis",
+    "title": "Passagens para BOSTON ou CHICAGO! Passeie pela Freedom Trail em Boston ou admire o skyline às margens do Lago Michigan em Chicago! A partir de R$ 2.657, ida e volta, c/ taxas! Em até 6x SEM JUROS!",
+    "destination": "Boston ou Chicago",
+    "price_brl": 2657.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-boston-ou-chicago-2026-9/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/chicago_estados_unidos_eua-612x612.png",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-07-28T16:46:42.531376+00:00",
+    "id": "367284190654"
+  },
+  {
+    "source": "Passagens Imperdíveis",
+    "title": "Passagens para NOVA YORK ou ORLANDO! Datas inclusive na Primavera, férias e mais! A partir de R$ 2.657, ida e volta, c/ taxas! Em até 6x SEM JUROS!",
+    "destination": "Nova York ou Orlando",
+    "price_brl": 2657.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-nova-york-ou-orlando-2026-22/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/orlando_florida6_eua_612-612x612.jpg",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-07-28T16:46:42.531417+00:00",
+    "id": "5255fe6c047d"
   },
   {
     "source": "GOL",
@@ -1714,6 +1843,18 @@
     "trip_type": "round_trip",
     "fetched_at": "2026-07-27T20:23:27.235851+00:00",
     "id": "3de146312fa1"
+  },
+  {
+    "source": "Passagens Imperdíveis",
+    "title": "Continua muito bom! Passagens para a FINLÂNDIA: Helsinque! Inclusive na melhor época para as Auroras Boreais! A partir de R$ 3.778, ida e volta, c/ taxas! Opções com BAGAGEM INCLUÍDA!",
+    "destination": "Continua muito bom! Finlândia: Helsinque",
+    "price_brl": 3778.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-finlandia-helsinque-2026-25/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/whatsapp_image_2024_04_19_at_09_24_47-612x612.jpg",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-07-28T16:46:42.531383+00:00",
+    "id": "4285e64c8843"
   },
   {
     "source": "TAP",
@@ -2218,6 +2359,18 @@
     "return_date": "03/09/2026",
     "fetched_at": "2026-07-28T12:21:32.476431+00:00",
     "id": "8fda6e29b5df"
+  },
+  {
+    "source": "Passagens Imperdíveis",
+    "title": "Passagens para a TURQUIA: Istambul! Conheça a única cidade do mundo dividida entre a Europa e a Ásia, repleta de história, cultura e paisagens inesquecíveis! A partir de R$ 4.951, ida e volta, c/ taxa",
+    "destination": "Istambul, Turquia",
+    "price_brl": 4951.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-turquia-istambul-2026-5/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/turquia_istambul_612_612-612x612.png",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-07-28T16:46:42.531390+00:00",
+    "id": "b969ca026525"
   },
   {
     "source": "Passagens Imperdíveis",
