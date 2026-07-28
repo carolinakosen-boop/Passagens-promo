@@ -466,18 +466,6 @@
     "id": "9c245acbe42f"
   },
   {
-    "source": "Passagens Imperdíveis",
-    "title": "Passagens para o ANO NOVO nas PRAIAS DO NORDESTE: Aracaju, Fortaleza, Ilhéus, João Pessoa, Maceió, Natal, Porto Seguro, Recife, Salvador ou São Luís! A partir de R$ 531, ida e volta!",
-    "destination": "Réveillon nas Praias do Nordeste",
-    "price_brl": 531.0,
-    "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/passagens-nacionais-praias-nordeste-2026-102/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/reveillon_fogos_geral-612x612.png",
-    "trip_type": "round_trip",
-    "fetched_at": "2026-07-27T21:39:45.073219+00:00",
-    "id": "c9794b3f3bce"
-  },
-  {
     "source": "GOL",
     "title": "GOL: Rio de Janeiro (GIG) → Montevideo (MVD) - 04/08/2026 a 16/08/2026",
     "destination": "Montevideo",
@@ -1742,6 +1730,19 @@
     "id": "27ae6ebaf348"
   },
   {
+    "source": "Melhores Destinos",
+    "title": "Orlando com bons preços: passagens a partir de R$ 2.380 ida e volta saindo de São Paulo e mais cidades",
+    "destination": null,
+    "price_brl": 2380.0,
+    "currency": "BRL",
+    "link": "https://www.melhoresdestinos.com.br/promocao/orlando-bons-precos-2380",
+    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2024/02/apartamentos-orlando-capa-754x396.jpg",
+    "airline": null,
+    "trip_type": "round_trip",
+    "fetched_at": "2026-07-28T23:01:03.446929+00:00",
+    "id": "24cd140a6e33"
+  },
+  {
     "source": "GOL",
     "title": "GOL: São Paulo (GRU) → Ilhéus (IOS) - 29/07/2026",
     "destination": "Ilhéus",
@@ -1778,6 +1779,19 @@
     "return_date": "",
     "fetched_at": "2026-07-28T14:59:38.792347+00:00",
     "id": "3f1e9899b232"
+  },
+  {
+    "source": "Melhores Destinos",
+    "title": "Bom preço! Voos para Orlando a partir de R$ 2.408 ida e volta saindo do Rio, SP e mais cidades",
+    "destination": "Orlando",
+    "price_brl": 2408.0,
+    "currency": "BRL",
+    "link": "https://www.melhoresdestinos.com.br/promocao/bom-preco-voos-orlando-2408",
+    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2024/03/airbnb-em-orlando-capa-754x396.jpg",
+    "airline": null,
+    "trip_type": "round_trip",
+    "fetched_at": "2026-07-28T12:28:35+00:00",
+    "id": "f8521f9c1509"
   },
   {
     "source": "GOL",
@@ -1856,18 +1870,6 @@
     "id": "a38c19a7bb3e"
   },
   {
-    "source": "Passagens Imperdíveis",
-    "title": "Programe sua viagem para a Disney! Passagens para ORLANDO ou TAMPA! Datas inclusive na Primavera, férias e mais! A partir de R$ 2.525, ida e volta, c/ taxas!",
-    "destination": "Orlando ou Tampa",
-    "price_brl": 2525.0,
-    "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-orlando-ou-tampa-2026-38/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/orlando_florida2_eua_612-612x612.jpg",
-    "trip_type": "round_trip",
-    "fetched_at": "2026-07-27T21:39:45.073228+00:00",
-    "id": "894ff2a79ba1"
-  },
-  {
     "source": "GOL",
     "title": "GOL: Rio de Janeiro (GIG) → Orlando (MCO) - 04/10/2026 a 11/10/2026",
     "destination": "Orlando",
@@ -1923,18 +1925,6 @@
     "return_date": "2026-08-04",
     "fetched_at": "2026-07-28T14:59:38.792370+00:00",
     "id": "ca03b2afa15c"
-  },
-  {
-    "source": "Passagens Imperdíveis",
-    "title": "Passagens para CHICAGO ou NOVA YORK! Datas inclusive na Primavera, férias e mais! A partir de R$ 2.640, ida e volta, c/ taxas! Em até 6x SEM JUROS!",
-    "destination": "Chicago ou Nova York",
-    "price_brl": 2640.0,
-    "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-chicago-ou-nova-york-2026-12/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/chicago_estados_unidos_eua_7-612x612.png",
-    "trip_type": "round_trip",
-    "fetched_at": "2026-07-27T21:39:45.073188+00:00",
-    "id": "707459589486"
   },
   {
     "source": "Passagens Imperdíveis",
@@ -2328,6 +2318,19 @@
     "id": "17fdf1b3913b"
   },
   {
+    "source": "Melhores Destinos",
+    "title": "Muito bom! Passagens São Paulo–Veneza a partir de R$ 3.482 ida e volta com a ITA Airways",
+    "destination": null,
+    "price_brl": 3482.0,
+    "currency": "BRL",
+    "link": "https://www.melhoresdestinos.com.br/promocao/muito-bom-sao-paulo-venezz-3482",
+    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-veneza-capa2019-02-754x396.jpg",
+    "airline": null,
+    "trip_type": "round_trip",
+    "fetched_at": "2026-07-28T17:10:29+00:00",
+    "id": "509a7ed94b4d"
+  },
+  {
     "source": "Passagens Imperdíveis",
     "title": "MUITO BOM!!! Passagens 2 em 1 – NOVA YORK + CANADÁ: Toronto! Datas inclusive na Primavera, férias e mais! A partir de R$ 3.548, todos os trechos, c/ taxas! Em até 6x SEM JUROS!",
     "destination": "2 em 1: Nova York + Canadá: Toronto",
@@ -2357,6 +2360,19 @@
     "return_date": "2026-09-17",
     "fetched_at": "2026-07-28T14:59:38.591192+00:00",
     "id": "11652f6050f4"
+  },
+  {
+    "source": "Melhores Destinos",
+    "title": "Itália: voos para Milão, Veneza, Roma e mais cidades a partir de R$ 3.771 ida e volta",
+    "destination": "Milão, Veneza, Roma e mais cidades",
+    "price_brl": 3771.0,
+    "currency": "BRL",
+    "link": "https://www.melhoresdestinos.com.br/promocao/italia-voos-para-milao-veneza-roma-e-mais-cidades-a-partir-de-r-3-771-ida-e-volta",
+    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-roma-capa2019-01-754x396.jpg",
+    "airline": null,
+    "trip_type": "round_trip",
+    "fetched_at": "2026-07-28T23:01:03.988566+00:00",
+    "id": "3de146312fa1"
   },
   {
     "source": "Passagens Imperdíveis",
@@ -2399,24 +2415,6 @@
     "return_date": "08/08/2026",
     "fetched_at": "2026-07-28T00:55:40.653215+00:00",
     "id": "384fa1c20b69"
-  },
-  {
-    "source": "TAP",
-    "title": "TAP: São Paulo (GRU) → Roma (FCO) - 18/08/2026 a 25/08/2026",
-    "destination": "Roma",
-    "destination_iata": "FCO",
-    "origin": "São Paulo",
-    "origin_iata": "GRU",
-    "price_brl": 4105.0,
-    "currency": "BRL",
-    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
-    "image_url": "https://assets.airtrfx.com/media-em/tp/roma-1-1500px.jpg",
-    "airline": "TAP",
-    "trip_type": "round_trip",
-    "departure_date": "18/08/2026",
-    "return_date": "25/08/2026",
-    "fetched_at": "2026-07-27T21:39:47.573823+00:00",
-    "id": "b8d8101b07ba"
   },
   {
     "source": "TAP",
@@ -2582,24 +2580,6 @@
   },
   {
     "source": "TAP",
-    "title": "TAP: São Paulo (GRU) → Lisboa (LIS) - 04/08/2026 a 14/08/2026",
-    "destination": "Lisboa",
-    "destination_iata": "LIS",
-    "origin": "São Paulo",
-    "origin_iata": "GRU",
-    "price_brl": 4604.0,
-    "currency": "BRL",
-    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
-    "image_url": "https://assets.airtrfx.com/media-em/tp/lisboa-1-1500px.jpg",
-    "airline": "TAP",
-    "trip_type": "round_trip",
-    "departure_date": "04/08/2026",
-    "return_date": "14/08/2026",
-    "fetched_at": "2026-07-27T21:39:47.573330+00:00",
-    "id": "97686a05c891"
-  },
-  {
-    "source": "TAP",
     "title": "TAP: Rio de Janeiro (GIG) → Lisboa (LIS) - 16/08/2026 a 30/08/2026",
     "destination": "Lisboa",
     "destination_iata": "LIS",
@@ -2615,24 +2595,6 @@
     "return_date": "30/08/2026",
     "fetched_at": "2026-07-28T12:21:32.475979+00:00",
     "id": "c998e9f36245"
-  },
-  {
-    "source": "TAP",
-    "title": "TAP: Rio de Janeiro (GIG) → Porto (OPO) - 02/08/2026 a 31/08/2026",
-    "destination": "Porto",
-    "destination_iata": "OPO",
-    "origin": "Rio de Janeiro",
-    "origin_iata": "GIG",
-    "price_brl": 4806.0,
-    "currency": "BRL",
-    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
-    "image_url": "https://assets.airtrfx.com/media-em/tp/porto-1-1500px.jpg",
-    "airline": "TAP",
-    "trip_type": "round_trip",
-    "departure_date": "02/08/2026",
-    "return_date": "31/08/2026",
-    "fetched_at": "2026-07-27T21:39:47.573484+00:00",
-    "id": "9d2b8b44cb72"
   },
   {
     "source": "TAP",
