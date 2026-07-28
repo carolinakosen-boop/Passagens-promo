@@ -1,1 +1,34 @@
-[]
+[
+  {
+    "source": "Melhores Destinos",
+    "title": "Temporada de neve já começou! Viaje para o Chile com passagens para Santiago a partir de R$ 1.261 ida e volta",
+    "destination": "Chile",
+    "price_brl": 1261.0,
+    "currency": "BRL",
+    "link": "https://www.melhoresdestinos.com.br/promocao/neve-passagens-para-santiago-22jun26",
+    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2024/06/neve-ad-santiago-bariloche-capa-754x396.jpeg",
+    "airline": null,
+    "trip_type": "round_trip",
+    "fetched_at": "2026-07-28T10:06:57.830293+00:00",
+    "id": "3d5bddb05f84"
+  },
+  {
+    "source": "GOL",
+    "title": "GOL: São Paulo (SAO) → Buenos Aires (BUE) - 12/08/2026 a 15/08/2026",
+    "destination": "Buenos Aires",
+    "destination_iata": "BUE",
+    "origin": "São Paulo",
+    "origin_iata": "SAO",
+    "price_brl": 1281.52,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/SAO/BUE",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/buenos-aires-2-1500px-x-500px.png",
+    "airline": "GOL",
+    "trip_type": "round_trip",
+    "travel_class": "Econômica",
+    "departure_date": "2026-08-12",
+    "return_date": "2026-08-15",
+    "fetched_at": "2026-07-28T10:07:03.893471+00:00",
+    "id": "2e9ae4362da2"
+  }
+]
