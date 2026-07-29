@@ -1,54 +1,15 @@
 [
   {
     "source": "Melhores Destinos",
-    "title": "Bom preço! Voos para Orlando a partir de R$ 2.408 ida e volta saindo do Rio, SP e mais cidades",
-    "destination": "Orlando",
-    "price_brl": 2408.0,
-    "currency": "BRL",
-    "link": "https://www.melhoresdestinos.com.br/promocao/bom-preco-voos-orlando-2408",
-    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2024/03/airbnb-em-orlando-capa-754x396.jpg",
-    "airline": null,
-    "trip_type": "round_trip",
-    "fetched_at": "2026-07-28T12:28:35+00:00",
-    "id": "f8521f9c1509"
-  },
-  {
-    "source": "Melhores Destinos",
-    "title": "Muito bom! Passagens São Paulo–Veneza a partir de R$ 3.482 ida e volta com a ITA Airways",
+    "title": "Finlândia e aurora boreal! Imperdível: passagens São Paulo–Helsinque desde R$ 3.721 com bagagem",
     "destination": null,
-    "price_brl": 3482.0,
+    "price_brl": 3721.0,
     "currency": "BRL",
-    "link": "https://www.melhoresdestinos.com.br/promocao/muito-bom-sao-paulo-venezz-3482",
-    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-veneza-capa2019-02-754x396.jpg",
+    "link": "https://www.melhoresdestinos.com.br/promocao/finlandia-bom-demais-passagens-aereas-helsinque-3721",
+    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2019/10/islandia-auroral-boreal-capa-e1572186890534-754x396.jpg",
     "airline": null,
-    "trip_type": "round_trip",
-    "fetched_at": "2026-07-28T17:10:29+00:00",
-    "id": "509a7ed94b4d"
-  },
-  {
-    "source": "Melhores Destinos",
-    "title": "Orlando com bons preços: passagens a partir de R$ 2.380 ida e volta saindo de São Paulo e mais cidades",
-    "destination": null,
-    "price_brl": 2380.0,
-    "currency": "BRL",
-    "link": "https://www.melhoresdestinos.com.br/promocao/orlando-bons-precos-2380",
-    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2024/02/apartamentos-orlando-capa-754x396.jpg",
-    "airline": null,
-    "trip_type": "round_trip",
-    "fetched_at": "2026-07-28T23:01:03.446929+00:00",
-    "id": "24cd140a6e33"
-  },
-  {
-    "source": "Melhores Destinos",
-    "title": "Itália: voos para Milão, Veneza, Roma e mais cidades a partir de R$ 3.771 ida e volta",
-    "destination": "Milão, Veneza, Roma e mais cidades",
-    "price_brl": 3771.0,
-    "currency": "BRL",
-    "link": "https://www.melhoresdestinos.com.br/promocao/italia-voos-para-milao-veneza-roma-e-mais-cidades-a-partir-de-r-3-771-ida-e-volta",
-    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-roma-capa2019-01-754x396.jpg",
-    "airline": null,
-    "trip_type": "round_trip",
-    "fetched_at": "2026-07-28T23:01:03.988566+00:00",
-    "id": "3de146312fa1"
+    "trip_type": "unknown",
+    "fetched_at": "2026-07-28T14:39:49+00:00",
+    "id": "e0f37524e5ec"
   }
 ]
