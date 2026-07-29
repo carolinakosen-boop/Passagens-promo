@@ -1,20 +1,15 @@
 [
   {
-    "source": "TAP",
-    "title": "TAP: Rio de Janeiro (GIG) → Porto (OPO) - 08/08/2026 a 10/09/2026",
-    "destination": "Porto",
-    "destination_iata": "OPO",
-    "origin": "Rio de Janeiro",
-    "origin_iata": "GIG",
-    "price_brl": 6393.0,
+    "source": "Melhores Destinos",
+    "title": "Temporada de neve já começou! Viaje para o Chile com passagens para Santiago a partir de R$ 1.261 ida e volta",
+    "destination": "Chile",
+    "price_brl": 1261.0,
     "currency": "BRL",
-    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
-    "image_url": "https://assets.airtrfx.com/media-em/tp/porto-1-1500px.jpg",
-    "airline": "TAP",
+    "link": "https://www.melhoresdestinos.com.br/promocao/neve-passagens-para-santiago-22jun26",
+    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2024/06/neve-ad-santiago-bariloche-capa-754x396.jpeg",
+    "airline": null,
     "trip_type": "round_trip",
-    "departure_date": "08/08/2026",
-    "return_date": "10/09/2026",
-    "fetched_at": "2026-07-29T10:08:26.809325+00:00",
-    "id": "84b4f0ebb66e"
+    "fetched_at": "2026-07-29T12:29:14.237073+00:00",
+    "id": "3d5bddb05f84"
   }
 ]
