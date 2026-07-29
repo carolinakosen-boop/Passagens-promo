@@ -1286,19 +1286,6 @@
     "id": "34c45e39a99b"
   },
   {
-    "source": "Melhores Destinos",
-    "title": "Orlando com bons preços: passagens a partir de R$ 2.380 ida e volta saindo de São Paulo e mais cidades",
-    "destination": null,
-    "price_brl": 2380.0,
-    "currency": "BRL",
-    "link": "https://www.melhoresdestinos.com.br/promocao/orlando-bons-precos-2380",
-    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2024/02/apartamentos-orlando-capa-754x396.jpg",
-    "airline": null,
-    "trip_type": "round_trip",
-    "fetched_at": "2026-07-28T23:01:03.446929+00:00",
-    "id": "24cd140a6e33"
-  },
-  {
     "source": "GOL",
     "title": "GOL: São Paulo (CGH) → Belo Horizonte (CNF) - 28/07/2026",
     "destination": "Belo Horizonte",
@@ -1501,6 +1488,19 @@
     "id": "8b360b6cba40"
   },
   {
+    "source": "Melhores Destinos",
+    "title": "Voos para Portugal com bons preços saindo de várias cidades: Lisboa ou Porto a partir de R$ 3.048 ida e volta",
+    "destination": "Portugal",
+    "price_brl": 3048.0,
+    "currency": "BRL",
+    "link": "https://www.melhoresdestinos.com.br/promocao/portugal-bons-precos-cidades-3048",
+    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2021/10/lisboa-portugal-capa2-754x396.jpg",
+    "airline": null,
+    "trip_type": "round_trip",
+    "fetched_at": "2026-07-29T23:30:52.751127+00:00",
+    "id": "76333d1cc234"
+  },
+  {
     "source": "Passagens Imperdíveis",
     "title": "Passagens para LISBOA ou MADRI! Datas inclusive no Verão Europeu, férias e mais! A partir de R$ 3.085, ida e volta, c/ taxas! Em até 4x SEM JUROS!",
     "destination": "Lisboa ou Madri",
@@ -1658,19 +1658,6 @@
     "id": "249cbdbd29d0"
   },
   {
-    "source": "Melhores Destinos",
-    "title": "Itália: voos para Milão, Veneza, Roma e mais cidades a partir de R$ 3.771 ida e volta",
-    "destination": "Milão, Veneza, Roma e mais cidades",
-    "price_brl": 3771.0,
-    "currency": "BRL",
-    "link": "https://www.melhoresdestinos.com.br/promocao/italia-voos-para-milao-veneza-roma-e-mais-cidades-a-partir-de-r-3-771-ida-e-volta",
-    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-roma-capa2019-01-754x396.jpg",
-    "airline": null,
-    "trip_type": "round_trip",
-    "fetched_at": "2026-07-28T23:01:03.988566+00:00",
-    "id": "3de146312fa1"
-  },
-  {
     "source": "Passagens Imperdíveis",
     "title": "Continua muito bom! Passagens para a FINLÂNDIA: Helsinque ou ISLÂNDIA: Keflavik! Datas até Maio/27, inclusive na Melhor Época para a Aurora Boreal e mais! A partir de R$ 3.861, ida e volta, c/ taxas! ",
     "destination": "Finlândia ou Islândia",
@@ -1693,6 +1680,24 @@
     "trip_type": "round_trip",
     "fetched_at": "2026-07-29T16:22:37.401296+00:00",
     "id": "9431c9ae28c6"
+  },
+  {
+    "source": "TAP",
+    "title": "TAP: São Paulo (GRU) → Madri (MAD) - 10/08/2026 a 17/08/2026",
+    "destination": "Madri",
+    "destination_iata": "MAD",
+    "origin": "São Paulo",
+    "origin_iata": "GRU",
+    "price_brl": 4174.0,
+    "currency": "BRL",
+    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
+    "image_url": "https://assets.airtrfx.com/media-em/tp/madri-1-1500px.jpg",
+    "airline": "TAP",
+    "trip_type": "round_trip",
+    "departure_date": "10/08/2026",
+    "return_date": "17/08/2026",
+    "fetched_at": "2026-07-29T23:30:56.207867+00:00",
+    "id": "a8d67f5f1fce"
   },
   {
     "source": "TAP",
@@ -2006,6 +2011,19 @@
     "return_date": "29/08/2026",
     "fetched_at": "2026-07-29T14:54:31.168368+00:00",
     "id": "4e8792c801dc"
+  },
+  {
+    "source": "Melhores Destinos",
+    "title": "🇦🇺 Austrália ou Nova Zelândia 🇳🇿 Passagens aéreas a partir de R$ 6.911 ida e volta saindo do Rio, São Paulo e mais cidades!",
+    "destination": null,
+    "price_brl": 6911.0,
+    "currency": "BRL",
+    "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-nova-zelandia-australia-29-04-26",
+    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-auckland-capa2019-01-754x396.jpg",
+    "airline": null,
+    "trip_type": "round_trip",
+    "fetched_at": "2026-07-29T23:30:51.764176+00:00",
+    "id": "6489e5cc2f52"
   },
   {
     "source": "GOL",
