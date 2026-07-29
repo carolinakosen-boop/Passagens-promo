@@ -1,21 +1,20 @@
 [
   {
-    "source": "GOL",
-    "title": "GOL: Rio de Janeiro (GIG) → Buenos Aires (EZE) - 13/08/2026 a 21/08/2026",
-    "destination": "Buenos Aires",
-    "destination_iata": "EZE",
+    "source": "TAP",
+    "title": "TAP: Rio de Janeiro (GIG) → Porto (OPO) - 08/08/2026 a 10/09/2026",
+    "destination": "Porto",
+    "destination_iata": "OPO",
     "origin": "Rio de Janeiro",
     "origin_iata": "GIG",
-    "price_brl": 1555.17,
+    "price_brl": 6393.0,
     "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/GIG/EZE",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/buenos-aires-2-1500px-x-500px.png",
-    "airline": "GOL",
+    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
+    "image_url": "https://assets.airtrfx.com/media-em/tp/porto-1-1500px.jpg",
+    "airline": "TAP",
     "trip_type": "round_trip",
-    "travel_class": "Econômica",
-    "departure_date": "2026-08-13",
-    "return_date": "2026-08-21",
-    "fetched_at": "2026-07-29T07:19:35.663064+00:00",
-    "id": "b0bf3eef3ed1"
+    "departure_date": "08/08/2026",
+    "return_date": "10/09/2026",
+    "fetched_at": "2026-07-29T10:08:26.809325+00:00",
+    "id": "84b4f0ebb66e"
   }
 ]
