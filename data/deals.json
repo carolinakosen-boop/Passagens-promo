@@ -1148,25 +1148,6 @@
   },
   {
     "source": "GOL",
-    "title": "GOL: Rio de Janeiro (RIO) → Oranjestad, Aruba (AUA) - 22/09/2026 a 29/09/2026",
-    "destination": "Oranjestad, Aruba",
-    "destination_iata": "AUA",
-    "origin": "Rio de Janeiro",
-    "origin_iata": "RIO",
-    "price_brl": 2471.95,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/RIO/AUA",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/02-1500px-x-500px-3.png",
-    "airline": "GOL",
-    "trip_type": "round_trip",
-    "travel_class": "Econômica",
-    "departure_date": "2026-09-22",
-    "return_date": "2026-09-29",
-    "fetched_at": "2026-07-30T23:08:42.967310+00:00",
-    "id": "a38c19a7bb3e"
-  },
-  {
-    "source": "GOL",
     "title": "GOL: São Paulo (SAO) → Punta Cana (PUJ) - 06/10/2026 a 13/10/2026",
     "destination": "Punta Cana",
     "destination_iata": "PUJ",
@@ -1214,18 +1195,6 @@
     "return_date": "2026-11-10",
     "fetched_at": "2026-07-31T15:37:50.280489+00:00",
     "id": "a0a23ada7a99"
-  },
-  {
-    "source": "Passagens Imperdíveis",
-    "title": "Passagens para CHICAGO ou NOVA YORK! Datas até Julho/27, inclusive na Primavera, férias e mais! A partir de R$ 2.669, ida e volta, c/ taxas! Em até 6x SEM JUROS!",
-    "destination": "Chicago ou Nova York",
-    "price_brl": 2669.0,
-    "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-chicago-ou-nova-york-2026-13/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/chicago_estados_unidos_eua_5-612x612.png",
-    "trip_type": "round_trip",
-    "fetched_at": "2026-07-30T23:08:41.940723+00:00",
-    "id": "12e00aac4a4e"
   },
   {
     "source": "Passagens Imperdíveis",
@@ -1932,18 +1901,6 @@
     "return_date": "02/09/2026",
     "fetched_at": "2026-07-31T19:27:45.839330+00:00",
     "id": "ac647bf4bf9a"
-  },
-  {
-    "source": "Passagens Imperdíveis",
-    "title": "Continua muito bom! Passagens para a CHINA: Pequim ou Xangai! A partir de R$ 5.443, ida e volta, c/ taxas! Em até 5x SEM JUROS! Opções com BAGAGEM INCLUÍDA!",
-    "destination": "Continua muito bom! China",
-    "price_brl": 5443.0,
-    "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-china-pequim-xangai-2026-2/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/china_2_612-612x612.jpg",
-    "trip_type": "round_trip",
-    "fetched_at": "2026-07-30T23:08:41.940695+00:00",
-    "id": "c3859dd64a10"
   },
   {
     "source": "TAP",
