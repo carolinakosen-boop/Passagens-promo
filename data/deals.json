@@ -561,25 +561,6 @@
     "id": "b6ed8a8c3ddd"
   },
   {
-    "source": "GOL",
-    "title": "GOL: São Paulo (GRU) → Mendoza (MDZ) - 16/09/2026 a 21/09/2026",
-    "destination": "Mendoza",
-    "destination_iata": "MDZ",
-    "origin": "São Paulo",
-    "origin_iata": "GRU",
-    "price_brl": 1247.19,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/GRU/MDZ",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/mendoza-2-1500px-x-500px.png",
-    "airline": "GOL",
-    "trip_type": "round_trip",
-    "travel_class": "Econômica",
-    "departure_date": "2026-09-16",
-    "return_date": "2026-09-21",
-    "fetched_at": "2026-08-01T10:17:38.872361+00:00",
-    "id": "560733376a76"
-  },
-  {
     "source": "Melhores Destinos",
     "title": "Temporada de neve já começou! Viaje para o Chile com passagens para Santiago a partir de R$ 1.261 ida e volta",
     "destination": "Chile",
@@ -769,25 +750,6 @@
     "id": "03ce131421a1"
   },
   {
-    "source": "GOL",
-    "title": "GOL: São Paulo (SAO) → Oranjestad, Aruba (AUA) - 16/10/2026 a 23/10/2026",
-    "destination": "Oranjestad, Aruba",
-    "destination_iata": "AUA",
-    "origin": "São Paulo",
-    "origin_iata": "SAO",
-    "price_brl": 2067.32,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/SAO/AUA",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/02-1500px-x-500px-3.png",
-    "airline": "GOL",
-    "trip_type": "round_trip",
-    "travel_class": "Econômica",
-    "departure_date": "2026-10-16",
-    "return_date": "2026-10-23",
-    "fetched_at": "2026-08-01T10:17:38.872481+00:00",
-    "id": "e8f962a8e0fc"
-  },
-  {
     "source": "Melhores Destinos",
     "title": "Bora para Orlando? Voos a partir de R$ 2.151 ida e volta saindo de várias cidades",
     "destination": "Orlando? Voos",
@@ -868,19 +830,6 @@
     "return_date": "2026-10-13",
     "fetched_at": "2026-08-01T20:27:01.683793+00:00",
     "id": "2fd51cee217c"
-  },
-  {
-    "source": "Melhores Destinos",
-    "title": "Orlando com bons preços: passagens a partir de R$ 2.380 ida e volta saindo de São Paulo e mais cidades",
-    "destination": null,
-    "price_brl": 2380.0,
-    "currency": "BRL",
-    "link": "https://www.melhoresdestinos.com.br/promocao/orlando-bons-precos-2380",
-    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2024/02/apartamentos-orlando-capa-754x396.jpg",
-    "airline": null,
-    "trip_type": "round_trip",
-    "fetched_at": "2026-08-01T10:17:30.511261+00:00",
-    "id": "24cd140a6e33"
   },
   {
     "source": "Passagens Imperdíveis",
@@ -1324,19 +1273,6 @@
     "id": "0ace9bed88e1"
   },
   {
-    "source": "Melhores Destinos",
-    "title": "Itália: voos para Milão, Veneza, Roma e mais cidades a partir de R$ 3.771 ida e volta",
-    "destination": "Milão, Veneza, Roma e mais cidades",
-    "price_brl": 3771.0,
-    "currency": "BRL",
-    "link": "https://www.melhoresdestinos.com.br/promocao/italia-voos-para-milao-veneza-roma-e-mais-cidades-a-partir-de-r-3-771-ida-e-volta",
-    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-roma-capa2019-01-754x396.jpg",
-    "airline": null,
-    "trip_type": "round_trip",
-    "fetched_at": "2026-08-01T10:17:30.896299+00:00",
-    "id": "3de146312fa1"
-  },
-  {
     "source": "Passagens Imperdíveis",
     "title": "Passagens para a ITÁLIA: Bologna, Florença, Milão, Nápoles, Pisa, Roma, Turim ou Veneza! A partir de R$ 3.899, ida e volta, c/ taxas! Em até 10x SEM JUROS!",
     "destination": "Itália",
@@ -1389,24 +1325,6 @@
     "return_date": "23/08/2026",
     "fetched_at": "2026-08-01T21:26:25.707143+00:00",
     "id": "f7301cb5c635"
-  },
-  {
-    "source": "TAP",
-    "title": "TAP: São Paulo (GRU) → Madri (MAD) - 10/08/2026 a 17/08/2026",
-    "destination": "Madri",
-    "destination_iata": "MAD",
-    "origin": "São Paulo",
-    "origin_iata": "GRU",
-    "price_brl": 4146.0,
-    "currency": "BRL",
-    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
-    "image_url": "https://assets.airtrfx.com/media-em/tp/madri-1-1500px.jpg",
-    "airline": "TAP",
-    "trip_type": "round_trip",
-    "departure_date": "10/08/2026",
-    "return_date": "17/08/2026",
-    "fetched_at": "2026-08-01T10:17:40.429635+00:00",
-    "id": "a7dec7ea5a00"
   },
   {
     "source": "TAP",
@@ -1515,24 +1433,6 @@
     "return_date": "21/08/2026",
     "fetched_at": "2026-08-01T23:32:26.535079+00:00",
     "id": "8c63ad699cdb"
-  },
-  {
-    "source": "TAP",
-    "title": "TAP: São Paulo (GRU) → Lisboa (LIS) - 07/08/2026 a 14/08/2026",
-    "destination": "Lisboa",
-    "destination_iata": "LIS",
-    "origin": "São Paulo",
-    "origin_iata": "GRU",
-    "price_brl": 5363.0,
-    "currency": "BRL",
-    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
-    "image_url": "https://assets.airtrfx.com/media-em/tp/lisboa-1-1500px.jpg",
-    "airline": "TAP",
-    "trip_type": "round_trip",
-    "departure_date": "07/08/2026",
-    "return_date": "14/08/2026",
-    "fetched_at": "2026-08-01T10:17:40.428787+00:00",
-    "id": "ef9a1e102245"
   },
   {
     "source": "TAP",
@@ -1692,24 +1592,6 @@
   },
   {
     "source": "TAP",
-    "title": "TAP: Rio de Janeiro (GIG) → Lisboa (LIS) - 23/08/2026 a 07/01/2027",
-    "destination": "Lisboa",
-    "destination_iata": "LIS",
-    "origin": "Rio de Janeiro",
-    "origin_iata": "GIG",
-    "price_brl": 5695.0,
-    "currency": "BRL",
-    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
-    "image_url": "https://assets.airtrfx.com/media-em/tp/lisboa-1-1500px.jpg",
-    "airline": "TAP",
-    "trip_type": "round_trip",
-    "departure_date": "23/08/2026",
-    "return_date": "07/01/2027",
-    "fetched_at": "2026-08-01T10:17:40.428936+00:00",
-    "id": "366705086578"
-  },
-  {
-    "source": "TAP",
     "title": "TAP: Rio de Janeiro (GIG) → Porto (OPO) - 02/08/2026 a 24/08/2026",
     "destination": "Porto",
     "destination_iata": "OPO",
@@ -1743,6 +1625,19 @@
     "return_date": "14/08/2026",
     "fetched_at": "2026-08-02T06:03:44.311649+00:00",
     "id": "8bfd56b9fe79"
+  },
+  {
+    "source": "Melhores Destinos",
+    "title": "🇦🇺 Austrália ou Nova Zelândia 🇳🇿 Passagens aéreas a partir de R$ 6.911 ida e volta saindo do Rio, São Paulo e mais cidades!",
+    "destination": null,
+    "price_brl": 6911.0,
+    "currency": "BRL",
+    "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-nova-zelandia-australia-29-04-26",
+    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-auckland-capa2019-01-754x396.jpg",
+    "airline": null,
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-02T10:41:55.549279+00:00",
+    "id": "6489e5cc2f52"
   },
   {
     "source": "TAP",
