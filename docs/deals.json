@@ -39,41 +39,22 @@
   },
   {
     "source": "GOL",
-    "title": "GOL: São Paulo (SAO) → Rio de Janeiro (RIO) - 24/10/2026",
+    "title": "GOL: São Paulo (CGH) → Rio de Janeiro (SDU) - 11/11/2026",
     "destination": "Rio de Janeiro",
-    "destination_iata": "RIO",
+    "destination_iata": "SDU",
     "origin": "São Paulo",
-    "origin_iata": "SAO",
-    "price_brl": 177.89,
+    "origin_iata": "CGH",
+    "price_brl": 200.28,
     "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/SAO/RIO",
+    "link": "https://www.voegol.com.br/br/voos/CGH/SDU",
     "image_url": "https://assets.airtrfx.com/media-em/g3/01-1500px-x-500px-5.png",
     "airline": "GOL",
     "trip_type": "one_way",
     "travel_class": "Econômica",
-    "departure_date": "2026-10-24",
+    "departure_date": "2026-11-11",
     "return_date": "",
-    "fetched_at": "2026-08-01T22:28:02.875099+00:00",
-    "id": "d48113745b22"
-  },
-  {
-    "source": "GOL",
-    "title": "GOL: São Paulo (GRU) → Rio de Janeiro (GIG) - 11/10/2026",
-    "destination": "Rio de Janeiro",
-    "destination_iata": "GIG",
-    "origin": "São Paulo",
-    "origin_iata": "GRU",
-    "price_brl": 177.89,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/GRU/GIG",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/01-1500px-x-500px-5.png",
-    "airline": "GOL",
-    "trip_type": "one_way",
-    "travel_class": "Econômica",
-    "departure_date": "2026-10-11",
-    "return_date": "",
-    "fetched_at": "2026-08-01T22:28:02.875121+00:00",
-    "id": "5f6a7e480cb2"
+    "fetched_at": "2026-08-02T23:02:41.968652+00:00",
+    "id": "63f2e283cb81"
   },
   {
     "source": "GOL",
@@ -93,6 +74,25 @@
     "return_date": "",
     "fetched_at": "2026-08-02T20:56:40.890059+00:00",
     "id": "ffde3d6dca19"
+  },
+  {
+    "source": "GOL",
+    "title": "GOL: Rio de Janeiro (SDU) → São Paulo (CGH) - 06/11/2026",
+    "destination": "São Paulo",
+    "destination_iata": "CGH",
+    "origin": "Rio de Janeiro",
+    "origin_iata": "SDU",
+    "price_brl": 200.76,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/SDU/CGH",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/03-1500px-x-500px.png",
+    "airline": "GOL",
+    "trip_type": "one_way",
+    "travel_class": "Econômica",
+    "departure_date": "2026-11-06",
+    "return_date": "",
+    "fetched_at": "2026-08-02T23:02:41.968657+00:00",
+    "id": "2073b0178cd1"
   },
   {
     "source": "GOL",
@@ -458,25 +458,6 @@
   },
   {
     "source": "GOL",
-    "title": "GOL: Rio de Janeiro (GIG) → Buenos Aires (BUE) - 12/09/2026 a 15/09/2026",
-    "destination": "Buenos Aires",
-    "destination_iata": "BUE",
-    "origin": "Rio de Janeiro",
-    "origin_iata": "GIG",
-    "price_brl": 1150.4,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/GIG/BUE",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/buenos-aires-2-1500px-x-500px.png",
-    "airline": "GOL",
-    "trip_type": "round_trip",
-    "travel_class": "Econômica",
-    "departure_date": "2026-09-12",
-    "return_date": "2026-09-15",
-    "fetched_at": "2026-08-01T22:28:02.875183+00:00",
-    "id": "739331b76d57"
-  },
-  {
-    "source": "GOL",
     "title": "GOL: São Paulo (GRU) → Buenos Aires (AEP) - 20/08/2026 a 28/08/2026",
     "destination": "Buenos Aires",
     "destination_iata": "AEP",
@@ -552,18 +533,6 @@
     "id": "6dd0d72b325d"
   },
   {
-    "source": "Passagens Imperdíveis",
-    "title": "PASSAGEM + HOTEL em NATAL! A partir de R$ 1.240, por pessoa, quarto duplo, c/ taxas! Em até 10x SEM JUROS!",
-    "destination": "Pacote: Natal",
-    "price_brl": 1240.0,
-    "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-mais-hotel-para-brasil-natal-2026-7/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/natal_rio_grande_norte_brasil_2-612x612.jpg",
-    "trip_type": "round_trip",
-    "fetched_at": "2026-08-01T22:28:02.314130+00:00",
-    "id": "e71ac0660a67"
-  },
-  {
     "source": "GOL",
     "title": "GOL: São Paulo (GRU) → Santa Cruz de la Sierra (VVI) - 13/11/2026 a 29/11/2026",
     "destination": "Santa Cruz de la Sierra",
@@ -635,6 +604,25 @@
   },
   {
     "source": "GOL",
+    "title": "GOL: Rio de Janeiro (RIO) → Assunção (ASU) - 06/08/2026 a 08/08/2026",
+    "destination": "Assunção",
+    "destination_iata": "ASU",
+    "origin": "Rio de Janeiro",
+    "origin_iata": "RIO",
+    "price_brl": 1343.73,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/RIO/ASU",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/assun%C3%A7%C3%A3o-1-1500px-x-500px.png",
+    "airline": "GOL",
+    "trip_type": "round_trip",
+    "travel_class": "Econômica",
+    "departure_date": "2026-08-06",
+    "return_date": "2026-08-08",
+    "fetched_at": "2026-08-02T23:02:41.968883+00:00",
+    "id": "d9fd6efffbb2"
+  },
+  {
+    "source": "GOL",
     "title": "GOL: Rio de Janeiro (GIG) → Assunção (ASU) - 17/08/2026 a 24/08/2026",
     "destination": "Assunção",
     "destination_iata": "ASU",
@@ -689,18 +677,6 @@
     "return_date": "2026-10-09",
     "fetched_at": "2026-08-02T20:56:40.890198+00:00",
     "id": "4bd7d8d1c7e7"
-  },
-  {
-    "source": "Passagens Imperdíveis",
-    "title": "Passagens 2 em 1 – BUENOS AIRES + SANTIAGO! Datas até Junho/27, inclusive no Inverno, férias e mais! A partir de R$ 1.675, todos os trechos, c/ taxas! Em até 6x SEM JUROS!",
-    "destination": "2 em 1: Buenos Aires + Santiago",
-    "price_brl": 1675.0,
-    "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-2-em-1buenos-aires-ou-santiago-2026-3/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/chile_612-612x612.jpg",
-    "trip_type": "unknown",
-    "fetched_at": "2026-08-01T22:28:02.314118+00:00",
-    "id": "c656ac8f84bd"
   },
   {
     "source": "GOL",
@@ -1019,18 +995,6 @@
     "id": "18bce5240adc"
   },
   {
-    "source": "Passagens Imperdíveis",
-    "title": "Passagens para MIAMI ou NOVA YORK! Datas até Julho/27, inclusive na Primavera, férias e mais! A partir de R$ 2.670, ida e volta, c/ taxas! Em até 4x SEM JUROS!",
-    "destination": "Miami ou Nova York",
-    "price_brl": 2670.0,
-    "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-miami-ou-nova-york-2026-6/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/miami_florida_eua_7-612x612.png",
-    "trip_type": "round_trip",
-    "fetched_at": "2026-08-01T22:28:02.314096+00:00",
-    "id": "7bf0156759ff"
-  },
-  {
     "source": "GOL",
     "title": "GOL: Rio de Janeiro (RIO) → Orlando (MCO) - 04/11/2026 a 19/11/2026",
     "destination": "Orlando",
@@ -1307,18 +1271,6 @@
     "trip_type": "round_trip",
     "fetched_at": "2026-08-02T12:03:22.862299+00:00",
     "id": "3de146312fa1"
-  },
-  {
-    "source": "Passagens Imperdíveis",
-    "title": "Passagens para a ITÁLIA: Bologna, Florença, Milão, Nápoles, Pisa, Roma, Turim ou Veneza! A partir de R$ 3.899, ida e volta, c/ taxas! Em até 10x SEM JUROS!",
-    "destination": "Itália",
-    "price_brl": 3899.0,
-    "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-italia-bologna-florenca-milao-napoles-pisa-roma-turim-veneza-2026/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/italia_milao_2-612x612.png",
-    "trip_type": "round_trip",
-    "fetched_at": "2026-08-01T22:28:02.314106+00:00",
-    "id": "4b950fe10684"
   },
   {
     "source": "Passagens Imperdíveis",
