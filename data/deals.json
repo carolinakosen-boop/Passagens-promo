@@ -492,6 +492,25 @@
     "id": "6aaae4cd9670"
   },
   {
+    "source": "GOL",
+    "title": "GOL: São Paulo (GRU) → Santa Cruz de la Sierra (VVI) - 27/08/2026 a 31/08/2026",
+    "destination": "Santa Cruz de la Sierra",
+    "destination_iata": "VVI",
+    "origin": "São Paulo",
+    "origin_iata": "GRU",
+    "price_brl": 1230.52,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/GRU/VVI",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/03-1500px-x-500px-5.png",
+    "airline": "GOL",
+    "trip_type": "round_trip",
+    "travel_class": "Econômica",
+    "departure_date": "2026-08-27",
+    "return_date": "2026-08-31",
+    "fetched_at": "2026-08-02T08:54:45.038587+00:00",
+    "id": "6dd0d72b325d"
+  },
+  {
     "source": "Passagens Imperdíveis",
     "title": "PASSAGEM + HOTEL em NATAL! A partir de R$ 1.240, por pessoa, quarto duplo, c/ taxas! Em até 10x SEM JUROS!",
     "destination": "Pacote: Natal",
@@ -1535,6 +1554,24 @@
   },
   {
     "source": "TAP",
+    "title": "TAP: São Paulo (GRU) → Porto (OPO) - 02/08/2026 a 22/08/2026",
+    "destination": "Porto",
+    "destination_iata": "OPO",
+    "origin": "São Paulo",
+    "origin_iata": "GRU",
+    "price_brl": 5427.0,
+    "currency": "BRL",
+    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
+    "image_url": "https://assets.airtrfx.com/media-em/tp/porto-1-1500px.jpg",
+    "airline": "TAP",
+    "trip_type": "round_trip",
+    "departure_date": "02/08/2026",
+    "return_date": "22/08/2026",
+    "fetched_at": "2026-08-02T08:54:45.591615+00:00",
+    "id": "ba8355cae9d9"
+  },
+  {
+    "source": "TAP",
     "title": "TAP: São Paulo (GRU) → Porto (OPO) - 08/08/2026 a 30/11/2026",
     "destination": "Porto",
     "destination_iata": "OPO",
@@ -1706,19 +1743,6 @@
     "return_date": "14/08/2026",
     "fetched_at": "2026-08-02T06:03:44.311649+00:00",
     "id": "8bfd56b9fe79"
-  },
-  {
-    "source": "Melhores Destinos",
-    "title": "🇦🇺 Austrália ou Nova Zelândia 🇳🇿 Passagens aéreas a partir de R$ 6.911 ida e volta saindo do Rio, São Paulo e mais cidades!",
-    "destination": null,
-    "price_brl": 6911.0,
-    "currency": "BRL",
-    "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-nova-zelandia-australia-29-04-26",
-    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-auckland-capa2019-01-754x396.jpg",
-    "airline": null,
-    "trip_type": "round_trip",
-    "fetched_at": "2026-08-01T08:27:04.423267+00:00",
-    "id": "6489e5cc2f52"
   },
   {
     "source": "TAP",
