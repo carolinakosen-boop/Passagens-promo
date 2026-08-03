@@ -695,6 +695,18 @@
   },
   {
     "source": "Passagens Imperdíveis",
+    "title": "Programe sua viagem para o Jalapão! Passagens para PALMAS! Datas inclusive nas Férias, feriados e mais! A partir de R$ 634, ida e volta, c/ taxas!",
+    "destination": "Jalapão! Palmas",
+    "price_brl": 634.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-palmas-2026-18/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/jalapao_palmas_tocantins_3-612x612.jpg",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-03T19:06:38.204089+00:00",
+    "id": "981976de0671"
+  },
+  {
+    "source": "Passagens Imperdíveis",
     "title": "Passagens para BONITO! Flutue em rios de águas cristalinas, explore cavernas impressionantes e mergulhe na natureza de Bonito! A partir de R$ 638, ida e volta, c/ taxas!",
     "destination": "Bonito",
     "price_brl": 638.0,
@@ -759,18 +771,6 @@
     "return_date": "2026-10-21",
     "fetched_at": "2026-08-03T12:26:04.355400+00:00",
     "id": "a5e62f31d712"
-  },
-  {
-    "source": "Passagens Imperdíveis",
-    "title": "MUITO BOM!!! Passagens para o URUGUAI: Montevideo ou Punta del Este! Datas inclusive no Inverno, férias e mais! A partir de R$ 899, ida e volta, c/ taxas! Opções de VOO DIRETO!",
-    "destination": "Montevideo ou Punta del Este, Uruguai",
-    "price_brl": 899.0,
-    "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-uruguai-montevideo-punta-del-este-2026-20/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/uruguay_montevideu_teatro_solis_612_612-612x612.png",
-    "trip_type": "round_trip",
-    "fetched_at": "2026-08-02T18:30:00.630080+00:00",
-    "id": "16c6f2ad1852"
   },
   {
     "source": "Passagens Imperdíveis",
@@ -1352,6 +1352,18 @@
     "return_date": "2026-12-10",
     "fetched_at": "2026-08-03T12:26:04.355463+00:00",
     "id": "91115a4f5226"
+  },
+  {
+    "source": "Passagens Imperdíveis",
+    "title": "BAIXOU!!! MUITO BOM!!! DESERTO DO ATACAMA, no Chile! Passagens para CALAMA ou COPIAPO! A partir de R$ 1.382, ida e volta, c/ taxas!",
+    "destination": "Deserto do Atacama, no Chile!",
+    "price_brl": 1382.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-calama-ou-copiapo-2026-19/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/atacama_chile_612-612x612.jpg",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-03T19:06:38.204124+00:00",
+    "id": "f75d858fe72c"
   },
   {
     "source": "GOL",
@@ -2138,19 +2150,6 @@
     "id": "ec0f9f2a5400"
   },
   {
-    "source": "Melhores Destinos",
-    "title": "Voos para Portugal com bons preços saindo de várias cidades: Lisboa ou Porto a partir de R$ 3.048 ida e volta",
-    "destination": "Portugal",
-    "price_brl": 3048.0,
-    "currency": "BRL",
-    "link": "https://www.melhoresdestinos.com.br/promocao/portugal-bons-precos-cidades-3048",
-    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2021/10/lisboa-portugal-capa2-754x396.jpg",
-    "airline": null,
-    "trip_type": "round_trip",
-    "fetched_at": "2026-08-02T18:30:00.341153+00:00",
-    "id": "76333d1cc234"
-  },
-  {
     "source": "Passagens Imperdíveis",
     "title": "Passagens para LISBOA ou PORTO! Datas inclusive no Verão Europeu, férias e mais! A partir de R$ 3.065, ida e volta, c/ taxas! Em até 4x SEM JUROS!",
     "destination": "Lisboa ou Porto",
@@ -2461,18 +2460,6 @@
   },
   {
     "source": "Passagens Imperdíveis",
-    "title": "Passagens para LISBOA ou MADRI! Datas até Junho/27, inclusive no Verão Europeu, férias e mais! A partir de R$ 3.487, ida e volta, c/ taxas! Opções de VOO DIRETO!",
-    "destination": "Lisboa ou Madri",
-    "price_brl": 3487.0,
-    "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-lisboa-ou-madri-2026-31/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/portugal_lisboa-612x612.jpg",
-    "trip_type": "round_trip",
-    "fetched_at": "2026-08-02T18:30:00.630106+00:00",
-    "id": "19a3873a325e"
-  },
-  {
-    "source": "Passagens Imperdíveis",
     "title": "Continua muito bom! Passagens para a FINLÂNDIA: Helsinque! Neve, lagos congelados e a chance de ver a Aurora Boreal! A partir de R$ 3.708, ida e volta, c/ taxas! Opções com BAGAGEM INCLUÍDA!",
     "destination": "Helsinque, Finlândia",
     "price_brl": 3708.0,
@@ -2507,6 +2494,24 @@
     "trip_type": "round_trip",
     "fetched_at": "2026-08-03T12:25:57.344109+00:00",
     "id": "a006aee34ce1"
+  },
+  {
+    "source": "TAP",
+    "title": "TAP: São Paulo (GRU) → Madri (MAD) - 18/08/2026 a 23/08/2026",
+    "destination": "Madri",
+    "destination_iata": "MAD",
+    "origin": "São Paulo",
+    "origin_iata": "GRU",
+    "price_brl": 4150.0,
+    "currency": "BRL",
+    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
+    "image_url": "https://assets.airtrfx.com/media-em/tp/madri-1-1500px.jpg",
+    "airline": "TAP",
+    "trip_type": "round_trip",
+    "departure_date": "18/08/2026",
+    "return_date": "23/08/2026",
+    "fetched_at": "2026-08-03T19:06:39.566386+00:00",
+    "id": "77fbda2f65a1"
   },
   {
     "source": "TAP",
@@ -2561,6 +2566,24 @@
     "return_date": "29/08/2026",
     "fetched_at": "2026-08-03T12:26:06.369827+00:00",
     "id": "02749bec9a5f"
+  },
+  {
+    "source": "TAP",
+    "title": "TAP: São Paulo (GRU) → Paris (ORY) - 17/08/2026 a 03/09/2026",
+    "destination": "Paris",
+    "destination_iata": "ORY",
+    "origin": "São Paulo",
+    "origin_iata": "GRU",
+    "price_brl": 4623.0,
+    "currency": "BRL",
+    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
+    "image_url": "https://assets.airtrfx.com/media-em/tp/paris-1-1500px.jpg",
+    "airline": "TAP",
+    "trip_type": "round_trip",
+    "departure_date": "17/08/2026",
+    "return_date": "03/09/2026",
+    "fetched_at": "2026-08-03T19:06:39.566482+00:00",
+    "id": "51fc2c8c1f5b"
   },
   {
     "source": "TAP",
