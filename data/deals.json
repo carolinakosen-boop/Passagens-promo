@@ -435,6 +435,18 @@
     "id": "0045daf81dde"
   },
   {
+    "source": "Passagens Imperdíveis",
+    "title": "Continua muito bom! Passagens para o URUGUAI: Montevideo! A partir de R$ 837, ida e volta, c/ taxas! Em até 6x SEM JUROS! Opções de VOO DIRETO!",
+    "destination": "Montevideo, Uruguai",
+    "price_brl": 837.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-uruguai-montevideo-2026-16/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/uruguai_montevideo_uruguay_montevideu_67904-612x612.png",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-04T17:50:19.580326+00:00",
+    "id": "2d7a402a63b8"
+  },
+  {
     "source": "GOL",
     "title": "GOL: Rio de Janeiro (GIG) → Buenos Aires (AEP) - 28/09/2026 a 21/10/2026",
     "destination": "Buenos Aires",
@@ -1319,6 +1331,19 @@
     "id": "0b6f4b1850ae"
   },
   {
+    "source": "Melhores Destinos",
+    "title": "Orlando com bons preços: passagens a partir de R$ 2.380 ida e volta saindo de São Paulo e mais cidades",
+    "destination": null,
+    "price_brl": 2380.0,
+    "currency": "BRL",
+    "link": "https://www.melhoresdestinos.com.br/promocao/orlando-bons-precos-2380",
+    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2024/02/apartamentos-orlando-capa-754x396.jpg",
+    "airline": null,
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-04T17:50:03.113343+00:00",
+    "id": "24cd140a6e33"
+  },
+  {
     "source": "GOL",
     "title": "GOL: São Paulo (SAO) → Punta Cana (PUJ) - 11/08/2026 a 18/08/2026",
     "destination": "Punta Cana",
@@ -1496,18 +1521,6 @@
     "id": "76333d1cc234"
   },
   {
-    "source": "Passagens Imperdíveis",
-    "title": "Passagens para LISBOA ou PORTO! Datas inclusive no Verão Europeu, férias e mais! A partir de R$ 3.065, ida e volta, c/ taxas! Em até 4x SEM JUROS!",
-    "destination": "Lisboa ou Porto",
-    "price_brl": 3065.0,
-    "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-lisboa-ou-porto-2026-6/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/portugal_lisboa_612_612-612x612.png",
-    "trip_type": "round_trip",
-    "fetched_at": "2026-08-03T17:25:25.683997+00:00",
-    "id": "950c17b34232"
-  },
-  {
     "source": "GOL",
     "title": "GOL: São Paulo (GRU) → Miami (MIA) - 28/08/2026 a 11/09/2026",
     "destination": "Miami",
@@ -1597,6 +1610,25 @@
   },
   {
     "source": "GOL",
+    "title": "GOL: São Paulo (SAO) → Orlando (MCO) - 03/11/2026 a 25/11/2026",
+    "destination": "Orlando",
+    "destination_iata": "MCO",
+    "origin": "São Paulo",
+    "origin_iata": "SAO",
+    "price_brl": 3251.01,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/SAO/MCO",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/orlando-3-1500px-x-500px.png",
+    "airline": "GOL",
+    "trip_type": "round_trip",
+    "travel_class": "Econômica",
+    "departure_date": "2026-11-03",
+    "return_date": "2026-11-25",
+    "fetched_at": "2026-08-04T17:50:20.482084+00:00",
+    "id": "403f8301db0f"
+  },
+  {
+    "source": "GOL",
     "title": "GOL: São Paulo (GRU) → Cancún (CUN) - 02/11/2026 a 09/11/2026",
     "destination": "Cancún",
     "destination_iata": "CUN",
@@ -1637,6 +1669,19 @@
     "trip_type": "unknown",
     "fetched_at": "2026-08-03T20:43:50.654054+00:00",
     "id": "1dd2ec275cd1"
+  },
+  {
+    "source": "Melhores Destinos",
+    "title": "Itália: voos para Milão, Veneza, Roma e mais cidades a partir de R$ 3.771 ida e volta",
+    "destination": "Milão, Veneza, Roma e mais cidades",
+    "price_brl": 3771.0,
+    "currency": "BRL",
+    "link": "https://www.melhoresdestinos.com.br/promocao/italia-voos-para-milao-veneza-roma-e-mais-cidades-a-partir-de-r-3-771-ida-e-volta",
+    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-roma-capa2019-01-754x396.jpg",
+    "airline": null,
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-04T17:50:03.408004+00:00",
+    "id": "3de146312fa1"
   },
   {
     "source": "Passagens Imperdíveis",
@@ -1880,24 +1925,6 @@
   },
   {
     "source": "TAP",
-    "title": "TAP: Rio de Janeiro (GIG) → Madri (MAD) - 22/08/2026 a 21/09/2026",
-    "destination": "Madri",
-    "destination_iata": "MAD",
-    "origin": "Rio de Janeiro",
-    "origin_iata": "GIG",
-    "price_brl": 5802.0,
-    "currency": "BRL",
-    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
-    "image_url": "https://assets.airtrfx.com/media-em/tp/madri-1-1500px.jpg",
-    "airline": "TAP",
-    "trip_type": "round_trip",
-    "departure_date": "22/08/2026",
-    "return_date": "21/09/2026",
-    "fetched_at": "2026-08-03T17:25:28.140958+00:00",
-    "id": "c81fb921a522"
-  },
-  {
-    "source": "TAP",
     "title": "TAP: São Paulo (GRU) → Lisboa (LIS) - 14/08/2026 a 28/08/2026",
     "destination": "Lisboa",
     "destination_iata": "LIS",
@@ -1949,5 +1976,18 @@
     "return_date": "02/09/2026",
     "fetched_at": "2026-08-04T08:38:55.039943+00:00",
     "id": "d6c74f3a2b82"
+  },
+  {
+    "source": "Melhores Destinos",
+    "title": "🇦🇺 Austrália ou Nova Zelândia 🇳🇿 Passagens aéreas a partir de R$ 6.911 ida e volta saindo do Rio, São Paulo e mais cidades!",
+    "destination": null,
+    "price_brl": 6911.0,
+    "currency": "BRL",
+    "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-nova-zelandia-australia-29-04-26",
+    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-auckland-capa2019-01-754x396.jpg",
+    "airline": null,
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-04T17:50:18.544393+00:00",
+    "id": "6489e5cc2f52"
   }
 ]
