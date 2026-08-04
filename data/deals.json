@@ -2374,24 +2374,6 @@
     "id": "c4383f395596"
   },
   {
-    "source": "TAP",
-    "title": "TAP: São Paulo (GRU) → Roma (FCO) - 31/08/2026 a 14/09/2026",
-    "destination": "Roma",
-    "destination_iata": "FCO",
-    "origin": "São Paulo",
-    "origin_iata": "GRU",
-    "price_brl": 6452.0,
-    "currency": "BRL",
-    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
-    "image_url": "https://assets.airtrfx.com/media-em/tp/roma-1-1500px.jpg",
-    "airline": "TAP",
-    "trip_type": "round_trip",
-    "departure_date": "31/08/2026",
-    "return_date": "14/09/2026",
-    "fetched_at": "2026-08-03T01:06:47.774508+00:00",
-    "id": "396005777f39"
-  },
-  {
     "source": "Melhores Destinos",
     "title": "🇦🇺 Austrália ou Nova Zelândia 🇳🇿 Passagens aéreas a partir de R$ 6.911 ida e volta saindo do Rio, São Paulo e mais cidades!",
     "destination": null,
