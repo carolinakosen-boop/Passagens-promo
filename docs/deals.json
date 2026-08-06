@@ -2181,6 +2181,18 @@
     "id": "3b1a5578deb9"
   },
   {
+    "source": "Passagens Imperdíveis",
+    "title": "Continua muito bom! Programe sua viagem para MACHU PICCHU! Passagens para o Peru: Lima ou Cusco! A partir de R$ 1.323, ida e volta, c/ taxas! Opções de VOO DIRETO!",
+    "destination": "Lima ou Cusco, Peru",
+    "price_brl": 1323.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-lima-cusco-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/peru_lima_612_612-612x612.png",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-06T12:25:59.660283+00:00",
+    "id": "982d019cd83a"
+  },
+  {
     "source": "GOL",
     "title": "GOL: Rio de Janeiro (GIG) → Ilhéus (IOS) - 11/08/2026",
     "destination": "Ilhéus",
@@ -2574,25 +2586,6 @@
     "id": "0a73a90ab5c6"
   },
   {
-    "source": "GOL",
-    "title": "GOL: São Paulo (GRU) → Orlando (MCO) - 17/08/2026 a 31/08/2026",
-    "destination": "Orlando",
-    "destination_iata": "MCO",
-    "origin": "São Paulo",
-    "origin_iata": "GRU",
-    "price_brl": 2140.39,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/GRU/MCO",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/orlando-3-1500px-x-500px.png",
-    "airline": "GOL",
-    "trip_type": "round_trip",
-    "travel_class": "Econômica",
-    "departure_date": "2026-08-17",
-    "return_date": "2026-08-31",
-    "fetched_at": "2026-08-05T11:37:04.680008+00:00",
-    "id": "c51ea0f16181"
-  },
-  {
     "source": "Passagens Imperdíveis",
     "title": "Passagens para ARUBA, CANCÚN ou PUNTA CANA! Datas inclusive no Inverno no Caribe, férias e mais! A partir de R$ 2.145, ida e volta, c/ taxas! Em até 5x SEM JUROS! Opções de VOO DIRETO!",
     "destination": "Aruba, Cancún ou Punta Cana",
@@ -2603,19 +2596,6 @@
     "trip_type": "round_trip",
     "fetched_at": "2026-08-05T20:08:35.602936+00:00",
     "id": "048ac38fa6c5"
-  },
-  {
-    "source": "Melhores Destinos",
-    "title": "Bora para Orlando? Voos a partir de R$ 2.151 ida e volta saindo de várias cidades",
-    "destination": "Orlando? Voos",
-    "price_brl": 2151.0,
-    "currency": "BRL",
-    "link": "https://www.melhoresdestinos.com.br/promocao/bora-para-orlando-voos-2151",
-    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2021/10/orlando-eua-disney-capa14-754x396.jpg",
-    "airline": null,
-    "trip_type": "round_trip",
-    "fetched_at": "2026-08-05T11:36:56.677173+00:00",
-    "id": "f610546149c6"
   },
   {
     "source": "GOL",
@@ -2654,25 +2634,6 @@
     "return_date": "2026-12-12",
     "fetched_at": "2026-08-06T10:09:23.073891+00:00",
     "id": "0cd37ed50acf"
-  },
-  {
-    "source": "GOL",
-    "title": "GOL: São Paulo (SAO) → Oranjestad, Aruba (AUA) - 25/09/2026 a 02/10/2026",
-    "destination": "Oranjestad, Aruba",
-    "destination_iata": "AUA",
-    "origin": "São Paulo",
-    "origin_iata": "SAO",
-    "price_brl": 2235.34,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/SAO/AUA",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/02-1500px-x-500px-3.png",
-    "airline": "GOL",
-    "trip_type": "round_trip",
-    "travel_class": "Econômica",
-    "departure_date": "2026-09-25",
-    "return_date": "2026-10-02",
-    "fetched_at": "2026-08-05T11:37:04.680068+00:00",
-    "id": "5b1e9333e8f2"
   },
   {
     "source": "GOL",
@@ -3629,5 +3590,35 @@
     "return_date": "18/09/2026",
     "fetched_at": "2026-08-05T21:47:13.314228+00:00",
     "id": "6de24e8c51ee"
+  },
+  {
+    "source": "TAP",
+    "title": "TAP: São Paulo (GRU) → Lisboa (LIS) - 07/08/2026 a 17/08/2026",
+    "destination": "Lisboa",
+    "destination_iata": "LIS",
+    "origin": "São Paulo",
+    "origin_iata": "GRU",
+    "price_brl": 5398.0,
+    "currency": "BRL",
+    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
+    "image_url": "https://assets.airtrfx.com/media-em/tp/lisboa-1-1500px.jpg",
+    "airline": "TAP",
+    "trip_type": "round_trip",
+    "departure_date": "07/08/2026",
+    "return_date": "17/08/2026",
+    "fetched_at": "2026-08-06T12:26:01.096695+00:00",
+    "id": "6d48b6dc2a63"
+  },
+  {
+    "source": "Passagens Imperdíveis",
+    "title": "MUITO BOM!!! Passagens para a CHINA: Pequim ou Xangai! A partir de R$ 5.413, ida e volta, c/ taxas! Em até 5x SEM JUROS! Opções com BAGAGEM INCLUÍDA!",
+    "destination": "MUITO BOM!!! Pequim ou Xangai, China",
+    "price_brl": 5413.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-china-pequim-xangai-2026-4/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/china_3_612-612x612.jpg",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-06T12:25:59.660313+00:00",
+    "id": "ab0b589123e5"
   }
 ]
