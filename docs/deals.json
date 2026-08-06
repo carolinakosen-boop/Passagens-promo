@@ -342,6 +342,19 @@
     "id": "3aab8ede7acf"
   },
   {
+    "source": "Melhores Destinos",
+    "title": "Madrugada de ofertas 🌙 Azul e Gol têm promoções de voos nacionais a partir de R$ 361 ida e volta!",
+    "destination": null,
+    "price_brl": 361.0,
+    "currency": "BRL",
+    "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-nacionais-anoiteceu-azul-05-08-26",
+    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2025/05/azul-capa.jpg",
+    "airline": "GOL",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-05T22:51:09+00:00",
+    "id": "6fd1e9abba0f"
+  },
+  {
     "source": "Passagens Imperdíveis",
     "title": "Passagens para as PRAIAS DO NORDESTE: Aracaju, Fortaleza, Ilhéus, Jericoacoara, João Pessoa, Maceió, Natal, Porto Seguro, Recife, Salvador ou São Luís! A partir de R$ 384, ida e volta!",
     "destination": "Praias do Nordeste",
@@ -1761,6 +1774,19 @@
     "trip_type": "round_trip",
     "fetched_at": "2026-08-05T20:08:35.602980+00:00",
     "id": "dee411121464"
+  },
+  {
+    "source": "Melhores Destinos",
+    "title": "Temporada de neve já começou! Viaje para o Chile com passagens para Santiago a partir de R$ 1.261 ida e volta",
+    "destination": "Chile",
+    "price_brl": 1261.0,
+    "currency": "BRL",
+    "link": "https://www.melhoresdestinos.com.br/promocao/neve-passagens-para-santiago-22jun26",
+    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2024/06/neve-ad-santiago-bariloche-capa-754x396.jpeg",
+    "airline": null,
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-06T07:15:52.724172+00:00",
+    "id": "3d5bddb05f84"
   },
   {
     "source": "GOL",
