@@ -975,6 +975,18 @@
     "id": "7673d46ac18f"
   },
   {
+    "source": "Passagens Imperdíveis",
+    "title": "Passagens para BONITO ou PALMAS! Datas até Junho/27, inclusive nas Férias, feriados e mais! A partir de R$ 683, ida e volta, c/ taxas! Em até 4x SEM JUROS!",
+    "destination": "Bonito ou Palmas",
+    "price_brl": 683.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-bonito-ou-palmas-2026-2/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/jalapao_palmas_tocantins_2_1-612x612.jpg",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-07T18:59:00.964228+00:00",
+    "id": "dc6e29cb3616"
+  },
+  {
     "source": "GOL",
     "title": "GOL: São Paulo (GRU) → Salvador (SSA) - 24/08/2026",
     "destination": "Salvador",
@@ -1225,6 +1237,18 @@
     "trip_type": "round_trip",
     "fetched_at": "2026-08-07T00:24:25.014534+00:00",
     "id": "60ead88a4c7e"
+  },
+  {
+    "source": "Passagens Imperdíveis",
+    "title": "Programe sua viagem para os Lençóis Maranhenses! Passagens para SÃO LUÍS! A partir de R$ 847, ida e volta, c/ taxas! Em até 4x SEM JUROS!",
+    "destination": "São Luís",
+    "price_brl": 847.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-sao-luis-2026-20/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/lencois_maranhenses_barreirinhas_maranhao_brasil_nacional_nacionais_2-612x612.png",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-07T18:59:00.964271+00:00",
+    "id": "439ab4ba4e51"
   },
   {
     "source": "GOL",
@@ -3184,6 +3208,18 @@
     "trip_type": "round_trip",
     "fetched_at": "2026-08-07T03:29:04.438796+00:00",
     "id": "3de146312fa1"
+  },
+  {
+    "source": "Passagens Imperdíveis",
+    "title": "Continua muito bom! Passagens para a FINLÂNDIA ou SUÉCIA! Uma experiência única entre neve, silêncio e o espetáculo natural mais desejado do mundo! A partir de R$ 3.804, ida e volta, c/ taxas! Opções ",
+    "destination": "Continua muito bom! Finlândia ou Suécia",
+    "price_brl": 3804.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-finlandia-helsinque-suecia-estocolmo-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/whatsapp_image_2024_04_19_at_09_24_47-612x612.jpg",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-07T18:59:00.964259+00:00",
+    "id": "3ca4676db5f0"
   },
   {
     "source": "TAP",

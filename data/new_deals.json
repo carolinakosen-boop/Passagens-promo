@@ -1,26 +1,38 @@
 [
   {
     "source": "Passagens Imperdíveis",
-    "title": "Programe sua viagem para Gramado e Canela! Passagens para PORTO ALEGRE! Datas inclusive no Natal Luz, férias e mais! A partir de R$ 447, ida e volta, c/ taxas!",
-    "destination": "Porto Alegre",
-    "price_brl": 447.0,
+    "title": "Passagens para BONITO ou PALMAS! Datas até Junho/27, inclusive nas Férias, feriados e mais! A partir de R$ 683, ida e volta, c/ taxas! Em até 4x SEM JUROS!",
+    "destination": "Bonito ou Palmas",
+    "price_brl": 683.0,
     "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-porto-alegre-2026-33/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/gramado_nacional_rio_grande_do_sul_2-612x612.jpg",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-bonito-ou-palmas-2026-2/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/jalapao_palmas_tocantins_2_1-612x612.jpg",
     "trip_type": "round_trip",
-    "fetched_at": "2026-08-07T17:54:12.525243+00:00",
-    "id": "7c168dad1b17"
+    "fetched_at": "2026-08-07T18:59:00.964228+00:00",
+    "id": "dc6e29cb3616"
   },
   {
     "source": "Passagens Imperdíveis",
-    "title": "Passagens para a BAHIA: Barreiras, Ilhéus, Porto Seguro, Salvador ou Vitória da Conquista! Datas inclusive no Verão, férias e mais! A partir de R$ 651, ida e volta, c/ taxas! Em até 5x SEM JUROS!",
-    "destination": "Bahia",
-    "price_brl": 651.0,
+    "title": "Continua muito bom! Passagens para a FINLÂNDIA ou SUÉCIA! Uma experiência única entre neve, silêncio e o espetáculo natural mais desejado do mundo! A partir de R$ 3.804, ida e volta, c/ taxas! Opções ",
+    "destination": "Continua muito bom! Finlândia ou Suécia",
+    "price_brl": 3804.0,
     "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-barreiras-ilheus-porto-seguro-salvador-ou-vitoria-da-conquista-2026-10/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/salvador_bahia_brasil-612x612.png",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-finlandia-helsinque-suecia-estocolmo-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/whatsapp_image_2024_04_19_at_09_24_47-612x612.jpg",
     "trip_type": "round_trip",
-    "fetched_at": "2026-08-07T17:54:12.525271+00:00",
-    "id": "d484605b53f2"
+    "fetched_at": "2026-08-07T18:59:00.964259+00:00",
+    "id": "3ca4676db5f0"
+  },
+  {
+    "source": "Passagens Imperdíveis",
+    "title": "Programe sua viagem para os Lençóis Maranhenses! Passagens para SÃO LUÍS! A partir de R$ 847, ida e volta, c/ taxas! Em até 4x SEM JUROS!",
+    "destination": "São Luís",
+    "price_brl": 847.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-sao-luis-2026-20/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/lencois_maranhenses_barreirinhas_maranhao_brasil_nacional_nacionais_2-612x612.png",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-07T18:59:00.964271+00:00",
+    "id": "439ab4ba4e51"
   }
 ]
