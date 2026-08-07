@@ -2421,6 +2421,18 @@
     "id": "0420802737a4"
   },
   {
+    "source": "Passagens Imperdíveis",
+    "title": "Continua muito bom! Programe sua viagem para MACHU PICCHU! Passagens para o PERU: Cusco ou Lima! A partir de R$ 1.359, ida e volta, c/ taxas! Opções de VOO DIRETO!",
+    "destination": "Cusco ou Lima, Peru",
+    "price_brl": 1359.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-cusco-ou-lima-2026-105/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/peru_lima_612_612-612x612.png",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-07T20:41:55.560586+00:00",
+    "id": "f10a6539d0ef"
+  },
+  {
     "source": "GOL",
     "title": "GOL: São Paulo (GRU) → Santa Cruz de la Sierra (VVI) - 24/08/2026 a 26/08/2026",
     "destination": "Santa Cruz de la Sierra",
@@ -3602,24 +3614,5 @@
     "return_date": "2026-10-04",
     "fetched_at": "2026-08-07T00:24:25.564209+00:00",
     "id": "ce43e8df5a17"
-  },
-  {
-    "source": "GOL",
-    "title": "GOL: São Paulo (SAO) → Orlando (MCO) - 16/09/2026 a 28/09/2026",
-    "destination": "Orlando",
-    "destination_iata": "MCO",
-    "origin": "São Paulo",
-    "origin_iata": "SAO",
-    "price_brl": 3341.03,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/SAO/MCO",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/orlando-3-1500px-x-500px.png",
-    "airline": "GOL",
-    "trip_type": "round_trip",
-    "travel_class": "Econômica",
-    "departure_date": "2026-09-16",
-    "return_date": "2026-09-28",
-    "fetched_at": "2026-08-07T15:57:15.106770+00:00",
-    "id": "0f608db3829e"
   }
 ]
