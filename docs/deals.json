@@ -891,18 +891,6 @@
     "id": "04825380ee51"
   },
   {
-    "source": "Passagens Imperdíveis",
-    "title": "Passagens para BONITO ou PALMAS! Datas até Junho/27, inclusive nas Férias, feriados e mais! A partir de R$ 683, ida e volta, c/ taxas! Em até 4x SEM JUROS!",
-    "destination": "Bonito ou Palmas",
-    "price_brl": 683.0,
-    "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-bonito-ou-palmas-2026-2/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/jalapao_palmas_tocantins_2_1-612x612.jpg",
-    "trip_type": "round_trip",
-    "fetched_at": "2026-08-07T18:59:00.964228+00:00",
-    "id": "dc6e29cb3616"
-  },
-  {
     "source": "GOL",
     "title": "GOL: São Paulo (SAO) → Recife (REC) - 25/08/2026",
     "destination": "Recife",
@@ -1167,18 +1155,6 @@
     "return_date": "",
     "fetched_at": "2026-08-07T19:55:38.629827+00:00",
     "id": "408dff4a67b5"
-  },
-  {
-    "source": "Passagens Imperdíveis",
-    "title": "Programe sua viagem para os Lençóis Maranhenses! Passagens para SÃO LUÍS! A partir de R$ 847, ida e volta, c/ taxas! Em até 4x SEM JUROS!",
-    "destination": "São Luís",
-    "price_brl": 847.0,
-    "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-sao-luis-2026-20/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/lencois_maranhenses_barreirinhas_maranhao_brasil_nacional_nacionais_2-612x612.png",
-    "trip_type": "round_trip",
-    "fetched_at": "2026-08-07T18:59:00.964271+00:00",
-    "id": "439ab4ba4e51"
   },
   {
     "source": "GOL",
@@ -1590,6 +1566,25 @@
     "return_date": "2026-09-03",
     "fetched_at": "2026-08-08T14:33:02.215026+00:00",
     "id": "350c68005812"
+  },
+  {
+    "source": "GOL",
+    "title": "GOL: Rio de Janeiro (GIG) → Fortaleza (FOR) - 31/08/2026",
+    "destination": "Fortaleza",
+    "destination_iata": "FOR",
+    "origin": "Rio de Janeiro",
+    "origin_iata": "GIG",
+    "price_brl": 1193.81,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/GIG/FOR",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/fortaleza-3-1500px-x-500px.png",
+    "airline": "GOL",
+    "trip_type": "one_way",
+    "travel_class": "Econômica",
+    "departure_date": "2026-08-31",
+    "return_date": "",
+    "fetched_at": "2026-08-08T19:31:04.138735+00:00",
+    "id": "59aa7ae3006f"
   },
   {
     "source": "GOL",
@@ -3347,5 +3342,41 @@
     "trip_type": "round_trip",
     "fetched_at": "2026-08-08T13:51:15.819118+00:00",
     "id": "6489e5cc2f52"
+  },
+  {
+    "source": "TAP",
+    "title": "TAP: São Paulo (GRU) → Porto (OPO) - 29/08/2026 a 22/09/2026",
+    "destination": "Porto",
+    "destination_iata": "OPO",
+    "origin": "São Paulo",
+    "origin_iata": "GRU",
+    "price_brl": 7119.0,
+    "currency": "BRL",
+    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
+    "image_url": "https://assets.airtrfx.com/media-em/tp/porto-1-1500px.jpg",
+    "airline": "TAP",
+    "trip_type": "round_trip",
+    "departure_date": "29/08/2026",
+    "return_date": "22/09/2026",
+    "fetched_at": "2026-08-08T19:31:04.417906+00:00",
+    "id": "4b7ac023e551"
+  },
+  {
+    "source": "TAP",
+    "title": "TAP: São Paulo (GRU) → Roma (FCO) - 03/09/2026 a 16/09/2026",
+    "destination": "Roma",
+    "destination_iata": "FCO",
+    "origin": "São Paulo",
+    "origin_iata": "GRU",
+    "price_brl": 7669.0,
+    "currency": "BRL",
+    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
+    "image_url": "https://assets.airtrfx.com/media-em/tp/roma-1-1500px.jpg",
+    "airline": "TAP",
+    "trip_type": "round_trip",
+    "departure_date": "03/09/2026",
+    "return_date": "16/09/2026",
+    "fetched_at": "2026-08-08T19:31:04.418127+00:00",
+    "id": "e6d3f5a7e80b"
   }
 ]
