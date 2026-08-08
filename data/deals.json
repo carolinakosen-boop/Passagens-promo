@@ -2374,6 +2374,19 @@
     "id": "0eb945a9d862"
   },
   {
+    "source": "Melhores Destinos",
+    "title": "Temporada de neve já começou! Viaje para o Chile com passagens para Santiago a partir de R$ 1.261 ida e volta",
+    "destination": "Chile",
+    "price_brl": 1261.0,
+    "currency": "BRL",
+    "link": "https://www.melhoresdestinos.com.br/promocao/neve-passagens-para-santiago-22jun26",
+    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2024/06/neve-ad-santiago-bariloche-capa-754x396.jpeg",
+    "airline": null,
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-08T10:34:45.060906+00:00",
+    "id": "3d5bddb05f84"
+  },
+  {
     "source": "GOL",
     "title": "GOL: São Paulo (GRU) → Juazeiro do Norte (JDO) - 29/08/2026 a 27/09/2026",
     "destination": "Juazeiro do Norte",
@@ -3656,24 +3669,5 @@
     "trip_type": "round_trip",
     "fetched_at": "2026-08-08T03:27:04.943683+00:00",
     "id": "a631ae075d4c"
-  },
-  {
-    "source": "GOL",
-    "title": "GOL: São Paulo (SAO) → Orlando (MCO) - 31/10/2026 a 29/11/2026",
-    "destination": "Orlando",
-    "destination_iata": "MCO",
-    "origin": "São Paulo",
-    "origin_iata": "SAO",
-    "price_brl": 3230.22,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/SAO/MCO",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/orlando-3-1500px-x-500px.png",
-    "airline": "GOL",
-    "trip_type": "round_trip",
-    "travel_class": "Econômica",
-    "departure_date": "2026-10-31",
-    "return_date": "2026-11-29",
-    "fetched_at": "2026-08-08T01:44:15.438177+00:00",
-    "id": "c521ad162137"
   }
 ]
