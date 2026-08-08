@@ -77,6 +77,25 @@
   },
   {
     "source": "GOL",
+    "title": "GOL: Rio de Janeiro (SDU) → São Paulo (CGH) - 23/10/2026",
+    "destination": "São Paulo",
+    "destination_iata": "CGH",
+    "origin": "Rio de Janeiro",
+    "origin_iata": "SDU",
+    "price_brl": 287.32,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/SDU/CGH",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/03-1500px-x-500px.png",
+    "airline": "GOL",
+    "trip_type": "one_way",
+    "travel_class": "Econômica",
+    "departure_date": "2026-10-23",
+    "return_date": "",
+    "fetched_at": "2026-08-08T09:38:40.497945+00:00",
+    "id": "daa7e616d3ea"
+  },
+  {
+    "source": "GOL",
     "title": "GOL: Rio de Janeiro (SDU) → São Paulo (CGH) - 21/10/2026",
     "destination": "São Paulo",
     "destination_iata": "CGH",
@@ -409,6 +428,25 @@
     "return_date": "",
     "fetched_at": "2026-08-07T13:06:30.754402+00:00",
     "id": "d4051fd67a11"
+  },
+  {
+    "source": "GOL",
+    "title": "GOL: Rio de Janeiro (GIG) → Salvador (SSA) - 16/09/2026",
+    "destination": "Salvador",
+    "destination_iata": "SSA",
+    "origin": "Rio de Janeiro",
+    "origin_iata": "GIG",
+    "price_brl": 434.81,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/GIG/SSA",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/02-1500px-x-500px-2.png",
+    "airline": "GOL",
+    "trip_type": "one_way",
+    "travel_class": "Econômica",
+    "departure_date": "2026-09-16",
+    "return_date": "",
+    "fetched_at": "2026-08-08T09:38:40.497987+00:00",
+    "id": "9ca01c4f553a"
   },
   {
     "source": "GOL",
@@ -2336,19 +2374,6 @@
     "id": "0eb945a9d862"
   },
   {
-    "source": "Melhores Destinos",
-    "title": "Temporada de neve já começou! Viaje para o Chile com passagens para Santiago a partir de R$ 1.261 ida e volta",
-    "destination": "Chile",
-    "price_brl": 1261.0,
-    "currency": "BRL",
-    "link": "https://www.melhoresdestinos.com.br/promocao/neve-passagens-para-santiago-22jun26",
-    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2024/06/neve-ad-santiago-bariloche-capa-754x396.jpeg",
-    "airline": null,
-    "trip_type": "round_trip",
-    "fetched_at": "2026-08-07T09:32:12.580857+00:00",
-    "id": "3d5bddb05f84"
-  },
-  {
     "source": "GOL",
     "title": "GOL: São Paulo (GRU) → Juazeiro do Norte (JDO) - 29/08/2026 a 27/09/2026",
     "destination": "Juazeiro do Norte",
@@ -3650,24 +3675,5 @@
     "return_date": "2026-11-29",
     "fetched_at": "2026-08-08T01:44:15.438177+00:00",
     "id": "c521ad162137"
-  },
-  {
-    "source": "GOL",
-    "title": "GOL: Rio de Janeiro (RIO) → Oranjestad, Aruba (AUA) - 06/09/2026 a 15/09/2026",
-    "destination": "Oranjestad, Aruba",
-    "destination_iata": "AUA",
-    "origin": "Rio de Janeiro",
-    "origin_iata": "RIO",
-    "price_brl": 3371.9,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/RIO/AUA",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/02-1500px-x-500px-3.png",
-    "airline": "GOL",
-    "trip_type": "round_trip",
-    "travel_class": "Econômica",
-    "departure_date": "2026-09-06",
-    "return_date": "2026-09-15",
-    "fetched_at": "2026-08-08T01:44:15.438230+00:00",
-    "id": "6e2c3b43e495"
   }
 ]
