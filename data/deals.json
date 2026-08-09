@@ -271,6 +271,18 @@
     "id": "a275673682c0"
   },
   {
+    "source": "Passagens Imperdíveis",
+    "title": "Passagens para as PRAIAS DO NORDESTE: Aracaju, Fortaleza, Ilhéus, Jericoacoara, João Pessoa, Maceió, Natal, Porto Seguro, Recife, Salvador ou São Luís! A partir de R$ 408, ida e volta!",
+    "destination": "Praias do Nordeste",
+    "price_brl": 408.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/passagens-nacionais-praias-nordeste-2026-107/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/recife_pernambuco_brasil_2-612x612.jpg",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-09T19:34:15.986284+00:00",
+    "id": "2bc575dab69b"
+  },
+  {
     "source": "GOL",
     "title": "GOL: Rio de Janeiro (GIG) → Salvador (SSA) - 29/09/2026",
     "destination": "Salvador",
@@ -1143,25 +1155,6 @@
     "return_date": "2026-12-08",
     "fetched_at": "2026-08-08T21:31:13.228195+00:00",
     "id": "ff8c27232389"
-  },
-  {
-    "source": "GOL",
-    "title": "GOL: Rio de Janeiro (GIG) → Fortaleza (FOR) - 31/08/2026",
-    "destination": "Fortaleza",
-    "destination_iata": "FOR",
-    "origin": "Rio de Janeiro",
-    "origin_iata": "GIG",
-    "price_brl": 1193.81,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/GIG/FOR",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/fortaleza-3-1500px-x-500px.png",
-    "airline": "GOL",
-    "trip_type": "one_way",
-    "travel_class": "Econômica",
-    "departure_date": "2026-08-31",
-    "return_date": "",
-    "fetched_at": "2026-08-08T19:31:04.138735+00:00",
-    "id": "59aa7ae3006f"
   },
   {
     "source": "Melhores Destinos",
@@ -2323,6 +2316,18 @@
     "trip_type": "round_trip",
     "fetched_at": "2026-08-09T15:01:23.040104+00:00",
     "id": "3de146312fa1"
+  },
+  {
+    "source": "Passagens Imperdíveis",
+    "title": "Continua muito bom! Passagens para a FINLÂNDIA ou SUÉCIA! Uma experiência única entre neve, silêncio e o espetáculo natural mais desejado do mundo! A partir de R$ 3.791, ida e volta, c/ taxas! Opções ",
+    "destination": "Continua muito bom! Finlândia ou Suécia",
+    "price_brl": 3791.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-finlandia-helsinque-suecia-estocolmo-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/luke_stackpoole_5qqkjn4pfpa_unsp-612x612.jpg",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-09T19:34:15.986294+00:00",
+    "id": "019e4c41aeb2"
   },
   {
     "source": "Passagens Imperdíveis",

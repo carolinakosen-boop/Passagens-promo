@@ -1,14 +1,26 @@
 [
   {
     "source": "Passagens Imperdíveis",
-    "title": "Programe sua viagem para MACHU PICCHU! Passagens para o PERU: Cusco ou Lima! A partir de R$ 1.622, ida e volta, c/ taxas! Opções de VOO DIRETO! Em até 4x SEM JUROS!",
-    "destination": "Cusco ou Lima, Peru",
-    "price_brl": 1622.0,
+    "title": "Passagens para as PRAIAS DO NORDESTE: Aracaju, Fortaleza, Ilhéus, Jericoacoara, João Pessoa, Maceió, Natal, Porto Seguro, Recife, Salvador ou São Luís! A partir de R$ 408, ida e volta!",
+    "destination": "Praias do Nordeste",
+    "price_brl": 408.0,
     "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-cusco-ou-lima-2026-106/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/lima_2-612x612.jpg",
+    "link": "https://passagensimperdiveis.com.br/passagens-nacionais-praias-nordeste-2026-107/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/recife_pernambuco_brasil_2-612x612.jpg",
     "trip_type": "round_trip",
-    "fetched_at": "2026-08-09T18:41:57.576288+00:00",
-    "id": "1b807f93ae80"
+    "fetched_at": "2026-08-09T19:34:15.986284+00:00",
+    "id": "2bc575dab69b"
+  },
+  {
+    "source": "Passagens Imperdíveis",
+    "title": "Continua muito bom! Passagens para a FINLÂNDIA ou SUÉCIA! Uma experiência única entre neve, silêncio e o espetáculo natural mais desejado do mundo! A partir de R$ 3.791, ida e volta, c/ taxas! Opções ",
+    "destination": "Continua muito bom! Finlândia ou Suécia",
+    "price_brl": 3791.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-finlandia-helsinque-suecia-estocolmo-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/luke_stackpoole_5qqkjn4pfpa_unsp-612x612.jpg",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-09T19:34:15.986294+00:00",
+    "id": "019e4c41aeb2"
   }
 ]
