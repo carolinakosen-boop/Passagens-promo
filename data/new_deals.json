@@ -1,1 +1,39 @@
-[]
+[
+  {
+    "source": "Melhores Destinos",
+    "title": "Itália: voos para Milão, Veneza, Roma e mais cidades a partir de R$ 3.771 ida e volta",
+    "destination": "Milão, Veneza, Roma e mais cidades",
+    "price_brl": 3771.0,
+    "currency": "BRL",
+    "link": "https://www.melhoresdestinos.com.br/promocao/italia-voos-para-milao-veneza-roma-e-mais-cidades-a-partir-de-r-3-771-ida-e-volta",
+    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-roma-capa2019-01-754x396.jpg",
+    "airline": null,
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-09T15:01:23.040104+00:00",
+    "id": "3de146312fa1"
+  },
+  {
+    "source": "Passagens Imperdíveis",
+    "title": "Passagens para os ESTADOS UNIDOS: Boston, Chicago, Fort Lauderdale, Los Angeles, Miami, Nova York, Orlando, San Francisco, Sanford ou Tampa! A partir de R$ 2.348, ida e volta, c/ taxas!",
+    "destination": "Estados Unidos",
+    "price_brl": 2348.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-estados-unidos-boston-chicago-fort-lauderdale-los-angeles-miami-2026-4/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/eua_orlando_disney_2_612_612-612x612.png",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-09T15:01:31.244117+00:00",
+    "id": "dcabe75665ae"
+  },
+  {
+    "source": "Passagens Imperdíveis",
+    "title": "Passagens para LISBOA ou MADRI! Datas inclusive no Verão Europeu, férias e mais! A partir de R$ 3.519, ida e volta, c/ taxas! Em até 4x SEM JUROS! Opções com BAGAGEM INCLUÍDA!",
+    "destination": "Lisboa ou Madri",
+    "price_brl": 3519.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-lisboa-ou-madri-2026-33/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/3c348ffe_1bb1_46f6_ba8f_95443e9bd505-612x612.jpg",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-09T15:01:31.244125+00:00",
+    "id": "5ad934e92ae6"
+  }
+]
