@@ -95,18 +95,6 @@
     "id": "0f5d0aa68ab3"
   },
   {
-    "source": "Passagens Imperdíveis",
-    "title": "Passagens para o SUDESTE DO BRASIL: Aracatuba, Bauru, Belo Horizonte, Cabo Frio, Campinas, Juiz de Fora, Macaé, Montes Claros, Presidente Prudente, Ribeirão Preto, Rio de Janeiro, São José do Rio Pret",
-    "destination": "Sudeste do Brasil",
-    "price_brl": 302.0,
-    "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/passagens-nacionais-sudeste-2026-23/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/belo_horizonte_minas_gerais_brasil_1_2_3_4-612x612.png",
-    "trip_type": "round_trip",
-    "fetched_at": "2026-08-08T16:34:42.183640+00:00",
-    "id": "9cc284278f57"
-  },
-  {
     "source": "GOL",
     "title": "GOL: São Paulo (CGH) → Salvador (SSA) - 09/09/2026",
     "destination": "Salvador",
@@ -1265,6 +1253,18 @@
     "id": "95d1f4d66345"
   },
   {
+    "source": "Passagens Imperdíveis",
+    "title": "Passagens para BUENOS AIRES ou SANTIAGO! Datas inclusive no Inverno, férias e mais! A partir de R$ 1.279, ida e volta, c/ taxas! Em até 6x SEM JUROS! Opções de VOO DIRETO!",
+    "destination": "Buenos Aires ou Santiago",
+    "price_brl": 1279.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-buenos-aires-ou-santiago-2026-31/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/buenos_aires_puerto_madero_argentina_612-612x612.jpg",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-09T16:45:49.611487+00:00",
+    "id": "4f1eacb0de92"
+  },
+  {
     "source": "GOL",
     "title": "GOL: Rio de Janeiro (RIO) → Buenos Aires (BUE) - 21/09/2026 a 27/09/2026",
     "destination": "Buenos Aires",
@@ -1320,25 +1320,6 @@
     "return_date": "2026-12-13",
     "fetched_at": "2026-08-08T23:57:57.735062+00:00",
     "id": "337017519435"
-  },
-  {
-    "source": "GOL",
-    "title": "GOL: São Paulo (CGH) → Salvador (SSA) - 29/08/2026",
-    "destination": "Salvador",
-    "destination_iata": "SSA",
-    "origin": "São Paulo",
-    "origin_iata": "CGH",
-    "price_brl": 1334.04,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/CGH/SSA",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/02-1500px-x-500px-2.png",
-    "airline": "GOL",
-    "trip_type": "one_way",
-    "travel_class": "Econômica",
-    "departure_date": "2026-08-29",
-    "return_date": "",
-    "fetched_at": "2026-08-08T16:34:44.079641+00:00",
-    "id": "e45c615231b8"
   },
   {
     "source": "GOL",
@@ -2430,18 +2411,6 @@
     "trip_type": "round_trip",
     "fetched_at": "2026-08-08T18:38:57.155776+00:00",
     "id": "019e4c41aeb2"
-  },
-  {
-    "source": "Passagens Imperdíveis",
-    "title": "Passagens para LONDRES ou MILÃO! Datas inclusive no Verão Europeu, férias e mais! A partir de R$ 3.882, ida e volta, c/ taxas! Em até 4x SEM JUROS!",
-    "destination": "Londres ou Milão",
-    "price_brl": 3882.0,
-    "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-londres-ou-milao-2026-2/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/italia_milao-612x612.png",
-    "trip_type": "round_trip",
-    "fetched_at": "2026-08-08T16:34:42.183613+00:00",
-    "id": "8ec1311117a3"
   },
   {
     "source": "TAP",
