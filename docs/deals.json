@@ -2192,6 +2192,18 @@
     "id": "b3e1e7c59d8a"
   },
   {
+    "source": "Passagens Imperdíveis",
+    "title": "IMPERDÍVEL!!! Passagens em promoção para o RÉVEILLON! Vá para o CANADÁ! A partir de R$ 3.199, ida e volta, c/ taxas!",
+    "destination": "Imperdível! Ano Novo no Canadá",
+    "price_brl": 3199.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/passagens-em-promocao-para-o-reveillon-canada-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/canada_toronto_612_612-612x612.png",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-09T20:33:37.409051+00:00",
+    "id": "45f7b7a9e017"
+  },
+  {
     "source": "GOL",
     "title": "GOL: São Paulo (GRU) → Orlando (MCO) - 15/09/2026 a 04/10/2026",
     "destination": "Orlando",
@@ -2260,18 +2272,6 @@
     "return_date": "2026-11-23",
     "fetched_at": "2026-08-08T23:30:21.602488+00:00",
     "id": "404b78308bea"
-  },
-  {
-    "source": "Passagens Imperdíveis",
-    "title": "Passagens para PORTUGAL: Lisboa ou Porto! Datas inclusive no Verão Europeu, férias e mais! A partir de R$ 3.497, ida e volta, c/ taxas! Em até 4x SEM JUROS! Opções de VOO DIRETO!",
-    "destination": "Lisboa ou Porto",
-    "price_brl": 3497.0,
-    "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-portugal-lisboa-porto-2026-27/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/f6fc6f3d_ba78_4d5b_b108_40030b70e40b-612x612.jpg",
-    "trip_type": "round_trip",
-    "fetched_at": "2026-08-08T20:31:13.523407+00:00",
-    "id": "77df5bde6ca8"
   },
   {
     "source": "Passagens Imperdíveis",
