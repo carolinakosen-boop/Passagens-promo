@@ -512,15 +512,15 @@
   },
   {
     "source": "Passagens Imperdíveis",
-    "title": "Passagens para as PRAIAS DO NORDESTE: Aracaju, Fortaleza, Ilhéus, Jericoacoara, João Pessoa, Maceió, Natal, Porto Seguro, Recife, Salvador ou São Luís! A partir de R$ 408, ida e volta!",
-    "destination": "Praias do Nordeste",
-    "price_brl": 408.0,
+    "title": "Passagens para FORTALEZA ou RECIFE! Sol, praia, cultura e gastronomia fazem do Nordeste um destino para todos os estilos de viajante! A partir de R$ 412, ida e volta, c/ taxas!",
+    "destination": "Fortaleza ou Recife",
+    "price_brl": 412.0,
     "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/passagens-nacionais-praias-nordeste-2026-107/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/recife_pernambuco_brasil_2-612x612.jpg",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-fortaleza-ou-recife-2026-4/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/recife_pernambuco_brasil-612x612.png",
     "trip_type": "round_trip",
-    "fetched_at": "2026-08-09T19:34:15.986284+00:00",
-    "id": "2bc575dab69b"
+    "fetched_at": "2026-08-10T20:43:25.128291+00:00",
+    "id": "e66d60c9f19a"
   },
   {
     "source": "GOL",
@@ -711,6 +711,18 @@
     "return_date": "",
     "fetched_at": "2026-08-09T22:32:20.010153+00:00",
     "id": "5bac95a61ae7"
+  },
+  {
+    "source": "Passagens Imperdíveis",
+    "title": "Passagens para FOZ DO IGUAÇU ou NAVEGANTES! Datas até Junho/27, inclusive no Verão, férias e mais! A partir de R$ 474, ida e volta, c/ taxas!",
+    "destination": "Foz do Iguaçu ou Navegantes",
+    "price_brl": 474.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-foz-do-iguacu-ou-navegantes-2026-2/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/itajai_santa_catarina-612x612.jpg",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-10T20:43:25.128267+00:00",
+    "id": "b7964bc4bf20"
   },
   {
     "source": "GOL",
@@ -1324,6 +1336,18 @@
     "return_date": "2026-09-16",
     "fetched_at": "2026-08-09T23:32:16.213090+00:00",
     "id": "2d4a5d7c11fd"
+  },
+  {
+    "source": "Passagens Imperdíveis",
+    "title": "MUITO BOM!!! Passagens para o PARAGUAI: Assunção ou URUGUAI: Montevideo! Inclusive no Inverno, férias e mais! A partir de R$ 809, ida e volta, c/ taxas! Opções de VOO DIRETO!",
+    "destination": "Assunção ou Montevideo",
+    "price_brl": 809.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-paraguai-assuncao-uruguai-montevideo-2026-4/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/uruguai_montevideo_uruguay_montevideu_67904-612x612.png",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-10T20:43:25.128280+00:00",
+    "id": "6037eb71995e"
   },
   {
     "source": "GOL",
@@ -3376,18 +3400,6 @@
   },
   {
     "source": "Passagens Imperdíveis",
-    "title": "IMPERDÍVEL!!! Passagens em promoção para o RÉVEILLON! Vá para o CANADÁ! A partir de R$ 3.199, ida e volta, c/ taxas!",
-    "destination": "Imperdível! Ano Novo no Canadá",
-    "price_brl": 3199.0,
-    "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/passagens-em-promocao-para-o-reveillon-canada-2026/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/canada_toronto_612_612-612x612.png",
-    "trip_type": "round_trip",
-    "fetched_at": "2026-08-09T20:33:37.409051+00:00",
-    "id": "45f7b7a9e017"
-  },
-  {
-    "source": "Passagens Imperdíveis",
     "title": "Passagens para a ÁFRICA DO SUL: Cape Town ou Joanesburgo! A partir de R$ 3.314, ida e volta, c/ taxas! Em até 4x SEM JUROS! Opções com BAGAGEM INCLUÍDA!",
     "destination": "Cape Town ou Joanesburgo, África do Sul",
     "price_brl": 3314.0,
@@ -3416,6 +3428,18 @@
     "return_date": "2026-10-27",
     "fetched_at": "2026-08-09T21:33:23.999925+00:00",
     "id": "d426da0329fa"
+  },
+  {
+    "source": "Passagens Imperdíveis",
+    "title": "Passagens para LISBOA ou MADRI! Datas inclusive no Verão Europeu, férias e mais! A partir de R$ 3.364, ida e volta, c/ taxas! Em até 4x SEM JUROS! Opções com BAGAGEM INCLUÍDA!",
+    "destination": "Lisboa ou Madri",
+    "price_brl": 3364.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-lisboa-ou-madri-2026-34/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/lisboa_portugal-612x612.png",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-10T20:43:25.128238+00:00",
+    "id": "037eed838bce"
   },
   {
     "source": "GOL",
@@ -3532,18 +3556,6 @@
   },
   {
     "source": "Passagens Imperdíveis",
-    "title": "Continua muito bom! Passagens para a FINLÂNDIA ou SUÉCIA! Uma experiência única entre neve, silêncio e o espetáculo natural mais desejado do mundo! A partir de R$ 3.791, ida e volta, c/ taxas! Opções ",
-    "destination": "Continua muito bom! Finlândia ou Suécia",
-    "price_brl": 3791.0,
-    "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-finlandia-helsinque-suecia-estocolmo-2026/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/luke_stackpoole_5qqkjn4pfpa_unsp-612x612.jpg",
-    "trip_type": "round_trip",
-    "fetched_at": "2026-08-09T19:34:15.986294+00:00",
-    "id": "019e4c41aeb2"
-  },
-  {
-    "source": "Passagens Imperdíveis",
     "title": "Passagens para LONDRES ou MILÃO! Datas inclusive no Verão Europeu, férias e mais! A partir de R$ 3.882, ida e volta, c/ taxas! Em até 4x SEM JUROS!",
     "destination": "Londres ou Milão",
     "price_brl": 3882.0,
@@ -3626,23 +3638,5 @@
     "return_date": "16/09/2026",
     "fetched_at": "2026-08-10T16:00:22.286203+00:00",
     "id": "e605a27115de"
-  },
-  {
-    "source": "TAP",
-    "title": "TAP: São Paulo (GRU) → Madri (MAD) - 17/08/2026 a 09/09/2026",
-    "destination": "Madri",
-    "destination_iata": "MAD",
-    "origin": "São Paulo",
-    "origin_iata": "GRU",
-    "price_brl": 4164.0,
-    "currency": "BRL",
-    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
-    "image_url": "https://assets.airtrfx.com/media-em/tp/madri-1-1500px.jpg",
-    "airline": "TAP",
-    "trip_type": "round_trip",
-    "departure_date": "17/08/2026",
-    "return_date": "09/09/2026",
-    "fetched_at": "2026-08-10T13:11:03.632057+00:00",
-    "id": "0cb40eebb20e"
   }
 ]
