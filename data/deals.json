@@ -2315,24 +2315,6 @@
   },
   {
     "source": "TAP",
-    "title": "TAP: São Paulo (GRU) → Madri (MAD) - 11/08/2026 a 20/08/2026",
-    "destination": "Madri",
-    "destination_iata": "MAD",
-    "origin": "São Paulo",
-    "origin_iata": "GRU",
-    "price_brl": 4167.0,
-    "currency": "BRL",
-    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
-    "image_url": "https://assets.airtrfx.com/media-em/tp/madri-1-1500px.jpg",
-    "airline": "TAP",
-    "trip_type": "round_trip",
-    "departure_date": "11/08/2026",
-    "return_date": "20/08/2026",
-    "fetched_at": "2026-08-09T09:40:53.746398+00:00",
-    "id": "cee8ff5d64a6"
-  },
-  {
-    "source": "TAP",
     "title": "TAP: São Paulo (GRU) → Milão (MXP) - 10/08/2026 a 09/11/2026",
     "destination": "Milão",
     "destination_iata": "MXP",
@@ -2366,24 +2348,6 @@
     "return_date": "22/08/2026",
     "fetched_at": "2026-08-10T07:43:53.312278+00:00",
     "id": "6327350213cf"
-  },
-  {
-    "source": "TAP",
-    "title": "TAP: São Paulo (GRU) → Londres (LGW) - 17/08/2026 a 22/08/2026",
-    "destination": "Londres",
-    "destination_iata": "LGW",
-    "origin": "São Paulo",
-    "origin_iata": "GRU",
-    "price_brl": 4389.0,
-    "currency": "BRL",
-    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
-    "image_url": "https://assets.airtrfx.com/media-em/tp/londres-1-1500px.jpg",
-    "airline": "TAP",
-    "trip_type": "round_trip",
-    "departure_date": "17/08/2026",
-    "return_date": "22/08/2026",
-    "fetched_at": "2026-08-09T09:40:53.746919+00:00",
-    "id": "f2c18daf4fcc"
   },
   {
     "source": "TAP",
@@ -2638,23 +2602,5 @@
     "return_date": "11/09/2026",
     "fetched_at": "2026-08-10T07:43:53.312001+00:00",
     "id": "f38be104519e"
-  },
-  {
-    "source": "TAP",
-    "title": "TAP: Rio de Janeiro (GIG) → Lisboa (LIS) - 25/08/2026 a 29/06/2027",
-    "destination": "Lisboa",
-    "destination_iata": "LIS",
-    "origin": "Rio de Janeiro",
-    "origin_iata": "GIG",
-    "price_brl": 7620.0,
-    "currency": "BRL",
-    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
-    "image_url": "https://assets.airtrfx.com/media-em/tp/lisboa-1-1500px.jpg",
-    "airline": "TAP",
-    "trip_type": "round_trip",
-    "departure_date": "25/08/2026",
-    "return_date": "29/06/2027",
-    "fetched_at": "2026-08-09T09:40:53.745791+00:00",
-    "id": "c22652717599"
   }
 ]
