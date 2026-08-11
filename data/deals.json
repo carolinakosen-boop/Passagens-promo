@@ -894,6 +894,25 @@
     "id": "fa57e413fb9b"
   },
   {
+    "source": "GOL",
+    "title": "GOL: São Paulo (CGH) → Rio de Janeiro (SDU) - 31/08/2026 a 16/09/2026",
+    "destination": "Rio de Janeiro",
+    "destination_iata": "SDU",
+    "origin": "São Paulo",
+    "origin_iata": "CGH",
+    "price_brl": 789.04,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/CGH/SDU",
+    "image_url": null,
+    "airline": "GOL",
+    "trip_type": "round_trip",
+    "travel_class": "Econômica",
+    "departure_date": "2026-08-31",
+    "return_date": "2026-09-16",
+    "fetched_at": "2026-08-11T01:50:22.240704+00:00",
+    "id": "2d4a5d7c11fd"
+  },
+  {
     "source": "Passagens Imperdíveis",
     "title": "MUITO BOM!!! Passagens para o PARAGUAI: Assunção ou URUGUAI: Montevideo! Inclusive no Inverno, férias e mais! A partir de R$ 809, ida e volta, c/ taxas! Opções de VOO DIRETO!",
     "destination": "Assunção ou Montevideo",
@@ -1239,6 +1258,25 @@
     "return_date": "",
     "fetched_at": "2026-08-10T23:36:19.723600+00:00",
     "id": "a6a33d73d730"
+  },
+  {
+    "source": "GOL",
+    "title": "GOL: Rio de Janeiro (GIG) → Montevideo (MVD) - 14/08/2026 a 17/08/2026",
+    "destination": "Montevideo",
+    "destination_iata": "MVD",
+    "origin": "Rio de Janeiro",
+    "origin_iata": "GIG",
+    "price_brl": 992.99,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/GIG/MVD",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/montevideo-2-1500px-x-500px.png",
+    "airline": "GOL",
+    "trip_type": "round_trip",
+    "travel_class": "Econômica",
+    "departure_date": "2026-08-14",
+    "return_date": "2026-08-17",
+    "fetched_at": "2026-08-11T01:50:21.904843+00:00",
+    "id": "85a803d45ded"
   },
   {
     "source": "GOL",
@@ -2143,6 +2181,25 @@
     "return_date": "2026-09-29",
     "fetched_at": "2026-08-10T13:11:01.790617+00:00",
     "id": "ae22fd1750be"
+  },
+  {
+    "source": "GOL",
+    "title": "GOL: São Paulo (GRU) → Montevideo (MVD) - 27/08/2026 a 13/09/2026",
+    "destination": "Montevideo",
+    "destination_iata": "MVD",
+    "origin": "São Paulo",
+    "origin_iata": "GRU",
+    "price_brl": 2058.93,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/GRU/MVD",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/montevideo-2-1500px-x-500px.png",
+    "airline": "GOL",
+    "trip_type": "round_trip",
+    "travel_class": "Econômica",
+    "departure_date": "2026-08-27",
+    "return_date": "2026-09-13",
+    "fetched_at": "2026-08-11T01:50:22.240608+00:00",
+    "id": "9ec063793135"
   },
   {
     "source": "Melhores Destinos",
