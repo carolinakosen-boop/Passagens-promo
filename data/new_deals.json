@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "source": "Passagens Imperdíveis",
+    "title": "Passagens para SANTIAGO ou DESERTO DO ATACAMA: Calama ou Copiapo! Datas inclusive no Inverno, Férias e mais! A partir de R$ 1.050, ida e volta, c/ taxas! Opções de VOO DIRETO",
+    "destination": "Santiago ou Deserto do Atacama",
+    "price_brl": 1050.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-chile-santiago-copiapo-calama-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/santiago_chile_612-612x612.jpg",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-11T13:54:14.214972+00:00",
+    "id": "8fae8f29c2fc"
+  },
+  {
+    "source": "Passagens Imperdíveis",
+    "title": "Passagens para Portugal: Lisboa ou Porto! Datas inclusive no Verão Europeu, férias e mais! A partir de R$ 3.364, ida e volta, c/ taxas! Em até 4x SEM JUROS! Opções com BAGAGE",
+    "destination": "Lisboa ou Porto",
+    "price_brl": 3364.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-portugal-lisboa-porto-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/20ab19c1_c98d_4a03_8d41_e5638380aab6-612x612.jpg",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-11T13:54:14.215000+00:00",
+    "id": "55466dbc3e2e"
+  }
+]
