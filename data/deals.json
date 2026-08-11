@@ -327,6 +327,25 @@
   },
   {
     "source": "GOL",
+    "title": "GOL: Rio de Janeiro (GIG) → Salvador (SSA) - 29/09/2026",
+    "destination": "Salvador",
+    "destination_iata": "SSA",
+    "origin": "Rio de Janeiro",
+    "origin_iata": "GIG",
+    "price_brl": 434.81,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/GIG/SSA",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/02-1500px-x-500px-2.png",
+    "airline": "GOL",
+    "trip_type": "one_way",
+    "travel_class": "Econômica",
+    "departure_date": "2026-09-29",
+    "return_date": "",
+    "fetched_at": "2026-08-11T08:58:19.619591+00:00",
+    "id": "33d61b21c9dd"
+  },
+  {
+    "source": "GOL",
     "title": "GOL: Rio de Janeiro (RIO) → Salvador (SSA) - 05/10/2026",
     "destination": "Salvador",
     "destination_iata": "SSA",
@@ -1803,6 +1822,19 @@
     "id": "9ec063793135"
   },
   {
+    "source": "Melhores Destinos",
+    "title": "Bora para Orlando? Voos a partir de R$ 2.151 ida e volta saindo de várias cidades",
+    "destination": "Orlando? Voos",
+    "price_brl": 2151.0,
+    "currency": "BRL",
+    "link": "https://www.melhoresdestinos.com.br/promocao/bora-para-orlando-voos-2151",
+    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2021/10/orlando-eua-disney-capa14-754x396.jpg",
+    "airline": null,
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-11T08:58:15.968953+00:00",
+    "id": "f610546149c6"
+  },
+  {
     "source": "GOL",
     "title": "GOL: São Paulo (SAO) → Oranjestad, Aruba (AUA) - 15/09/2026 a 22/09/2026",
     "destination": "Oranjestad, Aruba",
@@ -1927,6 +1959,19 @@
     "trip_type": "round_trip",
     "fetched_at": "2026-08-10T17:02:43.786048+00:00",
     "id": "dcabe75665ae"
+  },
+  {
+    "source": "Melhores Destinos",
+    "title": "Orlando com bons preços: passagens a partir de R$ 2.380 ida e volta saindo de São Paulo e mais cidades",
+    "destination": null,
+    "price_brl": 2380.0,
+    "currency": "BRL",
+    "link": "https://www.melhoresdestinos.com.br/promocao/orlando-bons-precos-2380",
+    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2024/02/apartamentos-orlando-capa-754x396.jpg",
+    "airline": null,
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-11T08:58:13.567561+00:00",
+    "id": "24cd140a6e33"
   },
   {
     "source": "Passagens Imperdíveis",
