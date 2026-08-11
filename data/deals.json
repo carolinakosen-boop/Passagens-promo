@@ -233,25 +233,6 @@
     "id": "0877b067a458"
   },
   {
-    "source": "GOL",
-    "title": "GOL: São Paulo (CGH) → Brasília (BSB) - 29/11/2026",
-    "destination": "Brasília",
-    "destination_iata": "BSB",
-    "origin": "São Paulo",
-    "origin_iata": "CGH",
-    "price_brl": 357.28,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/CGH/BSB",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/bras%C3%ADlia-2-1500px-x-500px.png",
-    "airline": "GOL",
-    "trip_type": "one_way",
-    "travel_class": "Econômica",
-    "departure_date": "2026-11-29",
-    "return_date": "",
-    "fetched_at": "2026-08-10T05:39:28.071228+00:00",
-    "id": "6d1430f68d55"
-  },
-  {
     "source": "Passagens Imperdíveis",
     "title": "Passagens para o SUL DO BRASIL: Cascavel, Caxias Do Sul, Chapecó, Curitiba, Florianópolis, Foz do Iguaçu, Jaguaruna, Joinville, Londrina, Maringá, Navegantes, Passo Fundo, Porto Alegre ou Santo Ângelo",
     "destination": "Sul do Brasil",
@@ -954,25 +935,6 @@
     "return_date": "2026-12-15",
     "fetched_at": "2026-08-10T13:11:01.790662+00:00",
     "id": "256c9fdf188c"
-  },
-  {
-    "source": "GOL",
-    "title": "GOL: Rio de Janeiro (GIG) → Assunção (ASU) - 01/11/2026 a 12/11/2026",
-    "destination": "Assunção",
-    "destination_iata": "ASU",
-    "origin": "Rio de Janeiro",
-    "origin_iata": "GIG",
-    "price_brl": 933.09,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/GIG/ASU",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/assun%C3%A7%C3%A3o-1-1500px-x-500px.png",
-    "airline": "GOL",
-    "trip_type": "round_trip",
-    "travel_class": "Econômica",
-    "departure_date": "2026-11-01",
-    "return_date": "2026-11-12",
-    "fetched_at": "2026-08-10T05:39:28.071450+00:00",
-    "id": "b1ce4a83c1e8"
   },
   {
     "source": "GOL",
@@ -2298,6 +2260,25 @@
     "return_date": "2026-10-30",
     "fetched_at": "2026-08-10T16:00:20.433821+00:00",
     "id": "6567f47fae51"
+  },
+  {
+    "source": "GOL",
+    "title": "GOL: Rio de Janeiro (RIO) → Miami (MIA) - 15/10/2026 a 31/10/2026",
+    "destination": "Miami",
+    "destination_iata": "MIA",
+    "origin": "Rio de Janeiro",
+    "origin_iata": "RIO",
+    "price_brl": 3634.32,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/RIO/MIA",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/miami-1-1500px-x-500px-1.png",
+    "airline": "GOL",
+    "trip_type": "round_trip",
+    "travel_class": "Econômica",
+    "departure_date": "2026-10-15",
+    "return_date": "2026-10-31",
+    "fetched_at": "2026-08-11T06:28:02.535866+00:00",
+    "id": "6ffbce4782a4"
   },
   {
     "source": "Passagens Imperdíveis",
