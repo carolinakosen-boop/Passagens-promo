@@ -347,6 +347,18 @@
     "id": "d456ad65b52f"
   },
   {
+    "source": "Passagens Imperdíveis",
+    "title": "Programe-se para o Natal Luz! Gramado ganha uma atmosfera única com o maior evento natalino do Brasil! Passagens para PORTO ALEGRE! A partir de R$ 393, ida e volta, c/ taxas!",
+    "destination": "Gramado no Natal Luz",
+    "price_brl": 393.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-porto-alegre-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/gramado_rio_grande_do_sul-612x612.jpg",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-12T21:47:23.797589+00:00",
+    "id": "53d0cec5bc35"
+  },
+  {
     "source": "GOL",
     "title": "GOL: Rio de Janeiro (RIO) → Brasília (BSB) - 15/10/2026",
     "destination": "Brasília",
@@ -3656,24 +3668,5 @@
     "return_date": "2026-12-01",
     "fetched_at": "2026-08-12T18:30:04.718539+00:00",
     "id": "13ae1f958628"
-  },
-  {
-    "source": "GOL",
-    "title": "GOL: Rio de Janeiro (RIO) → Cancún (CUN) - 19/10/2026 a 26/10/2026",
-    "destination": "Cancún",
-    "destination_iata": "CUN",
-    "origin": "Rio de Janeiro",
-    "origin_iata": "RIO",
-    "price_brl": 3412.33,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/RIO/CUN",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/canc%C3%BAn-1-1500px-x-500px.png",
-    "airline": "GOL",
-    "trip_type": "round_trip",
-    "travel_class": "Econômica",
-    "departure_date": "2026-10-19",
-    "return_date": "2026-10-26",
-    "fetched_at": "2026-08-12T19:42:03.697893+00:00",
-    "id": "71ba2c1f2ba7"
   }
 ]
