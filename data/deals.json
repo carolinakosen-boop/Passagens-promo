@@ -481,6 +481,30 @@
   },
   {
     "source": "Passagens Imperdíveis",
+    "title": "Passagens para o SUL DO BRASIL: Porto Alegre, Curitiba, Londrina e mais! A partir de R$ 402, ida e volta!",
+    "destination": "Sul do Brasil",
+    "price_brl": 402.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/passagens-nacionais-sul-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/curitiba_parana_brasil_3-612x612.jpg",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-12T13:57:59.384440+00:00",
+    "id": "be845bfc0651"
+  },
+  {
+    "source": "Passagens Imperdíveis",
+    "title": "Passagens para PORTO ALEGRE ou FLORIANÓPOLIS! Datas inclusive nas Férias, feriados e mais! A partir de R$ 403, ida e volta, c/ taxas!",
+    "destination": "Porto Alegre ou Florianópolis",
+    "price_brl": 402.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-porto-alegre-florianopolis-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/porto_alegre_2-612x612.jpg",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-12T13:57:59.384510+00:00",
+    "id": "f23689e26a6d"
+  },
+  {
+    "source": "Passagens Imperdíveis",
     "title": "Passagens para PORTO ALEGRE ou FLORIANÓPOLIS! Datas inclusive nas Férias, feriados e mais! A partir de R$ 403, ida e volta, c/ taxas!",
     "destination": "Porto Alegre ou Florianópolis",
     "price_brl": 403.0,
@@ -2015,18 +2039,6 @@
     "return_date": "2026-11-10",
     "fetched_at": "2026-08-11T14:58:52.443078+00:00",
     "id": "4ddd26ea4d5a"
-  },
-  {
-    "source": "Passagens Imperdíveis",
-    "title": "Passagens para SANTIAGO ou DESERTO DO ATACAMA: Calama ou Copiapo! Datas inclusive no Inverno, Férias e mais! A partir de R$ 1.050, ida e volta, c/ taxas! Opções de VOO DIRETO",
-    "destination": "Santiago ou Deserto do Atacama",
-    "price_brl": 1050.0,
-    "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-chile-santiago-copiapo-calama-2026/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/santiago_chile_612-612x612.jpg",
-    "trip_type": "round_trip",
-    "fetched_at": "2026-08-11T13:54:14.214972+00:00",
-    "id": "8fae8f29c2fc"
   },
   {
     "source": "GOL",
@@ -3724,24 +3736,5 @@
     "return_date": "2026-09-15",
     "fetched_at": "2026-08-12T12:11:03.801767+00:00",
     "id": "2446c18ca4e8"
-  },
-  {
-    "source": "GOL",
-    "title": "GOL: Rio de Janeiro (GIG) → Fortaleza (FOR) - 31/08/2026 a 20/09/2026",
-    "destination": "Fortaleza",
-    "destination_iata": "FOR",
-    "origin": "Rio de Janeiro",
-    "origin_iata": "GIG",
-    "price_brl": 1897.07,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/GIG/FOR",
-    "image_url": null,
-    "airline": "GOL",
-    "trip_type": "round_trip",
-    "travel_class": "Econômica",
-    "departure_date": "2026-08-31",
-    "return_date": "2026-09-20",
-    "fetched_at": "2026-08-12T12:11:03.801771+00:00",
-    "id": "376126b50ba7"
   }
 ]
