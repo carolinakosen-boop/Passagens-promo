@@ -3035,6 +3035,19 @@
     "id": "ae22fd1750be"
   },
   {
+    "source": "Melhores Destinos",
+    "title": "Bora para Orlando? Voos a partir de R$ 2.151 ida e volta saindo de várias cidades",
+    "destination": "Orlando? Voos",
+    "price_brl": 2151.0,
+    "currency": "BRL",
+    "link": "https://www.melhoresdestinos.com.br/promocao/bora-para-orlando-voos-2151",
+    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2021/10/orlando-eua-disney-capa14-754x396.jpg",
+    "airline": null,
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-12T11:22:38.985681+00:00",
+    "id": "f610546149c6"
+  },
+  {
     "source": "GOL",
     "title": "GOL: São Paulo (GRU) → Montevideo (MVD) - 15/08/2026 a 23/08/2026",
     "destination": "Montevideo",
@@ -3185,6 +3198,19 @@
     "return_date": "2026-09-14",
     "fetched_at": "2026-08-11T16:06:13.304406+00:00",
     "id": "41f233ef04d1"
+  },
+  {
+    "source": "Melhores Destinos",
+    "title": "Orlando com bons preços: passagens a partir de R$ 2.380 ida e volta saindo de São Paulo e mais cidades",
+    "destination": null,
+    "price_brl": 2380.0,
+    "currency": "BRL",
+    "link": "https://www.melhoresdestinos.com.br/promocao/orlando-bons-precos-2380",
+    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2024/02/apartamentos-orlando-capa-754x396.jpg",
+    "airline": null,
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-12T11:22:37.548789+00:00",
+    "id": "24cd140a6e33"
   },
   {
     "source": "GOL",
@@ -3651,35 +3677,5 @@
     "return_date": "26/10/2026",
     "fetched_at": "2026-08-12T10:06:41.019113+00:00",
     "id": "e12168e3c36d"
-  },
-  {
-    "source": "TAP",
-    "title": "TAP: São Paulo (GRU) → Barcelona (BCN) - 19/08/2026 a 15/11/2026",
-    "destination": "Barcelona",
-    "destination_iata": "BCN",
-    "origin": "São Paulo",
-    "origin_iata": "GRU",
-    "price_brl": 4257.0,
-    "currency": "BRL",
-    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
-    "image_url": "https://assets.airtrfx.com/media-em/tp/barcelona-1-1500px.jpg",
-    "airline": "TAP",
-    "trip_type": "round_trip",
-    "departure_date": "19/08/2026",
-    "return_date": "15/11/2026",
-    "fetched_at": "2026-08-12T10:06:41.020036+00:00",
-    "id": "3023fe6de5f0"
-  },
-  {
-    "source": "Passagens Imperdíveis",
-    "title": "Passagens para PARIS! Explore a Torre Eiffel, o Louvre, os cafés parisienses e o charme incomparável da Cidade Luz! A partir de R$ 4.301, ida e volta, c/ taxas! Em até 4x SEM",
-    "destination": "Paris, França",
-    "price_brl": 4301.0,
-    "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-paris-2026/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/paris18-612x612.jpg",
-    "trip_type": "round_trip",
-    "fetched_at": "2026-08-12T10:06:38.580414+00:00",
-    "id": "592956e76c32"
   }
 ]
