@@ -9,7 +9,7 @@
     "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-roma-capa2019-01-754x396.jpg",
     "airline": null,
     "trip_type": "round_trip",
-    "fetched_at": "2026-08-13T05:57:35.933444+00:00",
+    "fetched_at": "2026-08-13T07:44:43.843812+00:00",
     "id": "3de146312fa1"
   },
   {
@@ -22,7 +22,7 @@
     "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-auckland-capa2019-01-754x396.jpg",
     "airline": null,
     "trip_type": "round_trip",
-    "fetched_at": "2026-08-13T05:57:43.129087+00:00",
+    "fetched_at": "2026-08-13T07:44:51.455225+00:00",
     "id": "6489e5cc2f52"
   },
   {
@@ -34,7 +34,7 @@
     "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-chicago-boston-los-angeles-2026/",
     "image_url": "https://travel-cdn.cubo333.com.br/static-img/fogos_ano_novo-612x612.png",
     "trip_type": "round_trip",
-    "fetched_at": "2026-08-13T05:57:44.061084+00:00",
+    "fetched_at": "2026-08-13T07:44:52.414722+00:00",
     "id": "af2a8d7ed7a6"
   },
   {
@@ -46,7 +46,7 @@
     "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-2-em-1-nova-york-rio-de-janeiro-sao-paulo-2026/",
     "image_url": "https://travel-cdn.cubo333.com.br/static-img/nova_york_eua_estados_unidos_5-612x612.jpg",
     "trip_type": "unknown",
-    "fetched_at": "2026-08-13T05:57:44.061118+00:00",
+    "fetched_at": "2026-08-13T07:44:52.414757+00:00",
     "id": "4b3c5869ad5d"
   },
   {
@@ -58,7 +58,7 @@
     "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-finlandia-suecia-2026/",
     "image_url": "https://travel-cdn.cubo333.com.br/static-img/aurora_3-612x612.jpg",
     "trip_type": "round_trip",
-    "fetched_at": "2026-08-13T05:57:44.061149+00:00",
+    "fetched_at": "2026-08-13T07:44:52.414820+00:00",
     "id": "222c2854fa3a"
   },
   {
@@ -70,7 +70,7 @@
     "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-londres-amsterdam-bruxelas-2026/",
     "image_url": "https://travel-cdn.cubo333.com.br/static-img/londres_inglaterra_2-612x612.png",
     "trip_type": "round_trip",
-    "fetched_at": "2026-08-13T05:57:44.061184+00:00",
+    "fetched_at": "2026-08-13T07:44:52.414865+00:00",
     "id": "aa22041cc824"
   },
   {
@@ -82,7 +82,7 @@
     "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-porto-barcelona-2026/",
     "image_url": "https://travel-cdn.cubo333.com.br/static-img/porto_portugal_6-612x612.jpg",
     "trip_type": "round_trip",
-    "fetched_at": "2026-08-13T05:57:44.061201+00:00",
+    "fetched_at": "2026-08-13T07:44:52.414885+00:00",
     "id": "e7a2d92c2113"
   },
   {
@@ -101,7 +101,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-09-17",
     "return_date": "2026-09-26",
-    "fetched_at": "2026-08-13T05:57:44.921322+00:00",
+    "fetched_at": "2026-08-13T07:44:53.108542+00:00",
     "id": "15277e8b5cf6"
   },
   {
@@ -120,7 +120,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-10-26",
     "return_date": "2026-11-17",
-    "fetched_at": "2026-08-13T05:57:44.921326+00:00",
+    "fetched_at": "2026-08-13T07:44:53.108549+00:00",
     "id": "6ff6314c79c7"
   },
   {
@@ -139,7 +139,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-10-19",
     "return_date": "2026-10-25",
-    "fetched_at": "2026-08-13T05:57:44.921356+00:00",
+    "fetched_at": "2026-08-13T07:44:53.108601+00:00",
     "id": "0962b4442ece"
   },
   {
@@ -158,7 +158,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-11-27",
     "return_date": "2026-12-01",
-    "fetched_at": "2026-08-13T05:57:44.921360+00:00",
+    "fetched_at": "2026-08-13T07:44:53.108608+00:00",
     "id": "13ae1f958628"
   },
   {
@@ -177,7 +177,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-10-19",
     "return_date": "2026-10-26",
-    "fetched_at": "2026-08-13T05:57:44.921364+00:00",
+    "fetched_at": "2026-08-13T07:44:53.108616+00:00",
     "id": "71ba2c1f2ba7"
   },
   {
@@ -196,7 +196,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-10-19",
     "return_date": "2026-10-30",
-    "fetched_at": "2026-08-13T05:57:44.921368+00:00",
+    "fetched_at": "2026-08-13T07:44:53.108623+00:00",
     "id": "ad6dbacf88be"
   },
   {
@@ -215,7 +215,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-11-04",
     "return_date": "2026-11-07",
-    "fetched_at": "2026-08-13T05:57:44.921372+00:00",
+    "fetched_at": "2026-08-13T07:44:53.108630+00:00",
     "id": "aac87b2537e0"
   },
   {
@@ -234,7 +234,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-09-29",
     "return_date": "2026-10-06",
-    "fetched_at": "2026-08-13T05:57:44.921377+00:00",
+    "fetched_at": "2026-08-13T07:44:53.108637+00:00",
     "id": "cfadc8f48042"
   },
   {
@@ -253,7 +253,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-08-31",
     "return_date": "2026-09-06",
-    "fetched_at": "2026-08-13T05:57:45.143946+00:00",
+    "fetched_at": "2026-08-13T07:44:53.372862+00:00",
     "id": "f6ed26a21cf7"
   },
   {
@@ -271,7 +271,7 @@
     "trip_type": "round_trip",
     "departure_date": "14/08/2026",
     "return_date": "24/08/2026",
-    "fetched_at": "2026-08-13T05:57:45.444163+00:00",
+    "fetched_at": "2026-08-13T07:44:54.772799+00:00",
     "id": "b9f60931277b"
   },
   {
@@ -289,7 +289,7 @@
     "trip_type": "round_trip",
     "departure_date": "19/08/2026",
     "return_date": "30/08/2026",
-    "fetched_at": "2026-08-13T05:57:45.444308+00:00",
+    "fetched_at": "2026-08-13T07:44:54.772960+00:00",
     "id": "60274d92a7dc"
   },
   {
@@ -307,7 +307,7 @@
     "trip_type": "round_trip",
     "departure_date": "21/08/2026",
     "return_date": "26/10/2026",
-    "fetched_at": "2026-08-13T05:57:45.444467+00:00",
+    "fetched_at": "2026-08-13T07:44:54.773129+00:00",
     "id": "a1dc8ba5a685"
   },
   {
@@ -325,26 +325,26 @@
     "trip_type": "round_trip",
     "departure_date": "19/08/2026",
     "return_date": "18/11/2026",
-    "fetched_at": "2026-08-13T05:57:45.444630+00:00",
+    "fetched_at": "2026-08-13T07:44:54.773293+00:00",
     "id": "67f6ccdc9b03"
   },
   {
     "source": "TAP",
-    "title": "TAP: São Paulo (GRU) → Paris (ORY) - 15/08/2026 a 25/08/2026",
+    "title": "TAP: São Paulo (GRU) → Paris (ORY) - 14/08/2026 a 16/08/2026",
     "destination": "Paris",
     "destination_iata": "ORY",
     "origin": "São Paulo",
     "origin_iata": "GRU",
-    "price_brl": 4665.0,
+    "price_brl": 4783.0,
     "currency": "BRL",
     "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
     "image_url": "https://assets.airtrfx.com/media-em/tp/paris-1-1500px.jpg",
     "airline": "TAP",
     "trip_type": "round_trip",
-    "departure_date": "15/08/2026",
-    "return_date": "25/08/2026",
-    "fetched_at": "2026-08-13T05:57:45.444719+00:00",
-    "id": "5290a1a907dd"
+    "departure_date": "14/08/2026",
+    "return_date": "16/08/2026",
+    "fetched_at": "2026-08-13T07:44:54.773391+00:00",
+    "id": "0245ba384457"
   },
   {
     "source": "TAP",
@@ -361,7 +361,7 @@
     "trip_type": "round_trip",
     "departure_date": "15/08/2026",
     "return_date": "14/09/2026",
-    "fetched_at": "2026-08-13T05:57:45.444865+00:00",
+    "fetched_at": "2026-08-13T07:44:54.773551+00:00",
     "id": "89dbdacac2d2"
   },
   {
@@ -379,7 +379,7 @@
     "trip_type": "round_trip",
     "departure_date": "19/08/2026",
     "return_date": "29/08/2026",
-    "fetched_at": "2026-08-13T05:57:45.444951+00:00",
+    "fetched_at": "2026-08-13T07:44:54.773647+00:00",
     "id": "99facf5da1ad"
   },
   {
@@ -397,7 +397,7 @@
     "trip_type": "round_trip",
     "departure_date": "18/08/2026",
     "return_date": "30/11/2026",
-    "fetched_at": "2026-08-13T05:57:45.445273+00:00",
+    "fetched_at": "2026-08-13T07:44:54.774020+00:00",
     "id": "0221840c2395"
   },
   {
@@ -415,7 +415,7 @@
     "trip_type": "round_trip",
     "departure_date": "27/08/2026",
     "return_date": "23/09/2026",
-    "fetched_at": "2026-08-13T05:57:45.445360+00:00",
+    "fetched_at": "2026-08-13T07:44:54.774117+00:00",
     "id": "88d66a318b14"
   }
 ]
