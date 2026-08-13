@@ -183,19 +183,6 @@
     "id": "b9a0a33a1596"
   },
   {
-    "source": "Melhores Destinos",
-    "title": "Madrugada de ofertas 🌙 Azul e Gol têm promoções de voos nacionais a partir de R$ 364 ida e volta!",
-    "destination": null,
-    "price_brl": 364.0,
-    "currency": "BRL",
-    "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-nacionais-12-08-26",
-    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2025/01/azul-fusao-gol-capa-03-754x396.jpg",
-    "airline": "GOL",
-    "trip_type": "round_trip",
-    "fetched_at": "2026-08-12T23:01:27+00:00",
-    "id": "9b2964f9abce"
-  },
-  {
     "source": "GOL",
     "title": "GOL: São Paulo (CGH) → Rio de Janeiro (SDU) - 17/10/2026",
     "destination": "Rio de Janeiro",
@@ -3650,5 +3637,23 @@
     "return_date": "2026-09-06",
     "fetched_at": "2026-08-13T20:44:08.331916+00:00",
     "id": "f6ed26a21cf7"
+  },
+  {
+    "source": "TAP",
+    "title": "TAP: São Paulo (GRU) → Madri (MAD) - 18/08/2026 a 03/09/2026",
+    "destination": "Madri",
+    "destination_iata": "MAD",
+    "origin": "São Paulo",
+    "origin_iata": "GRU",
+    "price_brl": 4219.0,
+    "currency": "BRL",
+    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
+    "image_url": "https://assets.airtrfx.com/media-em/tp/madri-1-1500px.jpg",
+    "airline": "TAP",
+    "trip_type": "round_trip",
+    "departure_date": "18/08/2026",
+    "return_date": "03/09/2026",
+    "fetched_at": "2026-08-13T23:41:55.545805+00:00",
+    "id": "f6c1f10f1ad7"
   }
 ]
