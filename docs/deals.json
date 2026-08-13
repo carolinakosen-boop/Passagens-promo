@@ -328,6 +328,19 @@
     "id": "d456ad65b52f"
   },
   {
+    "source": "Melhores Destinos",
+    "title": "Madrugada de ofertas 🌙 Azul e Gol têm promoções de voos nacionais a partir de R$ 364 ida e volta!",
+    "destination": null,
+    "price_brl": 364.0,
+    "currency": "BRL",
+    "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-nacionais-12-08-26",
+    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2025/01/azul-fusao-gol-capa-03-754x396.jpg",
+    "airline": "GOL",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-12T23:01:27+00:00",
+    "id": "9b2964f9abce"
+  },
+  {
     "source": "Passagens Imperdíveis",
     "title": "Programe-se para o Natal Luz! Gramado ganha uma atmosfera única com o maior evento natalino do Brasil! Passagens para PORTO ALEGRE! A partir de R$ 393, ida e volta, c/ taxas!",
     "destination": "Gramado no Natal Luz",
@@ -3608,6 +3621,19 @@
     "id": "c9a66d8ddd5e"
   },
   {
+    "source": "Melhores Destinos",
+    "title": "Passagens para Portugal a partir de R$ 3.250 com opções de voos diretos da Azul e datas no fim do ano!",
+    "destination": "Portugal",
+    "price_brl": 3250.0,
+    "currency": "BRL",
+    "link": "https://www.melhoresdestinos.com.br/promocao/passagens-para-portugal-12ago26",
+    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2023/01/passagens-aereas-lisboa-portugal-07-capa-754x396.jpg",
+    "airline": "Azul",
+    "trip_type": "unknown",
+    "fetched_at": "2026-08-13T02:04:31.729261+00:00",
+    "id": "83f640872cb0"
+  },
+  {
     "source": "GOL",
     "title": "GOL: Rio de Janeiro (RIO) → Oranjestad, Aruba (AUA) - 15/10/2026 a 22/10/2026",
     "destination": "Oranjestad, Aruba",
@@ -3644,43 +3670,5 @@
     "return_date": "2026-10-10",
     "fetched_at": "2026-08-12T20:46:48.873827+00:00",
     "id": "ce1e09063493"
-  },
-  {
-    "source": "GOL",
-    "title": "GOL: São Paulo (SAO) → Orlando (MCO) - 28/09/2026 a 10/10/2026",
-    "destination": "Orlando",
-    "destination_iata": "MCO",
-    "origin": "São Paulo",
-    "origin_iata": "SAO",
-    "price_brl": 3267.32,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/SAO/MCO",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/orlando-3-1500px-x-500px.png",
-    "airline": "GOL",
-    "trip_type": "round_trip",
-    "travel_class": "Econômica",
-    "departure_date": "2026-09-28",
-    "return_date": "2026-10-10",
-    "fetched_at": "2026-08-12T18:30:04.718492+00:00",
-    "id": "d5d0d9613ddd"
-  },
-  {
-    "source": "GOL",
-    "title": "GOL: Rio de Janeiro (GIG) → Oranjestad, Aruba (AUA) - 19/10/2026 a 25/10/2026",
-    "destination": "Oranjestad, Aruba",
-    "destination_iata": "AUA",
-    "origin": "Rio de Janeiro",
-    "origin_iata": "GIG",
-    "price_brl": 3322.57,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/GIG/AUA",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/02-1500px-x-500px-3.png",
-    "airline": "GOL",
-    "trip_type": "round_trip",
-    "travel_class": "Econômica",
-    "departure_date": "2026-10-19",
-    "return_date": "2026-10-25",
-    "fetched_at": "2026-08-12T18:30:04.718535+00:00",
-    "id": "0962b4442ece"
   }
 ]
