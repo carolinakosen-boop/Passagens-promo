@@ -9,7 +9,7 @@
     "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-roma-capa2019-01-754x396.jpg",
     "airline": null,
     "trip_type": "round_trip",
-    "fetched_at": "2026-08-13T07:44:43.843812+00:00",
+    "fetched_at": "2026-08-13T09:13:22.279290+00:00",
     "id": "3de146312fa1"
   },
   {
@@ -22,7 +22,7 @@
     "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-auckland-capa2019-01-754x396.jpg",
     "airline": null,
     "trip_type": "round_trip",
-    "fetched_at": "2026-08-13T07:44:51.455225+00:00",
+    "fetched_at": "2026-08-13T09:13:28.407572+00:00",
     "id": "6489e5cc2f52"
   },
   {
@@ -34,7 +34,7 @@
     "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-chicago-boston-los-angeles-2026/",
     "image_url": "https://travel-cdn.cubo333.com.br/static-img/fogos_ano_novo-612x612.png",
     "trip_type": "round_trip",
-    "fetched_at": "2026-08-13T07:44:52.414722+00:00",
+    "fetched_at": "2026-08-13T09:13:29.825768+00:00",
     "id": "af2a8d7ed7a6"
   },
   {
@@ -46,7 +46,7 @@
     "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-2-em-1-nova-york-rio-de-janeiro-sao-paulo-2026/",
     "image_url": "https://travel-cdn.cubo333.com.br/static-img/nova_york_eua_estados_unidos_5-612x612.jpg",
     "trip_type": "unknown",
-    "fetched_at": "2026-08-13T07:44:52.414757+00:00",
+    "fetched_at": "2026-08-13T09:13:29.825802+00:00",
     "id": "4b3c5869ad5d"
   },
   {
@@ -58,7 +58,7 @@
     "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-finlandia-suecia-2026/",
     "image_url": "https://travel-cdn.cubo333.com.br/static-img/aurora_3-612x612.jpg",
     "trip_type": "round_trip",
-    "fetched_at": "2026-08-13T07:44:52.414820+00:00",
+    "fetched_at": "2026-08-13T09:13:29.825830+00:00",
     "id": "222c2854fa3a"
   },
   {
@@ -70,7 +70,7 @@
     "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-londres-amsterdam-bruxelas-2026/",
     "image_url": "https://travel-cdn.cubo333.com.br/static-img/londres_inglaterra_2-612x612.png",
     "trip_type": "round_trip",
-    "fetched_at": "2026-08-13T07:44:52.414865+00:00",
+    "fetched_at": "2026-08-13T09:13:29.825860+00:00",
     "id": "aa22041cc824"
   },
   {
@@ -82,7 +82,7 @@
     "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-porto-barcelona-2026/",
     "image_url": "https://travel-cdn.cubo333.com.br/static-img/porto_portugal_6-612x612.jpg",
     "trip_type": "round_trip",
-    "fetched_at": "2026-08-13T07:44:52.414885+00:00",
+    "fetched_at": "2026-08-13T09:13:29.825875+00:00",
     "id": "e7a2d92c2113"
   },
   {
@@ -101,7 +101,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-09-17",
     "return_date": "2026-09-26",
-    "fetched_at": "2026-08-13T07:44:53.108542+00:00",
+    "fetched_at": "2026-08-13T09:13:30.659494+00:00",
     "id": "15277e8b5cf6"
   },
   {
@@ -120,7 +120,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-10-26",
     "return_date": "2026-11-17",
-    "fetched_at": "2026-08-13T07:44:53.108549+00:00",
+    "fetched_at": "2026-08-13T09:13:30.659497+00:00",
     "id": "6ff6314c79c7"
   },
   {
@@ -139,7 +139,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-10-19",
     "return_date": "2026-10-25",
-    "fetched_at": "2026-08-13T07:44:53.108601+00:00",
+    "fetched_at": "2026-08-13T09:13:30.659520+00:00",
     "id": "0962b4442ece"
   },
   {
@@ -158,7 +158,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-11-27",
     "return_date": "2026-12-01",
-    "fetched_at": "2026-08-13T07:44:53.108608+00:00",
+    "fetched_at": "2026-08-13T09:13:30.659523+00:00",
     "id": "13ae1f958628"
   },
   {
@@ -177,7 +177,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-10-19",
     "return_date": "2026-10-26",
-    "fetched_at": "2026-08-13T07:44:53.108616+00:00",
+    "fetched_at": "2026-08-13T09:13:30.659527+00:00",
     "id": "71ba2c1f2ba7"
   },
   {
@@ -196,7 +196,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-10-19",
     "return_date": "2026-10-30",
-    "fetched_at": "2026-08-13T07:44:53.108623+00:00",
+    "fetched_at": "2026-08-13T09:13:30.659530+00:00",
     "id": "ad6dbacf88be"
   },
   {
@@ -215,7 +215,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-11-04",
     "return_date": "2026-11-07",
-    "fetched_at": "2026-08-13T07:44:53.108630+00:00",
+    "fetched_at": "2026-08-13T09:13:30.659533+00:00",
     "id": "aac87b2537e0"
   },
   {
@@ -234,7 +234,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-09-29",
     "return_date": "2026-10-06",
-    "fetched_at": "2026-08-13T07:44:53.108637+00:00",
+    "fetched_at": "2026-08-13T09:13:30.659536+00:00",
     "id": "cfadc8f48042"
   },
   {
@@ -253,116 +253,80 @@
     "travel_class": "Econômica",
     "departure_date": "2026-08-31",
     "return_date": "2026-09-06",
-    "fetched_at": "2026-08-13T07:44:53.372862+00:00",
+    "fetched_at": "2026-08-13T09:13:30.877894+00:00",
     "id": "f6ed26a21cf7"
   },
   {
     "source": "TAP",
-    "title": "TAP: São Paulo (GRU) → Lisboa (LIS) - 14/08/2026 a 24/08/2026",
+    "title": "TAP: São Paulo (GRU) → Lisboa (LIS) - 13/08/2026 a 01/09/2026",
     "destination": "Lisboa",
     "destination_iata": "LIS",
     "origin": "São Paulo",
     "origin_iata": "GRU",
-    "price_brl": 6002.0,
+    "price_brl": 5423.0,
     "currency": "BRL",
     "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
     "image_url": "https://assets.airtrfx.com/media-em/tp/lisboa-1-1500px.jpg",
     "airline": "TAP",
     "trip_type": "round_trip",
-    "departure_date": "14/08/2026",
-    "return_date": "24/08/2026",
-    "fetched_at": "2026-08-13T07:44:54.772799+00:00",
-    "id": "b9f60931277b"
+    "departure_date": "13/08/2026",
+    "return_date": "01/09/2026",
+    "fetched_at": "2026-08-13T09:13:31.323151+00:00",
+    "id": "05f88895020d"
   },
   {
     "source": "TAP",
-    "title": "TAP: Rio de Janeiro (GIG) → Lisboa (LIS) - 19/08/2026 a 30/08/2026",
-    "destination": "Lisboa",
-    "destination_iata": "LIS",
-    "origin": "Rio de Janeiro",
-    "origin_iata": "GIG",
-    "price_brl": 4996.0,
-    "currency": "BRL",
-    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
-    "image_url": "https://assets.airtrfx.com/media-em/tp/lisboa-1-1500px.jpg",
-    "airline": "TAP",
-    "trip_type": "round_trip",
-    "departure_date": "19/08/2026",
-    "return_date": "30/08/2026",
-    "fetched_at": "2026-08-13T07:44:54.772960+00:00",
-    "id": "60274d92a7dc"
-  },
-  {
-    "source": "TAP",
-    "title": "TAP: Rio de Janeiro (GIG) → Porto (OPO) - 21/08/2026 a 26/10/2026",
+    "title": "TAP: Rio de Janeiro (GIG) → Porto (OPO) - 18/08/2026 a 25/08/2026",
     "destination": "Porto",
     "destination_iata": "OPO",
     "origin": "Rio de Janeiro",
     "origin_iata": "GIG",
-    "price_brl": 6440.0,
+    "price_brl": 6331.0,
     "currency": "BRL",
     "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
     "image_url": "https://assets.airtrfx.com/media-em/tp/porto-1-1500px.jpg",
     "airline": "TAP",
     "trip_type": "round_trip",
-    "departure_date": "21/08/2026",
-    "return_date": "26/10/2026",
-    "fetched_at": "2026-08-13T07:44:54.773129+00:00",
-    "id": "a1dc8ba5a685"
+    "departure_date": "18/08/2026",
+    "return_date": "25/08/2026",
+    "fetched_at": "2026-08-13T09:13:31.323342+00:00",
+    "id": "ad1746c9beb9"
   },
   {
     "source": "TAP",
-    "title": "TAP: São Paulo (GRU) → Porto (OPO) - 19/08/2026 a 18/11/2026",
-    "destination": "Porto",
-    "destination_iata": "OPO",
-    "origin": "São Paulo",
-    "origin_iata": "GRU",
-    "price_brl": 6067.0,
-    "currency": "BRL",
-    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
-    "image_url": "https://assets.airtrfx.com/media-em/tp/porto-1-1500px.jpg",
-    "airline": "TAP",
-    "trip_type": "round_trip",
-    "departure_date": "19/08/2026",
-    "return_date": "18/11/2026",
-    "fetched_at": "2026-08-13T07:44:54.773293+00:00",
-    "id": "67f6ccdc9b03"
-  },
-  {
-    "source": "TAP",
-    "title": "TAP: São Paulo (GRU) → Paris (ORY) - 14/08/2026 a 16/08/2026",
-    "destination": "Paris",
-    "destination_iata": "ORY",
-    "origin": "São Paulo",
-    "origin_iata": "GRU",
-    "price_brl": 4783.0,
-    "currency": "BRL",
-    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
-    "image_url": "https://assets.airtrfx.com/media-em/tp/paris-1-1500px.jpg",
-    "airline": "TAP",
-    "trip_type": "round_trip",
-    "departure_date": "14/08/2026",
-    "return_date": "16/08/2026",
-    "fetched_at": "2026-08-13T07:44:54.773391+00:00",
-    "id": "0245ba384457"
-  },
-  {
-    "source": "TAP",
-    "title": "TAP: São Paulo (GRU) → Madri (MAD) - 15/08/2026 a 14/09/2026",
+    "title": "TAP: São Paulo (GRU) → Madri (MAD) - 19/08/2026 a 26/10/2026",
     "destination": "Madri",
     "destination_iata": "MAD",
     "origin": "São Paulo",
     "origin_iata": "GRU",
-    "price_brl": 4195.0,
+    "price_brl": 4179.0,
     "currency": "BRL",
     "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
     "image_url": "https://assets.airtrfx.com/media-em/tp/madri-1-1500px.jpg",
     "airline": "TAP",
     "trip_type": "round_trip",
-    "departure_date": "15/08/2026",
-    "return_date": "14/09/2026",
-    "fetched_at": "2026-08-13T07:44:54.773551+00:00",
-    "id": "89dbdacac2d2"
+    "departure_date": "19/08/2026",
+    "return_date": "26/10/2026",
+    "fetched_at": "2026-08-13T09:13:31.323484+00:00",
+    "id": "e12168e3c36d"
+  },
+  {
+    "source": "TAP",
+    "title": "TAP: São Paulo (GRU) → Paris (ORY) - 16/08/2026 a 22/08/2026",
+    "destination": "Paris",
+    "destination_iata": "ORY",
+    "origin": "São Paulo",
+    "origin_iata": "GRU",
+    "price_brl": 4640.0,
+    "currency": "BRL",
+    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
+    "image_url": "https://assets.airtrfx.com/media-em/tp/paris-1-1500px.jpg",
+    "airline": "TAP",
+    "trip_type": "round_trip",
+    "departure_date": "16/08/2026",
+    "return_date": "22/08/2026",
+    "fetched_at": "2026-08-13T09:13:31.323610+00:00",
+    "id": "912c6d103309"
   },
   {
     "source": "TAP",
@@ -371,7 +335,7 @@
     "destination_iata": "FCO",
     "origin": "São Paulo",
     "origin_iata": "GRU",
-    "price_brl": 4193.0,
+    "price_brl": 4170.0,
     "currency": "BRL",
     "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
     "image_url": "https://assets.airtrfx.com/media-em/tp/roma-1-1500px.jpg",
@@ -379,43 +343,79 @@
     "trip_type": "round_trip",
     "departure_date": "19/08/2026",
     "return_date": "29/08/2026",
-    "fetched_at": "2026-08-13T07:44:54.773647+00:00",
-    "id": "99facf5da1ad"
+    "fetched_at": "2026-08-13T09:13:31.323683+00:00",
+    "id": "23621bf7e2d0"
   },
   {
     "source": "TAP",
-    "title": "TAP: São Paulo (GRU) → Milão (MXP) - 18/08/2026 a 30/11/2026",
+    "title": "TAP: São Paulo (GRU) → Londres (LHR) - 16/08/2026 a 25/08/2026",
+    "destination": "Londres",
+    "destination_iata": "LHR",
+    "origin": "São Paulo",
+    "origin_iata": "GRU",
+    "price_brl": 4397.0,
+    "currency": "BRL",
+    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
+    "image_url": "https://assets.airtrfx.com/media-em/tp/londres-1-1500px.jpg",
+    "airline": "TAP",
+    "trip_type": "round_trip",
+    "departure_date": "16/08/2026",
+    "return_date": "25/08/2026",
+    "fetched_at": "2026-08-13T09:13:31.323956+00:00",
+    "id": "cb20679fd40e"
+  },
+  {
+    "source": "TAP",
+    "title": "TAP: São Paulo (GRU) → Londres (LGW) - 13/08/2026 a 23/08/2026",
+    "destination": "Londres",
+    "destination_iata": "LGW",
+    "origin": "São Paulo",
+    "origin_iata": "GRU",
+    "price_brl": 4855.0,
+    "currency": "BRL",
+    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
+    "image_url": "https://assets.airtrfx.com/media-em/tp/londres-1-1500px.jpg",
+    "airline": "TAP",
+    "trip_type": "round_trip",
+    "departure_date": "13/08/2026",
+    "return_date": "23/08/2026",
+    "fetched_at": "2026-08-13T09:13:31.324027+00:00",
+    "id": "721e848aa485"
+  },
+  {
+    "source": "TAP",
+    "title": "TAP: São Paulo (GRU) → Milão (MXP) - 17/08/2026 a 31/08/2026",
     "destination": "Milão",
     "destination_iata": "MXP",
     "origin": "São Paulo",
     "origin_iata": "GRU",
-    "price_brl": 4355.0,
+    "price_brl": 4324.0,
     "currency": "BRL",
     "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
     "image_url": "https://assets.airtrfx.com/media-em/tp/milao-1-1500px.jpg",
     "airline": "TAP",
     "trip_type": "round_trip",
-    "departure_date": "18/08/2026",
-    "return_date": "30/11/2026",
-    "fetched_at": "2026-08-13T07:44:54.774020+00:00",
-    "id": "0221840c2395"
+    "departure_date": "17/08/2026",
+    "return_date": "31/08/2026",
+    "fetched_at": "2026-08-13T09:13:31.324100+00:00",
+    "id": "9e229744d1fb"
   },
   {
     "source": "TAP",
-    "title": "TAP: São Paulo (GRU) → Dublin (DUB) - 27/08/2026 a 23/09/2026",
-    "destination": "Dublin",
-    "destination_iata": "DUB",
+    "title": "TAP: São Paulo (GRU) → Barcelona (BCN) - 19/08/2026 a 15/11/2026",
+    "destination": "Barcelona",
+    "destination_iata": "BCN",
     "origin": "São Paulo",
     "origin_iata": "GRU",
-    "price_brl": 7250.0,
+    "price_brl": 4257.0,
     "currency": "BRL",
     "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
-    "image_url": "https://assets.airtrfx.com/media-em/tp/dublin-1-1500px.jpg",
+    "image_url": "https://assets.airtrfx.com/media-em/tp/barcelona-1-1500px.jpg",
     "airline": "TAP",
     "trip_type": "round_trip",
-    "departure_date": "27/08/2026",
-    "return_date": "23/09/2026",
-    "fetched_at": "2026-08-13T07:44:54.774117+00:00",
-    "id": "88d66a318b14"
+    "departure_date": "19/08/2026",
+    "return_date": "15/11/2026",
+    "fetched_at": "2026-08-13T09:13:31.324172+00:00",
+    "id": "3023fe6de5f0"
   }
 ]
