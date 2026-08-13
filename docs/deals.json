@@ -2738,25 +2738,6 @@
   },
   {
     "source": "GOL",
-    "title": "GOL: São Paulo (GRU) → Mendoza (MDZ) - 24/12/2026 a 30/12/2026",
-    "destination": "Mendoza",
-    "destination_iata": "MDZ",
-    "origin": "São Paulo",
-    "origin_iata": "GRU",
-    "price_brl": 1593.02,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/GRU/MDZ",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/mendoza-2-1500px-x-500px.png",
-    "airline": "GOL",
-    "trip_type": "round_trip",
-    "travel_class": "Econômica",
-    "departure_date": "2026-12-24",
-    "return_date": "2026-12-30",
-    "fetched_at": "2026-08-12T04:21:57.863899+00:00",
-    "id": "43774a772b23"
-  },
-  {
-    "source": "GOL",
     "title": "GOL: São Paulo (GRU) → Fortaleza (FOR) - 30/08/2026 a 09/10/2026",
     "destination": "Fortaleza",
     "destination_iata": "FOR",
@@ -3670,5 +3651,24 @@
     "return_date": "2026-10-10",
     "fetched_at": "2026-08-12T20:46:48.873827+00:00",
     "id": "ce1e09063493"
+  },
+  {
+    "source": "GOL",
+    "title": "GOL: São Paulo (SAO) → Orlando (MCO) - 28/09/2026 a 10/10/2026",
+    "destination": "Orlando",
+    "destination_iata": "MCO",
+    "origin": "São Paulo",
+    "origin_iata": "SAO",
+    "price_brl": 3267.32,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/SAO/MCO",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/orlando-3-1500px-x-500px.png",
+    "airline": "GOL",
+    "trip_type": "round_trip",
+    "travel_class": "Econômica",
+    "departure_date": "2026-09-28",
+    "return_date": "2026-10-10",
+    "fetched_at": "2026-08-13T04:25:48.451227+00:00",
+    "id": "d5d0d9613ddd"
   }
 ]
