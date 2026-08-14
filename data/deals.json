@@ -2009,25 +2009,6 @@
     "id": "3d5bddb05f84"
   },
   {
-    "source": "GOL",
-    "title": "GOL: São Paulo (GRU) → Recife (REC) - 28/08/2026",
-    "destination": "Recife",
-    "destination_iata": "REC",
-    "origin": "São Paulo",
-    "origin_iata": "GRU",
-    "price_brl": 1270.65,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/GRU/REC",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/recife-2-1500px-x-500px.png",
-    "airline": "GOL",
-    "trip_type": "one_way",
-    "travel_class": "Econômica",
-    "departure_date": "2026-08-28",
-    "return_date": "",
-    "fetched_at": "2026-08-12T23:42:41.966615+00:00",
-    "id": "793076d0e4a8"
-  },
-  {
     "source": "Passagens Imperdíveis",
     "title": "Passagens para a Argentina: Buenos Aires, Mendoza ou Bariloche! A partir de R$ 1.285, ida e volta, c/ taxas! Em até 6x SEM JUROS! Opções de VOO DIRETO!",
     "destination": "Buenos Aires, Mendoza ou Bariloche",
@@ -3637,6 +3618,24 @@
     "return_date": "2026-09-06",
     "fetched_at": "2026-08-13T20:44:08.331916+00:00",
     "id": "f6ed26a21cf7"
+  },
+  {
+    "source": "TAP",
+    "title": "TAP: São Paulo (GRU) → Madri (MAD) - 18/08/2026 a 03/09/2026",
+    "destination": "Madri",
+    "destination_iata": "MAD",
+    "origin": "São Paulo",
+    "origin_iata": "GRU",
+    "price_brl": 4179.0,
+    "currency": "BRL",
+    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
+    "image_url": "https://assets.airtrfx.com/media-em/tp/madri-1-1500px.jpg",
+    "airline": "TAP",
+    "trip_type": "round_trip",
+    "departure_date": "18/08/2026",
+    "return_date": "03/09/2026",
+    "fetched_at": "2026-08-14T02:03:01.955075+00:00",
+    "id": "8fd7f9661db4"
   },
   {
     "source": "TAP",
