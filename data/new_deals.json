@@ -9,20 +9,32 @@
     "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-auckland-capa2019-01-754x396.jpg",
     "airline": null,
     "trip_type": "round_trip",
-    "fetched_at": "2026-08-14T13:08:51.973521+00:00",
+    "fetched_at": "2026-08-14T14:30:57.289505+00:00",
     "id": "6489e5cc2f52"
   },
   {
     "source": "Passagens Imperdíveis",
-    "title": "Continua muito bom! Passagens para MADRI ou BARCELONA! A partir de R$ 3.195, ida e volta, c/ taxas! Em até 5x SEM JUROS! Opções com BAGAGEM INCLUÍDA! Opções de VOO DIRETO!",
-    "destination": "Madri ou Barcelona",
-    "price_brl": 3195.0,
+    "title": "Passagens para Portugal: Lisboa ou Porto! A partir de R$ 3.464, ida e volta, c/ taxas! Em até 4x SEM JUROS! Opções com BAGAGEM INCLUÍDA!",
+    "destination": "Lisboa ou Porto",
+    "price_brl": 3464.0,
     "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-madri-barcelona-2026/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/madri_espanha_4-612x612.png",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-portugal-lisboa-porto-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/lisboa_portugal_6-612x612.jpg",
     "trip_type": "round_trip",
-    "fetched_at": "2026-08-14T13:08:52.600503+00:00",
-    "id": "410dce3af925"
+    "fetched_at": "2026-08-14T14:30:57.807691+00:00",
+    "id": "704bc748419c"
+  },
+  {
+    "source": "Passagens Imperdíveis",
+    "title": "Passagens para a Argentina: Buenos Aires! A partir de R$ 1.289, ida e volta, c/ taxas! Em até 6x SEM JUROS! Opções de VOO DIRETO!",
+    "destination": "Buenos Aires, Argentina",
+    "price_brl": 1289.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-argentina-buenos-aires-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/buenos_aires_argentina_3_612-612x612.jpg",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-14T14:30:57.807728+00:00",
+    "id": "4d4e67020b49"
   },
   {
     "source": "Passagens Imperdíveis",
@@ -33,39 +45,32 @@
     "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-achina-xangai-pequim-japao-tokyo-toquio-2026/",
     "image_url": "https://travel-cdn.cubo333.com.br/static-img/china_2_612-612x612.jpg",
     "trip_type": "round_trip",
-    "fetched_at": "2026-08-14T13:08:52.600568+00:00",
+    "fetched_at": "2026-08-14T14:30:57.807770+00:00",
     "id": "7cfa11a3506f"
   },
   {
     "source": "Passagens Imperdíveis",
-    "title": "Continua muito bom! Passagens para MADRI! A partir de R$ 3.182, ida e volta, c/ taxas! Em até 5x SEM JUROS! Opções com BAGAGEM INCLUÍDA! Opções de VOO DIRETO!",
-    "destination": "Madri, Espanha",
-    "price_brl": 3195.0,
+    "title": "Passagens para a Argentina: Buenos Aires, Mendoza ou Bariloche! A partir de R$ 1.285, ida e volta, c/ taxas! Em até 6x SEM JUROS! Opções de VOO DIRETO!",
+    "destination": "Buenos Aires, Mendoza ou Bariloche",
+    "price_brl": 1289.0,
     "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-amadri-2026/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/madri_espanha_7-612x612.jpg",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-argentina-buenos-aires-mendoza-bariloche-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/argentina_buenos_aires_casa_rosada_907344_1920-612x612.png",
     "trip_type": "round_trip",
-    "fetched_at": "2026-08-14T13:08:52.600669+00:00",
-    "id": "6ade8dd0788e"
+    "fetched_at": "2026-08-14T14:30:57.807781+00:00",
+    "id": "f587f5cc6bcb"
   },
   {
-    "source": "GOL",
-    "title": "GOL: Rio de Janeiro (GIG) → Montevideo (MVD) - 20/08/2026 a 01/09/2026",
-    "destination": "Montevideo",
-    "destination_iata": "MVD",
-    "origin": "Rio de Janeiro",
-    "origin_iata": "GIG",
-    "price_brl": 936.94,
+    "source": "Passagens Imperdíveis",
+    "title": "Passagens para CURITIBA ou FLORIANÓPOLIS! Datas inclusive nas Férias, feriados e mais! A partir de R$ 388, ida e volta, c/ taxas!",
+    "destination": "Curitiba ou Florianópolis",
+    "price_brl": 390.0,
     "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/GIG/MVD",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/montevideo-2-1500px-x-500px.png",
-    "airline": "GOL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-curitiba-florianopolis-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/curitiba_parana_brasil_4-612x612.jpg",
     "trip_type": "round_trip",
-    "travel_class": "Econômica",
-    "departure_date": "2026-08-20",
-    "return_date": "2026-09-01",
-    "fetched_at": "2026-08-14T13:08:53.552569+00:00",
-    "id": "c59efc0ed7b8"
+    "fetched_at": "2026-08-14T14:30:57.807787+00:00",
+    "id": "222bb0f7ad84"
   },
   {
     "source": "GOL",
@@ -83,27 +88,8 @@
     "travel_class": "Econômica",
     "departure_date": "2026-08-31",
     "return_date": "2026-09-06",
-    "fetched_at": "2026-08-14T13:08:53.820142+00:00",
+    "fetched_at": "2026-08-14T14:31:00.422289+00:00",
     "id": "f6ed26a21cf7"
-  },
-  {
-    "source": "GOL",
-    "title": "GOL: São Paulo (GRU) → Fortaleza (FOR) - 30/08/2026 a 09/10/2026",
-    "destination": "Fortaleza",
-    "destination_iata": "FOR",
-    "origin": "São Paulo",
-    "origin_iata": "GRU",
-    "price_brl": 1603.5,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/GRU/FOR",
-    "image_url": null,
-    "airline": "GOL",
-    "trip_type": "round_trip",
-    "travel_class": "Econômica",
-    "departure_date": "2026-08-30",
-    "return_date": "2026-10-09",
-    "fetched_at": "2026-08-14T13:08:53.820260+00:00",
-    "id": "0a6b7e7ad26a"
   },
   {
     "source": "TAP",
@@ -120,7 +106,7 @@
     "trip_type": "round_trip",
     "departure_date": "18/08/2026",
     "return_date": "31/08/2026",
-    "fetched_at": "2026-08-14T13:08:54.156771+00:00",
+    "fetched_at": "2026-08-14T14:31:00.831084+00:00",
     "id": "6f1f65dbbabe"
   },
   {
@@ -138,7 +124,7 @@
     "trip_type": "round_trip",
     "departure_date": "19/08/2026",
     "return_date": "28/08/2026",
-    "fetched_at": "2026-08-14T13:08:54.156917+00:00",
+    "fetched_at": "2026-08-14T14:31:00.831240+00:00",
     "id": "479301969695"
   },
   {
@@ -156,7 +142,7 @@
     "trip_type": "round_trip",
     "departure_date": "17/08/2026",
     "return_date": "03/09/2026",
-    "fetched_at": "2026-08-14T13:08:54.157075+00:00",
+    "fetched_at": "2026-08-14T14:31:00.831394+00:00",
     "id": "80b379c3d27d"
   },
   {
@@ -174,7 +160,7 @@
     "trip_type": "round_trip",
     "departure_date": "22/08/2026",
     "return_date": "10/09/2026",
-    "fetched_at": "2026-08-14T13:08:54.157227+00:00",
+    "fetched_at": "2026-08-14T14:31:00.831542+00:00",
     "id": "b414e136a956"
   },
   {
@@ -192,7 +178,7 @@
     "trip_type": "round_trip",
     "departure_date": "17/08/2026",
     "return_date": "30/08/2026",
-    "fetched_at": "2026-08-14T13:08:54.157377+00:00",
+    "fetched_at": "2026-08-14T14:31:00.831690+00:00",
     "id": "d42879c1e315"
   },
   {
@@ -210,7 +196,7 @@
     "trip_type": "round_trip",
     "departure_date": "16/08/2026",
     "return_date": "29/08/2026",
-    "fetched_at": "2026-08-14T13:08:54.157463+00:00",
+    "fetched_at": "2026-08-14T14:31:00.831776+00:00",
     "id": "bf058449cdac"
   },
   {
@@ -228,7 +214,7 @@
     "trip_type": "round_trip",
     "departure_date": "18/08/2026",
     "return_date": "03/09/2026",
-    "fetched_at": "2026-08-14T13:08:54.157622+00:00",
+    "fetched_at": "2026-08-14T14:31:00.831919+00:00",
     "id": "8fd7f9661db4"
   },
   {
@@ -246,7 +232,7 @@
     "trip_type": "round_trip",
     "departure_date": "20/08/2026",
     "return_date": "27/08/2026",
-    "fetched_at": "2026-08-14T13:08:54.157958+00:00",
+    "fetched_at": "2026-08-14T14:31:00.832253+00:00",
     "id": "ed5183a116f1"
   }
 ]
