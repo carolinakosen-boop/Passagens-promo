@@ -9,7 +9,7 @@
     "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-auckland-capa2019-01-754x396.jpg",
     "airline": null,
     "trip_type": "round_trip",
-    "fetched_at": "2026-08-14T02:02:58.278018+00:00",
+    "fetched_at": "2026-08-14T04:22:14.497404+00:00",
     "id": "6489e5cc2f52"
   },
   {
@@ -21,7 +21,7 @@
     "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-achina-xangai-pequim-japao-tokyo-toquio-2026/",
     "image_url": "https://travel-cdn.cubo333.com.br/static-img/china_2_612-612x612.jpg",
     "trip_type": "round_trip",
-    "fetched_at": "2026-08-14T02:02:59.247212+00:00",
+    "fetched_at": "2026-08-14T04:22:15.190827+00:00",
     "id": "7cfa11a3506f"
   },
   {
@@ -39,7 +39,7 @@
     "trip_type": "round_trip",
     "departure_date": "18/08/2026",
     "return_date": "31/08/2026",
-    "fetched_at": "2026-08-14T02:03:01.954170+00:00",
+    "fetched_at": "2026-08-14T04:22:16.405471+00:00",
     "id": "6f1f65dbbabe"
   },
   {
@@ -57,7 +57,7 @@
     "trip_type": "round_trip",
     "departure_date": "19/08/2026",
     "return_date": "28/08/2026",
-    "fetched_at": "2026-08-14T02:03:01.954320+00:00",
+    "fetched_at": "2026-08-14T04:22:16.405624+00:00",
     "id": "479301969695"
   },
   {
@@ -75,7 +75,7 @@
     "trip_type": "round_trip",
     "departure_date": "17/08/2026",
     "return_date": "03/09/2026",
-    "fetched_at": "2026-08-14T02:03:01.954486+00:00",
+    "fetched_at": "2026-08-14T04:22:16.405792+00:00",
     "id": "80b379c3d27d"
   },
   {
@@ -93,7 +93,7 @@
     "trip_type": "round_trip",
     "departure_date": "22/08/2026",
     "return_date": "10/09/2026",
-    "fetched_at": "2026-08-14T02:03:01.954643+00:00",
+    "fetched_at": "2026-08-14T04:22:16.405956+00:00",
     "id": "b414e136a956"
   },
   {
@@ -111,7 +111,7 @@
     "trip_type": "round_trip",
     "departure_date": "17/08/2026",
     "return_date": "30/08/2026",
-    "fetched_at": "2026-08-14T02:03:01.954818+00:00",
+    "fetched_at": "2026-08-14T04:22:16.406118+00:00",
     "id": "d42879c1e315"
   },
   {
@@ -129,26 +129,8 @@
     "trip_type": "round_trip",
     "departure_date": "16/08/2026",
     "return_date": "29/08/2026",
-    "fetched_at": "2026-08-14T02:03:01.954919+00:00",
+    "fetched_at": "2026-08-14T04:22:16.406215+00:00",
     "id": "bf058449cdac"
-  },
-  {
-    "source": "TAP",
-    "title": "TAP: São Paulo (GRU) → Madri (MAD) - 18/08/2026 a 03/09/2026",
-    "destination": "Madri",
-    "destination_iata": "MAD",
-    "origin": "São Paulo",
-    "origin_iata": "GRU",
-    "price_brl": 4179.0,
-    "currency": "BRL",
-    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
-    "image_url": "https://assets.airtrfx.com/media-em/tp/madri-1-1500px.jpg",
-    "airline": "TAP",
-    "trip_type": "round_trip",
-    "departure_date": "18/08/2026",
-    "return_date": "03/09/2026",
-    "fetched_at": "2026-08-14T02:03:01.955075+00:00",
-    "id": "8fd7f9661db4"
   },
   {
     "source": "TAP",
@@ -165,7 +147,7 @@
     "trip_type": "round_trip",
     "departure_date": "20/08/2026",
     "return_date": "27/08/2026",
-    "fetched_at": "2026-08-14T02:03:01.955417+00:00",
+    "fetched_at": "2026-08-14T04:22:16.406745+00:00",
     "id": "ed5183a116f1"
   }
 ]
