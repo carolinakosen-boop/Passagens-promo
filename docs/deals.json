@@ -1,5 +1,17 @@
 [
   {
+    "source": "Passagens Imperdíveis",
+    "title": "Passagens para o RECIFE ou FORTALEZA! Datas inclusive no Verão, férias e mais! A partir de R$ 334, ida e volta, c/ taxas!",
+    "destination": "Recife ou Fortaleza",
+    "price_brl": 334.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-recife-oufortaleza-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/recife_pernambuco_brasil-612x612.png",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-15T19:45:16.909175+00:00",
+    "id": "871deccf7937"
+  },
+  {
     "source": "GOL",
     "title": "GOL: São Paulo (SAO) → Rio de Janeiro (RIO) - 24/11/2026",
     "destination": "Rio de Janeiro",
@@ -544,6 +556,25 @@
   },
   {
     "source": "GOL",
+    "title": "GOL: São Paulo (GRU) → Fortaleza (FOR) - 30/08/2026",
+    "destination": "Fortaleza",
+    "destination_iata": "FOR",
+    "origin": "São Paulo",
+    "origin_iata": "GRU",
+    "price_brl": 803.65,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/GRU/FOR",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/fortaleza-3-1500px-x-500px.png",
+    "airline": "GOL",
+    "trip_type": "one_way",
+    "travel_class": "Econômica",
+    "departure_date": "2026-08-30",
+    "return_date": "",
+    "fetched_at": "2026-08-15T19:45:18.187574+00:00",
+    "id": "8d67e2fb5d39"
+  },
+  {
+    "source": "GOL",
     "title": "GOL: Rio de Janeiro (GIG) → Buenos Aires (BUE) - 15/09/2026 a 27/09/2026",
     "destination": "Buenos Aires",
     "destination_iata": "BUE",
@@ -921,6 +952,25 @@
     "return_date": "",
     "fetched_at": "2026-08-14T20:32:01.806416+00:00",
     "id": "689956c7563b"
+  },
+  {
+    "source": "GOL",
+    "title": "GOL: São Paulo (CGH) → Curitiba (CWB) - 31/08/2026",
+    "destination": "Curitiba",
+    "destination_iata": "CWB",
+    "origin": "São Paulo",
+    "origin_iata": "CGH",
+    "price_brl": 1027.04,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/CGH/CWB",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/curitiba-1-1500px-x-500px.png",
+    "airline": "GOL",
+    "trip_type": "one_way",
+    "travel_class": "Econômica",
+    "departure_date": "2026-08-31",
+    "return_date": "",
+    "fetched_at": "2026-08-15T19:45:18.187487+00:00",
+    "id": "8ad00a5c4270"
   },
   {
     "source": "GOL",
@@ -1353,6 +1403,25 @@
   },
   {
     "source": "GOL",
+    "title": "GOL: São Paulo (GRU) → Salvador (SSA) - 25/08/2026 a 28/08/2026",
+    "destination": "Salvador",
+    "destination_iata": "SSA",
+    "origin": "São Paulo",
+    "origin_iata": "GRU",
+    "price_brl": 1380.27,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/GRU/SSA",
+    "image_url": null,
+    "airline": "GOL",
+    "trip_type": "round_trip",
+    "travel_class": "Econômica",
+    "departure_date": "2026-08-25",
+    "return_date": "2026-08-28",
+    "fetched_at": "2026-08-15T19:45:18.187640+00:00",
+    "id": "4d0d5a4410cf"
+  },
+  {
+    "source": "GOL",
     "title": "GOL: São Paulo (GRU) → Santa Cruz de la Sierra (VVI) - 23/08/2026 a 31/08/2026",
     "destination": "Santa Cruz de la Sierra",
     "destination_iata": "VVI",
@@ -1635,6 +1704,25 @@
     "return_date": "2026-09-16",
     "fetched_at": "2026-08-15T16:50:52.643266+00:00",
     "id": "8e34ec146f24"
+  },
+  {
+    "source": "GOL",
+    "title": "GOL: São Paulo (SAO) → Fortaleza (FOR) - 30/08/2026 a 23/09/2026",
+    "destination": "Fortaleza",
+    "destination_iata": "FOR",
+    "origin": "São Paulo",
+    "origin_iata": "SAO",
+    "price_brl": 1620.43,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/SAO/FOR",
+    "image_url": null,
+    "airline": "GOL",
+    "trip_type": "round_trip",
+    "travel_class": "Econômica",
+    "departure_date": "2026-08-30",
+    "return_date": "2026-09-23",
+    "fetched_at": "2026-08-15T19:45:18.187667+00:00",
+    "id": "af287046e44f"
   },
   {
     "source": "GOL",
@@ -2074,6 +2162,19 @@
     "id": "493f1c5cdc6c"
   },
   {
+    "source": "Melhores Destinos",
+    "title": "Bora para Orlando? Voos a partir de R$ 2.151 ida e volta saindo de várias cidades",
+    "destination": "Orlando? Voos",
+    "price_brl": 2151.0,
+    "currency": "BRL",
+    "link": "https://www.melhoresdestinos.com.br/promocao/bora-para-orlando-voos-2151",
+    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2021/10/orlando-eua-disney-capa14-754x396.jpg",
+    "airline": null,
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-15T19:45:13.573769+00:00",
+    "id": "f610546149c6"
+  },
+  {
     "source": "Passagens Imperdíveis",
     "title": "Passagens para o Peru: Lima! Uma viagem entre cultura, arquitetura colonial, sabores únicos e o charme da costa peruana! A partir de R$ 2.158, ida e volta, c/ taxas! Opções de VOO DIRETO!",
     "destination": "Lima, Peru",
@@ -2173,6 +2274,19 @@
     "trip_type": "round_trip",
     "fetched_at": "2026-08-15T16:11:56+00:00",
     "id": "9dac9ef1f3c0"
+  },
+  {
+    "source": "Melhores Destinos",
+    "title": "Orlando com bons preços: passagens a partir de R$ 2.380 ida e volta saindo de São Paulo e mais cidades",
+    "destination": null,
+    "price_brl": 2380.0,
+    "currency": "BRL",
+    "link": "https://www.melhoresdestinos.com.br/promocao/orlando-bons-precos-2380",
+    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2024/02/apartamentos-orlando-capa-754x396.jpg",
+    "airline": null,
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-15T19:45:12.536618+00:00",
+    "id": "24cd140a6e33"
   },
   {
     "source": "GOL",
