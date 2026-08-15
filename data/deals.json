@@ -1240,6 +1240,25 @@
   },
   {
     "source": "GOL",
+    "title": "GOL: Rio de Janeiro (SDU) → São Paulo (CGH) - 27/08/2026 a 13/10/2026",
+    "destination": "São Paulo",
+    "destination_iata": "CGH",
+    "origin": "Rio de Janeiro",
+    "origin_iata": "SDU",
+    "price_brl": 1094.83,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/SDU/CGH",
+    "image_url": null,
+    "airline": "GOL",
+    "trip_type": "round_trip",
+    "travel_class": "Econômica",
+    "departure_date": "2026-08-27",
+    "return_date": "2026-10-13",
+    "fetched_at": "2026-08-15T17:20:44.212825+00:00",
+    "id": "0484a4d4ef51"
+  },
+  {
+    "source": "GOL",
     "title": "GOL: São Paulo (GRU) → Recife (REC) - 31/08/2026",
     "destination": "Recife",
     "destination_iata": "REC",
@@ -1533,6 +1552,25 @@
     "return_date": "2026-12-13",
     "fetched_at": "2026-08-14T20:31:59.928631+00:00",
     "id": "4a9d0214783b"
+  },
+  {
+    "source": "GOL",
+    "title": "GOL: São Paulo (GRU) → Santa Cruz de la Sierra (VVI) - 27/08/2026 a 29/09/2026",
+    "destination": "Santa Cruz de la Sierra",
+    "destination_iata": "VVI",
+    "origin": "São Paulo",
+    "origin_iata": "GRU",
+    "price_brl": 1371.24,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/GRU/VVI",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/03-1500px-x-500px-5.png",
+    "airline": "GOL",
+    "trip_type": "round_trip",
+    "travel_class": "Econômica",
+    "departure_date": "2026-08-27",
+    "return_date": "2026-09-29",
+    "fetched_at": "2026-08-15T17:20:44.212726+00:00",
+    "id": "0aca1d4378c8"
   },
   {
     "source": "GOL",
@@ -2030,6 +2068,25 @@
   },
   {
     "source": "GOL",
+    "title": "GOL: São Paulo (GRU) → Juazeiro do Norte (JDO) - 26/08/2026 a 02/09/2026",
+    "destination": "Juazeiro do Norte",
+    "destination_iata": "JDO",
+    "origin": "São Paulo",
+    "origin_iata": "GRU",
+    "price_brl": 1706.81,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/GRU/JDO",
+    "image_url": null,
+    "airline": "GOL",
+    "trip_type": "round_trip",
+    "travel_class": "Econômica",
+    "departure_date": "2026-08-26",
+    "return_date": "2026-09-02",
+    "fetched_at": "2026-08-15T17:20:44.212881+00:00",
+    "id": "f1a457e3c602"
+  },
+  {
+    "source": "GOL",
     "title": "GOL: Rio de Janeiro (GIG) → Montevideo (MVD) - 27/08/2026 a 29/08/2026",
     "destination": "Montevideo",
     "destination_iata": "MVD",
@@ -2314,6 +2371,25 @@
     "id": "a161538aa5db"
   },
   {
+    "source": "GOL",
+    "title": "GOL: São Paulo (GRU) → Montevideo (MVD) - 27/08/2026 a 13/09/2026",
+    "destination": "Montevideo",
+    "destination_iata": "MVD",
+    "origin": "São Paulo",
+    "origin_iata": "GRU",
+    "price_brl": 2073.67,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/GRU/MVD",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/montevideo-2-1500px-x-500px.png",
+    "airline": "GOL",
+    "trip_type": "round_trip",
+    "travel_class": "Econômica",
+    "departure_date": "2026-08-27",
+    "return_date": "2026-09-13",
+    "fetched_at": "2026-08-15T17:20:44.212736+00:00",
+    "id": "493f1c5cdc6c"
+  },
+  {
     "source": "Melhores Destinos",
     "title": "Bora para Orlando? Voos a partir de R$ 2.151 ida e volta saindo de várias cidades",
     "destination": "Orlando? Voos",
@@ -2432,6 +2508,19 @@
     "return_date": "2026-11-03",
     "fetched_at": "2026-08-14T17:54:10.626541+00:00",
     "id": "b57d93450acc"
+  },
+  {
+    "source": "Melhores Destinos",
+    "title": "Passagens de ida e volta para Orlando a partir de R$ 2.349 saindo de São Paulo e mais cidades!",
+    "destination": "Orlando",
+    "price_brl": 2349.0,
+    "currency": "BRL",
+    "link": "https://www.melhoresdestinos.com.br/promocao/passagens-de-ida-e-volta-para-orlando-10go26",
+    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2025/01/Big-thunder-orlando-disney-capa-754x396.jpg",
+    "airline": null,
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-15T16:11:56+00:00",
+    "id": "9dac9ef1f3c0"
   },
   {
     "source": "Melhores Destinos",
@@ -2938,6 +3027,19 @@
     "return_date": "2026-10-01",
     "fetched_at": "2026-08-15T12:39:05.746501+00:00",
     "id": "a9708f8903ad"
+  },
+  {
+    "source": "Melhores Destinos",
+    "title": "Países nórdicos bom demais! Voos para Finlândia, Suécia e Noruega desde R$ 3.736 ida e volta com bagagem",
+    "destination": "Finlândia, Suécia e Noruega",
+    "price_brl": 3736.0,
+    "currency": "BRL",
+    "link": "https://www.melhoresdestinos.com.br/promocao/paises-nordicos-voos-finlandia-sueca-noruega-3726-aurora-boreal",
+    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2026/08/paises-nordicos-aurora-boreal-passagens-aereas-capa-754x396.jpg",
+    "airline": null,
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-15T15:42:34+00:00",
+    "id": "afa17f5a19d8"
   },
   {
     "source": "Melhores Destinos",
