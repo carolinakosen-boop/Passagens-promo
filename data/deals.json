@@ -3167,6 +3167,24 @@
     "id": "4f418d97137f"
   },
   {
+    "source": "TAP",
+    "title": "TAP: São Paulo (GRU) → Madri (MAD) - 17/08/2026 a 27/08/2026",
+    "destination": "Madri",
+    "destination_iata": "MAD",
+    "origin": "São Paulo",
+    "origin_iata": "GRU",
+    "price_brl": 4249.0,
+    "currency": "BRL",
+    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
+    "image_url": "https://assets.airtrfx.com/media-em/tp/madri-1-1500px.jpg",
+    "airline": "TAP",
+    "trip_type": "round_trip",
+    "departure_date": "17/08/2026",
+    "return_date": "27/08/2026",
+    "fetched_at": "2026-08-15T04:32:38.569640+00:00",
+    "id": "c9ad637c2482"
+  },
+  {
     "source": "Passagens Imperdíveis",
     "title": "Passagens para AMSTERDAM, BRUXELAS ou DUBLIN! Datas inclusive na Primavera na Europa e mais! A partir de R$ 4.325, ida e volta, c/ taxas! Em até 6x SEM JUROS!",
     "destination": "Amsterdam, Bruxelas ou Dublin",
@@ -3482,6 +3500,24 @@
   },
   {
     "source": "TAP",
+    "title": "TAP: São Paulo (GRU) → Porto (OPO) - 25/08/2026 a 06/10/2026",
+    "destination": "Porto",
+    "destination_iata": "OPO",
+    "origin": "São Paulo",
+    "origin_iata": "GRU",
+    "price_brl": 6390.0,
+    "currency": "BRL",
+    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
+    "image_url": "https://assets.airtrfx.com/media-em/tp/porto-1-1500px.jpg",
+    "airline": "TAP",
+    "trip_type": "round_trip",
+    "departure_date": "25/08/2026",
+    "return_date": "06/10/2026",
+    "fetched_at": "2026-08-15T04:32:38.569440+00:00",
+    "id": "fdfb06c922ef"
+  },
+  {
+    "source": "TAP",
     "title": "TAP: Rio de Janeiro (GIG) → Porto (OPO) - 17/08/2026 a 03/09/2026",
     "destination": "Porto",
     "destination_iata": "OPO",
@@ -3533,36 +3569,5 @@
     "return_date": "09/12/2026",
     "fetched_at": "2026-08-14T21:51:04.219715+00:00",
     "id": "999e7232acc9"
-  },
-  {
-    "source": "Melhores Destinos",
-    "title": "🇦🇺 Austrália ou Nova Zelândia 🇳🇿 Passagens aéreas a partir de R$ 6.911 ida e volta saindo do Rio, São Paulo e mais cidades!",
-    "destination": null,
-    "price_brl": 6911.0,
-    "currency": "BRL",
-    "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-nova-zelandia-australia-29-04-26",
-    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-auckland-capa2019-01-754x396.jpg",
-    "airline": null,
-    "trip_type": "round_trip",
-    "fetched_at": "2026-08-14T18:55:52.196554+00:00",
-    "id": "6489e5cc2f52"
-  },
-  {
-    "source": "TAP",
-    "title": "TAP: São Paulo (GRU) → Dublin (DUB) - 10/09/2026 a 30/11/2026",
-    "destination": "Dublin",
-    "destination_iata": "DUB",
-    "origin": "São Paulo",
-    "origin_iata": "GRU",
-    "price_brl": 6945.0,
-    "currency": "BRL",
-    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
-    "image_url": "https://assets.airtrfx.com/media-em/tp/dublin-1-1500px.jpg",
-    "airline": "TAP",
-    "trip_type": "round_trip",
-    "departure_date": "10/09/2026",
-    "return_date": "30/11/2026",
-    "fetched_at": "2026-08-14T22:50:33.087008+00:00",
-    "id": "b3dbcb7e7239"
   }
 ]
