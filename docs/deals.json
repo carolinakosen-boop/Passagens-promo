@@ -3034,6 +3034,18 @@
     "id": "b23162faa8b4"
   },
   {
+    "source": "Passagens Imperdíveis",
+    "title": "Continua muito bom! Passagens para MADRI ou BARCELONA! A partir de R$ 3.195, ida e volta, c/ taxas! Em até 5x SEM JUROS! Opções com BAGAGEM INCLUÍDA! Opções de VOO DIRETO!",
+    "destination": "Madri ou Barcelona",
+    "price_brl": 3195.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-madri-barcelona-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/madri_espanha_4-612x612.png",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-15T14:23:53.882063+00:00",
+    "id": "410dce3af925"
+  },
+  {
     "source": "Melhores Destinos",
     "title": "Passagens para Portugal a partir de R$ 3.250 com opções de voos diretos da Azul e datas no fim do ano!",
     "destination": "Portugal",
@@ -3602,18 +3614,5 @@
     "return_date": "09/12/2026",
     "fetched_at": "2026-08-15T13:31:17.398473+00:00",
     "id": "999e7232acc9"
-  },
-  {
-    "source": "Melhores Destinos",
-    "title": "🇦🇺 Austrália ou Nova Zelândia 🇳🇿 Passagens aéreas a partir de R$ 6.911 ida e volta saindo do Rio, São Paulo e mais cidades!",
-    "destination": null,
-    "price_brl": 6911.0,
-    "currency": "BRL",
-    "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-nova-zelandia-australia-29-04-26",
-    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-auckland-capa2019-01-754x396.jpg",
-    "airline": null,
-    "trip_type": "round_trip",
-    "fetched_at": "2026-08-15T13:31:15.267070+00:00",
-    "id": "6489e5cc2f52"
   }
 ]
