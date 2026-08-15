@@ -1535,6 +1535,18 @@
     "id": "b481b8b37824"
   },
   {
+    "source": "Passagens Imperdíveis",
+    "title": "Passagens para a Argentina: Buenos Aires! A partir de R$ 1.289, ida e volta, c/ taxas! Em até 6x SEM JUROS! Opções de VOO DIRETO!",
+    "destination": "Buenos Aires, Argentina",
+    "price_brl": 1289.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-argentina-buenos-aires-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/buenos_aires_argentina_3_612-612x612.jpg",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-15T15:21:50.446670+00:00",
+    "id": "4d4e67020b49"
+  },
+  {
     "source": "GOL",
     "title": "GOL: Rio de Janeiro (GIG) → João Pessoa (JPA) - 27/08/2026",
     "destination": "João Pessoa",
@@ -3099,6 +3111,18 @@
     "id": "32ce9b0e93ba"
   },
   {
+    "source": "Passagens Imperdíveis",
+    "title": "Passagens para Portugal: Lisboa ou Porto! A partir de R$ 3.464, ida e volta, c/ taxas! Em até 4x SEM JUROS! Opções com BAGAGEM INCLUÍDA!",
+    "destination": "Lisboa ou Porto",
+    "price_brl": 3464.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-portugal-lisboa-porto-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/lisboa_portugal_6-612x612.jpg",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-15T15:21:50.446661+00:00",
+    "id": "704bc748419c"
+  },
+  {
     "source": "GOL",
     "title": "GOL: São Paulo (GRU) → Nova York (JFK) - 07/09/2026 a 16/09/2026",
     "destination": "Nova York",
@@ -3148,6 +3172,25 @@
     "trip_type": "round_trip",
     "fetched_at": "2026-08-15T12:38:59.743867+00:00",
     "id": "3de146312fa1"
+  },
+  {
+    "source": "GOL",
+    "title": "GOL: Rio de Janeiro (GIG) → Nova York (JFK) - 31/08/2026 a 06/09/2026",
+    "destination": "Nova York",
+    "destination_iata": "JFK",
+    "origin": "Rio de Janeiro",
+    "origin_iata": "GIG",
+    "price_brl": 3833.55,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/GIG/JFK",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/JFK_7_11zon.png",
+    "airline": "GOL",
+    "trip_type": "round_trip",
+    "travel_class": "Econômica",
+    "departure_date": "2026-08-31",
+    "return_date": "2026-09-06",
+    "fetched_at": "2026-08-15T15:21:51.703522+00:00",
+    "id": "f6ed26a21cf7"
   },
   {
     "source": "Passagens Imperdíveis",
@@ -3583,54 +3626,5 @@
     "trip_type": "round_trip",
     "fetched_at": "2026-08-15T13:31:15.852808+00:00",
     "id": "cefe14563bca"
-  },
-  {
-    "source": "TAP",
-    "title": "TAP: Rio de Janeiro (GIG) → Porto (OPO) - 17/08/2026 a 09/12/2026",
-    "destination": "Porto",
-    "destination_iata": "OPO",
-    "origin": "Rio de Janeiro",
-    "origin_iata": "GIG",
-    "price_brl": 6520.0,
-    "currency": "BRL",
-    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
-    "image_url": "https://assets.airtrfx.com/media-em/tp/porto-1-1500px.jpg",
-    "airline": "TAP",
-    "trip_type": "round_trip",
-    "departure_date": "17/08/2026",
-    "return_date": "09/12/2026",
-    "fetched_at": "2026-08-15T13:31:17.398473+00:00",
-    "id": "999e7232acc9"
-  },
-  {
-    "source": "TAP",
-    "title": "TAP: Rio de Janeiro (GIG) → Porto (OPO) - 21/08/2026 a 07/09/2026",
-    "destination": "Porto",
-    "destination_iata": "OPO",
-    "origin": "Rio de Janeiro",
-    "origin_iata": "GIG",
-    "price_brl": 6561.0,
-    "currency": "BRL",
-    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
-    "image_url": "https://assets.airtrfx.com/media-em/tp/porto-1-1500px.jpg",
-    "airline": "TAP",
-    "trip_type": "round_trip",
-    "departure_date": "21/08/2026",
-    "return_date": "07/09/2026",
-    "fetched_at": "2026-08-15T14:49:23.300439+00:00",
-    "id": "c0abee644535"
-  },
-  {
-    "source": "Melhores Destinos",
-    "title": "🇦🇺 Austrália ou Nova Zelândia 🇳🇿 Passagens aéreas a partir de R$ 6.911 ida e volta saindo do Rio, São Paulo e mais cidades!",
-    "destination": null,
-    "price_brl": 6911.0,
-    "currency": "BRL",
-    "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-nova-zelandia-australia-29-04-26",
-    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-auckland-capa2019-01-754x396.jpg",
-    "airline": null,
-    "trip_type": "round_trip",
-    "fetched_at": "2026-08-15T14:49:18.898749+00:00",
-    "id": "6489e5cc2f52"
   }
 ]
