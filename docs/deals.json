@@ -3217,6 +3217,38 @@
   },
   {
     "source": "GOL",
+    "title": "GOL: Rio de Janeiro (RIO) → Miami (MIA) - 25/09/2026 a 01/10/2026",
+    "destination": "Miami",
+    "destination_iata": "MIA",
+    "origin": "Rio de Janeiro",
+    "origin_iata": "RIO",
+    "price_brl": 3599.9,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/RIO/MIA",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/miami-1-1500px-x-500px-1.png",
+    "airline": "GOL",
+    "trip_type": "round_trip",
+    "travel_class": "Econômica",
+    "departure_date": "2026-09-25",
+    "return_date": "2026-10-01",
+    "fetched_at": "2026-08-15T12:39:05.746501+00:00",
+    "id": "a9708f8903ad"
+  },
+  {
+    "source": "Melhores Destinos",
+    "title": "Itália: voos para Milão, Veneza, Roma e mais cidades a partir de R$ 3.771 ida e volta",
+    "destination": "Milão, Veneza, Roma e mais cidades",
+    "price_brl": 3771.0,
+    "currency": "BRL",
+    "link": "https://www.melhoresdestinos.com.br/promocao/italia-voos-para-milao-veneza-roma-e-mais-cidades-a-partir-de-r-3-771-ida-e-volta",
+    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-roma-capa2019-01-754x396.jpg",
+    "airline": null,
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-15T12:38:59.743867+00:00",
+    "id": "3de146312fa1"
+  },
+  {
+    "source": "GOL",
     "title": "GOL: Rio de Janeiro (GIG) → Nova York (JFK) - 31/08/2026 a 06/09/2026",
     "destination": "Nova York",
     "destination_iata": "JFK",
@@ -3589,30 +3621,5 @@
     "return_date": "13/09/2026",
     "fetched_at": "2026-08-15T11:45:15.552894+00:00",
     "id": "c4b2072caeca"
-  },
-  {
-    "source": "Melhores Destinos",
-    "title": "Tailândia na alta temporada! Passagens aéreas para Bangkok a partir de R$ 6.167 ida e volta",
-    "destination": "Bangkok",
-    "price_brl": 6167.0,
-    "currency": "BRL",
-    "link": "https://www.melhoresdestinos.com.br/promocao/tailandia-alta-temporada-6167",
-    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2026/02/passagens-aereas-tailandia-capa-2026-754x396.jpg",
-    "airline": null,
-    "trip_type": "round_trip",
-    "fetched_at": "2026-08-15T11:45:07.853008+00:00",
-    "id": "56a3eea0aa51"
-  },
-  {
-    "source": "Passagens Imperdíveis",
-    "title": "Passagens para a TAILÂNDIA: Bangkok! Datas inclusive nas Férias e mais! A partir de R$ 6.288, ida e volta, c/ taxas! Opções com BAGAGEM INCLUÍDA!",
-    "destination": "Bangkok, Tailândia",
-    "price_brl": 6288.0,
-    "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-tailandia-bangkok-2026/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/tailandia_asia_4-612x612.png",
-    "trip_type": "round_trip",
-    "fetched_at": "2026-08-15T11:45:14.401805+00:00",
-    "id": "cefe14563bca"
   }
 ]
