@@ -1,1 +1,28 @@
-[]
+[
+  {
+    "source": "Melhores Destinos",
+    "title": "Fim de semana de ofertas! Passagens aéreas nacionais a partir de R$ 350 ida e volta com Azul, Gol e Latam",
+    "destination": null,
+    "price_brl": 350.0,
+    "currency": "BRL",
+    "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-nacionais-14-08-26",
+    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2024/03/aeroporto-sao-paulo-aviao-capa-754x396.jpg",
+    "airline": "LATAM",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-14T21:18:36+00:00",
+    "id": "fff68e3cae9a"
+  },
+  {
+    "source": "Melhores Destinos",
+    "title": "Tailândia na alta temporada! Passagens aéreas para Bangkok a partir de R$ 6.167 ida e volta",
+    "destination": "Bangkok",
+    "price_brl": 6167.0,
+    "currency": "BRL",
+    "link": "https://www.melhoresdestinos.com.br/promocao/tailandia-alta-temporada-6167",
+    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2026/02/passagens-aereas-tailandia-capa-2026-754x396.jpg",
+    "airline": null,
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-15T03:39:58.224108+00:00",
+    "id": "56a3eea0aa51"
+  }
+]
