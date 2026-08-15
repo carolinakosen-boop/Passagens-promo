@@ -9,7 +9,7 @@
     "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2026/02/passagens-aereas-tailandia-capa-2026-754x396.jpg",
     "airline": null,
     "trip_type": "round_trip",
-    "fetched_at": "2026-08-15T08:57:49.676769+00:00",
+    "fetched_at": "2026-08-15T09:32:58.242589+00:00",
     "id": "56a3eea0aa51"
   },
   {
@@ -22,7 +22,7 @@
     "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-auckland-capa2019-01-754x396.jpg",
     "airline": null,
     "trip_type": "round_trip",
-    "fetched_at": "2026-08-15T08:57:58.404853+00:00",
+    "fetched_at": "2026-08-15T09:33:10.325459+00:00",
     "id": "6489e5cc2f52"
   },
   {
@@ -34,7 +34,7 @@
     "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-tailandia-bangkok-2026/",
     "image_url": "https://travel-cdn.cubo333.com.br/static-img/tailandia_asia_4-612x612.png",
     "trip_type": "round_trip",
-    "fetched_at": "2026-08-15T08:57:59.139274+00:00",
+    "fetched_at": "2026-08-15T09:33:11.264559+00:00",
     "id": "cefe14563bca"
   },
   {
@@ -46,7 +46,7 @@
     "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-acoreia-do-sul-seoul-seul-2026/",
     "image_url": "https://travel-cdn.cubo333.com.br/static-img/seul_coreia_sul-612x612.png",
     "trip_type": "round_trip",
-    "fetched_at": "2026-08-15T08:57:59.139303+00:00",
+    "fetched_at": "2026-08-15T09:33:11.264610+00:00",
     "id": "6dac0ee58890"
   },
   {
@@ -65,7 +65,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-08-17",
     "return_date": "2026-08-28",
-    "fetched_at": "2026-08-15T08:58:00.347001+00:00",
+    "fetched_at": "2026-08-15T09:33:12.458504+00:00",
     "id": "e61929e191e4"
   },
   {
@@ -83,7 +83,7 @@
     "trip_type": "round_trip",
     "departure_date": "19/08/2026",
     "return_date": "31/08/2026",
-    "fetched_at": "2026-08-15T08:58:01.837169+00:00",
+    "fetched_at": "2026-08-15T09:33:12.690412+00:00",
     "id": "b724db4b0b34"
   },
   {
@@ -101,7 +101,7 @@
     "trip_type": "round_trip",
     "departure_date": "21/08/2026",
     "return_date": "28/09/2026",
-    "fetched_at": "2026-08-15T08:58:01.837443+00:00",
+    "fetched_at": "2026-08-15T09:33:12.690740+00:00",
     "id": "325fac4a83f5"
   },
   {
@@ -119,7 +119,7 @@
     "trip_type": "round_trip",
     "departure_date": "01/09/2026",
     "return_date": "29/01/2027",
-    "fetched_at": "2026-08-15T08:58:01.837525+00:00",
+    "fetched_at": "2026-08-15T09:33:12.690841+00:00",
     "id": "17eade85f5f2"
   },
   {
@@ -137,25 +137,7 @@
     "trip_type": "round_trip",
     "departure_date": "28/08/2026",
     "return_date": "17/09/2026",
-    "fetched_at": "2026-08-15T08:58:01.838020+00:00",
+    "fetched_at": "2026-08-15T09:33:12.691475+00:00",
     "id": "f77e27325e9d"
-  },
-  {
-    "source": "TAP",
-    "title": "TAP: Rio de Janeiro (GIG) → Roma (FCO) - 21/08/2026 a 14/12/2026",
-    "destination": "Roma",
-    "destination_iata": "FCO",
-    "origin": "Rio de Janeiro",
-    "origin_iata": "GIG",
-    "price_brl": 6156.0,
-    "currency": "BRL",
-    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
-    "image_url": "https://assets.airtrfx.com/media-em/tp/roma-1-1500px.jpg",
-    "airline": "TAP",
-    "trip_type": "round_trip",
-    "departure_date": "21/08/2026",
-    "return_date": "14/12/2026",
-    "fetched_at": "2026-08-15T08:58:01.838311+00:00",
-    "id": "ec14f42b1ca3"
   }
 ]
