@@ -159,18 +159,6 @@
   },
   {
     "source": "Passagens Imperdíveis",
-    "title": "Passagens para CURITIBA ou FLORIANÓPOLIS! Datas inclusive nas Férias, feriados e mais! A partir de R$ 388, ida e volta, c/ taxas!",
-    "destination": "Curitiba ou Florianópolis",
-    "price_brl": 390.0,
-    "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-curitiba-florianopolis-2026/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/curitiba_parana_brasil_4-612x612.jpg",
-    "trip_type": "round_trip",
-    "fetched_at": "2026-08-14T14:30:57.807787+00:00",
-    "id": "222bb0f7ad84"
-  },
-  {
-    "source": "Passagens Imperdíveis",
     "title": "Passagens para SALVADOR ou MACEIÓ! Datas inclusive no Verão, férias e mais! A partir de R$ 422, ida e volta, c/ taxas!",
     "destination": "Salvador ou Maceió",
     "price_brl": 422.0,
@@ -1545,30 +1533,6 @@
     "trip_type": "round_trip",
     "fetched_at": "2026-08-14T19:49:43.320168+00:00",
     "id": "b481b8b37824"
-  },
-  {
-    "source": "Passagens Imperdíveis",
-    "title": "Passagens para a Argentina: Buenos Aires! A partir de R$ 1.289, ida e volta, c/ taxas! Em até 6x SEM JUROS! Opções de VOO DIRETO!",
-    "destination": "Buenos Aires, Argentina",
-    "price_brl": 1289.0,
-    "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-argentina-buenos-aires-2026/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/buenos_aires_argentina_3_612-612x612.jpg",
-    "trip_type": "round_trip",
-    "fetched_at": "2026-08-14T14:30:57.807728+00:00",
-    "id": "4d4e67020b49"
-  },
-  {
-    "source": "Passagens Imperdíveis",
-    "title": "Passagens para a Argentina: Buenos Aires, Mendoza ou Bariloche! A partir de R$ 1.285, ida e volta, c/ taxas! Em até 6x SEM JUROS! Opções de VOO DIRETO!",
-    "destination": "Buenos Aires, Mendoza ou Bariloche",
-    "price_brl": 1289.0,
-    "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-argentina-buenos-aires-mendoza-bariloche-2026/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/argentina_buenos_aires_casa_rosada_907344_1920-612x612.png",
-    "trip_type": "round_trip",
-    "fetched_at": "2026-08-14T14:30:57.807781+00:00",
-    "id": "f587f5cc6bcb"
   },
   {
     "source": "GOL",
@@ -3135,18 +3099,6 @@
     "id": "32ce9b0e93ba"
   },
   {
-    "source": "Passagens Imperdíveis",
-    "title": "Passagens para Portugal: Lisboa ou Porto! A partir de R$ 3.464, ida e volta, c/ taxas! Em até 4x SEM JUROS! Opções com BAGAGEM INCLUÍDA!",
-    "destination": "Lisboa ou Porto",
-    "price_brl": 3464.0,
-    "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-portugal-lisboa-porto-2026/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/lisboa_portugal_6-612x612.jpg",
-    "trip_type": "round_trip",
-    "fetched_at": "2026-08-14T14:30:57.807691+00:00",
-    "id": "704bc748419c"
-  },
-  {
     "source": "GOL",
     "title": "GOL: São Paulo (GRU) → Nova York (JFK) - 07/09/2026 a 16/09/2026",
     "destination": "Nova York",
@@ -3198,25 +3150,6 @@
     "id": "3de146312fa1"
   },
   {
-    "source": "GOL",
-    "title": "GOL: Rio de Janeiro (GIG) → Nova York (JFK) - 31/08/2026 a 06/09/2026",
-    "destination": "Nova York",
-    "destination_iata": "JFK",
-    "origin": "Rio de Janeiro",
-    "origin_iata": "GIG",
-    "price_brl": 3833.55,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/GIG/JFK",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/JFK_7_11zon.png",
-    "airline": "GOL",
-    "trip_type": "round_trip",
-    "travel_class": "Econômica",
-    "departure_date": "2026-08-31",
-    "return_date": "2026-09-06",
-    "fetched_at": "2026-08-14T14:31:00.422289+00:00",
-    "id": "f6ed26a21cf7"
-  },
-  {
     "source": "Passagens Imperdíveis",
     "title": "MUITO BOM!!! Passagens para a FINLÂNDIA: Helsinque! Inclusive na melhor época das Auroras Boreais! A partir de R$ 3.927, ida e volta, c/ taxas! Opções com BAGAGEM INCLUÍDA!",
     "destination": "Muito bom! Finlândia: Helsinque",
@@ -3248,24 +3181,6 @@
     "id": "c2c538142f73"
   },
   {
-    "source": "TAP",
-    "title": "TAP: São Paulo (GRU) → Madri (MAD) - 18/08/2026 a 03/09/2026",
-    "destination": "Madri",
-    "destination_iata": "MAD",
-    "origin": "São Paulo",
-    "origin_iata": "GRU",
-    "price_brl": 4179.0,
-    "currency": "BRL",
-    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
-    "image_url": "https://assets.airtrfx.com/media-em/tp/madri-1-1500px.jpg",
-    "airline": "TAP",
-    "trip_type": "round_trip",
-    "departure_date": "18/08/2026",
-    "return_date": "03/09/2026",
-    "fetched_at": "2026-08-14T14:31:00.831919+00:00",
-    "id": "8fd7f9661db4"
-  },
-  {
     "source": "Passagens Imperdíveis",
     "title": "Passagens 2 em 1 - LISBOA + MADRI! A partir de R$ 4.205, todos os trechos, c/ taxas! Em até 10x SEM JUROS! Opções de VOO DIRETO!",
     "destination": "2 em 1: Lisboa + Madri",
@@ -3276,24 +3191,6 @@
     "trip_type": "unknown",
     "fetched_at": "2026-08-14T21:26:12.727699+00:00",
     "id": "6133b0e716f3"
-  },
-  {
-    "source": "TAP",
-    "title": "TAP: São Paulo (GRU) → Roma (FCO) - 16/08/2026 a 29/08/2026",
-    "destination": "Roma",
-    "destination_iata": "FCO",
-    "origin": "São Paulo",
-    "origin_iata": "GRU",
-    "price_brl": 4221.0,
-    "currency": "BRL",
-    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
-    "image_url": "https://assets.airtrfx.com/media-em/tp/roma-1-1500px.jpg",
-    "airline": "TAP",
-    "trip_type": "round_trip",
-    "departure_date": "16/08/2026",
-    "return_date": "29/08/2026",
-    "fetched_at": "2026-08-14T14:31:00.831776+00:00",
-    "id": "bf058449cdac"
   },
   {
     "source": "TAP",
@@ -3440,6 +3337,24 @@
     "id": "c9ad637c2482"
   },
   {
+    "source": "TAP",
+    "title": "TAP: São Paulo (GRU) → Madri (MAD) - 17/08/2026 a 26/08/2026",
+    "destination": "Madri",
+    "destination_iata": "MAD",
+    "origin": "São Paulo",
+    "origin_iata": "GRU",
+    "price_brl": 4267.0,
+    "currency": "BRL",
+    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
+    "image_url": "https://assets.airtrfx.com/media-em/tp/madri-1-1500px.jpg",
+    "airline": "TAP",
+    "trip_type": "round_trip",
+    "departure_date": "17/08/2026",
+    "return_date": "26/08/2026",
+    "fetched_at": "2026-08-15T14:49:23.300768+00:00",
+    "id": "476eeb2886fd"
+  },
+  {
     "source": "Passagens Imperdíveis",
     "title": "Passagens para AMSTERDAM, BRUXELAS ou DUBLIN! Datas inclusive na Primavera na Europa e mais! A partir de R$ 4.325, ida e volta, c/ taxas! Em até 6x SEM JUROS!",
     "destination": "Amsterdam, Bruxelas ou Dublin",
@@ -3489,6 +3404,24 @@
   },
   {
     "source": "TAP",
+    "title": "TAP: São Paulo (GRU) → Milão (MXP) - 18/08/2026 a 25/08/2026",
+    "destination": "Milão",
+    "destination_iata": "MXP",
+    "origin": "São Paulo",
+    "origin_iata": "GRU",
+    "price_brl": 4538.0,
+    "currency": "BRL",
+    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
+    "image_url": "https://assets.airtrfx.com/media-em/tp/milao-1-1500px.jpg",
+    "airline": "TAP",
+    "trip_type": "round_trip",
+    "departure_date": "18/08/2026",
+    "return_date": "25/08/2026",
+    "fetched_at": "2026-08-15T14:49:23.300994+00:00",
+    "id": "a56447b03c9b"
+  },
+  {
+    "source": "TAP",
     "title": "TAP: Rio de Janeiro (GIG) → Lisboa (LIS) - 23/08/2026 a 30/08/2026",
     "destination": "Lisboa",
     "destination_iata": "LIS",
@@ -3504,6 +3437,24 @@
     "return_date": "30/08/2026",
     "fetched_at": "2026-08-15T08:30:06.896047+00:00",
     "id": "c30584ccce68"
+  },
+  {
+    "source": "TAP",
+    "title": "TAP: Rio de Janeiro (GIG) → Lisboa (LIS) - 22/08/2026 a 29/08/2026",
+    "destination": "Lisboa",
+    "destination_iata": "LIS",
+    "origin": "Rio de Janeiro",
+    "origin_iata": "GIG",
+    "price_brl": 5087.0,
+    "currency": "BRL",
+    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
+    "image_url": "https://assets.airtrfx.com/media-em/tp/lisboa-1-1500px.jpg",
+    "airline": "TAP",
+    "trip_type": "round_trip",
+    "departure_date": "22/08/2026",
+    "return_date": "29/08/2026",
+    "fetched_at": "2026-08-15T14:49:23.300264+00:00",
+    "id": "b4b2ece9f848"
   },
   {
     "source": "GOL",
@@ -3556,6 +3507,24 @@
   },
   {
     "source": "TAP",
+    "title": "TAP: São Paulo (GRU) → Londres (LGW) - 20/08/2026 a 30/09/2026",
+    "destination": "Londres",
+    "destination_iata": "LGW",
+    "origin": "São Paulo",
+    "origin_iata": "GRU",
+    "price_brl": 6123.0,
+    "currency": "BRL",
+    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
+    "image_url": "https://assets.airtrfx.com/media-em/tp/londres-1-1500px.jpg",
+    "airline": "TAP",
+    "trip_type": "round_trip",
+    "departure_date": "20/08/2026",
+    "return_date": "30/09/2026",
+    "fetched_at": "2026-08-15T14:49:23.301154+00:00",
+    "id": "1591c11d7c8e"
+  },
+  {
+    "source": "TAP",
     "title": "TAP: São Paulo (GRU) → Porto (OPO) - 19/08/2026 a 13/09/2026",
     "destination": "Porto",
     "destination_iata": "OPO",
@@ -3586,6 +3555,24 @@
     "id": "56a3eea0aa51"
   },
   {
+    "source": "TAP",
+    "title": "TAP: São Paulo (GRU) → Lisboa (LIS) - 19/08/2026 a 29/09/2026",
+    "destination": "Lisboa",
+    "destination_iata": "LIS",
+    "origin": "São Paulo",
+    "origin_iata": "GRU",
+    "price_brl": 6169.0,
+    "currency": "BRL",
+    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
+    "image_url": "https://assets.airtrfx.com/media-em/tp/lisboa-1-1500px.jpg",
+    "airline": "TAP",
+    "trip_type": "round_trip",
+    "departure_date": "19/08/2026",
+    "return_date": "29/09/2026",
+    "fetched_at": "2026-08-15T14:49:23.300082+00:00",
+    "id": "e71f2bc52df5"
+  },
+  {
     "source": "Passagens Imperdíveis",
     "title": "Passagens para a TAILÂNDIA: Bangkok! Datas inclusive nas Férias e mais! A partir de R$ 6.288, ida e volta, c/ taxas! Opções com BAGAGEM INCLUÍDA!",
     "destination": "Bangkok, Tailândia",
@@ -3614,5 +3601,36 @@
     "return_date": "09/12/2026",
     "fetched_at": "2026-08-15T13:31:17.398473+00:00",
     "id": "999e7232acc9"
+  },
+  {
+    "source": "TAP",
+    "title": "TAP: Rio de Janeiro (GIG) → Porto (OPO) - 21/08/2026 a 07/09/2026",
+    "destination": "Porto",
+    "destination_iata": "OPO",
+    "origin": "Rio de Janeiro",
+    "origin_iata": "GIG",
+    "price_brl": 6561.0,
+    "currency": "BRL",
+    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
+    "image_url": "https://assets.airtrfx.com/media-em/tp/porto-1-1500px.jpg",
+    "airline": "TAP",
+    "trip_type": "round_trip",
+    "departure_date": "21/08/2026",
+    "return_date": "07/09/2026",
+    "fetched_at": "2026-08-15T14:49:23.300439+00:00",
+    "id": "c0abee644535"
+  },
+  {
+    "source": "Melhores Destinos",
+    "title": "🇦🇺 Austrália ou Nova Zelândia 🇳🇿 Passagens aéreas a partir de R$ 6.911 ida e volta saindo do Rio, São Paulo e mais cidades!",
+    "destination": null,
+    "price_brl": 6911.0,
+    "currency": "BRL",
+    "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-nova-zelandia-australia-29-04-26",
+    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-auckland-capa2019-01-754x396.jpg",
+    "airline": null,
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-15T14:49:18.898749+00:00",
+    "id": "6489e5cc2f52"
   }
 ]
