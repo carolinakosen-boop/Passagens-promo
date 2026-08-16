@@ -1276,6 +1276,18 @@
   },
   {
     "source": "Passagens Imperdíveis",
+    "title": "Passagens para BUENOS AIRES ou SANTIAGO! Datas inclusive no Inverno, férias e mais! A partir de R$ 1.298, ida e volta, c/ taxas! Em até 6x SEM JUROS! Opções de VOO DIRETO!",
+    "destination": "Buenos Aires ou Santiago",
+    "price_brl": 1298.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-buenos-airess-santiago-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/argentina_buenos_aires_caminito_51625_1920-612x612.png",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-16T14:49:39.557658+00:00",
+    "id": "1f0cbc9b61f5"
+  },
+  {
+    "source": "Passagens Imperdíveis",
     "title": "Passagens para a Argentina: Buenos Aires! A partir de R$ 1.289, ida e volta, c/ taxas! Em até 6x SEM JUROS! Opções de VOO DIRETO!",
     "destination": "Buenos Aires, Argentina",
     "price_brl": 1298.0,
@@ -1988,6 +2000,18 @@
     "return_date": "2026-09-11",
     "fetched_at": "2026-08-15T19:22:20.559284+00:00",
     "id": "4966d146561d"
+  },
+  {
+    "source": "Passagens Imperdíveis",
+    "title": "Passagens para o CHILE: Santiago! A partir de R$ 1.226, ida e volta, c/ taxas! Em até 6x SEM JUROS! Opções de VOO DIRETO!",
+    "destination": "Santiago, Chile",
+    "price_brl": 1684.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-ochile-santiago-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/chile_sul_puerto_varas-612x612.jpg",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-16T14:49:39.557811+00:00",
+    "id": "97d6616053d9"
   },
   {
     "source": "GOL",
@@ -2908,18 +2932,6 @@
     "id": "fd1c54f7ede1"
   },
   {
-    "source": "Passagens Imperdíveis",
-    "title": "Continua muito bom! Passagens para MADRI ou BARCELONA! A partir de R$ 3.195, ida e volta, c/ taxas! Em até 5x SEM JUROS! Opções com BAGAGEM INCLUÍDA! Opções de VOO DIRETO!",
-    "destination": "Madri ou Barcelona",
-    "price_brl": 3195.0,
-    "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-madri-barcelona-2026/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/madri_espanha_4-612x612.png",
-    "trip_type": "round_trip",
-    "fetched_at": "2026-08-15T14:23:53.882063+00:00",
-    "id": "410dce3af925"
-  },
-  {
     "source": "GOL",
     "title": "GOL: Rio de Janeiro (RIO) → Oranjestad, Aruba (AUA) - 13/10/2026 a 20/10/2026",
     "destination": "Oranjestad, Aruba",
@@ -3195,24 +3207,6 @@
     "trip_type": "unknown",
     "fetched_at": "2026-08-15T22:23:10.751999+00:00",
     "id": "6133b0e716f3"
-  },
-  {
-    "source": "TAP",
-    "title": "TAP: São Paulo (GRU) → Madri (MAD) - 17/08/2026 a 26/08/2026",
-    "destination": "Madri",
-    "destination_iata": "MAD",
-    "origin": "São Paulo",
-    "origin_iata": "GRU",
-    "price_brl": 4267.0,
-    "currency": "BRL",
-    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
-    "image_url": "https://assets.airtrfx.com/media-em/tp/madri-1-1500px.jpg",
-    "airline": "TAP",
-    "trip_type": "round_trip",
-    "departure_date": "17/08/2026",
-    "return_date": "26/08/2026",
-    "fetched_at": "2026-08-15T14:49:23.300768+00:00",
-    "id": "476eeb2886fd"
   },
   {
     "source": "TAP",
