@@ -3036,25 +3036,6 @@
   },
   {
     "source": "GOL",
-    "title": "GOL: Rio de Janeiro (RIO) → Miami (MIA) - 25/09/2026 a 01/10/2026",
-    "destination": "Miami",
-    "destination_iata": "MIA",
-    "origin": "Rio de Janeiro",
-    "origin_iata": "RIO",
-    "price_brl": 3599.9,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/RIO/MIA",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/miami-1-1500px-x-500px-1.png",
-    "airline": "GOL",
-    "trip_type": "round_trip",
-    "travel_class": "Econômica",
-    "departure_date": "2026-09-25",
-    "return_date": "2026-10-01",
-    "fetched_at": "2026-08-15T12:39:05.746501+00:00",
-    "id": "a9708f8903ad"
-  },
-  {
-    "source": "GOL",
     "title": "GOL: Rio de Janeiro (RIO) → Miami (MIA) - 31/08/2026 a 07/09/2026",
     "destination": "Miami",
     "destination_iata": "MIA",
@@ -3084,19 +3065,6 @@
     "trip_type": "round_trip",
     "fetched_at": "2026-08-15T15:42:34+00:00",
     "id": "afa17f5a19d8"
-  },
-  {
-    "source": "Melhores Destinos",
-    "title": "Itália: voos para Milão, Veneza, Roma e mais cidades a partir de R$ 3.771 ida e volta",
-    "destination": "Milão, Veneza, Roma e mais cidades",
-    "price_brl": 3771.0,
-    "currency": "BRL",
-    "link": "https://www.melhoresdestinos.com.br/promocao/italia-voos-para-milao-veneza-roma-e-mais-cidades-a-partir-de-r-3-771-ida-e-volta",
-    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-roma-capa2019-01-754x396.jpg",
-    "airline": null,
-    "trip_type": "round_trip",
-    "fetched_at": "2026-08-15T12:38:59.743867+00:00",
-    "id": "3de146312fa1"
   },
   {
     "source": "GOL",
