@@ -9,32 +9,32 @@
     "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-auckland-capa2019-01-754x396.jpg",
     "airline": null,
     "trip_type": "round_trip",
-    "fetched_at": "2026-08-16T14:49:38.576917+00:00",
+    "fetched_at": "2026-08-16T15:22:51.891849+00:00",
     "id": "6489e5cc2f52"
   },
   {
     "source": "Passagens Imperdíveis",
-    "title": "Passagens para BUENOS AIRES ou SANTIAGO! Datas inclusive no Inverno, férias e mais! A partir de R$ 1.298, ida e volta, c/ taxas! Em até 6x SEM JUROS! Opções de VOO DIRETO!",
-    "destination": "Buenos Aires ou Santiago",
-    "price_brl": 1298.0,
+    "title": "Passagens para BELO HORIZONTE ou SÃO PAULO! Datas inclusive nas Férias, feriados e mais! A partir de R$ 298, ida e volta, c/ taxas!",
+    "destination": "Belo Horizonte ou São Paulo",
+    "price_brl": 298.0,
     "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-buenos-airess-santiago-2026/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/argentina_buenos_aires_caminito_51625_1920-612x612.png",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-belo-horizonte-saoo-paulo-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/belo_horizonte_minas_gerais_brasil_1_2_3-612x612.png",
     "trip_type": "round_trip",
-    "fetched_at": "2026-08-16T14:49:39.557658+00:00",
-    "id": "1f0cbc9b61f5"
+    "fetched_at": "2026-08-16T15:22:52.778935+00:00",
+    "id": "71dc036cd728"
   },
   {
     "source": "Passagens Imperdíveis",
-    "title": "Passagens para o CHILE: Santiago! A partir de R$ 1.226, ida e volta, c/ taxas! Em até 6x SEM JUROS! Opções de VOO DIRETO!",
-    "destination": "Santiago, Chile",
-    "price_brl": 1684.0,
+    "title": "Passagens para o RECIFE ou FORTALEZA! Datas inclusive no Verão, férias e mais! A partir de R$ 334, ida e volta, c/ taxas!",
+    "destination": "Recife ou Fortaleza",
+    "price_brl": 332.0,
     "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-ochile-santiago-2026/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/chile_sul_puerto_varas-612x612.jpg",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-recife-oufortaleza-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/recife_pernambuco_brasil-612x612.png",
     "trip_type": "round_trip",
-    "fetched_at": "2026-08-16T14:49:39.557811+00:00",
-    "id": "97d6616053d9"
+    "fetched_at": "2026-08-16T15:22:52.779074+00:00",
+    "id": "ae833b140382"
   },
   {
     "source": "TAP",
@@ -51,7 +51,7 @@
     "trip_type": "round_trip",
     "departure_date": "12/09/2026",
     "return_date": "28/09/2026",
-    "fetched_at": "2026-08-16T14:49:40.862695+00:00",
+    "fetched_at": "2026-08-16T15:22:56.040978+00:00",
     "id": "94ec09f3bb38"
   },
   {
@@ -69,7 +69,7 @@
     "trip_type": "round_trip",
     "departure_date": "19/08/2026",
     "return_date": "05/09/2026",
-    "fetched_at": "2026-08-16T14:49:40.863127+00:00",
+    "fetched_at": "2026-08-16T15:22:56.041391+00:00",
     "id": "30efe697acf8"
   }
 ]
