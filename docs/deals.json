@@ -312,6 +312,18 @@
     "id": "97dde06c7881"
   },
   {
+    "source": "Passagens Imperdíveis",
+    "title": "Passagens para o VERÃO em FLORIANÓPOLIS! Praias paradisíacas, natureza e noites animadas em um só destino! A partir de R$ 503, ida e volta, c/ taxas! Em até 4x SEM JUROS!",
+    "destination": "Florianópolis no Verão",
+    "price_brl": 616.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-florianopoliss-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/florianopolis_praia_nacional_nacionais_brasil_2-612x612.png",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-16T19:21:38.806192+00:00",
+    "id": "2f71c7156253"
+  },
+  {
     "source": "GOL",
     "title": "GOL: São Paulo (CGH) → Rio de Janeiro (SDU) - 30/08/2026",
     "destination": "Rio de Janeiro",
@@ -3184,6 +3196,18 @@
     "return_date": "29/08/2026",
     "fetched_at": "2026-08-16T10:23:53.081758+00:00",
     "id": "64c281ab87fb"
+  },
+  {
+    "source": "Passagens Imperdíveis",
+    "title": "MUITO BOM!!! Passagens para a China ou Japão! Vá para Xangai, Pequim ou Tokyo! A partir de R$ 5.555, ida e volta, c/ taxas! Em até 5x SEM JUROS! Opções com BAGAGEM INCLUÍDA!",
+    "destination": "China ou Japão",
+    "price_brl": 5555.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-china-xangai-pequim-japao-tokyyo-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/china_muralha_612_612-612x612.png",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-16T19:21:38.806035+00:00",
+    "id": "962c24fb60b7"
   },
   {
     "source": "Passagens Imperdíveis",
