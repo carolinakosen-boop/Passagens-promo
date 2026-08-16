@@ -1,20 +1,56 @@
 [
   {
+    "source": "Passagens Imperdíveis",
+    "title": "Passagens para a ÁFRICA DO SUL: Joanesburgo ou Cape Town! A partir de R$ 3.387, ida e volta, c/ taxas! Em até 4x SEM JUROS!",
+    "destination": "África do Sul",
+    "price_brl": 3387.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-africa-do-sul-joanesburgo-oucape-town-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/africa_do_sul_2_612_612-612x612.png",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-16T16:26:40.116323+00:00",
+    "id": "4b0682430553"
+  },
+  {
+    "source": "Passagens Imperdíveis",
+    "title": "Continua muito bom! Passagens para MADRI! A partir de R$ 3.217, ida e volta, c/ taxas! Em até 5x SEM JUROS! Opções com BAGAGEM INCLUÍDA! Opções de VOO DIRETO!",
+    "destination": "Madri, Espanha",
+    "price_brl": 3217.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-madriii-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/espanha_madri_612_612-612x612.png",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-16T16:26:40.116357+00:00",
+    "id": "9b565ef56b21"
+  },
+  {
+    "source": "Passagens Imperdíveis",
+    "title": "PASSAGEM + HOSPEDAGEM em MACEIÓ! A partir de R$ 1.279, por pessoa, quarto duplo, c/ taxas! Em até 10x SEM JUROS!",
+    "destination": "Pacote: Maceió",
+    "price_brl": 1294.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-mais-hotel-para-brasil-emmaceio-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/maceio_alagoas_brasil_2-612x612.jpg",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-16T16:26:40.116454+00:00",
+    "id": "ba2e58e86763"
+  },
+  {
     "source": "TAP",
-    "title": "TAP: São Paulo (GRU) → Berlim (BER) - 19/08/2026 a 05/09/2026",
-    "destination": "Berlim",
-    "destination_iata": "BER",
+    "title": "TAP: São Paulo (GRU) → Roma (FCO) - 12/09/2026 a 28/09/2026",
+    "destination": "Roma",
+    "destination_iata": "FCO",
     "origin": "São Paulo",
     "origin_iata": "GRU",
-    "price_brl": 7300.0,
+    "price_brl": 8997.0,
     "currency": "BRL",
     "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
-    "image_url": "https://assets.airtrfx.com/media-em/tp/berlim-1-1500px.jpg",
+    "image_url": "https://assets.airtrfx.com/media-em/tp/roma-1-1500px.jpg",
     "airline": "TAP",
     "trip_type": "round_trip",
-    "departure_date": "19/08/2026",
-    "return_date": "05/09/2026",
-    "fetched_at": "2026-08-16T15:47:23.064075+00:00",
-    "id": "30efe697acf8"
+    "departure_date": "12/09/2026",
+    "return_date": "28/09/2026",
+    "fetched_at": "2026-08-16T16:26:41.628482+00:00",
+    "id": "94ec09f3bb38"
   }
 ]

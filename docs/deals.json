@@ -1288,6 +1288,18 @@
   },
   {
     "source": "Passagens Imperdíveis",
+    "title": "PASSAGEM + HOSPEDAGEM em MACEIÓ! A partir de R$ 1.279, por pessoa, quarto duplo, c/ taxas! Em até 10x SEM JUROS!",
+    "destination": "Pacote: Maceió",
+    "price_brl": 1294.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-mais-hotel-para-brasil-emmaceio-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/maceio_alagoas_brasil_2-612x612.jpg",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-16T16:26:40.116454+00:00",
+    "id": "ba2e58e86763"
+  },
+  {
+    "source": "Passagens Imperdíveis",
     "title": "Passagens para BUENOS AIRES ou SANTIAGO! Datas inclusive no Inverno, férias e mais! A partir de R$ 1.298, ida e volta, c/ taxas! Em até 6x SEM JUROS! Opções de VOO DIRETO!",
     "destination": "Buenos Aires ou Santiago",
     "price_brl": 1298.0,
@@ -2520,19 +2532,6 @@
   },
   {
     "source": "Melhores Destinos",
-    "title": "Passagens de ida e volta para Orlando a partir de R$ 2.349 saindo de São Paulo e mais cidades!",
-    "destination": "Orlando",
-    "price_brl": 2349.0,
-    "currency": "BRL",
-    "link": "https://www.melhoresdestinos.com.br/promocao/passagens-de-ida-e-volta-para-orlando-10go26",
-    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2025/01/Big-thunder-orlando-disney-capa-754x396.jpg",
-    "airline": null,
-    "trip_type": "round_trip",
-    "fetched_at": "2026-08-15T16:11:56+00:00",
-    "id": "9dac9ef1f3c0"
-  },
-  {
-    "source": "Melhores Destinos",
     "title": "Orlando com bons preços: passagens a partir de R$ 2.380 ida e volta saindo de São Paulo e mais cidades",
     "destination": null,
     "price_brl": 2380.0,
@@ -2944,6 +2943,18 @@
     "id": "fd1c54f7ede1"
   },
   {
+    "source": "Passagens Imperdíveis",
+    "title": "Continua muito bom! Passagens para MADRI! A partir de R$ 3.217, ida e volta, c/ taxas! Em até 5x SEM JUROS! Opções com BAGAGEM INCLUÍDA! Opções de VOO DIRETO!",
+    "destination": "Madri, Espanha",
+    "price_brl": 3217.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-madriii-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/espanha_madri_612_612-612x612.png",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-16T16:26:40.116357+00:00",
+    "id": "9b565ef56b21"
+  },
+  {
     "source": "GOL",
     "title": "GOL: Rio de Janeiro (RIO) → Oranjestad, Aruba (AUA) - 13/10/2026 a 20/10/2026",
     "destination": "Oranjestad, Aruba",
@@ -3050,6 +3061,18 @@
     "return_date": "2026-10-31",
     "fetched_at": "2026-08-15T20:23:17.888551+00:00",
     "id": "e31a371b0e61"
+  },
+  {
+    "source": "Passagens Imperdíveis",
+    "title": "Passagens para a ÁFRICA DO SUL: Joanesburgo ou Cape Town! A partir de R$ 3.387, ida e volta, c/ taxas! Em até 4x SEM JUROS!",
+    "destination": "África do Sul",
+    "price_brl": 3387.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-africa-do-sul-joanesburgo-oucape-town-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/africa_do_sul_2_612_612-612x612.png",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-16T16:26:40.116323+00:00",
+    "id": "4b0682430553"
   },
   {
     "source": "GOL",
@@ -3566,36 +3589,5 @@
     "return_date": "25/08/2026",
     "fetched_at": "2026-08-16T08:30:53.398703+00:00",
     "id": "35e542de86c2"
-  },
-  {
-    "source": "Melhores Destinos",
-    "title": "🇦🇺 Austrália ou Nova Zelândia 🇳🇿 Passagens aéreas a partir de R$ 6.911 ida e volta saindo do Rio, São Paulo e mais cidades!",
-    "destination": null,
-    "price_brl": 6911.0,
-    "currency": "BRL",
-    "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-nova-zelandia-australia-29-04-26",
-    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-auckland-capa2019-01-754x396.jpg",
-    "airline": null,
-    "trip_type": "round_trip",
-    "fetched_at": "2026-08-16T15:22:51.891849+00:00",
-    "id": "6489e5cc2f52"
-  },
-  {
-    "source": "TAP",
-    "title": "TAP: São Paulo (GRU) → Berlim (BER) - 19/08/2026 a 05/09/2026",
-    "destination": "Berlim",
-    "destination_iata": "BER",
-    "origin": "São Paulo",
-    "origin_iata": "GRU",
-    "price_brl": 7300.0,
-    "currency": "BRL",
-    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
-    "image_url": "https://assets.airtrfx.com/media-em/tp/berlim-1-1500px.jpg",
-    "airline": "TAP",
-    "trip_type": "round_trip",
-    "departure_date": "19/08/2026",
-    "return_date": "05/09/2026",
-    "fetched_at": "2026-08-16T15:47:23.064075+00:00",
-    "id": "30efe697acf8"
   }
 ]
