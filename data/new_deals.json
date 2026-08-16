@@ -1,50 +1,14 @@
 [
   {
     "source": "Passagens Imperdíveis",
-    "title": "Passagens 2 em 1 - LISBOA + MADRI! A partir de R$ 4.205, todos os trechos, c/ taxas! Em até 10x SEM JUROS! Opções de VOO DIRETO!",
-    "destination": "2 em 1: Lisboa + Madri",
-    "price_brl": 4205.0,
+    "title": "Passagens para o ANO NOVO no RIO DE JANEIRO! Viva a energia de Copacabana, os fogos e a maior festa da virada! A partir de R$ 563, ida e volta, c/ taxas!",
+    "destination": "Réveillon no Rio de Janeiro",
+    "price_brl": 563.0,
     "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-2-em-1fortaleza-sao-paulo-esalvador-2026/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/espanha_madri_612_612-612x612.png",
-    "trip_type": "unknown",
-    "fetched_at": "2026-08-16T23:20:28.545184+00:00",
-    "id": "6133b0e716f3"
-  },
-  {
-    "source": "TAP",
-    "title": "TAP: São Paulo (GRU) → Lisboa (LIS) - 24/08/2026 a 18/09/2026",
-    "destination": "Lisboa",
-    "destination_iata": "LIS",
-    "origin": "São Paulo",
-    "origin_iata": "GRU",
-    "price_brl": 6119.0,
-    "currency": "BRL",
-    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
-    "image_url": "https://assets.airtrfx.com/media-em/tp/lisboa-1-1500px.jpg",
-    "airline": "TAP",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-rio-de-janeiroo-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/reveillon_fogos_geral-612x612.png",
     "trip_type": "round_trip",
-    "departure_date": "24/08/2026",
-    "return_date": "18/09/2026",
-    "fetched_at": "2026-08-16T23:20:30.034983+00:00",
-    "id": "38700dacaf25"
-  },
-  {
-    "source": "TAP",
-    "title": "TAP: São Paulo (GRU) → Porto (OPO) - 18/08/2026 a 14/10/2026",
-    "destination": "Porto",
-    "destination_iata": "OPO",
-    "origin": "São Paulo",
-    "origin_iata": "GRU",
-    "price_brl": 6183.0,
-    "currency": "BRL",
-    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
-    "image_url": "https://assets.airtrfx.com/media-em/tp/porto-1-1500px.jpg",
-    "airline": "TAP",
-    "trip_type": "round_trip",
-    "departure_date": "18/08/2026",
-    "return_date": "14/10/2026",
-    "fetched_at": "2026-08-16T23:20:30.035385+00:00",
-    "id": "d77828657427"
+    "fetched_at": "2026-08-16T23:44:50.722633+00:00",
+    "id": "079420164c54"
   }
 ]
