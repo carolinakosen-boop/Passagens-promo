@@ -51,6 +51,18 @@
   },
   {
     "source": "Passagens Imperdíveis",
+    "title": "Passagens para as PRAIAS DO NORDESTE: Recife, Natal, Salvador e mais! A partir de R$ 332, ida e volta!",
+    "destination": "Praias do Nordeste",
+    "price_brl": 332.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/passagens-nacionais-aspraias-nordeste-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/natal_rio_grande_norte_brasil_1-612x612.png",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-16T18:30:40.504955+00:00",
+    "id": "54ab1afa594b"
+  },
+  {
+    "source": "Passagens Imperdíveis",
     "title": "Passagens para o RECIFE ou FORTALEZA! Datas inclusive no Verão, férias e mais! A partir de R$ 334, ida e volta, c/ taxas!",
     "destination": "Recife ou Fortaleza",
     "price_brl": 332.0,
@@ -2378,6 +2390,18 @@
     "return_date": "2026-12-12",
     "fetched_at": "2026-08-15T19:22:20.559372+00:00",
     "id": "0aeefe149852"
+  },
+  {
+    "source": "Passagens Imperdíveis",
+    "title": "Programe sua viagem para a Disney! Passagens para ORLANDO ou TAMPA! A partir de R$ 2.712, ida e volta, c/ taxas! Em até 4x SEM JUROS!",
+    "destination": "Programe sua viagem para a Disney!",
+    "price_brl": 2712.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-tampa-orlandoo-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/orlando_florida_eua_2-612x612.png",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-16T18:30:40.504990+00:00",
+    "id": "f601574ca2db"
   },
   {
     "source": "GOL",
