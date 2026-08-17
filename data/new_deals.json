@@ -1,14 +1,34 @@
 [
   {
-    "source": "Passagens Imperdíveis",
-    "title": "Passagens para o ANO NOVO no RIO DE JANEIRO! Viva a energia de Copacabana, os fogos e a maior festa da virada! A partir de R$ 563, ida e volta, c/ taxas!",
-    "destination": "Réveillon no Rio de Janeiro",
-    "price_brl": 563.0,
+    "source": "Melhores Destinos",
+    "title": "Passagens para Portugal a partir de R$ 3.250 com opções de voos diretos da Azul e datas no fim do ano!",
+    "destination": "Portugal",
+    "price_brl": 3250.0,
     "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-rio-de-janeiroo-2026/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/reveillon_fogos_geral-612x612.png",
-    "trip_type": "round_trip",
-    "fetched_at": "2026-08-16T23:44:50.722633+00:00",
-    "id": "079420164c54"
+    "link": "https://www.melhoresdestinos.com.br/promocao/passagens-para-portugal-12ago26",
+    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2023/01/passagens-aereas-lisboa-portugal-07-capa-754x396.jpg",
+    "airline": "Azul",
+    "trip_type": "unknown",
+    "fetched_at": "2026-08-17T01:19:39.376882+00:00",
+    "id": "83f640872cb0"
+  },
+  {
+    "source": "GOL",
+    "title": "GOL: São Paulo (CGH) → Rio de Janeiro (GIG) - 29/08/2026",
+    "destination": "Rio de Janeiro",
+    "destination_iata": "GIG",
+    "origin": "São Paulo",
+    "origin_iata": "CGH",
+    "price_brl": 813.84,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/CGH/GIG",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/01-1500px-x-500px-5.png",
+    "airline": "GOL",
+    "trip_type": "one_way",
+    "travel_class": "Econômica",
+    "departure_date": "2026-08-29",
+    "return_date": "",
+    "fetched_at": "2026-08-17T01:19:48.558500+00:00",
+    "id": "85efd4816d80"
   }
 ]
