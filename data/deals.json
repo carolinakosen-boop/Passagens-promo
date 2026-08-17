@@ -60,18 +60,6 @@
     "source": "Passagens Imperdíveis",
     "title": "Passagens para as PRAIAS DO NORDESTE: Recife, Natal, Salvador e mais! A partir de R$ 332, ida e volta!",
     "destination": "Praias do Nordeste",
-    "price_brl": 332.0,
-    "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/passagens-nacionais-aspraias-nordeste-2026/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/natal_rio_grande_norte_brasil_1-612x612.png",
-    "trip_type": "round_trip",
-    "fetched_at": "2026-08-16T18:30:40.504955+00:00",
-    "id": "54ab1afa594b"
-  },
-  {
-    "source": "Passagens Imperdíveis",
-    "title": "Passagens para as PRAIAS DO NORDESTE: Recife, Natal, Salvador e mais! A partir de R$ 332, ida e volta!",
-    "destination": "Praias do Nordeste",
     "price_brl": 334.0,
     "currency": "BRL",
     "link": "https://passagensimperdiveis.com.br/passagens-nacionais-aspraias-nordeste-2026/",
@@ -1127,6 +1115,18 @@
     "return_date": "",
     "fetched_at": "2026-08-17T08:48:32.988978+00:00",
     "id": "8da21b524cde"
+  },
+  {
+    "source": "Passagens Imperdíveis",
+    "title": "PASSAGEM + HOTEL no RIO DE JANEIRO! A partir de R$ 883, por pessoa, quarto duplo, c/ taxas! Em até 10x SEM JUROS!",
+    "destination": "Pacote: Rio de Janeiro",
+    "price_brl": 883.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-mais-hotel-para-brasil-rio-de-janeiro-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/rio_de_janeiro_vista_aerea-612x612.jpg",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-17T18:40:57.096342+00:00",
+    "id": "d054dcd7c502"
   },
   {
     "source": "Passagens Imperdíveis",
@@ -3428,6 +3428,18 @@
   },
   {
     "source": "Passagens Imperdíveis",
+    "title": "Programe sua viagem para a Disney! Passagens para ORLANDO ou TAMPA! A partir de R$ 2.712, ida e volta, c/ taxas! Em até 4x SEM JUROS!",
+    "destination": "Programe sua viagem para a Disney!",
+    "price_brl": 2656.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-tampa-orlandoo-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/orlando_florida_eua_2-612x612.png",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-17T18:40:57.096480+00:00",
+    "id": "081faf90a279"
+  },
+  {
+    "source": "Passagens Imperdíveis",
     "title": "Passagens para CHICAGO, NOVA YORK ou BOSTON! Inclusive na Primavera, férias e mais! A partir de R$ 2.719, ida e volta, c/ taxas! Em até 5x SEM JUROS!",
     "destination": "Chicago, Nova York ou Boston",
     "price_brl": 2690.0,
@@ -3437,18 +3449,6 @@
     "trip_type": "round_trip",
     "fetched_at": "2026-08-17T17:33:46.847206+00:00",
     "id": "cc4ace014c7b"
-  },
-  {
-    "source": "Passagens Imperdíveis",
-    "title": "Programe sua viagem para a Disney! Passagens para ORLANDO ou TAMPA! A partir de R$ 2.712, ida e volta, c/ taxas! Em até 4x SEM JUROS!",
-    "destination": "Programe sua viagem para a Disney!",
-    "price_brl": 2712.0,
-    "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-tampa-orlandoo-2026/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/orlando_florida_eua_2-612x612.png",
-    "trip_type": "round_trip",
-    "fetched_at": "2026-08-16T18:30:40.504990+00:00",
-    "id": "f601574ca2db"
   },
   {
     "source": "Passagens Imperdíveis",
