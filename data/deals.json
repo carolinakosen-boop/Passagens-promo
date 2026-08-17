@@ -420,25 +420,6 @@
   },
   {
     "source": "GOL",
-    "title": "GOL: Rio de Janeiro (SDU) → São Paulo (CGH) - 31/08/2026",
-    "destination": "São Paulo",
-    "destination_iata": "CGH",
-    "origin": "Rio de Janeiro",
-    "origin_iata": "SDU",
-    "price_brl": 603.76,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/SDU/CGH",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/03-1500px-x-500px.png",
-    "airline": "GOL",
-    "trip_type": "one_way",
-    "travel_class": "Econômica",
-    "departure_date": "2026-08-31",
-    "return_date": "",
-    "fetched_at": "2026-08-16T22:21:52.339160+00:00",
-    "id": "3ec22a9c10cd"
-  },
-  {
-    "source": "GOL",
     "title": "GOL: São Paulo (CGH) → Rio de Janeiro (SDU) - 31/08/2026 a 31/08/2026",
     "destination": "Rio de Janeiro",
     "destination_iata": "SDU",
@@ -724,25 +705,6 @@
   },
   {
     "source": "GOL",
-    "title": "GOL: São Paulo (SAO) → Salvador (SSA) - 25/08/2026",
-    "destination": "Salvador",
-    "destination_iata": "SSA",
-    "origin": "São Paulo",
-    "origin_iata": "SAO",
-    "price_brl": 701.66,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/SAO/SSA",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/02-1500px-x-500px-2.png",
-    "airline": "GOL",
-    "trip_type": "one_way",
-    "travel_class": "Econômica",
-    "departure_date": "2026-08-25",
-    "return_date": "",
-    "fetched_at": "2026-08-16T22:21:52.339171+00:00",
-    "id": "f742c78d2748"
-  },
-  {
-    "source": "GOL",
     "title": "GOL: São Paulo (GRU) → Santa Cruz de la Sierra (VVI) - 23/11/2026 a 14/01/2027",
     "destination": "Santa Cruz de la Sierra",
     "destination_iata": "VVI",
@@ -968,25 +930,6 @@
     "return_date": "",
     "fetched_at": "2026-08-17T08:48:32.988971+00:00",
     "id": "0469f33768d4"
-  },
-  {
-    "source": "GOL",
-    "title": "GOL: São Paulo (CGH) → Salvador (SSA) - 31/08/2026",
-    "destination": "Salvador",
-    "destination_iata": "SSA",
-    "origin": "São Paulo",
-    "origin_iata": "CGH",
-    "price_brl": 815.05,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/CGH/SSA",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/02-1500px-x-500px-2.png",
-    "airline": "GOL",
-    "trip_type": "one_way",
-    "travel_class": "Econômica",
-    "departure_date": "2026-08-31",
-    "return_date": "",
-    "fetched_at": "2026-08-16T22:21:52.339186+00:00",
-    "id": "1850a7123c55"
   },
   {
     "source": "GOL",
@@ -1752,6 +1695,19 @@
     "return_date": "",
     "fetched_at": "2026-08-17T07:56:25.764219+00:00",
     "id": "62cebc0870a3"
+  },
+  {
+    "source": "Melhores Destinos",
+    "title": "Temporada de neve já começou! Viaje para o Chile com passagens para Santiago a partir de R$ 1.261 ida e volta",
+    "destination": "Chile",
+    "price_brl": 1261.0,
+    "currency": "BRL",
+    "link": "https://www.melhoresdestinos.com.br/promocao/neve-passagens-para-santiago-22jun26",
+    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2024/06/neve-ad-santiago-bariloche-capa-754x396.jpeg",
+    "airline": null,
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-17T22:25:58.554357+00:00",
+    "id": "3d5bddb05f84"
   },
   {
     "source": "Passagens Imperdíveis",
@@ -2913,6 +2869,18 @@
     "id": "147a73de8d00"
   },
   {
+    "source": "Passagens Imperdíveis",
+    "title": "Passagens para PUNTA CANA ou CANCÚN! Datas inclusive no Inverno no Caribe, férias e mais! A partir de R$ 2.461, ida e volta, c/ taxas! Opções de VOO DIRETO!",
+    "destination": "Punta Cana ou Cancún",
+    "price_brl": 2461.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-punta-cana-cancun-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/punta_cana_caribe_1-612x612.png",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-17T22:26:04.284128+00:00",
+    "id": "d20444a226e0"
+  },
+  {
     "source": "GOL",
     "title": "GOL: Rio de Janeiro (GIG) → Rosário (ROS) - 26/08/2026 a 08/09/2026",
     "destination": "Rosário",
@@ -3443,6 +3411,24 @@
     "trip_type": "round_trip",
     "fetched_at": "2026-08-17T20:56:20.021621+00:00",
     "id": "8f97f3ab6e82"
+  },
+  {
+    "source": "TAP",
+    "title": "TAP: São Paulo (GRU) → Lisboa (LIS) - 22/08/2026 a 16/09/2026",
+    "destination": "Lisboa",
+    "destination_iata": "LIS",
+    "origin": "São Paulo",
+    "origin_iata": "GRU",
+    "price_brl": 4519.0,
+    "currency": "BRL",
+    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
+    "image_url": "https://assets.airtrfx.com/media-em/tp/lisboa-1-1500px.jpg",
+    "airline": "TAP",
+    "trip_type": "round_trip",
+    "departure_date": "22/08/2026",
+    "return_date": "16/09/2026",
+    "fetched_at": "2026-08-17T22:26:07.478079+00:00",
+    "id": "e7d0f13ff98e"
   },
   {
     "source": "TAP",
