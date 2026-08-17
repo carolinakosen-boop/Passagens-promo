@@ -1482,18 +1482,6 @@
     "id": "ba2e58e86763"
   },
   {
-    "source": "Passagens Imperdíveis",
-    "title": "Passagens para BUENOS AIRES ou SANTIAGO! Datas inclusive no Inverno, férias e mais! A partir de R$ 1.298, ida e volta, c/ taxas! Em até 6x SEM JUROS! Opções de VOO DIRETO!",
-    "destination": "Buenos Aires ou Santiago",
-    "price_brl": 1298.0,
-    "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-buenos-airess-santiago-2026/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/argentina_buenos_aires_caminito_51625_1920-612x612.png",
-    "trip_type": "round_trip",
-    "fetched_at": "2026-08-16T14:49:39.557658+00:00",
-    "id": "1f0cbc9b61f5"
-  },
-  {
     "source": "GOL",
     "title": "GOL: Rio de Janeiro (GIG) → Fortaleza (FOR) - 31/08/2026",
     "destination": "Fortaleza",
@@ -2176,18 +2164,6 @@
     "return_date": "2026-09-30",
     "fetched_at": "2026-08-16T20:48:29.260502+00:00",
     "id": "8c7e05c16d5b"
-  },
-  {
-    "source": "Passagens Imperdíveis",
-    "title": "Passagens para o CHILE: Santiago! A partir de R$ 1.226, ida e volta, c/ taxas! Em até 6x SEM JUROS! Opções de VOO DIRETO!",
-    "destination": "Santiago, Chile",
-    "price_brl": 1684.0,
-    "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-ochile-santiago-2026/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/chile_sul_puerto_varas-612x612.jpg",
-    "trip_type": "round_trip",
-    "fetched_at": "2026-08-16T14:49:39.557811+00:00",
-    "id": "97d6616053d9"
   },
   {
     "source": "GOL",
@@ -3133,6 +3109,18 @@
     "id": "4bbcffd4c1c9"
   },
   {
+    "source": "Passagens Imperdíveis",
+    "title": "Passagens para a GUATEMALA: Cidade da Guatemala ou Flores! A partir de R$ 2.949, ida e volta, c/ taxas! Em até 10x SEM JUROS!",
+    "destination": "Guatemala",
+    "price_brl": 2949.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-guatemala-cidade-da-guatemala-flores-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/guatemala-612x612.png",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-17T14:56:10.993014+00:00",
+    "id": "d05c89b5f1cd"
+  },
+  {
     "source": "GOL",
     "title": "GOL: Rio de Janeiro (RIO) → Nova York (JFK) - 17/09/2026 a 25/09/2026",
     "destination": "Nova York",
@@ -3620,5 +3608,23 @@
     "return_date": "22/09/2026",
     "fetched_at": "2026-08-17T14:29:16.277531+00:00",
     "id": "3ce2a1850c84"
+  },
+  {
+    "source": "TAP",
+    "title": "TAP: São Paulo (GRU) → Lisboa (LIS) - 24/08/2026 a 10/09/2026",
+    "destination": "Lisboa",
+    "destination_iata": "LIS",
+    "origin": "São Paulo",
+    "origin_iata": "GRU",
+    "price_brl": 6112.0,
+    "currency": "BRL",
+    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
+    "image_url": "https://assets.airtrfx.com/media-em/tp/lisboa-1-1500px.jpg",
+    "airline": "TAP",
+    "trip_type": "round_trip",
+    "departure_date": "24/08/2026",
+    "return_date": "10/09/2026",
+    "fetched_at": "2026-08-17T14:56:13.971006+00:00",
+    "id": "2d5d0af826f2"
   }
 ]
