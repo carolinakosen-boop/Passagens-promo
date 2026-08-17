@@ -693,25 +693,6 @@
   },
   {
     "source": "GOL",
-    "title": "GOL: São Paulo (GRU) → Fortaleza (FOR) - 30/08/2026",
-    "destination": "Fortaleza",
-    "destination_iata": "FOR",
-    "origin": "São Paulo",
-    "origin_iata": "GRU",
-    "price_brl": 703.89,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/GRU/FOR",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/fortaleza-3-1500px-x-500px.png",
-    "airline": "GOL",
-    "trip_type": "one_way",
-    "travel_class": "Econômica",
-    "departure_date": "2026-08-30",
-    "return_date": "",
-    "fetched_at": "2026-08-16T14:23:48.340582+00:00",
-    "id": "b201a995c81c"
-  },
-  {
-    "source": "GOL",
     "title": "GOL: São Paulo (CGH) → Recife (REC) - 31/08/2026",
     "destination": "Recife",
     "destination_iata": "REC",
@@ -1511,18 +1492,6 @@
     "trip_type": "round_trip",
     "fetched_at": "2026-08-16T14:49:39.557658+00:00",
     "id": "1f0cbc9b61f5"
-  },
-  {
-    "source": "Passagens Imperdíveis",
-    "title": "Passagens para a Argentina: Buenos Aires! A partir de R$ 1.289, ida e volta, c/ taxas! Em até 6x SEM JUROS! Opções de VOO DIRETO!",
-    "destination": "Buenos Aires, Argentina",
-    "price_brl": 1298.0,
-    "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-argentina-buenos-aires-2026/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/buenos_aires_argentina_3_612-612x612.jpg",
-    "trip_type": "round_trip",
-    "fetched_at": "2026-08-16T14:23:47.309202+00:00",
-    "id": "373e1592ac8e"
   },
   {
     "source": "GOL",
@@ -2690,18 +2659,6 @@
     "id": "1f91442b092b"
   },
   {
-    "source": "Passagens Imperdíveis",
-    "title": "Passagens para o Peru: Lima! Uma viagem entre cultura, arquitetura colonial, sabores únicos e o charme da costa peruana! A partir de R$ 2.158, ida e volta, c/ taxas! Opções de VOO DIRETO!",
-    "destination": "Lima, Peru",
-    "price_brl": 2206.0,
-    "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-operu-lima-2026/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/lima_2-612x612.jpg",
-    "trip_type": "round_trip",
-    "fetched_at": "2026-08-16T14:23:47.309156+00:00",
-    "id": "b0ceb838c9a8"
-  },
-  {
     "source": "GOL",
     "title": "GOL: São Paulo (GRU) → Mendoza (MDZ) - 31/08/2026 a 03/09/2026",
     "destination": "Mendoza",
@@ -3510,18 +3467,6 @@
     "id": "e75e9ca1a47a"
   },
   {
-    "source": "Passagens Imperdíveis",
-    "title": "Passagens para Portugal: Lisboa! Datas inclusive no Verão Europeu, férias e mais! A partir de R$ 3.488, ida e volta, c/ taxas! Opções com BAGAGEM INCLUÍDA! Em até 4x SEM JUROS!",
-    "destination": "Lisboa, Portugal",
-    "price_brl": 3488.0,
-    "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-portugall-lisboa-2026/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/portugal_lisboa_612_612-612x612.png",
-    "trip_type": "round_trip",
-    "fetched_at": "2026-08-16T14:23:47.309027+00:00",
-    "id": "4dca6845913f"
-  },
-  {
     "source": "GOL",
     "title": "GOL: São Paulo (GRU) → Orlando (MCO) - 20/11/2026 a 04/12/2026",
     "destination": "Orlando",
@@ -3558,6 +3503,19 @@
     "return_date": "2026-09-16",
     "fetched_at": "2026-08-16T20:23:10.050269+00:00",
     "id": "79ba4303b041"
+  },
+  {
+    "source": "Melhores Destinos",
+    "title": "Itália: voos para Milão, Veneza, Roma e mais cidades a partir de R$ 3.771 ida e volta",
+    "destination": "Milão, Veneza, Roma e mais cidades",
+    "price_brl": 3771.0,
+    "currency": "BRL",
+    "link": "https://www.melhoresdestinos.com.br/promocao/italia-voos-para-milao-veneza-roma-e-mais-cidades-a-partir-de-r-3-771-ida-e-volta",
+    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-roma-capa2019-01-754x396.jpg",
+    "airline": null,
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-17T14:29:07.722701+00:00",
+    "id": "3de146312fa1"
   },
   {
     "source": "Passagens Imperdíveis",
@@ -3613,5 +3571,54 @@
     "trip_type": "unknown",
     "fetched_at": "2026-08-16T23:20:28.545184+00:00",
     "id": "6133b0e716f3"
+  },
+  {
+    "source": "GOL",
+    "title": "GOL: São Paulo (GRU) → Punta Cana (PUJ) - 20/08/2026 a 26/08/2026",
+    "destination": "Punta Cana",
+    "destination_iata": "PUJ",
+    "origin": "São Paulo",
+    "origin_iata": "GRU",
+    "price_brl": 4763.74,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/GRU/PUJ",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/punta-cana-2-1500px-x-500px.png",
+    "airline": "GOL",
+    "trip_type": "round_trip",
+    "travel_class": "Econômica",
+    "departure_date": "2026-08-20",
+    "return_date": "2026-08-26",
+    "fetched_at": "2026-08-17T14:29:14.711778+00:00",
+    "id": "be4e39d274a4"
+  },
+  {
+    "source": "Passagens Imperdíveis",
+    "title": "MUITO BOM!!! Passagens para a China ou Japão! Vá para Xangai, Pequim ou Tokyo! A partir de R$ 5.555, ida e volta, c/ taxas! Em até 5x SEM JUROS! Opções com BAGAGEM INCLUÍDA!",
+    "destination": "China ou Japão",
+    "price_brl": 5555.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-china-xangai-pequim-japao-tokyyo-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/china_muralha_612_612-612x612.png",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-17T14:29:13.606275+00:00",
+    "id": "962c24fb60b7"
+  },
+  {
+    "source": "TAP",
+    "title": "TAP: São Paulo (GRU) → Roma (FCO) - 11/09/2026 a 22/09/2026",
+    "destination": "Roma",
+    "destination_iata": "FCO",
+    "origin": "São Paulo",
+    "origin_iata": "GRU",
+    "price_brl": 5727.0,
+    "currency": "BRL",
+    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
+    "image_url": "https://assets.airtrfx.com/media-em/tp/roma-1-1500px.jpg",
+    "airline": "TAP",
+    "trip_type": "round_trip",
+    "departure_date": "11/09/2026",
+    "return_date": "22/09/2026",
+    "fetched_at": "2026-08-17T14:29:16.277531+00:00",
+    "id": "3ce2a1850c84"
   }
 ]
