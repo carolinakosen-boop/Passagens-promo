@@ -333,18 +333,6 @@
     "id": "537417f26266"
   },
   {
-    "source": "Passagens Imperdíveis",
-    "title": "Passagens para o RIO DE JANEIRO ou VITÓRIA! Datas inclusive no Verão, férias e mais! A partir de R$ 460, ida e volta, c/ taxas!",
-    "destination": "Rio de Janeiro ou Vitória",
-    "price_brl": 460.0,
-    "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-rio-de-janeiro-vitoria-2026/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/ef1b8b8f_d1f0_4150_b905_2b1a0e261aeb-612x612.jpg",
-    "trip_type": "round_trip",
-    "fetched_at": "2026-08-16T16:52:53.271494+00:00",
-    "id": "3ef8cebf9c4a"
-  },
-  {
     "source": "GOL",
     "title": "GOL: São Paulo (CGH) → Brasília (BSB) - 17/11/2026",
     "destination": "Brasília",
@@ -3689,5 +3677,24 @@
     "return_date": "2026-09-26",
     "fetched_at": "2026-08-16T20:48:27.478751+00:00",
     "id": "3f41229d91d1"
+  },
+  {
+    "source": "GOL",
+    "title": "GOL: Rio de Janeiro (GIG) → Oranjestad, Aruba (AUA) - 28/09/2026 a 03/10/2026",
+    "destination": "Oranjestad, Aruba",
+    "destination_iata": "AUA",
+    "origin": "Rio de Janeiro",
+    "origin_iata": "GIG",
+    "price_brl": 3017.44,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/GIG/AUA",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/02-1500px-x-500px-3.png",
+    "airline": "GOL",
+    "trip_type": "round_trip",
+    "travel_class": "Econômica",
+    "departure_date": "2026-09-28",
+    "return_date": "2026-10-03",
+    "fetched_at": "2026-08-17T16:57:31.983000+00:00",
+    "id": "92239b6806cd"
   }
 ]
