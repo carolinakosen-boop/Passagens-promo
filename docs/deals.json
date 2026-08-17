@@ -227,25 +227,6 @@
   },
   {
     "source": "GOL",
-    "title": "GOL: Rio de Janeiro (SDU) → São Paulo (CGH) - 29/09/2026",
-    "destination": "São Paulo",
-    "destination_iata": "CGH",
-    "origin": "Rio de Janeiro",
-    "origin_iata": "SDU",
-    "price_brl": 363.76,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/SDU/CGH",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/03-1500px-x-500px.png",
-    "airline": "GOL",
-    "trip_type": "one_way",
-    "travel_class": "Econômica",
-    "departure_date": "2026-09-29",
-    "return_date": "",
-    "fetched_at": "2026-08-16T21:45:25.099012+00:00",
-    "id": "99df9ba2275a"
-  },
-  {
-    "source": "GOL",
     "title": "GOL: São Paulo (CGH) → Rio de Janeiro (SDU) - 14/11/2026",
     "destination": "Rio de Janeiro",
     "destination_iata": "SDU",
@@ -1771,19 +1752,6 @@
     "return_date": "",
     "fetched_at": "2026-08-17T07:56:25.764219+00:00",
     "id": "62cebc0870a3"
-  },
-  {
-    "source": "Melhores Destinos",
-    "title": "Temporada de neve já começou! Viaje para o Chile com passagens para Santiago a partir de R$ 1.261 ida e volta",
-    "destination": "Chile",
-    "price_brl": 1261.0,
-    "currency": "BRL",
-    "link": "https://www.melhoresdestinos.com.br/promocao/neve-passagens-para-santiago-22jun26",
-    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2024/06/neve-ad-santiago-bariloche-capa-754x396.jpeg",
-    "airline": null,
-    "trip_type": "round_trip",
-    "fetched_at": "2026-08-16T21:45:20.654011+00:00",
-    "id": "3d5bddb05f84"
   },
   {
     "source": "Passagens Imperdíveis",
@@ -3550,6 +3518,24 @@
   },
   {
     "source": "TAP",
+    "title": "TAP: São Paulo (GRU) → Porto (OPO) - 25/08/2026 a 03/09/2026",
+    "destination": "Porto",
+    "destination_iata": "OPO",
+    "origin": "São Paulo",
+    "origin_iata": "GRU",
+    "price_brl": 6079.0,
+    "currency": "BRL",
+    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
+    "image_url": "https://assets.airtrfx.com/media-em/tp/porto-1-1500px.jpg",
+    "airline": "TAP",
+    "trip_type": "round_trip",
+    "departure_date": "25/08/2026",
+    "return_date": "03/09/2026",
+    "fetched_at": "2026-08-17T21:53:10.085374+00:00",
+    "id": "46f9b2a6035f"
+  },
+  {
+    "source": "TAP",
     "title": "TAP: São Paulo (GRU) → Porto (OPO) - 25/08/2026 a 15/09/2026",
     "destination": "Porto",
     "destination_iata": "OPO",
@@ -3614,5 +3600,18 @@
     "return_date": "14/10/2026",
     "fetched_at": "2026-08-17T20:56:21.133068+00:00",
     "id": "a95f67a225cb"
+  },
+  {
+    "source": "Melhores Destinos",
+    "title": "🇦🇺 Austrália ou Nova Zelândia 🇳🇿 Passagens aéreas a partir de R$ 6.911 ida e volta saindo do Rio, São Paulo e mais cidades!",
+    "destination": null,
+    "price_brl": 6911.0,
+    "currency": "BRL",
+    "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-nova-zelandia-australia-29-04-26",
+    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-auckland-capa2019-01-754x396.jpg",
+    "airline": null,
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-17T21:53:06.327610+00:00",
+    "id": "6489e5cc2f52"
   }
 ]
