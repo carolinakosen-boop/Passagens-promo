@@ -973,18 +973,6 @@
   },
   {
     "source": "Passagens Imperdíveis",
-    "title": "PASSAGEM + HOTEL no RIO DE JANEIRO! A partir de R$ 883, por pessoa, quarto duplo, c/ taxas! Em até 10x SEM JUROS!",
-    "destination": "Pacote: Rio de Janeiro",
-    "price_brl": 883.0,
-    "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-mais-hotel-para-brasil-rio-de-janeiro-2026/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/rio_de_janeiro_vista_aerea-612x612.jpg",
-    "trip_type": "round_trip",
-    "fetched_at": "2026-08-17T18:40:57.096342+00:00",
-    "id": "d054dcd7c502"
-  },
-  {
-    "source": "Passagens Imperdíveis",
     "title": "PASSAGEM + HOTEL em FORTALEZA! A partir de R$ 887, por pessoa, quarto duplo, c/ taxas! Em até 10x SEM JUROS!",
     "destination": "Pacote: Fortaleza",
     "price_brl": 887.0,
@@ -3313,6 +3301,18 @@
     "trip_type": "round_trip",
     "fetched_at": "2026-08-18T16:32:36.176454+00:00",
     "id": "3de146312fa1"
+  },
+  {
+    "source": "Passagens Imperdíveis",
+    "title": "Passagens para a ITÁLIA: Veneza, Roma ou Milão! Datas inclusive no Verão Europeu, férias e mais! A partir de R$ 3.809, ida e volta, c/ taxas! Em até 6x SEM JUROS!",
+    "destination": "Itália",
+    "price_brl": 3809.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-italia-veneza-roma-milao-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/italia_veneza-612x612.png",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-18T18:42:53.108768+00:00",
+    "id": "c7d8663841b0"
   },
   {
     "source": "Passagens Imperdíveis",
