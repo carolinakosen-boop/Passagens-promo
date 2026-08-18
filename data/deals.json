@@ -2015,19 +2015,6 @@
     "id": "ee12aa25d71b"
   },
   {
-    "source": "Melhores Destinos",
-    "title": "Temporada de neve já começou! Viaje para o Chile com passagens para Santiago a partir de R$ 1.261 ida e volta",
-    "destination": "Chile",
-    "price_brl": 1261.0,
-    "currency": "BRL",
-    "link": "https://www.melhoresdestinos.com.br/promocao/neve-passagens-para-santiago-22jun26",
-    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2024/06/neve-ad-santiago-bariloche-capa-754x396.jpeg",
-    "airline": null,
-    "trip_type": "round_trip",
-    "fetched_at": "2026-08-17T22:25:58.554357+00:00",
-    "id": "3d5bddb05f84"
-  },
-  {
     "source": "Passagens Imperdíveis",
     "title": "Passagens para a ARGENTINA: Buenos Aires! A partir de R$ 1.293, ida e volta, c/ taxas! Em até 6x SEM JUROS! Opções de VOO DIRETO!",
     "destination": "Buenos Aires, Argentina",
@@ -3676,5 +3663,24 @@
     "trip_type": "round_trip",
     "fetched_at": "2026-08-18T21:48:51.531773+00:00",
     "id": "c273cbce14cf"
+  },
+  {
+    "source": "GOL",
+    "title": "GOL: São Paulo (GRU) → Cancún (CUN) - 23/11/2026 a 01/12/2026",
+    "destination": "Cancún",
+    "destination_iata": "CUN",
+    "origin": "São Paulo",
+    "origin_iata": "GRU",
+    "price_brl": 2878.6,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/GRU/CUN",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/canc%C3%BAn-1-1500px-x-500px.png",
+    "airline": "GOL",
+    "trip_type": "round_trip",
+    "travel_class": "Econômica",
+    "departure_date": "2026-11-23",
+    "return_date": "2026-12-01",
+    "fetched_at": "2026-08-18T22:51:53.957677+00:00",
+    "id": "b23db30dc837"
   }
 ]
