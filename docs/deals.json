@@ -200,6 +200,18 @@
     "id": "243a5653a7c3"
   },
   {
+    "source": "Passagens Imperdíveis",
+    "title": "Passagens para SÃO PAULO ou RIO DE JANEIRO! Datas inclusive nas Férias, feriados e mais! A partir de R$ 374, ida e volta, c/ taxas!",
+    "destination": "São Paulo ou Rio de Janeiro",
+    "price_brl": 393.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-sao-paulo-rrio-de-janeiro-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/sao_paulo_sp_brasil_1_2_3-612x612.png",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-18T14:34:40.885742+00:00",
+    "id": "31eb22b54ba9"
+  },
+  {
     "source": "GOL",
     "title": "GOL: São Paulo (CGH) → Rio de Janeiro (SDU) - 21/10/2026",
     "destination": "Rio de Janeiro",
@@ -1415,6 +1427,25 @@
   },
   {
     "source": "GOL",
+    "title": "GOL: São Paulo (SAO) → Recife (REC) - 26/08/2026",
+    "destination": "Recife",
+    "destination_iata": "REC",
+    "origin": "São Paulo",
+    "origin_iata": "SAO",
+    "price_brl": 942.34,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/SAO/REC",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/recife-2-1500px-x-500px.png",
+    "airline": "GOL",
+    "trip_type": "one_way",
+    "travel_class": "Econômica",
+    "departure_date": "2026-08-26",
+    "return_date": "",
+    "fetched_at": "2026-08-18T14:34:41.829629+00:00",
+    "id": "807a46c13e57"
+  },
+  {
+    "source": "GOL",
     "title": "GOL: São Paulo (SAO) → Recife (REC) - 30/08/2026",
     "destination": "Recife",
     "destination_iata": "REC",
@@ -1887,6 +1918,18 @@
     "return_date": "2026-10-31",
     "fetched_at": "2026-08-18T03:45:33.775562+00:00",
     "id": "407e5fbf6bda"
+  },
+  {
+    "source": "Passagens Imperdíveis",
+    "title": "Passagens para SANTIAGO! Datas inclusive no Inverno, férias e mais! A partir de R$ 1.110, ida e volta, c/ taxas! Em até 6x SEM JUROS! Opções de VOO DIRETO!",
+    "destination": "Santiago, Chile",
+    "price_brl": 1110.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-santiago-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/valle_nevado-612x612.jpg",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-18T14:34:40.885605+00:00",
+    "id": "f4541e99623d"
   },
   {
     "source": "GOL",
@@ -3599,49 +3642,5 @@
     "return_date": "2026-09-27",
     "fetched_at": "2026-08-18T12:48:51.137222+00:00",
     "id": "f568e3b4da9c"
-  },
-  {
-    "source": "Passagens Imperdíveis",
-    "title": "Passagens para LISBOA ou MADRI! Datas inclusive no Verão Europeu, férias e mais! A partir de R$ 3.477, ida e volta, c/ taxas! Em até 4x SEM JUROS! Opções com BAGAGEM INCLUÍDA!",
-    "destination": "Lisboa ou Madri",
-    "price_brl": 3477.0,
-    "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-llisboa-madri-2026/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/portugal_lisboa_2-612x612.png",
-    "trip_type": "round_trip",
-    "fetched_at": "2026-08-18T13:42:50.538876+00:00",
-    "id": "5985a92d553a"
-  },
-  {
-    "source": "GOL",
-    "title": "GOL: São Paulo (SAO) → Orlando (MCO) - 17/11/2026 a 21/11/2026",
-    "destination": "Orlando",
-    "destination_iata": "MCO",
-    "origin": "São Paulo",
-    "origin_iata": "SAO",
-    "price_brl": 3658.98,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/SAO/MCO",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/orlando-3-1500px-x-500px.png",
-    "airline": "GOL",
-    "trip_type": "round_trip",
-    "travel_class": "Econômica",
-    "departure_date": "2026-11-17",
-    "return_date": "2026-11-21",
-    "fetched_at": "2026-08-18T12:48:51.137228+00:00",
-    "id": "e933636968a3"
-  },
-  {
-    "source": "Melhores Destinos",
-    "title": "Itália: voos para Milão, Veneza, Roma e mais cidades a partir de R$ 3.771 ida e volta",
-    "destination": "Milão, Veneza, Roma e mais cidades",
-    "price_brl": 3771.0,
-    "currency": "BRL",
-    "link": "https://www.melhoresdestinos.com.br/promocao/italia-voos-para-milao-veneza-roma-e-mais-cidades-a-partir-de-r-3-771-ida-e-volta",
-    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-roma-capa2019-01-754x396.jpg",
-    "airline": null,
-    "trip_type": "round_trip",
-    "fetched_at": "2026-08-18T12:48:44.474960+00:00",
-    "id": "3de146312fa1"
   }
 ]
