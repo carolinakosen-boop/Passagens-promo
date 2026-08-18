@@ -20,6 +20,18 @@
   },
   {
     "source": "Passagens Imperdíveis",
+    "title": "Programe sua viagem para Ouro Preto, Tiradentes e mais! Passagens para BELO HORIZONTE! A partir de R$ 366, ida e volta, c/ taxas!",
+    "destination": "Belo Horizonte",
+    "price_brl": 295.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-belo-horizonte-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/whatsapp_image_2024_09_24_at_12_01_29-612x612.jpg",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-18T15:32:40.549365+00:00",
+    "id": "7352fc58b5ee"
+  },
+  {
+    "source": "Passagens Imperdíveis",
     "title": "Passagens para as PRAIAS DO NORDESTE: Recife, Natal, Salvador e mais! A partir de R$ 334, ida e volta!",
     "destination": "Praias do Nordeste",
     "price_brl": 334.0,
@@ -29,18 +41,6 @@
     "trip_type": "round_trip",
     "fetched_at": "2026-08-17T20:56:20.021597+00:00",
     "id": "ae1ade71b6fe"
-  },
-  {
-    "source": "Passagens Imperdíveis",
-    "title": "Passagens para as PRAIAS DO NORDESTE: Recife, Natal, Salvador e mais! A partir de R$ 332, ida e volta!",
-    "destination": "Praias do Nordeste",
-    "price_brl": 334.0,
-    "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/passagens-nacionais-aspraias-nordeste-2026/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/natal_rio_grande_norte_brasil_1-612x612.png",
-    "trip_type": "round_trip",
-    "fetched_at": "2026-08-17T15:27:47.886605+00:00",
-    "id": "d982629ba357"
   },
   {
     "source": "GOL",
@@ -174,18 +174,6 @@
     "return_date": "",
     "fetched_at": "2026-08-17T16:28:33.915438+00:00",
     "id": "002a17e572d3"
-  },
-  {
-    "source": "Passagens Imperdíveis",
-    "title": "Passagens para SÃO PAULO ou RIO DE JANEIRO! Datas inclusive nas Férias, feriados e mais! A partir de R$ 374, ida e volta, c/ taxas!",
-    "destination": "São Paulo ou Rio de Janeiro",
-    "price_brl": 374.0,
-    "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-sao-paulo-rrio-de-janeiro-2026/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/sao_paulo_sp_brasil_1_2_3-612x612.png",
-    "trip_type": "round_trip",
-    "fetched_at": "2026-08-17T15:27:47.886462+00:00",
-    "id": "537417f26266"
   },
   {
     "source": "Passagens Imperdíveis",
@@ -3642,5 +3630,17 @@
     "return_date": "2026-09-27",
     "fetched_at": "2026-08-18T12:48:51.137222+00:00",
     "id": "f568e3b4da9c"
+  },
+  {
+    "source": "Passagens Imperdíveis",
+    "title": "Passagens para LISBOA ou MADRI! Datas inclusive no Verão Europeu, férias e mais! A partir de R$ 3.477, ida e volta, c/ taxas! Em até 4x SEM JUROS! Opções com BAGAGEM INCLUÍDA!",
+    "destination": "Lisboa ou Madri",
+    "price_brl": 3477.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-llisboa-madri-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/portugal_lisboa_2-612x612.png",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-18T15:32:40.549430+00:00",
+    "id": "5985a92d553a"
   }
 ]
