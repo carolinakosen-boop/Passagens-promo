@@ -32,6 +32,18 @@
   },
   {
     "source": "Passagens Imperdíveis",
+    "title": "Programe sua viagem para Gramado e Canela! Passagens para PORTO ALEGRE! A partir de R$ 330, ida e volta, c/ taxas!",
+    "destination": "Porto Alegre",
+    "price_brl": 330.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-porto-alegre-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/gramado_igreja_de_pedra-612x612.png",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-18T20:25:15.036315+00:00",
+    "id": "d6b66d085513"
+  },
+  {
+    "source": "Passagens Imperdíveis",
     "title": "Programe sua viagem para Carneiros, Porto de Galinhas, Maragogi e mais! Passagens para o RECIFE! A partir de R$ 334, ida e volta, c/ taxas!",
     "destination": "Recife",
     "price_brl": 334.0,
@@ -3440,6 +3452,18 @@
     "id": "1b6f75157eff"
   },
   {
+    "source": "Passagens Imperdíveis",
+    "title": "Passagens para ARUBA: Oranjestad! Datas inclusive no Inverno no Caribe, férias e mais! A partir de R$ 2.808, ida e volta, c/ taxas! Em até 4x SEM JUROS!",
+    "destination": "Aruba",
+    "price_brl": 2808.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-aruba-oranjestad-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/aruba_2_612_612-612x612.png",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-18T20:25:15.036342+00:00",
+    "id": "9dac36d2b585"
+  },
+  {
     "source": "GOL",
     "title": "GOL: Rio de Janeiro (GIG) → Cancún (CUN) - 21/10/2026 a 26/10/2026",
     "destination": "Cancún",
@@ -3652,37 +3676,5 @@
     "return_date": "2026-09-21",
     "fetched_at": "2026-08-18T19:51:07.132969+00:00",
     "id": "195098df166d"
-  },
-  {
-    "source": "GOL",
-    "title": "GOL: Rio de Janeiro (GIG) → Miami (MIA) - 24/08/2026 a 21/09/2026",
-    "destination": "Miami",
-    "destination_iata": "MIA",
-    "origin": "Rio de Janeiro",
-    "origin_iata": "GIG",
-    "price_brl": 3230.7,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/GIG/MIA",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/miami-1-1500px-x-500px-1.png",
-    "airline": "GOL",
-    "trip_type": "round_trip",
-    "travel_class": "Econômica",
-    "departure_date": "2026-08-24",
-    "return_date": "2026-09-21",
-    "fetched_at": "2026-08-18T19:51:07.132973+00:00",
-    "id": "940c3d6453b1"
-  },
-  {
-    "source": "Melhores Destinos",
-    "title": "Passagens para Portugal a partir de R$ 3.250 com opções de voos diretos da Azul e datas no fim do ano!",
-    "destination": "Portugal",
-    "price_brl": 3250.0,
-    "currency": "BRL",
-    "link": "https://www.melhoresdestinos.com.br/promocao/passagens-para-portugal-12ago26",
-    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2023/01/passagens-aereas-lisboa-portugal-07-capa-754x396.jpg",
-    "airline": "Azul",
-    "trip_type": "unknown",
-    "fetched_at": "2026-08-18T19:50:58.605471+00:00",
-    "id": "83f640872cb0"
   }
 ]
