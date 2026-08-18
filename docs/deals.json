@@ -1016,25 +1016,6 @@
   },
   {
     "source": "GOL",
-    "title": "GOL: São Paulo (CGH) → Rio de Janeiro (GIG) - 29/08/2026",
-    "destination": "Rio de Janeiro",
-    "destination_iata": "GIG",
-    "origin": "São Paulo",
-    "origin_iata": "CGH",
-    "price_brl": 813.84,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/CGH/GIG",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/01-1500px-x-500px-5.png",
-    "airline": "GOL",
-    "trip_type": "one_way",
-    "travel_class": "Econômica",
-    "departure_date": "2026-08-29",
-    "return_date": "",
-    "fetched_at": "2026-08-17T01:19:48.558500+00:00",
-    "id": "85efd4816d80"
-  },
-  {
-    "source": "GOL",
     "title": "GOL: São Paulo (CGH) → Salvador (SSA) - 28/08/2026",
     "destination": "Salvador",
     "destination_iata": "SSA",
@@ -3668,5 +3649,17 @@
     "return_date": "2026-09-21",
     "fetched_at": "2026-08-17T20:56:20.655390+00:00",
     "id": "627688a3fa4f"
+  },
+  {
+    "source": "Passagens Imperdíveis",
+    "title": "Continua muito bom! Passagens para MADRI! A partir de R$ 3.217, ida e volta, c/ taxas! Em até 5x SEM JUROS! Opções com BAGAGEM INCLUÍDA! Opções de VOO DIRETO!",
+    "destination": "Madri, Espanha",
+    "price_brl": 3217.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-maddri-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/madri_espanha_6-612x612.jpg",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-18T02:36:41.053660+00:00",
+    "id": "9b565ef56b21"
   }
 ]
