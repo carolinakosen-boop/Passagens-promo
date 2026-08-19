@@ -1219,18 +1219,6 @@
     "id": "5fc6fb06bfdf"
   },
   {
-    "source": "Passagens Imperdíveis",
-    "title": "PASSAGEM + HOTEL em FORTALEZA! A partir de R$ 887, por pessoa, quarto duplo, c/ taxas! Em até 10x SEM JUROS!",
-    "destination": "Pacote: Fortaleza",
-    "price_brl": 887.0,
-    "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-mais-hotel-para-brasil-fortaleza-2026/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/fortaleza_ceara_brasil-612x612.png",
-    "trip_type": "round_trip",
-    "fetched_at": "2026-08-18T17:56:25.404519+00:00",
-    "id": "16e30787921f"
-  },
-  {
     "source": "GOL",
     "title": "GOL: São Paulo (CGH) → Curitiba (CWB) - 30/08/2026",
     "destination": "Curitiba",
@@ -2084,6 +2072,18 @@
     "return_date": "2026-09-06",
     "fetched_at": "2026-08-18T19:28:34.774680+00:00",
     "id": "4263de65abac"
+  },
+  {
+    "source": "Passagens Imperdíveis",
+    "title": "PASSAGEM + HOTEL em NATAL! A partir de R$ 1.247, por pessoa, quarto duplo, c/ taxas! Em até 10x SEM JUROS!",
+    "destination": "Pacote: Natal",
+    "price_brl": 1247.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passsagens-mais-hotel-para-brasil-natal-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/natal_rio_grande_norte_brasil_4-612x612.jpg",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-19T18:36:49.196218+00:00",
+    "id": "c8fe4a8e0129"
   },
   {
     "source": "GOL",
@@ -3606,25 +3606,6 @@
   },
   {
     "source": "GOL",
-    "title": "GOL: São Paulo (CGH) → Salvador (SSA) - 31/08/2026",
-    "destination": "Salvador",
-    "destination_iata": "SSA",
-    "origin": "São Paulo",
-    "origin_iata": "CGH",
-    "price_brl": 1762.04,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/CGH/SSA",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/02-1500px-x-500px-2.png",
-    "airline": "GOL",
-    "trip_type": "one_way",
-    "travel_class": "Econômica",
-    "departure_date": "2026-08-31",
-    "return_date": "",
-    "fetched_at": "2026-08-18T17:56:26.837706+00:00",
-    "id": "9b5063a9e165"
-  },
-  {
-    "source": "GOL",
     "title": "GOL: São Paulo (GRU) → Recife (REC) - 31/08/2026 a 21/09/2026",
     "destination": "Recife",
     "destination_iata": "REC",
@@ -3736,5 +3717,24 @@
     "return_date": "2026-11-25",
     "fetched_at": "2026-08-19T12:49:46.714154+00:00",
     "id": "7f945ca1100a"
+  },
+  {
+    "source": "GOL",
+    "title": "GOL: São Paulo (SAO) → Montevideo (MVD) - 19/11/2026 a 22/11/2026",
+    "destination": "Montevideo",
+    "destination_iata": "MVD",
+    "origin": "São Paulo",
+    "origin_iata": "SAO",
+    "price_brl": 1934.7,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/SAO/MVD",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/montevideo-2-1500px-x-500px.png",
+    "airline": "GOL",
+    "trip_type": "round_trip",
+    "travel_class": "Econômica",
+    "departure_date": "2026-11-19",
+    "return_date": "2026-11-22",
+    "fetched_at": "2026-08-19T18:36:50.597706+00:00",
+    "id": "a5d6d5dab800"
   }
 ]
