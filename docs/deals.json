@@ -1820,19 +1820,6 @@
     "id": "ee12aa25d71b"
   },
   {
-    "source": "Melhores Destinos",
-    "title": "Temporada de neve já começou! Viaje para o Chile com passagens para Santiago a partir de R$ 1.261 ida e volta",
-    "destination": "Chile",
-    "price_brl": 1261.0,
-    "currency": "BRL",
-    "link": "https://www.melhoresdestinos.com.br/promocao/neve-passagens-para-santiago-22jun26",
-    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2024/06/neve-ad-santiago-bariloche-capa-754x396.jpeg",
-    "airline": null,
-    "trip_type": "round_trip",
-    "fetched_at": "2026-08-18T23:23:21.492914+00:00",
-    "id": "3d5bddb05f84"
-  },
-  {
     "source": "GOL",
     "title": "GOL: São Paulo (GRU) → Santa Cruz de la Sierra (VVI) - 15/12/2026 a 07/01/2027",
     "destination": "Santa Cruz de la Sierra",
@@ -3682,5 +3669,24 @@
     "return_date": "2026-09-11",
     "fetched_at": "2026-08-19T22:25:49.407200+00:00",
     "id": "0ccc8c2658d8"
+  },
+  {
+    "source": "GOL",
+    "title": "GOL: São Paulo (GRU) → Miami (MIA) - 28/09/2026 a 08/10/2026",
+    "destination": "Miami",
+    "destination_iata": "MIA",
+    "origin": "São Paulo",
+    "origin_iata": "GRU",
+    "price_brl": 3066.61,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/GRU/MIA",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/miami-1-1500px-x-500px-1.png",
+    "airline": "GOL",
+    "trip_type": "round_trip",
+    "travel_class": "Econômica",
+    "departure_date": "2026-09-28",
+    "return_date": "2026-10-08",
+    "fetched_at": "2026-08-19T23:23:38.028352+00:00",
+    "id": "2ab1310819e1"
   }
 ]
