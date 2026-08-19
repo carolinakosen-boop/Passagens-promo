@@ -3072,6 +3072,24 @@
     "id": "7ff740d1b23e"
   },
   {
+    "source": "TAP",
+    "title": "TAP: Rio de Janeiro (GIG) → Lisboa (LIS) - 19/08/2026 a 16/09/2026",
+    "destination": "Lisboa",
+    "destination_iata": "LIS",
+    "origin": "Rio de Janeiro",
+    "origin_iata": "GIG",
+    "price_brl": 5985.0,
+    "currency": "BRL",
+    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
+    "image_url": "https://assets.airtrfx.com/media-em/tp/lisboa-1-1500px.jpg",
+    "airline": "TAP",
+    "trip_type": "round_trip",
+    "departure_date": "19/08/2026",
+    "return_date": "16/09/2026",
+    "fetched_at": "2026-08-19T06:45:32.568383+00:00",
+    "id": "c06101b3d062"
+  },
+  {
     "source": "Melhores Destinos",
     "title": "Tailândia na alta temporada! Passagens aéreas para Bangkok a partir de R$ 6.167 ida e volta",
     "destination": "Bangkok",
