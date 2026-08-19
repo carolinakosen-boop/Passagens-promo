@@ -1105,18 +1105,6 @@
     "id": "a801ac6e130e"
   },
   {
-    "source": "Passagens Imperdíveis",
-    "title": "Passagens para FERNANDO DE NORONHA ou JERICOACOARA! Datas inclusive no Verão, férias e mais! A partir de R$ 854, ida e volta, c/ taxas!",
-    "destination": "Fernando de Noronha ou Jericoacoara",
-    "price_brl": 854.0,
-    "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-fernando-de-noronha-jericoacoara-2026/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/fernando_de_noronha_brasil_praia_4_8f9b2-612x612.png",
-    "trip_type": "round_trip",
-    "fetched_at": "2026-08-18T22:24:43.971548+00:00",
-    "id": "5fc6fb06bfdf"
-  },
-  {
     "source": "GOL",
     "title": "GOL: São Paulo (CGH) → Curitiba (CWB) - 30/08/2026",
     "destination": "Curitiba",
@@ -3675,5 +3663,24 @@
     "trip_type": "round_trip",
     "fetched_at": "2026-08-19T21:54:20.756446+00:00",
     "id": "ec90eb5c73d8"
+  },
+  {
+    "source": "GOL",
+    "title": "GOL: Rio de Janeiro (GIG) → Orlando (MCO) - 02/09/2026 a 11/09/2026",
+    "destination": "Orlando",
+    "destination_iata": "MCO",
+    "origin": "Rio de Janeiro",
+    "origin_iata": "GIG",
+    "price_brl": 3053.42,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/GIG/MCO",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/orlando-3-1500px-x-500px.png",
+    "airline": "GOL",
+    "trip_type": "round_trip",
+    "travel_class": "Econômica",
+    "departure_date": "2026-09-02",
+    "return_date": "2026-09-11",
+    "fetched_at": "2026-08-19T22:25:49.407200+00:00",
+    "id": "0ccc8c2658d8"
   }
 ]
