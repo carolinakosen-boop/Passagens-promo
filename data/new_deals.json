@@ -9,7 +9,7 @@
     "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2024/02/apartamentos-orlando-capa-754x396.jpg",
     "airline": null,
     "trip_type": "round_trip",
-    "fetched_at": "2026-08-19T19:26:19.359195+00:00",
+    "fetched_at": "2026-08-19T19:50:49.994423+00:00",
     "id": "24cd140a6e33"
   },
   {
@@ -22,7 +22,7 @@
     "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-roma-capa2019-01-754x396.jpg",
     "airline": null,
     "trip_type": "round_trip",
-    "fetched_at": "2026-08-19T19:26:19.663356+00:00",
+    "fetched_at": "2026-08-19T19:50:50.280823+00:00",
     "id": "3de146312fa1"
   },
   {
@@ -35,7 +35,7 @@
     "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2021/10/orlando-eua-disney-capa14-754x396.jpg",
     "airline": null,
     "trip_type": "round_trip",
-    "fetched_at": "2026-08-19T19:26:20.422753+00:00",
+    "fetched_at": "2026-08-19T19:50:51.042654+00:00",
     "id": "f610546149c6"
   },
   {
@@ -48,8 +48,20 @@
     "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-auckland-capa2019-01-754x396.jpg",
     "airline": null,
     "trip_type": "round_trip",
-    "fetched_at": "2026-08-19T19:26:22.975996+00:00",
+    "fetched_at": "2026-08-19T19:50:53.727392+00:00",
     "id": "6489e5cc2f52"
+  },
+  {
+    "source": "Passagens Imperdíveis",
+    "title": "Passagens para SÃO PAULO ou RIO DE JANEIRO! Datas inclusive nas Férias, feriados e mais! A partir de R$ 394, ida e volta, c/ taxas! Em até 4x SEM JUROS!",
+    "destination": "São Paulo ou Rio de Janeiro",
+    "price_brl": 394.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-sao-ppaulo-rio-de-janeiro-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/sao_paulo_nacionais_612-612x612.png",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-19T19:50:54.415275+00:00",
+    "id": "1aaae6d02f42"
   },
   {
     "source": "Passagens Imperdíveis",
@@ -60,7 +72,7 @@
     "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-2-em-1-rio-de-janeirro-sao-paulo-florianopolis-2026/",
     "image_url": "https://travel-cdn.cubo333.com.br/static-img/santiago_chile-612x612.png",
     "trip_type": "unknown",
-    "fetched_at": "2026-08-19T19:26:24.073596+00:00",
+    "fetched_at": "2026-08-19T19:50:54.415312+00:00",
     "id": "61622ac8235e"
   },
   {
@@ -72,7 +84,7 @@
     "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-novva-york-los-angeles-2026/",
     "image_url": "https://travel-cdn.cubo333.com.br/static-img/nova_york_eua_estados_unidos_2-612x612.jpg",
     "trip_type": "round_trip",
-    "fetched_at": "2026-08-19T19:26:24.073627+00:00",
+    "fetched_at": "2026-08-19T19:50:54.415326+00:00",
     "id": "b67451d3e02f"
   },
   {
@@ -84,7 +96,7 @@
     "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-madri-2026/",
     "image_url": "https://travel-cdn.cubo333.com.br/static-img/madri_espanha_9-612x612.jpg",
     "trip_type": "round_trip",
-    "fetched_at": "2026-08-19T19:26:24.073678+00:00",
+    "fetched_at": "2026-08-19T19:50:54.415352+00:00",
     "id": "5d848b35588a"
   },
   {
@@ -96,7 +108,7 @@
     "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-tampa-orlando-2026/",
     "image_url": "https://travel-cdn.cubo333.com.br/static-img/eua_orlando_disney_2_612_612-612x612.png",
     "trip_type": "round_trip",
-    "fetched_at": "2026-08-19T19:26:24.073687+00:00",
+    "fetched_at": "2026-08-19T19:50:54.415362+00:00",
     "id": "14b7b86ee62e"
   },
   {
@@ -108,7 +120,7 @@
     "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-africa-do-sul-joanesburgo-cape-ttown-2026/",
     "image_url": "https://travel-cdn.cubo333.com.br/static-img/africa_do_sul_612_612-612x612.png",
     "trip_type": "round_trip",
-    "fetched_at": "2026-08-19T19:26:24.073695+00:00",
+    "fetched_at": "2026-08-19T19:50:54.415367+00:00",
     "id": "c4afc5af8e60"
   },
   {
@@ -120,7 +132,7 @@
     "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-portugal-lisboa-2026/",
     "image_url": "https://travel-cdn.cubo333.com.br/static-img/8865e3d0_cfc5_4a1d_9e82_039f8748d66f-612x612.jpg",
     "trip_type": "round_trip",
-    "fetched_at": "2026-08-19T19:26:24.073715+00:00",
+    "fetched_at": "2026-08-19T19:50:54.415380+00:00",
     "id": "6ca5cf329d5b"
   },
   {
@@ -132,7 +144,7 @@
     "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-coreia-do-sul-seoul-seul-tailandia-bangkok-2026/",
     "image_url": "https://travel-cdn.cubo333.com.br/static-img/coreia_do_sul_seul_612_612-612x612.png",
     "trip_type": "round_trip",
-    "fetched_at": "2026-08-19T19:26:24.073732+00:00",
+    "fetched_at": "2026-08-19T19:50:54.415390+00:00",
     "id": "7ff740d1b23e"
   },
   {
@@ -144,20 +156,8 @@
     "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-argentina-mendoza-bariloche-2026/",
     "image_url": "https://travel-cdn.cubo333.com.br/static-img/argentina_mendoza_andes_612_612-612x612.png",
     "trip_type": "round_trip",
-    "fetched_at": "2026-08-19T19:26:24.073741+00:00",
+    "fetched_at": "2026-08-19T19:50:54.415395+00:00",
     "id": "02eae0e7f769"
-  },
-  {
-    "source": "Passagens Imperdíveis",
-    "title": "Passagens para ARUBA: Oranjestad! Datas inclusive no Inverno no Caribe, férias e mais! A partir de R$ 2.808, ida e volta, c/ taxas! Em até 4x SEM JUROS!",
-    "destination": "Aruba",
-    "price_brl": 2808.0,
-    "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-aruba-oranjestad-2026/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/aruba_2_612_612-612x612.png",
-    "trip_type": "round_trip",
-    "fetched_at": "2026-08-19T19:26:24.073757+00:00",
-    "id": "9dac36d2b585"
   },
   {
     "source": "GOL",
@@ -175,7 +175,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-11-04",
     "return_date": "2026-11-11",
-    "fetched_at": "2026-08-19T19:26:24.747614+00:00",
+    "fetched_at": "2026-08-19T19:50:55.012307+00:00",
     "id": "43c799ae3645"
   },
   {
@@ -194,7 +194,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-10-20",
     "return_date": "2026-10-30",
-    "fetched_at": "2026-08-19T19:26:24.747621+00:00",
+    "fetched_at": "2026-08-19T19:50:55.012311+00:00",
     "id": "ef7b6eadf94d"
   },
   {
@@ -213,7 +213,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-10-26",
     "return_date": "2026-11-04",
-    "fetched_at": "2026-08-19T19:26:24.747626+00:00",
+    "fetched_at": "2026-08-19T19:50:55.012315+00:00",
     "id": "2371d2566c9a"
   },
   {
@@ -232,7 +232,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-09-02",
     "return_date": "2026-09-11",
-    "fetched_at": "2026-08-19T19:26:24.747633+00:00",
+    "fetched_at": "2026-08-19T19:50:55.012320+00:00",
     "id": "0ccc8c2658d8"
   },
   {
@@ -251,7 +251,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-09-28",
     "return_date": "2026-10-08",
-    "fetched_at": "2026-08-19T19:26:24.747638+00:00",
+    "fetched_at": "2026-08-19T19:50:55.012324+00:00",
     "id": "2ab1310819e1"
   },
   {
@@ -270,7 +270,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-08-24",
     "return_date": "2026-09-21",
-    "fetched_at": "2026-08-19T19:26:24.747645+00:00",
+    "fetched_at": "2026-08-19T19:50:55.012328+00:00",
     "id": "195098df166d"
   },
   {
@@ -289,7 +289,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-09-07",
     "return_date": "2026-09-15",
-    "fetched_at": "2026-08-19T19:26:24.747651+00:00",
+    "fetched_at": "2026-08-19T19:50:55.012332+00:00",
     "id": "0c18e6da396d"
   },
   {
@@ -308,7 +308,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-08-24",
     "return_date": "2026-09-21",
-    "fetched_at": "2026-08-19T19:26:24.747657+00:00",
+    "fetched_at": "2026-08-19T19:50:55.012336+00:00",
     "id": "940c3d6453b1"
   },
   {
@@ -327,7 +327,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-09-20",
     "return_date": "2026-09-25",
-    "fetched_at": "2026-08-19T19:26:24.747664+00:00",
+    "fetched_at": "2026-08-19T19:50:55.012341+00:00",
     "id": "5bf8beba8728"
   },
   {
@@ -346,7 +346,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-08-25",
     "return_date": "2026-08-31",
-    "fetched_at": "2026-08-19T19:26:24.747670+00:00",
+    "fetched_at": "2026-08-19T19:50:55.012345+00:00",
     "id": "381eab1cf818"
   },
   {
@@ -365,7 +365,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-09-26",
     "return_date": "2026-10-12",
-    "fetched_at": "2026-08-19T19:26:24.747677+00:00",
+    "fetched_at": "2026-08-19T19:50:55.012350+00:00",
     "id": "5b817950d41c"
   },
   {
@@ -384,7 +384,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-09-08",
     "return_date": "2026-09-15",
-    "fetched_at": "2026-08-19T19:26:24.747684+00:00",
+    "fetched_at": "2026-08-19T19:50:55.012354+00:00",
     "id": "b548ad85dc07"
   },
   {
@@ -403,7 +403,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-10-16",
     "return_date": "2026-10-20",
-    "fetched_at": "2026-08-19T19:26:24.747691+00:00",
+    "fetched_at": "2026-08-19T19:50:55.012358+00:00",
     "id": "98e276fae974"
   },
   {
@@ -422,7 +422,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-10-30",
     "return_date": "2026-11-03",
-    "fetched_at": "2026-08-19T19:26:24.747697+00:00",
+    "fetched_at": "2026-08-19T19:50:55.012362+00:00",
     "id": "8bfb3f5c5b8a"
   },
   {
@@ -441,7 +441,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-10-02",
     "return_date": "2026-10-09",
-    "fetched_at": "2026-08-19T19:26:24.747703+00:00",
+    "fetched_at": "2026-08-19T19:50:55.012366+00:00",
     "id": "d83034a6fef1"
   },
   {
@@ -460,7 +460,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-12-06",
     "return_date": "2026-12-16",
-    "fetched_at": "2026-08-19T19:26:24.747709+00:00",
+    "fetched_at": "2026-08-19T19:50:55.012370+00:00",
     "id": "ab722eecdb79"
   },
   {
@@ -479,7 +479,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-10-21",
     "return_date": "2026-10-28",
-    "fetched_at": "2026-08-19T19:26:24.747715+00:00",
+    "fetched_at": "2026-08-19T19:50:55.012374+00:00",
     "id": "740b6d995d85"
   },
   {
@@ -498,7 +498,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-10-21",
     "return_date": "2026-10-26",
-    "fetched_at": "2026-08-19T19:26:24.747721+00:00",
+    "fetched_at": "2026-08-19T19:50:55.012378+00:00",
     "id": "9422c8949976"
   },
   {
@@ -517,7 +517,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-11-17",
     "return_date": "2026-11-24",
-    "fetched_at": "2026-08-19T19:26:24.747730+00:00",
+    "fetched_at": "2026-08-19T19:50:55.012382+00:00",
     "id": "b33d75008453"
   },
   {
@@ -536,7 +536,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-11-23",
     "return_date": "2026-12-01",
-    "fetched_at": "2026-08-19T19:26:24.747736+00:00",
+    "fetched_at": "2026-08-19T19:50:55.012386+00:00",
     "id": "b23db30dc837"
   },
   {
@@ -555,7 +555,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-11-06",
     "return_date": "2026-11-20",
-    "fetched_at": "2026-08-19T19:26:24.747743+00:00",
+    "fetched_at": "2026-08-19T19:50:55.012390+00:00",
     "id": "a04625af50a4"
   },
   {
@@ -574,7 +574,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-10-01",
     "return_date": "2026-10-11",
-    "fetched_at": "2026-08-19T19:26:24.747749+00:00",
+    "fetched_at": "2026-08-19T19:50:55.012395+00:00",
     "id": "affd171cfd1f"
   },
   {
@@ -593,7 +593,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-09-24",
     "return_date": "2026-09-30",
-    "fetched_at": "2026-08-19T19:26:24.747822+00:00",
+    "fetched_at": "2026-08-19T19:50:55.012441+00:00",
     "id": "1e881b52a35b"
   },
   {
@@ -612,7 +612,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-08-24",
     "return_date": "2026-08-31",
-    "fetched_at": "2026-08-19T19:26:25.011539+00:00",
+    "fetched_at": "2026-08-19T19:50:55.425341+00:00",
     "id": "b4812b555244"
   },
   {
@@ -631,7 +631,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-08-29",
     "return_date": "2026-10-27",
-    "fetched_at": "2026-08-19T19:26:25.011546+00:00",
+    "fetched_at": "2026-08-19T19:50:55.425348+00:00",
     "id": "7621720fe80f"
   },
   {
@@ -649,7 +649,7 @@
     "trip_type": "round_trip",
     "departure_date": "20/08/2026",
     "return_date": "31/08/2026",
-    "fetched_at": "2026-08-19T19:26:25.320226+00:00",
+    "fetched_at": "2026-08-19T19:50:55.733484+00:00",
     "id": "10c373977173"
   },
   {
@@ -667,7 +667,7 @@
     "trip_type": "round_trip",
     "departure_date": "19/08/2026",
     "return_date": "23/08/2026",
-    "fetched_at": "2026-08-19T19:26:25.320374+00:00",
+    "fetched_at": "2026-08-19T19:50:55.733626+00:00",
     "id": "dea105b8005d"
   },
   {
@@ -685,7 +685,7 @@
     "trip_type": "round_trip",
     "departure_date": "25/08/2026",
     "return_date": "01/09/2026",
-    "fetched_at": "2026-08-19T19:26:25.320534+00:00",
+    "fetched_at": "2026-08-19T19:50:55.733782+00:00",
     "id": "3b4927b4f201"
   },
   {
@@ -703,7 +703,7 @@
     "trip_type": "round_trip",
     "departure_date": "16/09/2026",
     "return_date": "10/10/2026",
-    "fetched_at": "2026-08-19T19:26:25.320691+00:00",
+    "fetched_at": "2026-08-19T19:50:55.733933+00:00",
     "id": "685f273e21d1"
   },
   {
@@ -721,7 +721,7 @@
     "trip_type": "round_trip",
     "departure_date": "01/09/2026",
     "return_date": "22/09/2026",
-    "fetched_at": "2026-08-19T19:26:25.320969+00:00",
+    "fetched_at": "2026-08-19T19:50:55.734212+00:00",
     "id": "5fc9c153b27d"
   },
   {
@@ -739,7 +739,7 @@
     "trip_type": "round_trip",
     "departure_date": "07/09/2026",
     "return_date": "28/09/2026",
-    "fetched_at": "2026-08-19T19:26:25.321072+00:00",
+    "fetched_at": "2026-08-19T19:50:55.734300+00:00",
     "id": "6a1beb8552f1"
   },
   {
@@ -757,7 +757,7 @@
     "trip_type": "round_trip",
     "departure_date": "16/09/2026",
     "return_date": "27/09/2026",
-    "fetched_at": "2026-08-19T19:26:25.321348+00:00",
+    "fetched_at": "2026-08-19T19:50:55.734564+00:00",
     "id": "cc4344aec0a8"
   },
   {
@@ -775,7 +775,7 @@
     "trip_type": "round_trip",
     "departure_date": "20/08/2026",
     "return_date": "05/09/2026",
-    "fetched_at": "2026-08-19T19:26:25.321438+00:00",
+    "fetched_at": "2026-08-19T19:50:55.734654+00:00",
     "id": "44796dac2313"
   }
 ]
