@@ -631,25 +631,6 @@
   },
   {
     "source": "GOL",
-    "title": "GOL: São Paulo (GRU) → Salvador (SSA) - 26/08/2026",
-    "destination": "Salvador",
-    "destination_iata": "SSA",
-    "origin": "São Paulo",
-    "origin_iata": "GRU",
-    "price_brl": 701.66,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/GRU/SSA",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/02-1500px-x-500px-2.png",
-    "airline": "GOL",
-    "trip_type": "one_way",
-    "travel_class": "Econômica",
-    "departure_date": "2026-08-26",
-    "return_date": "",
-    "fetched_at": "2026-08-18T23:47:34.268533+00:00",
-    "id": "7356f3fde22e"
-  },
-  {
-    "source": "GOL",
     "title": "GOL: São Paulo (GRU) → Fortaleza (FOR) - 27/11/2026",
     "destination": "Fortaleza",
     "destination_iata": "FOR",
@@ -1372,25 +1353,6 @@
   },
   {
     "source": "GOL",
-    "title": "GOL: Rio de Janeiro (GIG) → Ilhéus (IOS) - 25/08/2026",
-    "destination": "Ilhéus",
-    "destination_iata": "IOS",
-    "origin": "Rio de Janeiro",
-    "origin_iata": "GIG",
-    "price_brl": 1061.81,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/GIG/IOS",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/ilh%C3%A9us2-1500px-x-500px.png",
-    "airline": "GOL",
-    "trip_type": "one_way",
-    "travel_class": "Econômica",
-    "departure_date": "2026-08-25",
-    "return_date": "",
-    "fetched_at": "2026-08-18T23:47:34.268473+00:00",
-    "id": "bed46052f499"
-  },
-  {
-    "source": "GOL",
     "title": "GOL: São Paulo (SAO) → Recife (REC) - 28/08/2026",
     "destination": "Recife",
     "destination_iata": "REC",
@@ -1818,6 +1780,19 @@
     "return_date": "",
     "fetched_at": "2026-08-19T20:56:59.241239+00:00",
     "id": "ee12aa25d71b"
+  },
+  {
+    "source": "Melhores Destinos",
+    "title": "Temporada de neve já começou! Viaje para o Chile com passagens para Santiago a partir de R$ 1.261 ida e volta",
+    "destination": "Chile",
+    "price_brl": 1261.0,
+    "currency": "BRL",
+    "link": "https://www.melhoresdestinos.com.br/promocao/neve-passagens-para-santiago-22jun26",
+    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2024/06/neve-ad-santiago-bariloche-capa-754x396.jpeg",
+    "airline": null,
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-19T23:47:43.595111+00:00",
+    "id": "3d5bddb05f84"
   },
   {
     "source": "GOL",
@@ -3688,5 +3663,24 @@
     "return_date": "2026-10-08",
     "fetched_at": "2026-08-19T23:23:38.028352+00:00",
     "id": "2ab1310819e1"
+  },
+  {
+    "source": "GOL",
+    "title": "GOL: São Paulo (SAO) → San José (SJO) - 01/10/2026 a 11/10/2026",
+    "destination": "San José",
+    "destination_iata": "SJO",
+    "origin": "São Paulo",
+    "origin_iata": "SAO",
+    "price_brl": 3123.14,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/SAO/SJO",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/03-1500px-x-500px-1.png",
+    "airline": "GOL",
+    "trip_type": "round_trip",
+    "travel_class": "Econômica",
+    "departure_date": "2026-10-01",
+    "return_date": "2026-10-11",
+    "fetched_at": "2026-08-19T23:47:48.798248+00:00",
+    "id": "affd171cfd1f"
   }
 ]
