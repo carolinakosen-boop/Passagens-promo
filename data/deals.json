@@ -81,6 +81,18 @@
     "id": "c6cd7bb9ffb2"
   },
   {
+    "source": "Passagens Imperdíveis",
+    "title": "Programe sua viagem para Carneiros, Porto de Galinhas, Maragogi e mais! Passagens para o RECIFE! A partir de R$ 334, ida e volta, c/ taxas!",
+    "destination": "Recife",
+    "price_brl": 339.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-recife-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/porto_galinhas_pernambuco_brasil-612x612.png",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-19T16:33:15.830664+00:00",
+    "id": "c86755f6b377"
+  },
+  {
     "source": "GOL",
     "title": "GOL: Rio de Janeiro (RIO) → Brasília (BSB) - 08/12/2026",
     "destination": "Brasília",
@@ -535,25 +547,6 @@
     "return_date": "",
     "fetched_at": "2026-08-18T19:28:34.774588+00:00",
     "id": "3954bc6c215f"
-  },
-  {
-    "source": "GOL",
-    "title": "GOL: São Paulo (GRU) → Salvador (SSA) - 29/08/2026",
-    "destination": "Salvador",
-    "destination_iata": "SSA",
-    "origin": "São Paulo",
-    "origin_iata": "GRU",
-    "price_brl": 701.66,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/GRU/SSA",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/02-1500px-x-500px-2.png",
-    "airline": "GOL",
-    "trip_type": "one_way",
-    "travel_class": "Econômica",
-    "departure_date": "2026-08-29",
-    "return_date": "",
-    "fetched_at": "2026-08-18T16:32:40.466299+00:00",
-    "id": "26b9a75a2ece"
   },
   {
     "source": "GOL",
@@ -1018,25 +1011,6 @@
   },
   {
     "source": "GOL",
-    "title": "GOL: Rio de Janeiro (GIG) → João Pessoa (JPA) - 27/08/2026",
-    "destination": "João Pessoa",
-    "destination_iata": "JPA",
-    "origin": "Rio de Janeiro",
-    "origin_iata": "GIG",
-    "price_brl": 894.81,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/GIG/JPA",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/jo%C3%A3o-pessoa-3-1500px-x-500px.png",
-    "airline": "GOL",
-    "trip_type": "one_way",
-    "travel_class": "Econômica",
-    "departure_date": "2026-08-27",
-    "return_date": "",
-    "fetched_at": "2026-08-18T16:32:40.466370+00:00",
-    "id": "7f63c58f3c42"
-  },
-  {
-    "source": "GOL",
     "title": "GOL: São Paulo (CGH) → Curitiba (CWB) - 30/08/2026",
     "destination": "Curitiba",
     "destination_iata": "CWB",
@@ -1072,25 +1046,6 @@
     "return_date": "",
     "fetched_at": "2026-08-18T21:25:29.346959+00:00",
     "id": "e0545ae8b739"
-  },
-  {
-    "source": "GOL",
-    "title": "GOL: São Paulo (GRU) → Juazeiro do Norte (JDO) - 29/08/2026",
-    "destination": "Juazeiro do Norte",
-    "destination_iata": "JDO",
-    "origin": "São Paulo",
-    "origin_iata": "GRU",
-    "price_brl": 929.89,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/GRU/JDO",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/juazeiro-do-norte-2-1500px-x-500px.png",
-    "airline": "GOL",
-    "trip_type": "one_way",
-    "travel_class": "Econômica",
-    "departure_date": "2026-08-29",
-    "return_date": "",
-    "fetched_at": "2026-08-18T16:32:40.466384+00:00",
-    "id": "a7005cfd0ba0"
   },
   {
     "source": "GOL",
@@ -1876,18 +1831,6 @@
     "trip_type": "round_trip",
     "fetched_at": "2026-08-19T14:35:06.366806+00:00",
     "id": "7c872cc57bf3"
-  },
-  {
-    "source": "Passagens Imperdíveis",
-    "title": "Passagens para a ARGENTINA: Buenos Aires! A partir de R$ 1.293, ida e volta, c/ taxas! Em até 6x SEM JUROS! Opções de VOO DIRETO!",
-    "destination": "Buenos Aires, Argentina",
-    "price_brl": 1293.0,
-    "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-argentina-buenos-airees-2026/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/buenos_aires_argentina-612x612.png",
-    "trip_type": "round_trip",
-    "fetched_at": "2026-08-18T16:32:39.140545+00:00",
-    "id": "87c0ef32f431"
   },
   {
     "source": "GOL",
@@ -2973,6 +2916,18 @@
     "id": "5e10f7574193"
   },
   {
+    "source": "Passagens Imperdíveis",
+    "title": "Programe sua viagem para o Salar de Uyuni! Passagens para a Bolívia: Santa Cruz de la Sierra, Cochabamba ou La Paz! A partir de R$ 1.633, ida e volta, c/ taxas! Em até 5x SEM JUROS! Opções de VOO DIRE",
+    "destination": "Bolívia",
+    "price_brl": 1633.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-bolivia-santa-cruz-de-la-sierra-cochabamba-la-paz-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/bolivia_salar_uyuni_612_612-612x612.png",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-19T16:33:15.830546+00:00",
+    "id": "0e4a0214d43b"
+  },
+  {
     "source": "GOL",
     "title": "GOL: São Paulo (GRU) → Buenos Aires (EZE) - 24/10/2026 a 28/10/2026",
     "destination": "Buenos Aires",
@@ -3180,25 +3135,6 @@
     "return_date": "2026-09-21",
     "fetched_at": "2026-08-19T08:38:26.509302+00:00",
     "id": "e2604bfe538b"
-  },
-  {
-    "source": "GOL",
-    "title": "GOL: São Paulo (GRU) → Recife (REC) - 31/08/2026 a 18/09/2026",
-    "destination": "Recife",
-    "destination_iata": "REC",
-    "origin": "São Paulo",
-    "origin_iata": "GRU",
-    "price_brl": 1822.33,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/GRU/REC",
-    "image_url": null,
-    "airline": "GOL",
-    "trip_type": "round_trip",
-    "travel_class": "Econômica",
-    "departure_date": "2026-08-31",
-    "return_date": "2026-09-18",
-    "fetched_at": "2026-08-18T16:32:40.466499+00:00",
-    "id": "e4daa124d71f"
   },
   {
     "source": "GOL",
@@ -3724,5 +3660,62 @@
     "return_date": "2026-12-16",
     "fetched_at": "2026-08-19T12:49:46.714042+00:00",
     "id": "ab722eecdb79"
+  },
+  {
+    "source": "GOL",
+    "title": "GOL: Rio de Janeiro (GIG) → Nova York (JFK) - 20/10/2026 a 30/10/2026",
+    "destination": "Nova York",
+    "destination_iata": "JFK",
+    "origin": "Rio de Janeiro",
+    "origin_iata": "GIG",
+    "price_brl": 2599.22,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/GIG/JFK",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/JFK_7_11zon.png",
+    "airline": "GOL",
+    "trip_type": "round_trip",
+    "travel_class": "Econômica",
+    "departure_date": "2026-10-20",
+    "return_date": "2026-10-30",
+    "fetched_at": "2026-08-19T16:33:16.748625+00:00",
+    "id": "ef7b6eadf94d"
+  },
+  {
+    "source": "GOL",
+    "title": "GOL: Rio de Janeiro (RIO) → San José (SJO) - 21/10/2026 a 28/10/2026",
+    "destination": "San José",
+    "destination_iata": "SJO",
+    "origin": "Rio de Janeiro",
+    "origin_iata": "RIO",
+    "price_brl": 2655.2,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/RIO/SJO",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/03-1500px-x-500px-1.png",
+    "airline": "GOL",
+    "trip_type": "round_trip",
+    "travel_class": "Econômica",
+    "departure_date": "2026-10-21",
+    "return_date": "2026-10-28",
+    "fetched_at": "2026-08-19T16:33:16.748682+00:00",
+    "id": "740b6d995d85"
+  },
+  {
+    "source": "GOL",
+    "title": "GOL: Rio de Janeiro (RIO) → Orlando (MCO) - 26/10/2026 a 04/11/2026",
+    "destination": "Orlando",
+    "destination_iata": "MCO",
+    "origin": "Rio de Janeiro",
+    "origin_iata": "RIO",
+    "price_brl": 2688.92,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/RIO/MCO",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/orlando-3-1500px-x-500px.png",
+    "airline": "GOL",
+    "trip_type": "round_trip",
+    "travel_class": "Econômica",
+    "departure_date": "2026-10-26",
+    "return_date": "2026-11-04",
+    "fetched_at": "2026-08-19T16:33:16.748629+00:00",
+    "id": "2371d2566c9a"
   }
 ]
