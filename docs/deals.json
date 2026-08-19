@@ -58,6 +58,18 @@
   },
   {
     "source": "Passagens Imperdíveis",
+    "title": "Passagens para as PRAIAS DO NORDESTE: Aracaju, Fortaleza, Ilhéus, Jericoacoara, João Pessoa e mais! A partir de R$ 333, ida e volta!",
+    "destination": "Praias do Nordeste",
+    "price_brl": 333.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/passagens-nacionais-praias-nnordeste-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/recife_pernambuco_brasil-612x612.png",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-19T21:54:20.756363+00:00",
+    "id": "115d8bd407bd"
+  },
+  {
+    "source": "Passagens Imperdíveis",
     "title": "Programe sua viagem para Carneiros, Porto de Galinhas, Maragogi e mais! Passagens para o RECIFE! A partir de R$ 334, ida e volta, c/ taxas!",
     "destination": "Recife",
     "price_brl": 339.0,
@@ -1056,25 +1068,6 @@
   },
   {
     "source": "GOL",
-    "title": "GOL: São Paulo (CGH) → Salvador (SSA) - 25/08/2026",
-    "destination": "Salvador",
-    "destination_iata": "SSA",
-    "origin": "São Paulo",
-    "origin_iata": "CGH",
-    "price_brl": 815.05,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/CGH/SSA",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/02-1500px-x-500px-2.png",
-    "airline": "GOL",
-    "trip_type": "one_way",
-    "travel_class": "Econômica",
-    "departure_date": "2026-08-25",
-    "return_date": "",
-    "fetched_at": "2026-08-18T21:48:52.879935+00:00",
-    "id": "2c094c4288e3"
-  },
-  {
-    "source": "GOL",
     "title": "GOL: Rio de Janeiro (GIG) → Fortaleza (FOR) - 29/08/2026",
     "destination": "Fortaleza",
     "destination_iata": "FOR",
@@ -1521,25 +1514,6 @@
     "return_date": "",
     "fetched_at": "2026-08-19T12:49:48.446905+00:00",
     "id": "1b596405d172"
-  },
-  {
-    "source": "GOL",
-    "title": "GOL: São Paulo (CGH) → Rio de Janeiro (SDU) - 28/08/2026",
-    "destination": "Rio de Janeiro",
-    "destination_iata": "SDU",
-    "origin": "São Paulo",
-    "origin_iata": "CGH",
-    "price_brl": 1097.28,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/CGH/SDU",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/01-1500px-x-500px-5.png",
-    "airline": "GOL",
-    "trip_type": "one_way",
-    "travel_class": "Econômica",
-    "departure_date": "2026-08-28",
-    "return_date": "",
-    "fetched_at": "2026-08-18T21:48:52.879947+00:00",
-    "id": "6d5143fe9380"
   },
   {
     "source": "GOL",
@@ -2432,25 +2406,6 @@
     "return_date": "2026-08-23",
     "fetched_at": "2026-08-19T12:49:48.446842+00:00",
     "id": "1d8eb05a6e56"
-  },
-  {
-    "source": "GOL",
-    "title": "GOL: São Paulo (GRU) → Juazeiro do Norte (JDO) - 31/08/2026 a 17/09/2026",
-    "destination": "Juazeiro do Norte",
-    "destination_iata": "JDO",
-    "origin": "São Paulo",
-    "origin_iata": "GRU",
-    "price_brl": 1474.35,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/GRU/JDO",
-    "image_url": null,
-    "airline": "GOL",
-    "trip_type": "round_trip",
-    "travel_class": "Econômica",
-    "departure_date": "2026-08-31",
-    "return_date": "2026-09-17",
-    "fetched_at": "2026-08-18T21:48:52.880006+00:00",
-    "id": "60dd9ae98385"
   },
   {
     "source": "GOL",
@@ -3689,5 +3644,36 @@
     "trip_type": "round_trip",
     "fetched_at": "2026-08-19T21:30:24.411911+00:00",
     "id": "b67451d3e02f"
+  },
+  {
+    "source": "GOL",
+    "title": "GOL: São Paulo (SAO) → Cancún (CUN) - 06/11/2026 a 20/11/2026",
+    "destination": "Cancún",
+    "destination_iata": "CUN",
+    "origin": "São Paulo",
+    "origin_iata": "SAO",
+    "price_brl": 3003.43,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/SAO/CUN",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/canc%C3%BAn-1-1500px-x-500px.png",
+    "airline": "GOL",
+    "trip_type": "round_trip",
+    "travel_class": "Econômica",
+    "departure_date": "2026-11-06",
+    "return_date": "2026-11-20",
+    "fetched_at": "2026-08-19T21:54:21.567722+00:00",
+    "id": "a04625af50a4"
+  },
+  {
+    "source": "Passagens Imperdíveis",
+    "title": "MUITO BOM!!! Passagens com VOO DIRETO para MADRI! A partir de R$ 3.207, ida e volta, c/ taxas! Em até 5x SEM JUROS! Opções com BAGAGEM INCLUÍDA!",
+    "destination": "Madri com Voo Direto",
+    "price_brl": 3046.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-madri-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/madri_espanha_9-612x612.jpg",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-19T21:54:20.756446+00:00",
+    "id": "ec90eb5c73d8"
   }
 ]
