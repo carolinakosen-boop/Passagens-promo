@@ -3112,25 +3112,6 @@
   },
   {
     "source": "GOL",
-    "title": "GOL: Rio de Janeiro (RIO) → Santa Cruz de la Sierra (VVI) - 27/10/2026 a 04/11/2026",
-    "destination": "Santa Cruz de la Sierra",
-    "destination_iata": "VVI",
-    "origin": "Rio de Janeiro",
-    "origin_iata": "RIO",
-    "price_brl": 1858.83,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/RIO/VVI",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/03-1500px-x-500px-5.png",
-    "airline": "GOL",
-    "trip_type": "round_trip",
-    "travel_class": "Econômica",
-    "departure_date": "2026-10-27",
-    "return_date": "2026-11-04",
-    "fetched_at": "2026-08-19T10:29:37.078605+00:00",
-    "id": "a0b8dcc54b66"
-  },
-  {
-    "source": "GOL",
     "title": "GOL: São Paulo (GRU) → Montevideo (MVD) - 23/08/2026 a 28/08/2026",
     "destination": "Montevideo",
     "destination_iata": "MVD",
@@ -3676,5 +3657,24 @@
     "trip_type": "round_trip",
     "fetched_at": "2026-08-20T08:39:40.762355+00:00",
     "id": "ec90eb5c73d8"
+  },
+  {
+    "source": "GOL",
+    "title": "GOL: Rio de Janeiro (GIG) → Orlando (MCO) - 02/09/2026 a 11/09/2026",
+    "destination": "Orlando",
+    "destination_iata": "MCO",
+    "origin": "Rio de Janeiro",
+    "origin_iata": "GIG",
+    "price_brl": 3053.42,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/GIG/MCO",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/orlando-3-1500px-x-500px.png",
+    "airline": "GOL",
+    "trip_type": "round_trip",
+    "travel_class": "Econômica",
+    "departure_date": "2026-09-02",
+    "return_date": "2026-09-11",
+    "fetched_at": "2026-08-20T10:31:51.209750+00:00",
+    "id": "0ccc8c2658d8"
   }
 ]
