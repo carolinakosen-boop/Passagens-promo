@@ -2074,25 +2074,6 @@
   },
   {
     "source": "GOL",
-    "title": "GOL: São Paulo (SAO) → Fortaleza (FOR) - 30/08/2026 a 06/09/2026",
-    "destination": "Fortaleza",
-    "destination_iata": "FOR",
-    "origin": "São Paulo",
-    "origin_iata": "SAO",
-    "price_brl": 1416.91,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/SAO/FOR",
-    "image_url": null,
-    "airline": "GOL",
-    "trip_type": "round_trip",
-    "travel_class": "Econômica",
-    "departure_date": "2026-08-30",
-    "return_date": "2026-09-06",
-    "fetched_at": "2026-08-19T11:32:23.450184+00:00",
-    "id": "c6946392ff1a"
-  },
-  {
-    "source": "GOL",
     "title": "GOL: São Paulo (GRU) → Juazeiro do Norte (JDO) - 24/08/2026 a 01/09/2026",
     "destination": "Juazeiro do Norte",
     "destination_iata": "JDO",
@@ -3676,5 +3657,24 @@
     "return_date": "2026-09-11",
     "fetched_at": "2026-08-20T10:31:51.209750+00:00",
     "id": "0ccc8c2658d8"
+  },
+  {
+    "source": "GOL",
+    "title": "GOL: São Paulo (GRU) → Miami (MIA) - 28/09/2026 a 08/10/2026",
+    "destination": "Miami",
+    "destination_iata": "MIA",
+    "origin": "São Paulo",
+    "origin_iata": "GRU",
+    "price_brl": 3066.61,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/GRU/MIA",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/miami-1-1500px-x-500px-1.png",
+    "airline": "GOL",
+    "trip_type": "round_trip",
+    "travel_class": "Econômica",
+    "departure_date": "2026-09-28",
+    "return_date": "2026-10-08",
+    "fetched_at": "2026-08-20T11:54:54.901291+00:00",
+    "id": "2ab1310819e1"
   }
 ]
