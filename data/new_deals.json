@@ -9,7 +9,7 @@
     "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2023/01/passagens-aereas-lisboa-portugal-07-capa-754x396.jpg",
     "airline": "Azul",
     "trip_type": "unknown",
-    "fetched_at": "2026-08-21T14:35:55.850162+00:00",
+    "fetched_at": "2026-08-21T15:34:28.118071+00:00",
     "id": "83f640872cb0"
   },
   {
@@ -22,7 +22,7 @@
     "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2024/02/apartamentos-orlando-capa-754x396.jpg",
     "airline": null,
     "trip_type": "round_trip",
-    "fetched_at": "2026-08-21T14:35:57.844051+00:00",
+    "fetched_at": "2026-08-21T15:34:30.546758+00:00",
     "id": "24cd140a6e33"
   },
   {
@@ -35,7 +35,7 @@
     "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-roma-capa2019-01-754x396.jpg",
     "airline": null,
     "trip_type": "round_trip",
-    "fetched_at": "2026-08-21T14:35:58.128990+00:00",
+    "fetched_at": "2026-08-21T15:34:30.877172+00:00",
     "id": "3de146312fa1"
   },
   {
@@ -48,7 +48,7 @@
     "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2021/10/orlando-eua-disney-capa14-754x396.jpg",
     "airline": null,
     "trip_type": "round_trip",
-    "fetched_at": "2026-08-21T14:35:59.392721+00:00",
+    "fetched_at": "2026-08-21T15:34:32.267989+00:00",
     "id": "f610546149c6"
   },
   {
@@ -61,20 +61,20 @@
     "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-auckland-capa2019-01-754x396.jpg",
     "airline": null,
     "trip_type": "round_trip",
-    "fetched_at": "2026-08-21T14:36:02.752676+00:00",
+    "fetched_at": "2026-08-21T15:34:35.640012+00:00",
     "id": "6489e5cc2f52"
   },
   {
     "source": "Passagens Imperdíveis",
-    "title": "Programe sua viagem para Ouro Preto, Tiradentes e mais! Passagens para BELO HORIZONTE! A partir de R$ 297, ida e volta, c/ taxas!",
-    "destination": "Belo Horizonte",
-    "price_brl": 297.0,
+    "title": "Passagens para AMSTERDAM, BRUXELAS ou VIENA! Datas inclusive no Verão Europeu, férias e mais! A partir de R$ 4.124, ida e volta, c/ taxas! Em até 4x SEM JUROS!",
+    "destination": "Amsterdam, Bruxelas ou Viena",
+    "price_brl": 4124.0,
     "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-belo-horizonte-2026/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/whatsapp_image_2024_09_24_at_12_01_29-612x612.jpg",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-viena-amsterdam-bruxelas-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/vienna_austria-612x612.png",
     "trip_type": "round_trip",
-    "fetched_at": "2026-08-21T14:36:03.811484+00:00",
-    "id": "471036594305"
+    "fetched_at": "2026-08-21T15:34:36.414040+00:00",
+    "id": "c30161f3f0a9"
   },
   {
     "source": "Passagens Imperdíveis",
@@ -85,7 +85,7 @@
     "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-madri-lissboa-2026/",
     "image_url": "https://travel-cdn.cubo333.com.br/static-img/madri_espanha_5-612x612.jpg",
     "trip_type": "round_trip",
-    "fetched_at": "2026-08-21T14:36:03.811508+00:00",
+    "fetched_at": "2026-08-21T15:34:36.414093+00:00",
     "id": "46eda84e926b"
   },
   {
@@ -97,7 +97,7 @@
     "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-orlando-nova-york-2026/",
     "image_url": "https://travel-cdn.cubo333.com.br/static-img/disney_orlando-612x612.png",
     "trip_type": "round_trip",
-    "fetched_at": "2026-08-21T14:36:03.811524+00:00",
+    "fetched_at": "2026-08-21T15:34:36.414114+00:00",
     "id": "ef8e7268e7de"
   },
   {
@@ -109,20 +109,8 @@
     "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-canada-toronto-montreal-ottawa-quebec-2026/",
     "image_url": "https://travel-cdn.cubo333.com.br/static-img/canada_toronto_6-612x612.png",
     "trip_type": "round_trip",
-    "fetched_at": "2026-08-21T14:36:03.811548+00:00",
+    "fetched_at": "2026-08-21T15:34:36.414141+00:00",
     "id": "9795bcf23988"
-  },
-  {
-    "source": "Passagens Imperdíveis",
-    "title": "Passagens para SANTIAGO ou DESERTO DO ATACAMA: Calama ou Copiapo! A partir de R$ 1.646, ida e volta, c/ taxas! Em até 6x SEM JUROS! Opções de VOO DIRETO!",
-    "destination": "Santiago ou Deserto do Atacama",
-    "price_brl": 1646.0,
-    "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-santiago-calama-copiappo-2026/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/santiago_chile_2-612x612.png",
-    "trip_type": "round_trip",
-    "fetched_at": "2026-08-21T14:36:03.811559+00:00",
-    "id": "407e9e0b9401"
   },
   {
     "source": "Passagens Imperdíveis",
@@ -133,39 +121,65 @@
     "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-lisboa-mmadri-2026/",
     "image_url": "https://travel-cdn.cubo333.com.br/static-img/accedde9_f8ee_4ece_bf6f_7c2bd39f631f-612x612.jpg",
     "trip_type": "round_trip",
-    "fetched_at": "2026-08-21T14:36:03.811575+00:00",
+    "fetched_at": "2026-08-21T15:34:36.414178+00:00",
     "id": "ab37d0933415"
   },
   {
-    "source": "Passagens Imperdíveis",
-    "title": "Passagens para a PATAGÔNIA ARGENTINA: San Martin De Los Andes, Bariloche, Ushuaia, Río Gallegos ou El Calafate! A partir de R$ 2.012, ida e volta, c/ taxas! Em até 6x SEM JUROS!",
-    "destination": "Descubra a Patagônia Argentina",
-    "price_brl": 2012.0,
+    "source": "GOL",
+    "title": "GOL: Rio de Janeiro (RIO) → São Paulo (CGH) - 09/11/2026",
+    "destination": "São Paulo",
+    "destination_iata": "CGH",
+    "origin": "Rio de Janeiro",
+    "origin_iata": "RIO",
+    "price_brl": 322.81,
     "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-argentina-san-martin-de-los-andes-bariloche-ushuaia-rio-gallegos-el-2026/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/patagonia_argentina_612-612x612.jpg",
-    "trip_type": "round_trip",
-    "fetched_at": "2026-08-21T14:36:03.811591+00:00",
-    "id": "a1e039435e3d"
+    "link": "https://www.voegol.com.br/br/voos/RIO/CGH",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/03-1500px-x-500px.png",
+    "airline": "GOL",
+    "trip_type": "one_way",
+    "travel_class": "Econômica",
+    "departure_date": "2026-11-09",
+    "return_date": "",
+    "fetched_at": "2026-08-21T15:34:37.314212+00:00",
+    "id": "bf91a814c91c"
   },
   {
     "source": "GOL",
-    "title": "GOL: São Paulo (GRU) → Mendoza (MDZ) - 05/11/2026 a 16/11/2026",
-    "destination": "Mendoza",
-    "destination_iata": "MDZ",
+    "title": "GOL: São Paulo (CGH) → Rio de Janeiro (SDU) - 12/01/2027",
+    "destination": "Rio de Janeiro",
+    "destination_iata": "SDU",
+    "origin": "São Paulo",
+    "origin_iata": "CGH",
+    "price_brl": 421.04,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/CGH/SDU",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/01-1500px-x-500px-5.png",
+    "airline": "GOL",
+    "trip_type": "one_way",
+    "travel_class": "Econômica",
+    "departure_date": "2027-01-12",
+    "return_date": "",
+    "fetched_at": "2026-08-21T15:34:37.314250+00:00",
+    "id": "f8d200b3f202"
+  },
+  {
+    "source": "GOL",
+    "title": "GOL: São Paulo (GRU) → Recife (REC) - 15/11/2026",
+    "destination": "Recife",
+    "destination_iata": "REC",
     "origin": "São Paulo",
     "origin_iata": "GRU",
-    "price_brl": 1705.52,
+    "price_brl": 687.65,
     "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/GRU/MDZ",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/mendoza-2-1500px-x-500px.png",
+    "link": "https://www.voegol.com.br/br/voos/GRU/REC",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/recife-2-1500px-x-500px.png",
     "airline": "GOL",
-    "trip_type": "round_trip",
+    "trip_type": "one_way",
     "travel_class": "Econômica",
-    "departure_date": "2026-11-05",
-    "return_date": "2026-11-16",
-    "fetched_at": "2026-08-21T14:36:04.765602+00:00",
-    "id": "5a862bb9e527"
+    "departure_date": "2026-11-15",
+    "return_date": "",
+    "fetched_at": "2026-08-21T15:34:37.314272+00:00",
+    "id": "048005b3c78a"
   },
   {
     "source": "GOL",
@@ -183,7 +197,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-09-27",
     "return_date": "2026-10-02",
-    "fetched_at": "2026-08-21T14:36:04.765609+00:00",
+    "fetched_at": "2026-08-21T15:34:37.314318+00:00",
     "id": "1e01c3836abd"
   },
   {
@@ -202,7 +216,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-11-28",
     "return_date": "2026-12-20",
-    "fetched_at": "2026-08-21T14:36:04.765616+00:00",
+    "fetched_at": "2026-08-21T15:34:37.314322+00:00",
     "id": "e17031aa9335"
   },
   {
@@ -221,7 +235,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-12-02",
     "return_date": "2026-12-07",
-    "fetched_at": "2026-08-21T14:36:04.765623+00:00",
+    "fetched_at": "2026-08-21T15:34:37.314327+00:00",
     "id": "5581195f0c29"
   },
   {
@@ -240,7 +254,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-11-11",
     "return_date": "2026-11-22",
-    "fetched_at": "2026-08-21T14:36:04.765630+00:00",
+    "fetched_at": "2026-08-21T15:34:37.314330+00:00",
     "id": "4b58d9fff0a6"
   },
   {
@@ -259,7 +273,7 @@
     "travel_class": "Econômica",
     "departure_date": "2027-05-11",
     "return_date": "2027-05-25",
-    "fetched_at": "2026-08-21T14:36:04.765638+00:00",
+    "fetched_at": "2026-08-21T15:34:37.314334+00:00",
     "id": "d16be0cb832f"
   },
   {
@@ -278,7 +292,7 @@
     "travel_class": "Econômica",
     "departure_date": "2027-04-01",
     "return_date": "2027-04-09",
-    "fetched_at": "2026-08-21T14:36:04.765646+00:00",
+    "fetched_at": "2026-08-21T15:34:37.314337+00:00",
     "id": "a9c2ae1f5036"
   },
   {
@@ -297,7 +311,7 @@
     "travel_class": "Econômica",
     "departure_date": "2027-06-29",
     "return_date": "2027-07-14",
-    "fetched_at": "2026-08-21T14:36:04.765653+00:00",
+    "fetched_at": "2026-08-21T15:34:37.314341+00:00",
     "id": "946a7af943e8"
   },
   {
@@ -316,7 +330,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-09-10",
     "return_date": "2026-09-21",
-    "fetched_at": "2026-08-21T14:36:04.765661+00:00",
+    "fetched_at": "2026-08-21T15:34:37.314346+00:00",
     "id": "a4a6b598efff"
   },
   {
@@ -335,7 +349,7 @@
     "travel_class": "Econômica",
     "departure_date": "2027-03-11",
     "return_date": "2027-03-19",
-    "fetched_at": "2026-08-21T14:36:04.765669+00:00",
+    "fetched_at": "2026-08-21T15:34:37.314350+00:00",
     "id": "7b08bbf3ab49"
   },
   {
@@ -354,7 +368,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-09-14",
     "return_date": "2026-09-21",
-    "fetched_at": "2026-08-21T14:36:04.765676+00:00",
+    "fetched_at": "2026-08-21T15:34:37.314353+00:00",
     "id": "167694ae213d"
   },
   {
@@ -373,7 +387,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-10-13",
     "return_date": "2026-10-28",
-    "fetched_at": "2026-08-21T14:36:04.765684+00:00",
+    "fetched_at": "2026-08-21T15:34:37.314358+00:00",
     "id": "756318b0d1de"
   },
   {
@@ -392,7 +406,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-09-23",
     "return_date": "2026-09-28",
-    "fetched_at": "2026-08-21T14:36:04.765692+00:00",
+    "fetched_at": "2026-08-21T15:34:37.314361+00:00",
     "id": "c296a127a933"
   },
   {
@@ -411,27 +425,8 @@
     "travel_class": "Econômica",
     "departure_date": "2027-06-05",
     "return_date": "2027-07-14",
-    "fetched_at": "2026-08-21T14:36:04.765700+00:00",
+    "fetched_at": "2026-08-21T15:34:37.314365+00:00",
     "id": "1bff53a3dea4"
-  },
-  {
-    "source": "GOL",
-    "title": "GOL: Rio de Janeiro (GIG) → Oranjestad, Aruba (AUA) - 01/09/2026 a 07/09/2026",
-    "destination": "Oranjestad, Aruba",
-    "destination_iata": "AUA",
-    "origin": "Rio de Janeiro",
-    "origin_iata": "GIG",
-    "price_brl": 1823.48,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/GIG/AUA",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/02-1500px-x-500px-3.png",
-    "airline": "GOL",
-    "trip_type": "round_trip",
-    "travel_class": "Econômica",
-    "departure_date": "2026-09-01",
-    "return_date": "2026-09-07",
-    "fetched_at": "2026-08-21T14:36:04.765707+00:00",
-    "id": "bef08cbd90de"
   },
   {
     "source": "GOL",
@@ -449,7 +444,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-09-25",
     "return_date": "2026-10-02",
-    "fetched_at": "2026-08-21T14:36:04.765715+00:00",
+    "fetched_at": "2026-08-21T15:34:37.314372+00:00",
     "id": "de08a13e8921"
   },
   {
@@ -468,7 +463,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-11-03",
     "return_date": "2026-11-07",
-    "fetched_at": "2026-08-21T14:36:04.765723+00:00",
+    "fetched_at": "2026-08-21T15:34:37.314376+00:00",
     "id": "3bc8a0b53c43"
   },
   {
@@ -487,7 +482,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-09-25",
     "return_date": "2026-10-02",
-    "fetched_at": "2026-08-21T14:36:04.765731+00:00",
+    "fetched_at": "2026-08-21T15:34:37.314380+00:00",
     "id": "01ab1879f90d"
   },
   {
@@ -506,7 +501,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-09-22",
     "return_date": "2026-10-06",
-    "fetched_at": "2026-08-21T14:36:04.765738+00:00",
+    "fetched_at": "2026-08-21T15:34:37.314383+00:00",
     "id": "77d2dbb83527"
   },
   {
@@ -525,7 +520,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-10-16",
     "return_date": "2026-10-20",
-    "fetched_at": "2026-08-21T14:36:04.765745+00:00",
+    "fetched_at": "2026-08-21T15:34:37.314387+00:00",
     "id": "98e276fae974"
   },
   {
@@ -544,7 +539,7 @@
     "travel_class": "Econômica",
     "departure_date": "2027-02-22",
     "return_date": "2027-03-04",
-    "fetched_at": "2026-08-21T14:36:04.765753+00:00",
+    "fetched_at": "2026-08-21T15:34:37.314390+00:00",
     "id": "5bbb9785595e"
   },
   {
@@ -563,7 +558,7 @@
     "travel_class": "Econômica",
     "departure_date": "2027-04-02",
     "return_date": "2027-04-10",
-    "fetched_at": "2026-08-21T14:36:04.765759+00:00",
+    "fetched_at": "2026-08-21T15:34:37.314394+00:00",
     "id": "8873972512d4"
   },
   {
@@ -582,7 +577,7 @@
     "travel_class": "Econômica",
     "departure_date": "2027-03-31",
     "return_date": "2027-04-06",
-    "fetched_at": "2026-08-21T14:36:04.765767+00:00",
+    "fetched_at": "2026-08-21T15:34:37.314397+00:00",
     "id": "68d29f735077"
   },
   {
@@ -601,7 +596,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-10-22",
     "return_date": "2026-10-30",
-    "fetched_at": "2026-08-21T14:36:04.765774+00:00",
+    "fetched_at": "2026-08-21T15:34:37.314400+00:00",
     "id": "1465c4eeb237"
   },
   {
@@ -620,46 +615,8 @@
     "travel_class": "Econômica",
     "departure_date": "2026-09-25",
     "return_date": "2026-10-02",
-    "fetched_at": "2026-08-21T14:36:04.765783+00:00",
+    "fetched_at": "2026-08-21T15:34:37.314405+00:00",
     "id": "ed5483728451"
-  },
-  {
-    "source": "GOL",
-    "title": "GOL: Rio de Janeiro (GIG) → Montevideo (MVD) - 12/10/2026 a 16/10/2026",
-    "destination": "Montevideo",
-    "destination_iata": "MVD",
-    "origin": "Rio de Janeiro",
-    "origin_iata": "GIG",
-    "price_brl": 1673.77,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/GIG/MVD",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/montevideo-2-1500px-x-500px.png",
-    "airline": "GOL",
-    "trip_type": "round_trip",
-    "travel_class": "Econômica",
-    "departure_date": "2026-10-12",
-    "return_date": "2026-10-16",
-    "fetched_at": "2026-08-21T14:36:04.765832+00:00",
-    "id": "4d5041f9b601"
-  },
-  {
-    "source": "GOL",
-    "title": "GOL: São Paulo (GRU) → Montevideo (MVD) - 17/10/2026 a 21/10/2026",
-    "destination": "Montevideo",
-    "destination_iata": "MVD",
-    "origin": "São Paulo",
-    "origin_iata": "GRU",
-    "price_brl": 1708.27,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/GRU/MVD",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/montevideo-2-1500px-x-500px.png",
-    "airline": "GOL",
-    "trip_type": "round_trip",
-    "travel_class": "Econômica",
-    "departure_date": "2026-10-17",
-    "return_date": "2026-10-21",
-    "fetched_at": "2026-08-21T14:36:04.765838+00:00",
-    "id": "4887f2caae71"
   },
   {
     "source": "GOL",
@@ -677,7 +634,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-09-24",
     "return_date": "2026-10-03",
-    "fetched_at": "2026-08-21T14:36:04.765844+00:00",
+    "fetched_at": "2026-08-21T15:34:37.314434+00:00",
     "id": "382c5dd6b671"
   },
   {
@@ -696,12 +653,12 @@
     "travel_class": "Econômica",
     "departure_date": "2026-09-24",
     "return_date": "2026-10-05",
-    "fetched_at": "2026-08-21T14:36:04.765850+00:00",
+    "fetched_at": "2026-08-21T15:34:37.314437+00:00",
     "id": "e0f01924b100"
   },
   {
     "source": "GOL",
-    "title": "GOL: São Paulo (SAO) → Montevideo (MVD) - 19/11/2026 a 22/11/2026",
+    "title": "GOL: São Paulo (SAO) → Montevideo (MVD) - 17/11/2026 a 24/11/2026",
     "destination": "Montevideo",
     "destination_iata": "MVD",
     "origin": "São Paulo",
@@ -713,10 +670,10 @@
     "airline": "GOL",
     "trip_type": "round_trip",
     "travel_class": "Econômica",
-    "departure_date": "2026-11-19",
-    "return_date": "2026-11-22",
-    "fetched_at": "2026-08-21T14:36:04.765859+00:00",
-    "id": "a5d6d5dab800"
+    "departure_date": "2026-11-17",
+    "return_date": "2026-11-24",
+    "fetched_at": "2026-08-21T15:34:37.314440+00:00",
+    "id": "20622801e626"
   },
   {
     "source": "GOL",
@@ -734,8 +691,27 @@
     "travel_class": "Econômica",
     "departure_date": "2026-08-30",
     "return_date": "",
-    "fetched_at": "2026-08-21T14:36:05.087193+00:00",
+    "fetched_at": "2026-08-21T15:34:39.205188+00:00",
     "id": "64af7d55c26b"
+  },
+  {
+    "source": "GOL",
+    "title": "GOL: Rio de Janeiro (GIG) → Ilhéus (IOS) - 20/08/2026",
+    "destination": "Ilhéus",
+    "destination_iata": "IOS",
+    "origin": "Rio de Janeiro",
+    "origin_iata": "GIG",
+    "price_brl": 2684.81,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/GIG/IOS",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/ilh%C3%A9us2-1500px-x-500px.png",
+    "airline": "GOL",
+    "trip_type": "one_way",
+    "travel_class": "Econômica",
+    "departure_date": "2026-08-20",
+    "return_date": "",
+    "fetched_at": "2026-08-21T15:34:39.205195+00:00",
+    "id": "17002b1a7bed"
   },
   {
     "source": "GOL",
@@ -753,7 +729,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-08-22",
     "return_date": "2026-08-25",
-    "fetched_at": "2026-08-21T14:36:05.087200+00:00",
+    "fetched_at": "2026-08-21T15:34:39.205203+00:00",
     "id": "c7bfce452733"
   },
   {
@@ -772,7 +748,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-08-22",
     "return_date": "2026-08-29",
-    "fetched_at": "2026-08-21T14:36:05.087205+00:00",
+    "fetched_at": "2026-08-21T15:34:39.205209+00:00",
     "id": "15c57e3f398b"
   },
   {
@@ -791,7 +767,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-08-21",
     "return_date": "2026-08-28",
-    "fetched_at": "2026-08-21T14:36:05.087209+00:00",
+    "fetched_at": "2026-08-21T15:34:39.205215+00:00",
     "id": "03df83902c88"
   },
   {
@@ -810,7 +786,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-08-31",
     "return_date": "2026-09-03",
-    "fetched_at": "2026-08-21T14:36:05.087214+00:00",
+    "fetched_at": "2026-08-21T15:34:39.205221+00:00",
     "id": "8249705e8acf"
   },
   {
@@ -829,65 +805,46 @@
     "travel_class": "Econômica",
     "departure_date": "2026-08-25",
     "return_date": "2026-09-16",
-    "fetched_at": "2026-08-21T14:36:05.087218+00:00",
+    "fetched_at": "2026-08-21T15:34:39.205227+00:00",
     "id": "28b6cb18e3b7"
   },
   {
     "source": "GOL",
-    "title": "GOL: São Paulo (CGH) → Rio de Janeiro (SDU) - 31/08/2026",
-    "destination": "Rio de Janeiro",
-    "destination_iata": "SDU",
+    "title": "GOL: São Paulo (GRU) → Juazeiro do Norte (JDO) - 26/08/2026",
+    "destination": "Juazeiro do Norte",
+    "destination_iata": "JDO",
     "origin": "São Paulo",
-    "origin_iata": "CGH",
-    "price_brl": 1676.04,
+    "origin_iata": "GRU",
+    "price_brl": 714.66,
     "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/CGH/SDU",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/01-1500px-x-500px-5.png",
+    "link": "https://www.voegol.com.br/br/voos/GRU/JDO",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/juazeiro-do-norte-2-1500px-x-500px.png",
     "airline": "GOL",
     "trip_type": "one_way",
     "travel_class": "Econômica",
-    "departure_date": "2026-08-31",
+    "departure_date": "2026-08-26",
     "return_date": "",
-    "fetched_at": "2026-08-21T14:36:05.087279+00:00",
-    "id": "92a623ac9a5d"
+    "fetched_at": "2026-08-21T15:34:39.205239+00:00",
+    "id": "a94da6c8f147"
   },
   {
     "source": "GOL",
-    "title": "GOL: Rio de Janeiro (SDU) → São Paulo (CGH) - 31/08/2026",
-    "destination": "São Paulo",
-    "destination_iata": "CGH",
-    "origin": "Rio de Janeiro",
-    "origin_iata": "SDU",
-    "price_brl": 1676.52,
+    "title": "GOL: São Paulo (SAO) → Salvador (SSA) - 31/08/2026",
+    "destination": "Salvador",
+    "destination_iata": "SSA",
+    "origin": "São Paulo",
+    "origin_iata": "SAO",
+    "price_brl": 741.05,
     "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/SDU/CGH",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/03-1500px-x-500px.png",
+    "link": "https://www.voegol.com.br/br/voos/SAO/SSA",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/02-1500px-x-500px-2.png",
     "airline": "GOL",
     "trip_type": "one_way",
     "travel_class": "Econômica",
     "departure_date": "2026-08-31",
     "return_date": "",
-    "fetched_at": "2026-08-21T14:36:05.087287+00:00",
-    "id": "b2458748fb7b"
-  },
-  {
-    "source": "GOL",
-    "title": "GOL: Rio de Janeiro (GIG) → João Pessoa (JPA) - 31/08/2026",
-    "destination": "João Pessoa",
-    "destination_iata": "JPA",
-    "origin": "Rio de Janeiro",
-    "origin_iata": "GIG",
-    "price_brl": 1733.81,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/GIG/JPA",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/jo%C3%A3o-pessoa-3-1500px-x-500px.png",
-    "airline": "GOL",
-    "trip_type": "one_way",
-    "travel_class": "Econômica",
-    "departure_date": "2026-08-31",
-    "return_date": "",
-    "fetched_at": "2026-08-21T14:36:05.087294+00:00",
-    "id": "47a484ade5ad"
+    "fetched_at": "2026-08-21T15:34:39.205250+00:00",
+    "id": "79b15c667902"
   },
   {
     "source": "GOL",
@@ -896,7 +853,7 @@
     "destination_iata": "SSA",
     "origin": "Rio de Janeiro",
     "origin_iata": "RIO",
-    "price_brl": 1754.81,
+    "price_brl": 1491.81,
     "currency": "BRL",
     "link": "https://www.voegol.com.br/br/voos/RIO/SSA",
     "image_url": "https://assets.airtrfx.com/media-em/g3/02-1500px-x-500px-2.png",
@@ -905,65 +862,65 @@
     "travel_class": "Econômica",
     "departure_date": "2026-08-31",
     "return_date": "",
-    "fetched_at": "2026-08-21T14:36:05.087301+00:00",
-    "id": "204c4a54decf"
+    "fetched_at": "2026-08-21T15:34:39.205289+00:00",
+    "id": "8311fe4295c6"
   },
   {
     "source": "GOL",
-    "title": "GOL: São Paulo (SAO) → Recife (REC) - 30/08/2026 a 05/09/2026",
+    "title": "GOL: Rio de Janeiro (SDU) → São Paulo (CGH) - 30/08/2026 a 02/09/2026",
+    "destination": "São Paulo",
+    "destination_iata": "CGH",
+    "origin": "Rio de Janeiro",
+    "origin_iata": "SDU",
+    "price_brl": 1578.19,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/SDU/CGH",
+    "image_url": null,
+    "airline": "GOL",
+    "trip_type": "round_trip",
+    "travel_class": "Econômica",
+    "departure_date": "2026-08-30",
+    "return_date": "2026-09-02",
+    "fetched_at": "2026-08-21T15:34:39.205335+00:00",
+    "id": "191d183adeeb"
+  },
+  {
+    "source": "GOL",
+    "title": "GOL: São Paulo (SAO) → Recife (REC) - 31/08/2026 a 27/09/2026",
     "destination": "Recife",
     "destination_iata": "REC",
     "origin": "São Paulo",
     "origin_iata": "SAO",
-    "price_brl": 1776.33,
+    "price_brl": 1785.09,
     "currency": "BRL",
     "link": "https://www.voegol.com.br/br/voos/SAO/REC",
     "image_url": null,
     "airline": "GOL",
     "trip_type": "round_trip",
     "travel_class": "Econômica",
-    "departure_date": "2026-08-30",
-    "return_date": "2026-09-05",
-    "fetched_at": "2026-08-21T14:36:05.087396+00:00",
-    "id": "defbb6be627d"
-  },
-  {
-    "source": "GOL",
-    "title": "GOL: São Paulo (GRU) → Recife (REC) - 31/08/2026 a 29/09/2026",
-    "destination": "Recife",
-    "destination_iata": "REC",
-    "origin": "São Paulo",
-    "origin_iata": "GRU",
-    "price_brl": 1785.09,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/GRU/REC",
-    "image_url": null,
-    "airline": "GOL",
-    "trip_type": "round_trip",
-    "travel_class": "Econômica",
     "departure_date": "2026-08-31",
-    "return_date": "2026-09-29",
-    "fetched_at": "2026-08-21T14:36:05.087400+00:00",
-    "id": "3d941bac225f"
+    "return_date": "2026-09-27",
+    "fetched_at": "2026-08-21T15:34:39.205345+00:00",
+    "id": "df8fac52bc20"
   },
   {
     "source": "GOL",
-    "title": "GOL: São Paulo (CGH) → Recife (REC) - 31/08/2026 a 28/09/2026",
+    "title": "GOL: São Paulo (CGH) → Recife (REC) - 30/08/2026 a 12/09/2026",
     "destination": "Recife",
     "destination_iata": "REC",
     "origin": "São Paulo",
     "origin_iata": "CGH",
-    "price_brl": 1919.48,
+    "price_brl": 1897.48,
     "currency": "BRL",
     "link": "https://www.voegol.com.br/br/voos/CGH/REC",
     "image_url": null,
     "airline": "GOL",
     "trip_type": "round_trip",
     "travel_class": "Econômica",
-    "departure_date": "2026-08-31",
-    "return_date": "2026-09-28",
-    "fetched_at": "2026-08-21T14:36:05.087405+00:00",
-    "id": "dd3f8db69b19"
+    "departure_date": "2026-08-30",
+    "return_date": "2026-09-12",
+    "fetched_at": "2026-08-21T15:34:39.205351+00:00",
+    "id": "6123ccd11756"
   },
   {
     "source": "GOL",
@@ -981,97 +938,115 @@
     "travel_class": "Econômica",
     "departure_date": "2026-08-31",
     "return_date": "2026-09-07",
-    "fetched_at": "2026-08-21T14:36:05.087409+00:00",
+    "fetched_at": "2026-08-21T15:34:39.205355+00:00",
     "id": "ab11d55e6c78"
   },
   {
     "source": "TAP",
-    "title": "TAP: São Paulo (GRU) → Lisboa (LIS) - 28/08/2026 a 16/09/2026",
+    "title": "TAP: São Paulo (GRU) → Lisboa (LIS) - 21/08/2026 a 26/09/2026",
     "destination": "Lisboa",
     "destination_iata": "LIS",
     "origin": "São Paulo",
     "origin_iata": "GRU",
-    "price_brl": 5998.0,
+    "price_brl": 4464.0,
     "currency": "BRL",
     "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
     "image_url": "https://assets.airtrfx.com/media-em/tp/lisboa-1-1500px.jpg",
     "airline": "TAP",
     "trip_type": "round_trip",
-    "departure_date": "28/08/2026",
-    "return_date": "16/09/2026",
-    "fetched_at": "2026-08-21T14:36:05.365560+00:00",
-    "id": "d11a971eaec7"
+    "departure_date": "21/08/2026",
+    "return_date": "26/09/2026",
+    "fetched_at": "2026-08-21T15:34:41.202049+00:00",
+    "id": "8c946ad095a7"
   },
   {
     "source": "TAP",
-    "title": "TAP: Rio de Janeiro (GIG) → Lisboa (LIS) - 22/08/2026 a 29/08/2026",
+    "title": "TAP: Rio de Janeiro (GIG) → Lisboa (LIS) - 11/09/2026 a 22/09/2026",
     "destination": "Lisboa",
     "destination_iata": "LIS",
     "origin": "Rio de Janeiro",
     "origin_iata": "GIG",
-    "price_brl": 6506.0,
+    "price_brl": 7515.0,
     "currency": "BRL",
     "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
     "image_url": "https://assets.airtrfx.com/media-em/tp/lisboa-1-1500px.jpg",
     "airline": "TAP",
     "trip_type": "round_trip",
-    "departure_date": "22/08/2026",
-    "return_date": "29/08/2026",
-    "fetched_at": "2026-08-21T14:36:05.365709+00:00",
-    "id": "a49766d89b8e"
+    "departure_date": "11/09/2026",
+    "return_date": "22/09/2026",
+    "fetched_at": "2026-08-21T15:34:41.202177+00:00",
+    "id": "022e2b3d14ac"
   },
   {
     "source": "TAP",
-    "title": "TAP: São Paulo (GRU) → Porto (OPO) - 22/08/2026 a 22/09/2026",
+    "title": "TAP: São Paulo (GRU) → Porto (OPO) - 23/08/2026 a 10/09/2026",
     "destination": "Porto",
     "destination_iata": "OPO",
     "origin": "São Paulo",
     "origin_iata": "GRU",
-    "price_brl": 6274.0,
+    "price_brl": 6298.0,
     "currency": "BRL",
     "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
     "image_url": "https://assets.airtrfx.com/media-em/tp/porto-1-1500px.jpg",
     "airline": "TAP",
     "trip_type": "round_trip",
-    "departure_date": "22/08/2026",
-    "return_date": "22/09/2026",
-    "fetched_at": "2026-08-21T14:36:05.365872+00:00",
-    "id": "55e81e46a8aa"
+    "departure_date": "23/08/2026",
+    "return_date": "10/09/2026",
+    "fetched_at": "2026-08-21T15:34:41.202305+00:00",
+    "id": "9ca4926e141d"
   },
   {
     "source": "TAP",
-    "title": "TAP: São Paulo (GRU) → Paris (ORY) - 09/09/2026 a 16/09/2026",
-    "destination": "Paris",
-    "destination_iata": "ORY",
-    "origin": "São Paulo",
-    "origin_iata": "GRU",
-    "price_brl": 8772.0,
+    "title": "TAP: Rio de Janeiro (GIG) → Porto (OPO) - 23/08/2026 a 10/08/2027",
+    "destination": "Porto",
+    "destination_iata": "OPO",
+    "origin": "Rio de Janeiro",
+    "origin_iata": "GIG",
+    "price_brl": 6506.0,
     "currency": "BRL",
     "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
-    "image_url": "https://assets.airtrfx.com/media-em/tp/paris-1-1500px.jpg",
+    "image_url": "https://assets.airtrfx.com/media-em/tp/porto-1-1500px.jpg",
     "airline": "TAP",
     "trip_type": "round_trip",
-    "departure_date": "09/09/2026",
-    "return_date": "16/09/2026",
-    "fetched_at": "2026-08-21T14:36:05.366155+00:00",
-    "id": "3bc32c3b8838"
+    "departure_date": "23/08/2026",
+    "return_date": "10/08/2027",
+    "fetched_at": "2026-08-21T15:34:41.202472+00:00",
+    "id": "bb51c452cfe3"
   },
   {
     "source": "TAP",
-    "title": "TAP: São Paulo (GRU) → Madri (MAD) - 16/09/2026 a 20/09/2026",
-    "destination": "Madri",
-    "destination_iata": "MAD",
+    "title": "TAP: São Paulo (GRU) → Dublin (DUB) - 16/09/2026 a 25/09/2026",
+    "destination": "Dublin",
+    "destination_iata": "DUB",
     "origin": "São Paulo",
     "origin_iata": "GRU",
-    "price_brl": 7350.0,
+    "price_brl": 7080.0,
     "currency": "BRL",
     "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
-    "image_url": "https://assets.airtrfx.com/media-em/tp/madri-1-1500px.jpg",
+    "image_url": "https://assets.airtrfx.com/media-em/tp/dublin-1-1500px.jpg",
     "airline": "TAP",
     "trip_type": "round_trip",
     "departure_date": "16/09/2026",
-    "return_date": "20/09/2026",
-    "fetched_at": "2026-08-21T14:36:05.366402+00:00",
-    "id": "0f471c3bdee9"
+    "return_date": "25/09/2026",
+    "fetched_at": "2026-08-21T15:34:41.202799+00:00",
+    "id": "7f85b5f56a10"
+  },
+  {
+    "source": "TAP",
+    "title": "TAP: Rio de Janeiro (GIG) → Roma (FCO) - 04/09/2026 a 07/09/2026",
+    "destination": "Roma",
+    "destination_iata": "FCO",
+    "origin": "Rio de Janeiro",
+    "origin_iata": "GIG",
+    "price_brl": 8964.0,
+    "currency": "BRL",
+    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
+    "image_url": "https://assets.airtrfx.com/media-em/tp/roma-1-1500px.jpg",
+    "airline": "TAP",
+    "trip_type": "round_trip",
+    "departure_date": "04/09/2026",
+    "return_date": "07/09/2026",
+    "fetched_at": "2026-08-21T15:34:41.202964+00:00",
+    "id": "759386bb182c"
   }
 ]
