@@ -1901,19 +1901,6 @@
     "id": "0ab5db87c31e"
   },
   {
-    "source": "Melhores Destinos",
-    "title": "Temporada de neve já começou! Viaje para o Chile com passagens para Santiago a partir de R$ 1.261 ida e volta",
-    "destination": "Chile",
-    "price_brl": 1261.0,
-    "currency": "BRL",
-    "link": "https://www.melhoresdestinos.com.br/promocao/neve-passagens-para-santiago-22jun26",
-    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2024/06/neve-ad-santiago-bariloche-capa-754x396.jpeg",
-    "airline": null,
-    "trip_type": "round_trip",
-    "fetched_at": "2026-08-19T23:47:43.595111+00:00",
-    "id": "3d5bddb05f84"
-  },
-  {
     "source": "GOL",
     "title": "GOL: São Paulo (GRU) → Recife (REC) - 30/08/2026",
     "destination": "Recife",
@@ -3703,5 +3690,24 @@
     "return_date": "2026-10-02",
     "fetched_at": "2026-08-20T14:37:05.978787+00:00",
     "id": "7e3453647db8"
+  },
+  {
+    "source": "GOL",
+    "title": "GOL: São Paulo (SAO) → Punta Cana (PUJ) - 22/09/2026 a 06/10/2026",
+    "destination": "Punta Cana",
+    "destination_iata": "PUJ",
+    "origin": "São Paulo",
+    "origin_iata": "SAO",
+    "price_brl": 2317.31,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/SAO/PUJ",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/punta-cana-2-1500px-x-500px.png",
+    "airline": "GOL",
+    "trip_type": "round_trip",
+    "travel_class": "Econômica",
+    "departure_date": "2026-09-22",
+    "return_date": "2026-10-06",
+    "fetched_at": "2026-08-21T01:21:37.497501+00:00",
+    "id": "77d2dbb83527"
   }
 ]
