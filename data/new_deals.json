@@ -1,16 +1,16 @@
 [
   {
     "source": "Melhores Destinos",
-    "title": "Voos diretos São Paulo–Madri com bagagem desde R$ 3.150 ida e volta!",
-    "destination": null,
-    "price_brl": 3150.0,
+    "title": "Tailândia na alta temporada! Passagens aéreas para Bangkok a partir de R$ 6.167 ida e volta",
+    "destination": "Bangkok",
+    "price_brl": 6167.0,
     "currency": "BRL",
-    "link": "https://www.melhoresdestinos.com.br/promocao/imperdivel-voos-diretos-madri-2891",
-    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2025/08/air-china-passagens-aereas-madri-capa-754x396.jpg",
+    "link": "https://www.melhoresdestinos.com.br/promocao/tailandia-alta-temporada-6167",
+    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2026/02/passagens-aereas-tailandia-capa-2026-754x396.jpg",
     "airline": null,
     "trip_type": "round_trip",
-    "fetched_at": "2026-08-20T11:52:40+00:00",
-    "id": "69ced7b8ec0b"
+    "fetched_at": "2026-08-21T08:41:16.003516+00:00",
+    "id": "56a3eea0aa51"
   },
   {
     "source": "Melhores Destinos",
@@ -22,7 +22,7 @@
     "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2023/01/passagens-aereas-lisboa-portugal-07-capa-754x396.jpg",
     "airline": "Azul",
     "trip_type": "unknown",
-    "fetched_at": "2026-08-21T07:42:48.397977+00:00",
+    "fetched_at": "2026-08-21T08:41:16.491534+00:00",
     "id": "83f640872cb0"
   },
   {
@@ -35,7 +35,7 @@
     "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2024/02/apartamentos-orlando-capa-754x396.jpg",
     "airline": null,
     "trip_type": "round_trip",
-    "fetched_at": "2026-08-21T07:42:56.185985+00:00",
+    "fetched_at": "2026-08-21T08:41:18.589719+00:00",
     "id": "24cd140a6e33"
   },
   {
@@ -48,7 +48,7 @@
     "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-roma-capa2019-01-754x396.jpg",
     "airline": null,
     "trip_type": "round_trip",
-    "fetched_at": "2026-08-21T07:42:57.236954+00:00",
+    "fetched_at": "2026-08-21T08:41:18.886357+00:00",
     "id": "3de146312fa1"
   },
   {
@@ -61,7 +61,7 @@
     "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2021/10/orlando-eua-disney-capa14-754x396.jpg",
     "airline": null,
     "trip_type": "round_trip",
-    "fetched_at": "2026-08-21T07:42:59.914870+00:00",
+    "fetched_at": "2026-08-21T08:41:19.669163+00:00",
     "id": "f610546149c6"
   },
   {
@@ -74,7 +74,7 @@
     "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-auckland-capa2019-01-754x396.jpg",
     "airline": null,
     "trip_type": "round_trip",
-    "fetched_at": "2026-08-21T07:43:07.183207+00:00",
+    "fetched_at": "2026-08-21T08:41:22.357129+00:00",
     "id": "6489e5cc2f52"
   },
   {
@@ -86,7 +86,7 @@
     "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-orlando-nova-york-2026/",
     "image_url": "https://travel-cdn.cubo333.com.br/static-img/disney_orlando-612x612.png",
     "trip_type": "round_trip",
-    "fetched_at": "2026-08-21T07:43:08.185881+00:00",
+    "fetched_at": "2026-08-21T08:41:22.875807+00:00",
     "id": "ef8e7268e7de"
   },
   {
@@ -98,7 +98,7 @@
     "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-canada-toronto-montreal-ottawa-quebec-2026/",
     "image_url": "https://travel-cdn.cubo333.com.br/static-img/canada_toronto_6-612x612.png",
     "trip_type": "round_trip",
-    "fetched_at": "2026-08-21T07:43:08.185926+00:00",
+    "fetched_at": "2026-08-21T08:41:22.875838+00:00",
     "id": "9795bcf23988"
   },
   {
@@ -110,7 +110,7 @@
     "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-lisboa-mmadri-2026/",
     "image_url": "https://travel-cdn.cubo333.com.br/static-img/accedde9_f8ee_4ece_bf6f_7c2bd39f631f-612x612.jpg",
     "trip_type": "round_trip",
-    "fetched_at": "2026-08-21T07:43:08.185974+00:00",
+    "fetched_at": "2026-08-21T08:41:22.875871+00:00",
     "id": "ab37d0933415"
   },
   {
@@ -122,7 +122,7 @@
     "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-argentina-san-martin-de-los-andes-bariloche-ushuaia-rio-gallegos-el-2026/",
     "image_url": "https://travel-cdn.cubo333.com.br/static-img/patagonia_argentina_612-612x612.jpg",
     "trip_type": "round_trip",
-    "fetched_at": "2026-08-21T07:43:08.186001+00:00",
+    "fetched_at": "2026-08-21T08:41:22.875890+00:00",
     "id": "a1e039435e3d"
   },
   {
@@ -134,7 +134,7 @@
     "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-finnlandia-helsinque-2026/",
     "image_url": "https://travel-cdn.cubo333.com.br/static-img/helsinque_finlandia-612x612.png",
     "trip_type": "round_trip",
-    "fetched_at": "2026-08-21T07:43:08.186022+00:00",
+    "fetched_at": "2026-08-21T08:41:22.875902+00:00",
     "id": "acb43076d7ad"
   },
   {
@@ -153,7 +153,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-11-28",
     "return_date": "2026-12-20",
-    "fetched_at": "2026-08-21T07:43:09.018938+00:00",
+    "fetched_at": "2026-08-21T08:41:23.749324+00:00",
     "id": "e17031aa9335"
   },
   {
@@ -172,7 +172,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-12-02",
     "return_date": "2026-12-07",
-    "fetched_at": "2026-08-21T07:43:09.018946+00:00",
+    "fetched_at": "2026-08-21T08:41:23.749329+00:00",
     "id": "5581195f0c29"
   },
   {
@@ -191,7 +191,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-11-11",
     "return_date": "2026-11-22",
-    "fetched_at": "2026-08-21T07:43:09.018953+00:00",
+    "fetched_at": "2026-08-21T08:41:23.749334+00:00",
     "id": "4b58d9fff0a6"
   },
   {
@@ -210,7 +210,7 @@
     "travel_class": "Econômica",
     "departure_date": "2027-05-11",
     "return_date": "2027-05-25",
-    "fetched_at": "2026-08-21T07:43:09.018960+00:00",
+    "fetched_at": "2026-08-21T08:41:23.749340+00:00",
     "id": "d16be0cb832f"
   },
   {
@@ -229,7 +229,7 @@
     "travel_class": "Econômica",
     "departure_date": "2027-04-01",
     "return_date": "2027-04-09",
-    "fetched_at": "2026-08-21T07:43:09.018968+00:00",
+    "fetched_at": "2026-08-21T08:41:23.749344+00:00",
     "id": "a9c2ae1f5036"
   },
   {
@@ -248,7 +248,7 @@
     "travel_class": "Econômica",
     "departure_date": "2027-06-29",
     "return_date": "2027-07-14",
-    "fetched_at": "2026-08-21T07:43:09.018975+00:00",
+    "fetched_at": "2026-08-21T08:41:23.749349+00:00",
     "id": "946a7af943e8"
   },
   {
@@ -267,7 +267,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-09-10",
     "return_date": "2026-09-21",
-    "fetched_at": "2026-08-21T07:43:09.018982+00:00",
+    "fetched_at": "2026-08-21T08:41:23.749354+00:00",
     "id": "a4a6b598efff"
   },
   {
@@ -286,7 +286,7 @@
     "travel_class": "Econômica",
     "departure_date": "2027-03-11",
     "return_date": "2027-03-19",
-    "fetched_at": "2026-08-21T07:43:09.018990+00:00",
+    "fetched_at": "2026-08-21T08:41:23.749359+00:00",
     "id": "7b08bbf3ab49"
   },
   {
@@ -305,7 +305,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-09-14",
     "return_date": "2026-09-21",
-    "fetched_at": "2026-08-21T07:43:09.018997+00:00",
+    "fetched_at": "2026-08-21T08:41:23.749363+00:00",
     "id": "167694ae213d"
   },
   {
@@ -324,7 +324,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-10-13",
     "return_date": "2026-10-28",
-    "fetched_at": "2026-08-21T07:43:09.019004+00:00",
+    "fetched_at": "2026-08-21T08:41:23.749368+00:00",
     "id": "756318b0d1de"
   },
   {
@@ -343,7 +343,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-09-23",
     "return_date": "2026-09-28",
-    "fetched_at": "2026-08-21T07:43:09.019011+00:00",
+    "fetched_at": "2026-08-21T08:41:23.749373+00:00",
     "id": "c296a127a933"
   },
   {
@@ -362,27 +362,8 @@
     "travel_class": "Econômica",
     "departure_date": "2027-06-29",
     "return_date": "2027-07-14",
-    "fetched_at": "2026-08-21T07:43:09.019018+00:00",
+    "fetched_at": "2026-08-21T08:41:23.749378+00:00",
     "id": "1dbc19af430a"
-  },
-  {
-    "source": "GOL",
-    "title": "GOL: Rio de Janeiro (GIG) → Oranjestad, Aruba (AUA) - 01/09/2026 a 07/09/2026",
-    "destination": "Oranjestad, Aruba",
-    "destination_iata": "AUA",
-    "origin": "Rio de Janeiro",
-    "origin_iata": "GIG",
-    "price_brl": 1823.48,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/GIG/AUA",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/02-1500px-x-500px-3.png",
-    "airline": "GOL",
-    "trip_type": "round_trip",
-    "travel_class": "Econômica",
-    "departure_date": "2026-09-01",
-    "return_date": "2026-09-07",
-    "fetched_at": "2026-08-21T07:43:09.019026+00:00",
-    "id": "bef08cbd90de"
   },
   {
     "source": "GOL",
@@ -400,7 +381,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-09-25",
     "return_date": "2026-10-02",
-    "fetched_at": "2026-08-21T07:43:09.019033+00:00",
+    "fetched_at": "2026-08-21T08:41:23.749387+00:00",
     "id": "de08a13e8921"
   },
   {
@@ -419,7 +400,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-11-03",
     "return_date": "2026-11-07",
-    "fetched_at": "2026-08-21T07:43:09.019041+00:00",
+    "fetched_at": "2026-08-21T08:41:23.749392+00:00",
     "id": "3bc8a0b53c43"
   },
   {
@@ -438,7 +419,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-09-25",
     "return_date": "2026-10-02",
-    "fetched_at": "2026-08-21T07:43:09.019049+00:00",
+    "fetched_at": "2026-08-21T08:41:23.749397+00:00",
     "id": "01ab1879f90d"
   },
   {
@@ -457,7 +438,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-09-22",
     "return_date": "2026-10-06",
-    "fetched_at": "2026-08-21T07:43:09.019056+00:00",
+    "fetched_at": "2026-08-21T08:41:23.749402+00:00",
     "id": "77d2dbb83527"
   },
   {
@@ -476,7 +457,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-10-16",
     "return_date": "2026-10-20",
-    "fetched_at": "2026-08-21T07:43:09.019063+00:00",
+    "fetched_at": "2026-08-21T08:41:23.749407+00:00",
     "id": "98e276fae974"
   },
   {
@@ -495,7 +476,7 @@
     "travel_class": "Econômica",
     "departure_date": "2027-02-22",
     "return_date": "2027-03-04",
-    "fetched_at": "2026-08-21T07:43:09.019070+00:00",
+    "fetched_at": "2026-08-21T08:41:23.749412+00:00",
     "id": "5bbb9785595e"
   },
   {
@@ -514,7 +495,7 @@
     "travel_class": "Econômica",
     "departure_date": "2027-03-05",
     "return_date": "2027-03-12",
-    "fetched_at": "2026-08-21T07:43:09.019077+00:00",
+    "fetched_at": "2026-08-21T08:41:23.749417+00:00",
     "id": "e0248d1a6617"
   },
   {
@@ -533,7 +514,7 @@
     "travel_class": "Econômica",
     "departure_date": "2027-03-31",
     "return_date": "2027-04-06",
-    "fetched_at": "2026-08-21T07:43:09.019085+00:00",
+    "fetched_at": "2026-08-21T08:41:23.749421+00:00",
     "id": "68d29f735077"
   },
   {
@@ -552,7 +533,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-10-22",
     "return_date": "2026-10-30",
-    "fetched_at": "2026-08-21T07:43:09.019092+00:00",
+    "fetched_at": "2026-08-21T08:41:23.749426+00:00",
     "id": "1465c4eeb237"
   },
   {
@@ -571,46 +552,8 @@
     "travel_class": "Econômica",
     "departure_date": "2026-09-25",
     "return_date": "2026-10-02",
-    "fetched_at": "2026-08-21T07:43:09.019100+00:00",
+    "fetched_at": "2026-08-21T08:41:23.749431+00:00",
     "id": "ed5483728451"
-  },
-  {
-    "source": "GOL",
-    "title": "GOL: São Paulo (GRU) → Montevideo (MVD) - 17/10/2026 a 21/10/2026",
-    "destination": "Montevideo",
-    "destination_iata": "MVD",
-    "origin": "São Paulo",
-    "origin_iata": "GRU",
-    "price_brl": 1708.27,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/GRU/MVD",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/montevideo-2-1500px-x-500px.png",
-    "airline": "GOL",
-    "trip_type": "round_trip",
-    "travel_class": "Econômica",
-    "departure_date": "2026-10-17",
-    "return_date": "2026-10-21",
-    "fetched_at": "2026-08-21T07:43:09.019153+00:00",
-    "id": "4887f2caae71"
-  },
-  {
-    "source": "GOL",
-    "title": "GOL: Rio de Janeiro (GIG) → Santa Cruz de la Sierra (VVI) - 24/09/2026 a 03/10/2026",
-    "destination": "Santa Cruz de la Sierra",
-    "destination_iata": "VVI",
-    "origin": "Rio de Janeiro",
-    "origin_iata": "GIG",
-    "price_brl": 1841.65,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/GIG/VVI",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/03-1500px-x-500px-5.png",
-    "airline": "GOL",
-    "trip_type": "round_trip",
-    "travel_class": "Econômica",
-    "departure_date": "2026-09-24",
-    "return_date": "2026-10-03",
-    "fetched_at": "2026-08-21T07:43:09.019160+00:00",
-    "id": "382c5dd6b671"
   },
   {
     "source": "GOL",
@@ -628,7 +571,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-09-24",
     "return_date": "2026-10-05",
-    "fetched_at": "2026-08-21T07:43:09.019167+00:00",
+    "fetched_at": "2026-08-21T08:41:23.749477+00:00",
     "id": "e0f01924b100"
   },
   {
@@ -647,7 +590,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-11-19",
     "return_date": "2026-11-22",
-    "fetched_at": "2026-08-21T07:43:09.019174+00:00",
+    "fetched_at": "2026-08-21T08:41:23.749482+00:00",
     "id": "a5d6d5dab800"
   },
   {
@@ -666,7 +609,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-08-22",
     "return_date": "2026-08-25",
-    "fetched_at": "2026-08-21T07:43:09.261543+00:00",
+    "fetched_at": "2026-08-21T08:41:24.017633+00:00",
     "id": "c7bfce452733"
   },
   {
@@ -685,7 +628,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-08-22",
     "return_date": "2026-08-29",
-    "fetched_at": "2026-08-21T07:43:09.261553+00:00",
+    "fetched_at": "2026-08-21T08:41:24.017639+00:00",
     "id": "15c57e3f398b"
   },
   {
@@ -704,7 +647,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-08-21",
     "return_date": "2026-08-28",
-    "fetched_at": "2026-08-21T07:43:09.261562+00:00",
+    "fetched_at": "2026-08-21T08:41:24.017645+00:00",
     "id": "03df83902c88"
   },
   {
@@ -723,7 +666,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-08-31",
     "return_date": "2026-09-03",
-    "fetched_at": "2026-08-21T07:43:09.261571+00:00",
+    "fetched_at": "2026-08-21T08:41:24.017650+00:00",
     "id": "8249705e8acf"
   },
   {
@@ -742,65 +685,8 @@
     "travel_class": "Econômica",
     "departure_date": "2026-08-25",
     "return_date": "2026-09-16",
-    "fetched_at": "2026-08-21T07:43:09.261582+00:00",
+    "fetched_at": "2026-08-21T08:41:24.017656+00:00",
     "id": "28b6cb18e3b7"
-  },
-  {
-    "source": "GOL",
-    "title": "GOL: Rio de Janeiro (GIG) → João Pessoa (JPA) - 31/08/2026",
-    "destination": "João Pessoa",
-    "destination_iata": "JPA",
-    "origin": "Rio de Janeiro",
-    "origin_iata": "GIG",
-    "price_brl": 1733.81,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/GIG/JPA",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/jo%C3%A3o-pessoa-3-1500px-x-500px.png",
-    "airline": "GOL",
-    "trip_type": "one_way",
-    "travel_class": "Econômica",
-    "departure_date": "2026-08-31",
-    "return_date": "",
-    "fetched_at": "2026-08-21T07:43:09.261683+00:00",
-    "id": "47a484ade5ad"
-  },
-  {
-    "source": "GOL",
-    "title": "GOL: São Paulo (SAO) → Recife (REC) - 30/08/2026 a 05/09/2026",
-    "destination": "Recife",
-    "destination_iata": "REC",
-    "origin": "São Paulo",
-    "origin_iata": "SAO",
-    "price_brl": 1776.33,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/SAO/REC",
-    "image_url": null,
-    "airline": "GOL",
-    "trip_type": "round_trip",
-    "travel_class": "Econômica",
-    "departure_date": "2026-08-30",
-    "return_date": "2026-09-05",
-    "fetched_at": "2026-08-21T07:43:09.261771+00:00",
-    "id": "defbb6be627d"
-  },
-  {
-    "source": "GOL",
-    "title": "GOL: São Paulo (GRU) → Recife (REC) - 31/08/2026 a 29/09/2026",
-    "destination": "Recife",
-    "destination_iata": "REC",
-    "origin": "São Paulo",
-    "origin_iata": "GRU",
-    "price_brl": 1785.09,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/GRU/REC",
-    "image_url": null,
-    "airline": "GOL",
-    "trip_type": "round_trip",
-    "travel_class": "Econômica",
-    "departure_date": "2026-08-31",
-    "return_date": "2026-09-29",
-    "fetched_at": "2026-08-21T07:43:09.261781+00:00",
-    "id": "3d941bac225f"
   },
   {
     "source": "GOL",
@@ -818,7 +704,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-08-31",
     "return_date": "2026-09-28",
-    "fetched_at": "2026-08-21T07:43:09.261791+00:00",
+    "fetched_at": "2026-08-21T08:41:24.017774+00:00",
     "id": "dd3f8db69b19"
   },
   {
@@ -837,7 +723,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-08-31",
     "return_date": "2026-09-07",
-    "fetched_at": "2026-08-21T07:43:09.261799+00:00",
+    "fetched_at": "2026-08-21T08:41:24.017779+00:00",
     "id": "ab11d55e6c78"
   },
   {
@@ -855,7 +741,7 @@
     "trip_type": "round_trip",
     "departure_date": "28/08/2026",
     "return_date": "16/09/2026",
-    "fetched_at": "2026-08-21T07:43:10.909174+00:00",
+    "fetched_at": "2026-08-21T08:41:25.615177+00:00",
     "id": "d11a971eaec7"
   },
   {
@@ -873,44 +759,26 @@
     "trip_type": "round_trip",
     "departure_date": "22/08/2026",
     "return_date": "29/08/2026",
-    "fetched_at": "2026-08-21T07:43:10.909346+00:00",
+    "fetched_at": "2026-08-21T08:41:25.615299+00:00",
     "id": "a49766d89b8e"
   },
   {
     "source": "TAP",
-    "title": "TAP: São Paulo (GRU) → Porto (OPO) - 22/08/2026 a 22/09/2026",
+    "title": "TAP: São Paulo (GRU) → Porto (OPO) - 19/09/2026 a 26/09/2026",
     "destination": "Porto",
     "destination_iata": "OPO",
     "origin": "São Paulo",
     "origin_iata": "GRU",
-    "price_brl": 6274.0,
+    "price_brl": 8043.0,
     "currency": "BRL",
     "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
     "image_url": "https://assets.airtrfx.com/media-em/tp/porto-1-1500px.jpg",
     "airline": "TAP",
     "trip_type": "round_trip",
-    "departure_date": "22/08/2026",
-    "return_date": "22/09/2026",
-    "fetched_at": "2026-08-21T07:43:10.909514+00:00",
-    "id": "55e81e46a8aa"
-  },
-  {
-    "source": "TAP",
-    "title": "TAP: Rio de Janeiro (GIG) → Porto (OPO) - 06/09/2026 a 05/10/2026",
-    "destination": "Porto",
-    "destination_iata": "OPO",
-    "origin": "Rio de Janeiro",
-    "origin_iata": "GIG",
-    "price_brl": 8209.0,
-    "currency": "BRL",
-    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
-    "image_url": "https://assets.airtrfx.com/media-em/tp/porto-1-1500px.jpg",
-    "airline": "TAP",
-    "trip_type": "round_trip",
-    "departure_date": "06/09/2026",
-    "return_date": "05/10/2026",
-    "fetched_at": "2026-08-21T07:43:10.909674+00:00",
-    "id": "dcccfa0ecacb"
+    "departure_date": "19/09/2026",
+    "return_date": "26/09/2026",
+    "fetched_at": "2026-08-21T08:41:25.615421+00:00",
+    "id": "e4181f515b69"
   },
   {
     "source": "TAP",
@@ -927,7 +795,7 @@
     "trip_type": "round_trip",
     "departure_date": "09/09/2026",
     "return_date": "16/09/2026",
-    "fetched_at": "2026-08-21T07:43:10.909896+00:00",
+    "fetched_at": "2026-08-21T08:41:25.615628+00:00",
     "id": "3bc32c3b8838"
   },
   {
@@ -945,7 +813,25 @@
     "trip_type": "round_trip",
     "departure_date": "16/09/2026",
     "return_date": "20/09/2026",
-    "fetched_at": "2026-08-21T07:43:10.910051+00:00",
+    "fetched_at": "2026-08-21T08:41:25.615788+00:00",
     "id": "0f471c3bdee9"
+  },
+  {
+    "source": "TAP",
+    "title": "TAP: Rio de Janeiro (GIG) → Roma (FCO) - 15/09/2026 a 28/09/2026",
+    "destination": "Roma",
+    "destination_iata": "FCO",
+    "origin": "Rio de Janeiro",
+    "origin_iata": "GIG",
+    "price_brl": 10424.0,
+    "currency": "BRL",
+    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
+    "image_url": "https://assets.airtrfx.com/media-em/tp/roma-1-1500px.jpg",
+    "airline": "TAP",
+    "trip_type": "round_trip",
+    "departure_date": "15/09/2026",
+    "return_date": "28/09/2026",
+    "fetched_at": "2026-08-21T08:41:25.616038+00:00",
+    "id": "6537d32d3a74"
   }
 ]
