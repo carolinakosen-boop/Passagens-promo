@@ -1,16 +1,16 @@
 [
   {
     "source": "Melhores Destinos",
-    "title": "Tailândia na alta temporada! Passagens aéreas para Bangkok a partir de R$ 6.167 ida e volta",
-    "destination": "Bangkok",
-    "price_brl": 6167.0,
+    "title": "Itália: voos para Milão, Veneza, Roma e mais cidades a partir de R$ 3.771 ida e volta",
+    "destination": "Milão, Veneza, Roma e mais cidades",
+    "price_brl": 3771.0,
     "currency": "BRL",
-    "link": "https://www.melhoresdestinos.com.br/promocao/tailandia-alta-temporada-6167",
-    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2026/02/passagens-aereas-tailandia-capa-2026-754x396.jpg",
+    "link": "https://www.melhoresdestinos.com.br/promocao/italia-voos-para-milao-veneza-roma-e-mais-cidades-a-partir-de-r-3-771-ida-e-volta",
+    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-roma-capa2019-01-754x396.jpg",
     "airline": null,
     "trip_type": "round_trip",
-    "fetched_at": "2026-08-21T21:49:54.578278+00:00",
-    "id": "56a3eea0aa51"
+    "fetched_at": "2026-08-21T22:26:17.766913+00:00",
+    "id": "3de146312fa1"
   },
   {
     "source": "Melhores Destinos",
@@ -22,20 +22,20 @@
     "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-auckland-capa2019-01-754x396.jpg",
     "airline": null,
     "trip_type": "round_trip",
-    "fetched_at": "2026-08-21T21:50:00.779297+00:00",
+    "fetched_at": "2026-08-21T22:26:20.962827+00:00",
     "id": "6489e5cc2f52"
   },
   {
     "source": "Passagens Imperdíveis",
-    "title": "Passagens para o CARIBE: Aruba, Curaçao, Colômbia, República Dominicana, Costa Rica e mais! A partir de R$ 1.969, ida e volta, c/ taxas! Em até 6x SEM JUROS!",
-    "destination": "Caribe",
-    "price_brl": 1942.0,
+    "title": "Passagens para o ANO NOVO nas PRAIAS DO NORDESTE: Aracaju, Fortaleza, Ilhéus, João Pessoa, Porto Seguro, Recife, Salvador ou São Luís e mais! A partir de R$ 508, ida e volta!",
+    "destination": "Ano Novo nas Praias do Nordeste",
+    "price_brl": 508.0,
     "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/selecao-de-passagens-para-o-america-do-sul-caribe-colombia-republica-dominicana-costa-rica-2026/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/caribe_geral_2_612_612-612x612.png",
+    "link": "https://passagensimperdiveis.com.br/passagens-nacionais-praias-nordeste-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/fogos_ano_novo-612x612.png",
     "trip_type": "round_trip",
-    "fetched_at": "2026-08-21T21:50:01.957190+00:00",
-    "id": "3c487fb2b47e"
+    "fetched_at": "2026-08-21T22:26:21.387960+00:00",
+    "id": "a91650075682"
   },
   {
     "source": "Passagens Imperdíveis",
@@ -46,8 +46,51 @@
     "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-china-xangai-pequim-japao-tokyo-2026/",
     "image_url": "https://travel-cdn.cubo333.com.br/static-img/muralha_china_612-612x612.jpg",
     "trip_type": "round_trip",
-    "fetched_at": "2026-08-21T21:50:01.957223+00:00",
+    "fetched_at": "2026-08-21T22:26:21.388015+00:00",
     "id": "c12e3628e1c1"
+  },
+  {
+    "source": "Passagens Imperdíveis",
+    "title": "Passagens para VENEZA, MILÃO ou PORTO! Datas inclusive no Verão Europeu, férias e mais! A partir de R$ 3.662, ida e volta, c/ taxas! Em até 4x SEM JUROS!",
+    "destination": "Veneza, Milão ou Porto",
+    "price_brl": 3662.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-porto-veneza-milao-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/porto_portugal_7-612x612.jpg",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-21T22:26:21.388050+00:00",
+    "id": "b95002fb21a9"
+  },
+  {
+    "source": "Passagens Imperdíveis",
+    "title": "Passagens para AMSTERDAM, BRUXELAS ou VIENA! Datas inclusive no Verão Europeu, férias e mais! A partir de R$ 4.124, ida e volta, c/ taxas! Em até 4x SEM JUROS!",
+    "destination": "Amsterdam, Bruxelas ou Viena",
+    "price_brl": 4124.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-viena-amsterdam-bruxelas-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/vienna_austria-612x612.png",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-21T22:26:21.388127+00:00",
+    "id": "c30161f3f0a9"
+  },
+  {
+    "source": "GOL",
+    "title": "GOL: São Paulo (GRU) → Nova York (JFK) - 05/06/2027 a 14/07/2027",
+    "destination": "Nova York",
+    "destination_iata": "JFK",
+    "origin": "São Paulo",
+    "origin_iata": "GRU",
+    "price_brl": 3595.55,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/GRU/JFK",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/JFK_7_11zon.png",
+    "airline": "GOL",
+    "trip_type": "round_trip",
+    "travel_class": "Econômica",
+    "departure_date": "2027-06-05",
+    "return_date": "2027-07-14",
+    "fetched_at": "2026-08-21T22:26:21.974962+00:00",
+    "id": "1bff53a3dea4"
   },
   {
     "source": "GOL",
@@ -65,84 +108,8 @@
     "travel_class": "Econômica",
     "departure_date": "2026-08-25",
     "return_date": "2026-09-16",
-    "fetched_at": "2026-08-21T21:50:05.103502+00:00",
+    "fetched_at": "2026-08-21T22:26:22.282496+00:00",
     "id": "28b6cb18e3b7"
-  },
-  {
-    "source": "GOL",
-    "title": "GOL: São Paulo (GRU) → Salvador (SSA) - 30/08/2026",
-    "destination": "Salvador",
-    "destination_iata": "SSA",
-    "origin": "São Paulo",
-    "origin_iata": "GRU",
-    "price_brl": 638.65,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/GRU/SSA",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/02-1500px-x-500px-2.png",
-    "airline": "GOL",
-    "trip_type": "one_way",
-    "travel_class": "Econômica",
-    "departure_date": "2026-08-30",
-    "return_date": "",
-    "fetched_at": "2026-08-21T21:50:05.103509+00:00",
-    "id": "2103bcb3ae30"
-  },
-  {
-    "source": "GOL",
-    "title": "GOL: São Paulo (CGH) → Rio de Janeiro (SDU) - 31/08/2026",
-    "destination": "Rio de Janeiro",
-    "destination_iata": "SDU",
-    "origin": "São Paulo",
-    "origin_iata": "CGH",
-    "price_brl": 958.28,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/CGH/SDU",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/01-1500px-x-500px-5.png",
-    "airline": "GOL",
-    "trip_type": "one_way",
-    "travel_class": "Econômica",
-    "departure_date": "2026-08-31",
-    "return_date": "",
-    "fetched_at": "2026-08-21T21:50:05.103558+00:00",
-    "id": "9354ceb4165e"
-  },
-  {
-    "source": "GOL",
-    "title": "GOL: Rio de Janeiro (GIG) → João Pessoa (JPA) - 31/08/2026",
-    "destination": "João Pessoa",
-    "destination_iata": "JPA",
-    "origin": "Rio de Janeiro",
-    "origin_iata": "GIG",
-    "price_brl": 1543.81,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/GIG/JPA",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/jo%C3%A3o-pessoa-3-1500px-x-500px.png",
-    "airline": "GOL",
-    "trip_type": "one_way",
-    "travel_class": "Econômica",
-    "departure_date": "2026-08-31",
-    "return_date": "",
-    "fetched_at": "2026-08-21T21:50:05.103596+00:00",
-    "id": "78c9ffb6e1f7"
-  },
-  {
-    "source": "GOL",
-    "title": "GOL: São Paulo (GRU) → Recife (REC) - 31/08/2026 a 29/09/2026",
-    "destination": "Recife",
-    "destination_iata": "REC",
-    "origin": "São Paulo",
-    "origin_iata": "GRU",
-    "price_brl": 1742.33,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/GRU/REC",
-    "image_url": null,
-    "airline": "GOL",
-    "trip_type": "round_trip",
-    "travel_class": "Econômica",
-    "departure_date": "2026-08-31",
-    "return_date": "2026-09-29",
-    "fetched_at": "2026-08-21T21:50:05.103658+00:00",
-    "id": "3b2d358d62dc"
   },
   {
     "source": "TAP",
@@ -159,7 +126,7 @@
     "trip_type": "round_trip",
     "departure_date": "28/08/2026",
     "return_date": "16/09/2026",
-    "fetched_at": "2026-08-21T21:50:05.341838+00:00",
+    "fetched_at": "2026-08-21T22:26:22.513595+00:00",
     "id": "d11a971eaec7"
   },
   {
@@ -177,7 +144,7 @@
     "trip_type": "round_trip",
     "departure_date": "22/08/2026",
     "return_date": "29/08/2026",
-    "fetched_at": "2026-08-21T21:50:05.341981+00:00",
+    "fetched_at": "2026-08-21T22:26:22.513745+00:00",
     "id": "a49766d89b8e"
   },
   {
@@ -195,7 +162,7 @@
     "trip_type": "round_trip",
     "departure_date": "22/08/2026",
     "return_date": "22/09/2026",
-    "fetched_at": "2026-08-21T21:50:05.342142+00:00",
+    "fetched_at": "2026-08-21T22:26:22.513935+00:00",
     "id": "55e81e46a8aa"
   },
   {
@@ -213,7 +180,7 @@
     "trip_type": "round_trip",
     "departure_date": "09/09/2026",
     "return_date": "16/09/2026",
-    "fetched_at": "2026-08-21T21:50:05.342413+00:00",
+    "fetched_at": "2026-08-21T22:26:22.514218+00:00",
     "id": "3bc32c3b8838"
   },
   {
@@ -231,7 +198,7 @@
     "trip_type": "round_trip",
     "departure_date": "16/09/2026",
     "return_date": "20/09/2026",
-    "fetched_at": "2026-08-21T21:50:05.342648+00:00",
+    "fetched_at": "2026-08-21T22:26:22.514434+00:00",
     "id": "0f471c3bdee9"
   }
 ]

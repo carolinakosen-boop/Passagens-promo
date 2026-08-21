@@ -414,6 +414,18 @@
     "id": "140faa33cc88"
   },
   {
+    "source": "Passagens Imperdíveis",
+    "title": "Passagens para o ANO NOVO nas PRAIAS DO NORDESTE: Aracaju, Fortaleza, Ilhéus, João Pessoa, Porto Seguro, Recife, Salvador ou São Luís e mais! A partir de R$ 508, ida e volta!",
+    "destination": "Ano Novo nas Praias do Nordeste",
+    "price_brl": 508.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/passagens-nacionais-praias-nordeste-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/fogos_ano_novo-612x612.png",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-21T22:26:21.387960+00:00",
+    "id": "a91650075682"
+  },
+  {
     "source": "GOL",
     "title": "GOL: São Paulo (SAO) → Salvador (SSA) - 31/08/2026",
     "destination": "Salvador",
@@ -3615,24 +3627,5 @@
     "trip_type": "round_trip",
     "fetched_at": "2026-08-21T19:26:40.019883+00:00",
     "id": "46eda84e926b"
-  },
-  {
-    "source": "GOL",
-    "title": "GOL: Rio de Janeiro (GIG) → Miami (MIA) - 22/09/2026 a 14/10/2026",
-    "destination": "Miami",
-    "destination_iata": "MIA",
-    "origin": "Rio de Janeiro",
-    "origin_iata": "GIG",
-    "price_brl": 3568.56,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/GIG/MIA",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/miami-1-1500px-x-500px-1.png",
-    "airline": "GOL",
-    "trip_type": "round_trip",
-    "travel_class": "Econômica",
-    "departure_date": "2026-09-22",
-    "return_date": "2026-10-14",
-    "fetched_at": "2026-08-21T19:26:40.539327+00:00",
-    "id": "ceea72ca8be5"
   }
 ]
