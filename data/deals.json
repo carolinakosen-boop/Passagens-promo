@@ -108,6 +108,18 @@
   },
   {
     "source": "Passagens Imperdíveis",
+    "title": "Passagens para as PRAIAS DO NORDESTE: Aracaju, Fortaleza, Ilhéus, Jericoacoara, João Pessoa e mais! A partir de R$ 333, ida e volta!",
+    "destination": "Praias do Nordeste",
+    "price_brl": 333.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/passagens-nacionais-praias-nnordeste-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/recife_pernambuco_brasil-612x612.png",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-21T02:45:14.159091+00:00",
+    "id": "115d8bd407bd"
+  },
+  {
+    "source": "Passagens Imperdíveis",
     "title": "Passagens para o RECIFE ou JOÃO PESSOA! Datas inclusive no Verão, férias e mais! A partir de R$ 333, ida e volta, c/ taxas!",
     "destination": "Recife ou João Pessoa",
     "price_brl": 333.0,
@@ -1901,6 +1913,19 @@
     "id": "0ab5db87c31e"
   },
   {
+    "source": "Melhores Destinos",
+    "title": "Temporada de neve já começou! Viaje para o Chile com passagens para Santiago a partir de R$ 1.261 ida e volta",
+    "destination": "Chile",
+    "price_brl": 1261.0,
+    "currency": "BRL",
+    "link": "https://www.melhoresdestinos.com.br/promocao/neve-passagens-para-santiago-22jun26",
+    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2024/06/neve-ad-santiago-bariloche-capa-754x396.jpeg",
+    "airline": null,
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-21T02:45:06.897448+00:00",
+    "id": "3d5bddb05f84"
+  },
+  {
     "source": "GOL",
     "title": "GOL: São Paulo (GRU) → Recife (REC) - 30/08/2026",
     "destination": "Recife",
@@ -3671,43 +3696,5 @@
     "return_date": "2026-11-07",
     "fetched_at": "2026-08-20T14:37:05.978783+00:00",
     "id": "3bc8a0b53c43"
-  },
-  {
-    "source": "GOL",
-    "title": "GOL: São Paulo (GRU) → Punta Cana (PUJ) - 25/09/2026 a 02/10/2026",
-    "destination": "Punta Cana",
-    "destination_iata": "PUJ",
-    "origin": "São Paulo",
-    "origin_iata": "GRU",
-    "price_brl": 2317.3,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/GRU/PUJ",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/punta-cana-2-1500px-x-500px.png",
-    "airline": "GOL",
-    "trip_type": "round_trip",
-    "travel_class": "Econômica",
-    "departure_date": "2026-09-25",
-    "return_date": "2026-10-02",
-    "fetched_at": "2026-08-20T14:37:05.978787+00:00",
-    "id": "7e3453647db8"
-  },
-  {
-    "source": "GOL",
-    "title": "GOL: São Paulo (SAO) → Punta Cana (PUJ) - 22/09/2026 a 06/10/2026",
-    "destination": "Punta Cana",
-    "destination_iata": "PUJ",
-    "origin": "São Paulo",
-    "origin_iata": "SAO",
-    "price_brl": 2317.31,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/SAO/PUJ",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/punta-cana-2-1500px-x-500px.png",
-    "airline": "GOL",
-    "trip_type": "round_trip",
-    "travel_class": "Econômica",
-    "departure_date": "2026-09-22",
-    "return_date": "2026-10-06",
-    "fetched_at": "2026-08-21T01:21:37.497501+00:00",
-    "id": "77d2dbb83527"
   }
 ]
