@@ -1,21 +1,32 @@
 [
   {
-    "source": "GOL",
-    "title": "GOL: São Paulo (GRU) → Fortaleza (FOR) - 30/08/2026 a 04/09/2026",
-    "destination": "Fortaleza",
-    "destination_iata": "FOR",
-    "origin": "São Paulo",
-    "origin_iata": "GRU",
-    "price_brl": 1600.43,
+    "source": "Passagens Imperdíveis",
+    "title": "PASSAGEM + HOTEL no RIO DE JANEIRO! A partir de R$ 928, por pessoa, quarto duplo, c/ taxas! Em até 10x SEM JUROS!",
+    "destination": "Pacote: Rio de Janeiro",
+    "price_brl": 928.0,
     "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/GRU/FOR",
-    "image_url": null,
-    "airline": "GOL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-mais-hotel-para-brasil-rio-de-janeiro-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/b311f16a_8170_484e_bc31_08281820f4b7-612x612.jpg",
     "trip_type": "round_trip",
-    "travel_class": "Econômica",
-    "departure_date": "2026-08-30",
-    "return_date": "2026-09-04",
-    "fetched_at": "2026-08-21T23:49:27.035276+00:00",
-    "id": "0452abc85365"
+    "fetched_at": "2026-08-22T01:17:20.187704+00:00",
+    "id": "581576ac69d6"
+  },
+  {
+    "source": "TAP",
+    "title": "TAP: Rio de Janeiro (GIG) → Porto (OPO) - 06/09/2026 a 05/10/2026",
+    "destination": "Porto",
+    "destination_iata": "OPO",
+    "origin": "Rio de Janeiro",
+    "origin_iata": "GIG",
+    "price_brl": 8209.0,
+    "currency": "BRL",
+    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
+    "image_url": "https://assets.airtrfx.com/media-em/tp/porto-1-1500px.jpg",
+    "airline": "TAP",
+    "trip_type": "round_trip",
+    "departure_date": "06/09/2026",
+    "return_date": "05/10/2026",
+    "fetched_at": "2026-08-22T01:17:22.038520+00:00",
+    "id": "dcccfa0ecacb"
   }
 ]
