@@ -1,33 +1,26 @@
 [
   {
     "source": "Passagens Imperdíveis",
-    "title": "Programe sua viagem para as Cataratas do Iguaçu! Passagens para FOZ DO IGUAÇU! A partir de R$ 701, ida e volta, c/ taxas!",
-    "destination": "Foz do Iguaçu",
-    "price_brl": 701.0,
+    "title": "Passagens para a Nova Zelândia: Auckland, Wellington ou Christchurch! A partir de R$ 8.230, ida e volta, c/ taxas!",
+    "destination": "Nova Zelândia",
+    "price_brl": 8230.0,
     "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-foz-do-iguacu-2026/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/foz_do_iguacu_parana_nacional_nacionais_brasil-612x612.png",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-nova-zelandia-auckland-wellington-christchurch-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/auckland_nova_zelandia-612x612.png",
     "trip_type": "round_trip",
-    "fetched_at": "2026-08-22T19:23:12.792122+00:00",
-    "id": "cf1f4aac3822"
+    "fetched_at": "2026-08-22T19:46:28.576275+00:00",
+    "id": "abd9c4e6cb8d"
   },
   {
-    "source": "GOL",
-    "title": "GOL: São Paulo (CGH) → Salvador (SSA) - 30/08/2026",
-    "destination": "Salvador",
-    "destination_iata": "SSA",
-    "origin": "São Paulo",
-    "origin_iata": "CGH",
-    "price_brl": 741.05,
+    "source": "Passagens Imperdíveis",
+    "title": "MUITO BOM!!! Passagens para a BAHIA: Barreiras, Ilhéus, Porto Seguro, Salvador ou Vitória da Conquista! A partir de R$ 359, ida e volta, c/ taxas!",
+    "destination": "Bahia",
+    "price_brl": 359.0,
     "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/CGH/SSA",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/02-1500px-x-500px-2.png",
-    "airline": "GOL",
-    "trip_type": "one_way",
-    "travel_class": "Econômica",
-    "departure_date": "2026-08-30",
-    "return_date": "",
-    "fetched_at": "2026-08-22T19:23:13.635588+00:00",
-    "id": "88aac3cafd1f"
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-barreiras-salvador-vitoria-da-conquista-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/salvador_bahia_brasil_4-612x612.jpg",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-22T19:46:28.576423+00:00",
+    "id": "e6fb1e254e1f"
   }
 ]
