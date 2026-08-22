@@ -1,14 +1,14 @@
 [
   {
     "source": "Passagens Imperdíveis",
-    "title": "Passagens para CHICAGO ou BOSTON! Datas inclusive na Primavera, férias e mais! A partir de R$ 2.911, ida e volta, c/ taxas! Em até 10x SEM JUROS!",
-    "destination": "Chicago ou Boston",
-    "price_brl": 2669.0,
+    "title": "Programe sua viagem para a Disney! Passagens para ORLANDO ou TAMPA! A partir de R$ 2.693, ida e volta, c/ taxas! Em até 4x SEM JUROS!",
+    "destination": "Orlando ou Tampa",
+    "price_brl": 2626.0,
     "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-chicago-boston-2026/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/chicago_estados_unidos_eua-612x612.png",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-tampa-orlando-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/orlando_florida3_eua_612-612x612.jpg",
     "trip_type": "round_trip",
-    "fetched_at": "2026-08-22T09:27:23.094875+00:00",
-    "id": "bd0f99f6467f"
+    "fetched_at": "2026-08-22T09:52:45.701889+00:00",
+    "id": "96f0badbc557"
   }
 ]
