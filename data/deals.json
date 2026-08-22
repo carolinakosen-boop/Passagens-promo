@@ -243,18 +243,6 @@
     "id": "48519700c447"
   },
   {
-    "source": "Passagens Imperdíveis",
-    "title": "Passagens para o ANO NOVO nas PRAIAS DO NORDESTE: Aracaju, Fortaleza, Ilhéus, João Pessoa, Porto Seguro, Recife, Salvador ou São Luís e mais! A partir de R$ 508, ida e volta!",
-    "destination": "Ano Novo nas Praias do Nordeste",
-    "price_brl": 508.0,
-    "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/passagens-nacionais-praias-nordeste-2026/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/fogos_ano_novo-612x612.png",
-    "trip_type": "round_trip",
-    "fetched_at": "2026-08-21T22:26:21.387960+00:00",
-    "id": "a91650075682"
-  },
-  {
     "source": "GOL",
     "title": "GOL: São Paulo (SAO) → Salvador (SSA) - 22/10/2026",
     "destination": "Salvador",
@@ -1903,6 +1891,18 @@
     "return_date": "2026-11-24",
     "fetched_at": "2026-08-22T16:25:41.928362+00:00",
     "id": "20622801e626"
+  },
+  {
+    "source": "Passagens Imperdíveis",
+    "title": "Passagens para o CARIBE: Aruba, Curaçao, Colômbia, República Dominicana, Costa Rica e mais! A partir de R$ 1.969, ida e volta, c/ taxas! Em até 6x SEM JUROS!",
+    "destination": "Caribe",
+    "price_brl": 1942.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/selecao-de-passagens-para-o-america-do-sul-caribe-colombia-republica-dominicana-costa-rica-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/caribe_geral_2_612_612-612x612.png",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-22T22:48:51.370065+00:00",
+    "id": "3c487fb2b47e"
   },
   {
     "source": "GOL",
