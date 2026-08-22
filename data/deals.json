@@ -136,25 +136,6 @@
     "id": "1d6ae797c09e"
   },
   {
-    "source": "GOL",
-    "title": "GOL: São Paulo (CGH) → Brasília (BSB) - 28/11/2026",
-    "destination": "Brasília",
-    "destination_iata": "BSB",
-    "origin": "São Paulo",
-    "origin_iata": "CGH",
-    "price_brl": 502.04,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/CGH/BSB",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/bras%C3%ADlia-2-1500px-x-500px.png",
-    "airline": "GOL",
-    "trip_type": "one_way",
-    "travel_class": "Econômica",
-    "departure_date": "2026-11-28",
-    "return_date": "",
-    "fetched_at": "2026-08-21T20:26:51.361142+00:00",
-    "id": "66d176d11896"
-  },
-  {
     "source": "Passagens Imperdíveis",
     "title": "Passagens para o ANO NOVO nas PRAIAS DO NORDESTE: Aracaju, Fortaleza, Ilhéus, João Pessoa, Porto Seguro, Recife, Salvador ou São Luís e mais! A partir de R$ 508, ida e volta!",
     "destination": "Ano Novo nas Praias do Nordeste",
@@ -565,6 +546,25 @@
   },
   {
     "source": "GOL",
+    "title": "GOL: São Paulo (GRU) → Salvador (SSA) - 31/08/2026 a 07/09/2026",
+    "destination": "Salvador",
+    "destination_iata": "SSA",
+    "origin": "São Paulo",
+    "origin_iata": "GRU",
+    "price_brl": 1178.29,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/GRU/SSA",
+    "image_url": null,
+    "airline": "GOL",
+    "trip_type": "round_trip",
+    "travel_class": "Econômica",
+    "departure_date": "2026-08-31",
+    "return_date": "2026-09-07",
+    "fetched_at": "2026-08-22T20:49:46.169432+00:00",
+    "id": "12694cadb8a7"
+  },
+  {
+    "source": "GOL",
     "title": "GOL: São Paulo (SAO) → Salvador (SSA) - 30/08/2026 a 31/08/2026",
     "destination": "Salvador",
     "destination_iata": "SSA",
@@ -704,6 +704,25 @@
   },
   {
     "source": "GOL",
+    "title": "GOL: São Paulo (GRU) → Juazeiro do Norte (JDO) - 26/08/2026 a 03/09/2026",
+    "destination": "Juazeiro do Norte",
+    "destination_iata": "JDO",
+    "origin": "São Paulo",
+    "origin_iata": "GRU",
+    "price_brl": 1422.35,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/GRU/JDO",
+    "image_url": null,
+    "airline": "GOL",
+    "trip_type": "round_trip",
+    "travel_class": "Econômica",
+    "departure_date": "2026-08-26",
+    "return_date": "2026-09-03",
+    "fetched_at": "2026-08-22T20:49:46.169437+00:00",
+    "id": "ce2d431b2da6"
+  },
+  {
+    "source": "GOL",
     "title": "GOL: São Paulo (CGH) → Salvador (SSA) - 28/08/2026 a 03/09/2026",
     "destination": "Salvador",
     "destination_iata": "SSA",
@@ -720,6 +739,25 @@
     "return_date": "2026-09-03",
     "fetched_at": "2026-08-22T14:48:47.293877+00:00",
     "id": "02af47cb8758"
+  },
+  {
+    "source": "GOL",
+    "title": "GOL: Rio de Janeiro (GIG) → Buenos Aires (BUE) - 09/10/2026 a 15/10/2026",
+    "destination": "Buenos Aires",
+    "destination_iata": "BUE",
+    "origin": "Rio de Janeiro",
+    "origin_iata": "GIG",
+    "price_brl": 1450.52,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/GIG/BUE",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/buenos-aires-2-1500px-x-500px.png",
+    "airline": "GOL",
+    "trip_type": "round_trip",
+    "travel_class": "Econômica",
+    "departure_date": "2026-10-09",
+    "return_date": "2026-10-15",
+    "fetched_at": "2026-08-22T20:49:45.752965+00:00",
+    "id": "aad4758c6442"
   },
   {
     "source": "GOL",
@@ -941,25 +979,6 @@
     "return_date": "2026-09-02",
     "fetched_at": "2026-08-22T16:25:42.182304+00:00",
     "id": "191d183adeeb"
-  },
-  {
-    "source": "GOL",
-    "title": "GOL: Rio de Janeiro (GIG) → Fortaleza (FOR) - 30/08/2026 a 05/09/2026",
-    "destination": "Fortaleza",
-    "destination_iata": "FOR",
-    "origin": "Rio de Janeiro",
-    "origin_iata": "GIG",
-    "price_brl": 1589.59,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/GIG/FOR",
-    "image_url": null,
-    "airline": "GOL",
-    "trip_type": "round_trip",
-    "travel_class": "Econômica",
-    "departure_date": "2026-08-30",
-    "return_date": "2026-09-05",
-    "fetched_at": "2026-08-21T20:26:52.051728+00:00",
-    "id": "92e4bd55f103"
   },
   {
     "source": "GOL",
@@ -1314,18 +1333,6 @@
     "return_date": "2026-09-07",
     "fetched_at": "2026-08-22T16:25:42.182349+00:00",
     "id": "ab11d55e6c78"
-  },
-  {
-    "source": "Passagens Imperdíveis",
-    "title": "Passagens para a ARGENTINA: Mendoza ou Bariloche! Datas inclusive no Inverno, férias e mais! A partir de R$ 1.987, ida e volta, c/ taxas! Em até 6x SEM JUROS!",
-    "destination": "Mendoza ou Bariloche",
-    "price_brl": 1987.0,
-    "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-argentina-mendoza-bariloche-2026/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/argentina_mendoza_andes_612_612-612x612.png",
-    "trip_type": "round_trip",
-    "fetched_at": "2026-08-21T20:26:50.258550+00:00",
-    "id": "0eda98835f64"
   },
   {
     "source": "GOL",
@@ -2074,6 +2081,18 @@
     "trip_type": "round_trip",
     "fetched_at": "2026-08-21T22:52:07.017862+00:00",
     "id": "3de146312fa1"
+  },
+  {
+    "source": "Passagens Imperdíveis",
+    "title": "MUITO BOM!!! Passagens para a Finlândia: Helsinque! A partir de R$ 3.819, ida e volta, c/ taxas! Opções com BAGAGEM INCLUÍDA!",
+    "destination": "Muito bom! Finlândia: Helsinque",
+    "price_brl": 3819.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-finlandia-helsinque-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/aurora_3-612x612.jpg",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-22T20:49:44.753981+00:00",
+    "id": "00aec0ea9268"
   },
   {
     "source": "Passagens Imperdíveis",
