@@ -1,20 +1,14 @@
 [
   {
-    "source": "TAP",
-    "title": "TAP: Rio de Janeiro (GIG) → Porto (OPO) - 14/09/2026 a 01/10/2026",
-    "destination": "Porto",
-    "destination_iata": "OPO",
-    "origin": "Rio de Janeiro",
-    "origin_iata": "GIG",
-    "price_brl": 8191.0,
+    "source": "Passagens Imperdíveis",
+    "title": "Passagens para a ARGENTINA: Mendoza ou Bariloche! Datas inclusive no Inverno, férias e mais! A partir de R$ 1.987, ida e volta, c/ taxas! Em até 6x SEM JUROS!",
+    "destination": "Mendoza ou Bariloche",
+    "price_brl": 1568.0,
     "currency": "BRL",
-    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
-    "image_url": "https://assets.airtrfx.com/media-em/tp/porto-1-1500px.jpg",
-    "airline": "TAP",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-argentina-mendoza-bariloche-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/argentina_mendoza_andes_612_612-612x612.png",
     "trip_type": "round_trip",
-    "departure_date": "14/09/2026",
-    "return_date": "01/10/2026",
-    "fetched_at": "2026-08-22T11:46:15.191003+00:00",
-    "id": "9e7bb378a55b"
+    "fetched_at": "2026-08-22T12:40:34.817624+00:00",
+    "id": "0da3a1607833"
   }
 ]
