@@ -50,18 +50,6 @@
     "id": "c9fda6ff82b2"
   },
   {
-    "source": "Passagens Imperdíveis",
-    "title": "Passagens para as PRAIAS DO NORDESTE: Aracaju, Fortaleza, Ilhéus, Jericoacoara, João Pessoa e mais! A partir de R$ 333, ida e volta!",
-    "destination": "Praias do Nordeste",
-    "price_brl": 333.0,
-    "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/passagens-nacionais-praias-nnordeste-2026/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/recife_pernambuco_brasil-612x612.png",
-    "trip_type": "round_trip",
-    "fetched_at": "2026-08-21T02:45:14.159091+00:00",
-    "id": "115d8bd407bd"
-  },
-  {
     "source": "GOL",
     "title": "GOL: Rio de Janeiro (RIO) → Brasília (BSB) - 29/10/2026",
     "destination": "Brasília",
@@ -1315,19 +1303,6 @@
     "return_date": "",
     "fetched_at": "2026-08-21T16:35:35.382854+00:00",
     "id": "0ab5db87c31e"
-  },
-  {
-    "source": "Melhores Destinos",
-    "title": "Temporada de neve já começou! Viaje para o Chile com passagens para Santiago a partir de R$ 1.261 ida e volta",
-    "destination": "Chile",
-    "price_brl": 1261.0,
-    "currency": "BRL",
-    "link": "https://www.melhoresdestinos.com.br/promocao/neve-passagens-para-santiago-22jun26",
-    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2024/06/neve-ad-santiago-bariloche-capa-754x396.jpeg",
-    "airline": null,
-    "trip_type": "round_trip",
-    "fetched_at": "2026-08-21T02:45:06.897448+00:00",
-    "id": "3d5bddb05f84"
   },
   {
     "source": "GOL",
@@ -3278,6 +3253,24 @@
     "return_date": "05/10/2026",
     "fetched_at": "2026-08-22T01:17:22.038520+00:00",
     "id": "dcccfa0ecacb"
+  },
+  {
+    "source": "TAP",
+    "title": "TAP: São Paulo (GRU) → Porto (OPO) - 19/09/2026 a 03/10/2026",
+    "destination": "Porto",
+    "destination_iata": "OPO",
+    "origin": "São Paulo",
+    "origin_iata": "GRU",
+    "price_brl": 8302.0,
+    "currency": "BRL",
+    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
+    "image_url": "https://assets.airtrfx.com/media-em/tp/porto-1-1500px.jpg",
+    "airline": "TAP",
+    "trip_type": "round_trip",
+    "departure_date": "19/09/2026",
+    "return_date": "03/10/2026",
+    "fetched_at": "2026-08-22T03:42:24.006780+00:00",
+    "id": "d644b809c9cb"
   },
   {
     "source": "TAP",
