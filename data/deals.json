@@ -63,18 +63,6 @@
   },
   {
     "source": "Passagens Imperdíveis",
-    "title": "MUITO BOM!!! Passagens para a BAHIA: Barreiras, Ilhéus, Porto Seguro, Salvador ou Vitória da Conquista! A partir de R$ 359, ida e volta, c/ taxas!",
-    "destination": "Bahia",
-    "price_brl": 359.0,
-    "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-barreiras-salvador-vitoria-da-conquista-2026/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/salvador_bahia_brasil_4-612x612.jpg",
-    "trip_type": "round_trip",
-    "fetched_at": "2026-08-21T18:49:44.901649+00:00",
-    "id": "e6fb1e254e1f"
-  },
-  {
-    "source": "Passagens Imperdíveis",
     "title": "Passagens para SÃO PAULO ou RIO DE JANEIRO! Datas até Maio/27, inclusive férias, feriados e mais! A partir de R$ 373, ida e volta, c/ taxas!",
     "destination": "São Paulo ou Rio de Janeiro",
     "price_brl": 373.0,
@@ -250,6 +238,18 @@
     "id": "2103bcb3ae30"
   },
   {
+    "source": "Passagens Imperdíveis",
+    "title": "Programe sua viagem para as Cataratas do Iguaçu! Passagens para FOZ DO IGUAÇU! A partir de R$ 701, ida e volta, c/ taxas!",
+    "destination": "Foz do Iguaçu",
+    "price_brl": 701.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-foz-do-iguacu-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/foz_do_iguacu_parana_nacional_nacionais_brasil-612x612.png",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-22T19:23:12.792122+00:00",
+    "id": "cf1f4aac3822"
+  },
+  {
     "source": "GOL",
     "title": "GOL: São Paulo (GRU) → Juazeiro do Norte (JDO) - 26/08/2026",
     "destination": "Juazeiro do Norte",
@@ -267,6 +267,25 @@
     "return_date": "",
     "fetched_at": "2026-08-21T21:25:43.306428+00:00",
     "id": "ae2c63e4e886"
+  },
+  {
+    "source": "GOL",
+    "title": "GOL: São Paulo (CGH) → Salvador (SSA) - 30/08/2026",
+    "destination": "Salvador",
+    "destination_iata": "SSA",
+    "origin": "São Paulo",
+    "origin_iata": "CGH",
+    "price_brl": 741.05,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/CGH/SSA",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/02-1500px-x-500px-2.png",
+    "airline": "GOL",
+    "trip_type": "one_way",
+    "travel_class": "Econômica",
+    "departure_date": "2026-08-30",
+    "return_date": "",
+    "fetched_at": "2026-08-22T19:23:13.635588+00:00",
+    "id": "88aac3cafd1f"
   },
   {
     "source": "GOL",
@@ -491,25 +510,6 @@
   },
   {
     "source": "GOL",
-    "title": "GOL: São Paulo (CGH) → Recife (REC) - 31/08/2026",
-    "destination": "Recife",
-    "destination_iata": "REC",
-    "origin": "São Paulo",
-    "origin_iata": "CGH",
-    "price_brl": 1036.04,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/CGH/REC",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/recife-2-1500px-x-500px.png",
-    "airline": "GOL",
-    "trip_type": "one_way",
-    "travel_class": "Econômica",
-    "departure_date": "2026-08-31",
-    "return_date": "",
-    "fetched_at": "2026-08-21T18:49:46.077863+00:00",
-    "id": "3cd0031c27cd"
-  },
-  {
-    "source": "GOL",
     "title": "GOL: São Paulo (CGH) → Belo Horizonte (CNF) - 31/08/2026",
     "destination": "Belo Horizonte",
     "destination_iata": "CNF",
@@ -720,25 +720,6 @@
     "return_date": "2026-09-29",
     "fetched_at": "2026-08-22T14:48:46.709875+00:00",
     "id": "df3ad30fbb93"
-  },
-  {
-    "source": "GOL",
-    "title": "GOL: São Paulo (GRU) → Recife (REC) - 31/08/2026",
-    "destination": "Recife",
-    "destination_iata": "REC",
-    "origin": "São Paulo",
-    "origin_iata": "GRU",
-    "price_brl": 1386.65,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/GRU/REC",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/recife-2-1500px-x-500px.png",
-    "airline": "GOL",
-    "trip_type": "one_way",
-    "travel_class": "Econômica",
-    "departure_date": "2026-08-31",
-    "return_date": "",
-    "fetched_at": "2026-08-21T18:49:46.077898+00:00",
-    "id": "5c696c7a1cc9"
   },
   {
     "source": "GOL",
