@@ -2544,19 +2544,6 @@
     "id": "8873972512d4"
   },
   {
-    "source": "Melhores Destinos",
-    "title": "Big Apple! Passagens para Nova York por R$ 2.807 ou nas férias de fim de ano a partir de R$ 3.152",
-    "destination": "Nova York",
-    "price_brl": 2807.0,
-    "currency": "BRL",
-    "link": "https://www.melhoresdestinos.com.br/promocao/big-apple-passagens-para-nova-york-por-r-1-212-ou-nas-ferias-de-fim-de-ano-a-partir-de-r-1-400",
-    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2021/10/ny-nova-york-eua-capa16-754x396.jpg",
-    "airline": null,
-    "trip_type": "unknown",
-    "fetched_at": "2026-08-22T14:18:48+00:00",
-    "id": "b3b86497dec2"
-  },
-  {
     "source": "GOL",
     "title": "GOL: Rio de Janeiro (RIO) → Orlando (MCO) - 21/04/2027 a 05/05/2027",
     "destination": "Orlando",
@@ -2858,6 +2845,18 @@
     "return_date": "2026-10-28",
     "fetched_at": "2026-08-22T20:23:43.649890+00:00",
     "id": "756318b0d1de"
+  },
+  {
+    "source": "Passagens Imperdíveis",
+    "title": "Passagens para Lisboa, Madri ou Veneza! A partir de R$ 3.469, ida e volta, c/ taxas!",
+    "destination": "Lisboa, Madri ou Veneza",
+    "price_brl": 3454.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-portugal-lisboa-espanha-madri-italia-veneza-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/ec6401f0_c205_417b_87d8_5abde1d5ea2f-612x612.jpg",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-23T14:24:22.775736+00:00",
+    "id": "22470c4dc83d"
   },
   {
     "source": "GOL",
