@@ -2426,15 +2426,15 @@
   },
   {
     "source": "Passagens Imperdíveis",
-    "title": "Programe sua viagem para a Disney! Passagens para ORLANDO ou TAMPA! A partir de R$ 2.693, ida e volta, c/ taxas! Em até 4x SEM JUROS!",
-    "destination": "Orlando ou Tampa",
-    "price_brl": 2626.0,
+    "title": "Passagens para NOVA YORK ou LOS ANGELES! Datas inclusive na Primavera, férias e mais! A partir de R$ 2.902, ida e volta, c/ taxas! Em até 10x SEM JUROS!",
+    "destination": "Nova York ou Los Angeles",
+    "price_brl": 2628.0,
     "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-tampa-orlando-2026/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/orlando_florida3_eua_612-612x612.jpg",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-nova-york-los-angeles-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/nova_iorque_new_york_eua_612_4-612x612.jpg",
     "trip_type": "round_trip",
-    "fetched_at": "2026-08-22T09:52:45.701889+00:00",
-    "id": "96f0badbc557"
+    "fetched_at": "2026-08-23T09:54:27.078093+00:00",
+    "id": "23512aa5d393"
   },
   {
     "source": "Passagens Imperdíveis",
@@ -2447,6 +2447,18 @@
     "trip_type": "round_trip",
     "fetched_at": "2026-08-22T17:46:52.831665+00:00",
     "id": "115aff50619c"
+  },
+  {
+    "source": "Passagens Imperdíveis",
+    "title": "Passagens para CHICAGO ou BOSTON! Datas inclusive na Primavera, férias e mais! A partir de R$ 2.911, ida e volta, c/ taxas! Em até 10x SEM JUROS!",
+    "destination": "Chicago ou Boston",
+    "price_brl": 2669.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-chicago-boston-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/chicago_estados_unidos_eua-612x612.png",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-23T09:54:27.078067+00:00",
+    "id": "bd0f99f6467f"
   },
   {
     "source": "GOL",
@@ -3303,6 +3315,24 @@
   },
   {
     "source": "TAP",
+    "title": "TAP: Rio de Janeiro (GIG) → Lisboa (LIS) - 30/08/2026 a 13/09/2026",
+    "destination": "Lisboa",
+    "destination_iata": "LIS",
+    "origin": "Rio de Janeiro",
+    "origin_iata": "GIG",
+    "price_brl": 7236.0,
+    "currency": "BRL",
+    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
+    "image_url": "https://assets.airtrfx.com/media-em/tp/lisboa-1-1500px.jpg",
+    "airline": "TAP",
+    "trip_type": "round_trip",
+    "departure_date": "30/08/2026",
+    "return_date": "13/09/2026",
+    "fetched_at": "2026-08-23T09:54:29.566301+00:00",
+    "id": "de18df2e52be"
+  },
+  {
+    "source": "TAP",
     "title": "TAP: Rio de Janeiro (GIG) → Lisboa (LIS) - 11/09/2026 a 22/09/2026",
     "destination": "Lisboa",
     "destination_iata": "LIS",
@@ -3318,6 +3348,24 @@
     "return_date": "22/09/2026",
     "fetched_at": "2026-08-22T10:24:33.285615+00:00",
     "id": "022e2b3d14ac"
+  },
+  {
+    "source": "TAP",
+    "title": "TAP: Rio de Janeiro (GIG) → Barcelona (BCN) - 20/09/2026 a 03/10/2026",
+    "destination": "Barcelona",
+    "destination_iata": "BCN",
+    "origin": "Rio de Janeiro",
+    "origin_iata": "GIG",
+    "price_brl": 7654.0,
+    "currency": "BRL",
+    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
+    "image_url": "https://assets.airtrfx.com/media-em/tp/barcelona-1-1500px.jpg",
+    "airline": "TAP",
+    "trip_type": "round_trip",
+    "departure_date": "20/09/2026",
+    "return_date": "03/10/2026",
+    "fetched_at": "2026-08-23T09:54:29.567191+00:00",
+    "id": "895b66c54224"
   },
   {
     "source": "TAP",
@@ -3456,6 +3504,24 @@
     "trip_type": "round_trip",
     "fetched_at": "2026-08-23T04:38:13.284805+00:00",
     "id": "abd9c4e6cb8d"
+  },
+  {
+    "source": "TAP",
+    "title": "TAP: São Paulo (GRU) → Porto (OPO) - 01/09/2026 a 17/09/2026",
+    "destination": "Porto",
+    "destination_iata": "OPO",
+    "origin": "São Paulo",
+    "origin_iata": "GRU",
+    "price_brl": 8369.0,
+    "currency": "BRL",
+    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
+    "image_url": "https://assets.airtrfx.com/media-em/tp/porto-1-1500px.jpg",
+    "airline": "TAP",
+    "trip_type": "round_trip",
+    "departure_date": "01/09/2026",
+    "return_date": "17/09/2026",
+    "fetched_at": "2026-08-23T09:54:29.566463+00:00",
+    "id": "cae416be2954"
   },
   {
     "source": "TAP",
