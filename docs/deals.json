@@ -609,18 +609,6 @@
     "id": "a1a60c115325"
   },
   {
-    "source": "Passagens Imperdíveis",
-    "title": "PASSAGEM + HOTEL no RIO DE JANEIRO! A partir de R$ 928, por pessoa, quarto duplo, c/ taxas! Em até 10x SEM JUROS!",
-    "destination": "Pacote: Rio de Janeiro",
-    "price_brl": 928.0,
-    "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-mais-hotel-para-brasil-rio-de-janeiro-2026/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/b311f16a_8170_484e_bc31_08281820f4b7-612x612.jpg",
-    "trip_type": "round_trip",
-    "fetched_at": "2026-08-22T01:17:20.187704+00:00",
-    "id": "581576ac69d6"
-  },
-  {
     "source": "GOL",
     "title": "GOL: Rio de Janeiro (RIO) → Assunção (ASU) - 18/11/2026 a 28/11/2026",
     "destination": "Assunção",
@@ -1450,25 +1438,6 @@
   },
   {
     "source": "GOL",
-    "title": "GOL: São Paulo (GRU) → Fortaleza (FOR) - 30/08/2026 a 04/09/2026",
-    "destination": "Fortaleza",
-    "destination_iata": "FOR",
-    "origin": "São Paulo",
-    "origin_iata": "GRU",
-    "price_brl": 1600.43,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/GRU/FOR",
-    "image_url": null,
-    "airline": "GOL",
-    "trip_type": "round_trip",
-    "travel_class": "Econômica",
-    "departure_date": "2026-08-30",
-    "return_date": "2026-09-04",
-    "fetched_at": "2026-08-21T23:49:27.035276+00:00",
-    "id": "0452abc85365"
-  },
-  {
-    "source": "GOL",
     "title": "GOL: Rio de Janeiro (RIO) → Montevideo (MVD) - 15/10/2026 a 22/10/2026",
     "destination": "Montevideo",
     "destination_iata": "MVD",
@@ -1504,6 +1473,25 @@
     "return_date": "2026-10-30",
     "fetched_at": "2026-08-22T05:28:34.264768+00:00",
     "id": "ead391ab1049"
+  },
+  {
+    "source": "GOL",
+    "title": "GOL: São Paulo (SAO) → Buenos Aires (AEP) - 14/10/2026 a 15/10/2026",
+    "destination": "Buenos Aires",
+    "destination_iata": "AEP",
+    "origin": "São Paulo",
+    "origin_iata": "SAO",
+    "price_brl": 1627.24,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/SAO/AEP",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/buenos-aires-2-1500px-x-500px.png",
+    "airline": "GOL",
+    "trip_type": "round_trip",
+    "travel_class": "Econômica",
+    "departure_date": "2026-10-14",
+    "return_date": "2026-10-15",
+    "fetched_at": "2026-08-23T01:24:18.498189+00:00",
+    "id": "ac8fcb3efb33"
   },
   {
     "source": "GOL",
@@ -3375,24 +3363,6 @@
     "return_date": "01/10/2026",
     "fetched_at": "2026-08-22T11:46:15.191003+00:00",
     "id": "9e7bb378a55b"
-  },
-  {
-    "source": "TAP",
-    "title": "TAP: Rio de Janeiro (GIG) → Porto (OPO) - 06/09/2026 a 05/10/2026",
-    "destination": "Porto",
-    "destination_iata": "OPO",
-    "origin": "Rio de Janeiro",
-    "origin_iata": "GIG",
-    "price_brl": 8209.0,
-    "currency": "BRL",
-    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
-    "image_url": "https://assets.airtrfx.com/media-em/tp/porto-1-1500px.jpg",
-    "airline": "TAP",
-    "trip_type": "round_trip",
-    "departure_date": "06/09/2026",
-    "return_date": "05/10/2026",
-    "fetched_at": "2026-08-22T01:17:22.038520+00:00",
-    "id": "dcccfa0ecacb"
   },
   {
     "source": "Passagens Imperdíveis",
