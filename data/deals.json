@@ -93,6 +93,18 @@
     "id": "e6fb1e254e1f"
   },
   {
+    "source": "Passagens Imperdíveis",
+    "title": "Passagens para SÃO PAULO ou RIO DE JANEIRO! Datas até Maio/27, inclusive férias, feriados e mais! A partir de R$ 373, ida e volta, c/ taxas!",
+    "destination": "São Paulo ou Rio de Janeiro",
+    "price_brl": 373.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-sao-paulo-rio-de-janeiro-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/sao_paulo_sp_brasil_1_2_3-612x612.png",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-23T19:45:51.457484+00:00",
+    "id": "69755cedfda3"
+  },
+  {
     "source": "GOL",
     "title": "GOL: São Paulo (CGH) → Rio de Janeiro (SDU) - 21/10/2026",
     "destination": "Rio de Janeiro",
@@ -364,18 +376,6 @@
     "id": "0cf48d2d1ab3"
   },
   {
-    "source": "Passagens Imperdíveis",
-    "title": "Programe sua viagem para as Cataratas do Iguaçu! Passagens para FOZ DO IGUAÇU! A partir de R$ 701, ida e volta, c/ taxas!",
-    "destination": "Foz do Iguaçu",
-    "price_brl": 701.0,
-    "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-foz-do-iguacu-2026/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/foz_do_iguacu_parana_nacional_nacionais_brasil-612x612.png",
-    "trip_type": "round_trip",
-    "fetched_at": "2026-08-22T19:23:12.792122+00:00",
-    "id": "cf1f4aac3822"
-  },
-  {
     "source": "GOL",
     "title": "GOL: São Paulo (GRU) → Juazeiro do Norte (JDO) - 21/08/2026",
     "destination": "Juazeiro do Norte",
@@ -431,25 +431,6 @@
     "return_date": "",
     "fetched_at": "2026-08-23T02:45:22.484009+00:00",
     "id": "1b977f903d04"
-  },
-  {
-    "source": "GOL",
-    "title": "GOL: São Paulo (CGH) → Salvador (SSA) - 30/08/2026",
-    "destination": "Salvador",
-    "destination_iata": "SSA",
-    "origin": "São Paulo",
-    "origin_iata": "CGH",
-    "price_brl": 741.05,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/CGH/SSA",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/02-1500px-x-500px-2.png",
-    "airline": "GOL",
-    "trip_type": "one_way",
-    "travel_class": "Econômica",
-    "departure_date": "2026-08-30",
-    "return_date": "",
-    "fetched_at": "2026-08-22T19:23:13.635588+00:00",
-    "id": "88aac3cafd1f"
   },
   {
     "source": "GOL",
@@ -583,6 +564,18 @@
     "return_date": "",
     "fetched_at": "2026-08-22T22:22:57.366166+00:00",
     "id": "09d0b2feb447"
+  },
+  {
+    "source": "Passagens Imperdíveis",
+    "title": "Aproveite! Passagens para o Chile: Santiago ou Argentina: Buenos Aires! A partir de R$ 1.180, ida e volta, c/ taxas! Opções de VOO DIRETO!",
+    "destination": "Aproveite! Chile ou Argentina",
+    "price_brl": 1103.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-chile-santiago-argentina-buenos-aires-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/santiago_chile_612-612x612.jpg",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-23T19:45:51.457479+00:00",
+    "id": "951415ef7585"
   },
   {
     "source": "GOL",
@@ -1798,6 +1791,25 @@
     "trip_type": "round_trip",
     "fetched_at": "2026-08-23T16:53:47.904969+00:00",
     "id": "24cd140a6e33"
+  },
+  {
+    "source": "GOL",
+    "title": "GOL: São Paulo (SAO) → Oranjestad, Aruba (AUA) - 24/09/2026 a 02/10/2026",
+    "destination": "Oranjestad, Aruba",
+    "destination_iata": "AUA",
+    "origin": "São Paulo",
+    "origin_iata": "SAO",
+    "price_brl": 2441.3,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/SAO/AUA",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/02-1500px-x-500px-3.png",
+    "airline": "GOL",
+    "trip_type": "round_trip",
+    "travel_class": "Econômica",
+    "departure_date": "2026-09-24",
+    "return_date": "2026-10-02",
+    "fetched_at": "2026-08-23T19:45:54.392251+00:00",
+    "id": "17e502f5fc79"
   },
   {
     "source": "GOL",

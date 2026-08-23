@@ -1,26 +1,45 @@
 [
   {
     "source": "Passagens Imperdíveis",
-    "title": "MUITO BOM!!! Passagens para os NOVA YORK ou BOSTON! A partir de R$ 2.628, ida e volta, c/ taxas!",
-    "destination": "Muito bom! Boston ou Nova York",
-    "price_brl": 2628.0,
+    "title": "Aproveite! Passagens para o Chile: Santiago ou Argentina: Buenos Aires! A partir de R$ 1.180, ida e volta, c/ taxas! Opções de VOO DIRETO!",
+    "destination": "Aproveite! Chile ou Argentina",
+    "price_brl": 1103.0,
     "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-nova-york-boston-2026/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/nova_york_eua_estados_unidos_6-612x612.jpg",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-chile-santiago-argentina-buenos-aires-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/santiago_chile_612-612x612.jpg",
     "trip_type": "round_trip",
-    "fetched_at": "2026-08-23T19:23:05.649469+00:00",
-    "id": "115aff50619c"
+    "fetched_at": "2026-08-23T19:45:51.457479+00:00",
+    "id": "951415ef7585"
   },
   {
     "source": "Passagens Imperdíveis",
-    "title": "Programe sua viagem para Ouro Preto, Tiradentes e mais! Passagens para BELO HORIZONTE! A partir de R$ 290, ida e volta, c/ taxas!",
-    "destination": "Belo Horizonte",
-    "price_brl": 290.0,
+    "title": "Passagens para SÃO PAULO ou RIO DE JANEIRO! Datas até Maio/27, inclusive férias, feriados e mais! A partir de R$ 373, ida e volta, c/ taxas!",
+    "destination": "São Paulo ou Rio de Janeiro",
+    "price_brl": 373.0,
     "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-belo-horizonte-2026/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/belo_horizonte_612_612-612x612.png",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-sao-paulo-rio-de-janeiro-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/sao_paulo_sp_brasil_1_2_3-612x612.png",
     "trip_type": "round_trip",
-    "fetched_at": "2026-08-23T19:23:05.649483+00:00",
-    "id": "e6cb6edcfec3"
+    "fetched_at": "2026-08-23T19:45:51.457484+00:00",
+    "id": "69755cedfda3"
+  },
+  {
+    "source": "GOL",
+    "title": "GOL: São Paulo (SAO) → Oranjestad, Aruba (AUA) - 24/09/2026 a 02/10/2026",
+    "destination": "Oranjestad, Aruba",
+    "destination_iata": "AUA",
+    "origin": "São Paulo",
+    "origin_iata": "SAO",
+    "price_brl": 2441.3,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/SAO/AUA",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/02-1500px-x-500px-3.png",
+    "airline": "GOL",
+    "trip_type": "round_trip",
+    "travel_class": "Econômica",
+    "departure_date": "2026-09-24",
+    "return_date": "2026-10-02",
+    "fetched_at": "2026-08-23T19:45:54.392251+00:00",
+    "id": "17e502f5fc79"
   }
 ]
