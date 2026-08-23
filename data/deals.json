@@ -12,18 +12,6 @@
     "id": "e6cb6edcfec3"
   },
   {
-    "source": "Passagens Imperdíveis",
-    "title": "Programe sua viagem para Ouro Preto, Tiradentes e mais! Passagens para BELO HORIZONTE! A partir de R$ 297, ida e volta, c/ taxas!",
-    "destination": "Belo Horizonte",
-    "price_brl": 290.0,
-    "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-belo-horizonte-2026/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/whatsapp_image_2024_09_24_at_12_01_29-612x612.jpg",
-    "trip_type": "round_trip",
-    "fetched_at": "2026-08-22T10:24:31.698647+00:00",
-    "id": "88280011399f"
-  },
-  {
     "source": "GOL",
     "title": "GOL: Rio de Janeiro (RIO) → São Paulo (CGH) - 23/10/2026",
     "destination": "São Paulo",
@@ -569,25 +557,6 @@
     "return_date": "",
     "fetched_at": "2026-08-22T16:25:42.182207+00:00",
     "id": "79b15c667902"
-  },
-  {
-    "source": "GOL",
-    "title": "GOL: São Paulo (CGH) → Belo Horizonte (CNF) - 30/08/2026",
-    "destination": "Belo Horizonte",
-    "destination_iata": "CNF",
-    "origin": "São Paulo",
-    "origin_iata": "CGH",
-    "price_brl": 787.28,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/CGH/CNF",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/belo-horizonte-1-1500px-x-500px.png",
-    "airline": "GOL",
-    "trip_type": "one_way",
-    "travel_class": "Econômica",
-    "departure_date": "2026-08-30",
-    "return_date": "",
-    "fetched_at": "2026-08-22T10:24:32.937962+00:00",
-    "id": "4564c23ec67e"
   },
   {
     "source": "GOL",
@@ -3024,24 +2993,6 @@
   },
   {
     "source": "TAP",
-    "title": "TAP: São Paulo (GRU) → Lisboa (LIS) - 21/08/2026 a 26/09/2026",
-    "destination": "Lisboa",
-    "destination_iata": "LIS",
-    "origin": "São Paulo",
-    "origin_iata": "GRU",
-    "price_brl": 4464.0,
-    "currency": "BRL",
-    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
-    "image_url": "https://assets.airtrfx.com/media-em/tp/lisboa-1-1500px.jpg",
-    "airline": "TAP",
-    "trip_type": "round_trip",
-    "departure_date": "21/08/2026",
-    "return_date": "26/09/2026",
-    "fetched_at": "2026-08-22T10:24:33.285459+00:00",
-    "id": "8c946ad095a7"
-  },
-  {
-    "source": "TAP",
     "title": "TAP: São Paulo (GRU) → Lisboa (LIS) - 22/08/2026 a 21/09/2026",
     "destination": "Lisboa",
     "destination_iata": "LIS",
@@ -3158,24 +3109,6 @@
   },
   {
     "source": "TAP",
-    "title": "TAP: São Paulo (GRU) → Porto (OPO) - 23/08/2026 a 10/09/2026",
-    "destination": "Porto",
-    "destination_iata": "OPO",
-    "origin": "São Paulo",
-    "origin_iata": "GRU",
-    "price_brl": 6298.0,
-    "currency": "BRL",
-    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
-    "image_url": "https://assets.airtrfx.com/media-em/tp/porto-1-1500px.jpg",
-    "airline": "TAP",
-    "trip_type": "round_trip",
-    "departure_date": "23/08/2026",
-    "return_date": "10/09/2026",
-    "fetched_at": "2026-08-22T10:24:33.285775+00:00",
-    "id": "9ca4926e141d"
-  },
-  {
-    "source": "TAP",
     "title": "TAP: Rio de Janeiro (GIG) → Lisboa (LIS) - 11/09/2026 a 17/09/2026",
     "destination": "Lisboa",
     "destination_iata": "LIS",
@@ -3191,24 +3124,6 @@
     "return_date": "17/09/2026",
     "fetched_at": "2026-08-23T05:30:39.267560+00:00",
     "id": "694e970728b1"
-  },
-  {
-    "source": "TAP",
-    "title": "TAP: Rio de Janeiro (GIG) → Porto (OPO) - 23/08/2026 a 10/08/2027",
-    "destination": "Porto",
-    "destination_iata": "OPO",
-    "origin": "Rio de Janeiro",
-    "origin_iata": "GIG",
-    "price_brl": 6506.0,
-    "currency": "BRL",
-    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
-    "image_url": "https://assets.airtrfx.com/media-em/tp/porto-1-1500px.jpg",
-    "airline": "TAP",
-    "trip_type": "round_trip",
-    "departure_date": "23/08/2026",
-    "return_date": "10/08/2027",
-    "fetched_at": "2026-08-22T10:24:33.285983+00:00",
-    "id": "bb51c452cfe3"
   },
   {
     "source": "TAP",
@@ -3279,24 +3194,6 @@
   },
   {
     "source": "TAP",
-    "title": "TAP: São Paulo (GRU) → Dublin (DUB) - 16/09/2026 a 25/09/2026",
-    "destination": "Dublin",
-    "destination_iata": "DUB",
-    "origin": "São Paulo",
-    "origin_iata": "GRU",
-    "price_brl": 7080.0,
-    "currency": "BRL",
-    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
-    "image_url": "https://assets.airtrfx.com/media-em/tp/dublin-1-1500px.jpg",
-    "airline": "TAP",
-    "trip_type": "round_trip",
-    "departure_date": "16/09/2026",
-    "return_date": "25/09/2026",
-    "fetched_at": "2026-08-22T10:24:33.286377+00:00",
-    "id": "7f85b5f56a10"
-  },
-  {
-    "source": "TAP",
     "title": "TAP: Rio de Janeiro (GIG) → Porto (OPO) - 19/09/2026 a 28/02/2027",
     "destination": "Porto",
     "destination_iata": "OPO",
@@ -3330,24 +3227,6 @@
     "return_date": "13/09/2026",
     "fetched_at": "2026-08-23T09:54:29.566301+00:00",
     "id": "de18df2e52be"
-  },
-  {
-    "source": "TAP",
-    "title": "TAP: Rio de Janeiro (GIG) → Lisboa (LIS) - 11/09/2026 a 22/09/2026",
-    "destination": "Lisboa",
-    "destination_iata": "LIS",
-    "origin": "Rio de Janeiro",
-    "origin_iata": "GIG",
-    "price_brl": 7515.0,
-    "currency": "BRL",
-    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
-    "image_url": "https://assets.airtrfx.com/media-em/tp/lisboa-1-1500px.jpg",
-    "airline": "TAP",
-    "trip_type": "round_trip",
-    "departure_date": "11/09/2026",
-    "return_date": "22/09/2026",
-    "fetched_at": "2026-08-22T10:24:33.285615+00:00",
-    "id": "022e2b3d14ac"
   },
   {
     "source": "TAP",
@@ -3576,5 +3455,23 @@
     "return_date": "20/09/2026",
     "fetched_at": "2026-08-23T05:30:39.267949+00:00",
     "id": "f4e255aa91bc"
+  },
+  {
+    "source": "TAP",
+    "title": "TAP: São Paulo (GRU) → Londres (LGW) - 29/08/2026 a 11/12/2026",
+    "destination": "Londres",
+    "destination_iata": "LGW",
+    "origin": "São Paulo",
+    "origin_iata": "GRU",
+    "price_brl": 9800.0,
+    "currency": "BRL",
+    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
+    "image_url": "https://assets.airtrfx.com/media-em/tp/londres-1-1500px.jpg",
+    "airline": "TAP",
+    "trip_type": "round_trip",
+    "departure_date": "29/08/2026",
+    "return_date": "11/12/2026",
+    "fetched_at": "2026-08-23T10:25:17.540097+00:00",
+    "id": "34ec844241e5"
   }
 ]
