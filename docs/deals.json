@@ -1527,6 +1527,18 @@
     "id": "48a68f95fe2c"
   },
   {
+    "source": "Passagens Imperdíveis",
+    "title": "Passagens para o CARIBE: Aruba, Curaçao, Colômbia, República Dominicana, Costa Rica e mais! A partir de R$ 1.969, ida e volta, c/ taxas! Em até 6x SEM JUROS!",
+    "destination": "Caribe",
+    "price_brl": 1942.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/selecao-de-passagens-para-o-america-do-sul-caribe-colombia-republica-dominicana-costa-rica-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/caribe_geral_2_612_612-612x612.png",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-23T23:46:51.194174+00:00",
+    "id": "3c487fb2b47e"
+  },
+  {
     "source": "GOL",
     "title": "GOL: Rio de Janeiro (GIG) → Fortaleza (FOR) - 31/08/2026 a 14/09/2026",
     "destination": "Fortaleza",
@@ -2329,19 +2341,6 @@
     "id": "7b2121f133eb"
   },
   {
-    "source": "Melhores Destinos",
-    "title": "Itália: voos para Milão, Veneza, Roma e mais cidades a partir de R$ 3.771 ida e volta",
-    "destination": "Milão, Veneza, Roma e mais cidades",
-    "price_brl": 3771.0,
-    "currency": "BRL",
-    "link": "https://www.melhoresdestinos.com.br/promocao/italia-voos-para-milao-veneza-roma-e-mais-cidades-a-partir-de-r-3-771-ida-e-volta",
-    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-roma-capa2019-01-754x396.jpg",
-    "airline": null,
-    "trip_type": "round_trip",
-    "fetched_at": "2026-08-22T23:46:37.618289+00:00",
-    "id": "3de146312fa1"
-  },
-  {
     "source": "GOL",
     "title": "GOL: São Paulo (GRU) → Mendoza (MDZ) - 26/08/2026 a 09/09/2026",
     "destination": "Mendoza",
@@ -2447,18 +2446,6 @@
     "id": "bc7b8acd781d"
   },
   {
-    "source": "Passagens Imperdíveis",
-    "title": "Passagens para a CHINA ou JAPÃO! Vá para Xangai, Pequim ou Tokyo! A partir de R$ 5.522, ida e volta, c/ taxas! Em até 5x SEM JUROS! Opções com BAGAGEM INCLUÍDA!",
-    "destination": "China ou Japão",
-    "price_brl": 5522.0,
-    "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-china-xangai-pequim-japao-tokyo-2026/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/muralha_china_612-612x612.jpg",
-    "trip_type": "round_trip",
-    "fetched_at": "2026-08-22T23:46:42.634843+00:00",
-    "id": "c12e3628e1c1"
-  },
-  {
     "source": "GOL",
     "title": "GOL: Rio de Janeiro (GIG) → Nova York (JFK) - 27/08/2026 a 30/08/2026",
     "destination": "Nova York",
@@ -2476,19 +2463,6 @@
     "return_date": "2026-08-30",
     "fetched_at": "2026-08-23T22:23:04.679207+00:00",
     "id": "11ea8716ce9f"
-  },
-  {
-    "source": "Melhores Destinos",
-    "title": "Tailândia na alta temporada! Passagens aéreas para Bangkok a partir de R$ 6.167 ida e volta",
-    "destination": "Bangkok",
-    "price_brl": 6167.0,
-    "currency": "BRL",
-    "link": "https://www.melhoresdestinos.com.br/promocao/tailandia-alta-temporada-6167",
-    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2026/02/passagens-aereas-tailandia-capa-2026-754x396.jpg",
-    "airline": null,
-    "trip_type": "round_trip",
-    "fetched_at": "2026-08-22T23:46:33.729352+00:00",
-    "id": "56a3eea0aa51"
   },
   {
     "source": "TAP",
@@ -2579,19 +2553,6 @@
     "return_date": "27/09/2026",
     "fetched_at": "2026-08-23T18:31:27.748425+00:00",
     "id": "a9feaa8c142a"
-  },
-  {
-    "source": "Melhores Destinos",
-    "title": "🇦🇺 Austrália ou Nova Zelândia 🇳🇿 Passagens aéreas a partir de R$ 6.911 ida e volta saindo do Rio, São Paulo e mais cidades!",
-    "destination": null,
-    "price_brl": 6911.0,
-    "currency": "BRL",
-    "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-nova-zelandia-australia-29-04-26",
-    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-auckland-capa2019-01-754x396.jpg",
-    "airline": null,
-    "trip_type": "round_trip",
-    "fetched_at": "2026-08-22T23:46:41.816465+00:00",
-    "id": "6489e5cc2f52"
   },
   {
     "source": "TAP",

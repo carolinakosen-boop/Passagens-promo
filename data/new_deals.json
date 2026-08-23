@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "source": "Passagens Imperdíveis",
+    "title": "Passagens para o CARIBE: Aruba, Curaçao, Colômbia, República Dominicana, Costa Rica e mais! A partir de R$ 1.969, ida e volta, c/ taxas! Em até 6x SEM JUROS!",
+    "destination": "Caribe",
+    "price_brl": 1942.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/selecao-de-passagens-para-o-america-do-sul-caribe-colombia-republica-dominicana-costa-rica-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/caribe_geral_2_612_612-612x612.png",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-23T23:46:51.194174+00:00",
+    "id": "3c487fb2b47e"
+  }
+]
