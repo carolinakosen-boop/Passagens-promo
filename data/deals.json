@@ -1070,19 +1070,6 @@
     "id": "75a5756d96b5"
   },
   {
-    "source": "Melhores Destinos",
-    "title": "Temporada de neve já começou! Viaje para o Chile com passagens para Santiago a partir de R$ 1.261 ida e volta",
-    "destination": "Chile",
-    "price_brl": 1261.0,
-    "currency": "BRL",
-    "link": "https://www.melhoresdestinos.com.br/promocao/neve-passagens-para-santiago-22jun26",
-    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2024/06/neve-ad-santiago-bariloche-capa-754x396.jpeg",
-    "airline": null,
-    "trip_type": "round_trip",
-    "fetched_at": "2026-08-22T04:33:52.609997+00:00",
-    "id": "3d5bddb05f84"
-  },
-  {
     "source": "GOL",
     "title": "GOL: São Paulo (GRU) → Santa Cruz de la Sierra (VVI) - 12/09/2026 a 29/09/2026",
     "destination": "Santa Cruz de la Sierra",
@@ -3573,5 +3560,17 @@
     "return_date": "18/12/2026",
     "fetched_at": "2026-08-22T10:49:51.238091+00:00",
     "id": "12c6ba1c8deb"
+  },
+  {
+    "source": "Passagens Imperdíveis",
+    "title": "Passagens para a Nova Zelândia: Auckland, Wellington ou Christchurch! A partir de R$ 8.230, ida e volta, c/ taxas!",
+    "destination": "Nova Zelândia",
+    "price_brl": 8230.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-nova-zelandia-auckland-wellington-christchurch-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/auckland_nova_zelandia-612x612.png",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-23T04:38:13.284805+00:00",
+    "id": "abd9c4e6cb8d"
   }
 ]
