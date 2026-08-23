@@ -2449,30 +2449,6 @@
     "id": "115aff50619c"
   },
   {
-    "source": "Passagens Imperdíveis",
-    "title": "Passagens para NOVA YORK ou LOS ANGELES! Datas inclusive na Primavera, férias e mais! A partir de R$ 2.902, ida e volta, c/ taxas! Em até 10x SEM JUROS!",
-    "destination": "Nova York ou Los Angeles",
-    "price_brl": 2628.0,
-    "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-nova-york-los-angeles-2026/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/nova_iorque_new_york_eua_612_4-612x612.jpg",
-    "trip_type": "round_trip",
-    "fetched_at": "2026-08-22T08:31:39.999502+00:00",
-    "id": "23512aa5d393"
-  },
-  {
-    "source": "Passagens Imperdíveis",
-    "title": "Passagens para CHICAGO ou BOSTON! Datas inclusive na Primavera, férias e mais! A partir de R$ 2.911, ida e volta, c/ taxas! Em até 10x SEM JUROS!",
-    "destination": "Chicago ou Boston",
-    "price_brl": 2669.0,
-    "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-chicago-boston-2026/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/chicago_estados_unidos_eua-612x612.png",
-    "trip_type": "round_trip",
-    "fetched_at": "2026-08-22T09:27:23.094875+00:00",
-    "id": "bd0f99f6467f"
-  },
-  {
     "source": "GOL",
     "title": "GOL: Rio de Janeiro (GIG) → Ilhéus (IOS) - 20/08/2026",
     "destination": "Ilhéus",
@@ -2490,18 +2466,6 @@
     "return_date": "",
     "fetched_at": "2026-08-22T17:21:37.415169+00:00",
     "id": "17002b1a7bed"
-  },
-  {
-    "source": "Passagens Imperdíveis",
-    "title": "Passagens para CHICAGO ou BOSTON! Datas inclusive na Primavera, férias e mais! A partir de R$ 2.911, ida e volta, c/ taxas! Em até 10x SEM JUROS!",
-    "destination": "Chicago ou Boston",
-    "price_brl": 2705.0,
-    "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-chicago-boston-2026/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/chicago_estados_unidos_eua-612x612.png",
-    "trip_type": "round_trip",
-    "fetched_at": "2026-08-22T08:31:39.999487+00:00",
-    "id": "dea66de155dc"
   },
   {
     "source": "GOL",
@@ -2629,18 +2593,6 @@
     "return_date": "2027-05-05",
     "fetched_at": "2026-08-22T21:22:39.325472+00:00",
     "id": "5ead2bb60908"
-  },
-  {
-    "source": "Passagens Imperdíveis",
-    "title": "Passagens para ORLANDO ou NOVA YORK! Datas inclusive na Primavera, férias e mais! A partir de R$ 2.865, ida e volta, c/ taxas!",
-    "destination": "Orlando ou Nova York",
-    "price_brl": 2851.0,
-    "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-orlando-nova-york-2026/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/disney_orlando-612x612.png",
-    "trip_type": "round_trip",
-    "fetched_at": "2026-08-22T08:31:39.999569+00:00",
-    "id": "836427167b45"
   },
   {
     "source": "GOL",
