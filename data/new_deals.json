@@ -1,1 +1,21 @@
-[]
+[
+  {
+    "source": "GOL",
+    "title": "GOL: Rio de Janeiro (GIG) → Oranjestad, Aruba (AUA) - 01/09/2026 a 07/09/2026",
+    "destination": "Oranjestad, Aruba",
+    "destination_iata": "AUA",
+    "origin": "Rio de Janeiro",
+    "origin_iata": "GIG",
+    "price_brl": 1823.48,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/GIG/AUA",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/02-1500px-x-500px-3.png",
+    "airline": "GOL",
+    "trip_type": "round_trip",
+    "travel_class": "Econômica",
+    "departure_date": "2026-09-01",
+    "return_date": "2026-09-07",
+    "fetched_at": "2026-08-23T15:48:19.405787+00:00",
+    "id": "bef08cbd90de"
+  }
+]
