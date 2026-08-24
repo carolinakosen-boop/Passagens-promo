@@ -239,6 +239,25 @@
   },
   {
     "source": "GOL",
+    "title": "GOL: São Paulo (SAO) → Salvador (SSA) - 24/08/2026",
+    "destination": "Salvador",
+    "destination_iata": "SSA",
+    "origin": "São Paulo",
+    "origin_iata": "SAO",
+    "price_brl": 673.16,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/SAO/SSA",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/02-1500px-x-500px-2.png",
+    "airline": "GOL",
+    "trip_type": "one_way",
+    "travel_class": "Econômica",
+    "departure_date": "2026-08-24",
+    "return_date": "",
+    "fetched_at": "2026-08-24T04:46:14.532858+00:00",
+    "id": "56c435f6b037"
+  },
+  {
+    "source": "GOL",
     "title": "GOL: São Paulo (CGH) → Salvador (SSA) - 30/08/2026",
     "destination": "Salvador",
     "destination_iata": "SSA",
@@ -2726,18 +2745,6 @@
     "return_date": "01/10/2026",
     "fetched_at": "2026-08-23T11:21:30.986495+00:00",
     "id": "9e7bb378a55b"
-  },
-  {
-    "source": "Passagens Imperdíveis",
-    "title": "Passagens para a Nova Zelândia: Auckland, Wellington ou Christchurch! A partir de R$ 8.230, ida e volta, c/ taxas!",
-    "destination": "Nova Zelândia",
-    "price_brl": 8230.0,
-    "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-nova-zelandia-auckland-wellington-christchurch-2026/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/auckland_nova_zelandia-612x612.png",
-    "trip_type": "round_trip",
-    "fetched_at": "2026-08-23T04:38:13.284805+00:00",
-    "id": "abd9c4e6cb8d"
   },
   {
     "source": "TAP",

@@ -1,21 +1,21 @@
 [
   {
     "source": "GOL",
-    "title": "GOL: São Paulo (GRU) → Fortaleza (FOR) - 31/08/2026 a 06/09/2026",
-    "destination": "Fortaleza",
-    "destination_iata": "FOR",
+    "title": "GOL: São Paulo (SAO) → Salvador (SSA) - 24/08/2026",
+    "destination": "Salvador",
+    "destination_iata": "SSA",
     "origin": "São Paulo",
-    "origin_iata": "GRU",
-    "price_brl": 1600.43,
+    "origin_iata": "SAO",
+    "price_brl": 673.16,
     "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/GRU/FOR",
-    "image_url": null,
+    "link": "https://www.voegol.com.br/br/voos/SAO/SSA",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/02-1500px-x-500px-2.png",
     "airline": "GOL",
-    "trip_type": "round_trip",
+    "trip_type": "one_way",
     "travel_class": "Econômica",
-    "departure_date": "2026-08-31",
-    "return_date": "2026-09-06",
-    "fetched_at": "2026-08-24T03:55:14.074860+00:00",
-    "id": "2ae3a126a127"
+    "departure_date": "2026-08-24",
+    "return_date": "",
+    "fetched_at": "2026-08-24T04:46:14.532858+00:00",
+    "id": "56c435f6b037"
   }
 ]
