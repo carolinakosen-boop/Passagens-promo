@@ -1,26 +1,32 @@
 [
   {
     "source": "Passagens Imperdíveis",
-    "title": "MUITO BOM!!! Passagens para os NOVA YORK ou BOSTON! A partir de R$ 2.628, ida e volta, c/ taxas!",
-    "destination": "Muito bom! Boston ou Nova York",
+    "title": "Passagens para NOVA YORK ou LOS ANGELES! Datas inclusive na Primavera, férias e mais! A partir de R$ 2.902, ida e volta, c/ taxas! Em até 10x SEM JUROS!",
+    "destination": "Nova York ou Los Angeles",
     "price_brl": 2660.0,
     "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-nova-york-boston-2026/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/nova_york_eua_estados_unidos_6-612x612.jpg",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-nova-york-los-angeles-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/nova_iorque_new_york_eua_612_4-612x612.jpg",
     "trip_type": "round_trip",
-    "fetched_at": "2026-08-24T09:23:21.514132+00:00",
-    "id": "99d4c2d9f888"
+    "fetched_at": "2026-08-24T10:10:47.478168+00:00",
+    "id": "9d57a159a7d2"
   },
   {
-    "source": "Passagens Imperdíveis",
-    "title": "Passagens para CHICAGO ou BOSTON! Datas inclusive na Primavera, férias e mais! A partir de R$ 2.911, ida e volta, c/ taxas! Em até 10x SEM JUROS!",
-    "destination": "Chicago ou Boston",
-    "price_brl": 2689.0,
+    "source": "TAP",
+    "title": "TAP: São Paulo (GRU) → Londres (LGW) - 01/09/2026 a 13/02/2027",
+    "destination": "Londres",
+    "destination_iata": "LGW",
+    "origin": "São Paulo",
+    "origin_iata": "GRU",
+    "price_brl": 9251.0,
     "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-chicago-boston-2026/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/chicago_estados_unidos_eua-612x612.png",
+    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
+    "image_url": "https://assets.airtrfx.com/media-em/tp/londres-1-1500px.jpg",
+    "airline": "TAP",
     "trip_type": "round_trip",
-    "fetched_at": "2026-08-24T09:23:21.514165+00:00",
-    "id": "5bb0cd79df21"
+    "departure_date": "01/09/2026",
+    "return_date": "13/02/2027",
+    "fetched_at": "2026-08-24T10:10:49.142714+00:00",
+    "id": "383f4239b259"
   }
 ]
