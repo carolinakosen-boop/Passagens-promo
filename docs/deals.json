@@ -365,6 +365,18 @@
   },
   {
     "source": "Passagens Imperdíveis",
+    "title": "Programe sua viagem para Ouro Preto, Tiradentes e mais! Passagens para BELO HORIZONTE! A partir de R$ 290, ida e volta, c/ taxas!",
+    "destination": "Belo Horizonte",
+    "price_brl": 458.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-belo-horizonte-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/belo_horizonte_612_612-612x612.png",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-24T18:41:06.458933+00:00",
+    "id": "e77e97b46a0d"
+  },
+  {
+    "source": "Passagens Imperdíveis",
     "title": "Oportunidade! Programe sua viagem para os Lençóis Maranhenses! Passagens para SÃO LUÍS! A partir de R$ 460, ida e volta, c/ taxas!",
     "destination": "Programe-se para os Lençóis Maranhenses!",
     "price_brl": 460.0,
@@ -785,6 +797,18 @@
     "id": "fadc962f3c66"
   },
   {
+    "source": "Passagens Imperdíveis",
+    "title": "PASSAGEM + HOTEL no RIO DE JANEIRO! A partir de R$ 959, por pessoa, quarto duplo, c/ taxas! Em até 10x SEM JUROS!",
+    "destination": "Pacote: Rio de Janeiro",
+    "price_brl": 959.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-mais-hotel-para-brasil-rio-de-janeiro-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/praia_arpoador_rio_de_janeiro_brasil_nacional_nacionais-612x612.png",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-24T18:41:06.458828+00:00",
+    "id": "6ae4090b2587"
+  },
+  {
     "source": "GOL",
     "title": "GOL: São Paulo (GRU) → Fortaleza (FOR) - 31/08/2026",
     "destination": "Fortaleza",
@@ -962,25 +986,6 @@
   },
   {
     "source": "GOL",
-    "title": "GOL: Rio de Janeiro (GIG) → Assunção (ASU) - 18/11/2026 a 21/11/2026",
-    "destination": "Assunção",
-    "destination_iata": "ASU",
-    "origin": "Rio de Janeiro",
-    "origin_iata": "GIG",
-    "price_brl": 1001.24,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/GIG/ASU",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/assun%C3%A7%C3%A3o-1-1500px-x-500px.png",
-    "airline": "GOL",
-    "trip_type": "round_trip",
-    "travel_class": "Econômica",
-    "departure_date": "2026-11-18",
-    "return_date": "2026-11-21",
-    "fetched_at": "2026-08-23T18:31:25.751099+00:00",
-    "id": "93481e5cb79e"
-  },
-  {
-    "source": "GOL",
     "title": "GOL: São Paulo (GRU) → Montevideo (MVD) - 14/11/2026 a 18/11/2026",
     "destination": "Montevideo",
     "destination_iata": "MVD",
@@ -1154,18 +1159,6 @@
     "return_date": "2026-09-30",
     "fetched_at": "2026-08-24T13:52:48.055759+00:00",
     "id": "9d7627688404"
-  },
-  {
-    "source": "Passagens Imperdíveis",
-    "title": "Passagens para BUENOS AIRES ou SANTIAGO! A partir de R$ 1.180, ida e volta, c/ taxas! Em até 6x SEM JUROS! Opções de VOO DIRETO!",
-    "destination": "Buenos Aires ou Santiago",
-    "price_brl": 1180.0,
-    "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-buenos-aires-santiago-2026/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/chile_santiago_612_612-612x612.png",
-    "trip_type": "round_trip",
-    "fetched_at": "2026-08-23T18:31:24.734471+00:00",
-    "id": "940ef8c12a95"
   },
   {
     "source": "Passagens Imperdíveis",
@@ -2761,6 +2754,19 @@
     "id": "1e8eead3db78"
   },
   {
+    "source": "Melhores Destinos",
+    "title": "Bora para Orlando? Voos a partir de R$ 2.151 ida e volta saindo de várias cidades",
+    "destination": "Orlando? Voos",
+    "price_brl": 2151.0,
+    "currency": "BRL",
+    "link": "https://www.melhoresdestinos.com.br/promocao/bora-para-orlando-voos-2151",
+    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2021/10/orlando-eua-disney-capa14-754x396.jpg",
+    "airline": null,
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-24T18:41:02.345277+00:00",
+    "id": "f610546149c6"
+  },
+  {
     "source": "GOL",
     "title": "GOL: São Paulo (CGH) → Rio de Janeiro (SDU) - 30/08/2026",
     "destination": "Rio de Janeiro",
@@ -2911,6 +2917,19 @@
     "return_date": "2026-11-17",
     "fetched_at": "2026-08-23T20:49:50.003676+00:00",
     "id": "23d252e3d912"
+  },
+  {
+    "source": "Melhores Destinos",
+    "title": "Orlando com bons preços: passagens a partir de R$ 2.380 ida e volta saindo de São Paulo e mais cidades",
+    "destination": null,
+    "price_brl": 2380.0,
+    "currency": "BRL",
+    "link": "https://www.melhoresdestinos.com.br/promocao/orlando-bons-precos-2380",
+    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2024/02/apartamentos-orlando-capa-754x396.jpg",
+    "airline": null,
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-24T18:41:00.917523+00:00",
+    "id": "24cd140a6e33"
   },
   {
     "source": "GOL",
@@ -3097,44 +3116,6 @@
     "return_date": "2026-10-28",
     "fetched_at": "2026-08-23T21:22:46.317496+00:00",
     "id": "9d24b4935548"
-  },
-  {
-    "source": "GOL",
-    "title": "GOL: Rio de Janeiro (RIO) → Nova York (JFK) - 01/04/2027 a 09/04/2027",
-    "destination": "Nova York",
-    "destination_iata": "JFK",
-    "origin": "Rio de Janeiro",
-    "origin_iata": "RIO",
-    "price_brl": 2779.2,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/RIO/JFK",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/JFK_7_11zon.png",
-    "airline": "GOL",
-    "trip_type": "round_trip",
-    "travel_class": "Econômica",
-    "departure_date": "2027-04-01",
-    "return_date": "2027-04-09",
-    "fetched_at": "2026-08-23T18:31:25.751041+00:00",
-    "id": "a9c2ae1f5036"
-  },
-  {
-    "source": "GOL",
-    "title": "GOL: Rio de Janeiro (GIG) → Nova York (JFK) - 29/06/2027 a 14/07/2027",
-    "destination": "Nova York",
-    "destination_iata": "JFK",
-    "origin": "Rio de Janeiro",
-    "origin_iata": "GIG",
-    "price_brl": 2779.21,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/GIG/JFK",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/JFK_7_11zon.png",
-    "airline": "GOL",
-    "trip_type": "round_trip",
-    "travel_class": "Econômica",
-    "departure_date": "2027-06-29",
-    "return_date": "2027-07-14",
-    "fetched_at": "2026-08-23T18:31:25.751044+00:00",
-    "id": "946a7af943e8"
   },
   {
     "source": "GOL",
