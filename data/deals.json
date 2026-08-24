@@ -227,6 +227,18 @@
   },
   {
     "source": "Passagens Imperdíveis",
+    "title": "Passagens para as PRAIAS DO NORDESTE: Recife, Salvador, Fortaleza, Porto Seguro, João Pessoa, Natal e mais! A partir de R$ 326, ida e volta!",
+    "destination": "Aproveite as praias do Nordeste",
+    "price_brl": 402.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/passagens-nacionais-praias-nordeste-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/recife_pernambuco_brasil_2-612x612.jpg",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-24T17:32:03.110328+00:00",
+    "id": "f24d39180f86"
+  },
+  {
+    "source": "Passagens Imperdíveis",
     "title": "Passagens para as PRAIAS DO NORDESTE: Aracaju, Fortaleza, Ilhéus, João Pessoa, Maceió, Natal, Porto Seguro, Recife, Salvador ou São Luís! A partir de R$ 406, ida e volta!",
     "destination": "Praias do Nordeste",
     "price_brl": 402.0,
@@ -381,6 +393,18 @@
     "return_date": "",
     "fetched_at": "2026-08-24T16:38:29.813299+00:00",
     "id": "b0480f29979f"
+  },
+  {
+    "source": "Passagens Imperdíveis",
+    "title": "Oportunidade! Programe sua viagem para os Lençóis Maranhenses! Passagens para SÃO LUÍS! A partir de R$ 460, ida e volta, c/ taxas!",
+    "destination": "Programe-se para os Lençóis Maranhenses!",
+    "price_brl": 532.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-sao-luis-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/lencois_maranhenses_barreirinhas_maranhao_brasil_nacional_nacionais_3-612x612.png",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-24T17:32:03.110345+00:00",
+    "id": "a7a186516c50"
   },
   {
     "source": "GOL",
@@ -730,6 +754,18 @@
     "id": "df70a258a7b6"
   },
   {
+    "source": "Passagens Imperdíveis",
+    "title": "Programe sua viagem para as Cataratas do Iguaçu! Passagens para FOZ DO IGUAÇU! A partir de R$ 701, ida e volta, c/ taxas!",
+    "destination": "Foz do Iguaçu",
+    "price_brl": 844.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-foz-do-iguacu-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/foz_do_iguacu_parana_nacional_nacionais_brasil-612x612.png",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-24T17:32:03.110354+00:00",
+    "id": "bb358c28ad30"
+  },
+  {
     "source": "GOL",
     "title": "GOL: São Paulo (SAO) → Recife (REC) - 31/08/2026",
     "destination": "Recife",
@@ -785,6 +821,30 @@
     "return_date": "",
     "fetched_at": "2026-08-24T13:52:49.851244+00:00",
     "id": "7df1f2e5848b"
+  },
+  {
+    "source": "Passagens Imperdíveis",
+    "title": "MUITO BOM!!! Passagens para o CHILE: Santiago! A partir de R$ 979, ida e volta, c/ taxas! Em até 6x SEM JUROS! Opções de VOO DIRETO!",
+    "destination": "Santiago, Chile",
+    "price_brl": 979.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-chile-santiago-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/chile_santiago_612_612-612x612.png",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-24T17:32:03.110252+00:00",
+    "id": "6544fcac3f52"
+  },
+  {
+    "source": "Passagens Imperdíveis",
+    "title": "Aproveite! Passagens para o Chile: Santiago ou Argentina: Buenos Aires! A partir de R$ 1.180, ida e volta, c/ taxas! Opções de VOO DIRETO!",
+    "destination": "Aproveite! Chile ou Argentina",
+    "price_brl": 979.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-chile-santiago-argentina-buenos-aires-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/santiago_chile_612-612x612.jpg",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-24T17:32:03.110358+00:00",
+    "id": "37a18dbbba3d"
   },
   {
     "source": "GOL",
@@ -1917,25 +1977,6 @@
     "id": "1526b5ccb7ae"
   },
   {
-    "source": "GOL",
-    "title": "GOL: Rio de Janeiro (SDU) → São Paulo (CGH) - 30/08/2026 a 02/09/2026",
-    "destination": "São Paulo",
-    "destination_iata": "CGH",
-    "origin": "Rio de Janeiro",
-    "origin_iata": "SDU",
-    "price_brl": 1578.19,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/SDU/CGH",
-    "image_url": null,
-    "airline": "GOL",
-    "trip_type": "round_trip",
-    "travel_class": "Econômica",
-    "departure_date": "2026-08-30",
-    "return_date": "2026-09-02",
-    "fetched_at": "2026-08-23T16:53:54.655535+00:00",
-    "id": "191d183adeeb"
-  },
-  {
     "source": "Passagens Imperdíveis",
     "title": "Passagens para a ARGENTINA: Mendoza ou Bariloche! Datas inclusive no Inverno, férias e mais! A partir de R$ 1.987, ida e volta, c/ taxas! Em até 6x SEM JUROS!",
     "destination": "Mendoza ou Bariloche",
@@ -2386,25 +2427,6 @@
   },
   {
     "source": "GOL",
-    "title": "GOL: São Paulo (GRU) → Buenos Aires (EZE) - 27/09/2026 a 02/10/2026",
-    "destination": "Buenos Aires",
-    "destination_iata": "EZE",
-    "origin": "São Paulo",
-    "origin_iata": "GRU",
-    "price_brl": 1901,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/GRU/EZE",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/buenos-aires-2-1500px-x-500px.png",
-    "airline": "GOL",
-    "trip_type": "round_trip",
-    "travel_class": "Econômica",
-    "departure_date": "2026-09-27",
-    "return_date": "2026-10-02",
-    "fetched_at": "2026-08-23T16:53:54.345961+00:00",
-    "id": "1e01c3836abd"
-  },
-  {
-    "source": "GOL",
     "title": "GOL: Rio de Janeiro (RIO) → Salvador (SSA) - 31/08/2026 a 05/09/2026",
     "destination": "Salvador",
     "destination_iata": "SSA",
@@ -2740,57 +2762,6 @@
   },
   {
     "source": "GOL",
-    "title": "GOL: Rio de Janeiro (RIO) → Miami (MIA) - 02/12/2026 a 07/12/2026",
-    "destination": "Miami",
-    "destination_iata": "MIA",
-    "origin": "Rio de Janeiro",
-    "origin_iata": "RIO",
-    "price_brl": 2106.08,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/RIO/MIA",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/miami-1-1500px-x-500px-1.png",
-    "airline": "GOL",
-    "trip_type": "round_trip",
-    "travel_class": "Econômica",
-    "departure_date": "2026-12-02",
-    "return_date": "2026-12-07",
-    "fetched_at": "2026-08-23T16:53:54.345980+00:00",
-    "id": "5581195f0c29"
-  },
-  {
-    "source": "GOL",
-    "title": "GOL: São Paulo (GRU) → Ilhéus (IOS) - 30/08/2026",
-    "destination": "Ilhéus",
-    "destination_iata": "IOS",
-    "origin": "São Paulo",
-    "origin_iata": "GRU",
-    "price_brl": 2127.65,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/GRU/IOS",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/ilh%C3%A9us2-1500px-x-500px.png",
-    "airline": "GOL",
-    "trip_type": "one_way",
-    "travel_class": "Econômica",
-    "departure_date": "2026-08-30",
-    "return_date": "",
-    "fetched_at": "2026-08-23T16:53:54.655369+00:00",
-    "id": "64af7d55c26b"
-  },
-  {
-    "source": "Melhores Destinos",
-    "title": "Bora para Orlando? Voos a partir de R$ 2.151 ida e volta saindo de várias cidades",
-    "destination": "Orlando? Voos",
-    "price_brl": 2151.0,
-    "currency": "BRL",
-    "link": "https://www.melhoresdestinos.com.br/promocao/bora-para-orlando-voos-2151",
-    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2021/10/orlando-eua-disney-capa14-754x396.jpg",
-    "airline": null,
-    "trip_type": "round_trip",
-    "fetched_at": "2026-08-23T16:53:50.544676+00:00",
-    "id": "f610546149c6"
-  },
-  {
-    "source": "GOL",
     "title": "GOL: São Paulo (CGH) → Rio de Janeiro (SDU) - 30/08/2026",
     "destination": "Rio de Janeiro",
     "destination_iata": "SDU",
@@ -2924,44 +2895,6 @@
   },
   {
     "source": "GOL",
-    "title": "GOL: São Paulo (GRU) → Punta Cana (PUJ) - 25/09/2026 a 02/10/2026",
-    "destination": "Punta Cana",
-    "destination_iata": "PUJ",
-    "origin": "São Paulo",
-    "origin_iata": "GRU",
-    "price_brl": 2317.31,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/GRU/PUJ",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/punta-cana-2-1500px-x-500px.png",
-    "airline": "GOL",
-    "trip_type": "round_trip",
-    "travel_class": "Econômica",
-    "departure_date": "2026-09-25",
-    "return_date": "2026-10-02",
-    "fetched_at": "2026-08-23T16:53:54.346065+00:00",
-    "id": "01ab1879f90d"
-  },
-  {
-    "source": "GOL",
-    "title": "GOL: São Paulo (SAO) → Punta Cana (PUJ) - 22/09/2026 a 06/10/2026",
-    "destination": "Punta Cana",
-    "destination_iata": "PUJ",
-    "origin": "São Paulo",
-    "origin_iata": "SAO",
-    "price_brl": 2317.31,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/SAO/PUJ",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/punta-cana-2-1500px-x-500px.png",
-    "airline": "GOL",
-    "trip_type": "round_trip",
-    "travel_class": "Econômica",
-    "departure_date": "2026-09-22",
-    "return_date": "2026-10-06",
-    "fetched_at": "2026-08-23T16:53:54.346087+00:00",
-    "id": "77d2dbb83527"
-  },
-  {
-    "source": "GOL",
     "title": "GOL: Rio de Janeiro (GIG) → Miami (MIA) - 29/10/2026 a 17/11/2026",
     "destination": "Miami",
     "destination_iata": "MIA",
@@ -2978,19 +2911,6 @@
     "return_date": "2026-11-17",
     "fetched_at": "2026-08-23T20:49:50.003676+00:00",
     "id": "23d252e3d912"
-  },
-  {
-    "source": "Melhores Destinos",
-    "title": "Orlando com bons preços: passagens a partir de R$ 2.380 ida e volta saindo de São Paulo e mais cidades",
-    "destination": null,
-    "price_brl": 2380.0,
-    "currency": "BRL",
-    "link": "https://www.melhoresdestinos.com.br/promocao/orlando-bons-precos-2380",
-    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2024/02/apartamentos-orlando-capa-754x396.jpg",
-    "airline": null,
-    "trip_type": "round_trip",
-    "fetched_at": "2026-08-23T16:53:47.904969+00:00",
-    "id": "24cd140a6e33"
   },
   {
     "source": "GOL",
@@ -3134,6 +3054,18 @@
     "trip_type": "round_trip",
     "fetched_at": "2026-08-24T09:23:21.514132+00:00",
     "id": "99d4c2d9f888"
+  },
+  {
+    "source": "Passagens Imperdíveis",
+    "title": "Programe sua viagem para a Disney! Passagens para ORLANDO ou TAMPA! A partir de R$ 2.681, ida e volta, c/ taxas! Em até 4x SEM JUROS!",
+    "destination": "Orlando ou Tampa",
+    "price_brl": 2681.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-orlando-ou-tampa-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/b1605db5_a72b_4f6d_b12d_a5279947bea3-612x612.jpg",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-24T17:32:03.110280+00:00",
+    "id": "537bbe444a7c"
   },
   {
     "source": "Passagens Imperdíveis",
@@ -3634,5 +3566,29 @@
     "trip_type": "unknown",
     "fetched_at": "2026-08-23T20:49:42.337160+00:00",
     "id": "83f640872cb0"
+  },
+  {
+    "source": "Passagens Imperdíveis",
+    "title": "Passagens para Lisboa, Madri ou Veneza! A partir de R$ 3.469, ida e volta, c/ taxas!",
+    "destination": "Lisboa, Madri ou Veneza",
+    "price_brl": 3309.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-portugal-lisboa-espanha-madri-italia-veneza-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/ec6401f0_c205_417b_87d8_5abde1d5ea2f-612x612.jpg",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-24T17:32:03.110372+00:00",
+    "id": "3035d8157047"
+  },
+  {
+    "source": "Passagens Imperdíveis",
+    "title": "Passagens para LISBOA ou MADRI! A partir de R$ 3.469, ida e volta, c/ taxas! Em até 5x SEM JUROS! Opções de VOO DIRETO! Opções com BAGAGEM INCLUÍDA!",
+    "destination": "Madri ou Lisboa",
+    "price_brl": 3469.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-lisboa-ou-madri-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/madri_espanha_8-612x612.jpg",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-24T17:32:03.110302+00:00",
+    "id": "96d14e88c6c7"
   }
 ]
