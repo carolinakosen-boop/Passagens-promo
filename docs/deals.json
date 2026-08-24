@@ -725,6 +725,18 @@
     "id": "ca38b5a83823"
   },
   {
+    "source": "Passagens Imperdíveis",
+    "title": "Aproveite! Passagens para o Chile: Santiago ou Argentina: Buenos Aires! A partir de R$ 1.180, ida e volta, c/ taxas! Opções de VOO DIRETO!",
+    "destination": "Aproveite! Chile ou Argentina",
+    "price_brl": 1070.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-chile-santiago-argentina-buenos-aires-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/santiago_chile_612-612x612.jpg",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-24T14:42:49.486109+00:00",
+    "id": "5b76620fe237"
+  },
+  {
     "source": "GOL",
     "title": "GOL: São Paulo (SAO) → Fortaleza (FOR) - 31/08/2026",
     "destination": "Fortaleza",
@@ -2635,6 +2647,18 @@
   },
   {
     "source": "Passagens Imperdíveis",
+    "title": "Passagens para BOSTON ou NOVA YORK! Datas inclusive na Primavera, férias e mais! A partir de R$ 2.660, ida e volta, c/ taxas! Em até 6x SEM JUROS!",
+    "destination": "Boston ou Nova York",
+    "price_brl": 2660.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-boston-ou-nova-york-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/nova_york_nyc_eua-612x612.png",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-24T14:42:49.486012+00:00",
+    "id": "4f4db33906b6"
+  },
+  {
+    "source": "Passagens Imperdíveis",
     "title": "Passagens para NOVA YORK ou LOS ANGELES! Datas inclusive na Primavera, férias e mais! A partir de R$ 2.902, ida e volta, c/ taxas! Em até 10x SEM JUROS!",
     "destination": "Nova York ou Los Angeles",
     "price_brl": 2660.0,
@@ -3073,18 +3097,6 @@
     "trip_type": "round_trip",
     "fetched_at": "2026-08-24T12:52:43.291837+00:00",
     "id": "3035d8157047"
-  },
-  {
-    "source": "Passagens Imperdíveis",
-    "title": "Passagens para Lisboa, Madri ou Veneza! A partir de R$ 3.469, ida e volta, c/ taxas!",
-    "destination": "Lisboa, Madri ou Veneza",
-    "price_brl": 3454.0,
-    "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-portugal-lisboa-espanha-madri-italia-veneza-2026/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/ec6401f0_c205_417b_87d8_5abde1d5ea2f-612x612.jpg",
-    "trip_type": "round_trip",
-    "fetched_at": "2026-08-23T14:24:22.775736+00:00",
-    "id": "22470c4dc83d"
   },
   {
     "source": "Passagens Imperdíveis",
@@ -3568,17 +3580,5 @@
     "return_date": "16/09/2026",
     "fetched_at": "2026-08-24T11:02:14.390229+00:00",
     "id": "3bc1626e6b19"
-  },
-  {
-    "source": "Passagens Imperdíveis",
-    "title": "Passagens para a Nova Zelândia: Auckland, Wellington ou Christchurch! A partir de R$ 8.230, ida e volta, c/ taxas!",
-    "destination": "Nova Zelândia",
-    "price_brl": 8230.0,
-    "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-nova-zelandia-auckland-wellington-christchurch-2026/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/auckland_nova_zelandia-612x612.png",
-    "trip_type": "round_trip",
-    "fetched_at": "2026-08-24T05:39:00.319748+00:00",
-    "id": "abd9c4e6cb8d"
   }
 ]
