@@ -1,15 +1,21 @@
 [
   {
-    "source": "Melhores Destinos",
-    "title": "Tailândia na alta temporada! Passagens aéreas para Bangkok a partir de R$ 6.167 ida e volta",
-    "destination": "Bangkok",
-    "price_brl": 6167.0,
+    "source": "GOL",
+    "title": "GOL: São Paulo (GRU) → Fortaleza (FOR) - 31/08/2026 a 06/09/2026",
+    "destination": "Fortaleza",
+    "destination_iata": "FOR",
+    "origin": "São Paulo",
+    "origin_iata": "GRU",
+    "price_brl": 1600.43,
     "currency": "BRL",
-    "link": "https://www.melhoresdestinos.com.br/promocao/tailandia-alta-temporada-6167",
-    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2026/02/passagens-aereas-tailandia-capa-2026-754x396.jpg",
-    "airline": null,
+    "link": "https://www.voegol.com.br/br/voos/GRU/FOR",
+    "image_url": null,
+    "airline": "GOL",
     "trip_type": "round_trip",
-    "fetched_at": "2026-08-24T02:45:57.352573+00:00",
-    "id": "56a3eea0aa51"
+    "travel_class": "Econômica",
+    "departure_date": "2026-08-31",
+    "return_date": "2026-09-06",
+    "fetched_at": "2026-08-24T03:55:14.074860+00:00",
+    "id": "2ae3a126a127"
   }
 ]
