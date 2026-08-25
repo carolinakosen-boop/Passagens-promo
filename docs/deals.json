@@ -2396,18 +2396,6 @@
   },
   {
     "source": "Passagens Imperdíveis",
-    "title": "MUITO BOM!!! Passagens para os NOVA YORK ou BOSTON! A partir de R$ 2.628, ida e volta, c/ taxas!",
-    "destination": "Muito bom! Boston ou Nova York",
-    "price_brl": 2660.0,
-    "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-nova-york-boston-2026/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/nova_york_eua_estados_unidos_6-612x612.jpg",
-    "trip_type": "round_trip",
-    "fetched_at": "2026-08-24T09:23:21.514132+00:00",
-    "id": "99d4c2d9f888"
-  },
-  {
-    "source": "Passagens Imperdíveis",
     "title": "Programe sua viagem para a Disney! Passagens para ORLANDO ou TAMPA! A partir de R$ 2.681, ida e volta, c/ taxas! Em até 4x SEM JUROS!",
     "destination": "Orlando ou Tampa",
     "price_brl": 2681.0,
@@ -2429,18 +2417,6 @@
     "trip_type": "round_trip",
     "fetched_at": "2026-08-24T21:30:29.577428+00:00",
     "id": "a247ee2fbdfe"
-  },
-  {
-    "source": "Passagens Imperdíveis",
-    "title": "Passagens para CHICAGO ou BOSTON! Datas inclusive na Primavera, férias e mais! A partir de R$ 2.911, ida e volta, c/ taxas! Em até 10x SEM JUROS!",
-    "destination": "Chicago ou Boston",
-    "price_brl": 2689.0,
-    "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-chicago-boston-2026/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/chicago_estados_unidos_eua-612x612.png",
-    "trip_type": "round_trip",
-    "fetched_at": "2026-08-24T09:23:21.514165+00:00",
-    "id": "5bb0cd79df21"
   },
   {
     "source": "GOL",
