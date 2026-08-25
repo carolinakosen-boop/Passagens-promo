@@ -63,6 +63,18 @@
   },
   {
     "source": "Passagens Imperdíveis",
+    "title": "Programe-se para o Natal Luz! Gramado ganha uma atmosfera única com o maior evento natalino do Brasil! Passagens para PORTO ALEGRE! A partir de R$ 367, ida e volta, c/ taxas!",
+    "destination": "Gramado no Natal Luz",
+    "price_brl": 367.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-porto-alegre-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/gramado_rio_grande_do_sul-612x612.jpg",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-25T21:36:18.596952+00:00",
+    "id": "5bdd28ce37f5"
+  },
+  {
+    "source": "Passagens Imperdíveis",
     "title": "Passagens para FORTALEZA ou NATAL! Datas inclusive no Verão, férias e mais! A partir de R$ 406, ida e volta, c/ taxas!",
     "destination": "Fortaleza ou Natal",
     "price_brl": 406.0,
@@ -1140,6 +1152,25 @@
     "return_date": "2026-09-11",
     "fetched_at": "2026-08-25T03:50:04.709485+00:00",
     "id": "111cf821b55a"
+  },
+  {
+    "source": "GOL",
+    "title": "GOL: São Paulo (CGH) → Salvador (SSA) - 29/08/2026 a 04/09/2026",
+    "destination": "Salvador",
+    "destination_iata": "SSA",
+    "origin": "São Paulo",
+    "origin_iata": "CGH",
+    "price_brl": 1318.9,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/CGH/SSA",
+    "image_url": null,
+    "airline": "GOL",
+    "trip_type": "round_trip",
+    "travel_class": "Econômica",
+    "departure_date": "2026-08-29",
+    "return_date": "2026-09-04",
+    "fetched_at": "2026-08-25T21:36:19.580953+00:00",
+    "id": "f784375c2ba3"
   },
   {
     "source": "GOL",
@@ -3280,18 +3311,6 @@
     "id": "49a9917100c4"
   },
   {
-    "source": "Passagens Imperdíveis",
-    "title": "Passagens para ARUBA ou CURAÇAO! Datas inclusive no Inverno no Caribe, férias e mais! A partir de R$ 2.687, ida e volta, c/ taxas! Em até 6x SEM JUROS!",
-    "destination": "Aruba ou Curaçao",
-    "price_brl": 2687.0,
-    "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-aruba-ou-curacao-2026/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/aruba_barcos-612x612.png",
-    "trip_type": "round_trip",
-    "fetched_at": "2026-08-24T21:30:29.577428+00:00",
-    "id": "a247ee2fbdfe"
-  },
-  {
     "source": "GOL",
     "title": "GOL: São Paulo (GRU) → Oranjestad, Aruba (AUA) - 24/10/2026 a 28/10/2026",
     "destination": "Oranjestad, Aruba",
@@ -3461,25 +3480,6 @@
     "return_date": "2026-10-27",
     "fetched_at": "2026-08-25T12:58:46.079933+00:00",
     "id": "f1b2973eff4a"
-  },
-  {
-    "source": "GOL",
-    "title": "GOL: Rio de Janeiro (GIG) → Nova York (JFK) - 09/03/2027 a 19/04/2027",
-    "destination": "Nova York",
-    "destination_iata": "JFK",
-    "origin": "Rio de Janeiro",
-    "origin_iata": "GIG",
-    "price_brl": 2810.3,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/GIG/JFK",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/JFK_7_11zon.png",
-    "airline": "GOL",
-    "trip_type": "round_trip",
-    "travel_class": "Econômica",
-    "departure_date": "2027-03-09",
-    "return_date": "2027-04-19",
-    "fetched_at": "2026-08-24T21:30:30.365544+00:00",
-    "id": "7cc51340d7b7"
   },
   {
     "source": "GOL",
