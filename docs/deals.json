@@ -1093,6 +1093,25 @@
     "id": "df0e1cec32c9"
   },
   {
+    "source": "GOL",
+    "title": "GOL: São Paulo (GRU) → Juazeiro do Norte (JDO) - 28/08/2026 a 11/09/2026",
+    "destination": "Juazeiro do Norte",
+    "destination_iata": "JDO",
+    "origin": "São Paulo",
+    "origin_iata": "GRU",
+    "price_brl": 1288.57,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/GRU/JDO",
+    "image_url": null,
+    "airline": "GOL",
+    "trip_type": "round_trip",
+    "travel_class": "Econômica",
+    "departure_date": "2026-08-28",
+    "return_date": "2026-09-11",
+    "fetched_at": "2026-08-25T03:50:04.709485+00:00",
+    "id": "111cf821b55a"
+  },
+  {
     "source": "Passagens Imperdíveis",
     "title": "Programe sua viagem para Ouro Preto, Tiradentes e mais! Passagens para BELO HORIZONTE! A partir de R$ 290, ida e volta, c/ taxas!",
     "destination": "Belo Horizonte",
