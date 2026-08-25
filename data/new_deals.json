@@ -9,7 +9,7 @@
     "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2023/01/passagens-aereas-lisboa-portugal-07-capa-754x396.jpg",
     "airline": "Azul",
     "trip_type": "unknown",
-    "fetched_at": "2026-08-25T21:36:11.322258+00:00",
+    "fetched_at": "2026-08-25T22:28:31.531139+00:00",
     "id": "83f640872cb0"
   },
   {
@@ -22,7 +22,7 @@
     "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-roma-capa2019-01-754x396.jpg",
     "airline": null,
     "trip_type": "round_trip",
-    "fetched_at": "2026-08-25T21:36:14.093886+00:00",
+    "fetched_at": "2026-08-25T22:28:34.328642+00:00",
     "id": "3de146312fa1"
   },
   {
@@ -35,20 +35,20 @@
     "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-auckland-capa2019-01-754x396.jpg",
     "airline": null,
     "trip_type": "round_trip",
-    "fetched_at": "2026-08-25T21:36:17.870642+00:00",
+    "fetched_at": "2026-08-25T22:28:38.486373+00:00",
     "id": "6489e5cc2f52"
   },
   {
     "source": "Passagens Imperdíveis",
-    "title": "Programe-se para o Natal Luz! Gramado ganha uma atmosfera única com o maior evento natalino do Brasil! Passagens para PORTO ALEGRE! A partir de R$ 367, ida e volta, c/ taxas!",
-    "destination": "Gramado no Natal Luz",
-    "price_brl": 367.0,
+    "title": "IMPERDÍVEL!!! Passagens para a ESPANHA: Alicante, Barcelona, Bilbao, Granada, Ibiza, La Coruna, Madri, Palma de Mallorca, Santiago de Compostela, Sevilha, Tenerife e mais! A partir de R$ 2.837, ida e ",
+    "destination": "IMPERDÍVEL!!! Espanha",
+    "price_brl": 2837.0,
     "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-porto-alegre-2026/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/gramado_rio_grande_do_sul-612x612.jpg",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-espanha-alicante-aviles-barcelona-bilbao-gran-canaria-granada-ibiz-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/palma_de_mallorca-612x612.jpg",
     "trip_type": "round_trip",
-    "fetched_at": "2026-08-25T21:36:18.596952+00:00",
-    "id": "5bdd28ce37f5"
+    "fetched_at": "2026-08-25T22:28:39.346237+00:00",
+    "id": "d28dbf6a47b3"
   },
   {
     "source": "Passagens Imperdíveis",
@@ -59,7 +59,7 @@
     "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-coreia-do-sul-seoul-seul-2026/",
     "image_url": "https://travel-cdn.cubo333.com.br/static-img/coreia_do_sul_seul_612_612-612x612.png",
     "trip_type": "round_trip",
-    "fetched_at": "2026-08-25T21:36:18.596990+00:00",
+    "fetched_at": "2026-08-25T22:28:39.346272+00:00",
     "id": "5f1c8d289b08"
   },
   {
@@ -71,7 +71,7 @@
     "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-madri-2026/",
     "image_url": "https://travel-cdn.cubo333.com.br/static-img/madri_espanha_7-612x612.jpg",
     "trip_type": "round_trip",
-    "fetched_at": "2026-08-25T21:36:18.597012+00:00",
+    "fetched_at": "2026-08-25T22:28:39.346285+00:00",
     "id": "5b92d6858319"
   },
   {
@@ -83,7 +83,7 @@
     "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-portugal-lisboa-porto-2026/",
     "image_url": "https://travel-cdn.cubo333.com.br/static-img/c7082ed1_cdc0_43df_941e_d9cf78243671-612x612.jpg",
     "trip_type": "round_trip",
-    "fetched_at": "2026-08-25T21:36:18.597032+00:00",
+    "fetched_at": "2026-08-25T22:28:39.346303+00:00",
     "id": "e80e0d1695eb"
   },
   {
@@ -102,7 +102,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-09-22",
     "return_date": "2026-09-28",
-    "fetched_at": "2026-08-25T21:36:19.344928+00:00",
+    "fetched_at": "2026-08-25T22:28:48.717396+00:00",
     "id": "e9c8c9e79c26"
   },
   {
@@ -121,7 +121,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-09-07",
     "return_date": "2026-09-21",
-    "fetched_at": "2026-08-25T21:36:19.344934+00:00",
+    "fetched_at": "2026-08-25T22:28:48.717401+00:00",
     "id": "23abda499d35"
   },
   {
@@ -140,7 +140,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-11-07",
     "return_date": "2026-11-16",
-    "fetched_at": "2026-08-25T21:36:19.344940+00:00",
+    "fetched_at": "2026-08-25T22:28:48.717406+00:00",
     "id": "a7b822e294e1"
   },
   {
@@ -159,7 +159,7 @@
     "travel_class": "Econômica",
     "departure_date": "2027-04-29",
     "return_date": "2027-05-07",
-    "fetched_at": "2026-08-25T21:36:19.344947+00:00",
+    "fetched_at": "2026-08-25T22:28:48.717411+00:00",
     "id": "9b2ac82da12b"
   },
   {
@@ -178,7 +178,7 @@
     "travel_class": "Econômica",
     "departure_date": "2027-06-03",
     "return_date": "2027-06-18",
-    "fetched_at": "2026-08-25T21:36:19.344953+00:00",
+    "fetched_at": "2026-08-25T22:28:48.717416+00:00",
     "id": "61e518b5aa5f"
   },
   {
@@ -197,7 +197,7 @@
     "travel_class": "Econômica",
     "departure_date": "2027-06-07",
     "return_date": "2027-06-12",
-    "fetched_at": "2026-08-25T21:36:19.344960+00:00",
+    "fetched_at": "2026-08-25T22:28:48.717421+00:00",
     "id": "49ae1c143bf0"
   },
   {
@@ -216,7 +216,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-09-25",
     "return_date": "2026-10-02",
-    "fetched_at": "2026-08-25T21:36:19.345041+00:00",
+    "fetched_at": "2026-08-25T22:28:48.717485+00:00",
     "id": "9935593e5c3a"
   },
   {
@@ -235,7 +235,7 @@
     "travel_class": "Econômica",
     "departure_date": "2026-10-30",
     "return_date": "2026-11-05",
-    "fetched_at": "2026-08-25T21:36:19.345048+00:00",
+    "fetched_at": "2026-08-25T22:28:48.717490+00:00",
     "id": "93b81014fa41"
   },
   {
@@ -254,27 +254,8 @@
     "travel_class": "Econômica",
     "departure_date": "2026-08-25",
     "return_date": "2026-08-30",
-    "fetched_at": "2026-08-25T21:36:19.580860+00:00",
+    "fetched_at": "2026-08-25T22:28:56.604224+00:00",
     "id": "870c0b9a1ff7"
-  },
-  {
-    "source": "GOL",
-    "title": "GOL: São Paulo (CGH) → Salvador (SSA) - 29/08/2026 a 04/09/2026",
-    "destination": "Salvador",
-    "destination_iata": "SSA",
-    "origin": "São Paulo",
-    "origin_iata": "CGH",
-    "price_brl": 1318.9,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/CGH/SSA",
-    "image_url": null,
-    "airline": "GOL",
-    "trip_type": "round_trip",
-    "travel_class": "Econômica",
-    "departure_date": "2026-08-29",
-    "return_date": "2026-09-04",
-    "fetched_at": "2026-08-25T21:36:19.580953+00:00",
-    "id": "f784375c2ba3"
   },
   {
     "source": "TAP",
@@ -291,7 +272,7 @@
     "trip_type": "round_trip",
     "departure_date": "22/09/2026",
     "return_date": "01/10/2026",
-    "fetched_at": "2026-08-25T21:36:19.882691+00:00",
+    "fetched_at": "2026-08-25T22:28:56.861496+00:00",
     "id": "e97c407a5279"
   },
   {
@@ -309,7 +290,7 @@
     "trip_type": "round_trip",
     "departure_date": "11/09/2026",
     "return_date": "09/11/2026",
-    "fetched_at": "2026-08-25T21:36:19.882832+00:00",
+    "fetched_at": "2026-08-25T22:28:56.861607+00:00",
     "id": "6444d70e5bb8"
   },
   {
@@ -327,7 +308,7 @@
     "trip_type": "round_trip",
     "departure_date": "24/09/2026",
     "return_date": "03/10/2026",
-    "fetched_at": "2026-08-25T21:36:19.882985+00:00",
+    "fetched_at": "2026-08-25T22:28:56.861728+00:00",
     "id": "8a8d2c21b83d"
   },
   {
@@ -345,7 +326,7 @@
     "trip_type": "round_trip",
     "departure_date": "23/09/2026",
     "return_date": "04/10/2026",
-    "fetched_at": "2026-08-25T21:36:19.883072+00:00",
+    "fetched_at": "2026-08-25T22:28:56.861796+00:00",
     "id": "333889c64a4d"
   }
 ]
