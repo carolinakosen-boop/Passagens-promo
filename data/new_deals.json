@@ -1,19 +1,6 @@
 [
   {
     "source": "Melhores Destinos",
-    "title": "Temporada de neve já começou! Viaje para o Chile com passagens para Santiago a partir de R$ 1.261 ida e volta",
-    "destination": "Chile",
-    "price_brl": 1261.0,
-    "currency": "BRL",
-    "link": "https://www.melhoresdestinos.com.br/promocao/neve-passagens-para-santiago-22jun26",
-    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2024/06/neve-ad-santiago-bariloche-capa-754x396.jpeg",
-    "airline": null,
-    "trip_type": "round_trip",
-    "fetched_at": "2026-08-26T09:42:32.363884+00:00",
-    "id": "3d5bddb05f84"
-  },
-  {
-    "source": "Melhores Destinos",
     "title": "🇦🇺 Austrália ou Nova Zelândia 🇳🇿 Passagens aéreas a partir de R$ 6.911 ida e volta saindo do Rio, São Paulo e mais cidades!",
     "destination": null,
     "price_brl": 6911.0,
@@ -22,8 +9,32 @@
     "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-auckland-capa2019-01-754x396.jpg",
     "airline": null,
     "trip_type": "round_trip",
-    "fetched_at": "2026-08-26T09:42:36.547133+00:00",
+    "fetched_at": "2026-08-26T10:35:54.407696+00:00",
     "id": "6489e5cc2f52"
+  },
+  {
+    "source": "Passagens Imperdíveis",
+    "title": "IMPERDÍVEL!!! Passagens para a ESPANHA: Alicante, Barcelona, Bilbao, Granada, Ibiza, La Coruna, Madri, Palma de Mallorca, Santiago de Compostela, Sevilha, Tenerife e mais! A partir de R$ 2.837, ida e ",
+    "destination": "IMPERDÍVEL!!! Espanha",
+    "price_brl": 2835.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-espanha-alicante-aviles-barcelona-bilbao-gran-canaria-granada-ibiz-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/palma_de_mallorca-612x612.jpg",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-26T10:35:55.019014+00:00",
+    "id": "6355690143de"
+  },
+  {
+    "source": "Passagens Imperdíveis",
+    "title": "IMPERDÍVEL!!! Passagens para a ESPANHA: Santiago de Compostela! Uma viagem entre monumentos históricos, peregrinação e paisagens únicas! A partir de R$ 2.886, ida e volta, c/ taxas!",
+    "destination": "IMPERDÍVEL!!! Santiago de Compostela, Espanha",
+    "price_brl": 2884.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-espanha-santiago-de-compostela-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/santiago_de_compostelaa-612x612.jpg",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-08-26T10:35:55.019177+00:00",
+    "id": "db0ad9949020"
   },
   {
     "source": "TAP",
@@ -40,7 +51,7 @@
     "trip_type": "round_trip",
     "departure_date": "11/09/2026",
     "return_date": "09/11/2026",
-    "fetched_at": "2026-08-26T09:42:38.834670+00:00",
+    "fetched_at": "2026-08-26T10:35:56.694069+00:00",
     "id": "6444d70e5bb8"
   },
   {
@@ -58,7 +69,7 @@
     "trip_type": "round_trip",
     "departure_date": "24/09/2026",
     "return_date": "03/10/2026",
-    "fetched_at": "2026-08-26T09:42:38.834856+00:00",
+    "fetched_at": "2026-08-26T10:35:56.694231+00:00",
     "id": "8a8d2c21b83d"
   }
 ]
