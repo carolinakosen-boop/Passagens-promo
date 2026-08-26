@@ -1497,25 +1497,6 @@
   },
   {
     "source": "GOL",
-    "title": "GOL: São Paulo (GRU) → Fortaleza (FOR) - 31/08/2026 a 06/09/2026",
-    "destination": "Fortaleza",
-    "destination_iata": "FOR",
-    "origin": "São Paulo",
-    "origin_iata": "GRU",
-    "price_brl": 1600.43,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/GRU/FOR",
-    "image_url": null,
-    "airline": "GOL",
-    "trip_type": "round_trip",
-    "travel_class": "Econômica",
-    "departure_date": "2026-08-31",
-    "return_date": "2026-09-06",
-    "fetched_at": "2026-08-25T05:32:44.409663+00:00",
-    "id": "2ae3a126a127"
-  },
-  {
-    "source": "GOL",
     "title": "GOL: Rio de Janeiro (GIG) → Montevideo (MVD) - 25/08/2026 a 31/08/2026",
     "destination": "Montevideo",
     "destination_iata": "MVD",
@@ -3634,5 +3615,23 @@
     "return_date": "04/10/2026",
     "fetched_at": "2026-08-26T01:22:15.830428+00:00",
     "id": "333889c64a4d"
+  },
+  {
+    "source": "TAP",
+    "title": "TAP: São Paulo (GRU) → Porto (OPO) - 22/09/2026 a 20/10/2026",
+    "destination": "Porto",
+    "destination_iata": "OPO",
+    "origin": "São Paulo",
+    "origin_iata": "GRU",
+    "price_brl": 6375.0,
+    "currency": "BRL",
+    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
+    "image_url": "https://assets.airtrfx.com/media-em/tp/porto-1-1500px.jpg",
+    "airline": "TAP",
+    "trip_type": "round_trip",
+    "departure_date": "22/09/2026",
+    "return_date": "20/10/2026",
+    "fetched_at": "2026-08-26T05:35:12.968035+00:00",
+    "id": "57f76eb3521a"
   }
 ]
