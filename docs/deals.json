@@ -927,18 +927,6 @@
     "id": "383a5fb62cb5"
   },
   {
-    "source": "Passagens Imperdíveis",
-    "title": "Programe sua viagem para MACHU PICCHU! Passagens para o PERU: Cusco ou Lima! A partir de R$ 1.680, ida e volta, c/ taxas! Opções de VOO DIRETO!",
-    "destination": "Lima ou Cusco, Peru",
-    "price_brl": 1685.0,
-    "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-cusco-ou-lima-2026/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/machu_picchu-612x612.jpg",
-    "trip_type": "round_trip",
-    "fetched_at": "2026-08-30T07:17:44.437963+00:00",
-    "id": "435139497780"
-  },
-  {
     "source": "GOL",
     "title": "GOL: Rio de Janeiro (GIG) → Assunção (ASU) - 17/09/2026 a 22/09/2026",
     "destination": "Assunção",
@@ -2314,6 +2302,25 @@
     "id": "2fc84270e074"
   },
   {
+    "source": "GOL",
+    "title": "GOL: São Paulo (GRU) → Fortaleza (FOR) - 30/08/2026 a 10/09/2026",
+    "destination": "Fortaleza",
+    "destination_iata": "FOR",
+    "origin": "São Paulo",
+    "origin_iata": "GRU",
+    "price_brl": 3346.67,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/GRU/FOR",
+    "image_url": null,
+    "airline": "GOL",
+    "trip_type": "round_trip",
+    "travel_class": "Econômica",
+    "departure_date": "2026-08-30",
+    "return_date": "2026-09-10",
+    "fetched_at": "2026-08-31T07:33:06.499654+00:00",
+    "id": "0a8a19a07011"
+  },
+  {
     "source": "Passagens Imperdíveis",
     "title": "BAIXOU!!! MUITO BOM!!! Passagens para o LONDRES! Datas para viajar até Junho/27, inclusive férias e mais! A partir de R$ 3.375, ida e volta, c/ taxas!",
     "destination": "BAIXOU!!! MUITO BOM!! Londres",
@@ -2566,24 +2573,6 @@
     "id": "45f789e1eb10"
   },
   {
-    "source": "TAP",
-    "title": "TAP: Rio de Janeiro (GIG) → Madri (MAD) - 28/09/2026 a 09/10/2026",
-    "destination": "Madri",
-    "destination_iata": "MAD",
-    "origin": "Rio de Janeiro",
-    "origin_iata": "GIG",
-    "price_brl": 5519.0,
-    "currency": "BRL",
-    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
-    "image_url": "https://assets.airtrfx.com/media-em/tp/madri-1-1500px.jpg",
-    "airline": "TAP",
-    "trip_type": "round_trip",
-    "departure_date": "28/09/2026",
-    "return_date": "09/10/2026",
-    "fetched_at": "2026-08-30T07:17:47.103959+00:00",
-    "id": "1da8d19c68f3"
-  },
-  {
     "source": "Passagens Imperdíveis",
     "title": "Passagens para a COREIA DO SUL: Seul ou TAILÂNDIA: Bangkok! A partir de R$ 5.572, ida e volta, c/ taxas! Em até 5x SEM JUROS! Opções com BAGAGEM INCLUÍDA!",
     "destination": "Coreia do Sul ou Tailândia",
@@ -2626,42 +2615,6 @@
     "id": "4af4c1521661"
   },
   {
-    "source": "TAP",
-    "title": "TAP: São Paulo (GRU) → Lisboa (LIS) - 29/09/2026 a 12/10/2026",
-    "destination": "Lisboa",
-    "destination_iata": "LIS",
-    "origin": "São Paulo",
-    "origin_iata": "GRU",
-    "price_brl": 5777.0,
-    "currency": "BRL",
-    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
-    "image_url": "https://assets.airtrfx.com/media-em/tp/lisboa-1-1500px.jpg",
-    "airline": "TAP",
-    "trip_type": "round_trip",
-    "departure_date": "29/09/2026",
-    "return_date": "12/10/2026",
-    "fetched_at": "2026-08-30T07:17:47.102875+00:00",
-    "id": "d75882846871"
-  },
-  {
-    "source": "TAP",
-    "title": "TAP: São Paulo (GRU) → Porto (OPO) - 24/09/2026 a 08/10/2026",
-    "destination": "Porto",
-    "destination_iata": "OPO",
-    "origin": "São Paulo",
-    "origin_iata": "GRU",
-    "price_brl": 5862.0,
-    "currency": "BRL",
-    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
-    "image_url": "https://assets.airtrfx.com/media-em/tp/porto-1-1500px.jpg",
-    "airline": "TAP",
-    "trip_type": "round_trip",
-    "departure_date": "24/09/2026",
-    "return_date": "08/10/2026",
-    "fetched_at": "2026-08-30T07:17:47.103126+00:00",
-    "id": "2c5017fa9097"
-  },
-  {
     "source": "Passagens Imperdíveis",
     "title": "BAIXOU!!! MUITO BOM!!! Passagens para a AUSTRALIA ou NOVA ZELÂNDIA! A partir de R$ 5.967, ida e volta, c/ taxas! Em até 4x SEM JUROS!",
     "destination": "BAIXOU!!! MUITO BOM!!! Austrália ou Nova Zelândia",
@@ -2672,24 +2625,6 @@
     "trip_type": "round_trip",
     "fetched_at": "2026-08-30T13:09:28.031698+00:00",
     "id": "e075c3b3cc46"
-  },
-  {
-    "source": "TAP",
-    "title": "TAP: Rio de Janeiro (GIG) → Lisboa (LIS) - 28/09/2026 a 28/10/2026",
-    "destination": "Lisboa",
-    "destination_iata": "LIS",
-    "origin": "Rio de Janeiro",
-    "origin_iata": "GIG",
-    "price_brl": 6373.0,
-    "currency": "BRL",
-    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
-    "image_url": "https://assets.airtrfx.com/media-em/tp/lisboa-1-1500px.jpg",
-    "airline": "TAP",
-    "trip_type": "round_trip",
-    "departure_date": "28/09/2026",
-    "return_date": "28/10/2026",
-    "fetched_at": "2026-08-30T07:17:47.103024+00:00",
-    "id": "735bc947051d"
   },
   {
     "source": "TAP",
