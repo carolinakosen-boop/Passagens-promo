@@ -2522,24 +2522,6 @@
     "id": "3b29c5f3a887"
   },
   {
-    "source": "TAP",
-    "title": "TAP: Rio de Janeiro (GIG) → Lisboa (LIS) - 30/09/2026 a 27/10/2026",
-    "destination": "Lisboa",
-    "destination_iata": "LIS",
-    "origin": "Rio de Janeiro",
-    "origin_iata": "GIG",
-    "price_brl": 5105.0,
-    "currency": "BRL",
-    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
-    "image_url": "https://assets.airtrfx.com/media-em/tp/lisboa-1-1500px.jpg",
-    "airline": "TAP",
-    "trip_type": "round_trip",
-    "departure_date": "30/09/2026",
-    "return_date": "27/10/2026",
-    "fetched_at": "2026-09-01T23:54:20.598312+00:00",
-    "id": "f2127ab13216"
-  },
-  {
     "source": "Passagens Imperdíveis",
     "title": "MUITO BOM!!! Passagens para a COREIA DO SUL: Seul ou JAPÃO: Nagoya, Osaka ou Tokyo! A partir de R$ 5.566, ida e volta, c/ taxas! Em até 5x SEM JUROS! Opções com BAGAGEM INCLUÍDA!",
     "destination": "Coreia do Sul ou Japão",
@@ -2670,24 +2652,6 @@
     "return_date": "23/10/2026",
     "fetched_at": "2026-09-02T03:24:27.843244+00:00",
     "id": "c87096e09a96"
-  },
-  {
-    "source": "TAP",
-    "title": "TAP: São Paulo (GRU) → Paris (ORY) - 26/09/2026 a 04/10/2026",
-    "destination": "Paris",
-    "destination_iata": "ORY",
-    "origin": "São Paulo",
-    "origin_iata": "GRU",
-    "price_brl": 6568.0,
-    "currency": "BRL",
-    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
-    "image_url": "https://assets.airtrfx.com/media-em/tp/paris-1-1500px.jpg",
-    "airline": "TAP",
-    "trip_type": "round_trip",
-    "departure_date": "26/09/2026",
-    "return_date": "04/10/2026",
-    "fetched_at": "2026-09-01T23:54:20.599031+00:00",
-    "id": "e133ab61907a"
   },
   {
     "source": "TAP",
