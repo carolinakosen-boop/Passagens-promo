@@ -233,6 +233,18 @@
     "id": "0de096184dec"
   },
   {
+    "source": "Passagens Imperdíveis",
+    "title": "Passagens para o ANO NOVO nas PRAIAS DO NORDESTE! Vire o Ano com Pé na Areia, Mar Azul e o clima perfeito do Nordeste! A partir de R$ 560, ida e volta!",
+    "destination": "Ano Novo nas Praias do Nordeste",
+    "price_brl": 533.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/passagens-nacionais-praias-nordeste-2026-110/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/reveillon_fogos_geral-612x612.png",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-09-04T23:11:24.932174+00:00",
+    "id": "8a03627e2005"
+  },
+  {
     "source": "GOL",
     "title": "GOL: São Paulo (GRU) → Juazeiro do Norte (JDO) - 27/09/2026",
     "destination": "Juazeiro do Norte",
@@ -584,6 +596,25 @@
   },
   {
     "source": "GOL",
+    "title": "GOL: Rio de Janeiro (RIO) → Montevideo (MVD) - 16/09/2026 a 24/09/2026",
+    "destination": "Montevideo",
+    "destination_iata": "MVD",
+    "origin": "Rio de Janeiro",
+    "origin_iata": "RIO",
+    "price_brl": 1195.24,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/RIO/MVD",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/montevideo-2-1500px-x-500px.png",
+    "airline": "GOL",
+    "trip_type": "round_trip",
+    "travel_class": "Econômica",
+    "departure_date": "2026-09-16",
+    "return_date": "2026-09-24",
+    "fetched_at": "2026-09-04T23:11:25.694393+00:00",
+    "id": "849e609712e6"
+  },
+  {
+    "source": "GOL",
     "title": "GOL: Rio de Janeiro (GIG) → Buenos Aires (AEP) - 09/09/2026 a 13/09/2026",
     "destination": "Buenos Aires",
     "destination_iata": "AEP",
@@ -896,6 +927,18 @@
     "id": "5ff20b0181bc"
   },
   {
+    "source": "Passagens Imperdíveis",
+    "title": "Passagens 2 em 1 - SANTIAGO + PERU: Cusco ou Lima! A partir de R$ 1.715, todos os trechos, c/ taxas! Opções de VOO DIRETO!",
+    "destination": "2 em 1: Chile + Peru",
+    "price_brl": 1715.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-2-em-1belo-horizonte-brasilia-campo-grande-curitiba-florianopolis-goiania-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/chile_612-612x612.jpg",
+    "trip_type": "unknown",
+    "fetched_at": "2026-09-04T23:11:24.932197+00:00",
+    "id": "288c01ffda89"
+  },
+  {
     "source": "GOL",
     "title": "GOL: Rio de Janeiro (RIO) → Santa Cruz de la Sierra (VVI) - 29/09/2026 a 20/10/2026",
     "destination": "Santa Cruz de la Sierra",
@@ -1008,6 +1051,25 @@
     "return_date": "2026-11-08",
     "fetched_at": "2026-09-04T21:17:35.788238+00:00",
     "id": "5f8fbb9413e8"
+  },
+  {
+    "source": "GOL",
+    "title": "GOL: Rio de Janeiro (RIO) → Buenos Aires (AEP) - 23/09/2026 a 27/09/2026",
+    "destination": "Buenos Aires",
+    "destination_iata": "AEP",
+    "origin": "Rio de Janeiro",
+    "origin_iata": "RIO",
+    "price_brl": 1824.16,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/RIO/AEP",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/buenos-aires-2-1500px-x-500px.png",
+    "airline": "GOL",
+    "trip_type": "round_trip",
+    "travel_class": "Econômica",
+    "departure_date": "2026-09-23",
+    "return_date": "2026-09-27",
+    "fetched_at": "2026-09-04T23:11:25.694198+00:00",
+    "id": "185b0451fee8"
   },
   {
     "source": "GOL",
@@ -1612,6 +1674,25 @@
   },
   {
     "source": "GOL",
+    "title": "GOL: São Paulo (SAO) → Punta Cana (PUJ) - 25/09/2026 a 02/10/2026",
+    "destination": "Punta Cana",
+    "destination_iata": "PUJ",
+    "origin": "São Paulo",
+    "origin_iata": "SAO",
+    "price_brl": 3192.89,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/SAO/PUJ",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/punta-cana-2-1500px-x-500px.png",
+    "airline": "GOL",
+    "trip_type": "round_trip",
+    "travel_class": "Econômica",
+    "departure_date": "2026-09-25",
+    "return_date": "2026-10-02",
+    "fetched_at": "2026-09-04T23:11:25.694365+00:00",
+    "id": "ffed1cd789cc"
+  },
+  {
+    "source": "GOL",
     "title": "GOL: Rio de Janeiro (GIG) → Miami (MIA) - 21/09/2026 a 30/10/2026",
     "destination": "Miami",
     "destination_iata": "MIA",
@@ -1864,6 +1945,18 @@
   },
   {
     "source": "Passagens Imperdíveis",
+    "title": "Continua muito bom! Passagens para a FINLÂNDIA: Helsinque! A partir de R$ 3.801, ida e volta, c/ taxas! Opções com BAGAGEM INCLUÍDA!",
+    "destination": "Helsinque, Finlândia",
+    "price_brl": 3801.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-finlandia-helsinque-2026-33/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/aurora_2-612x612.jpg",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-09-04T23:11:24.932187+00:00",
+    "id": "a6036cb4c605"
+  },
+  {
+    "source": "Passagens Imperdíveis",
     "title": "Continua muito bom! Passagens para a FINLÂNDIA: Helsinque! A partir de R$ 3.834, ida e volta, c/ taxas! Opções com BAGAGEM INCLUÍDA!",
     "destination": "Continua muito bom! Finlândia: Helsinque",
     "price_brl": 3833.0,
@@ -1930,6 +2023,18 @@
     "return_date": "2026-11-19",
     "fetched_at": "2026-09-03T23:26:42.537723+00:00",
     "id": "50d910d73a2f"
+  },
+  {
+    "source": "Passagens Imperdíveis",
+    "title": "Oportunidade! Passagens para DUBAI! Voando inclusive pela Qatar Airways! A partir de R$ 4.273, ida e volta, c/ taxas! Em até 5x SEM JUROS! Opções com BAGAGEM INCLUÍDA!",
+    "destination": "Oportunidade! Dubai",
+    "price_brl": 4273.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-dubai-2026-5/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/dubai_4-612x612.png",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-09-04T23:11:24.932146+00:00",
+    "id": "c4bf79ee73d0"
   },
   {
     "source": "TAP",
