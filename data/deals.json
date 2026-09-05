@@ -422,6 +422,25 @@
   },
   {
     "source": "GOL",
+    "title": "GOL: Rio de Janeiro (SDU) → São Paulo (CGH) - 22/09/2026",
+    "destination": "São Paulo",
+    "destination_iata": "CGH",
+    "origin": "Rio de Janeiro",
+    "origin_iata": "SDU",
+    "price_brl": 706.92,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/SDU/CGH",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/03-1500px-x-500px.png",
+    "airline": "GOL",
+    "trip_type": "one_way",
+    "travel_class": "Econômica",
+    "departure_date": "2026-09-22",
+    "return_date": "",
+    "fetched_at": "2026-09-05T13:42:41.181179+00:00",
+    "id": "c98bc84520bb"
+  },
+  {
+    "source": "GOL",
     "title": "GOL: Rio de Janeiro (SDU) → São Paulo (CGH) - 25/09/2026",
     "destination": "São Paulo",
     "destination_iata": "CGH",
@@ -498,6 +517,25 @@
   },
   {
     "source": "GOL",
+    "title": "GOL: São Paulo (CGH) → Brasília (BSB) - 06/09/2026",
+    "destination": "Brasília",
+    "destination_iata": "BSB",
+    "origin": "São Paulo",
+    "origin_iata": "CGH",
+    "price_brl": 767.04,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/CGH/BSB",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/bras%C3%ADlia-2-1500px-x-500px.png",
+    "airline": "GOL",
+    "trip_type": "one_way",
+    "travel_class": "Econômica",
+    "departure_date": "2026-09-06",
+    "return_date": "",
+    "fetched_at": "2026-09-05T13:42:41.181187+00:00",
+    "id": "80535f0badd5"
+  },
+  {
+    "source": "GOL",
     "title": "GOL: São Paulo (CGH) → Brasília (BSB) - 28/09/2026",
     "destination": "Brasília",
     "destination_iata": "BSB",
@@ -517,15 +555,15 @@
   },
   {
     "source": "Passagens Imperdíveis",
-    "title": "Passagens para MONTEVIDEO ou SANTIAGO! Datas inclusive no Inverno, férias e mais! A partir de R$ 925, ida e volta, c/ taxas! Em até 6x SEM JUROS! Opções de VOO DIRETO!",
-    "destination": "Montevideo ou Santiago",
-    "price_brl": 922.0,
+    "title": "Passagens para BUENOS AIRES ou SANTIAGO! Datas inclusive no Inverno, férias e mais! A partir de R$ 888, ida e volta, c/ taxas! Opções de VOO DIRETO!",
+    "destination": "Buenos Aires ou Santiago",
+    "price_brl": 888.0,
     "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-montevideo-ou-santiago-2026-2/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/uruguai_montevideo_uruguay_montevideu_67904-612x612.png",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-buenos-aires-ou-santiago-2026-33/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/chile_santiago-612x612.png",
     "trip_type": "round_trip",
-    "fetched_at": "2026-09-04T11:35:08.557003+00:00",
-    "id": "af925e71ba27"
+    "fetched_at": "2026-09-05T13:42:40.466809+00:00",
+    "id": "d589dd7dafd1"
   },
   {
     "source": "GOL",
@@ -557,18 +595,6 @@
     "trip_type": "round_trip",
     "fetched_at": "2026-09-04T15:55:09.705963+00:00",
     "id": "fbd7188fdc22"
-  },
-  {
-    "source": "Passagens Imperdíveis",
-    "title": "Passagens para o PARAGUAI: Assunção! A partir de R$ 938, ida e volta, c/ taxas! Em até 6x SEM JUROS! Opções de VOO DIRETO!",
-    "destination": "Assunção, Paraguai",
-    "price_brl": 933.0,
-    "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-paraguai-assuncao-2026-15/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/assuncao_paraguai-612x612.png",
-    "trip_type": "round_trip",
-    "fetched_at": "2026-09-04T11:35:08.556953+00:00",
-    "id": "931b91f79641"
   },
   {
     "source": "GOL",
@@ -658,18 +684,6 @@
     "trip_type": "round_trip",
     "fetched_at": "2026-09-04T18:52:19.920850+00:00",
     "id": "3d5bddb05f84"
-  },
-  {
-    "source": "Passagens Imperdíveis",
-    "title": "MUITO BOM!!! DESERTO DO ATACAMA, no Chile! Passagens para CALAMA ou COPIAPO! A partir de R$ 1.387, ida e volta, c/ taxas!",
-    "destination": "Deserto do Atacama, no Chile!",
-    "price_brl": 1273.0,
-    "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-calama-ou-copiapo-2026-21/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/ceu_estrelado_atacama-612x612.jpg",
-    "trip_type": "round_trip",
-    "fetched_at": "2026-09-04T11:35:08.556988+00:00",
-    "id": "9634a21efe47"
   },
   {
     "source": "Passagens Imperdíveis",
@@ -1883,24 +1897,6 @@
   },
   {
     "source": "TAP",
-    "title": "TAP: São Paulo (GRU) → Madri (MAD) - 01/10/2026 a 01/12/2026",
-    "destination": "Madri",
-    "destination_iata": "MAD",
-    "origin": "São Paulo",
-    "origin_iata": "GRU",
-    "price_brl": 4821.0,
-    "currency": "BRL",
-    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
-    "image_url": "https://assets.airtrfx.com/media-em/tp/madri-1-1500px.jpg",
-    "airline": "TAP",
-    "trip_type": "round_trip",
-    "departure_date": "01/10/2026",
-    "return_date": "01/12/2026",
-    "fetched_at": "2026-09-04T11:35:09.960320+00:00",
-    "id": "b8c2125b66e0"
-  },
-  {
-    "source": "TAP",
     "title": "TAP: São Paulo (GRU) → Valencia (VLC) - 30/09/2026 a 11/10/2026",
     "destination": "Valencia",
     "destination_iata": "VLC",
@@ -2108,6 +2104,24 @@
     "return_date": "01/10/2026",
     "fetched_at": "2026-09-05T06:08:52.794418+00:00",
     "id": "ea6946b3bde8"
+  },
+  {
+    "source": "TAP",
+    "title": "TAP: São Paulo (GRU) → Lisboa (LIS) - 01/10/2026 a 20/10/2026",
+    "destination": "Lisboa",
+    "destination_iata": "LIS",
+    "origin": "São Paulo",
+    "origin_iata": "GRU",
+    "price_brl": 6652.0,
+    "currency": "BRL",
+    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
+    "image_url": "https://assets.airtrfx.com/media-em/tp/lisboa-1-1500px.jpg",
+    "airline": "TAP",
+    "trip_type": "round_trip",
+    "departure_date": "01/10/2026",
+    "return_date": "20/10/2026",
+    "fetched_at": "2026-09-05T13:42:41.440327+00:00",
+    "id": "eba3f7354422"
   },
   {
     "source": "TAP",
