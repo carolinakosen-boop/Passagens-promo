@@ -328,6 +328,18 @@
     "id": "35b4f9ec3b81"
   },
   {
+    "source": "Passagens Imperdíveis",
+    "title": "Passagens para o ANO NOVO nas PRAIAS DO NORDESTE! Vire o Ano com Pé na Areia, Mar Azul e o clima perfeito do Nordeste! A partir de R$ 560, ida e volta!",
+    "destination": "Ano Novo nas Praias do Nordeste",
+    "price_brl": 533.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/passagens-nacionais-praias-nordeste-2026-110/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/reveillon_fogos_geral-612x612.png",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-09-06T05:36:18.785425+00:00",
+    "id": "8a03627e2005"
+  },
+  {
     "source": "GOL",
     "title": "GOL: São Paulo (GRU) → João Pessoa (JPA) - 15/10/2026",
     "destination": "João Pessoa",
@@ -1498,6 +1510,25 @@
   },
   {
     "source": "GOL",
+    "title": "GOL: São Paulo (GRU) → Nova York (JFK) - 23/09/2026 a 04/10/2026",
+    "destination": "Nova York",
+    "destination_iata": "JFK",
+    "origin": "São Paulo",
+    "origin_iata": "GRU",
+    "price_brl": 3371.97,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/GRU/JFK",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/JFK_7_11zon.png",
+    "airline": "GOL",
+    "trip_type": "round_trip",
+    "travel_class": "Econômica",
+    "departure_date": "2026-09-23",
+    "return_date": "2026-10-04",
+    "fetched_at": "2026-09-06T05:36:19.457756+00:00",
+    "id": "23c885e35cf3"
+  },
+  {
+    "source": "GOL",
     "title": "GOL: São Paulo (GRU) → Nova York (JFK) - 24/09/2026 a 04/10/2026",
     "destination": "Nova York",
     "destination_iata": "JFK",
@@ -1715,6 +1746,18 @@
     "return_date": "2026-10-20",
     "fetched_at": "2026-09-05T20:58:06.505631+00:00",
     "id": "571178bf9ee1"
+  },
+  {
+    "source": "Passagens Imperdíveis",
+    "title": "Oportunidade! Passagens para DUBAI! Voando inclusive pela Qatar Airways! A partir de R$ 4.273, ida e volta, c/ taxas! Em até 5x SEM JUROS! Opções com BAGAGEM INCLUÍDA!",
+    "destination": "Oportunidade! Dubai",
+    "price_brl": 4273.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-dubai-2026-5/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/dubai_4-612x612.png",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-09-06T05:36:18.785419+00:00",
+    "id": "c4bf79ee73d0"
   },
   {
     "source": "Passagens Imperdíveis",
