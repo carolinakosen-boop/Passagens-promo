@@ -1,54 +1,26 @@
 [
   {
-    "source": "Melhores Destinos",
-    "title": "9.9 – Data dupla tem promoções de Gol, Latam e Azul com voos nacionais a partir de R$ 345 ida e volta!",
-    "destination": null,
-    "price_brl": 345.0,
+    "source": "Passagens Imperdíveis",
+    "title": "Passagens para a ESPANHA: Alicante, Barcelona, Bilbao, Madri, Malaga, Palma de Mallorca, Santiago de Compostela ou Valência! A partir de R$ 3.560, ida e volta, c/ taxas! Opções de VOO DIRETO!",
+    "destination": "Espanha",
+    "price_brl": 3566.0,
     "currency": "BRL",
-    "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-nacionais-09-09-26",
-    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2026/09/passagens-nacionais-9-9-capa-2-scaled-e1788992142309.jpg",
-    "airline": "LATAM",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-espanha-alicante-barcelona-bilbao-madri-malaga-palma-de-mallorca-s-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/madri_espanha_2-612x612.jpg",
     "trip_type": "round_trip",
-    "fetched_at": "2026-09-12T13:00:58.754666+00:00",
-    "id": "e9a751f66a68"
+    "fetched_at": "2026-09-12T16:28:09.761063+00:00",
+    "id": "3a5af341516a"
   },
   {
-    "source": "Melhores Destinos",
-    "title": "Canadá barato! Passagens para Toronto ou Montreal a partir de R$ 2.883 saindo de São Paulo",
-    "destination": "Toronto ou Montreal",
-    "price_brl": 2883.0,
+    "source": "Passagens Imperdíveis",
+    "title": "Continua muito bom! Programe sua viagem para MACHU PICCHU! Passagens para o PERU: Cusco ou Lima! A partir de R$ 1.412, ida e volta, c/ taxas! Opções de VOO DIRETO!",
+    "destination": "Peru: Cusco ou Lima",
+    "price_brl": 1416.0,
     "currency": "BRL",
-    "link": "https://www.melhoresdestinos.com.br/promocao/canada-bem-barato-passagens-09set26",
-    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2022/01/canada-toronto-capa-754x396.jpg",
-    "airline": null,
-    "trip_type": "unknown",
-    "fetched_at": "2026-09-12T13:00:58.955973+00:00",
-    "id": "ca0a248f1e2d"
-  },
-  {
-    "source": "Melhores Destinos",
-    "title": "Caribe BARATO 🔥 Voos diretos para Punta Cana ou Cancún a partir de R$ 1.306 ida e volta saindo de São Paulo!",
-    "destination": "Punta Cana ou Cancún",
-    "price_brl": 1306.0,
-    "currency": "BRL",
-    "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-caribe-punta-cana-cancun-08-09-26",
-    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2023/08/pacotes-punta-cana-capa-754x396.jpeg",
-    "airline": null,
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-cusco-ou-lima-2026-122/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/lima-612x612.jpg",
     "trip_type": "round_trip",
-    "fetched_at": "2026-09-12T13:00:59.199717+00:00",
-    "id": "7f9e30b8fc0f"
-  },
-  {
-    "source": "Melhores Destinos",
-    "title": "Muito bom! 🇦🇷 Passagens para Buenos Aires a partir de apenas R$ 996 ida e volta, ou janeiro a partir de R$ 1.439",
-    "destination": "Buenos Aires",
-    "price_brl": 996.0,
-    "currency": "BRL",
-    "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-argentina-buenos-aires-03-09-26",
-    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2024/03/hoteis-mais-bem-avaliados-Buenos-Aires-capa-754x396.jpg",
-    "airline": null,
-    "trip_type": "round_trip",
-    "fetched_at": "2026-09-12T13:01:00.002503+00:00",
-    "id": "634c9a3aaea7"
+    "fetched_at": "2026-09-12T16:28:09.761075+00:00",
+    "id": "d36ce0ffe2f7"
   }
 ]
