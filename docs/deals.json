@@ -114,17 +114,16 @@
     "id": "13356e93d1f1"
   },
   {
-    "source": "Melhores Destinos",
-    "title": "9.9 – Data dupla tem promoções de Gol, Latam e Azul com voos nacionais a partir de R$ 345 ida e volta!",
-    "destination": null,
-    "price_brl": 345.0,
+    "source": "Passagens Imperdíveis",
+    "title": "Passagens para as PRAIAS DO NORDESTE: Aracaju, Fortaleza, Ilhéus, João Pessoa, Maceió, Natal, Porto Seguro, Recife, Salvador ou São Luís! A partir de R$ 369, ida e volta!",
+    "destination": "Praias do Nordeste",
+    "price_brl": 367.0,
     "currency": "BRL",
-    "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-nacionais-09-09-26",
-    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2026/09/passagens-nacionais-9-9-capa-2-scaled-e1788992142309.jpg",
-    "airline": "LATAM",
+    "link": "https://passagensimperdiveis.com.br/passagens-nacionais-praias-nordeste-2026-115/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/salvador_bahia_brasil_3-612x612.jpg",
     "trip_type": "round_trip",
-    "fetched_at": "2026-09-12T13:00:58.754666+00:00",
-    "id": "e9a751f66a68"
+    "fetched_at": "2026-09-13T16:52:03.332927+00:00",
+    "id": "29e66e9d005e"
   },
   {
     "source": "Passagens Imperdíveis",
@@ -373,6 +372,18 @@
   },
   {
     "source": "Passagens Imperdíveis",
+    "title": "Passagens para BONITO! Datas inclusive nas Férias, feriados e mais! A partir de R$ 503, ida e volta, c/ taxas!",
+    "destination": "Bonito",
+    "price_brl": 775.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-bonito-2026-25/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/bonito2-612x612.jpg",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-09-13T16:52:03.333031+00:00",
+    "id": "ea5061a3d40a"
+  },
+  {
+    "source": "Passagens Imperdíveis",
     "title": "Passagens para FERNANDO DE NORONHA ou JERICOACOARA! Datas inclusive nas Férias, feriados e mais! A partir de R$ 819, ida e volta, c/ taxas!",
     "destination": "Fernando de Noronha ou Jericoacoara",
     "price_brl": 819.0,
@@ -491,19 +502,6 @@
     "id": "a8472685fb7f"
   },
   {
-    "source": "Melhores Destinos",
-    "title": "Muito bom! 🇦🇷 Passagens para Buenos Aires a partir de apenas R$ 996 ida e volta, ou janeiro a partir de R$ 1.439",
-    "destination": "Buenos Aires",
-    "price_brl": 996.0,
-    "currency": "BRL",
-    "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-argentina-buenos-aires-03-09-26",
-    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2024/03/hoteis-mais-bem-avaliados-Buenos-Aires-capa-754x396.jpg",
-    "airline": null,
-    "trip_type": "round_trip",
-    "fetched_at": "2026-09-12T13:01:00.002503+00:00",
-    "id": "634c9a3aaea7"
-  },
-  {
     "source": "GOL",
     "title": "GOL: Rio de Janeiro (GIG) → Buenos Aires (EZE) - 06/12/2026 a 27/12/2026",
     "destination": "Buenos Aires",
@@ -561,6 +559,18 @@
     "id": "f8993c42ef4e"
   },
   {
+    "source": "Passagens Imperdíveis",
+    "title": "Passagens para o CHILE: Santiago ou Deserto do Atacama! Datas para viajar inclusive no Inverno/27! A partir de R$ 1.254, ida e volta, c/ taxas!",
+    "destination": "Aproveite o Chile",
+    "price_brl": 1254.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-chile-calama-copiapo-santiago-2026-10/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/santiago_chile_612-612x612.jpg",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-09-13T16:52:03.332956+00:00",
+    "id": "d7a4034e6389"
+  },
+  {
     "source": "Melhores Destinos",
     "title": "Temporada de neve já começou! Viaje para o Chile com passagens para Santiago a partir de R$ 1.261 ida e volta",
     "destination": "Chile",
@@ -572,19 +582,6 @@
     "trip_type": "round_trip",
     "fetched_at": "2026-09-13T01:19:27.147252+00:00",
     "id": "3d5bddb05f84"
-  },
-  {
-    "source": "Melhores Destinos",
-    "title": "Caribe BARATO 🔥 Voos diretos para Punta Cana ou Cancún a partir de R$ 1.306 ida e volta saindo de São Paulo!",
-    "destination": "Punta Cana ou Cancún",
-    "price_brl": 1306.0,
-    "currency": "BRL",
-    "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-caribe-punta-cana-cancun-08-09-26",
-    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2023/08/pacotes-punta-cana-capa-754x396.jpeg",
-    "airline": null,
-    "trip_type": "round_trip",
-    "fetched_at": "2026-09-12T13:00:59.199717+00:00",
-    "id": "7f9e30b8fc0f"
   },
   {
     "source": "Passagens Imperdíveis",
@@ -640,18 +637,6 @@
     "source": "Passagens Imperdíveis",
     "title": "Continua muito bom! Programe sua viagem para MACHU PICCHU! Passagens para o PERU: Cusco ou Lima! A partir de R$ 1.412, ida e volta, c/ taxas! Opções de VOO DIRETO!",
     "destination": "Peru: Cusco ou Lima",
-    "price_brl": 1416.0,
-    "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-cusco-ou-lima-2026-122/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/lima-612x612.jpg",
-    "trip_type": "round_trip",
-    "fetched_at": "2026-09-12T16:28:09.761075+00:00",
-    "id": "d36ce0ffe2f7"
-  },
-  {
-    "source": "Passagens Imperdíveis",
-    "title": "Continua muito bom! Programe sua viagem para MACHU PICCHU! Passagens para o PERU: Cusco ou Lima! A partir de R$ 1.412, ida e volta, c/ taxas! Opções de VOO DIRETO!",
-    "destination": "Peru: Cusco ou Lima",
     "price_brl": 1417.0,
     "currency": "BRL",
     "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-cusco-ou-lima-2026-122/",
@@ -678,6 +663,18 @@
     "return_date": "2026-10-04",
     "fetched_at": "2026-09-12T18:36:33.599238+00:00",
     "id": "caf15df76d2c"
+  },
+  {
+    "source": "Passagens Imperdíveis",
+    "title": "PASSAGEM + HOTEL em JOÃO PESSOA! A partir de R$ 1.363, por pessoa, quarto duplo, c/ taxas! Em até 10x SEM JUROS!",
+    "destination": "Pacote: João Pessoa",
+    "price_brl": 1425.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-mais-hotel-para-brasil-joao-pessoa-2026-6/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/joao_pessoa_paraiba_brasil-612x612.jpg",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-09-13T16:52:03.333002+00:00",
+    "id": "3d0aa85da8e8"
   },
   {
     "source": "GOL",
@@ -1186,6 +1183,18 @@
     "id": "b6f9ccfa35e7"
   },
   {
+    "source": "Passagens Imperdíveis",
+    "title": "Continua muito bom! Programe sua viagem para MACHU PICCHU! Passagens para o PERU: Cusco ou Lima! A partir de R$ 1.412, ida e volta, c/ taxas! Opções de VOO DIRETO!",
+    "destination": "Peru: Cusco ou Lima",
+    "price_brl": 2058.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-cusco-ou-lima-2026-122/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/lima-612x612.jpg",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-09-13T16:52:03.333044+00:00",
+    "id": "1212b694fd75"
+  },
+  {
     "source": "GOL",
     "title": "GOL: São Paulo (GRU) → Ushuaia (USH) - 30/11/2026 a 04/12/2026",
     "destination": "Ushuaia",
@@ -1376,6 +1385,18 @@
     "id": "522ec9046b32"
   },
   {
+    "source": "Passagens Imperdíveis",
+    "title": "Passagens para NOVA YORK ou ORLANDO! Para quem ama cidade ou para quem não dispensa os parques! A partir de R$ 2.293, ida e volta, c/ taxas!",
+    "destination": "Nova York ou Orlando",
+    "price_brl": 2620.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-nova-york-ou-orlando-2026-24/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/magic_kingdom_orlando-612x612.jpg",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-09-13T16:52:03.333051+00:00",
+    "id": "9d74b95864c1"
+  },
+  {
     "source": "GOL",
     "title": "GOL: Rio de Janeiro (RIO) → Orlando (MCO) - 20/10/2026 a 27/10/2026",
     "destination": "Orlando",
@@ -1469,19 +1490,6 @@
     "return_date": "2026-10-02",
     "fetched_at": "2026-09-12T21:16:45.806358+00:00",
     "id": "b7a6c8682f11"
-  },
-  {
-    "source": "Melhores Destinos",
-    "title": "Canadá barato! Passagens para Toronto ou Montreal a partir de R$ 2.883 saindo de São Paulo",
-    "destination": "Toronto ou Montreal",
-    "price_brl": 2883.0,
-    "currency": "BRL",
-    "link": "https://www.melhoresdestinos.com.br/promocao/canada-bem-barato-passagens-09set26",
-    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2022/01/canada-toronto-capa-754x396.jpg",
-    "airline": null,
-    "trip_type": "unknown",
-    "fetched_at": "2026-09-12T13:00:58.955973+00:00",
-    "id": "ca0a248f1e2d"
   },
   {
     "source": "GOL",
@@ -1757,18 +1765,6 @@
     "id": "5e5a7eb3b95a"
   },
   {
-    "source": "Passagens Imperdíveis",
-    "title": "Passagens para a ESPANHA: Alicante, Barcelona, Bilbao, Madri, Malaga, Palma de Mallorca, Santiago de Compostela ou Valência! A partir de R$ 3.560, ida e volta, c/ taxas! Opções de VOO DIRETO!",
-    "destination": "Espanha",
-    "price_brl": 3566.0,
-    "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-espanha-alicante-barcelona-bilbao-madri-malaga-palma-de-mallorca-s-2026/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/madri_espanha_2-612x612.jpg",
-    "trip_type": "round_trip",
-    "fetched_at": "2026-09-12T16:28:09.761063+00:00",
-    "id": "3a5af341516a"
-  },
-  {
     "source": "GOL",
     "title": "GOL: Rio de Janeiro (GIG) → Oranjestad, Aruba (AUA) - 17/09/2026 a 24/09/2026",
     "destination": "Oranjestad, Aruba",
@@ -1786,6 +1782,18 @@
     "return_date": "2026-09-24",
     "fetched_at": "2026-09-12T21:16:45.806395+00:00",
     "id": "843a1b297a1a"
+  },
+  {
+    "source": "Passagens Imperdíveis",
+    "title": "Passagens para a ESPANHA: Alicante, Barcelona, Bilbao, Madri, Malaga, Palma de Mallorca, Santiago de Compostela ou Valência! A partir de R$ 3.560, ida e volta, c/ taxas! Opções de VOO DIRETO!",
+    "destination": "Espanha",
+    "price_brl": 3581.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-espanha-alicante-barcelona-bilbao-madri-malaga-palma-de-mallorca-s-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/madri_espanha_2-612x612.jpg",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-09-13T16:52:03.333037+00:00",
+    "id": "52536db5b0c7"
   },
   {
     "source": "Passagens Imperdíveis",
@@ -1932,6 +1940,24 @@
     "return_date": "27/09/2026",
     "fetched_at": "2026-09-12T23:10:29.054041+00:00",
     "id": "5ded09c2c74a"
+  },
+  {
+    "source": "TAP",
+    "title": "TAP: Rio de Janeiro (GIG) → Lisboa (LIS) - 14/09/2026 a 23/09/2026",
+    "destination": "Lisboa",
+    "destination_iata": "LIS",
+    "origin": "Rio de Janeiro",
+    "origin_iata": "GIG",
+    "price_brl": 7365.0,
+    "currency": "BRL",
+    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
+    "image_url": "https://assets.airtrfx.com/media-em/tp/lisboa-1-1500px.jpg",
+    "airline": "TAP",
+    "trip_type": "round_trip",
+    "departure_date": "14/09/2026",
+    "return_date": "23/09/2026",
+    "fetched_at": "2026-09-13T16:52:06.329493+00:00",
+    "id": "d503e74de932"
   },
   {
     "source": "TAP",
