@@ -1,25 +1,6 @@
 [
   {
     "source": "GOL",
-    "title": "GOL: Rio de Janeiro (RIO) → São Paulo (CGH) - 24/11/2026",
-    "destination": "São Paulo",
-    "destination_iata": "CGH",
-    "origin": "Rio de Janeiro",
-    "origin_iata": "RIO",
-    "price_brl": 281.61,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/RIO/CGH",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/03-1500px-x-500px.png",
-    "airline": "GOL",
-    "trip_type": "one_way",
-    "travel_class": "Econômica",
-    "departure_date": "2026-11-24",
-    "return_date": "",
-    "fetched_at": "2026-09-12T00:28:47.594135+00:00",
-    "id": "d31809f0a3a9"
-  },
-  {
-    "source": "GOL",
     "title": "GOL: São Paulo (CGH) → Brasília (BSB) - 15/11/2026",
     "destination": "Brasília",
     "destination_iata": "BSB",
@@ -133,44 +114,6 @@
     "id": "13356e93d1f1"
   },
   {
-    "source": "GOL",
-    "title": "GOL: Rio de Janeiro (SDU) → São Paulo (CGH) - 28/11/2026",
-    "destination": "São Paulo",
-    "destination_iata": "CGH",
-    "origin": "Rio de Janeiro",
-    "origin_iata": "SDU",
-    "price_brl": 319.52,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/SDU/CGH",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/03-1500px-x-500px.png",
-    "airline": "GOL",
-    "trip_type": "one_way",
-    "travel_class": "Econômica",
-    "departure_date": "2026-11-28",
-    "return_date": "",
-    "fetched_at": "2026-09-12T00:28:47.594166+00:00",
-    "id": "bb699f5397c6"
-  },
-  {
-    "source": "GOL",
-    "title": "GOL: Rio de Janeiro (RIO) → Brasília (BSB) - 09/12/2026",
-    "destination": "Brasília",
-    "destination_iata": "BSB",
-    "origin": "Rio de Janeiro",
-    "origin_iata": "RIO",
-    "price_brl": 321.81,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/RIO/BSB",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/bras%C3%ADlia-2-1500px-x-500px.png",
-    "airline": "GOL",
-    "trip_type": "one_way",
-    "travel_class": "Econômica",
-    "departure_date": "2026-12-09",
-    "return_date": "",
-    "fetched_at": "2026-09-12T00:28:47.594171+00:00",
-    "id": "6ac0ec840278"
-  },
-  {
     "source": "Melhores Destinos",
     "title": "9.9 – Data dupla tem promoções de Gol, Latam e Azul com voos nacionais a partir de R$ 345 ida e volta!",
     "destination": null,
@@ -182,6 +125,18 @@
     "trip_type": "round_trip",
     "fetched_at": "2026-09-12T13:00:58.754666+00:00",
     "id": "e9a751f66a68"
+  },
+  {
+    "source": "Passagens Imperdíveis",
+    "title": "Passagens para as PRAIAS DO NORDESTE: Aracaju, Fortaleza, Ilhéus, João Pessoa, Maceió, Natal, Porto Seguro, Recife, Salvador ou São Luís! A partir de R$ 369, ida e volta!",
+    "destination": "Praias do Nordeste",
+    "price_brl": 369.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/passagens-nacionais-praias-nordeste-2026-114/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/salvador-612x612.jpg",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-09-13T01:19:30.355021+00:00",
+    "id": "649677632f8c"
   },
   {
     "source": "GOL",
@@ -436,6 +391,18 @@
     "id": "527de1d06f3e"
   },
   {
+    "source": "Passagens Imperdíveis",
+    "title": "Passagens para FERNANDO DE NORONHA ou JERICOACOARA! Datas inclusive nas Férias, feriados e mais! A partir de R$ 819, ida e volta, c/ taxas!",
+    "destination": "Fernando de Noronha ou Jericoacoara",
+    "price_brl": 819.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-fernando-de-noronha-ou-jericoacoara-2026-18/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/brasil_fernando_de_noronha_612_612-612x612.png",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-09-13T01:19:30.355072+00:00",
+    "id": "563d5d417bcf"
+  },
+  {
     "source": "GOL",
     "title": "GOL: São Paulo (GRU) → Buenos Aires (BUE) - 17/10/2026 a 03/11/2026",
     "destination": "Buenos Aires",
@@ -632,23 +599,17 @@
     "id": "f8993c42ef4e"
   },
   {
-    "source": "GOL",
-    "title": "GOL: Rio de Janeiro (RIO) → Montevideo (MVD) - 09/12/2026 a 15/12/2026",
-    "destination": "Montevideo",
-    "destination_iata": "MVD",
-    "origin": "Rio de Janeiro",
-    "origin_iata": "RIO",
-    "price_brl": 1239,
+    "source": "Melhores Destinos",
+    "title": "Temporada de neve já começou! Viaje para o Chile com passagens para Santiago a partir de R$ 1.261 ida e volta",
+    "destination": "Chile",
+    "price_brl": 1261.0,
     "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/RIO/MVD",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/montevideo-2-1500px-x-500px.png",
-    "airline": "GOL",
+    "link": "https://www.melhoresdestinos.com.br/promocao/neve-passagens-para-santiago-22jun26",
+    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2024/06/neve-ad-santiago-bariloche-capa-754x396.jpeg",
+    "airline": null,
     "trip_type": "round_trip",
-    "travel_class": "Econômica",
-    "departure_date": "2026-12-09",
-    "return_date": "2026-12-15",
-    "fetched_at": "2026-09-12T00:28:47.594409+00:00",
-    "id": "186b4ed91cb0"
+    "fetched_at": "2026-09-13T01:19:27.147252+00:00",
+    "id": "3d5bddb05f84"
   },
   {
     "source": "Melhores Destinos",
@@ -662,25 +623,6 @@
     "trip_type": "round_trip",
     "fetched_at": "2026-09-12T13:00:59.199717+00:00",
     "id": "7f9e30b8fc0f"
-  },
-  {
-    "source": "GOL",
-    "title": "GOL: Rio de Janeiro (GIG) → Montevideo (MVD) - 18/09/2026 a 26/09/2026",
-    "destination": "Montevideo",
-    "destination_iata": "MVD",
-    "origin": "Rio de Janeiro",
-    "origin_iata": "GIG",
-    "price_brl": 1340.96,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/GIG/MVD",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/montevideo-2-1500px-x-500px.png",
-    "airline": "GOL",
-    "trip_type": "round_trip",
-    "travel_class": "Econômica",
-    "departure_date": "2026-09-18",
-    "return_date": "2026-09-26",
-    "fetched_at": "2026-09-12T00:28:47.908245+00:00",
-    "id": "d0ba79997014"
   },
   {
     "source": "Passagens Imperdíveis",
@@ -743,6 +685,25 @@
     "return_date": "2026-10-04",
     "fetched_at": "2026-09-12T18:36:33.599238+00:00",
     "id": "caf15df76d2c"
+  },
+  {
+    "source": "GOL",
+    "title": "GOL: São Paulo (SAO) → Santa Cruz de la Sierra (VVI) - 25/09/2026 a 11/10/2026",
+    "destination": "Santa Cruz de la Sierra",
+    "destination_iata": "VVI",
+    "origin": "São Paulo",
+    "origin_iata": "SAO",
+    "price_brl": 1463.9,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/SAO/VVI",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/03-1500px-x-500px-5.png",
+    "airline": "GOL",
+    "trip_type": "round_trip",
+    "travel_class": "Econômica",
+    "departure_date": "2026-09-25",
+    "return_date": "2026-10-11",
+    "fetched_at": "2026-09-13T01:19:30.947294+00:00",
+    "id": "caa6e54ba94d"
   },
   {
     "source": "GOL",
@@ -1270,19 +1231,6 @@
     "id": "911d9987035a"
   },
   {
-    "source": "Melhores Destinos",
-    "title": "Bora para Orlando? Voos a partir de R$ 2.151 ida e volta saindo de várias cidades",
-    "destination": "Orlando? Voos",
-    "price_brl": 2151.0,
-    "currency": "BRL",
-    "link": "https://www.melhoresdestinos.com.br/promocao/bora-para-orlando-voos-2151",
-    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2021/10/orlando-eua-disney-capa14-754x396.jpg",
-    "airline": null,
-    "trip_type": "round_trip",
-    "fetched_at": "2026-09-12T00:28:44.640436+00:00",
-    "id": "f610546149c6"
-  },
-  {
     "source": "GOL",
     "title": "GOL: São Paulo (GRU) → Montevideo (MVD) - 17/09/2026 a 21/09/2026",
     "destination": "Montevideo",
@@ -1407,19 +1355,6 @@
     "return_date": "2026-09-26",
     "fetched_at": "2026-09-12T04:55:46.492052+00:00",
     "id": "0f4965d2a216"
-  },
-  {
-    "source": "Melhores Destinos",
-    "title": "Orlando com bons preços: passagens a partir de R$ 2.380 ida e volta saindo de São Paulo e mais cidades",
-    "destination": null,
-    "price_brl": 2380.0,
-    "currency": "BRL",
-    "link": "https://www.melhoresdestinos.com.br/promocao/orlando-bons-precos-2380",
-    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2024/02/apartamentos-orlando-capa-754x396.jpg",
-    "airline": null,
-    "trip_type": "round_trip",
-    "fetched_at": "2026-09-12T00:28:43.853727+00:00",
-    "id": "24cd140a6e33"
   },
   {
     "source": "GOL",
@@ -1645,6 +1580,25 @@
   },
   {
     "source": "GOL",
+    "title": "GOL: São Paulo (GRU) → Punta Cana (PUJ) - 15/09/2026 a 29/04/2027",
+    "destination": "Punta Cana",
+    "destination_iata": "PUJ",
+    "origin": "São Paulo",
+    "origin_iata": "GRU",
+    "price_brl": 3116.28,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/GRU/PUJ",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/punta-cana-2-1500px-x-500px.png",
+    "airline": "GOL",
+    "trip_type": "round_trip",
+    "travel_class": "Econômica",
+    "departure_date": "2026-09-15",
+    "return_date": "2027-04-29",
+    "fetched_at": "2026-09-13T01:19:31.285300+00:00",
+    "id": "3e46ef3aa80d"
+  },
+  {
+    "source": "GOL",
     "title": "GOL: São Paulo (GRU) → Punta Cana (PUJ) - 29/09/2026 a 06/10/2026",
     "destination": "Punta Cana",
     "destination_iata": "PUJ",
@@ -1699,6 +1653,19 @@
     "return_date": "2026-10-30",
     "fetched_at": "2026-09-12T21:16:45.806387+00:00",
     "id": "0c3dc0cbfa5e"
+  },
+  {
+    "source": "Melhores Destinos",
+    "title": "Passagens para Portugal a partir de R$ 3.250 com opções de voos diretos da Azul e datas no fim do ano!",
+    "destination": "Portugal",
+    "price_brl": 3250.0,
+    "currency": "BRL",
+    "link": "https://www.melhoresdestinos.com.br/promocao/passagens-para-portugal-12ago26",
+    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2023/01/passagens-aereas-lisboa-portugal-07-capa-754x396.jpg",
+    "airline": "Azul",
+    "trip_type": "unknown",
+    "fetched_at": "2026-09-13T01:19:24.412004+00:00",
+    "id": "83f640872cb0"
   },
   {
     "source": "GOL",
@@ -1828,6 +1795,30 @@
   },
   {
     "source": "Passagens Imperdíveis",
+    "title": "Continua muito bom! Passagens para a FINLÂNDIA: Helsinque! A partir de R$ 3.667, ida e volta, c/ taxas! Opções com BAGAGEM INCLUÍDA!",
+    "destination": "Continua muito bom! Finlândia: Helsinque",
+    "price_brl": 3667.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-finlandia-helsinque-2026-35/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/helsinque-612x612.jpg",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-09-13T01:19:30.355064+00:00",
+    "id": "2f636208fbd5"
+  },
+  {
+    "source": "Passagens Imperdíveis",
+    "title": "Passagens para o PORTO, ROMA ou VENEZA! Datas inclusive nas Férias e mais! A partir de R$ 3.672, ida e volta, c/ taxas! Em até 4x SEM JUROS!",
+    "destination": "Porto, Roma ou Veneza",
+    "price_brl": 3672.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-porto-roma-ou-veneza-2026-2/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/porto_portugal_6-612x612.jpg",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-09-13T01:19:30.355080+00:00",
+    "id": "78846e6d2255"
+  },
+  {
+    "source": "Passagens Imperdíveis",
     "title": "Passagens para LISBOA ou MILÃO! Datas inclusive nas Férias e mais! A partir de R$ 3.677, ida e volta, c/ taxas! Em até 10x SEM JUROS!",
     "destination": "Lisboa ou Milão",
     "price_brl": 3677.0,
@@ -1868,6 +1859,31 @@
     "return_date": "2026-11-13",
     "fetched_at": "2026-09-12T21:16:45.806330+00:00",
     "id": "2c5a16d52cbf"
+  },
+  {
+    "source": "Melhores Destinos",
+    "title": "Itália: voos para Milão, Veneza, Roma e mais cidades a partir de R$ 3.771 ida e volta",
+    "destination": "Milão, Veneza, Roma e mais cidades",
+    "price_brl": 3771.0,
+    "currency": "BRL",
+    "link": "https://www.melhoresdestinos.com.br/promocao/italia-voos-para-milao-veneza-roma-e-mais-cidades-a-partir-de-r-3-771-ida-e-volta",
+    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-roma-capa2019-01-754x396.jpg",
+    "airline": null,
+    "trip_type": "round_trip",
+    "fetched_at": "2026-09-13T01:19:26.714104+00:00",
+    "id": "3de146312fa1"
+  },
+  {
+    "source": "Passagens Imperdíveis",
+    "title": "Oportunidade! Passagens para DUBAI! A partir de R$ 4.401, ida e volta, c/ taxas! Opções com BAGAGEM INCLUÍDA! Em até 5x SEM JUROS!",
+    "destination": "Oportunidade! Dubai",
+    "price_brl": 4401.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-dubai-2026-7/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/dubai_2-612x612.png",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-09-13T01:19:30.355053+00:00",
+    "id": "a7eb5e25057b"
   },
   {
     "source": "TAP",
@@ -1943,6 +1959,24 @@
   },
   {
     "source": "TAP",
+    "title": "TAP: São Paulo (GRU) → Lisboa (LIS) - 28/09/2026 a 04/10/2026",
+    "destination": "Lisboa",
+    "destination_iata": "LIS",
+    "origin": "São Paulo",
+    "origin_iata": "GRU",
+    "price_brl": 6473.0,
+    "currency": "BRL",
+    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
+    "image_url": "https://assets.airtrfx.com/media-em/tp/lisboa-1-1500px.jpg",
+    "airline": "TAP",
+    "trip_type": "round_trip",
+    "departure_date": "28/09/2026",
+    "return_date": "04/10/2026",
+    "fetched_at": "2026-09-13T01:19:31.558871+00:00",
+    "id": "a22703068679"
+  },
+  {
+    "source": "TAP",
     "title": "TAP: São Paulo (GRU) → Madri (MAD) - 01/10/2026 a 11/10/2026",
     "destination": "Madri",
     "destination_iata": "MAD",
@@ -1994,6 +2028,24 @@
     "return_date": "27/09/2026",
     "fetched_at": "2026-09-12T23:10:29.054041+00:00",
     "id": "5ded09c2c74a"
+  },
+  {
+    "source": "TAP",
+    "title": "TAP: Rio de Janeiro (GIG) → Lisboa (LIS) - 18/09/2026 a 25/09/2026",
+    "destination": "Lisboa",
+    "destination_iata": "LIS",
+    "origin": "Rio de Janeiro",
+    "origin_iata": "GIG",
+    "price_brl": 8305.0,
+    "currency": "BRL",
+    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
+    "image_url": "https://assets.airtrfx.com/media-em/tp/lisboa-1-1500px.jpg",
+    "airline": "TAP",
+    "trip_type": "round_trip",
+    "departure_date": "18/09/2026",
+    "return_date": "25/09/2026",
+    "fetched_at": "2026-09-13T01:19:31.558999+00:00",
+    "id": "a08604fdc55a"
   },
   {
     "source": "TAP",
