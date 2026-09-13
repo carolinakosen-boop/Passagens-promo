@@ -524,25 +524,6 @@
   },
   {
     "source": "GOL",
-    "title": "GOL: São Paulo (GRU) → Assunção (ASU) - 12/09/2026 a 25/09/2026",
-    "destination": "Assunção",
-    "destination_iata": "ASU",
-    "origin": "São Paulo",
-    "origin_iata": "GRU",
-    "price_brl": 1088.2,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/GRU/ASU",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/assun%C3%A7%C3%A3o-1-1500px-x-500px.png",
-    "airline": "GOL",
-    "trip_type": "round_trip",
-    "travel_class": "Econômica",
-    "departure_date": "2026-09-12",
-    "return_date": "2026-09-25",
-    "fetched_at": "2026-09-12T09:04:11.493897+00:00",
-    "id": "44a17537dfcf"
-  },
-  {
-    "source": "GOL",
     "title": "GOL: São Paulo (SAO) → Montevideo (MVD) - 19/11/2026 a 21/11/2026",
     "destination": "Montevideo",
     "destination_iata": "MVD",
@@ -637,6 +618,25 @@
     "id": "cf8003ceddf7"
   },
   {
+    "source": "GOL",
+    "title": "GOL: São Paulo (GRU) → Santa Cruz de la Sierra (VVI) - 20/09/2026 a 01/10/2026",
+    "destination": "Santa Cruz de la Sierra",
+    "destination_iata": "VVI",
+    "origin": "São Paulo",
+    "origin_iata": "GRU",
+    "price_brl": 1405.64,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/GRU/VVI",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/03-1500px-x-500px-5.png",
+    "airline": "GOL",
+    "trip_type": "round_trip",
+    "travel_class": "Econômica",
+    "departure_date": "2026-09-20",
+    "return_date": "2026-10-01",
+    "fetched_at": "2026-09-13T12:35:20.802851+00:00",
+    "id": "241ca97e8222"
+  },
+  {
     "source": "Passagens Imperdíveis",
     "title": "Continua muito bom! Programe sua viagem para MACHU PICCHU! Passagens para o PERU: Cusco ou Lima! A partir de R$ 1.412, ida e volta, c/ taxas! Opções de VOO DIRETO!",
     "destination": "Peru: Cusco ou Lima",
@@ -647,6 +647,18 @@
     "trip_type": "round_trip",
     "fetched_at": "2026-09-12T16:28:09.761075+00:00",
     "id": "d36ce0ffe2f7"
+  },
+  {
+    "source": "Passagens Imperdíveis",
+    "title": "Continua muito bom! Programe sua viagem para MACHU PICCHU! Passagens para o PERU: Cusco ou Lima! A partir de R$ 1.412, ida e volta, c/ taxas! Opções de VOO DIRETO!",
+    "destination": "Peru: Cusco ou Lima",
+    "price_brl": 1417.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-cusco-ou-lima-2026-122/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/lima-612x612.jpg",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-09-13T12:35:19.892295+00:00",
+    "id": "2eb93ba1ac43"
   },
   {
     "source": "GOL",
@@ -1275,6 +1287,25 @@
     "id": "4c99b268dccc"
   },
   {
+    "source": "GOL",
+    "title": "GOL: Rio de Janeiro (GIG) → Assunção (ASU) - 17/09/2026 a 26/09/2026",
+    "destination": "Assunção",
+    "destination_iata": "ASU",
+    "origin": "Rio de Janeiro",
+    "origin_iata": "GIG",
+    "price_brl": 2372.93,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/GIG/ASU",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/assun%C3%A7%C3%A3o-1-1500px-x-500px.png",
+    "airline": "GOL",
+    "trip_type": "round_trip",
+    "travel_class": "Econômica",
+    "departure_date": "2026-09-17",
+    "return_date": "2026-09-26",
+    "fetched_at": "2026-09-13T12:35:20.802907+00:00",
+    "id": "0f4965d2a216"
+  },
+  {
     "source": "Melhores Destinos",
     "title": "Orlando com bons preços: passagens a partir de R$ 2.380 ida e volta saindo de São Paulo e mais cidades",
     "destination": null,
@@ -1521,6 +1552,25 @@
     "trip_type": "unknown",
     "fetched_at": "2026-09-13T06:36:12.875061+00:00",
     "id": "4a9e44184b52"
+  },
+  {
+    "source": "GOL",
+    "title": "GOL: Rio de Janeiro (GIG) → Nova York (JFK) - 20/09/2026 a 23/09/2026",
+    "destination": "Nova York",
+    "destination_iata": "JFK",
+    "origin": "Rio de Janeiro",
+    "origin_iata": "GIG",
+    "price_brl": 3112.7,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/GIG/JFK",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/JFK_7_11zon.png",
+    "airline": "GOL",
+    "trip_type": "round_trip",
+    "travel_class": "Econômica",
+    "departure_date": "2026-09-20",
+    "return_date": "2026-09-23",
+    "fetched_at": "2026-09-13T12:35:20.802928+00:00",
+    "id": "34597e7f50d7"
   },
   {
     "source": "GOL",
