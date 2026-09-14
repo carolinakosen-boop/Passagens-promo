@@ -190,25 +190,6 @@
   },
   {
     "source": "GOL",
-    "title": "GOL: São Paulo (GRU) → Campo Grande (CGR) - 16/09/2026",
-    "destination": "Campo Grande",
-    "destination_iata": "CGR",
-    "origin": "São Paulo",
-    "origin_iata": "GRU",
-    "price_brl": 419.68,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/GRU/CGR",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/campo-grande-2-1500px-x-500px.png",
-    "airline": "GOL",
-    "trip_type": "one_way",
-    "travel_class": "Econômica",
-    "departure_date": "2026-09-16",
-    "return_date": "",
-    "fetched_at": "2026-09-13T06:36:16.788264+00:00",
-    "id": "8a46d290c122"
-  },
-  {
-    "source": "GOL",
     "title": "GOL: São Paulo (GRU) → Campo Grande (CGR) - 29/09/2026",
     "destination": "Campo Grande",
     "destination_iata": "CGR",
@@ -265,25 +246,6 @@
     "id": "a5271288938b"
   },
   {
-    "source": "GOL",
-    "title": "GOL: Rio de Janeiro (SDU) → São Paulo (CGH) - 29/09/2026",
-    "destination": "São Paulo",
-    "destination_iata": "CGH",
-    "origin": "Rio de Janeiro",
-    "origin_iata": "SDU",
-    "price_brl": 593.76,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/SDU/CGH",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/03-1500px-x-500px.png",
-    "airline": "GOL",
-    "trip_type": "one_way",
-    "travel_class": "Econômica",
-    "departure_date": "2026-09-29",
-    "return_date": "",
-    "fetched_at": "2026-09-13T06:36:16.788282+00:00",
-    "id": "8368b33d72e6"
-  },
-  {
     "source": "Passagens Imperdíveis",
     "title": "Programe sua viagem para as Cataratas do Iguaçu! Passagens para FOZ DO IGUAÇU! A partir de R$ 601, ida e volta, c/ taxas!",
     "destination": "Foz do Iguaçu",
@@ -294,25 +256,6 @@
     "trip_type": "round_trip",
     "fetched_at": "2026-09-13T21:34:43.264971+00:00",
     "id": "8b1dfe79b99b"
-  },
-  {
-    "source": "GOL",
-    "title": "GOL: São Paulo (CGH) → Brasília (BSB) - 28/09/2026",
-    "destination": "Brasília",
-    "destination_iata": "BSB",
-    "origin": "São Paulo",
-    "origin_iata": "CGH",
-    "price_brl": 697.41,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/CGH/BSB",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/bras%C3%ADlia-2-1500px-x-500px.png",
-    "airline": "GOL",
-    "trip_type": "one_way",
-    "travel_class": "Econômica",
-    "departure_date": "2026-09-28",
-    "return_date": "",
-    "fetched_at": "2026-09-13T06:36:16.788288+00:00",
-    "id": "84b1be214591"
   },
   {
     "source": "GOL",
@@ -573,6 +516,19 @@
     "id": "d7a4034e6389"
   },
   {
+    "source": "Melhores Destinos",
+    "title": "Temporada de neve já começou! Viaje para o Chile com passagens para Santiago a partir de R$ 1.261 ida e volta",
+    "destination": "Chile",
+    "price_brl": 1261.0,
+    "currency": "BRL",
+    "link": "https://www.melhoresdestinos.com.br/promocao/neve-passagens-para-santiago-22jun26",
+    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2024/06/neve-ad-santiago-bariloche-capa-754x396.jpeg",
+    "airline": null,
+    "trip_type": "round_trip",
+    "fetched_at": "2026-09-14T09:46:46.882182+00:00",
+    "id": "3d5bddb05f84"
+  },
+  {
     "source": "Passagens Imperdíveis",
     "title": "Passagens para a ARGENTINA: Buenos Aires ou Mendoza! Datas inclusive nas férias, Inverno e mais! A partir de R$ 1.275, ida e volta, c/ taxas!",
     "destination": "Argentina",
@@ -596,25 +552,6 @@
     "trip_type": "round_trip",
     "fetched_at": "2026-09-13T19:12:53.930756+00:00",
     "id": "7f9e30b8fc0f"
-  },
-  {
-    "source": "GOL",
-    "title": "GOL: São Paulo (GRU) → Santa Cruz de la Sierra (VVI) - 27/09/2026 a 04/10/2026",
-    "destination": "Santa Cruz de la Sierra",
-    "destination_iata": "VVI",
-    "origin": "São Paulo",
-    "origin_iata": "GRU",
-    "price_brl": 1399.6,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/GRU/VVI",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/03-1500px-x-500px-5.png",
-    "airline": "GOL",
-    "trip_type": "round_trip",
-    "travel_class": "Econômica",
-    "departure_date": "2026-09-27",
-    "return_date": "2026-10-04",
-    "fetched_at": "2026-09-13T06:36:16.788299+00:00",
-    "id": "cf8003ceddf7"
   },
   {
     "source": "GOL",
@@ -1014,25 +951,6 @@
     "id": "6400e0bba704"
   },
   {
-    "source": "GOL",
-    "title": "GOL: Rio de Janeiro (GIG) → Buenos Aires (AEP) - 24/09/2026 a 29/09/2026",
-    "destination": "Buenos Aires",
-    "destination_iata": "AEP",
-    "origin": "Rio de Janeiro",
-    "origin_iata": "GIG",
-    "price_brl": 1965.35,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/GIG/AEP",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/buenos-aires-2-1500px-x-500px.png",
-    "airline": "GOL",
-    "trip_type": "round_trip",
-    "travel_class": "Econômica",
-    "departure_date": "2026-09-24",
-    "return_date": "2026-09-29",
-    "fetched_at": "2026-09-13T06:36:16.788326+00:00",
-    "id": "76804086c057"
-  },
-  {
     "source": "Passagens Imperdíveis",
     "title": "Passagens 2 em 1: SANTIAGO + PERU: Cusco ou Lima! A partir de R$ 1.849, todos os trechos, c/ taxas! Opções de VOO DIRETO!",
     "destination": "2 em 1: Chile + Peru",
@@ -1074,19 +992,6 @@
     "trip_type": "round_trip",
     "fetched_at": "2026-09-13T16:52:03.333044+00:00",
     "id": "1212b694fd75"
-  },
-  {
-    "source": "Melhores Destinos",
-    "title": "Bora para Orlando? Voos a partir de R$ 2.151 ida e volta saindo de várias cidades",
-    "destination": "Orlando? Voos",
-    "price_brl": 2151.0,
-    "currency": "BRL",
-    "link": "https://www.melhoresdestinos.com.br/promocao/bora-para-orlando-voos-2151",
-    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2021/10/orlando-eua-disney-capa14-754x396.jpg",
-    "airline": null,
-    "trip_type": "round_trip",
-    "fetched_at": "2026-09-13T06:36:01.492040+00:00",
-    "id": "f610546149c6"
   },
   {
     "source": "GOL",
@@ -1144,38 +1049,6 @@
     "return_date": "2026-09-26",
     "fetched_at": "2026-09-13T12:35:20.802907+00:00",
     "id": "0f4965d2a216"
-  },
-  {
-    "source": "Melhores Destinos",
-    "title": "Orlando com bons preços: passagens a partir de R$ 2.380 ida e volta saindo de São Paulo e mais cidades",
-    "destination": null,
-    "price_brl": 2380.0,
-    "currency": "BRL",
-    "link": "https://www.melhoresdestinos.com.br/promocao/orlando-bons-precos-2380",
-    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2024/02/apartamentos-orlando-capa-754x396.jpg",
-    "airline": null,
-    "trip_type": "round_trip",
-    "fetched_at": "2026-09-13T06:36:00.495665+00:00",
-    "id": "24cd140a6e33"
-  },
-  {
-    "source": "GOL",
-    "title": "GOL: Rio de Janeiro (GIG) → Assunção (ASU) - 25/09/2026 a 26/09/2026",
-    "destination": "Assunção",
-    "destination_iata": "ASU",
-    "origin": "Rio de Janeiro",
-    "origin_iata": "GIG",
-    "price_brl": 2421.56,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/GIG/ASU",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/assun%C3%A7%C3%A3o-1-1500px-x-500px.png",
-    "airline": "GOL",
-    "trip_type": "round_trip",
-    "travel_class": "Econômica",
-    "departure_date": "2026-09-25",
-    "return_date": "2026-09-26",
-    "fetched_at": "2026-09-13T06:36:16.788335+00:00",
-    "id": "44d9b0795144"
   },
   {
     "source": "Passagens Imperdíveis",
@@ -1500,19 +1373,6 @@
     "id": "f18b6760a88f"
   },
   {
-    "source": "Melhores Destinos",
-    "title": "Viaje para Portugal nas férias de final de ano ou no Carnaval com passagens a partir de R$ 3.061!",
-    "destination": "Portugal nas férias de final de ano ou no Carnaval",
-    "price_brl": 3061.0,
-    "currency": "BRL",
-    "link": "https://www.melhoresdestinos.com.br/promocao/viaje-para-portugal-nas-ferias-carnaval-com-passagens-lisboa-18mai26",
-    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2021/10/lisboa-portugal-capa5-754x396.jpg",
-    "airline": null,
-    "trip_type": "unknown",
-    "fetched_at": "2026-09-13T06:36:12.875061+00:00",
-    "id": "4a9e44184b52"
-  },
-  {
     "source": "GOL",
     "title": "GOL: Rio de Janeiro (GIG) → Nova York (JFK) - 20/09/2026 a 23/09/2026",
     "destination": "Nova York",
@@ -1568,6 +1428,19 @@
     "return_date": "2026-10-30",
     "fetched_at": "2026-09-13T23:55:50.593211+00:00",
     "id": "0c3dc0cbfa5e"
+  },
+  {
+    "source": "Melhores Destinos",
+    "title": "Passagens para Portugal a partir de R$ 3.250 com opções de voos diretos da Azul e datas no fim do ano!",
+    "destination": "Portugal",
+    "price_brl": 3250.0,
+    "currency": "BRL",
+    "link": "https://www.melhoresdestinos.com.br/promocao/passagens-para-portugal-12ago26",
+    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2023/01/passagens-aereas-lisboa-portugal-07-capa-754x396.jpg",
+    "airline": "Azul",
+    "trip_type": "unknown",
+    "fetched_at": "2026-09-14T09:46:43.366679+00:00",
+    "id": "83f640872cb0"
   },
   {
     "source": "GOL",
@@ -1825,6 +1698,19 @@
     "id": "1b8f455f6d75"
   },
   {
+    "source": "Melhores Destinos",
+    "title": "Itália: voos para Milão, Veneza, Roma e mais cidades a partir de R$ 3.771 ida e volta",
+    "destination": "Milão, Veneza, Roma e mais cidades",
+    "price_brl": 3771.0,
+    "currency": "BRL",
+    "link": "https://www.melhoresdestinos.com.br/promocao/italia-voos-para-milao-veneza-roma-e-mais-cidades-a-partir-de-r-3-771-ida-e-volta",
+    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-roma-capa2019-01-754x396.jpg",
+    "airline": null,
+    "trip_type": "round_trip",
+    "fetched_at": "2026-09-14T09:46:46.362324+00:00",
+    "id": "3de146312fa1"
+  },
+  {
     "source": "GOL",
     "title": "GOL: Rio de Janeiro (GIG) → Miami (MIA) - 01/10/2026 a 02/11/2026",
     "destination": "Miami",
@@ -1861,6 +1747,18 @@
     "return_date": "2026-09-15",
     "fetched_at": "2026-09-13T23:55:50.804773+00:00",
     "id": "e2e29d276d07"
+  },
+  {
+    "source": "Passagens Imperdíveis",
+    "title": "Oportunidade! Passagens para DUBAI! A partir de R$ 4.401, ida e volta, c/ taxas! Opções com BAGAGEM INCLUÍDA! Em até 5x SEM JUROS!",
+    "destination": "Oportunidade! Dubai",
+    "price_brl": 4401.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-dubai-2026-7/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/dubai_2-612x612.png",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-09-14T09:46:50.149885+00:00",
+    "id": "a7eb5e25057b"
   },
   {
     "source": "TAP",
