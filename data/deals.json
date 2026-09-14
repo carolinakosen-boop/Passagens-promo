@@ -240,18 +240,6 @@
     "id": "cb48167a437f"
   },
   {
-    "source": "Passagens Imperdíveis",
-    "title": "Passagens para o RIO DE JANEIRO ou SÃO PAULO! Datas para viajar até Julho/27, inclusive férias e mais! A partir de R$ 348, ida e volta, c/ taxas!",
-    "destination": "Rio de Janeiro ou São Paulo",
-    "price_brl": 348.0,
-    "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-rio-de-janeiro-ou-sao-paulo-2026-57/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/sao_paulo_sp_brasil_1_2_3-612x612.png",
-    "trip_type": "round_trip",
-    "fetched_at": "2026-09-13T21:34:43.264919+00:00",
-    "id": "f69e35a995af"
-  },
-  {
     "source": "GOL",
     "title": "GOL: São Paulo (CGH) → Rio de Janeiro (SDU) - 30/11/2026",
     "destination": "Rio de Janeiro",
@@ -656,18 +644,6 @@
     "id": "8780251992a2"
   },
   {
-    "source": "Passagens Imperdíveis",
-    "title": "Programe sua viagem para as Cataratas do Iguaçu! Passagens para FOZ DO IGUAÇU! A partir de R$ 601, ida e volta, c/ taxas!",
-    "destination": "Foz do Iguaçu",
-    "price_brl": 601.0,
-    "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-foz-do-iguacu-2026-38/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/foz_do_iguacu_parana-612x612.png",
-    "trip_type": "round_trip",
-    "fetched_at": "2026-09-13T21:34:43.264971+00:00",
-    "id": "8b1dfe79b99b"
-  },
-  {
     "source": "GOL",
     "title": "GOL: São Paulo (CGH) → Porto Seguro (BPS) - 18/09/2026",
     "destination": "Porto Seguro",
@@ -878,18 +854,6 @@
   },
   {
     "source": "Passagens Imperdíveis",
-    "title": "Passagens para FERNANDO DE NORONHA ou JERICOACOARA! Datas inclusive nas Férias, feriados e mais! A partir de R$ 819, ida e volta, c/ taxas!",
-    "destination": "Fernando de Noronha ou Jericoacoara",
-    "price_brl": 1063.0,
-    "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-fernando-de-noronha-ou-jericoacoara-2026-18/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/brasil_fernando_de_noronha_612_612-612x612.png",
-    "trip_type": "round_trip",
-    "fetched_at": "2026-09-13T21:34:43.265046+00:00",
-    "id": "55daec00df63"
-  },
-  {
-    "source": "Passagens Imperdíveis",
     "title": "Passagens para ASSUNÇÃO ou MONTEVIDEO! A partir de R$ 1.075, ida e volta, c/ taxas! Em até 6x SEM JUROS! Opções de VOO DIRETO!",
     "destination": "Assunção ou Montevideo",
     "price_brl": 1075.0,
@@ -1050,18 +1014,6 @@
     "trip_type": "round_trip",
     "fetched_at": "2026-09-14T16:12:39.059207+00:00",
     "id": "366ddedcca3a"
-  },
-  {
-    "source": "Passagens Imperdíveis",
-    "title": "Passagens para a ARGENTINA: Buenos Aires ou Mendoza! Datas inclusive nas férias, Inverno e mais! A partir de R$ 1.275, ida e volta, c/ taxas!",
-    "destination": "Argentina",
-    "price_brl": 1275.0,
-    "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-argentina-buenos-aires-mendoza-2026-5/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/argentina_buenos_aires_2_612_612-612x612.png",
-    "trip_type": "round_trip",
-    "fetched_at": "2026-09-13T21:34:43.264949+00:00",
-    "id": "99784fcc760b"
   },
   {
     "source": "GOL",
@@ -2008,15 +1960,15 @@
   },
   {
     "source": "Passagens Imperdíveis",
-    "title": "Passagens para NOVA YORK ou ORLANDO! Datas para viajar inclusive férias, Primavera e mais! A partir de R$ 2.466, ida e volta, c/ taxas!",
-    "destination": "Orlando ou Nova York",
-    "price_brl": 2466.0,
+    "title": "Passagens para ARUBA, CURAÇAO ou SAN ANDRES! Datas inclusive nas Férias e mais! A partir de R$ 2.457, ida e volta, c/ taxas!",
+    "destination": "Aruba, Curaçao ou San Andres",
+    "price_brl": 2457.0,
     "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-nova-york-ou-orlando-2026-25/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/b17b2096_d592_4b49_b14f_53c687c6ee4b-612x612.jpg",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-oranjestad-san-andres-ou-willemstad-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/curacao_caribe-612x612.png",
     "trip_type": "round_trip",
-    "fetched_at": "2026-09-13T21:34:43.264980+00:00",
-    "id": "4ac95015bff0"
+    "fetched_at": "2026-09-14T23:20:07.141885+00:00",
+    "id": "d589c57afb68"
   },
   {
     "source": "GOL",
@@ -2096,25 +2048,6 @@
   },
   {
     "source": "GOL",
-    "title": "GOL: Rio de Janeiro (RIO) → Nova York (JFK) - 04/11/2026 a 21/11/2026",
-    "destination": "Nova York",
-    "destination_iata": "JFK",
-    "origin": "Rio de Janeiro",
-    "origin_iata": "RIO",
-    "price_brl": 2521.57,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/RIO/JFK",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/JFK_7_11zon.png",
-    "airline": "GOL",
-    "trip_type": "round_trip",
-    "travel_class": "Econômica",
-    "departure_date": "2026-11-04",
-    "return_date": "2026-11-21",
-    "fetched_at": "2026-09-13T21:34:44.247459+00:00",
-    "id": "522ec9046b32"
-  },
-  {
-    "source": "GOL",
     "title": "GOL: Rio de Janeiro (RIO) → Nova York (JFK) - 24/10/2026 a 31/10/2026",
     "destination": "Nova York",
     "destination_iata": "JFK",
@@ -2150,6 +2083,18 @@
     "return_date": "2026-11-25",
     "fetched_at": "2026-09-14T16:12:39.629077+00:00",
     "id": "8825243104d2"
+  },
+  {
+    "source": "Passagens Imperdíveis",
+    "title": "Passagens para NOVA YORK ou ORLANDO! Datas inclusive nas Férias e mais! A partir de R$ 2.620, ida e volta, c/ taxas! Em até 4x SEM JUROS!",
+    "destination": "Nova York ou Orlando",
+    "price_brl": 2620.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-nova-york-ou-orlando-2026-26/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/nova_iorque_new_york_eua_612_1-612x612.jpg",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-09-14T23:20:07.141849+00:00",
+    "id": "7035135aac22"
   },
   {
     "source": "GOL",
@@ -2641,25 +2586,6 @@
   },
   {
     "source": "GOL",
-    "title": "GOL: São Paulo (SAO) → Miami (MIA) - 18/10/2026 a 26/10/2026",
-    "destination": "Miami",
-    "destination_iata": "MIA",
-    "origin": "São Paulo",
-    "origin_iata": "SAO",
-    "price_brl": 3330.41,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/SAO/MIA",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/miami-1-1500px-x-500px-1.png",
-    "airline": "GOL",
-    "trip_type": "round_trip",
-    "travel_class": "Econômica",
-    "departure_date": "2026-10-18",
-    "return_date": "2026-10-26",
-    "fetched_at": "2026-09-13T21:34:44.247485+00:00",
-    "id": "81d3e7a4a911"
-  },
-  {
-    "source": "GOL",
     "title": "GOL: São Paulo (SAO) → Oranjestad, Aruba (AUA) - 06/10/2026 a 12/10/2026",
     "destination": "Oranjestad, Aruba",
     "destination_iata": "AUA",
@@ -2697,35 +2623,16 @@
     "id": "6aeac2e8bc43"
   },
   {
-    "source": "GOL",
-    "title": "GOL: São Paulo (SAO) → Orlando (MCO) - 20/09/2026 a 29/09/2026",
-    "destination": "Orlando",
-    "destination_iata": "MCO",
-    "origin": "São Paulo",
-    "origin_iata": "SAO",
-    "price_brl": 3434.36,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/SAO/MCO",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/orlando-3-1500px-x-500px.png",
-    "airline": "GOL",
-    "trip_type": "round_trip",
-    "travel_class": "Econômica",
-    "departure_date": "2026-09-20",
-    "return_date": "2026-09-29",
-    "fetched_at": "2026-09-13T21:34:44.247499+00:00",
-    "id": "94acc84f1754"
-  },
-  {
     "source": "Passagens Imperdíveis",
-    "title": "Passagens para a ESPANHA: Madri ou PORTUGAL: Lisboa! Datas inclusive férias, Verão Europeu e mais! A partir de R$ 3.559, ida e volta, c/ taxas!",
+    "title": "Passagens para LISBOA ou MADRI! A partir de R$ 3.452, ida e volta, c/ taxas! Em até 5x SEM JUROS! Opções com BAGAGEM INCLUÍDA! Opções de VOO DIRETO!",
     "destination": "Madri ou Lisboa",
     "price_brl": 3452.0,
     "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-espanha-madri-portugal-lisboa-2026-9/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/madri_espanha_5-612x612.jpg",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-lisboa-ou-madri-2026-36/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/madri_espanha_8-612x612.jpg",
     "trip_type": "round_trip",
-    "fetched_at": "2026-09-13T21:34:43.264962+00:00",
-    "id": "2caa6ba01bc3"
+    "fetched_at": "2026-09-14T23:20:07.141868+00:00",
+    "id": "562b2e1c4366"
   },
   {
     "source": "GOL",
@@ -2840,18 +2747,6 @@
     "return_date": "2026-09-24",
     "fetched_at": "2026-09-13T23:55:50.593227+00:00",
     "id": "843a1b297a1a"
-  },
-  {
-    "source": "Passagens Imperdíveis",
-    "title": "Aproveite! Passagens para BERLIM ou LONDRES! Datas para viajar inclusive férias, Verão Europeu e mais! A partir de R$ 3.621, ida e volta, c/ taxas!",
-    "destination": "Aproveite Londres ou Berlim",
-    "price_brl": 3621.0,
-    "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-berlim-london-ou-londres-2026/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/united_kingdom_londres_612_612-612x612.png",
-    "trip_type": "round_trip",
-    "fetched_at": "2026-09-13T21:34:43.264988+00:00",
-    "id": "3305a7c3c4c9"
   },
   {
     "source": "GOL",
@@ -3129,21 +3024,21 @@
   },
   {
     "source": "TAP",
-    "title": "TAP: São Paulo (GRU) → Lisboa (LIS) - 24/09/2026 a 02/10/2026",
+    "title": "TAP: Rio de Janeiro (GIG) → Lisboa (LIS) - 14/09/2026 a 23/09/2026",
     "destination": "Lisboa",
     "destination_iata": "LIS",
-    "origin": "São Paulo",
-    "origin_iata": "GRU",
-    "price_brl": 6708.0,
+    "origin": "Rio de Janeiro",
+    "origin_iata": "GIG",
+    "price_brl": 7365.0,
     "currency": "BRL",
     "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
     "image_url": "https://assets.airtrfx.com/media-em/tp/lisboa-1-1500px.jpg",
     "airline": "TAP",
     "trip_type": "round_trip",
-    "departure_date": "24/09/2026",
-    "return_date": "02/10/2026",
-    "fetched_at": "2026-09-13T21:34:46.897925+00:00",
-    "id": "812693bb616c"
+    "departure_date": "14/09/2026",
+    "return_date": "23/09/2026",
+    "fetched_at": "2026-09-14T23:20:08.553901+00:00",
+    "id": "d503e74de932"
   },
   {
     "source": "TAP",
