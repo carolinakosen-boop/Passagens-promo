@@ -94,6 +94,18 @@
     "id": "c2439019826d"
   },
   {
+    "source": "Passagens Imperdíveis",
+    "title": "Passagens para o RIO DE JANEIRO ou SÃO PAULO! Datas inclusive nas férias, feriados e mais! A partir de R$ 336, ida e volta, c/ taxas!",
+    "destination": "Rio de Janeiro ou São Paulo",
+    "price_brl": 336.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-rio-de-janeiro-ou-sao-paulo-2026-60/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/sao_paulo_sp_brasil_1-612x612.png",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-09-19T20:10:52.717800+00:00",
+    "id": "8f2538ee9cb0"
+  },
+  {
     "source": "GOL",
     "title": "GOL: São Paulo (CGH) → Rio de Janeiro (SDU) - 15/12/2026",
     "destination": "Rio de Janeiro",
@@ -269,6 +281,18 @@
     "return_date": "",
     "fetched_at": "2026-09-18T23:05:36.236440+00:00",
     "id": "f3c7ab1a7431"
+  },
+  {
+    "source": "Passagens Imperdíveis",
+    "title": "Passagens para o VERÃO nas PRAIAS DO NORDESTE! Programe sua viagem e viva o verão entre praias paradisíacas! A partir de R$ 484, ida e volta!",
+    "destination": "Verão nas Praias do Nordeste",
+    "price_brl": 484.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/passagens-nacionais-praias-nordeste-2026-118/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/bahia-612x612.jpg",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-09-19T20:10:52.717951+00:00",
+    "id": "eeb6072b1a89"
   },
   {
     "source": "GOL",
@@ -570,6 +594,18 @@
   },
   {
     "source": "Passagens Imperdíveis",
+    "title": "Oportunidade! Passagens com VOO DIRETO para a ARGENTINA: Buenos Aires ou CHILE: Santiago! A partir de R$ 1.102, ida e volta, c/ taxas! Opções de VOO DIRETO!",
+    "destination": "Oportunidade! Chile ou Argentina com Voo Direto",
+    "price_brl": 1102.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-argentina-buenos-aires-chile-santiago-2026-24/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/chile_santiago-612x612.png",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-09-19T20:10:52.717852+00:00",
+    "id": "14645499697b"
+  },
+  {
+    "source": "Passagens Imperdíveis",
     "title": "PASSAGEM + HOTEL em JOÃO PESSOA! A partir de R$ 1.195, por pessoa, quarto duplo, c/ taxas! Em até 10x SEM JUROS!",
     "destination": "Pacote: João Pessoa",
     "price_brl": 1195.0,
@@ -750,6 +786,18 @@
     "return_date": "2026-11-17",
     "fetched_at": "2026-09-19T01:25:43.250669+00:00",
     "id": "ed565ecce055"
+  },
+  {
+    "source": "Passagens Imperdíveis",
+    "title": "MUITO BOM!!! Programe sua viagem para MACHU PICCHU! Passagens para o PERU: Cusco ou Lima! A partir de R$ 1.578, ida e volta, c/ taxas! Opções de VOO DIRETO!",
+    "destination": "Muito bom! Peru: Lima ou Cusco",
+    "price_brl": 1578.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-cusco-ou-lima-2026-128/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/machupicchu-612x612.jpg",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-09-19T20:10:52.717831+00:00",
+    "id": "66330f4d380c"
   },
   {
     "source": "GOL",
@@ -1853,5 +1901,17 @@
     "return_date": "25/09/2026",
     "fetched_at": "2026-09-19T17:49:18.812948+00:00",
     "id": "592856b597db"
+  },
+  {
+    "source": "Passagens Imperdíveis",
+    "title": "Passagens para o JAPÃO: Nagoya, Osaka ou Tokyo! partir de R$ 6.877, ida e volta, c/ taxas! Opções com BAGAGEM INCLUÍDA!",
+    "destination": "Japão",
+    "price_brl": 6877.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-japao-nagoya-osaka-tokyo-toquio-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/japao_612-612x612.jpg",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-09-19T20:10:52.717842+00:00",
+    "id": "92f977e818e3"
   }
 ]
