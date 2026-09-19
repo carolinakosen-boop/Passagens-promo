@@ -139,6 +139,19 @@
     "id": "05055504e21e"
   },
   {
+    "source": "Melhores Destinos",
+    "title": "9.9 – Data dupla tem promoções de Gol, Latam e Azul com voos nacionais a partir de R$ 345 ida e volta!",
+    "destination": null,
+    "price_brl": 345.0,
+    "currency": "BRL",
+    "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-nacionais-09-09-26",
+    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2026/09/passagens-nacionais-9-9-capa-2-scaled-e1788992142309.jpg",
+    "airline": "LATAM",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-09-19T14:40:20.573152+00:00",
+    "id": "e9a751f66a68"
+  },
+  {
     "source": "GOL",
     "title": "GOL: Rio de Janeiro (RIO) → Brasília (BSB) - 16/12/2026",
     "destination": "Brasília",
@@ -467,6 +480,19 @@
     "id": "24a5b6bdb728"
   },
   {
+    "source": "Melhores Destinos",
+    "title": "Muito bom! 🇦🇷 Passagens para Buenos Aires a partir de apenas R$ 996 ida e volta, ou janeiro a partir de R$ 1.439",
+    "destination": "Buenos Aires",
+    "price_brl": 996.0,
+    "currency": "BRL",
+    "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-argentina-buenos-aires-03-09-26",
+    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2024/03/hoteis-mais-bem-avaliados-Buenos-Aires-capa-754x396.jpg",
+    "airline": null,
+    "trip_type": "round_trip",
+    "fetched_at": "2026-09-19T14:40:21.860058+00:00",
+    "id": "634c9a3aaea7"
+  },
+  {
     "source": "GOL",
     "title": "GOL: Rio de Janeiro (SDU) → São Paulo (CGH) - 29/09/2026",
     "destination": "São Paulo",
@@ -637,6 +663,19 @@
     "id": "5b8fed28b3fe"
   },
   {
+    "source": "Melhores Destinos",
+    "title": "Caribe BARATO 🔥 Voos diretos para Punta Cana ou Cancún a partir de R$ 1.306 ida e volta saindo de São Paulo!",
+    "destination": "Punta Cana ou Cancún",
+    "price_brl": 1306.0,
+    "currency": "BRL",
+    "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-caribe-punta-cana-cancun-08-09-26",
+    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2023/08/pacotes-punta-cana-capa-754x396.jpeg",
+    "airline": null,
+    "trip_type": "round_trip",
+    "fetched_at": "2026-09-19T14:40:21.146033+00:00",
+    "id": "7f9e30b8fc0f"
+  },
+  {
     "source": "GOL",
     "title": "GOL: São Paulo (SAO) → Santa Cruz de la Sierra (VVI) - 09/12/2026 a 23/12/2026",
     "destination": "Santa Cruz de la Sierra",
@@ -804,6 +843,25 @@
     "return_date": "2026-11-18",
     "fetched_at": "2026-09-18T20:33:36.338939+00:00",
     "id": "ed4c92be8e7b"
+  },
+  {
+    "source": "GOL",
+    "title": "GOL: São Paulo (SAO) → Montevideo (MVD) - 08/11/2026 a 10/11/2026",
+    "destination": "Montevideo",
+    "destination_iata": "MVD",
+    "origin": "São Paulo",
+    "origin_iata": "SAO",
+    "price_brl": 1655.16,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/SAO/MVD",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/montevideo-2-1500px-x-500px.png",
+    "airline": "GOL",
+    "trip_type": "round_trip",
+    "travel_class": "Econômica",
+    "departure_date": "2026-11-08",
+    "return_date": "2026-11-10",
+    "fetched_at": "2026-09-19T14:40:28.529802+00:00",
+    "id": "52a8ac2a202a"
   },
   {
     "source": "GOL",
@@ -1225,16 +1283,23 @@
     "id": "77185d35f3bc"
   },
   {
-    "source": "Passagens Imperdíveis",
-    "title": "Passagens para CHICAGO ou NOVA YORK! Datas inclusive nas Férias e mais! A partir de R$ 2.512, ida e volta, c/ taxas! Em até 4x SEM JUROS!",
-    "destination": "Chicago ou Nova York",
-    "price_brl": 2512.0,
+    "source": "GOL",
+    "title": "GOL: Rio de Janeiro (RIO) → Nova York (JFK) - 05/11/2026 a 19/11/2026",
+    "destination": "Nova York",
+    "destination_iata": "JFK",
+    "origin": "Rio de Janeiro",
+    "origin_iata": "RIO",
+    "price_brl": 2510.01,
     "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-chicago-ou-nova-york-2026-17/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/nova_york_ny_eua_2-612x612.png",
+    "link": "https://www.voegol.com.br/br/voos/RIO/JFK",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/JFK_7_11zon.png",
+    "airline": "GOL",
     "trip_type": "round_trip",
-    "fetched_at": "2026-09-18T13:44:32.554438+00:00",
-    "id": "ef656bbe841a"
+    "travel_class": "Econômica",
+    "departure_date": "2026-11-05",
+    "return_date": "2026-11-19",
+    "fetched_at": "2026-09-19T14:40:28.529679+00:00",
+    "id": "015ad71917ac"
   },
   {
     "source": "Passagens Imperdíveis",
@@ -1381,6 +1446,25 @@
   },
   {
     "source": "GOL",
+    "title": "GOL: São Paulo (GRU) → Oranjestad, Aruba (AUA) - 16/10/2026 a 20/10/2026",
+    "destination": "Oranjestad, Aruba",
+    "destination_iata": "AUA",
+    "origin": "São Paulo",
+    "origin_iata": "GRU",
+    "price_brl": 2749.94,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/GRU/AUA",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/02-1500px-x-500px-3.png",
+    "airline": "GOL",
+    "trip_type": "round_trip",
+    "travel_class": "Econômica",
+    "departure_date": "2026-10-16",
+    "return_date": "2026-10-20",
+    "fetched_at": "2026-09-19T14:40:28.529726+00:00",
+    "id": "6998986d6237"
+  },
+  {
+    "source": "GOL",
     "title": "GOL: São Paulo (SAO) → Oranjestad, Aruba (AUA) - 23/10/2026 a 28/10/2026",
     "destination": "Oranjestad, Aruba",
     "destination_iata": "AUA",
@@ -1435,6 +1519,19 @@
     "return_date": "2026-11-12",
     "fetched_at": "2026-09-18T23:05:36.236496+00:00",
     "id": "a41d41663356"
+  },
+  {
+    "source": "Melhores Destinos",
+    "title": "Canadá barato! Passagens para Toronto ou Montreal a partir de R$ 2.883 saindo de São Paulo",
+    "destination": "Toronto ou Montreal",
+    "price_brl": 2883.0,
+    "currency": "BRL",
+    "link": "https://www.melhoresdestinos.com.br/promocao/canada-bem-barato-passagens-09set26",
+    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2022/01/canada-toronto-capa-754x396.jpg",
+    "airline": null,
+    "trip_type": "unknown",
+    "fetched_at": "2026-09-19T14:40:20.837298+00:00",
+    "id": "ca0a248f1e2d"
   },
   {
     "source": "GOL",
@@ -1787,23 +1884,5 @@
     "return_date": "05/10/2026",
     "fetched_at": "2026-09-19T06:22:19.715919+00:00",
     "id": "7397365199e7"
-  },
-  {
-    "source": "TAP",
-    "title": "TAP: Rio de Janeiro (GIG) → Lisboa (LIS) - 25/09/2026 a 02/10/2026",
-    "destination": "Lisboa",
-    "destination_iata": "LIS",
-    "origin": "Rio de Janeiro",
-    "origin_iata": "GIG",
-    "price_brl": 7438.0,
-    "currency": "BRL",
-    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
-    "image_url": "https://assets.airtrfx.com/media-em/tp/lisboa-1-1500px.jpg",
-    "airline": "TAP",
-    "trip_type": "round_trip",
-    "departure_date": "25/09/2026",
-    "return_date": "02/10/2026",
-    "fetched_at": "2026-09-18T13:44:35.834510+00:00",
-    "id": "f0753648b35e"
   }
 ]
