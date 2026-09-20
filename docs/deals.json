@@ -69,6 +69,19 @@
     "id": "c58b430f62db"
   },
   {
+    "source": "Melhores Destinos",
+    "title": "Natal Luz de Gramado! Passagens bem baratas para Porto Alegre a partir de apenas R$ 302 ida e volta",
+    "destination": "Porto Alegre",
+    "price_brl": 302.0,
+    "currency": "BRL",
+    "link": "https://www.melhoresdestinos.com.br/promocao/natal-luz-de-gramado-passagens-bem-baratas-16set26",
+    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2025/10/natal-luz-gramado-capa-1-754x396.jpg",
+    "airline": null,
+    "trip_type": "round_trip",
+    "fetched_at": "2026-09-20T09:59:05.418822+00:00",
+    "id": "5fceb20a70f7"
+  },
+  {
     "source": "GOL",
     "title": "GOL: Rio de Janeiro (RIO) → Brasília (BSB) - 25/11/2026",
     "destination": "Brasília",
@@ -469,19 +482,6 @@
     "return_date": "2026-12-07",
     "fetched_at": "2026-09-20T00:16:22.389057+00:00",
     "id": "3b7534b63d3f"
-  },
-  {
-    "source": "Melhores Destinos",
-    "title": "Temporada de neve já começou! Viaje para o Chile com passagens para Santiago a partir de R$ 1.261 ida e volta",
-    "destination": "Chile",
-    "price_brl": 1261.0,
-    "currency": "BRL",
-    "link": "https://www.melhoresdestinos.com.br/promocao/neve-passagens-para-santiago-22jun26",
-    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2024/06/neve-ad-santiago-bariloche-capa-754x396.jpeg",
-    "airline": null,
-    "trip_type": "round_trip",
-    "fetched_at": "2026-09-19T06:22:16.795613+00:00",
-    "id": "3d5bddb05f84"
   },
   {
     "source": "GOL",
@@ -1072,6 +1072,19 @@
     "id": "a1e2696134a7"
   },
   {
+    "source": "Melhores Destinos",
+    "title": "Nova York com bom preço! Passagens a partir de R$ 2.457 ida e volta saindo de SP ou Rio",
+    "destination": null,
+    "price_brl": 2457.0,
+    "currency": "BRL",
+    "link": "https://www.melhoresdestinos.com.br/promocao/nova-york-passagnes-2457",
+    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2023/01/quinta-avenida-5th-avenue-nova-york-capa-03-754x396.jpg",
+    "airline": null,
+    "trip_type": "round_trip",
+    "fetched_at": "2026-09-19T17:18:27+00:00",
+    "id": "77185d35f3bc"
+  },
+  {
     "source": "GOL",
     "title": "GOL: Rio de Janeiro (RIO) → Nova York (JFK) - 05/11/2026 a 19/11/2026",
     "destination": "Nova York",
@@ -1413,19 +1426,6 @@
     "id": "bca3792ae9e3"
   },
   {
-    "source": "Melhores Destinos",
-    "title": "Passagens para Portugal a partir de R$ 3.250 com opções de voos diretos da Azul e datas no fim do ano!",
-    "destination": "Portugal",
-    "price_brl": 3250.0,
-    "currency": "BRL",
-    "link": "https://www.melhoresdestinos.com.br/promocao/passagens-para-portugal-12ago26",
-    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2023/01/passagens-aereas-lisboa-portugal-07-capa-754x396.jpg",
-    "airline": "Azul",
-    "trip_type": "unknown",
-    "fetched_at": "2026-09-19T06:22:14.155902+00:00",
-    "id": "83f640872cb0"
-  },
-  {
     "source": "GOL",
     "title": "GOL: São Paulo (SAO) → Miami (MIA) - 23/11/2026 a 30/11/2026",
     "destination": "Miami",
@@ -1615,29 +1615,23 @@
     "id": "4b94c60cfcb2"
   },
   {
-    "source": "Passagens Imperdíveis",
-    "title": "Passagens para o Natal e/ou Ano Novo na EUROPA: Alemanha, Bélgica, Espanha, França, Holanda, Irlanda, Itália, Luxemburgo, Portugal, Reino Unido ou Suíça! A partir de R$ 3.690, ida e volta, c/ taxas!",
-    "destination": "Fim de Ano na Europa",
-    "price_brl": 3690.0,
+    "source": "GOL",
+    "title": "GOL: Rio de Janeiro (GIG) → Nova York (JFK) - 19/09/2026 a 09/10/2026",
+    "destination": "Nova York",
+    "destination_iata": "JFK",
+    "origin": "Rio de Janeiro",
+    "origin_iata": "GIG",
+    "price_brl": 3717.56,
     "currency": "BRL",
-    "link": "https://passagensimperdiveis.com.br/selecao-de-passagens-para-a-europa-alemanha-belgica-espanha-franca-holanda-irlanda-italia-lux-2026/",
-    "image_url": "https://travel-cdn.cubo333.com.br/static-img/arvore_natal-612x612.jpg",
+    "link": "https://www.voegol.com.br/br/voos/GIG/JFK",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/JFK_7_11zon.png",
+    "airline": "GOL",
     "trip_type": "round_trip",
-    "fetched_at": "2026-09-19T06:22:18.415697+00:00",
-    "id": "74713c07436c"
-  },
-  {
-    "source": "Melhores Destinos",
-    "title": "Itália: voos para Milão, Veneza, Roma e mais cidades a partir de R$ 3.771 ida e volta",
-    "destination": "Milão, Veneza, Roma e mais cidades",
-    "price_brl": 3771.0,
-    "currency": "BRL",
-    "link": "https://www.melhoresdestinos.com.br/promocao/italia-voos-para-milao-veneza-roma-e-mais-cidades-a-partir-de-r-3-771-ida-e-volta",
-    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-roma-capa2019-01-754x396.jpg",
-    "airline": null,
-    "trip_type": "round_trip",
-    "fetched_at": "2026-09-19T06:22:16.389378+00:00",
-    "id": "3de146312fa1"
+    "travel_class": "Econômica",
+    "departure_date": "2026-09-19",
+    "return_date": "2026-10-09",
+    "fetched_at": "2026-09-20T09:59:16.701516+00:00",
+    "id": "4d88789198c9"
   },
   {
     "source": "GOL",
@@ -1691,6 +1685,25 @@
   },
   {
     "source": "GOL",
+    "title": "GOL: São Paulo (GRU) → Punta Cana (PUJ) - 24/09/2026 a 01/10/2026",
+    "destination": "Punta Cana",
+    "destination_iata": "PUJ",
+    "origin": "São Paulo",
+    "origin_iata": "GRU",
+    "price_brl": 4890,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/GRU/PUJ",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/punta-cana-2-1500px-x-500px.png",
+    "airline": "GOL",
+    "trip_type": "round_trip",
+    "travel_class": "Econômica",
+    "departure_date": "2026-09-24",
+    "return_date": "2026-10-01",
+    "fetched_at": "2026-09-20T09:59:16.701520+00:00",
+    "id": "6c1d80cc8760"
+  },
+  {
+    "source": "GOL",
     "title": "GOL: Rio de Janeiro (GIG) → Cancún (CUN) - 03/11/2026 a 13/11/2026",
     "destination": "Cancún",
     "destination_iata": "CUN",
@@ -1726,24 +1739,6 @@
     "return_date": "2026-11-22",
     "fetched_at": "2026-09-20T00:16:22.389021+00:00",
     "id": "b43b0d0b18fb"
-  },
-  {
-    "source": "TAP",
-    "title": "TAP: São Paulo (GRU) → Lisboa (LIS) - 30/09/2026 a 05/10/2026",
-    "destination": "Lisboa",
-    "destination_iata": "LIS",
-    "origin": "São Paulo",
-    "origin_iata": "GRU",
-    "price_brl": 5941.0,
-    "currency": "BRL",
-    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
-    "image_url": "https://assets.airtrfx.com/media-em/tp/lisboa-1-1500px.jpg",
-    "airline": "TAP",
-    "trip_type": "round_trip",
-    "departure_date": "30/09/2026",
-    "return_date": "05/10/2026",
-    "fetched_at": "2026-09-19T06:22:19.715919+00:00",
-    "id": "7397365199e7"
   },
   {
     "source": "GOL",
@@ -1823,5 +1818,23 @@
     "trip_type": "round_trip",
     "fetched_at": "2026-09-19T22:24:29.010761+00:00",
     "id": "953eff60bae2"
+  },
+  {
+    "source": "TAP",
+    "title": "TAP: Rio de Janeiro (GIG) → Lisboa (LIS) - 21/09/2026 a 26/09/2026",
+    "destination": "Lisboa",
+    "destination_iata": "LIS",
+    "origin": "Rio de Janeiro",
+    "origin_iata": "GIG",
+    "price_brl": 7574.0,
+    "currency": "BRL",
+    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
+    "image_url": "https://assets.airtrfx.com/media-em/tp/lisboa-1-1500px.jpg",
+    "airline": "TAP",
+    "trip_type": "round_trip",
+    "departure_date": "21/09/2026",
+    "return_date": "26/09/2026",
+    "fetched_at": "2026-09-20T09:59:18.315378+00:00",
+    "id": "1b0326c853e0"
   }
 ]
