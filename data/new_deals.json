@@ -1,41 +1,52 @@
 [
   {
     "source": "Melhores Destinos",
-    "title": "Passagens para Portugal a partir de R$ 3.250 com opções de voos diretos da Azul e datas no fim do ano!",
-    "destination": "Portugal",
-    "price_brl": 3250.0,
+    "title": "Orlando com bons preços: passagens a partir de R$ 2.380 ida e volta saindo de São Paulo e mais cidades",
+    "destination": null,
+    "price_brl": 2380.0,
     "currency": "BRL",
-    "link": "https://www.melhoresdestinos.com.br/promocao/passagens-para-portugal-12ago26",
-    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2023/01/passagens-aereas-lisboa-portugal-07-capa-754x396.jpg",
-    "airline": "Azul",
-    "trip_type": "unknown",
-    "fetched_at": "2026-09-20T14:06:23.911310+00:00",
-    "id": "83f640872cb0"
+    "link": "https://www.melhoresdestinos.com.br/promocao/orlando-bons-precos-2380",
+    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2024/02/apartamentos-orlando-capa-754x396.jpg",
+    "airline": null,
+    "trip_type": "round_trip",
+    "fetched_at": "2026-09-20T17:34:48.958584+00:00",
+    "id": "24cd140a6e33"
   },
   {
     "source": "Melhores Destinos",
-    "title": "Itália: voos para Milão, Veneza, Roma e mais cidades a partir de R$ 3.771 ida e volta",
-    "destination": "Milão, Veneza, Roma e mais cidades",
-    "price_brl": 3771.0,
+    "title": "Bora para Orlando? Voos a partir de R$ 2.151 ida e volta saindo de várias cidades",
+    "destination": "Orlando? Voos",
+    "price_brl": 2151.0,
     "currency": "BRL",
-    "link": "https://www.melhoresdestinos.com.br/promocao/italia-voos-para-milao-veneza-roma-e-mais-cidades-a-partir-de-r-3-771-ida-e-volta",
-    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-roma-capa2019-01-754x396.jpg",
+    "link": "https://www.melhoresdestinos.com.br/promocao/bora-para-orlando-voos-2151",
+    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2021/10/orlando-eua-disney-capa14-754x396.jpg",
     "airline": null,
     "trip_type": "round_trip",
-    "fetched_at": "2026-09-20T14:06:26.936744+00:00",
-    "id": "3de146312fa1"
+    "fetched_at": "2026-09-20T17:34:50.342926+00:00",
+    "id": "f610546149c6"
   },
   {
-    "source": "Melhores Destinos",
-    "title": "Temporada de neve já começou! Viaje para o Chile com passagens para Santiago a partir de R$ 1.261 ida e volta",
-    "destination": "Chile",
-    "price_brl": 1261.0,
+    "source": "Passagens Imperdíveis",
+    "title": "MUITO BOM!!! Programe sua viagem para MACHU PICCHU! Passagens para o PERU: Cusco ou Lima! A partir de R$ 1.578, ida e volta, c/ taxas! Opções de VOO DIRETO!",
+    "destination": "Muito bom! Peru: Lima ou Cusco",
+    "price_brl": 1580.0,
     "currency": "BRL",
-    "link": "https://www.melhoresdestinos.com.br/promocao/neve-passagens-para-santiago-22jun26",
-    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2024/06/neve-ad-santiago-bariloche-capa-754x396.jpeg",
-    "airline": null,
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-cusco-ou-lima-2026-128/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/machupicchu-612x612.jpg",
     "trip_type": "round_trip",
-    "fetched_at": "2026-09-20T14:06:27.496983+00:00",
-    "id": "3d5bddb05f84"
+    "fetched_at": "2026-09-20T17:34:52.780116+00:00",
+    "id": "f066e668e675"
+  },
+  {
+    "source": "Passagens Imperdíveis",
+    "title": "Programe sua viagem para Gramado! Passagens para o PORTO ALEGRE! Datas para viajar inclusive no NATAL LUZ! A partir de R$ 323, ida e volta, c/ taxas!",
+    "destination": "Programe sua viagem para Gramado!",
+    "price_brl": 324.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/promocao-de-passagens-para-porto-alegre-2026-38/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/gramado_rio_grande_do_sul-612x612.jpg",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-09-20T17:34:52.780146+00:00",
+    "id": "7541ec43b965"
   }
 ]
