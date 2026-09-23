@@ -1,5 +1,17 @@
 [
   {
+    "source": "Passagens Imperdíveis",
+    "title": "Álbum de fotos da sua viagem montado em poucos minutos: a partir de R$ 207 com o cupom PASSAGENS15",
+    "destination": "Álbum de fotos da sua viagem montado em poucos minutos: a partir de R$ 207 com o cupom PASSAGENS15",
+    "price_brl": 207.0,
+    "currency": "BRL",
+    "link": "https://passagensimperdiveis.com.br/album-de-fotos-da-sua-viagem-montado-em-minutos-2026/",
+    "image_url": "https://travel-cdn.cubo333.com.br/static-img/machupicchu-612x612.jpg",
+    "trip_type": "unknown",
+    "fetched_at": "2026-09-23T01:40:06.401956+00:00",
+    "id": "effecf0ce996"
+  },
+  {
     "source": "GOL",
     "title": "GOL: Rio de Janeiro (RIO) → São Paulo (CGH) - 19/12/2026",
     "destination": "São Paulo",
@@ -17,19 +29,6 @@
     "return_date": "",
     "fetched_at": "2026-09-22T17:10:13.649508+00:00",
     "id": "cc73440bd64d"
-  },
-  {
-    "source": "Melhores Destinos",
-    "title": "9.9 – Data dupla tem promoções de Gol, Latam e Azul com voos nacionais a partir de R$ 345 ida e volta!",
-    "destination": null,
-    "price_brl": 345.0,
-    "currency": "BRL",
-    "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-nacionais-09-09-26",
-    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2026/09/passagens-nacionais-9-9-capa-2-scaled-e1788992142309.jpg",
-    "airline": "LATAM",
-    "trip_type": "round_trip",
-    "fetched_at": "2026-09-22T01:04:06.338831+00:00",
-    "id": "e9a751f66a68"
   },
   {
     "source": "GOL",
@@ -480,6 +479,25 @@
   },
   {
     "source": "GOL",
+    "title": "GOL: São Paulo (CGH) → Brasília (BSB) - 30/09/2026",
+    "destination": "Brasília",
+    "destination_iata": "BSB",
+    "origin": "São Paulo",
+    "origin_iata": "CGH",
+    "price_brl": 729.71,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/CGH/BSB",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/bras%C3%ADlia-2-1500px-x-500px.png",
+    "airline": "GOL",
+    "trip_type": "one_way",
+    "travel_class": "Econômica",
+    "departure_date": "2026-09-30",
+    "return_date": "",
+    "fetched_at": "2026-09-23T01:40:07.628182+00:00",
+    "id": "6c3cc632cd45"
+  },
+  {
+    "source": "GOL",
     "title": "GOL: São Paulo (GRU) → Santa Cruz de la Sierra (VVI) - 19/10/2026 a 01/11/2026",
     "destination": "Santa Cruz de la Sierra",
     "destination_iata": "VVI",
@@ -537,6 +555,25 @@
   },
   {
     "source": "GOL",
+    "title": "GOL: São Paulo (GRU) → Campo Grande (CGR) - 28/09/2026",
+    "destination": "Campo Grande",
+    "destination_iata": "CGR",
+    "origin": "São Paulo",
+    "origin_iata": "GRU",
+    "price_brl": 803.26,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/GRU/CGR",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/campo-grande-2-1500px-x-500px.png",
+    "airline": "GOL",
+    "trip_type": "one_way",
+    "travel_class": "Econômica",
+    "departure_date": "2026-09-28",
+    "return_date": "",
+    "fetched_at": "2026-09-23T01:40:07.628189+00:00",
+    "id": "cf77144ce223"
+  },
+  {
+    "source": "GOL",
     "title": "GOL: São Paulo (GRU) → Campo Grande (CGR) - 26/09/2026",
     "destination": "Campo Grande",
     "destination_iata": "CGR",
@@ -553,6 +590,25 @@
     "return_date": "",
     "fetched_at": "2026-09-22T23:10:04.088669+00:00",
     "id": "484d7df3d490"
+  },
+  {
+    "source": "GOL",
+    "title": "GOL: Rio de Janeiro (SDU) → São Paulo (CGH) - 29/09/2026",
+    "destination": "São Paulo",
+    "destination_iata": "CGH",
+    "origin": "Rio de Janeiro",
+    "origin_iata": "SDU",
+    "price_brl": 814.2,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/SDU/CGH",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/03-1500px-x-500px.png",
+    "airline": "GOL",
+    "trip_type": "one_way",
+    "travel_class": "Econômica",
+    "departure_date": "2026-09-29",
+    "return_date": "",
+    "fetched_at": "2026-09-23T01:40:07.628196+00:00",
+    "id": "4a0fdea80f3b"
   },
   {
     "source": "GOL",
@@ -661,19 +717,6 @@
     "trip_type": "round_trip",
     "fetched_at": "2026-09-22T14:47:41+00:00",
     "id": "af484734f194"
-  },
-  {
-    "source": "Melhores Destinos",
-    "title": "Muito bom! 🇦🇷 Passagens para Buenos Aires a partir de apenas R$ 996 ida e volta, ou janeiro a partir de R$ 1.439",
-    "destination": "Buenos Aires",
-    "price_brl": 996.0,
-    "currency": "BRL",
-    "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-argentina-buenos-aires-03-09-26",
-    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2024/03/hoteis-mais-bem-avaliados-Buenos-Aires-capa-754x396.jpg",
-    "airline": null,
-    "trip_type": "round_trip",
-    "fetched_at": "2026-09-22T01:04:07.348192+00:00",
-    "id": "634c9a3aaea7"
   },
   {
     "source": "Passagens Imperdíveis",
@@ -983,6 +1026,19 @@
     "id": "3ac593929939"
   },
   {
+    "source": "Melhores Destinos",
+    "title": "Temporada de neve já começou! Viaje para o Chile com passagens para Santiago a partir de R$ 1.261 ida e volta",
+    "destination": "Chile",
+    "price_brl": 1261.0,
+    "currency": "BRL",
+    "link": "https://www.melhoresdestinos.com.br/promocao/neve-passagens-para-santiago-22jun26",
+    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2024/06/neve-ad-santiago-bariloche-capa-754x396.jpeg",
+    "airline": null,
+    "trip_type": "round_trip",
+    "fetched_at": "2026-09-23T01:40:04.093530+00:00",
+    "id": "3d5bddb05f84"
+  },
+  {
     "source": "Passagens Imperdíveis",
     "title": "Programe sua viagem para o Salar de Uyuni! Passagens para a BOLÍVIA: Cochabamba, La Paz ou Santa Cruz de la Sierra! A partir de R$ 1.296, ida e volta, c/ taxas! Em até 5x SEM JUROS! Opções de VOO DIRE",
     "destination": "Bolívia",
@@ -1012,19 +1068,6 @@
     "return_date": "2026-12-20",
     "fetched_at": "2026-09-22T17:10:13.649917+00:00",
     "id": "4899182ca501"
-  },
-  {
-    "source": "Melhores Destinos",
-    "title": "Caribe BARATO 🔥 Voos diretos para Punta Cana ou Cancún a partir de R$ 1.306 ida e volta saindo de São Paulo!",
-    "destination": "Punta Cana ou Cancún",
-    "price_brl": 1306.0,
-    "currency": "BRL",
-    "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-caribe-punta-cana-cancun-08-09-26",
-    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2023/08/pacotes-punta-cana-capa-754x396.jpeg",
-    "airline": null,
-    "trip_type": "round_trip",
-    "fetched_at": "2026-09-22T01:04:06.699790+00:00",
-    "id": "7f9e30b8fc0f"
   },
   {
     "source": "GOL",
@@ -1804,6 +1847,19 @@
     "id": "47676884c376"
   },
   {
+    "source": "Melhores Destinos",
+    "title": "Bora para Orlando? Voos a partir de R$ 2.151 ida e volta saindo de várias cidades",
+    "destination": "Orlando? Voos",
+    "price_brl": 2151.0,
+    "currency": "BRL",
+    "link": "https://www.melhoresdestinos.com.br/promocao/bora-para-orlando-voos-2151",
+    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2021/10/orlando-eua-disney-capa14-754x396.jpg",
+    "airline": null,
+    "trip_type": "round_trip",
+    "fetched_at": "2026-09-23T01:40:04.467894+00:00",
+    "id": "f610546149c6"
+  },
+  {
     "source": "Passagens Imperdíveis",
     "title": "Programe sua viagem para a Disney! Passagens para ORLANDO ou SANFORD! Inclusive nas Férias e mais! A partir de R$ 2.177, ida e volta, c/ taxas!",
     "destination": "Orlando ou Sanford",
@@ -1852,6 +1908,19 @@
     "return_date": "2026-12-02",
     "fetched_at": "2026-09-22T06:36:55.881629+00:00",
     "id": "099d819c503b"
+  },
+  {
+    "source": "Melhores Destinos",
+    "title": "Orlando com bons preços: passagens a partir de R$ 2.380 ida e volta saindo de São Paulo e mais cidades",
+    "destination": null,
+    "price_brl": 2380.0,
+    "currency": "BRL",
+    "link": "https://www.melhoresdestinos.com.br/promocao/orlando-bons-precos-2380",
+    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2024/02/apartamentos-orlando-capa-754x396.jpg",
+    "airline": null,
+    "trip_type": "round_trip",
+    "fetched_at": "2026-09-23T01:40:03.179791+00:00",
+    "id": "24cd140a6e33"
   },
   {
     "source": "GOL",
@@ -2099,19 +2168,6 @@
     "return_date": "2026-11-13",
     "fetched_at": "2026-09-22T17:10:13.649825+00:00",
     "id": "df55bb7dba00"
-  },
-  {
-    "source": "Melhores Destinos",
-    "title": "Canadá barato! Passagens para Toronto ou Montreal a partir de R$ 2.883 saindo de São Paulo",
-    "destination": "Toronto ou Montreal",
-    "price_brl": 2883.0,
-    "currency": "BRL",
-    "link": "https://www.melhoresdestinos.com.br/promocao/canada-bem-barato-passagens-09set26",
-    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2022/01/canada-toronto-capa-754x396.jpg",
-    "airline": null,
-    "trip_type": "unknown",
-    "fetched_at": "2026-09-22T01:04:06.501218+00:00",
-    "id": "ca0a248f1e2d"
   },
   {
     "source": "GOL",
@@ -2418,6 +2474,19 @@
     "id": "f760cde30dc6"
   },
   {
+    "source": "Melhores Destinos",
+    "title": "Passagens para Portugal a partir de R$ 3.250 com opções de voos diretos da Azul e datas no fim do ano!",
+    "destination": "Portugal",
+    "price_brl": 3250.0,
+    "currency": "BRL",
+    "link": "https://www.melhoresdestinos.com.br/promocao/passagens-para-portugal-12ago26",
+    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2023/01/passagens-aereas-lisboa-portugal-07-capa-754x396.jpg",
+    "airline": "Azul",
+    "trip_type": "unknown",
+    "fetched_at": "2026-09-23T01:40:00.673415+00:00",
+    "id": "83f640872cb0"
+  },
+  {
     "source": "Passagens Imperdíveis",
     "title": "MUITO BOM!!! Passagens para BARCELONA ou MADRI! Datas inclusive nas Férias e mais! A partir de R$ 3.285, ida e volta, c/ taxas! Em até 10x SEM JUROS!",
     "destination": "Muito bom! Barcelona ou Madri",
@@ -2587,6 +2656,19 @@
     "id": "9a6d1db5a412"
   },
   {
+    "source": "Melhores Destinos",
+    "title": "Itália: voos para Milão, Veneza, Roma e mais cidades a partir de R$ 3.771 ida e volta",
+    "destination": "Milão, Veneza, Roma e mais cidades",
+    "price_brl": 3771.0,
+    "currency": "BRL",
+    "link": "https://www.melhoresdestinos.com.br/promocao/italia-voos-para-milao-veneza-roma-e-mais-cidades-a-partir-de-r-3-771-ida-e-volta",
+    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-roma-capa2019-01-754x396.jpg",
+    "airline": null,
+    "trip_type": "round_trip",
+    "fetched_at": "2026-09-23T01:40:03.519984+00:00",
+    "id": "3de146312fa1"
+  },
+  {
     "source": "GOL",
     "title": "GOL: São Paulo (SAO) → Miami (MIA) - 27/10/2026 a 07/11/2026",
     "destination": "Miami",
@@ -2742,23 +2824,5 @@
     "return_date": "05/10/2026",
     "fetched_at": "2026-09-22T12:25:26.040744+00:00",
     "id": "710140787b1c"
-  },
-  {
-    "source": "TAP",
-    "title": "TAP: Rio de Janeiro (GIG) → Lisboa (LIS) - 28/09/2026 a 05/10/2026",
-    "destination": "Lisboa",
-    "destination_iata": "LIS",
-    "origin": "Rio de Janeiro",
-    "origin_iata": "GIG",
-    "price_brl": 7147.0,
-    "currency": "BRL",
-    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
-    "image_url": "https://assets.airtrfx.com/media-em/tp/lisboa-1-1500px.jpg",
-    "airline": "TAP",
-    "trip_type": "round_trip",
-    "departure_date": "28/09/2026",
-    "return_date": "05/10/2026",
-    "fetched_at": "2026-09-22T01:04:18.916753+00:00",
-    "id": "aedfa498b1ba"
   }
 ]
