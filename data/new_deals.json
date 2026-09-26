@@ -1,1 +1,21 @@
-[]
+[
+  {
+    "source": "GOL",
+    "title": "GOL: São Paulo (SAO) → Punta Cana (PUJ) - 06/11/2026 a 11/11/2026",
+    "destination": "Punta Cana",
+    "destination_iata": "PUJ",
+    "origin": "São Paulo",
+    "origin_iata": "SAO",
+    "price_brl": 3471.35,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/SAO/PUJ",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/punta-cana-2-1500px-x-500px.png",
+    "airline": "GOL",
+    "trip_type": "round_trip",
+    "travel_class": "Econômica",
+    "departure_date": "2026-11-06",
+    "return_date": "2026-11-11",
+    "fetched_at": "2026-09-26T12:20:49.219956+00:00",
+    "id": "1da0189d0aa6"
+  }
+]
