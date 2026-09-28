@@ -38,6 +38,19 @@
     "id": "cbe47f19f7c6"
   },
   {
+    "source": "Melhores Destinos",
+    "title": "Natal Luz de Gramado! Passagens bem baratas para Porto Alegre a partir de apenas R$ 302 ida e volta",
+    "destination": "Porto Alegre",
+    "price_brl": 302.0,
+    "currency": "BRL",
+    "link": "https://www.melhoresdestinos.com.br/promocao/natal-luz-de-gramado-passagens-bem-baratas-16set26",
+    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2025/10/natal-luz-gramado-capa-1-754x396.jpg",
+    "airline": null,
+    "trip_type": "round_trip",
+    "fetched_at": "2026-09-28T08:21:23.469749+00:00",
+    "id": "5fceb20a70f7"
+  },
+  {
     "source": "GOL",
     "title": "GOL: Rio de Janeiro (SDU) → São Paulo (CGH) - 26/10/2026",
     "destination": "São Paulo",
@@ -362,6 +375,25 @@
   },
   {
     "source": "GOL",
+    "title": "GOL: São Paulo (GRU) → Campo Grande (CGR) - 27/10/2026",
+    "destination": "Campo Grande",
+    "destination_iata": "CGR",
+    "origin": "São Paulo",
+    "origin_iata": "GRU",
+    "price_brl": 480.26,
+    "currency": "BRL",
+    "link": "https://www.voegol.com.br/br/voos/GRU/CGR",
+    "image_url": "https://assets.airtrfx.com/media-em/g3/campo-grande-2-1500px-x-500px.png",
+    "airline": "GOL",
+    "trip_type": "one_way",
+    "travel_class": "Econômica",
+    "departure_date": "2026-10-27",
+    "return_date": "",
+    "fetched_at": "2026-09-28T08:21:30.607125+00:00",
+    "id": "cf2a08ba679d"
+  },
+  {
+    "source": "GOL",
     "title": "GOL: São Paulo (GRU) → Campo Grande (CGR) - 08/10/2026",
     "destination": "Campo Grande",
     "destination_iata": "CGR",
@@ -454,25 +486,6 @@
     "return_date": "2026-11-27",
     "fetched_at": "2026-09-27T20:19:02.529596+00:00",
     "id": "c1d80098e17e"
-  },
-  {
-    "source": "GOL",
-    "title": "GOL: Rio de Janeiro (RIO) → Assunção (ASU) - 20/11/2026 a 21/11/2026",
-    "destination": "Assunção",
-    "destination_iata": "ASU",
-    "origin": "Rio de Janeiro",
-    "origin_iata": "RIO",
-    "price_brl": 1095.97,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/RIO/ASU",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/assun%C3%A7%C3%A3o-1-1500px-x-500px.png",
-    "airline": "GOL",
-    "trip_type": "round_trip",
-    "travel_class": "Econômica",
-    "departure_date": "2026-11-20",
-    "return_date": "2026-11-21",
-    "fetched_at": "2026-09-27T06:21:48.571708+00:00",
-    "id": "972d6558f449"
   },
   {
     "source": "GOL",
@@ -1658,23 +1671,5 @@
     "return_date": "03/10/2026",
     "fetched_at": "2026-09-27T12:19:28.542372+00:00",
     "id": "9358e4b86d54"
-  },
-  {
-    "source": "TAP",
-    "title": "TAP: São Paulo (CGH) → Lisboa (LIS) - 01/10/2026 a 05/10/2026",
-    "destination": "Lisboa",
-    "destination_iata": "LIS",
-    "origin": "São Paulo",
-    "origin_iata": "CGH",
-    "price_brl": 7568.0,
-    "currency": "BRL",
-    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
-    "image_url": "https://assets.airtrfx.com/media-em/tp/lisboa-1-1500px.jpg",
-    "airline": "TAP",
-    "trip_type": "round_trip",
-    "departure_date": "01/10/2026",
-    "return_date": "05/10/2026",
-    "fetched_at": "2026-09-27T06:21:49.368995+00:00",
-    "id": "b8062fbcd2c7"
   }
 ]
