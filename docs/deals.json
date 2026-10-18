@@ -1435,6 +1435,19 @@
   },
   {
     "source": "Melhores Destinos",
+    "title": "Itália com a Latam! Passagens para Roma ou Milão a partir de R$ 3.710 ida e volta saindo de várias cidades",
+    "destination": "Roma ou Milão",
+    "price_brl": 3710.0,
+    "currency": "BRL",
+    "link": "https://www.melhoresdestinos.com.br/promocao/italia-latam-passagens-roma-milao-3710",
+    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-roma-capa2019-02-754x396.jpg",
+    "airline": "LATAM",
+    "trip_type": "round_trip",
+    "fetched_at": "2026-10-18T16:42:45.815328+00:00",
+    "id": "b2686915c6c2"
+  },
+  {
+    "source": "Melhores Destinos",
     "title": "Itália: voos para Milão, Veneza, Roma e mais cidades a partir de R$ 3.771 ida e volta",
     "destination": "Milão, Veneza, Roma e mais cidades",
     "price_brl": 3771.0,
