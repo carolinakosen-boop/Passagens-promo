@@ -1592,19 +1592,6 @@
   },
   {
     "source": "Melhores Destinos",
-    "title": "Itália com a Latam! Passagens para Roma ou Milão a partir de R$ 3.710 ida e volta saindo de várias cidades",
-    "destination": "Roma ou Milão",
-    "price_brl": 3710.0,
-    "currency": "BRL",
-    "link": "https://www.melhoresdestinos.com.br/promocao/italia-latam-passagens-roma-milao-3710",
-    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-roma-capa2019-02-754x396.jpg",
-    "airline": "LATAM",
-    "trip_type": "round_trip",
-    "fetched_at": "2026-10-21T06:26:50.276983+00:00",
-    "id": "b2686915c6c2"
-  },
-  {
-    "source": "Melhores Destinos",
     "title": "Itália: voos para Milão, Veneza, Roma e mais cidades a partir de R$ 3.771 ida e volta",
     "destination": "Milão, Veneza, Roma e mais cidades",
     "price_brl": 3771.0,
@@ -1795,24 +1782,6 @@
     "return_date": "28/11/2026",
     "fetched_at": "2026-10-21T12:13:52.860028+00:00",
     "id": "2fadc9f7d6b2"
-  },
-  {
-    "source": "TAP",
-    "title": "TAP: São Paulo (GRU) → Porto (OPO) - 06/11/2026 a 24/11/2026",
-    "destination": "Porto",
-    "destination_iata": "OPO",
-    "origin": "São Paulo",
-    "origin_iata": "GRU",
-    "price_brl": 4125.0,
-    "currency": "BRL",
-    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
-    "image_url": "https://assets.airtrfx.com/media-em/tp/porto-1-1500px.jpg",
-    "airline": "TAP",
-    "trip_type": "round_trip",
-    "departure_date": "06/11/2026",
-    "return_date": "24/11/2026",
-    "fetched_at": "2026-10-21T06:27:00.818299+00:00",
-    "id": "72382028a41e"
   },
   {
     "source": "GOL",
