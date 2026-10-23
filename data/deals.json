@@ -1045,19 +1045,6 @@
     "id": "00deee9ac494"
   },
   {
-    "source": "Melhores Destinos",
-    "title": "Seleção das passagens mais baratas! Voos de ida e volta para Miami a partir de R$ 1.969 com opções a R$ 2.175 no fim de ano",
-    "destination": "Miami",
-    "price_brl": 1969.0,
-    "currency": "BRL",
-    "link": "https://www.melhoresdestinos.com.br/promocao/selecao-das-passagens-mais-baratas-voos-miami-30set26",
-    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2021/07/miami-eua-capa02-754x396.jpg",
-    "airline": null,
-    "trip_type": "round_trip",
-    "fetched_at": "2026-10-22T05:12:52.699766+00:00",
-    "id": "aaf924b6490e"
-  },
-  {
     "source": "GOL",
     "title": "GOL: Rio de Janeiro (RIO) → Santa Cruz de la Sierra (VVI) - 09/12/2026 a 16/12/2026",
     "destination": "Santa Cruz de la Sierra",
@@ -1094,25 +1081,6 @@
     "return_date": "2026-12-12",
     "fetched_at": "2026-10-22T15:31:22.860974+00:00",
     "id": "0ae727469d6c"
-  },
-  {
-    "source": "GOL",
-    "title": "GOL: Rio de Janeiro (GIG) → Buenos Aires (BUE) - 11/12/2026 a 28/01/2027",
-    "destination": "Buenos Aires",
-    "destination_iata": "BUE",
-    "origin": "Rio de Janeiro",
-    "origin_iata": "GIG",
-    "price_brl": 2062.86,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/GIG/BUE",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/buenos-aires-2-1500px-x-500px.png",
-    "airline": "GOL",
-    "trip_type": "round_trip",
-    "travel_class": "Econômica",
-    "departure_date": "2026-12-11",
-    "return_date": "2027-01-28",
-    "fetched_at": "2026-10-22T05:13:05.138286+00:00",
-    "id": "4c7f07dec53e"
   },
   {
     "source": "GOL",
@@ -1170,32 +1138,6 @@
     "return_date": "2026-11-13",
     "fetched_at": "2026-10-22T15:31:24.927975+00:00",
     "id": "ca1896e9a4d1"
-  },
-  {
-    "source": "Melhores Destinos",
-    "title": "🇺🇸 Costa leste dos EUA! Passagens para Boston ou Nova York a partir de R$ 2.363 ida e volta",
-    "destination": "Boston ou Nova York",
-    "price_brl": 2363.0,
-    "currency": "BRL",
-    "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-nova-york-boston-29-09-26",
-    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2019/10/passagens-aereas-nova-york-boston-capa2019-01-754x396.jpg",
-    "airline": null,
-    "trip_type": "round_trip",
-    "fetched_at": "2026-10-22T05:12:53.072052+00:00",
-    "id": "1b03ae519f03"
-  },
-  {
-    "source": "Melhores Destinos",
-    "title": "Orlando com bons preços: passagens a partir de R$ 2.380 ida e volta saindo de São Paulo e mais cidades",
-    "destination": null,
-    "price_brl": 2380.0,
-    "currency": "BRL",
-    "link": "https://www.melhoresdestinos.com.br/promocao/orlando-bons-precos-2380",
-    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2024/02/apartamentos-orlando-capa-754x396.jpg",
-    "airline": null,
-    "trip_type": "round_trip",
-    "fetched_at": "2026-10-22T05:13:02.598251+00:00",
-    "id": "24cd140a6e33"
   },
   {
     "source": "GOL",
@@ -1310,25 +1252,6 @@
     "return_date": "2027-03-14",
     "fetched_at": "2026-10-22T19:48:06.891865+00:00",
     "id": "30745d7772c3"
-  },
-  {
-    "source": "GOL",
-    "title": "GOL: Rio de Janeiro (GIG) → Buenos Aires (EZE) - 29/10/2026 a 02/11/2026",
-    "destination": "Buenos Aires",
-    "destination_iata": "EZE",
-    "origin": "Rio de Janeiro",
-    "origin_iata": "GIG",
-    "price_brl": 2753.46,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/GIG/EZE",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/buenos-aires-2-1500px-x-500px.png",
-    "airline": "GOL",
-    "trip_type": "round_trip",
-    "travel_class": "Econômica",
-    "departure_date": "2026-10-29",
-    "return_date": "2026-11-02",
-    "fetched_at": "2026-10-22T05:13:05.449314+00:00",
-    "id": "f78b5825296c"
   },
   {
     "source": "GOL",
@@ -1462,19 +1385,6 @@
     "return_date": "2026-10-29",
     "fetched_at": "2026-10-22T19:48:08.895679+00:00",
     "id": "ea0fed2645bd"
-  },
-  {
-    "source": "Melhores Destinos",
-    "title": "Espanha 🇪🇸 Passagens aéreas para Madri ou Barcelona a partir de R$ 3.201 ida e volta!",
-    "destination": "Madri ou Barcelona",
-    "price_brl": 3201.0,
-    "currency": "BRL",
-    "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-espanha-madri-barcelona-23-09-26",
-    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2022/01/madrid-espanha-capa-2022-754x396.jpg",
-    "airline": null,
-    "trip_type": "round_trip",
-    "fetched_at": "2026-10-22T05:12:54.388920+00:00",
-    "id": "b47a38b32cd3"
   },
   {
     "source": "GOL",
@@ -1699,37 +1609,6 @@
     "id": "b2686915c6c2"
   },
   {
-    "source": "Melhores Destinos",
-    "title": "Itália: voos para Milão, Veneza, Roma e mais cidades a partir de R$ 3.771 ida e volta",
-    "destination": "Milão, Veneza, Roma e mais cidades",
-    "price_brl": 3771.0,
-    "currency": "BRL",
-    "link": "https://www.melhoresdestinos.com.br/promocao/italia-voos-para-milao-veneza-roma-e-mais-cidades-a-partir-de-r-3-771-ida-e-volta",
-    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-roma-capa2019-01-754x396.jpg",
-    "airline": null,
-    "trip_type": "round_trip",
-    "fetched_at": "2026-10-22T05:13:03.993269+00:00",
-    "id": "3de146312fa1"
-  },
-  {
-    "source": "TAP",
-    "title": "TAP: Rio de Janeiro (GIG) → Porto (OPO) - 02/12/2026 a 10/12/2026",
-    "destination": "Porto",
-    "destination_iata": "OPO",
-    "origin": "Rio de Janeiro",
-    "origin_iata": "GIG",
-    "price_brl": 3914.0,
-    "currency": "BRL",
-    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
-    "image_url": "https://assets.airtrfx.com/media-em/tp/porto-1-1500px.jpg",
-    "airline": "TAP",
-    "trip_type": "round_trip",
-    "departure_date": "02/12/2026",
-    "return_date": "10/12/2026",
-    "fetched_at": "2026-10-22T05:13:06.934893+00:00",
-    "id": "899a95be7566"
-  },
-  {
     "source": "TAP",
     "title": "TAP: São Paulo (GRU) → Porto (OPO) - 28/10/2026 a 17/11/2026",
     "destination": "Porto",
@@ -1878,6 +1757,24 @@
   },
   {
     "source": "TAP",
+    "title": "TAP: São Paulo (GRU) → Porto (OPO) - 04/02/2027 a 13/02/2027",
+    "destination": "Porto",
+    "destination_iata": "OPO",
+    "origin": "São Paulo",
+    "origin_iata": "GRU",
+    "price_brl": 4746.0,
+    "currency": "BRL",
+    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
+    "image_url": "https://assets.airtrfx.com/media-em/tp/porto-1-1500px.jpg",
+    "airline": "TAP",
+    "trip_type": "round_trip",
+    "departure_date": "04/02/2027",
+    "return_date": "13/02/2027",
+    "fetched_at": "2026-10-23T07:05:55.154060+00:00",
+    "id": "0c57efc3f01e"
+  },
+  {
+    "source": "TAP",
     "title": "TAP: Rio de Janeiro (GIG) → Porto (OPO) - 24/10/2026 a 09/11/2026",
     "destination": "Porto",
     "destination_iata": "OPO",
@@ -1893,6 +1790,24 @@
     "return_date": "09/11/2026",
     "fetched_at": "2026-10-22T15:31:26.596588+00:00",
     "id": "ad070f267573"
+  },
+  {
+    "source": "TAP",
+    "title": "TAP: Rio de Janeiro (GIG) → Lisboa (LIS) - 15/03/2027 a 22/03/2027",
+    "destination": "Lisboa",
+    "destination_iata": "LIS",
+    "origin": "Rio de Janeiro",
+    "origin_iata": "GIG",
+    "price_brl": 4883.0,
+    "currency": "BRL",
+    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
+    "image_url": "https://assets.airtrfx.com/media-em/tp/lisboa-1-1500px.jpg",
+    "airline": "TAP",
+    "trip_type": "round_trip",
+    "departure_date": "15/03/2027",
+    "return_date": "22/03/2027",
+    "fetched_at": "2026-10-23T07:05:55.153946+00:00",
+    "id": "aa74cf1df99b"
   },
   {
     "source": "GOL",
