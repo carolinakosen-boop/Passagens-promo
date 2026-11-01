@@ -1084,25 +1084,6 @@
   },
   {
     "source": "GOL",
-    "title": "GOL: Rio de Janeiro (GIG) → Buenos Aires (AEP) - 29/11/2026 a 15/12/2026",
-    "destination": "Buenos Aires",
-    "destination_iata": "AEP",
-    "origin": "Rio de Janeiro",
-    "origin_iata": "GIG",
-    "price_brl": 1911.4,
-    "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/GIG/AEP",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/buenos-aires-2-1500px-x-500px.png",
-    "airline": "GOL",
-    "trip_type": "round_trip",
-    "travel_class": "Econômica",
-    "departure_date": "2026-11-29",
-    "return_date": "2026-12-15",
-    "fetched_at": "2026-10-31T15:08:35.956434+00:00",
-    "id": "92fa64bf3f38"
-  },
-  {
-    "source": "GOL",
     "title": "GOL: Rio de Janeiro (GIG) → Santa Cruz de la Sierra (VVI) - 06/12/2026 a 16/12/2026",
     "destination": "Santa Cruz de la Sierra",
     "destination_iata": "VVI",
@@ -1159,23 +1140,17 @@
     "id": "cc2494634d88"
   },
   {
-    "source": "GOL",
-    "title": "GOL: São Paulo (GRU) → Assunção (ASU) - 29/11/2026 a 06/12/2026",
-    "destination": "Assunção",
-    "destination_iata": "ASU",
-    "origin": "São Paulo",
-    "origin_iata": "GRU",
-    "price_brl": 1982.98,
+    "source": "Melhores Destinos",
+    "title": "Seleção das passagens mais baratas! Voos de ida e volta para Miami a partir de R$ 1.969 com opções a R$ 2.175 no fim de ano",
+    "destination": "Miami",
+    "price_brl": 1969.0,
     "currency": "BRL",
-    "link": "https://www.voegol.com.br/br/voos/GRU/ASU",
-    "image_url": "https://assets.airtrfx.com/media-em/g3/assun%C3%A7%C3%A3o-1-1500px-x-500px.png",
-    "airline": "GOL",
+    "link": "https://www.melhoresdestinos.com.br/promocao/selecao-das-passagens-mais-baratas-voos-miami-30set26",
+    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2021/07/miami-eua-capa02-754x396.jpg",
+    "airline": null,
     "trip_type": "round_trip",
-    "travel_class": "Econômica",
-    "departure_date": "2026-11-29",
-    "return_date": "2026-12-06",
-    "fetched_at": "2026-10-31T15:08:35.956439+00:00",
-    "id": "4196625b8834"
+    "fetched_at": "2026-11-01T15:53:13.223231+00:00",
+    "id": "aaf924b6490e"
   },
   {
     "source": "GOL",
@@ -1214,6 +1189,19 @@
     "return_date": "2026-11-24",
     "fetched_at": "2026-10-31T22:45:21.977208+00:00",
     "id": "37c8caa66063"
+  },
+  {
+    "source": "Melhores Destinos",
+    "title": "🇺🇸 Costa leste dos EUA! Passagens para Boston ou Nova York a partir de R$ 2.363 ida e volta",
+    "destination": "Boston ou Nova York",
+    "price_brl": 2363.0,
+    "currency": "BRL",
+    "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-nova-york-boston-29-09-26",
+    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2019/10/passagens-aereas-nova-york-boston-capa2019-01-754x396.jpg",
+    "airline": null,
+    "trip_type": "round_trip",
+    "fetched_at": "2026-11-01T15:53:13.398425+00:00",
+    "id": "1b03ae519f03"
   },
   {
     "source": "GOL",
@@ -1480,6 +1468,19 @@
     "return_date": "2027-02-15",
     "fetched_at": "2026-10-31T22:45:21.582001+00:00",
     "id": "1d56ced30edd"
+  },
+  {
+    "source": "Melhores Destinos",
+    "title": "Espanha 🇪🇸 Passagens aéreas para Madri ou Barcelona a partir de R$ 3.201 ida e volta!",
+    "destination": "Madri ou Barcelona",
+    "price_brl": 3201.0,
+    "currency": "BRL",
+    "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-espanha-madri-barcelona-23-09-26",
+    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2022/01/madrid-espanha-capa-2022-754x396.jpg",
+    "airline": null,
+    "trip_type": "round_trip",
+    "fetched_at": "2026-11-01T15:53:14.089698+00:00",
+    "id": "b47a38b32cd3"
   },
   {
     "source": "GOL",
