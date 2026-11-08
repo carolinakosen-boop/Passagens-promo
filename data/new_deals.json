@@ -1,41 +1,20 @@
 [
   {
-    "source": "Melhores Destinos",
-    "title": "Seleção das passagens mais baratas! Voos de ida e volta para Miami a partir de R$ 1.969 com opções a R$ 2.175 no fim de ano",
-    "destination": "Miami",
-    "price_brl": 1969.0,
+    "source": "TAP",
+    "title": "TAP: São Paulo (GRU) → Lisboa (LIS) - 15/11/2026 a 23/01/2027",
+    "destination": "Lisboa",
+    "destination_iata": "LIS",
+    "origin": "São Paulo",
+    "origin_iata": "GRU",
+    "price_brl": 4337.0,
     "currency": "BRL",
-    "link": "https://www.melhoresdestinos.com.br/promocao/selecao-das-passagens-mais-baratas-voos-miami-30set26",
-    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2021/07/miami-eua-capa02-754x396.jpg",
-    "airline": null,
+    "link": "https://www.flytap.com/pt_br/ofertas-de-voos-de-ultima-hora",
+    "image_url": "https://assets.airtrfx.com/media-em/tp/lisboa-1-1500px.jpg",
+    "airline": "TAP",
     "trip_type": "round_trip",
-    "fetched_at": "2026-11-08T19:22:36.180710+00:00",
-    "id": "aaf924b6490e"
-  },
-  {
-    "source": "Melhores Destinos",
-    "title": "🇺🇸 Costa leste dos EUA! Passagens para Boston ou Nova York a partir de R$ 2.363 ida e volta",
-    "destination": "Boston ou Nova York",
-    "price_brl": 2363.0,
-    "currency": "BRL",
-    "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-nova-york-boston-29-09-26",
-    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2019/10/passagens-aereas-nova-york-boston-capa2019-01-754x396.jpg",
-    "airline": null,
-    "trip_type": "round_trip",
-    "fetched_at": "2026-11-08T19:22:36.362912+00:00",
-    "id": "1b03ae519f03"
-  },
-  {
-    "source": "Melhores Destinos",
-    "title": "Espanha 🇪🇸 Passagens aéreas para Madri ou Barcelona a partir de R$ 3.201 ida e volta!",
-    "destination": "Madri ou Barcelona",
-    "price_brl": 3201.0,
-    "currency": "BRL",
-    "link": "https://www.melhoresdestinos.com.br/promocao/passagens-aereas-espanha-madri-barcelona-23-09-26",
-    "image_url": "https://www.melhoresdestinos.com.br/wp-content/uploads/2022/01/madrid-espanha-capa-2022-754x396.jpg",
-    "airline": null,
-    "trip_type": "round_trip",
-    "fetched_at": "2026-11-08T19:22:37.104937+00:00",
-    "id": "b47a38b32cd3"
+    "departure_date": "15/11/2026",
+    "return_date": "23/01/2027",
+    "fetched_at": "2026-11-08T23:00:58.490567+00:00",
+    "id": "583d9d9b69fb"
   }
 ]
